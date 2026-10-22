@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: TransferInterface
-### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
+### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -63,7 +63,7 @@ public setAccountId(string $value) : void
 Устанавливает идентификатор магазина-получателя средств
 
 **Details:**
-* Inherited From: [\Testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
+* Inherited From: [\testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -85,16 +85,16 @@ public getAccountId() : string|null
 Возвращает идентификатор магазина-получателя средств
 
 **Details:**
-* Inherited From: [\Testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
+* Inherited From: [\testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
 
 **Returns:** string|null - Идентификатор магазина-получателя средств
 
 
 <a name="method_getAmount" class="anchor"></a>
-#### public getAmount() : \Testottest\Model\AmountInterface
+#### public getAmount() : \testottest\Model\AmountInterface
 
 ```php
-public getAmount() : \Testottest\Model\AmountInterface
+public getAmount() : \testottest\Model\AmountInterface
 ```
 
 **Summary**
@@ -102,9 +102,9 @@ public getAmount() : \Testottest\Model\AmountInterface
 Возвращает сумму оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
+* Inherited From: [\testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
 
-**Returns:** \Testottest\Model\AmountInterface - Сумма оплаты
+**Returns:** \testottest\Model\AmountInterface - Сумма оплаты
 
 
 <a name="method_hasAmount" class="anchor"></a>
@@ -119,7 +119,7 @@ public hasAmount() : bool
 Проверяет, была ли установлена сумма оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
+* Inherited From: [\testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
 
 **Returns:** bool - True если сумма оплаты была установлена, false если нет
 
@@ -128,7 +128,7 @@ public hasAmount() : bool
 #### public setAmount() : mixed
 
 ```php
-public setAmount(\Testottest\Model\AmountInterface|array $value) : mixed
+public setAmount(\testottest\Model\AmountInterface|array $value) : mixed
 ```
 
 **Summary**
@@ -136,21 +136,21 @@ public setAmount(\Testottest\Model\AmountInterface|array $value) : mixed
 Устанавливает сумму оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
+* Inherited From: [\testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\AmountInterface OR array</code> | value  | Сумма оплаты |
+| <code lang="php">\testottest\Model\AmountInterface OR array</code> | value  | Сумма оплаты |
 
 **Returns:** mixed - 
 
 
 <a name="method_getPlatformFeeAmount" class="anchor"></a>
-#### public getPlatformFeeAmount() : \Testottest\Model\AmountInterface
+#### public getPlatformFeeAmount() : \testottest\Model\AmountInterface
 
 ```php
-public getPlatformFeeAmount() : \Testottest\Model\AmountInterface
+public getPlatformFeeAmount() : \testottest\Model\AmountInterface
 ```
 
 **Summary**
@@ -158,9 +158,9 @@ public getPlatformFeeAmount() : \Testottest\Model\AmountInterface
 Возвращает комиссию за проданные товары и услуги, которая удерживается с магазина в вашу пользу
 
 **Details:**
-* Inherited From: [\Testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
+* Inherited From: [\testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
 
-**Returns:** \Testottest\Model\AmountInterface - Сумма комиссии
+**Returns:** \testottest\Model\AmountInterface - Сумма комиссии
 
 
 <a name="method_hasPlatformFeeAmount" class="anchor"></a>
@@ -175,7 +175,7 @@ public hasPlatformFeeAmount() : bool
 Проверяет, была ли установлена комиссия за проданные товары и услуги, которая удерживается с магазина в вашу пользу
 
 **Details:**
-* Inherited From: [\Testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
+* Inherited From: [\testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
 
 **Returns:** bool - True если комиссия была установлена, false если нет
 
@@ -184,7 +184,7 @@ public hasPlatformFeeAmount() : bool
 #### public setPlatformFeeAmount() : mixed
 
 ```php
-public setPlatformFeeAmount(\Testottest\Model\AmountInterface|array $value) : mixed
+public setPlatformFeeAmount(\testottest\Model\AmountInterface|array $value) : mixed
 ```
 
 **Summary**
@@ -192,12 +192,12 @@ public setPlatformFeeAmount(\Testottest\Model\AmountInterface|array $value) : mi
 Устанавливает комиссию за проданные товары и услуги, которая удерживается с магазина в вашу пользу
 
 **Details:**
-* Inherited From: [\Testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
+* Inherited From: [\testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\AmountInterface OR array</code> | value  | Сумма комиссии |
+| <code lang="php">\testottest\Model\AmountInterface OR array</code> | value  | Сумма комиссии |
 
 **Returns:** mixed - 
 
@@ -214,7 +214,7 @@ public getStatus() : string|null
 Возвращает статус операции распределения средств конечному получателю
 
 **Details:**
-* Inherited From: [\Testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
+* Inherited From: [\testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
 
 **Returns:** string|null - Статус операции распределения средств конечному получателю
 
@@ -231,7 +231,7 @@ public setStatus(string|null $value) : mixed
 Устанавливает статус операции распределения средств конечному получателю
 
 **Details:**
-* Inherited From: [\Testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
+* Inherited From: [\testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -245,7 +245,7 @@ public setStatus(string|null $value) : mixed
 #### public setMetadata() : mixed
 
 ```php
-public setMetadata(\Testottest\Model\Metadata|array $value) : mixed
+public setMetadata(\testottest\Model\Metadata|array $value) : mixed
 ```
 
 **Summary**
@@ -253,21 +253,21 @@ public setMetadata(\Testottest\Model\Metadata|array $value) : mixed
 Устанавливает метаданные
 
 **Details:**
-* Inherited From: [\Testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
+* Inherited From: [\testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\Metadata OR array</code> | value  | Метаданные |
+| <code lang="php">\testottest\Model\Metadata OR array</code> | value  | Метаданные |
 
 **Returns:** mixed - 
 
 
 <a name="method_getMetadata" class="anchor"></a>
-#### public getMetadata() : \Testottest\Model\Metadata|null
+#### public getMetadata() : \testottest\Model\Metadata|null
 
 ```php
-public getMetadata() : \Testottest\Model\Metadata|null
+public getMetadata() : \testottest\Model\Metadata|null
 ```
 
 **Summary**
@@ -275,9 +275,9 @@ public getMetadata() : \Testottest\Model\Metadata|null
 Возвращает метаданные
 
 **Details:**
-* Inherited From: [\Testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
+* Inherited From: [\testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
 
-**Returns:** \Testottest\Model\Metadata|null - Метаданные
+**Returns:** \testottest\Model\Metadata|null - Метаданные
 
 
 <a name="method_hasMetadata" class="anchor"></a>
@@ -292,7 +292,7 @@ public hasMetadata() : bool
 Проверяет, были ли установлены метаданные
 
 **Details:**
-* Inherited From: [\Testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
+* Inherited From: [\testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
 
 **Returns:** bool - True если метаданные были установлены, false если нет
 

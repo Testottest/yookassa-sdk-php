@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Testottest\Model\PaymentData;
+namespace Tests\testottest\Model\PaymentData;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\PaymentData\PaymentDataBankCardCard;
+use testottest\Helpers\Random;
+use testottest\Model\PaymentData\PaymentDataBankCardCard;
 
 class PaymentDataBankCardCardTest extends TestCase
 {

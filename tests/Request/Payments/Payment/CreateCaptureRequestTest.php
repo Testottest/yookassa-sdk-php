@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\Testottest\Request\Payments\Payment;
+namespace Tests\testottest\Request\Payments\Payment;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Receipt;
-use Testottest\Model\ReceiptItem;
-use Testottest\Request\Payments\Payment\CreateCaptureRequest;
-use Testottest\Request\Payments\Payment\CreateCaptureRequestBuilder;
+use testottest\Helpers\Random;
+use testottest\Model\CurrencyCode;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Receipt;
+use testottest\Model\ReceiptItem;
+use testottest\Request\Payments\Payment\CreateCaptureRequest;
+use testottest\Request\Payments\Payment\CreateCaptureRequestBuilder;
 
 class CreateCaptureRequestTest extends TestCase
 {

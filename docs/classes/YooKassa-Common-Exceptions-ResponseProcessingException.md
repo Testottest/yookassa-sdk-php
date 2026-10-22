@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Common\Exceptions\ResponseProcessingException
-### Namespace: [\Testottest\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
+# Class: \testottest\Common\Exceptions\ResponseProcessingException
+### Namespace: [\testottest\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
 ---
 **Summary:**
 
@@ -37,8 +37,8 @@
 * Package: YooKassa
 * Class Hierarchy:  
   * [\Exception](\Exception)
-  * [\Testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
-  * \Testottest\Common\Exceptions\ResponseProcessingException
+  * [\testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
+  * \testottest\Common\Exceptions\ResponseProcessingException
 
 ---
 ## Constants
@@ -72,7 +72,7 @@ HTTP_CODE = 202
 **Type:** <a href="../mixed"><abbr title="mixed">mixed</abbr></a>
 
 **Details:**
-* Inherited From: [\Testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
+* Inherited From: [\testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
 
 
 <a name="property_responseHeaders"></a>
@@ -81,7 +81,7 @@ HTTP_CODE = 202
 **Type:** <a href="../string[]"><abbr title="string[]">string[]</abbr></a>
 
 **Details:**
-* Inherited From: [\Testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
+* Inherited From: [\testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
 
 
 
@@ -99,7 +99,7 @@ public __construct(mixed $responseHeaders = [], mixed $responseBody = null) : mi
 Constructor
 
 **Details:**
-* Inherited From: [\Testottest\Common\Exceptions\ResponseProcessingException](../classes/YooKassa-Common-Exceptions-ResponseProcessingException.md)
+* Inherited From: [\testottest\Common\Exceptions\ResponseProcessingException](../classes/YooKassa-Common-Exceptions-ResponseProcessingException.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -118,7 +118,7 @@ public getResponseBody() : mixed
 ```
 
 **Details:**
-* Inherited From: [\Testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
+* Inherited From: [\testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
 
 **Returns:** mixed - 
 
@@ -131,7 +131,7 @@ public getResponseHeaders() : string[]
 ```
 
 **Details:**
-* Inherited From: [\Testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
+* Inherited From: [\testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
 
 **Returns:** string[] - 
 

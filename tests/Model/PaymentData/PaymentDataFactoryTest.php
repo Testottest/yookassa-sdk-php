@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\Testottest\Model\PaymentData;
+namespace Tests\testottest\Model\PaymentData;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\PaymentData\AbstractPaymentData;
-use Testottest\Model\PaymentData\PaymentDataBankCardCard;
-use Testottest\Model\PaymentData\PaymentDataFactory;
-use Testottest\Model\PaymentMethodType;
+use testottest\Helpers\Random;
+use testottest\Model\PaymentData\AbstractPaymentData;
+use testottest\Model\PaymentData\PaymentDataBankCardCard;
+use testottest\Model\PaymentData\PaymentDataFactory;
+use testottest\Model\PaymentMethodType;
 
 class PaymentDataFactoryTest extends TestCase
 {

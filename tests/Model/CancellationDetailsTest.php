@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Model\CancellationDetails;
-use Testottest\Model\CancellationDetailsPartyCode;
-use Testottest\Model\CancellationDetailsReasonCode;
+use testottest\Model\CancellationDetails;
+use testottest\Model\CancellationDetailsPartyCode;
+use testottest\Model\CancellationDetailsReasonCode;
 
 class CancellationDetailsTest extends TestCase
 {

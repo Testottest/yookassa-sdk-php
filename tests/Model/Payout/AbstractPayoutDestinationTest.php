@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Testottest\Model\Payout;
+namespace Tests\testottest\Model\Payout;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\Payout\AbstractPayoutDestination;
+use testottest\Helpers\Random;
+use testottest\Model\Payout\AbstractPayoutDestination;
 
 abstract class AbstractPayoutDestinationTest extends TestCase
 {

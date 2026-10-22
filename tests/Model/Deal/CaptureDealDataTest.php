@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Testottest\Model\Deal;
+namespace Tests\testottest\Model\Deal;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\Deal\CaptureDealData;
-use Testottest\Model\Deal\SettlementPayoutPayment;
-use Testottest\Model\Deal\SettlementPayoutPaymentType;
+use testottest\Helpers\Random;
+use testottest\Model\Deal\CaptureDealData;
+use testottest\Model\Deal\SettlementPayoutPayment;
+use testottest\Model\Deal\SettlementPayoutPaymentType;
 
 class CaptureDealDataTest extends TestCase
 {

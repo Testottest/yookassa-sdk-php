@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Deals;
+namespace testottest\Request\Deals;
 
 /**
  * Класс объекта ответа возвращаемого API при запросе на создание сделки

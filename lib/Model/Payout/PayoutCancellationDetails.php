@@ -24,13 +24,13 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\Payout;
+namespace testottest\Model\Payout;
 
-use Testottest\Common\AbstractObject;
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\CancellationDetailsInterface;
+use testottest\Common\AbstractObject;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\TypeCast;
+use testottest\Model\CancellationDetailsInterface;
 
 /**
  * PayoutCancellationDetails - Комментарий к отмене выплаты

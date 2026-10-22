@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Testottest\Request\Payouts\PayoutDestinationData;
+namespace Tests\testottest\Request\Payouts\PayoutDestinationData;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData;
+use testottest\Helpers\Random;
+use testottest\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData;
 
 abstract class AbstractPayoutDestinationDataTest extends TestCase
 {

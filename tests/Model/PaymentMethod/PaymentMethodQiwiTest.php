@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Model\PaymentMethod;
+namespace Tests\testottest\Model\PaymentMethod;
 
-use Testottest\Model\PaymentMethod\PaymentMethodQiwi;
-use Testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentMethod\PaymentMethodQiwi;
+use testottest\Model\PaymentMethodType;
 
 class PaymentMethodQiwiTest extends AbstractPaymentMethodTest
 {

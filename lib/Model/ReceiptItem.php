@@ -24,16 +24,16 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model;
+namespace testottest\Model;
 
-use Testottest\Common\AbstractObject;
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\ProductCode;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\Receipt\AgentType;
-use Testottest\Model\Receipt\ReceiptItemAmount;
+use testottest\Common\AbstractObject;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\ProductCode;
+use testottest\Helpers\TypeCast;
+use testottest\Model\Receipt\AgentType;
+use testottest\Model\Receipt\ReceiptItemAmount;
 
 /**
  * Информация о товарной позиции в заказе, позиция фискального чека

@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Testottest\Request\Payments;
+namespace Tests\testottest\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Model\PaymentStatus;
-use Testottest\Request\Payments\PaymentsRequest;
-use Testottest\Request\Payments\PaymentsRequestSerializer;
+use testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentStatus;
+use testottest\Request\Payments\PaymentsRequest;
+use testottest\Request\Payments\PaymentsRequestSerializer;
 
 class PaymentsRequestSerializerTest extends TestCase
 {

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: SourceInterface
-### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
+### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -51,7 +51,7 @@ public setAccountId(string $value) : void
 Устаналивает id магазина-получателя средств
 
 **Details:**
-* Inherited From: [\Testottest\Model\SourceInterface](../classes/YooKassa-Model-SourceInterface.md)
+* Inherited From: [\testottest\Model\SourceInterface](../classes/YooKassa-Model-SourceInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -73,16 +73,16 @@ public getAccountId() : string|null
 Возвращает id магазина с которого будут списаны средства
 
 **Details:**
-* Inherited From: [\Testottest\Model\SourceInterface](../classes/YooKassa-Model-SourceInterface.md)
+* Inherited From: [\testottest\Model\SourceInterface](../classes/YooKassa-Model-SourceInterface.md)
 
 **Returns:** string|null - 
 
 
 <a name="method_getAmount" class="anchor"></a>
-#### public getAmount() : \Testottest\Model\AmountInterface
+#### public getAmount() : \testottest\Model\AmountInterface
 
 ```php
-public getAmount() : \Testottest\Model\AmountInterface
+public getAmount() : \testottest\Model\AmountInterface
 ```
 
 **Summary**
@@ -90,9 +90,9 @@ public getAmount() : \Testottest\Model\AmountInterface
 Возвращает сумму оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Model\SourceInterface](../classes/YooKassa-Model-SourceInterface.md)
+* Inherited From: [\testottest\Model\SourceInterface](../classes/YooKassa-Model-SourceInterface.md)
 
-**Returns:** \Testottest\Model\AmountInterface - Сумма оплаты
+**Returns:** \testottest\Model\AmountInterface - Сумма оплаты
 
 
 <a name="method_hasAmount" class="anchor"></a>
@@ -107,7 +107,7 @@ public hasAmount() : bool
 Проверяет, была ли установлена сумма оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Model\SourceInterface](../classes/YooKassa-Model-SourceInterface.md)
+* Inherited From: [\testottest\Model\SourceInterface](../classes/YooKassa-Model-SourceInterface.md)
 
 **Returns:** bool - True если сумма оплаты была установлена, false если нет
 
@@ -116,7 +116,7 @@ public hasAmount() : bool
 #### public setAmount() : mixed
 
 ```php
-public setAmount(\Testottest\Model\AmountInterface|array $value) : mixed
+public setAmount(\testottest\Model\AmountInterface|array $value) : mixed
 ```
 
 **Summary**
@@ -124,21 +124,21 @@ public setAmount(\Testottest\Model\AmountInterface|array $value) : mixed
 Устанавливает сумму оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Model\SourceInterface](../classes/YooKassa-Model-SourceInterface.md)
+* Inherited From: [\testottest\Model\SourceInterface](../classes/YooKassa-Model-SourceInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\AmountInterface OR array</code> | value  | Сумма оплаты |
+| <code lang="php">\testottest\Model\AmountInterface OR array</code> | value  | Сумма оплаты |
 
 **Returns:** mixed - 
 
 
 <a name="method_getPlatformFeeAmount" class="anchor"></a>
-#### public getPlatformFeeAmount() : \Testottest\Model\AmountInterface
+#### public getPlatformFeeAmount() : \testottest\Model\AmountInterface
 
 ```php
-public getPlatformFeeAmount() : \Testottest\Model\AmountInterface
+public getPlatformFeeAmount() : \testottest\Model\AmountInterface
 ```
 
 **Summary**
@@ -146,9 +146,9 @@ public getPlatformFeeAmount() : \Testottest\Model\AmountInterface
 Возвращает комиссию за проданные товары и услуги, которая удерживается с магазина в вашу пользу
 
 **Details:**
-* Inherited From: [\Testottest\Model\SourceInterface](../classes/YooKassa-Model-SourceInterface.md)
+* Inherited From: [\testottest\Model\SourceInterface](../classes/YooKassa-Model-SourceInterface.md)
 
-**Returns:** \Testottest\Model\AmountInterface - Сумма комиссии
+**Returns:** \testottest\Model\AmountInterface - Сумма комиссии
 
 
 <a name="method_hasPlatformFeeAmount" class="anchor"></a>
@@ -163,7 +163,7 @@ public hasPlatformFeeAmount() : bool
 Проверяет, была ли установлена комиссия за проданные товары и услуги, которая удерживается с магазина в вашу пользу
 
 **Details:**
-* Inherited From: [\Testottest\Model\SourceInterface](../classes/YooKassa-Model-SourceInterface.md)
+* Inherited From: [\testottest\Model\SourceInterface](../classes/YooKassa-Model-SourceInterface.md)
 
 **Returns:** bool - True если комиссия была установлена, false если нет
 
@@ -172,7 +172,7 @@ public hasPlatformFeeAmount() : bool
 #### public setPlatformFeeAmount() : mixed
 
 ```php
-public setPlatformFeeAmount(\Testottest\Model\AmountInterface|array $value) : mixed
+public setPlatformFeeAmount(\testottest\Model\AmountInterface|array $value) : mixed
 ```
 
 **Summary**
@@ -180,12 +180,12 @@ public setPlatformFeeAmount(\Testottest\Model\AmountInterface|array $value) : mi
 Устанавливает комиссию за проданные товары и услуги, которая удерживается с магазина в вашу пользу
 
 **Details:**
-* Inherited From: [\Testottest\Model\SourceInterface](../classes/YooKassa-Model-SourceInterface.md)
+* Inherited From: [\testottest\Model\SourceInterface](../classes/YooKassa-Model-SourceInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\AmountInterface OR array</code> | value  | Сумма комиссии |
+| <code lang="php">\testottest\Model\AmountInterface OR array</code> | value  | Сумма комиссии |
 
 **Returns:** mixed - 
 

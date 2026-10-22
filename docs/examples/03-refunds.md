@@ -25,7 +25,7 @@
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \Testottest\Client();
+$client = new \testottest\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 try {
@@ -34,14 +34,14 @@ try {
             'payment_id' => '24e89cb0-000f-5000-9000-1de77fa0d6df',
             'amount' => array(
                 'value' => '1000.00',
-                'currency' => \Testottest\Model\CurrencyCode::RUB,
+                'currency' => \testottest\Model\CurrencyCode::RUB,
             ),
             'sources' => array(
                 array(
                     'account_id' => '456',
                     'amount' => array(
                         'value' => '1000.00',
-                        'currency' => \Testottest\Model\CurrencyCode::RUB,
+                        'currency' => \testottest\Model\CurrencyCode::RUB,
                     )
                 ),
             ),
@@ -67,15 +67,15 @@ var_dump($response);
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \Testottest\Client();
+$client = new \testottest\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 try {
-    $refundBuilder = \Testottest\Request\Refunds\CreateRefundRequest::builder();
+    $refundBuilder = \testottest\Request\Refunds\CreateRefundRequest::builder();
     $refundBuilder
                 ->setPaymentId('24b94598-000f-5000-9000-1b68e7b15f3f')
                 ->setAmount(3500.00)
-                ->setCurrency(\Testottest\Model\CurrencyCode::RUB)
+                ->setCurrency(\testottest\Model\CurrencyCode::RUB)
                 ->setDescription('Не подошел цвет')
                 ->setReceiptItems(array(
                     array(
@@ -83,7 +83,7 @@ try {
                         'quantity' => '1.00',
                         'amount' => array(
                             'value' => '3000.00',
-                            'currency' => \Testottest\Model\CurrencyCode::RUB,
+                            'currency' => \testottest\Model\CurrencyCode::RUB,
                         ),
                         'vat_code' => 2,
                         'payment_mode' => 'full_payment',
@@ -119,7 +119,7 @@ try {
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \Testottest\Client();
+$client = new \testottest\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 try {
@@ -149,13 +149,13 @@ var_dump($response);
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \Testottest\Client();
+$client = new \testottest\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 $cursor = null;
 $params = array(
     'limit' => 30,
-    'status' => \Testottest\Model\RefundStatus::SUCCEEDED,
+    'status' => \testottest\Model\RefundStatus::SUCCEEDED,
     'payment_id' => '1da5c87d-0984-50e8-a7f3-8de646dd9ec9',
     'created_at_gte' => '2021-01-01T00:00:00.000Z',
     'created_at_lt' => '2021-03-30T23:59:59.999Z',

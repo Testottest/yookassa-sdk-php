@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Refunds;
+namespace testottest\Request\Refunds;
 
-use Testottest\Model\AmountInterface;
-use Testottest\Model\Deal\RefundDealData;
-use Testottest\Model\ReceiptInterface;
-use Testottest\Model\SourceInterface;
+use testottest\Model\AmountInterface;
+use testottest\Model\Deal\RefundDealData;
+use testottest\Model\ReceiptInterface;
+use testottest\Model\SourceInterface;
 
 /**
  * Интерфейс объекта запроса на возврат

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: NotificationInterface
-### Namespace: [\Testottest\Model\Notification](../namespaces/yookassa-model-notification.md)
+### Namespace: [\testottest\Model\Notification](../namespaces/yookassa-model-notification.md)
 ---
 ---
 ### Constants
@@ -38,7 +38,7 @@ public getType() : string
 Тип уведомления - одна из констант, указанных в перечислении {@link}.
 
 **Details:**
-* Inherited From: [\Testottest\Model\Notification\NotificationInterface](../classes/YooKassa-Model-Notification-NotificationInterface.md)
+* Inherited From: [\testottest\Model\Notification\NotificationInterface](../classes/YooKassa-Model-Notification-NotificationInterface.md)
 
 **Returns:** string - Тип уведомления в виде строки
 
@@ -59,16 +59,16 @@ public getEvent() : string
 Тип события - одна из констант, указанных в перечислении {@link}.
 
 **Details:**
-* Inherited From: [\Testottest\Model\Notification\NotificationInterface](../classes/YooKassa-Model-Notification-NotificationInterface.md)
+* Inherited From: [\testottest\Model\Notification\NotificationInterface](../classes/YooKassa-Model-Notification-NotificationInterface.md)
 
 **Returns:** string - Тип события
 
 
 <a name="method_getObject" class="anchor"></a>
-#### public getObject() : \Testottest\Model\PaymentInterface|\Testottest\Model\RefundInterface
+#### public getObject() : \testottest\Model\PaymentInterface|\testottest\Model\RefundInterface
 
 ```php
-public getObject() : \Testottest\Model\PaymentInterface|\Testottest\Model\RefundInterface
+public getObject() : \testottest\Model\PaymentInterface|\testottest\Model\RefundInterface
 ```
 
 **Summary**
@@ -82,9 +82,9 @@ public getObject() : \Testottest\Model\PaymentInterface|\Testottest\Model\Refund
 платеже у API.
 
 **Details:**
-* Inherited From: [\Testottest\Model\Notification\NotificationInterface](../classes/YooKassa-Model-Notification-NotificationInterface.md)
+* Inherited From: [\testottest\Model\Notification\NotificationInterface](../classes/YooKassa-Model-Notification-NotificationInterface.md)
 
-**Returns:** \Testottest\Model\PaymentInterface|\Testottest\Model\RefundInterface - Объект с информацией о платеже
+**Returns:** \testottest\Model\PaymentInterface|\testottest\Model\RefundInterface - Объект с информацией о платеже
 
 
 

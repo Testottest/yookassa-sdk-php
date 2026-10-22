@@ -1,19 +1,19 @@
 <?php
 
-namespace Tests\Testottest\Request\Payments;
+namespace Tests\testottest\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\ConfirmationType;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Payment;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Model\PaymentStatus;
-use Testottest\Model\ReceiptRegistrationStatus;
-use Testottest\Model\Transfer;
-use Testottest\Model\TransferStatus;
-use Testottest\Request\Payments\PaymentResponse;
+use testottest\Helpers\Random;
+use testottest\Model\ConfirmationType;
+use testottest\Model\CurrencyCode;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Payment;
+use testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentStatus;
+use testottest\Model\ReceiptRegistrationStatus;
+use testottest\Model\Transfer;
+use testottest\Model\TransferStatus;
+use testottest\Request\Payments\PaymentResponse;
 
 abstract class AbstractPaymentResponseTest extends TestCase
 {
@@ -260,7 +260,7 @@ abstract class AbstractPaymentResponseTest extends TestCase
             self::assertEmpty($instance->getTransfers());
         } else {
             foreach ($instance->getTransfers() as $transfer) {
-                self::assertInstanceOf('\Testottest\Model\Transfer', $transfer);
+                self::assertInstanceOf('\testottest\Model\Transfer', $transfer);
             }
         }
     }

@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\Deal\DealBalanceAmount;
-use Testottest\Model\Deal\DealStatus;
-use Testottest\Model\Deal\DealType;
-use Testottest\Model\Deal\FeeMoment;
-use Testottest\Model\Metadata;
-use Testottest\Model\SafeDeal;
+use testottest\Helpers\Random;
+use testottest\Model\Deal\DealBalanceAmount;
+use testottest\Model\Deal\DealStatus;
+use testottest\Model\Deal\DealType;
+use testottest\Model\Deal\FeeMoment;
+use testottest\Model\Metadata;
+use testottest\Model\SafeDeal;
 
 class SafeDealTest extends TestCase
 {

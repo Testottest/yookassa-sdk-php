@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model;
+namespace testottest\Model;
 
-use Testottest\Model\Deal\RefundDealInfo;
+use testottest\Model\Deal\RefundDealInfo;
 
 /**
  * Interface RefundInterface

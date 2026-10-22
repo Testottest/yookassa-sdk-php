@@ -24,16 +24,16 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Refunds;
+namespace testottest\Request\Refunds;
 
-use Testottest\Common\AbstractRefundRequest;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\Deal\RefundDealData;
-use Testottest\Model\ReceiptInterface;
-use Testottest\Model\Source;
-use Testottest\Model\SourceInterface;
+use testottest\Common\AbstractRefundRequest;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\TypeCast;
+use testottest\Model\AmountInterface;
+use testottest\Model\Deal\RefundDealData;
+use testottest\Model\ReceiptInterface;
+use testottest\Model\Source;
+use testottest\Model\SourceInterface;
 
 /**
  * Класс объекта запроса для создания возврата

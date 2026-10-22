@@ -24,16 +24,16 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Common;
+namespace testottest\Common;
 
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Receipt;
-use Testottest\Model\ReceiptInterface;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\TypeCast;
+use testottest\Model\AmountInterface;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Receipt;
+use testottest\Model\ReceiptInterface;
 
 /**
  * Класс объекта запроса к API

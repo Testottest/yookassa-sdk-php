@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Common;
+namespace testottest\Common;
 
 use ArrayAccess;
 use DateTime;

@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\Testottest\Request\Deals;
+namespace Tests\testottest\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\Deal\DealStatus;
-use Testottest\Model\SafeDeal;
-use Testottest\Request\Deals\DealsRequest;
-use Testottest\Request\Deals\DealsRequestBuilder;
+use testottest\Helpers\Random;
+use testottest\Model\Deal\DealStatus;
+use testottest\Model\SafeDeal;
+use testottest\Request\Deals\DealsRequest;
+use testottest\Request\Deals\DealsRequestBuilder;
 
 class DealsRequestBuilderTest extends TestCase
 {

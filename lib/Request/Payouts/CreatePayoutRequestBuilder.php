@@ -24,18 +24,18 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payouts;
+namespace testottest\Request\Payouts;
 
-use Testottest\Common\AbstractPaymentRequestBuilder;
-use Testottest\Common\AbstractRequest;
-use Testottest\Common\AbstractRequestBuilder;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Common\Exceptions\InvalidRequestException;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\Metadata;
-use Testottest\Model\Payout\AbstractPayoutDestination;
-use Testottest\Model\Deal\PayoutDealInfo;
+use testottest\Common\AbstractPaymentRequestBuilder;
+use testottest\Common\AbstractRequest;
+use testottest\Common\AbstractRequestBuilder;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Common\Exceptions\InvalidRequestException;
+use testottest\Model\AmountInterface;
+use testottest\Model\Metadata;
+use testottest\Model\Payout\AbstractPayoutDestination;
+use testottest\Model\Deal\PayoutDealInfo;
 
 /**
  * Класс билдера объектов запросов к API на создание платежа

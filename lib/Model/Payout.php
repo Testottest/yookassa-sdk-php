@@ -24,19 +24,19 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model;
+namespace testottest\Model;
 
 use DateTime;
-use Testottest\Common\AbstractObject;
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\Deal\PayoutDealInfo;
-use Testottest\Model\PaymentMethod\AbstractPaymentMethod;
-use Testottest\Model\Payout\AbstractPayoutDestination;
-use Testottest\Model\Payout\PayoutCancellationDetails;
-use Testottest\Model\Payout\PayoutDestinationFactory;
+use testottest\Common\AbstractObject;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\TypeCast;
+use testottest\Model\Deal\PayoutDealInfo;
+use testottest\Model\PaymentMethod\AbstractPaymentMethod;
+use testottest\Model\Payout\AbstractPayoutDestination;
+use testottest\Model\Payout\PayoutCancellationDetails;
+use testottest\Model\Payout\PayoutDestinationFactory;
 
 /**
  * Payout - Данные о выплате

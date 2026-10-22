@@ -23,9 +23,9 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Webhook;
+namespace testottest\Request\Webhook;
 
-use Testottest\Model\Webhook\Webhook;
+use testottest\Model\Webhook\Webhook;
 
 /**
  * Актуальный список объектов webhook для переданного OAuth-токена

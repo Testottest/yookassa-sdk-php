@@ -1,22 +1,22 @@
 <?php
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\CancellationDetails;
-use Testottest\Model\CancellationDetailsPartyCode;
-use Testottest\Model\CancellationDetailsReasonCode;
-use Testottest\Model\Confirmation\ConfirmationRedirect;
-use Testottest\Model\Metadata;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Payment;
-use Testottest\Model\PaymentMethod\PaymentMethodQiwi;
-use Testottest\Model\PaymentStatus;
-use Testottest\Model\ReceiptRegistrationStatus;
-use Testottest\Model\Recipient;
-use Testottest\Model\Requestor;
-use Testottest\Model\Transfer;
+use testottest\Helpers\Random;
+use testottest\Model\CancellationDetails;
+use testottest\Model\CancellationDetailsPartyCode;
+use testottest\Model\CancellationDetailsReasonCode;
+use testottest\Model\Confirmation\ConfirmationRedirect;
+use testottest\Model\Metadata;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Payment;
+use testottest\Model\PaymentMethod\PaymentMethodQiwi;
+use testottest\Model\PaymentStatus;
+use testottest\Model\ReceiptRegistrationStatus;
+use testottest\Model\Recipient;
+use testottest\Model\Requestor;
+use testottest\Model\Transfer;
 
 class PaymentTest extends TestCase
 {

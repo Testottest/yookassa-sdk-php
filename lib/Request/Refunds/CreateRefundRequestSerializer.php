@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Refunds;
+namespace testottest\Request\Refunds;
 
-use Testottest\Model\AmountInterface;
-use Testottest\Model\ReceiptItem;
-use Testottest\Model\SourceInterface;
+use testottest\Model\AmountInterface;
+use testottest\Model\ReceiptItem;
+use testottest\Model\SourceInterface;
 
 /**
  * Класс сериалайзера запросов к API на создание нового возврата средств

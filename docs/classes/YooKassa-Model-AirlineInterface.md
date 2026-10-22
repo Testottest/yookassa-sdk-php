@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: AirlineInterface
-### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
+### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
 ---
 ---
 ### Constants
@@ -35,7 +35,7 @@ public getBookingReference() : string
 Номер бронирования. Обязателен на этапе создания платежа.
 
 **Details:**
-* Inherited From: [\Testottest\Model\AirlineInterface](../classes/YooKassa-Model-AirlineInterface.md)
+* Inherited From: [\testottest\Model\AirlineInterface](../classes/YooKassa-Model-AirlineInterface.md)
 
 **Returns:** string - 
 
@@ -52,16 +52,16 @@ public getTicketNumber() : string
 Уникальный номер билета. Обязателен на этапе подтверждения платежа
 
 **Details:**
-* Inherited From: [\Testottest\Model\AirlineInterface](../classes/YooKassa-Model-AirlineInterface.md)
+* Inherited From: [\testottest\Model\AirlineInterface](../classes/YooKassa-Model-AirlineInterface.md)
 
 **Returns:** string - 
 
 
 <a name="method_getPassengers" class="anchor"></a>
-#### public getPassengers() : \Testottest\Model\PassengerInterface[]
+#### public getPassengers() : \testottest\Model\PassengerInterface[]
 
 ```php
-public getPassengers() : \Testottest\Model\PassengerInterface[]
+public getPassengers() : \testottest\Model\PassengerInterface[]
 ```
 
 **Summary**
@@ -69,16 +69,16 @@ public getPassengers() : \Testottest\Model\PassengerInterface[]
 Список объектов-контейнеров с данными пассажиров
 
 **Details:**
-* Inherited From: [\Testottest\Model\AirlineInterface](../classes/YooKassa-Model-AirlineInterface.md)
+* Inherited From: [\testottest\Model\AirlineInterface](../classes/YooKassa-Model-AirlineInterface.md)
 
-**Returns:** \Testottest\Model\PassengerInterface[] - 
+**Returns:** \testottest\Model\PassengerInterface[] - 
 
 
 <a name="method_getLegs" class="anchor"></a>
-#### public getLegs() : \Testottest\Model\LegInterface[]
+#### public getLegs() : \testottest\Model\LegInterface[]
 
 ```php
-public getLegs() : \Testottest\Model\LegInterface[]
+public getLegs() : \testottest\Model\LegInterface[]
 ```
 
 **Summary**
@@ -86,9 +86,9 @@ public getLegs() : \Testottest\Model\LegInterface[]
 Список объектов-контейнеров с данными о маршруте
 
 **Details:**
-* Inherited From: [\Testottest\Model\AirlineInterface](../classes/YooKassa-Model-AirlineInterface.md)
+* Inherited From: [\testottest\Model\AirlineInterface](../classes/YooKassa-Model-AirlineInterface.md)
 
-**Returns:** \Testottest\Model\LegInterface[] - 
+**Returns:** \testottest\Model\LegInterface[] - 
 
 
 

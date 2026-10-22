@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\Payout;
+namespace testottest\Model\Payout;
 
-use Testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentMethodType;
 
 /**
  * Фабрика создания объекта платежных методов из массива

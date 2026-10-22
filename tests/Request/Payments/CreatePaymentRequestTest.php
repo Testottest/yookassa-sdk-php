@@ -1,25 +1,25 @@
 <?php
 
-namespace Tests\Testottest\Request\Payments;
+namespace Tests\testottest\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
-use Testottest\Model\ConfirmationType;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\Deal\PaymentDealInfo;
-use Testottest\Model\Locale;
-use Testottest\Model\Metadata;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Payment;
-use Testottest\Model\PaymentData\PaymentDataQiwi;
-use Testottest\Model\Receipt;
-use Testottest\Model\ReceiptItem;
-use Testottest\Model\Recipient;
-use Testottest\Model\Transfer;
-use Testottest\Model\TransferStatus;
-use Testottest\Request\Payments\CreatePaymentRequest;
-use Testottest\Request\Payments\CreatePaymentRequestBuilder;
+use testottest\Helpers\Random;
+use testottest\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
+use testottest\Model\ConfirmationType;
+use testottest\Model\CurrencyCode;
+use testottest\Model\Deal\PaymentDealInfo;
+use testottest\Model\Locale;
+use testottest\Model\Metadata;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Payment;
+use testottest\Model\PaymentData\PaymentDataQiwi;
+use testottest\Model\Receipt;
+use testottest\Model\ReceiptItem;
+use testottest\Model\Recipient;
+use testottest\Model\Transfer;
+use testottest\Model\TransferStatus;
+use testottest\Request\Payments\CreatePaymentRequest;
+use testottest\Request\Payments\CreatePaymentRequestBuilder;
 
 class CreatePaymentRequestTest extends TestCase
 {

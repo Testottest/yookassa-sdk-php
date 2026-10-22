@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Common;
+namespace testottest\Common;
 
 /**
  * Базовый класс объекта запроса, передаваемого в методы клиента API

@@ -23,10 +23,10 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\Receipt;
+namespace testottest\Model\Receipt;
 
 
-use Testottest\Common\AbstractEnum;
+use testottest\Common\AbstractEnum;
 
 class PaymentSubject extends AbstractEnum
 {

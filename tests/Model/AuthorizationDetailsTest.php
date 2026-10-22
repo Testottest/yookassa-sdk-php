@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\AuthorizationDetails;
-use Testottest\Model\ThreeDSecure;
+use testottest\Helpers\Random;
+use testottest\Model\AuthorizationDetails;
+use testottest\Model\ThreeDSecure;
 
 class AuthorizationDetailsTest extends TestCase
 {

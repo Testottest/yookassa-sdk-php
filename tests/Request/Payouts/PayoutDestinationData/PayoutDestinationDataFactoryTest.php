@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\Testottest\Request\Payouts\PayoutDestinationData;
+namespace Tests\testottest\Request\Payouts\PayoutDestinationData;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\Payout\PayoutDestinationType;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData;
-use Testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCardCard;
-use Testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataFactory;
+use testottest\Helpers\Random;
+use testottest\Model\Payout\PayoutDestinationType;
+use testottest\Model\PaymentMethodType;
+use testottest\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData;
+use testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCardCard;
+use testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataFactory;
 
 class PayoutDestinationDataFactoryTest extends TestCase
 {

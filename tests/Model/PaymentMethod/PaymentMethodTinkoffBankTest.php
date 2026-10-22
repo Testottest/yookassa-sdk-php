@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Tests\Testottest\Model\PaymentMethod;
+namespace Tests\testottest\Model\PaymentMethod;
 
 
-use Testottest\Model\PaymentMethod\AbstractPaymentMethod;
-use Testottest\Model\PaymentMethod\PaymentMethodTinkoffBank;
-use Testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentMethod\AbstractPaymentMethod;
+use testottest\Model\PaymentMethod\PaymentMethodTinkoffBank;
+use testottest\Model\PaymentMethodType;
 
 class PaymentMethodTinkoffBankTest extends AbstractPaymentMethodTest
 {

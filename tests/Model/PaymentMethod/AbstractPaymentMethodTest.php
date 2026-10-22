@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Testottest\Model\PaymentMethod;
+namespace Tests\testottest\Model\PaymentMethod;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\PaymentMethod\AbstractPaymentMethod;
+use testottest\Helpers\Random;
+use testottest\Model\PaymentMethod\AbstractPaymentMethod;
 
 abstract class AbstractPaymentMethodTest extends TestCase
 {

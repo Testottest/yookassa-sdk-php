@@ -1,13 +1,13 @@
 <?php
 
-namespace Testottest\Request\Receipts;
+namespace testottest\Request\Receipts;
 
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Helpers\UUID;
-use Testottest\Model\Receipt\SettlementType;
-use Testottest\Model\ReceiptType;
+use testottest\Helpers\Random;
+use testottest\Helpers\UUID;
+use testottest\Model\Receipt\SettlementType;
+use testottest\Model\ReceiptType;
 
 class ReceiptsResponseTest extends TestCase
 {

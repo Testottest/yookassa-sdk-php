@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Testottest\Model\Confirmation;
+namespace Tests\testottest\Model\Confirmation;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\Confirmation\AbstractConfirmation;
+use testottest\Helpers\Random;
+use testottest\Model\Confirmation\AbstractConfirmation;
 
 abstract class AbstractConfirmationTest extends TestCase
 {

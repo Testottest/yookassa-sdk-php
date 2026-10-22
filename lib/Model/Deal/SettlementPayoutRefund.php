@@ -24,17 +24,17 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\Deal;
+namespace testottest\Model\Deal;
 
 
-use Testottest\Common\AbstractObject;
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\SettlementInterface;
+use testottest\Common\AbstractObject;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\TypeCast;
+use testottest\Model\AmountInterface;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\SettlementInterface;
 
 /**
  * Class SettlementPayoutRefund

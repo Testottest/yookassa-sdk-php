@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Model\PaymentData\PaymentDataB2bSberbank
-### Namespace: [\Testottest\Model\PaymentData](../namespaces/yookassa-model-paymentdata.md)
+# Class: \testottest\Model\PaymentData\PaymentDataB2bSberbank
+### Namespace: [\testottest\Model\PaymentData](../namespaces/yookassa-model-paymentdata.md)
 ---
 **Summary:**
 
@@ -50,9 +50,9 @@ PaymentDataB2BSberbank
 * File: [lib/Model/PaymentData/PaymentDataB2bSberbank.php](../../lib/Model/PaymentData/PaymentDataB2bSberbank.php)
 * Package: Default
 * Class Hierarchy:  
-  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * [\Testottest\Model\PaymentData\AbstractPaymentData](../classes/YooKassa-Model-PaymentData-AbstractPaymentData.md)
-  * \Testottest\Model\PaymentData\PaymentDataB2bSberbank
+  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * [\testottest\Model\PaymentData\AbstractPaymentData](../classes/YooKassa-Model-PaymentData-AbstractPaymentData.md)
+  * \testottest\Model\PaymentData\PaymentDataB2bSberbank
 
 ---
 ## Properties
@@ -78,17 +78,17 @@ PaymentDataB2BSberbank
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentData\AbstractPaymentData](../classes/YooKassa-Model-PaymentData-AbstractPaymentData.md)
+* Inherited From: [\testottest\Model\PaymentData\AbstractPaymentData](../classes/YooKassa-Model-PaymentData-AbstractPaymentData.md)
 
 
 <a name="property_vatData"></a>
-#### public $vatData : \Testottest\Model\PaymentData\B2b\Sberbank\VatData
+#### public $vatData : \testottest\Model\PaymentData\B2b\Sberbank\VatData
 ---
 ***Description***
 
 Данные об НДС
 
-**Type:** <a href="../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.html"><abbr title="\Testottest\Model\PaymentData\B2b\Sberbank\VatData">VatData</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.html"><abbr title="\testottest\Model\PaymentData\B2b\Sberbank\VatData">VatData</abbr></a>
 
 **Details:**
 
@@ -104,7 +104,7 @@ public __construct() : mixed
 ```
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentData\PaymentDataB2bSberbank](../classes/YooKassa-Model-PaymentData-PaymentDataB2bSberbank.md)
+* Inherited From: [\testottest\Model\PaymentData\PaymentDataB2bSberbank](../classes/YooKassa-Model-PaymentData-PaymentDataB2bSberbank.md)
 
 **Returns:** mixed - 
 
@@ -121,7 +121,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -143,7 +143,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -165,7 +165,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -188,7 +188,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -210,7 +210,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -232,7 +232,7 @@ public getPaymentPurpose() : string
 Возвращает назначение платежа
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentData\PaymentDataB2bSberbank](../classes/YooKassa-Model-PaymentData-PaymentDataB2bSberbank.md)
+* Inherited From: [\testottest\Model\PaymentData\PaymentDataB2bSberbank](../classes/YooKassa-Model-PaymentData-PaymentDataB2bSberbank.md)
 
 **Returns:** string - Назначение платежа
 
@@ -249,16 +249,16 @@ public getType() : string
 Возвращает тип метода оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentData\AbstractPaymentData](../classes/YooKassa-Model-PaymentData-AbstractPaymentData.md)
+* Inherited From: [\testottest\Model\PaymentData\AbstractPaymentData](../classes/YooKassa-Model-PaymentData-AbstractPaymentData.md)
 
 **Returns:** string - Тип метода оплаты
 
 
 <a name="method_getVatData" class="anchor"></a>
-#### public getVatData() : \Testottest\Model\PaymentData\B2b\Sberbank\VatData
+#### public getVatData() : \testottest\Model\PaymentData\B2b\Sberbank\VatData
 
 ```php
-public getVatData() : \Testottest\Model\PaymentData\B2b\Sberbank\VatData
+public getVatData() : \testottest\Model\PaymentData\B2b\Sberbank\VatData
 ```
 
 **Summary**
@@ -266,9 +266,9 @@ public getVatData() : \Testottest\Model\PaymentData\B2b\Sberbank\VatData
 Возвращает назначение платежа
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentData\PaymentDataB2bSberbank](../classes/YooKassa-Model-PaymentData-PaymentDataB2bSberbank.md)
+* Inherited From: [\testottest\Model\PaymentData\PaymentDataB2bSberbank](../classes/YooKassa-Model-PaymentData-PaymentDataB2bSberbank.md)
 
-**Returns:** \Testottest\Model\PaymentData\B2b\Sberbank\VatData - Данные об НДС
+**Returns:** \testottest\Model\PaymentData\B2b\Sberbank\VatData - Данные об НДС
 
 
 <a name="method_jsonSerialize" class="anchor"></a>
@@ -283,7 +283,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -300,7 +300,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -322,7 +322,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -344,7 +344,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -367,7 +367,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -389,7 +389,7 @@ public setPaymentPurpose(string $value) : mixed
 Устанавливает назначение платежа
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentData\PaymentDataB2bSberbank](../classes/YooKassa-Model-PaymentData-PaymentDataB2bSberbank.md)
+* Inherited From: [\testottest\Model\PaymentData\PaymentDataB2bSberbank](../classes/YooKassa-Model-PaymentData-PaymentDataB2bSberbank.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -403,7 +403,7 @@ public setPaymentPurpose(string $value) : mixed
 #### public setVatData() : mixed
 
 ```php
-public setVatData(\Testottest\Model\PaymentData\B2b\Sberbank\VatData|array|null $value) : mixed
+public setVatData(\testottest\Model\PaymentData\B2b\Sberbank\VatData|array|null $value) : mixed
 ```
 
 **Summary**
@@ -411,12 +411,12 @@ public setVatData(\Testottest\Model\PaymentData\B2b\Sberbank\VatData|array|null 
 Устанавливает назначение платежа
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentData\PaymentDataB2bSberbank](../classes/YooKassa-Model-PaymentData-PaymentDataB2bSberbank.md)
+* Inherited From: [\testottest\Model\PaymentData\PaymentDataB2bSberbank](../classes/YooKassa-Model-PaymentData-PaymentDataB2bSberbank.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\PaymentData\B2b\Sberbank\VatData OR array OR null</code> | value  | Данные об НДС |
+| <code lang="php">\testottest\Model\PaymentData\B2b\Sberbank\VatData OR array OR null</code> | value  | Данные об НДС |
 
 **Returns:** mixed - 
 
@@ -434,7 +434,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -451,7 +451,7 @@ protected _setType(string $value) : mixed
 Устанавливает тип метода оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentData\AbstractPaymentData](../classes/YooKassa-Model-PaymentData-AbstractPaymentData.md)
+* Inherited From: [\testottest\Model\PaymentData\AbstractPaymentData](../classes/YooKassa-Model-PaymentData-AbstractPaymentData.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -473,7 +473,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

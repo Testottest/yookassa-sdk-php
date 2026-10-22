@@ -24,21 +24,21 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Common;
+namespace testottest\Common;
 
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\Deal\PaymentDealInfo;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Receipt;
-use Testottest\Model\Receipt\ReceiptItemAmount;
-use Testottest\Model\ReceiptCustomer;
-use Testottest\Model\ReceiptInterface;
-use Testottest\Model\ReceiptItem;
-use Testottest\Model\ReceiptItemInterface;
-use Testottest\Model\Transfer;
-use Testottest\Model\TransferInterface;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Model\AmountInterface;
+use testottest\Model\Deal\PaymentDealInfo;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Receipt;
+use testottest\Model\Receipt\ReceiptItemAmount;
+use testottest\Model\ReceiptCustomer;
+use testottest\Model\ReceiptInterface;
+use testottest\Model\ReceiptItem;
+use testottest\Model\ReceiptItemInterface;
+use testottest\Model\Transfer;
+use testottest\Model\TransferInterface;
 
 /**
  * Базовый класс объекта платежного запроса, передаваемого в методы клиента API
@@ -237,10 +237,10 @@ abstract class AbstractPaymentRequestBuilder extends AbstractRequestBuilder
      * @param int $vatCode Ставка НДС
      *
      * @param null|string $paymentSubject значение перечисления PaymentSubject
-     * @see \Testottest\Model\Receipt\PaymentSubject::class
+     * @see \testottest\Model\Receipt\PaymentSubject::class
      *
      * @param null|string $paymentMode значение перечисления PaymentMode
-     * @see \Testottest\Model\Receipt\PaymentMode::class
+     * @see \testottest\Model\Receipt\PaymentMode::class
      *
      * @return self Инстанс билдера запросов
      */
@@ -270,10 +270,10 @@ abstract class AbstractPaymentRequestBuilder extends AbstractRequestBuilder
      * @param int $vatCode Ставка НДС
      *
      * @param null|string $paymentSubject значение перечисления PaymentSubject
-     * @see \Testottest\Model\Receipt\PaymentSubject::class
+     * @see \testottest\Model\Receipt\PaymentSubject::class
      *
      * @param null|string $paymentMode значение перечисления PaymentMode
-     * @see \Testottest\Model\Receipt\PaymentMode::class
+     * @see \testottest\Model\Receipt\PaymentMode::class
      *
      * @return self Инстанс билдера запросов
      */

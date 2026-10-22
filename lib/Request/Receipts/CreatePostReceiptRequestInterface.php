@@ -24,13 +24,13 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Receipts;
+namespace testottest\Request\Receipts;
 
-use Testottest\Model\ReceiptCustomer;
-use Testottest\Model\ReceiptCustomerInterface;
-use Testottest\Model\ReceiptItemInterface;
-use Testottest\Model\SettlementInterface;
-use Testottest\Model\SupplierInterface;
+use testottest\Model\ReceiptCustomer;
+use testottest\Model\ReceiptCustomerInterface;
+use testottest\Model\ReceiptItemInterface;
+use testottest\Model\SettlementInterface;
+use testottest\Model\SupplierInterface;
 
 /**
  * Interface CreateReceiptRequestInterface

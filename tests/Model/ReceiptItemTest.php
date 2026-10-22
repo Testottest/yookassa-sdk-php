@@ -1,19 +1,19 @@
 <?php
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\Random;
-use Testottest\Helpers\StringObject;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\Receipt\AgentType;
-use Testottest\Model\Receipt\PaymentMode;
-use Testottest\Model\Receipt\PaymentSubject;
-use Testottest\Model\Receipt\ReceiptItemAmount;
-use Testottest\Model\ReceiptItem;
-use Testottest\Model\Supplier;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\Random;
+use testottest\Helpers\StringObject;
+use testottest\Model\AmountInterface;
+use testottest\Model\CurrencyCode;
+use testottest\Model\Receipt\AgentType;
+use testottest\Model\Receipt\PaymentMode;
+use testottest\Model\Receipt\PaymentSubject;
+use testottest\Model\Receipt\ReceiptItemAmount;
+use testottest\Model\ReceiptItem;
+use testottest\Model\Supplier;
 
 class ReceiptItemTest extends TestCase
 {

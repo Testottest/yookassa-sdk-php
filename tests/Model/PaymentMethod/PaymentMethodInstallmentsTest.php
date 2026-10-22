@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Model\PaymentMethod;
+namespace Tests\testottest\Model\PaymentMethod;
 
-use Testottest\Model\PaymentMethod\PaymentMethodInstallments;
-use Testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentMethod\PaymentMethodInstallments;
+use testottest\Model\PaymentMethodType;
 
 class PaymentMethodInstallmentsTest extends AbstractPaymentMethodTest
 {

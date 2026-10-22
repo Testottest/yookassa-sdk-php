@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\Testottest\Request\Receipts;
+namespace Tests\testottest\Request\Receipts;
 
-use Testottest\Helpers\Random;
-use Testottest\Model\Receipt\SettlementType;
-use Testottest\Model\ReceiptRegistrationStatus;
-use Testottest\Model\RefundStatus;
-use Testottest\Request\Receipts\ReceiptsRequest;
+use testottest\Helpers\Random;
+use testottest\Model\Receipt\SettlementType;
+use testottest\Model\ReceiptRegistrationStatus;
+use testottest\Model\RefundStatus;
+use testottest\Request\Receipts\ReceiptsRequest;
 use PHPUnit\Framework\TestCase;
-use Testottest\Request\Receipts\ReceiptsRequestBuilder;
+use testottest\Request\Receipts\ReceiptsRequestBuilder;
 
 class ReceiptsRequestTest extends TestCase
 {

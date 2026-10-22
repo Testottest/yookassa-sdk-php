@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Helpers\Random;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Receipt\SettlementType;
-use Testottest\Model\Settlement;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Helpers\Random;
+use testottest\Model\AmountInterface;
+use testottest\Model\CurrencyCode;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Receipt\SettlementType;
+use testottest\Model\Settlement;
 
 class SettlementTest extends TestCase
 {

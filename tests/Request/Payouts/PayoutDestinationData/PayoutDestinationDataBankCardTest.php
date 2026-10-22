@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Testottest\Request\Payouts\PayoutDestinationData;
+namespace Tests\testottest\Request\Payouts\PayoutDestinationData;
 
-use Testottest\Helpers\Random;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCard;
-use Testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCardCard;
+use testottest\Helpers\Random;
+use testottest\Model\PaymentMethodType;
+use testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCard;
+use testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCardCard;
 
 class PayoutDestinationDataBankCardTest extends AbstractPayoutDestinationDataTest
 {

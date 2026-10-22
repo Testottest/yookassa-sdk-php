@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Testottest\Model\Notification;
+namespace Tests\testottest\Model\Notification;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\Notification\AbstractNotification;
+use testottest\Helpers\Random;
+use testottest\Model\Notification\AbstractNotification;
 
 abstract class AbstractNotificationTest extends TestCase
 {

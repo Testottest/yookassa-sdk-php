@@ -1,19 +1,19 @@
 <?php
 
-namespace Tests\Testottest\Request\Receipts;
+namespace Tests\testottest\Request\Receipts;
 
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Helpers\ProductCode;
-use Testottest\Helpers\Random;
-use Testottest\Model\Airline;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Receipt\PaymentMode;
-use Testottest\Model\Receipt\PaymentSubject;
-use Testottest\Model\Supplier;
-use Testottest\Model\SupplierInterface;
-use Testottest\Request\Receipts\ReceiptResponseItem;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Helpers\ProductCode;
+use testottest\Helpers\Random;
+use testottest\Model\Airline;
+use testottest\Model\AmountInterface;
+use testottest\Model\CurrencyCode;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Receipt\PaymentMode;
+use testottest\Model\Receipt\PaymentSubject;
+use testottest\Model\Supplier;
+use testottest\Model\SupplierInterface;
+use testottest\Request\Receipts\ReceiptResponseItem;
 use PHPUnit\Framework\TestCase;
 
 class ReceiptResponseItemTest extends TestCase

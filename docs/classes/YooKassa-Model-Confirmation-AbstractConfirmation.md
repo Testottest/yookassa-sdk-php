@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Abstract Class: \Testottest\Model\Confirmation\AbstractConfirmation
-### Namespace: [\Testottest\Model\Confirmation](../namespaces/yookassa-model-confirmation.md)
+# Abstract Class: \testottest\Model\Confirmation\AbstractConfirmation
+### Namespace: [\testottest\Model\Confirmation](../namespaces/yookassa-model-confirmation.md)
 ---
 **Summary:**
 
@@ -46,8 +46,8 @@
 * File: [lib/Model/Confirmation/AbstractConfirmation.php](../../lib/Model/Confirmation/AbstractConfirmation.php)
 * Package: Default
 * Class Hierarchy: 
-  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * \Testottest\Model\Confirmation\AbstractConfirmation
+  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * \testottest\Model\Confirmation\AbstractConfirmation
 
 ---
 ## Properties
@@ -74,7 +74,7 @@ public __construct(array $data = []) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -96,7 +96,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -118,7 +118,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -140,7 +140,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -163,7 +163,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -185,7 +185,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -207,7 +207,7 @@ public getConfirmationData()
 Для ConfirmationQr
 
 **Details:**
-* Inherited From: [\Testottest\Model\Confirmation\AbstractConfirmation](../classes/YooKassa-Model-Confirmation-AbstractConfirmation.md)
+* Inherited From: [\testottest\Model\Confirmation\AbstractConfirmation](../classes/YooKassa-Model-Confirmation-AbstractConfirmation.md)
 
 **Returns:**  - 
 
@@ -224,7 +224,7 @@ public getConfirmationToken()
 Для ConfirmationEmbedded
 
 **Details:**
-* Inherited From: [\Testottest\Model\Confirmation\AbstractConfirmation](../classes/YooKassa-Model-Confirmation-AbstractConfirmation.md)
+* Inherited From: [\testottest\Model\Confirmation\AbstractConfirmation](../classes/YooKassa-Model-Confirmation-AbstractConfirmation.md)
 
 **Returns:**  - 
 
@@ -241,7 +241,7 @@ public getConfirmationUrl()
 Для ConfirmationRedirect
 
 **Details:**
-* Inherited From: [\Testottest\Model\Confirmation\AbstractConfirmation](../classes/YooKassa-Model-Confirmation-AbstractConfirmation.md)
+* Inherited From: [\testottest\Model\Confirmation\AbstractConfirmation](../classes/YooKassa-Model-Confirmation-AbstractConfirmation.md)
 
 **Returns:**  - 
 
@@ -258,7 +258,7 @@ public getType() : string
 Возвращает тип подтверждения платежа
 
 **Details:**
-* Inherited From: [\Testottest\Model\Confirmation\AbstractConfirmation](../classes/YooKassa-Model-Confirmation-AbstractConfirmation.md)
+* Inherited From: [\testottest\Model\Confirmation\AbstractConfirmation](../classes/YooKassa-Model-Confirmation-AbstractConfirmation.md)
 
 **Returns:** string - 
 
@@ -275,7 +275,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -292,7 +292,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -314,7 +314,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -336,7 +336,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -359,7 +359,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -382,7 +382,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -399,7 +399,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 
@@ -416,7 +416,7 @@ protected setType(string $value) : mixed
 Устанавливает тип подтверждения платежа
 
 **Details:**
-* Inherited From: [\Testottest\Model\Confirmation\AbstractConfirmation](../classes/YooKassa-Model-Confirmation-AbstractConfirmation.md)
+* Inherited From: [\testottest\Model\Confirmation\AbstractConfirmation](../classes/YooKassa-Model-Confirmation-AbstractConfirmation.md)
 
 ##### Parameters:
 | Type | Name | Description |

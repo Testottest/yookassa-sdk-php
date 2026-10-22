@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Common;
+namespace Tests\testottest\Common;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Common\AbstractObject;
+use testottest\Common\AbstractObject;
 
 class AbstractObjectTest extends TestCase
 {

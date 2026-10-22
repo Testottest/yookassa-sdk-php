@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Request\Deals\CreateDealRequestSerializer
-### Namespace: [\Testottest\Request\Deals](../namespaces/yookassa-request-deals.md)
+# Class: \testottest\Request\Deals\CreateDealRequestSerializer
+### Namespace: [\testottest\Request\Deals](../namespaces/yookassa-request-deals.md)
 ---
 **Summary:**
 
@@ -23,7 +23,7 @@
 * File: [lib/Request/Deals/CreateDealRequestSerializer.php](../../lib/Request/Deals/CreateDealRequestSerializer.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \Testottest\Request\Deals\CreateDealRequestSerializer
+  * \testottest\Request\Deals\CreateDealRequestSerializer
 
 ---
 ## Methods
@@ -31,7 +31,7 @@
 #### public serialize() : array
 
 ```php
-public serialize(\Testottest\Request\Deals\CreateDealRequestInterface|\Testottest\Common\AbstractRequest $request) : array
+public serialize(\testottest\Request\Deals\CreateDealRequestInterface|\testottest\Common\AbstractRequest $request) : array
 ```
 
 **Summary**
@@ -39,12 +39,12 @@ public serialize(\Testottest\Request\Deals\CreateDealRequestInterface|\Testottes
 Формирует ассоциативный массив данных из объекта запроса
 
 **Details:**
-* Inherited From: [\Testottest\Request\Deals\CreateDealRequestSerializer](../classes/YooKassa-Request-Deals-CreateDealRequestSerializer.md)
+* Inherited From: [\testottest\Request\Deals\CreateDealRequestSerializer](../classes/YooKassa-Request-Deals-CreateDealRequestSerializer.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Request\Deals\CreateDealRequestInterface OR \Testottest\Common\AbstractRequest</code> | request  | Объект запроса |
+| <code lang="php">\testottest\Request\Deals\CreateDealRequestInterface OR \testottest\Common\AbstractRequest</code> | request  | Объект запроса |
 
 **Returns:** array - Массив данных для дальнейшего кодирования в JSON
 

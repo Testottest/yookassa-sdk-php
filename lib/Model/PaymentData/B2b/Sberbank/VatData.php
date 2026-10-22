@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\PaymentData\B2b\Sberbank;
+namespace testottest\Model\PaymentData\B2b\Sberbank;
 
-use Testottest\Common\AbstractObject;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\MonetaryAmount;
+use testottest\Common\AbstractObject;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\TypeCast;
+use testottest\Model\AmountInterface;
+use testottest\Model\MonetaryAmount;
 
 /**
  * Данные об НДС

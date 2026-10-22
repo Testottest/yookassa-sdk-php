@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Testottest\Model\PaymentMethod;
+namespace Tests\testottest\Model\PaymentMethod;
 
-use Testottest\Model\PaymentMethod\PaymentMethodMobileBalance;
+use testottest\Model\PaymentMethod\PaymentMethodMobileBalance;
 
 abstract class AbstractPaymentMethodPhoneTest extends AbstractPaymentMethodTest
 {

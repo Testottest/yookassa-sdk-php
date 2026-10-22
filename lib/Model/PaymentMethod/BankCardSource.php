@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\PaymentMethod;
+namespace testottest\Model\PaymentMethod;
 
 
-use Testottest\Common\AbstractEnum;
+use testottest\Common\AbstractEnum;
 
 /**
  * BankCardSource - Источник данных банковской карты

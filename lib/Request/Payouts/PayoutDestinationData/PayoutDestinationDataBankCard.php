@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payouts\PayoutDestinationData;
+namespace testottest\Request\Payouts\PayoutDestinationData;
 
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Model\PaymentMethodType;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Model\PaymentMethodType;
 
 /**
  * Класс PayoutDestinationDataBankCard

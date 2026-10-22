@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Model\PaymentMethod\PaymentMethodAlfaBank
-### Namespace: [\Testottest\Model\PaymentMethod](../namespaces/yookassa-model-paymentmethod.md)
+# Class: \testottest\Model\PaymentMethod\PaymentMethodAlfaBank
+### Namespace: [\testottest\Model\PaymentMethod](../namespaces/yookassa-model-paymentmethod.md)
 ---
 **Summary:**
 
@@ -55,9 +55,9 @@
 * File: [lib/Model/PaymentMethod/PaymentMethodAlfaBank.php](../../lib/Model/PaymentMethod/PaymentMethodAlfaBank.php)
 * Package: Default
 * Class Hierarchy:  
-  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
-  * \Testottest\Model\PaymentMethod\PaymentMethodAlfaBank
+  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * [\testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+  * \testottest\Model\PaymentMethod\PaymentMethodAlfaBank
 
 ---
 ## Properties
@@ -71,7 +71,7 @@
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 
 <a name="property_login"></a>
@@ -96,7 +96,7 @@
 **Type:** <a href="../bool"><abbr title="bool">bool</abbr></a>
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 
 <a name="property_title"></a>
@@ -109,7 +109,7 @@
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 
 <a name="property_type"></a>
@@ -135,7 +135,7 @@ public __construct() : mixed
 ```
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentMethod\PaymentMethodAlfaBank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodAlfaBank.md)
+* Inherited From: [\testottest\Model\PaymentMethod\PaymentMethodAlfaBank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodAlfaBank.md)
 
 **Returns:** mixed - 
 
@@ -152,7 +152,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -174,7 +174,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -196,7 +196,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -219,7 +219,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -241,7 +241,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -263,7 +263,7 @@ public getId() : string
 Устанавливает идентификатор записи о сохраненных платежных данных
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 **Returns:** string - Идентификатор записи о сохраненных платежных данных
 
@@ -280,7 +280,7 @@ public getLogin() : string
 Возвращает имя пользователя в Альфа-Клике
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentMethod\PaymentMethodAlfaBank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodAlfaBank.md)
+* Inherited From: [\testottest\Model\PaymentMethod\PaymentMethodAlfaBank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodAlfaBank.md)
 
 **Returns:** string - Имя пользователя в Альфа-Клике
 
@@ -297,7 +297,7 @@ public getSaved() : bool
 Возвращает признак возможности многократного использования
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 **Returns:** bool - Возможность многократного использования
 
@@ -314,7 +314,7 @@ public getTitle() : string|null
 Возвращает название метода оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 **Returns:** string|null - Название метода оплаты
 
@@ -331,7 +331,7 @@ public getType() : string
 Возвращает тип объекта
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 **Returns:** string - Тип объекта
 
@@ -348,7 +348,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -365,7 +365,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -387,7 +387,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -409,7 +409,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -432,7 +432,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -454,7 +454,7 @@ public setId(string $value) : mixed
 Возвращает идентификатор записи о сохраненных платежных данных
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -476,7 +476,7 @@ public setLogin(string $value) : mixed
 Устанавливает имя пользователя в Альфа-Клике
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentMethod\PaymentMethodAlfaBank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodAlfaBank.md)
+* Inherited From: [\testottest\Model\PaymentMethod\PaymentMethodAlfaBank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodAlfaBank.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -498,7 +498,7 @@ public setSaved(bool $value) : mixed
 Устанавливает признак возможности многократного использования
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -520,7 +520,7 @@ public setTitle(string $value) : mixed
 Устанавливает название метода оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -543,7 +543,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -560,7 +560,7 @@ protected _setType(string $value) : mixed
 Устанавливает тип объекта
 
 **Details:**
-* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -582,7 +582,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

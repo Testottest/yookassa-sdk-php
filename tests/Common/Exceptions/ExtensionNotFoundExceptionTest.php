@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Tests\Testottest\Common\Exceptions;
+namespace Tests\testottest\Common\Exceptions;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Common\Exceptions\ExtensionNotFoundException;
+use testottest\Common\Exceptions\ExtensionNotFoundException;
 
 class ExtensionNotFoundExceptionTest extends TestCase
 {

@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Deals;
+namespace testottest\Request\Deals;
 
-use Testottest\Model\Metadata;
+use testottest\Model\Metadata;
 
 /**
  * Interface DealInterface

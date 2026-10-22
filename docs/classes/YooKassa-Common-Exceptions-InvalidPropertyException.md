@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Common\Exceptions\InvalidPropertyException
-### Namespace: [\Testottest\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
+# Class: \testottest\Common\Exceptions\InvalidPropertyException
+### Namespace: [\testottest\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
 ---
 
 ---
@@ -21,7 +21,7 @@
 * Package: Default
 * Class Hierarchy: 
   * [\InvalidArgumentException](\InvalidArgumentException)
-  * \Testottest\Common\Exceptions\InvalidPropertyException
+  * \testottest\Common\Exceptions\InvalidPropertyException
 
 ---
 ## Methods
@@ -37,7 +37,7 @@ public __construct(string $message = &quot;&quot;, int $code, string $property =
 InvalidValueException constructor.
 
 **Details:**
-* Inherited From: [\Testottest\Common\Exceptions\InvalidPropertyException](../classes/YooKassa-Common-Exceptions-InvalidPropertyException.md)
+* Inherited From: [\testottest\Common\Exceptions\InvalidPropertyException](../classes/YooKassa-Common-Exceptions-InvalidPropertyException.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -57,7 +57,7 @@ public getProperty() : string
 ```
 
 **Details:**
-* Inherited From: [\Testottest\Common\Exceptions\InvalidPropertyException](../classes/YooKassa-Common-Exceptions-InvalidPropertyException.md)
+* Inherited From: [\testottest\Common\Exceptions\InvalidPropertyException](../classes/YooKassa-Common-Exceptions-InvalidPropertyException.md)
 
 **Returns:** string - 
 

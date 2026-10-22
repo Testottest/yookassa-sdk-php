@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Testottest\Common\Exceptions;
+namespace Tests\testottest\Common\Exceptions;
 
-use Testottest\Common\Exceptions\NotFoundException;
+use testottest\Common\Exceptions\NotFoundException;
 
 class NotFoundExceptionTest extends AbstractApiRequestExceptionTest
 {

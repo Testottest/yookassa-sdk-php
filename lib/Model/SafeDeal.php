@@ -24,16 +24,16 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model;
+namespace testottest\Model;
 
 use DateTime;
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\Deal\DealBalanceAmount;
-use Testottest\Model\Deal\DealStatus;
-use Testottest\Model\Deal\DealType;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\TypeCast;
+use testottest\Model\Deal\DealBalanceAmount;
+use testottest\Model\Deal\DealStatus;
+use testottest\Model\Deal\DealType;
 
 /**
  * Class SafeBaseDeal

@@ -3,10 +3,10 @@
 namespace Model\Confirmation;
 
 
-use Tests\Testottest\Model\Confirmation\AbstractConfirmationTest;
-use Testottest\Model\Confirmation\AbstractConfirmation;
-use Testottest\Model\Confirmation\ConfirmationEmbedded;
-use Testottest\Model\ConfirmationType;
+use Tests\testottest\Model\Confirmation\AbstractConfirmationTest;
+use testottest\Model\Confirmation\AbstractConfirmation;
+use testottest\Model\Confirmation\ConfirmationEmbedded;
+use testottest\Model\ConfirmationType;
 
 class ConfirmationEmbeddedTest extends AbstractConfirmationTest
 {

@@ -1,6 +1,6 @@
 <?php
 //
-//namespace Testottest;
+//namespace testottest;
 //
 //use PHPUnit\Framework\TestCase;
 //

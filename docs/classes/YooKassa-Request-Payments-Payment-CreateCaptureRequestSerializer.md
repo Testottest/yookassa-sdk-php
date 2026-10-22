@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Request\Payments\Payment\CreateCaptureRequestSerializer
-### Namespace: [\Testottest\Request\Payments\Payment](../namespaces/yookassa-request-payments-payment.md)
+# Class: \testottest\Request\Payments\Payment\CreateCaptureRequestSerializer
+### Namespace: [\testottest\Request\Payments\Payment](../namespaces/yookassa-request-payments-payment.md)
 ---
 **Summary:**
 
@@ -23,7 +23,7 @@
 * File: [lib/Request/Payments/Payment/CreateCaptureRequestSerializer.php](../../lib/Request/Payments/Payment/CreateCaptureRequestSerializer.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \Testottest\Request\Payments\Payment\CreateCaptureRequestSerializer
+  * \testottest\Request\Payments\Payment\CreateCaptureRequestSerializer
 
 ---
 ## Methods
@@ -31,7 +31,7 @@
 #### public serialize() : array
 
 ```php
-public serialize(\Testottest\Request\Payments\Payment\CreateCaptureRequestInterface $request) : array
+public serialize(\testottest\Request\Payments\Payment\CreateCaptureRequestInterface $request) : array
 ```
 
 **Summary**
@@ -39,12 +39,12 @@ public serialize(\Testottest\Request\Payments\Payment\CreateCaptureRequestInterf
 Сериализует объект запроса к API на подтверждение заказа в ассоциативный массив
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\Payment\CreateCaptureRequestSerializer](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestSerializer.md)
+* Inherited From: [\testottest\Request\Payments\Payment\CreateCaptureRequestSerializer](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestSerializer.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Request\Payments\Payment\CreateCaptureRequestInterface</code> | request  | Сериализуемый объект запроса |
+| <code lang="php">\testottest\Request\Payments\Payment\CreateCaptureRequestInterface</code> | request  | Сериализуемый объект запроса |
 
 **Returns:** array - Ассоциативный массив содержащий информацию для отправки в API
 

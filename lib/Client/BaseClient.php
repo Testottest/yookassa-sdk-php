@@ -23,27 +23,27 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Client;
+namespace testottest\Client;
 
 use Exception;
 use Psr\Log\LoggerInterface;
-use Testottest\Common\Exceptions\ApiConnectionException;
-use Testottest\Common\Exceptions\ApiException;
-use Testottest\Common\Exceptions\AuthorizeException;
-use Testottest\Common\Exceptions\BadApiRequestException;
-use Testottest\Common\Exceptions\ExtensionNotFoundException;
-use Testottest\Common\Exceptions\ForbiddenException;
-use Testottest\Common\Exceptions\InternalServerError;
-use Testottest\Common\Exceptions\JsonException;
-use Testottest\Common\Exceptions\NotFoundException;
-use Testottest\Common\Exceptions\ResponseProcessingException;
-use Testottest\Common\Exceptions\TooManyRequestsException;
-use Testottest\Common\Exceptions\UnauthorizedException;
-use Testottest\Common\LoggerWrapper;
-use Testottest\Common\ResponseObject;
-use Testottest\Helpers\Config\ConfigurationLoader;
-use Testottest\Helpers\Config\ConfigurationLoaderInterface;
-use Testottest\Helpers\SecurityHelper;
+use testottest\Common\Exceptions\ApiConnectionException;
+use testottest\Common\Exceptions\ApiException;
+use testottest\Common\Exceptions\AuthorizeException;
+use testottest\Common\Exceptions\BadApiRequestException;
+use testottest\Common\Exceptions\ExtensionNotFoundException;
+use testottest\Common\Exceptions\ForbiddenException;
+use testottest\Common\Exceptions\InternalServerError;
+use testottest\Common\Exceptions\JsonException;
+use testottest\Common\Exceptions\NotFoundException;
+use testottest\Common\Exceptions\ResponseProcessingException;
+use testottest\Common\Exceptions\TooManyRequestsException;
+use testottest\Common\Exceptions\UnauthorizedException;
+use testottest\Common\LoggerWrapper;
+use testottest\Common\ResponseObject;
+use testottest\Helpers\Config\ConfigurationLoader;
+use testottest\Helpers\Config\ConfigurationLoaderInterface;
+use testottest\Helpers\SecurityHelper;
 
 class BaseClient
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Testottest\Common\Exceptions;
+namespace Tests\testottest\Common\Exceptions;
 
-use Testottest\Common\Exceptions\BadApiRequestException;
+use testottest\Common\Exceptions\BadApiRequestException;
 
 class BadApiRequestExceptionTest extends AbstractApiRequestExceptionTest
 {

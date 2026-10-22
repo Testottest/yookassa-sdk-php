@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Testottest\Model\PaymentMethod;
+namespace Tests\testottest\Model\PaymentMethod;
 
-use Testottest\Helpers\Random;
-use Testottest\Model\PaymentMethod\PaymentMethodAlfaBank;
-use Testottest\Model\PaymentMethodType;
+use testottest\Helpers\Random;
+use testottest\Model\PaymentMethod\PaymentMethodAlfaBank;
+use testottest\Model\PaymentMethodType;
 
 class PaymentMethodAlfaBankTest extends AbstractPaymentMethodTest
 {

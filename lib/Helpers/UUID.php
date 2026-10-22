@@ -1,6 +1,6 @@
 <?php
 
-namespace Testottest\Helpers;
+namespace testottest\Helpers;
 
 
 class UUID

@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Testottest\Request\Deals;
+namespace Tests\testottest\Request\Deals;
 
-use Testottest\Request\Deals\DealResponse;
+use testottest\Request\Deals\DealResponse;
 
 class DealResponseTest extends AbstractDealResponseTest
 {

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: RecipientInterface
-### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
+### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -51,7 +51,7 @@ public getAccountId() : string
 Возвращает идентификатор магазина
 
 **Details:**
-* Inherited From: [\Testottest\Model\RecipientInterface](../classes/YooKassa-Model-RecipientInterface.md)
+* Inherited From: [\testottest\Model\RecipientInterface](../classes/YooKassa-Model-RecipientInterface.md)
 
 **Returns:** string - Идентификатор магазина
 
@@ -72,7 +72,7 @@ public getGatewayId() : string
 Идентификатор шлюза используется для разделения потоков платежей в рамках одного аккаунта.
 
 **Details:**
-* Inherited From: [\Testottest\Model\RecipientInterface](../classes/YooKassa-Model-RecipientInterface.md)
+* Inherited From: [\testottest\Model\RecipientInterface](../classes/YooKassa-Model-RecipientInterface.md)
 
 **Returns:** string - Идентификатор шлюза
 

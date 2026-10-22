@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\PaymentData;
+namespace testottest\Model\PaymentData;
 
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Model\PaymentMethodType;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Model\PaymentMethodType;
 
 /**
  * PaymentDataBankCard

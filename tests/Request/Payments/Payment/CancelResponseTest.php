@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Request\Payments\Payment;
+namespace Tests\testottest\Request\Payments\Payment;
 
-use Tests\Testottest\Request\Payments\AbstractPaymentResponseTest;
-use Testottest\Request\Payments\Payment\CancelResponse;
+use Tests\testottest\Request\Payments\AbstractPaymentResponseTest;
+use testottest\Request\Payments\Payment\CancelResponse;
 
 class CancelResponseTest extends AbstractPaymentResponseTest
 {

@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payments;
+namespace testottest\Request\Payments;
 
 use Exception;
-use Testottest\Common\AbstractObject;
-use Testottest\Model\PaymentInterface;
+use testottest\Common\AbstractObject;
+use testottest\Model\PaymentInterface;
 
 /**
  * Класс объекта ответа от API со списком платежей магазина

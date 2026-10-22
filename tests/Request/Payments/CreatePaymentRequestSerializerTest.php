@@ -1,37 +1,37 @@
 <?php
 
-namespace Tests\Testottest\Request\Payments;
+namespace Tests\testottest\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\Airline;
-use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
-use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesRedirect;
-use Testottest\Model\ConfirmationType;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\Leg;
-use Testottest\Model\Passenger;
-use Testottest\Model\Payment;
-use Testottest\Model\PaymentData\B2b\Sberbank\VatDataRate;
-use Testottest\Model\PaymentData\B2b\Sberbank\VatDataType;
-use Testottest\Model\PaymentData\PaymentDataAlfabank;
-use Testottest\Model\PaymentData\PaymentDataB2bSberbank;
-use Testottest\Model\PaymentData\PaymentDataGooglePay;
-use Testottest\Model\PaymentData\PaymentDataApplePay;
-use Testottest\Model\PaymentData\PaymentDataBankCard;
-use Testottest\Model\PaymentData\PaymentDataBankCardCard;
-use Testottest\Model\PaymentData\PaymentDataMobileBalance;
-use Testottest\Model\PaymentData\PaymentDataInstallments;
-use Testottest\Model\PaymentData\PaymentDataQiwi;
-use Testottest\Model\PaymentData\PaymentDataSberbank;
-use Testottest\Model\PaymentData\PaymentDataWebmoney;
-use Testottest\Model\PaymentData\PaymentDataYooMoney;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Model\Receipt\PaymentMode;
-use Testottest\Model\Receipt\PaymentSubject;
-use Testottest\Model\TransferStatus;
-use Testottest\Request\Payments\CreatePaymentRequest;
-use Testottest\Request\Payments\CreatePaymentRequestSerializer;
+use testottest\Helpers\Random;
+use testottest\Model\Airline;
+use testottest\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
+use testottest\Model\ConfirmationAttributes\ConfirmationAttributesRedirect;
+use testottest\Model\ConfirmationType;
+use testottest\Model\CurrencyCode;
+use testottest\Model\Leg;
+use testottest\Model\Passenger;
+use testottest\Model\Payment;
+use testottest\Model\PaymentData\B2b\Sberbank\VatDataRate;
+use testottest\Model\PaymentData\B2b\Sberbank\VatDataType;
+use testottest\Model\PaymentData\PaymentDataAlfabank;
+use testottest\Model\PaymentData\PaymentDataB2bSberbank;
+use testottest\Model\PaymentData\PaymentDataGooglePay;
+use testottest\Model\PaymentData\PaymentDataApplePay;
+use testottest\Model\PaymentData\PaymentDataBankCard;
+use testottest\Model\PaymentData\PaymentDataBankCardCard;
+use testottest\Model\PaymentData\PaymentDataMobileBalance;
+use testottest\Model\PaymentData\PaymentDataInstallments;
+use testottest\Model\PaymentData\PaymentDataQiwi;
+use testottest\Model\PaymentData\PaymentDataSberbank;
+use testottest\Model\PaymentData\PaymentDataWebmoney;
+use testottest\Model\PaymentData\PaymentDataYooMoney;
+use testottest\Model\PaymentMethodType;
+use testottest\Model\Receipt\PaymentMode;
+use testottest\Model\Receipt\PaymentSubject;
+use testottest\Model\TransferStatus;
+use testottest\Request\Payments\CreatePaymentRequest;
+use testottest\Request\Payments\CreatePaymentRequestSerializer;
 
 class CreatePaymentRequestSerializerTest extends TestCase
 {

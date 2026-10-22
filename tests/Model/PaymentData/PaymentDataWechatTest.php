@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Model\PaymentData;
+namespace Tests\testottest\Model\PaymentData;
 
-use Testottest\Model\PaymentData\PaymentDataWechat;
-use Testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentData\PaymentDataWechat;
+use testottest\Model\PaymentMethodType;
 
 class PaymentDataWechatTest extends AbstractPaymentDataTest
 {

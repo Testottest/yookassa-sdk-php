@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Deals;
+namespace testottest\Request\Deals;
 
-use Testottest\Common\AbstractRequest;
+use testottest\Common\AbstractRequest;
 
 /**
  * Класс сериалайзера объекта запроса к API на создание сделки

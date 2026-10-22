@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Deals;
+namespace testottest\Request\Deals;
 
-use Testottest\Model\DealInterface;
-use Testottest\Model\SafeDeal;
+use testottest\Model\DealInterface;
+use testottest\Model\SafeDeal;
 
 /**
  * Абстрактный класс ответа от API, возвращающего информацию о платеже

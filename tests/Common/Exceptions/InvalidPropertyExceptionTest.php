@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Testottest\Common\Exceptions;
+namespace Tests\testottest\Common\Exceptions;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Common\Exceptions\InvalidPropertyException;
-use Testottest\Helpers\StringObject;
+use testottest\Common\Exceptions\InvalidPropertyException;
+use testottest\Helpers\StringObject;
 
 class InvalidPropertyExceptionTest extends TestCase
 {

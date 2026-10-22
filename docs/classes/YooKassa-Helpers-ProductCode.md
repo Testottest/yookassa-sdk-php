@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Helpers\ProductCode
-### Namespace: [\Testottest\Helpers](../namespaces/yookassa-helpers.md)
+# Class: \testottest\Helpers\ProductCode
+### Namespace: [\testottest\Helpers](../namespaces/yookassa-helpers.md)
 ---
 **Summary:**
 
@@ -14,8 +14,8 @@
 
 ```php
 $inputDataMatrix = '010463003407001221SxMGorvNuq6Wk91fgr92sdfsdfghfgjh';
-$productCode = new \Testottest\Helpers\ProductCode($inputDataMatrix);
-$receiptItem = new \Testottest\Model\ReceiptItem();
+$productCode = new \testottest\Helpers\ProductCode($inputDataMatrix);
+$receiptItem = new \testottest\Model\ReceiptItem();
 $receiptItem->setProductCode($productCode);
 
 var_dump($receiptItem);
@@ -25,8 +25,8 @@ var_dump($receiptItem);
 
 ```php
 $inputDataMatrix = '010463003407001221SxMGorvNuq6Wk91fgr92sdfsdfghfgjh';
-$receiptItem = new \Testottest\Model\ReceiptItem(array(
-    'product_code' => (string)(new \Testottest\Helpers\ProductCode($inputDataMatrix)),
+$receiptItem = new \testottest\Model\ReceiptItem(array(
+    'product_code' => (string)(new \testottest\Helpers\ProductCode($inputDataMatrix)),
 ));
 
 var_dump($receiptItem);
@@ -62,7 +62,7 @@ var_dump($receiptItem);
 * File: [lib/Helpers/ProductCode.php](../../lib/Helpers/ProductCode.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \Testottest\Helpers\ProductCode
+  * \testottest\Helpers\ProductCode
 
 * See Also:
   * [](https://github.com/yoomoney/yookassa-sdk-php/blob/master/lib/Helpers/ProductCode.php)
@@ -93,7 +93,7 @@ public __construct(string|null $codeDataMatrix = null, bool|string $usePrefix = 
 ProductCode constructor.
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
+* Inherited From: [\testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -116,7 +116,7 @@ public __toString() : string
 Приводит объект к строке
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
+* Inherited From: [\testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
 
 **Returns:** string - 
 
@@ -133,7 +133,7 @@ public calcResult() : string|null
 Формирует тег 1162.
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
+* Inherited From: [\testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
 
 **Returns:** string|null - Сформированный тег 1162.
 
@@ -150,7 +150,7 @@ public getGtin() : string
 Возвращает Глобальный номер товарной продукции
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
+* Inherited From: [\testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
 
 **Returns:** string - Глобальный номер товарной продукции
 
@@ -167,7 +167,7 @@ public getPrefix() : string
 Возвращает Код типа маркировки
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
+* Inherited From: [\testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
 
 **Returns:** string - Код типа маркировки
 
@@ -184,7 +184,7 @@ public getResult() : string
 Возвращает Сформированный тег 1162.
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
+* Inherited From: [\testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
 
 **Returns:** string - Сформированный тег 1162.
 
@@ -201,7 +201,7 @@ public getSerial() : string
 Возвращает Серийный номер товара
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
+* Inherited From: [\testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
 
 **Returns:** string - Серийный номер товара
 
@@ -218,16 +218,16 @@ public isUsePrefix() : bool
 Возвращает флаг использования кода типа маркировки
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
+* Inherited From: [\testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
 
 **Returns:** bool - 
 
 
 <a name="method_setGtin" class="anchor"></a>
-#### public setGtin() : \Testottest\Helpers\ProductCode
+#### public setGtin() : \testottest\Helpers\ProductCode
 
 ```php
-public setGtin(string $gtin) : \Testottest\Helpers\ProductCode
+public setGtin(string $gtin) : \testottest\Helpers\ProductCode
 ```
 
 **Summary**
@@ -235,21 +235,21 @@ public setGtin(string $gtin) : \Testottest\Helpers\ProductCode
 Устанавливает Глобальный номер товарной продукции
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
+* Inherited From: [\testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">string</code> | gtin  | Глобальный номер товарной продукции |
 
-**Returns:** \Testottest\Helpers\ProductCode - 
+**Returns:** \testottest\Helpers\ProductCode - 
 
 
 <a name="method_setPrefix" class="anchor"></a>
-#### public setPrefix() : \Testottest\Helpers\ProductCode
+#### public setPrefix() : \testottest\Helpers\ProductCode
 
 ```php
-public setPrefix(string|int $prefix) : \Testottest\Helpers\ProductCode
+public setPrefix(string|int $prefix) : \testottest\Helpers\ProductCode
 ```
 
 **Summary**
@@ -257,21 +257,21 @@ public setPrefix(string|int $prefix) : \Testottest\Helpers\ProductCode
 Устанавливает Код типа маркировки
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
+* Inherited From: [\testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">string OR int</code> | prefix  | Код типа маркировки |
 
-**Returns:** \Testottest\Helpers\ProductCode - 
+**Returns:** \testottest\Helpers\ProductCode - 
 
 
 <a name="method_setSerial" class="anchor"></a>
-#### public setSerial() : \Testottest\Helpers\ProductCode
+#### public setSerial() : \testottest\Helpers\ProductCode
 
 ```php
-public setSerial(string $serial) : \Testottest\Helpers\ProductCode
+public setSerial(string $serial) : \testottest\Helpers\ProductCode
 ```
 
 **Summary**
@@ -279,21 +279,21 @@ public setSerial(string $serial) : \Testottest\Helpers\ProductCode
 Устанавливает Серийный номер товара
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
+* Inherited From: [\testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">string</code> | serial  | Серийный номер товара |
 
-**Returns:** \Testottest\Helpers\ProductCode - 
+**Returns:** \testottest\Helpers\ProductCode - 
 
 
 <a name="method_setUsePrefix" class="anchor"></a>
-#### public setUsePrefix() : \Testottest\Helpers\ProductCode
+#### public setUsePrefix() : \testottest\Helpers\ProductCode
 
 ```php
-public setUsePrefix(bool $usePrefix) : \Testottest\Helpers\ProductCode
+public setUsePrefix(bool $usePrefix) : \testottest\Helpers\ProductCode
 ```
 
 **Summary**
@@ -301,14 +301,14 @@ public setUsePrefix(bool $usePrefix) : \Testottest\Helpers\ProductCode
 Устанавливает флаг использования кода типа маркировки
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
+* Inherited From: [\testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">bool</code> | usePrefix  | Флаг использования кода типа маркировки |
 
-**Returns:** \Testottest\Helpers\ProductCode - 
+**Returns:** \testottest\Helpers\ProductCode - 
 
 
 <a name="method_validate" class="anchor"></a>
@@ -323,7 +323,7 @@ public validate() : bool
 Проверяет заполненность необходимых свойств
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
+* Inherited From: [\testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md)
 
 **Returns:** bool - 
 

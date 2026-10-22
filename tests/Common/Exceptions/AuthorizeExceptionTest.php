@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Testottest\Common\Exceptions;
+namespace Tests\testottest\Common\Exceptions;
 
-use Testottest\Common\Exceptions\AuthorizeException;
+use testottest\Common\Exceptions\AuthorizeException;
 
 class AuthorizeExceptionTest extends ApiExceptionTest
 {

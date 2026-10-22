@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Model\Leg;
+use testottest\Model\Leg;
 
 class LegTest extends TestCase
 {

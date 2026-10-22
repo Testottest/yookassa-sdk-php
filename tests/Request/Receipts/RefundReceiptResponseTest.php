@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Testottest\Request\Receipts;
+namespace Tests\testottest\Request\Receipts;
 
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\Random;
-use Testottest\Model\Airline;
-use Testottest\Request\Receipts\RefundReceiptResponse;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\Random;
+use testottest\Model\Airline;
+use testottest\Request\Receipts\RefundReceiptResponse;
 
 class RefundReceiptResponseTest extends AbstractReceiptResponseTest
 {

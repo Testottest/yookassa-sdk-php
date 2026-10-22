@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Model\Payout\PayoutDestinationBankCardCard
-### Namespace: [\Testottest\Model\Payout](../namespaces/yookassa-model-payout.md)
+# Class: \testottest\Model\Payout\PayoutDestinationBankCardCard
+### Namespace: [\testottest\Model\Payout](../namespaces/yookassa-model-payout.md)
 ---
 **Summary:**
 
@@ -61,8 +61,8 @@
 * File: [lib/Model/Payout/PayoutDestinationBankCardCard.php](../../lib/Model/Payout/PayoutDestinationBankCardCard.php)
 * Package: Default
 * Class Hierarchy: 
-  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * \Testottest\Model\Payout\PayoutDestinationBankCardCard
+  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * \testottest\Model\Payout\PayoutDestinationBankCardCard
 
 ---
 ## Constants
@@ -187,7 +187,7 @@ public __construct(array $data = []) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -209,7 +209,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -231,7 +231,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -253,7 +253,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -276,7 +276,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -298,7 +298,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -320,7 +320,7 @@ public getCardType() : string
 Возвращает тип банковской карты
 
 **Details:**
-* Inherited From: [\Testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
+* Inherited From: [\testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
 
 **Returns:** string - Тип банковской карты
 
@@ -337,7 +337,7 @@ public getFirst6() : string
 Возвращает первые 6 цифр номера карты
 
 **Details:**
-* Inherited From: [\Testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
+* Inherited From: [\testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
 
 **Returns:** string - Первые 6 цифр номера карты
 
@@ -358,7 +358,7 @@ public getIssuerCountry() : string
 Возвращает код страны, в которой выпущена карта. Передается в формате ISO-3166 alpha-2
 
 **Details:**
-* Inherited From: [\Testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
+* Inherited From: [\testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
 
 **Returns:** string - Код страны, в которой выпущена карта
 
@@ -375,7 +375,7 @@ public getIssuerName() : string
 Возвращает наименование банка, выпустившего карту
 
 **Details:**
-* Inherited From: [\Testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
+* Inherited From: [\testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
 
 **Returns:** string - Наименование банка, выпустившего карту.
 
@@ -392,7 +392,7 @@ public getLast4() : string
 Возвращает последние 4 цифры номера карты
 
 **Details:**
-* Inherited From: [\Testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
+* Inherited From: [\testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
 
 **Returns:** string - Последние 4 цифры номера карты
 
@@ -409,7 +409,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -426,7 +426,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -448,7 +448,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -470,7 +470,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -493,7 +493,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -515,7 +515,7 @@ public setCardType(string $value) : mixed
 Устанавливает тип банковской карты
 
 **Details:**
-* Inherited From: [\Testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
+* Inherited From: [\testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -537,7 +537,7 @@ public setFirst6(string $value) : mixed
 Устанавливает первые 6 цифр номера карты
 
 **Details:**
-* Inherited From: [\Testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
+* Inherited From: [\testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -563,7 +563,7 @@ public setIssuerCountry(string $value) : mixed
 Устанавливает код страны, в которой выпущена карта. Передается в формате ISO-3166 alpha-2
 
 **Details:**
-* Inherited From: [\Testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
+* Inherited From: [\testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -585,7 +585,7 @@ public setIssuerName(string $value) : mixed
 Устанавливает наименование банка, выпустившего карту
 
 **Details:**
-* Inherited From: [\Testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
+* Inherited From: [\testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -607,7 +607,7 @@ public setLast4(string $value) : mixed
 Устанавливает последние 4 цифры номера карты
 
 **Details:**
-* Inherited From: [\Testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
+* Inherited From: [\testottest\Model\Payout\PayoutDestinationBankCardCard](../classes/YooKassa-Model-Payout-PayoutDestinationBankCardCard.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -630,7 +630,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -647,7 +647,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

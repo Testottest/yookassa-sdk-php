@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Testottest\Model\Payout;
+namespace Tests\testottest\Model\Payout;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Model\Payout\PayoutDestinationBankCardCard;
+use testottest\Helpers\Random;
+use testottest\Model\PaymentMethodType;
+use testottest\Model\Payout\PayoutDestinationBankCardCard;
 
 class PayoutDestinationBankCardCardTest extends TestCase
 {

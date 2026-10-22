@@ -24,27 +24,27 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payments;
+namespace testottest\Request\Payments;
 
 use InvalidArgumentException;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\AuthorizationDetails;
-use Testottest\Model\CancellationDetails;
-use Testottest\Model\Confirmation\ConfirmationCodeVerification;
-use Testottest\Model\Confirmation\ConfirmationEmbedded;
-use Testottest\Model\Confirmation\ConfirmationMobileApplication;
-use Testottest\Model\Confirmation\ConfirmationQr;
-use Testottest\Model\Confirmation\ConfirmationRedirect;
-use Testottest\Model\Confirmation\ConfirmationExternal;
-use Testottest\Model\ConfirmationType;
-use Testottest\Model\Metadata;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Payment;
-use Testottest\Model\PaymentInterface;
-use Testottest\Model\PaymentMethod\AbstractPaymentMethod;
-use Testottest\Model\PaymentMethod\PaymentMethodFactory;
-use Testottest\Model\Recipient;
-use Testottest\Model\Transfer;
+use testottest\Model\AmountInterface;
+use testottest\Model\AuthorizationDetails;
+use testottest\Model\CancellationDetails;
+use testottest\Model\Confirmation\ConfirmationCodeVerification;
+use testottest\Model\Confirmation\ConfirmationEmbedded;
+use testottest\Model\Confirmation\ConfirmationMobileApplication;
+use testottest\Model\Confirmation\ConfirmationQr;
+use testottest\Model\Confirmation\ConfirmationRedirect;
+use testottest\Model\Confirmation\ConfirmationExternal;
+use testottest\Model\ConfirmationType;
+use testottest\Model\Metadata;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Payment;
+use testottest\Model\PaymentInterface;
+use testottest\Model\PaymentMethod\AbstractPaymentMethod;
+use testottest\Model\PaymentMethod\PaymentMethodFactory;
+use testottest\Model\Recipient;
+use testottest\Model\Transfer;
 
 /**
  * Абстрактный класс ответа от API, возвращающего информацию о платеже

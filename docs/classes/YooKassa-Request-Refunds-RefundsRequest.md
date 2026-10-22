@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Request\Refunds\RefundsRequest
-### Namespace: [\Testottest\Request\Refunds](../namespaces/yookassa-request-refunds.md)
+# Class: \testottest\Request\Refunds\RefundsRequest
+### Namespace: [\testottest\Request\Refunds](../namespaces/yookassa-request-refunds.md)
 ---
 **Summary:**
 
@@ -79,11 +79,11 @@
 * File: [lib/Request/Refunds/RefundsRequest.php](../../lib/Request/Refunds/RefundsRequest.php)
 * Package: YooKassa
 * Class Hierarchy:  
-  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * [\Testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
-  * \Testottest\Request\Refunds\RefundsRequest
+  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+  * \testottest\Request\Refunds\RefundsRequest
 * Implements:
-  * [\Testottest\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
+  * [\testottest\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
 
 ---
 ## Constants
@@ -210,7 +210,7 @@ public __construct(array $data = []) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -232,7 +232,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -254,7 +254,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -276,7 +276,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -299,7 +299,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -310,10 +310,10 @@ public __unset(string $propertyName) : mixed
 
 
 <a name="method_builder" class="anchor"></a>
-#### public builder() : \Testottest\Request\Refunds\RefundsRequestBuilder
+#### public builder() : \testottest\Request\Refunds\RefundsRequestBuilder
 
 ```php
-Static public builder() : \Testottest\Request\Refunds\RefundsRequestBuilder
+Static public builder() : \testottest\Request\Refunds\RefundsRequestBuilder
 ```
 
 **Summary**
@@ -321,9 +321,9 @@ Static public builder() : \Testottest\Request\Refunds\RefundsRequestBuilder
 Возвращает инстанс билдера объектов запросов списка возвратов магазина
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
-**Returns:** \Testottest\Request\Refunds\RefundsRequestBuilder - Билдер объектов запросов списка возвратов
+**Returns:** \testottest\Request\Refunds\RefundsRequestBuilder - Билдер объектов запросов списка возвратов
 
 
 <a name="method_clearValidationError" class="anchor"></a>
@@ -338,7 +338,7 @@ public clearValidationError() : mixed
 Очищает статус валидации текущего запроса
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+* Inherited From: [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
 
 **Returns:** mixed - 
 
@@ -355,7 +355,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -377,7 +377,7 @@ public getCreatedAtGt() : \DateTime|null
 Возвращает дату создания от которой будут возвращены возвраты или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 **Returns:** \DateTime|null - Время создания, от (не включая)
 
@@ -394,7 +394,7 @@ public getCreatedAtGte() : \DateTime|null
 Возвращает дату создания от которой будут возвращены возвраты или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 **Returns:** \DateTime|null - Время создания, от (включительно)
 
@@ -411,7 +411,7 @@ public getCreatedAtLt() : \DateTime|null
 Возвращает дату создания до которой будут возвращены возвраты или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 **Returns:** \DateTime|null - Время создания, до (не включая)
 
@@ -428,7 +428,7 @@ public getCreatedAtLte() : \DateTime|null
 Возвращает дату создания до которой будут возвращены возвраты или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 **Returns:** \DateTime|null - Время создания, до (включительно)
 
@@ -445,7 +445,7 @@ public getCursor() : string|null
 Возвращает токен для получения следующей страницы выборки
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 **Returns:** string|null - Токен для получения следующей страницы выборки
 
@@ -462,7 +462,7 @@ public getLastValidationError() : string
 Возвращает последнюю ошибку валидации
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+* Inherited From: [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
 
 **Returns:** string - Последняя произошедшая ошибка валидации
 
@@ -479,7 +479,7 @@ public getLimit() : int|null
 Ограничение количества объектов платежа
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 **Returns:** int|null - Ограничение количества объектов платежа
 
@@ -496,7 +496,7 @@ public getPaymentId() : string|null
 Возвращает идентификатор платежа если он задан или null
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 **Returns:** string|null - Идентификатор платежа
 
@@ -513,7 +513,7 @@ public getStatus() : string|null
 Возвращает статус выбираемых возвратов или null, если он до этого не был установлен
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 **Returns:** string|null - Статус выбираемых возвратов
 
@@ -530,7 +530,7 @@ public hasCreatedAtGt() : bool
 Проверяет, была ли установлена дата создания от которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -547,7 +547,7 @@ public hasCreatedAtGte() : bool
 Проверяет, была ли установлена дата создания от которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -564,7 +564,7 @@ public hasCreatedAtLt() : bool
 Проверяет, была ли установлена дата создания до которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -581,7 +581,7 @@ public hasCreatedAtLte() : bool
 Проверяет, была ли установлена дата создания до которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -598,7 +598,7 @@ public hasCursor() : bool
 Проверяет, был ли установлен токен следующей страницы
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 **Returns:** bool - True если токен был установлен, false если нет
 
@@ -615,7 +615,7 @@ public hasLimit() : bool
 Проверяет, было ли установлено ограничение количества объектов платежа
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 **Returns:** bool - True если было установлено, false если нет
 
@@ -632,7 +632,7 @@ public hasPaymentId() : bool
 Проверяет, был ли задан идентификатор платежа
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 **Returns:** bool - True если идентификатор был задан, false если нет
 
@@ -649,7 +649,7 @@ public hasStatus() : bool
 Проверяет, был ли установлен статус выбираемых возвратов
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 **Returns:** bool - True если статус был установлен, false если нет
 
@@ -666,7 +666,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -683,7 +683,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -705,7 +705,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -727,7 +727,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -750,7 +750,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -772,7 +772,7 @@ public setCreatedAtGt(\DateTime|string|int|null $value) : mixed
 Устанавливает дату создания от которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -782,8 +782,8 @@ public setCreatedAtGt(\DateTime|string|int|null $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
 **Returns:** mixed - 
 
@@ -800,7 +800,7 @@ public setCreatedAtGte(\DateTime|string|int|null $value) : mixed
 Устанавливает дату создания от которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -810,8 +810,8 @@ public setCreatedAtGte(\DateTime|string|int|null $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
 **Returns:** mixed - 
 
@@ -828,7 +828,7 @@ public setCreatedAtLt(\DateTime|string|int|null $value) : mixed
 Устанавливает дату создания до которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -838,8 +838,8 @@ public setCreatedAtLt(\DateTime|string|int|null $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
 **Returns:** mixed - 
 
@@ -856,7 +856,7 @@ public setCreatedAtLte(\DateTime|string|int|null $value) : mixed
 Устанавливает дату создания до которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -866,8 +866,8 @@ public setCreatedAtLte(\DateTime|string|int|null $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
 **Returns:** mixed - 
 
@@ -884,7 +884,7 @@ public setCursor(string $value) : mixed
 Устанавливает токен следующей страницы выборки
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -894,7 +894,7 @@ public setCursor(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
 
 **Returns:** mixed - 
 
@@ -911,7 +911,7 @@ public setLimit(int|null $value) : mixed
 Устанавливает ограничение количества объектов платежа
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -921,7 +921,7 @@ public setLimit(int|null $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается, если в метод было передано не целое число |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается, если в метод было передано не целое число |
 
 **Returns:** mixed - 
 
@@ -938,7 +938,7 @@ public setPaymentId(string|null $value) : mixed
 Устанавливает идентификатор платежа или null, если требуется его удалить
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -948,8 +948,8 @@ public setPaymentId(string|null $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если длина переданной строки не равна 36 символам |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
+| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если длина переданной строки не равна 36 символам |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
 
 **Returns:** mixed - 
 
@@ -966,7 +966,7 @@ public setStatus(string $value) : mixed
 Устанавливает статус выбираемых возвратов
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -976,8 +976,8 @@ public setStatus(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение не является валидным статусом |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
+| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение не является валидным статусом |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
 
 **Returns:** mixed - 
 
@@ -995,7 +995,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -1012,7 +1012,7 @@ public validate() : bool
 Проверяет валидность текущего объекта запроса
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
+* Inherited From: [\testottest\Request\Refunds\RefundsRequest](../classes/YooKassa-Request-Refunds-RefundsRequest.md)
 
 **Returns:** bool - True если объект валиден, false если нет
 
@@ -1029,7 +1029,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 
@@ -1046,7 +1046,7 @@ protected setValidationError(string $value) : mixed
 Устанавливает ошибку валидации
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+* Inherited From: [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |

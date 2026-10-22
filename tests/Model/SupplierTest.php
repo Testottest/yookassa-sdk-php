@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
-use Testottest\Helpers\ProductCode;
-use Testottest\Helpers\Random;
-use Testottest\Model\Supplier;
+use testottest\Helpers\ProductCode;
+use testottest\Helpers\Random;
+use testottest\Model\Supplier;
 use PHPUnit\Framework\TestCase;
 
 class SupplierTest extends TestCase

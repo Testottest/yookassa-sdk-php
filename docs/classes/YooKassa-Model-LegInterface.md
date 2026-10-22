@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: LegInterface
-### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
+### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
 ---
 ---
 ### Constants
@@ -37,7 +37,7 @@ public getDepartureAirport() : string
 Возвращает трёхбуквенный IATA-код аэропорта вылета
 
 **Details:**
-* Inherited From: [\Testottest\Model\LegInterface](../classes/YooKassa-Model-LegInterface.md)
+* Inherited From: [\testottest\Model\LegInterface](../classes/YooKassa-Model-LegInterface.md)
 
 **Returns:** string - Трёхбуквенный IATA-код аэропорта вылета
 
@@ -54,7 +54,7 @@ public getDestinationAirport() : string
 Возвращает трёхбуквенный IATA-код аэропорта прилёта
 
 **Details:**
-* Inherited From: [\Testottest\Model\LegInterface](../classes/YooKassa-Model-LegInterface.md)
+* Inherited From: [\testottest\Model\LegInterface](../classes/YooKassa-Model-LegInterface.md)
 
 **Returns:** string - Трёхбуквенный IATA-код аэропорта прилёта
 
@@ -71,7 +71,7 @@ public getDepartureDate() : string
 Возвращает дату вылета в формате YYYY-MM-DD ISO 8601:2004
 
 **Details:**
-* Inherited From: [\Testottest\Model\LegInterface](../classes/YooKassa-Model-LegInterface.md)
+* Inherited From: [\testottest\Model\LegInterface](../classes/YooKassa-Model-LegInterface.md)
 
 **Returns:** string - Дата вылета в формате YYYY-MM-DD ISO 8601:2004
 
@@ -88,7 +88,7 @@ public setDepartureAirport(string $value) : mixed
 Устанавливает трёхбуквенный IATA-код аэропорта вылета
 
 **Details:**
-* Inherited From: [\Testottest\Model\LegInterface](../classes/YooKassa-Model-LegInterface.md)
+* Inherited From: [\testottest\Model\LegInterface](../classes/YooKassa-Model-LegInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -110,7 +110,7 @@ public setDestinationAirport(string $value) : mixed
 Устанавливает трёхбуквенный IATA-код аэропорта прилёта
 
 **Details:**
-* Inherited From: [\Testottest\Model\LegInterface](../classes/YooKassa-Model-LegInterface.md)
+* Inherited From: [\testottest\Model\LegInterface](../classes/YooKassa-Model-LegInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -132,7 +132,7 @@ public setDepartureDate(\DateTime|string $value) : mixed
 Устанавливает дату вылета в формате YYYY-MM-DD ISO 8601:2004
 
 **Details:**
-* Inherited From: [\Testottest\Model\LegInterface](../classes/YooKassa-Model-LegInterface.md)
+* Inherited From: [\testottest\Model\LegInterface](../classes/YooKassa-Model-LegInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |

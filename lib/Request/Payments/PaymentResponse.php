@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payments;
+namespace testottest\Request\Payments;
 
 /**
  * Класс объекта ответа, возвращаемого API при запросе конкретного платежа

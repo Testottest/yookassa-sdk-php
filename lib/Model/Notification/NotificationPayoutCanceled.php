@@ -23,16 +23,16 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\Notification;
+namespace testottest\Model\Notification;
 
 
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Model\NotificationEventType;
-use Testottest\Model\NotificationType;
-use Testottest\Model\Payout;
-use Testottest\Model\PayoutInterface;
-use Testottest\Request\Payouts\PayoutResponse;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Model\NotificationEventType;
+use testottest\Model\NotificationType;
+use testottest\Model\Payout;
+use testottest\Model\PayoutInterface;
+use testottest\Request\Payouts\PayoutResponse;
 
 /**
  * Класс объекта, присылаемого API при изменении статуса выплаты на "canceled"

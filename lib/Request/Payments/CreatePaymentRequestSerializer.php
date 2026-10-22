@@ -24,25 +24,25 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payments;
+namespace testottest\Request\Payments;
 
-use Testottest\Model\AmountInterface;
-use Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesRedirect;
-use Testottest\Model\ConfirmationType;
-use Testottest\Model\LegInterface;
-use Testottest\Model\PassengerInterface;
-use Testottest\Model\PaymentData\AbstractPaymentData;
-use Testottest\Model\PaymentData\PaymentDataAlfabank;
-use Testottest\Model\PaymentData\PaymentDataB2bSberbank;
-use Testottest\Model\PaymentData\PaymentDataBankCard;
-use Testottest\Model\PaymentData\PaymentDataGooglePay;
-use Testottest\Model\PaymentData\PaymentDataSberbank;
-use Testottest\Model\PaymentData\PaymentDataYooMoney;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Model\ReceiptInterface;
-use Testottest\Model\ReceiptItem;
-use Testottest\Model\TransferInterface;
+use testottest\Model\AmountInterface;
+use testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use testottest\Model\ConfirmationAttributes\ConfirmationAttributesRedirect;
+use testottest\Model\ConfirmationType;
+use testottest\Model\LegInterface;
+use testottest\Model\PassengerInterface;
+use testottest\Model\PaymentData\AbstractPaymentData;
+use testottest\Model\PaymentData\PaymentDataAlfabank;
+use testottest\Model\PaymentData\PaymentDataB2bSberbank;
+use testottest\Model\PaymentData\PaymentDataBankCard;
+use testottest\Model\PaymentData\PaymentDataGooglePay;
+use testottest\Model\PaymentData\PaymentDataSberbank;
+use testottest\Model\PaymentData\PaymentDataYooMoney;
+use testottest\Model\PaymentMethodType;
+use testottest\Model\ReceiptInterface;
+use testottest\Model\ReceiptItem;
+use testottest\Model\TransferInterface;
 
 /**
  * Класс сериалайзера объекта запроса к API на проведение платежа

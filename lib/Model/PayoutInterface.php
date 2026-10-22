@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model;
+namespace testottest\Model;
 
 use DateTime;
-use Testottest\Model\PaymentMethod\AbstractPaymentMethod;
-use Testottest\Model\Payout\PayoutCancellationDetails;
-use Testottest\Model\Deal\PayoutDealInfo;
+use testottest\Model\PaymentMethod\AbstractPaymentMethod;
+use testottest\Model\Payout\PayoutCancellationDetails;
+use testottest\Model\Deal\PayoutDealInfo;
 
 /**
  * Interface DealInterface

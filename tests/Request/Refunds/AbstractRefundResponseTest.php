@@ -1,18 +1,18 @@
 <?php
 
-namespace Tests\Testottest\Request\Refunds;
+namespace Tests\testottest\Request\Refunds;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\Deal\RefundDealInfo;
-use Testottest\Model\Deal\SettlementPayoutPaymentType;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\ReceiptRegistrationStatus;
-use Testottest\Model\RefundStatus;
-use Testottest\Model\Source;
-use Testottest\Request\Refunds\AbstractRefundResponse;
+use testottest\Helpers\Random;
+use testottest\Model\AmountInterface;
+use testottest\Model\CurrencyCode;
+use testottest\Model\Deal\RefundDealInfo;
+use testottest\Model\Deal\SettlementPayoutPaymentType;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\ReceiptRegistrationStatus;
+use testottest\Model\RefundStatus;
+use testottest\Model\Source;
+use testottest\Request\Refunds\AbstractRefundResponse;
 
 abstract class AbstractRefundResponseTest extends TestCase
 {
@@ -114,7 +114,7 @@ abstract class AbstractRefundResponseTest extends TestCase
             self::assertEmpty($instance->getSources());
         } else {
             foreach ($instance->getSources() as $sources) {
-                self::assertInstanceOf('\Testottest\Model\Source', $sources);
+                self::assertInstanceOf('\testottest\Model\Source', $sources);
             }
         }
     }

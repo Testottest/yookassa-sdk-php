@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Testottest\Model\Deal;
+namespace Tests\testottest\Model\Deal;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\Deal\DealBalanceAmount;
+use testottest\Helpers\Random;
+use testottest\Model\CurrencyCode;
+use testottest\Model\Deal\DealBalanceAmount;
 
 class DealBalanceAmountTest extends TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Model\ConfirmationAttributes;
+namespace Tests\testottest\Model\ConfirmationAttributes;
 
-use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesQr;
-use Testottest\Model\ConfirmationType;
+use testottest\Model\ConfirmationAttributes\ConfirmationAttributesQr;
+use testottest\Model\ConfirmationType;
 
 class ConfirmationAttributesQrTest extends AbstractConfirmationAttributesTest
 {

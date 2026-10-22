@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Testottest\Common;
+namespace Tests\testottest\Common;
 
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LogLevel;
-use Testottest\Common\LoggerWrapper;
-use Testottest\Helpers\Random;
+use testottest\Common\LoggerWrapper;
+use testottest\Helpers\Random;
 
 class LoggerWrapperTest extends TestCase
 {

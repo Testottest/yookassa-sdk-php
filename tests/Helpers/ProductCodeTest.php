@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Testottest\Helpers;
+namespace Tests\testottest\Helpers;
 
-use Testottest\Helpers\ProductCode;
+use testottest\Helpers\ProductCode;
 
 class ProductCodeTest extends \PHPUnit_Framework_TestCase
 {

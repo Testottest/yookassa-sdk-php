@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payouts\PayoutDestinationData;
+namespace testottest\Request\Payouts\PayoutDestinationData;
 
-use Testottest\Model\Payout\AbstractPayoutDestination;
+use testottest\Model\Payout\AbstractPayoutDestination;
 
 /**
  * Данные используемые для создания метода оплаты.

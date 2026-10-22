@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: ApiClientInterface
-### Namespace: [\Testottest\Client](../namespaces/yookassa-client.md)
+### Namespace: [\testottest\Client](../namespaces/yookassa-client.md)
 ---
 **Summary:**
 
@@ -31,10 +31,10 @@ Interface ApiClientInterface
 ---
 ## Methods
 <a name="method_call" class="anchor"></a>
-#### public call() : \Testottest\Common\ResponseObject
+#### public call() : \testottest\Common\ResponseObject
 
 ```php
-public call(string $path, string $method, array $queryParams, string|null $httpBody = null, array $headers = []) : \Testottest\Common\ResponseObject
+public call(string $path, string $method, array $queryParams, string|null $httpBody = null, array $headers = []) : \testottest\Common\ResponseObject
 ```
 
 **Summary**
@@ -42,7 +42,7 @@ public call(string $path, string $method, array $queryParams, string|null $httpB
 Создает CURL запрос, получает и возвращает обработанный ответ
 
 **Details:**
-* Inherited From: [\Testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md)
+* Inherited From: [\testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -53,7 +53,7 @@ public call(string $path, string $method, array $queryParams, string|null $httpB
 | <code lang="php">string OR null</code> | httpBody  | Тело запроса |
 | <code lang="php">array</code> | headers  | Массив заголовков запроса |
 
-**Returns:** \Testottest\Common\ResponseObject - 
+**Returns:** \testottest\Common\ResponseObject - 
 
 
 <a name="method_setLogger" class="anchor"></a>
@@ -68,7 +68,7 @@ public setLogger(\Psr\Log\LoggerInterface|null $logger) : mixed
 Устанавливает объект для логирования
 
 **Details:**
-* Inherited From: [\Testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md)
+* Inherited From: [\testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -79,10 +79,10 @@ public setLogger(\Psr\Log\LoggerInterface|null $logger) : mixed
 
 
 <a name="method_getUserAgent" class="anchor"></a>
-#### public getUserAgent() : \Testottest\Client\UserAgent
+#### public getUserAgent() : \testottest\Client\UserAgent
 
 ```php
-public getUserAgent() : \Testottest\Client\UserAgent
+public getUserAgent() : \testottest\Client\UserAgent
 ```
 
 **Summary**
@@ -90,9 +90,9 @@ public getUserAgent() : \Testottest\Client\UserAgent
 Возвращает UserAgent
 
 **Details:**
-* Inherited From: [\Testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md)
+* Inherited From: [\testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md)
 
-**Returns:** \Testottest\Client\UserAgent - 
+**Returns:** \testottest\Client\UserAgent - 
 
 
 <a name="method_setShopId" class="anchor"></a>
@@ -107,7 +107,7 @@ public setShopId(string|int $shopId) : mixed
 Устанавливает shopId магазина
 
 **Details:**
-* Inherited From: [\Testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md)
+* Inherited From: [\testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -129,7 +129,7 @@ public setShopPassword(string $shopPassword) : mixed
 Устанавливает секретный ключ магазина
 
 **Details:**
-* Inherited From: [\Testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md)
+* Inherited From: [\testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -151,7 +151,7 @@ public setBearerToken(string $bearerToken) : mixed
 Устанавливает OAuth-токен магазина
 
 **Details:**
-* Inherited From: [\Testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md)
+* Inherited From: [\testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -173,7 +173,7 @@ public setConfig(array $config) : mixed
 Устанавливает настройки
 
 **Details:**
-* Inherited From: [\Testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md)
+* Inherited From: [\testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |

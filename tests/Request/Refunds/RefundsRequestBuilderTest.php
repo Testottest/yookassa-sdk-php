@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Testottest\Request\Refunds;
+namespace Tests\testottest\Request\Refunds;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Model\RefundStatus;
-use Testottest\Request\Refunds\RefundsRequest;
-use Testottest\Request\Refunds\RefundsRequestBuilder;
+use testottest\Model\RefundStatus;
+use testottest\Request\Refunds\RefundsRequest;
+use testottest\Request\Refunds\RefundsRequestBuilder;
 
 class RefundsRequestBuilderTest extends TestCase
 {

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
-### Namespace: [\Testottest\Request\Receipts](../namespaces/yookassa-request-receipts.md)
+# Class: \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+### Namespace: [\testottest\Request\Receipts](../namespaces/yookassa-request-receipts.md)
 ---
 **Summary:**
 
@@ -14,9 +14,9 @@
 
 ```php
 try {
-    $receiptBuilder = \Testottest\Request\Receipts\CreatePostReceiptRequest::builder();
-    $receiptBuilder->setType(\Testottest\Model\ReceiptType::PAYMENT)
-        ->setObjectId('24b94598-000f-5000-9000-1b68e7b15f3f', \Testottest\Model\ReceiptType::PAYMENT) // payment_id
+    $receiptBuilder = \testottest\Request\Receipts\CreatePostReceiptRequest::builder();
+    $receiptBuilder->setType(\testottest\Model\ReceiptType::PAYMENT)
+        ->setObjectId('24b94598-000f-5000-9000-1b68e7b15f3f', \testottest\Model\ReceiptType::PAYMENT) // payment_id
         ->setCustomer(array(
             'email' => 'john.doe@merchant.com',
             'phone' => '71111111111',
@@ -50,7 +50,7 @@ try {
 
     // Можно изменить данные, если нужно
     $request->setOnBehalfOf('159753');
-    $request->addItem(new \Testottest\Model\ReceiptItem(array(
+    $request->addItem(new \testottest\Model\ReceiptItem(array(
         'description' => 'Платок Gucci Новый',
         'quantity' => '1.00',
         'amount' => array(
@@ -110,43 +110,43 @@ var_dump($response);
 * File: [lib/Request/Receipts/CreatePostReceiptRequestBuilder.php](../../lib/Request/Receipts/CreatePostReceiptRequestBuilder.php)
 * Package: YooKassa
 * Class Hierarchy: 
-  * [\Testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
-  * \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+  * [\testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+  * \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 
 ---
 ## Properties
 <a name="property_amount"></a>
-#### protected $amount : \Testottest\Model\AmountInterface
+#### protected $amount : \testottest\Model\AmountInterface
 ---
 **Summary**
 
 Сумма чека
 
-**Type:** <a href="../classes/YooKassa-Model-AmountInterface.html"><abbr title="\Testottest\Model\AmountInterface">AmountInterface</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-AmountInterface.html"><abbr title="\testottest\Model\AmountInterface">AmountInterface</abbr></a>
 
 **Details:**
 
 
 <a name="property_currentObject"></a>
-#### protected $currentObject : \Testottest\Request\Receipts\CreatePostReceiptRequest
+#### protected $currentObject : \testottest\Request\Receipts\CreatePostReceiptRequest
 ---
 **Summary**
 
 Собираемый объект запроса
 
-**Type:** <a href="../classes/YooKassa-Request-Receipts-CreatePostReceiptRequest.html"><abbr title="\Testottest\Request\Receipts\CreatePostReceiptRequest">CreatePostReceiptRequest</abbr></a>
+**Type:** <a href="../classes/YooKassa-Request-Receipts-CreatePostReceiptRequest.html"><abbr title="\testottest\Request\Receipts\CreatePostReceiptRequest">CreatePostReceiptRequest</abbr></a>
 
 **Details:**
 
 
 <a name="property_customer"></a>
-#### protected $customer : \Testottest\Model\ReceiptCustomer
+#### protected $customer : \testottest\Model\ReceiptCustomer
 ---
 **Summary**
 
 Информация о плательщике
 
-**Type:** <a href="../classes/YooKassa-Model-ReceiptCustomer.html"><abbr title="\Testottest\Model\ReceiptCustomer">ReceiptCustomer</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-ReceiptCustomer.html"><abbr title="\testottest\Model\ReceiptCustomer">ReceiptCustomer</abbr></a>
 
 **Details:**
 
@@ -166,16 +166,16 @@ public __construct() : mixed
 Конструктор, инициализирует пустой запрос, который в будущем начнём собирать
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
 **Returns:** mixed - 
 
 
 <a name="method_addItem" class="anchor"></a>
-#### public addItem() : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+#### public addItem() : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 
 ```php
-public addItem(\Testottest\Model\ReceiptItemInterface|array $value) : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+public addItem(\testottest\Model\ReceiptItemInterface|array $value) : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 ```
 
 **Summary**
@@ -183,21 +183,21 @@ public addItem(\Testottest\Model\ReceiptItemInterface|array $value) : \Testottes
 Добавляет товар в чек
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
+* Inherited From: [\testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\ReceiptItemInterface OR array</code> | value  | Информация о товаре |
+| <code lang="php">\testottest\Model\ReceiptItemInterface OR array</code> | value  | Информация о товаре |
 
-**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
+**Returns:** \testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
 
 
 <a name="method_build" class="anchor"></a>
-#### public build() : \Testottest\Request\Receipts\CreatePostReceiptRequest|\Testottest\Common\AbstractRequest
+#### public build() : \testottest\Request\Receipts\CreatePostReceiptRequest|\testottest\Common\AbstractRequest
 
 ```php
-public build(array|null $options = null) : \Testottest\Request\Receipts\CreatePostReceiptRequest|\Testottest\Common\AbstractRequest
+public build(array|null $options = null) : \testottest\Request\Receipts\CreatePostReceiptRequest|\testottest\Common\AbstractRequest
 ```
 
 **Summary**
@@ -205,7 +205,7 @@ public build(array|null $options = null) : \Testottest\Request\Receipts\CreatePo
 Строит и возвращает объект запроса для отправки в API ЮKassa
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
+* Inherited From: [\testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -215,16 +215,16 @@ public build(array|null $options = null) : \Testottest\Request\Receipts\CreatePo
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidRequestException | Выбрасывается если собрать объект запроса не удалось |
+| \testottest\Common\Exceptions\InvalidRequestException | Выбрасывается если собрать объект запроса не удалось |
 
-**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequest|\Testottest\Common\AbstractRequest - Инстанс объекта запроса
+**Returns:** \testottest\Request\Receipts\CreatePostReceiptRequest|\testottest\Common\AbstractRequest - Инстанс объекта запроса
 
 
 <a name="method_setAmount" class="anchor"></a>
 #### public setAmount() : self
 
 ```php
-public setAmount(\Testottest\Model\AmountInterface|array|string $value) : self
+public setAmount(\testottest\Model\AmountInterface|array|string $value) : self
 ```
 
 **Summary**
@@ -232,12 +232,12 @@ public setAmount(\Testottest\Model\AmountInterface|array|string $value) : self
 Устанавливает сумму
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
+* Inherited From: [\testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\AmountInterface OR array OR string</code> | value  | Сумма оплаты |
+| <code lang="php">\testottest\Model\AmountInterface OR array OR string</code> | value  | Сумма оплаты |
 
 **Returns:** self - Инстанс билдера запросов
 
@@ -254,7 +254,7 @@ public setCurrency(string $value) : self
 Устанавливает валюту в которой будет происходить подтверждение оплаты заказа
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
+* Inherited From: [\testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -268,7 +268,7 @@ public setCurrency(string $value) : self
 #### public setCustomer() : self
 
 ```php
-public setCustomer(\Testottest\Model\ReceiptCustomerInterface|array $value) : self
+public setCustomer(\testottest\Model\ReceiptCustomerInterface|array $value) : self
 ```
 
 **Summary**
@@ -276,21 +276,21 @@ public setCustomer(\Testottest\Model\ReceiptCustomerInterface|array $value) : se
 Устанавливает информацию о пользователе
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
+* Inherited From: [\testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\ReceiptCustomerInterface OR array</code> | value  | Информация о плательщике |
+| <code lang="php">\testottest\Model\ReceiptCustomerInterface OR array</code> | value  | Информация о плательщике |
 
 **Returns:** self - Инстанс билдера запросов
 
 
 <a name="method_setItems" class="anchor"></a>
-#### public setItems() : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+#### public setItems() : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 
 ```php
-public setItems(\Testottest\Model\ReceiptItemInterface[]|array $value) : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+public setItems(\testottest\Model\ReceiptItemInterface[]|array $value) : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 ```
 
 **Summary**
@@ -298,21 +298,21 @@ public setItems(\Testottest\Model\ReceiptItemInterface[]|array $value) : \Testot
 Устанавливает список товаров чека
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
+* Inherited From: [\testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\ReceiptItemInterface[] OR array</code> | value  | Список товаров чека |
+| <code lang="php">\testottest\Model\ReceiptItemInterface[] OR array</code> | value  | Список товаров чека |
 
-**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
+**Returns:** \testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
 
 
 <a name="method_setObjectId" class="anchor"></a>
-#### public setObjectId() : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+#### public setObjectId() : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 
 ```php
-public setObjectId(string $value, string|null $type = null) : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+public setObjectId(string $value, string|null $type = null) : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 ```
 
 **Summary**
@@ -320,7 +320,7 @@ public setObjectId(string $value, string|null $type = null) : \Testottest\Reques
 Устанавливает Id объекта чека
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
+* Inherited From: [\testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -328,14 +328,14 @@ public setObjectId(string $value, string|null $type = null) : \Testottest\Reques
 | <code lang="php">string</code> | value  | Id объекта чека |
 | <code lang="php">string OR null</code> | type  | Тип объекта чека |
 
-**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
+**Returns:** \testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
 
 
 <a name="method_setObjectType" class="anchor"></a>
-#### public setObjectType() : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+#### public setObjectType() : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 
 ```php
-public setObjectType(string $value) : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+public setObjectType(string $value) : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 ```
 
 **Summary**
@@ -343,21 +343,21 @@ public setObjectType(string $value) : \Testottest\Request\Receipts\CreatePostRec
 Устанавливает тип объекта чека
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
+* Inherited From: [\testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">string</code> | value  | Тип объекта чека |
 
-**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
+**Returns:** \testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
 
 
 <a name="method_setOnBehalfOf" class="anchor"></a>
-#### public setOnBehalfOf() : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+#### public setOnBehalfOf() : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 
 ```php
-public setOnBehalfOf(string $value) : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+public setOnBehalfOf(string $value) : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 ```
 
 **Summary**
@@ -370,21 +370,21 @@ public setOnBehalfOf(string $value) : \Testottest\Request\Receipts\CreatePostRec
 Необходимо передавать, если вы используете решение ЮKassa для платформ.
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
+* Inherited From: [\testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">string</code> | value  | Идентификатор магазина, от имени которого нужно отправить чек |
 
-**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
+**Returns:** \testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
 
 
 <a name="method_setOptions" class="anchor"></a>
-#### public setOptions() : \Testottest\Common\AbstractRequestBuilder
+#### public setOptions() : \testottest\Common\AbstractRequestBuilder
 
 ```php
-public setOptions(array|\Traversable $options) : \Testottest\Common\AbstractRequestBuilder
+public setOptions(array|\Traversable $options) : \testottest\Common\AbstractRequestBuilder
 ```
 
 **Summary**
@@ -392,7 +392,7 @@ public setOptions(array|\Traversable $options) : \Testottest\Common\AbstractRequ
 Устанавливает свойства запроса из массива
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -403,16 +403,16 @@ public setOptions(array|\Traversable $options) : \Testottest\Common\AbstractRequ
 | Type | Description |
 | ---- | ----------- |
 | \InvalidArgumentException | Выбрасывается если аргумент не массив и не итерируемый объект |
-| \Testottest\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданныч в массиве настроек |
+| \testottest\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданныч в массиве настроек |
 
-**Returns:** \Testottest\Common\AbstractRequestBuilder - Инстанс текущего билдера запросов
+**Returns:** \testottest\Common\AbstractRequestBuilder - Инстанс текущего билдера запросов
 
 
 <a name="method_setSend" class="anchor"></a>
-#### public setSend() : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+#### public setSend() : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 
 ```php
-public setSend(bool $value) : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+public setSend(bool $value) : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 ```
 
 **Summary**
@@ -420,21 +420,21 @@ public setSend(bool $value) : \Testottest\Request\Receipts\CreatePostReceiptRequ
 Устанавливает признак отложенной отправки чека.
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
+* Inherited From: [\testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">bool</code> | value  | Признак отложенной отправки чека. |
 
-**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
+**Returns:** \testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
 
 
 <a name="method_setSettlements" class="anchor"></a>
-#### public setSettlements() : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+#### public setSettlements() : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 
 ```php
-public setSettlements(\Testottest\Model\SettlementInterface[]|array $value) : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+public setSettlements(\testottest\Model\SettlementInterface[]|array $value) : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 ```
 
 **Summary**
@@ -442,21 +442,21 @@ public setSettlements(\Testottest\Model\SettlementInterface[]|array $value) : \T
 Устанавливает массив оплат, обеспечивающих выдачу товара.
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
+* Inherited From: [\testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\SettlementInterface[] OR array</code> | value  | Массив оплат, обеспечивающих выдачу товара |
+| <code lang="php">\testottest\Model\SettlementInterface[] OR array</code> | value  | Массив оплат, обеспечивающих выдачу товара |
 
-**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
+**Returns:** \testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
 
 
 <a name="method_setTaxSystemCode" class="anchor"></a>
-#### public setTaxSystemCode() : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+#### public setTaxSystemCode() : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 
 ```php
-public setTaxSystemCode(int $value) : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+public setTaxSystemCode(int $value) : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 ```
 
 **Summary**
@@ -464,21 +464,21 @@ public setTaxSystemCode(int $value) : \Testottest\Request\Receipts\CreatePostRec
 Устанавливает код системы налогообложения
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
+* Inherited From: [\testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">int</code> | value  | Код системы налогообложения. Число 1-6. |
 
-**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
+**Returns:** \testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
 
 
 <a name="method_setType" class="anchor"></a>
-#### public setType() : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+#### public setType() : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 
 ```php
-public setType(string $value) : \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder
+public setType(string $value) : \testottest\Request\Receipts\CreatePostReceiptRequestBuilder
 ```
 
 **Summary**
@@ -486,21 +486,21 @@ public setType(string $value) : \Testottest\Request\Receipts\CreatePostReceiptRe
 Устанавливает тип чека в онлайн-кассе
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
+* Inherited From: [\testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">string</code> | value  | Тип чека в онлайн-кассе: приход "payment" или возврат "refund". |
 
-**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
+**Returns:** \testottest\Request\Receipts\CreatePostReceiptRequestBuilder - 
 
 
 <a name="method_initCurrentObject" class="anchor"></a>
-#### protected initCurrentObject() : \Testottest\Request\Receipts\CreatePostReceiptRequest
+#### protected initCurrentObject() : \testottest\Request\Receipts\CreatePostReceiptRequest
 
 ```php
-protected initCurrentObject() : \Testottest\Request\Receipts\CreatePostReceiptRequest
+protected initCurrentObject() : \testottest\Request\Receipts\CreatePostReceiptRequest
 ```
 
 **Summary**
@@ -508,9 +508,9 @@ protected initCurrentObject() : \Testottest\Request\Receipts\CreatePostReceiptRe
 Инициализирует объект запроса, который в дальнейшем будет собираться билдером
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
+* Inherited From: [\testottest\Request\Receipts\CreatePostReceiptRequestBuilder](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestBuilder.md)
 
-**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequest - Инстанс собираемого объекта запроса к API
+**Returns:** \testottest\Request\Receipts\CreatePostReceiptRequest - Инстанс собираемого объекта запроса к API
 
 
 

@@ -1,20 +1,20 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \Testottest\Helpers\Config
+# Namespace: \testottest\Helpers\Config
 
-## Parent: [\Testottest\Helpers](../namespaces/yookassa-helpers.md)
+## Parent: [\testottest\Helpers](../namespaces/yookassa-helpers.md)
 
 ### Interfaces
 
 | Name | Summary |
 | ---- | ------- |
-| [\Testottest\Helpers\Config\ConfigurationLoaderInterface](../classes/YooKassa-Helpers-Config-ConfigurationLoaderInterface.md) |  |
+| [\testottest\Helpers\Config\ConfigurationLoaderInterface](../classes/YooKassa-Helpers-Config-ConfigurationLoaderInterface.md) |  |
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\Testottest\Helpers\Config\ConfigurationLoader](../classes/YooKassa-Helpers-Config-ConfigurationLoader.md) |  |
+| [\testottest\Helpers\Config\ConfigurationLoader](../classes/YooKassa-Helpers-Config-ConfigurationLoader.md) |  |
 
 ---
 

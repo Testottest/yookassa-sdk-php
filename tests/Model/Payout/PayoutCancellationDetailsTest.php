@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Testottest\Model\Payout;
+namespace Tests\testottest\Model\Payout;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Model\CancellationDetails;
-use Testottest\Model\CancellationDetailsPartyCode;
-use Testottest\Model\CancellationDetailsReasonCode;
-use Testottest\Model\Payout\PayoutCancellationDetails;
+use testottest\Model\CancellationDetails;
+use testottest\Model\CancellationDetailsPartyCode;
+use testottest\Model\CancellationDetailsReasonCode;
+use testottest\Model\Payout\PayoutCancellationDetails;
 
 class PayoutCancellationDetailsTest extends TestCase
 {
