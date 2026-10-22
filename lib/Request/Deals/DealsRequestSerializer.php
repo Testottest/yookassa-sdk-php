@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Deals;
+namespace testottest\Request\Deals;
 
-use Testottest\Common\AbstractObject;
-use Testottest\Common\AbstractRequest;
+use testottest\Common\AbstractObject;
+use testottest\Common\AbstractRequest;
 
 /**
  * Класс сериализатора объектов запросов к API для получения списка платежей

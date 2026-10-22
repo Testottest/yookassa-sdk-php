@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model;
+namespace testottest\Model;
 
-use Testottest\Common\AbstractEnum;
+use testottest\Common\AbstractEnum;
 
 /**
  * ConfirmationType - Тип пользовательского процесса подтверждения платежа

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Client\CurlClient
-### Namespace: [\Testottest\Client](../namespaces/yookassa-client.md)
+# Class: \testottest\Client\CurlClient
+### Namespace: [\testottest\Client](../namespaces/yookassa-client.md)
 ---
 **Summary:**
 
@@ -42,9 +42,9 @@
 * File: [lib/Client/CurlClient.php](../../lib/Client/CurlClient.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \Testottest\Client\CurlClient
+  * \testottest\Client\CurlClient
 * Implements:
-  * [\Testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md)
+  * [\testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md)
 
 ---
 ## Methods
@@ -60,16 +60,16 @@ public __construct() : mixed
 CurlClient constructor.
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 **Returns:** mixed - 
 
 
 <a name="method_call" class="anchor"></a>
-#### public call() : \Testottest\Common\ResponseObject
+#### public call() : \testottest\Common\ResponseObject
 
 ```php
-public call(string $path, string $method, array $queryParams, string|null $httpBody = null, array $headers = []) : \Testottest\Common\ResponseObject
+public call(string $path, string $method, array $queryParams, string|null $httpBody = null, array $headers = []) : \testottest\Common\ResponseObject
 ```
 
 **Summary**
@@ -77,7 +77,7 @@ public call(string $path, string $method, array $queryParams, string|null $httpB
 Создает CURL запрос, получает и возвращает обработанный ответ
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -91,12 +91,12 @@ public call(string $path, string $method, array $queryParams, string|null $httpB
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\ApiConnectionException |  |
-| \Testottest\Common\Exceptions\ApiException |  |
-| \Testottest\Common\Exceptions\AuthorizeException |  |
-| \Testottest\Common\Exceptions\ExtensionNotFoundException |  |
+| \testottest\Common\Exceptions\ApiConnectionException |  |
+| \testottest\Common\Exceptions\ApiException |  |
+| \testottest\Common\Exceptions\AuthorizeException |  |
+| \testottest\Common\Exceptions\ExtensionNotFoundException |  |
 
-**Returns:** \Testottest\Common\ResponseObject - 
+**Returns:** \testottest\Common\ResponseObject - 
 
 ##### Tags
 | Tag | Version | Description |
@@ -115,7 +115,7 @@ public closeCurlConnection() : mixed
 Close connection
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 **Returns:** mixed - 
 
@@ -132,7 +132,7 @@ public getConfig() : mixed
 Возвращает настройки
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 **Returns:** mixed - 
 
@@ -149,7 +149,7 @@ public getConnectionTimeout() : int
 Возвращает значение параметра CURLOPT_CONNECTTIMEOUT
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 **Returns:** int - 
 
@@ -166,7 +166,7 @@ public getProxy() : string
 Возвращает настройки прокси
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 **Returns:** string - 
 
@@ -187,16 +187,16 @@ public getTimeout() : int
 Возвращает значение параметра CURLOPT_TIMEOUT
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 **Returns:** int - 
 
 
 <a name="method_getUserAgent" class="anchor"></a>
-#### public getUserAgent() : \Testottest\Client\UserAgent
+#### public getUserAgent() : \testottest\Client\UserAgent
 
 ```php
-public getUserAgent() : \Testottest\Client\UserAgent
+public getUserAgent() : \testottest\Client\UserAgent
 ```
 
 **Summary**
@@ -204,9 +204,9 @@ public getUserAgent() : \Testottest\Client\UserAgent
 Возвращает UserAgent
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
-**Returns:** \Testottest\Client\UserAgent - 
+**Returns:** \testottest\Client\UserAgent - 
 
 
 <a name="method_sendRequest" class="anchor"></a>
@@ -221,12 +221,12 @@ public sendRequest() : array
 Выполняет запрос, получает и возвращает обработанный ответ
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\ApiConnectionException |  |
+| \testottest\Common\Exceptions\ApiConnectionException |  |
 
 **Returns:** array - 
 
@@ -243,7 +243,7 @@ public setBearerToken(string $bearerToken) : $this
 Устанавливает OAuth-токен магазина
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -265,7 +265,7 @@ public setBody(string $method, string $httpBody) : mixed
 Устанавливает тело запроса
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -288,7 +288,7 @@ public setConfig(array $config) : mixed
 Устанавливает настройки
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -310,7 +310,7 @@ public setConnectionTimeout(int $connectionTimeout) : mixed
 Устанавливает значение параметра CURLOPT_CONNECTTIMEOUT
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -332,7 +332,7 @@ public setCurlOption(string $optionName, mixed $optionValue) : bool
 Устанавливает параметры CURL
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -355,7 +355,7 @@ public setKeepAlive(bool $keepAlive) : $this
 Устанавливает флаг сохранения соединения
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -377,7 +377,7 @@ public setLogger(\Psr\Log\LoggerInterface|null $logger) : mixed
 Устанавливает объект для логирования
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -399,7 +399,7 @@ public setProxy(string $proxy) : mixed
 Устанавливает настройки прокси
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -425,7 +425,7 @@ public setShopId(mixed $shopId) : $this
 Устанавливает shopId магазина
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -447,7 +447,7 @@ public setShopPassword(mixed $shopPassword) : $this
 Устанавливает секретный ключ магазина
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -469,7 +469,7 @@ public setTimeout(int $timeout) : mixed
 Устанавливает значение параметра CURLOPT_TIMEOUT
 
 **Details:**
-* Inherited From: [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
+* Inherited From: [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md)
 
 ##### Parameters:
 | Type | Name | Description |

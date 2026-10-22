@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Common\Exceptions;
+namespace Tests\testottest\Common\Exceptions;
 
-use Testottest\Common\Exceptions\InvalidPropertyException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Common\Exceptions\InvalidPropertyException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
 
 class InvalidPropertyValueTypeExceptionTest extends InvalidPropertyExceptionTest
 {

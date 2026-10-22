@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Common\AbstractPaymentRequest
-### Namespace: [\Testottest\Common](../namespaces/yookassa-common.md)
+# Class: \testottest\Common\AbstractPaymentRequest
+### Namespace: [\testottest\Common](../namespaces/yookassa-common.md)
 ---
 **Summary:**
 
@@ -57,9 +57,9 @@
 * File: [lib/Common/AbstractPaymentRequest.php](../../lib/Common/AbstractPaymentRequest.php)
 * Package: Default
 * Class Hierarchy:  
-  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * [\Testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
-  * \Testottest\Common\AbstractPaymentRequest
+  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+  * \testottest\Common\AbstractPaymentRequest
 
 ---
 ### Tags
@@ -70,37 +70,37 @@
 ---
 ## Properties
 <a name="property_amount"></a>
-#### public $amount : \Testottest\Model\AmountInterface
+#### public $amount : \testottest\Model\AmountInterface
 ---
 ***Description***
 
 Сумма
 
-**Type:** <a href="../classes/YooKassa-Model-AmountInterface.html"><abbr title="\Testottest\Model\AmountInterface">AmountInterface</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-AmountInterface.html"><abbr title="\testottest\Model\AmountInterface">AmountInterface</abbr></a>
 
 **Details:**
 
 
 <a name="property_receipt"></a>
-#### public $receipt : \Testottest\Model\ReceiptInterface
+#### public $receipt : \testottest\Model\ReceiptInterface
 ---
 ***Description***
 
 Данные фискального чека 54-ФЗ
 
-**Type:** <a href="../classes/YooKassa-Model-ReceiptInterface.html"><abbr title="\Testottest\Model\ReceiptInterface">ReceiptInterface</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-ReceiptInterface.html"><abbr title="\testottest\Model\ReceiptInterface">ReceiptInterface</abbr></a>
 
 **Details:**
 
 
 <a name="property_transfers"></a>
-#### public $transfers : \Testottest\Model\TransferInterface[]
+#### public $transfers : \testottest\Model\TransferInterface[]
 ---
 ***Description***
 
 Данные о распределении платежа между магазинами
 
-**Type:** <a href="../\Testottest\Model\TransferInterface[]"><abbr title="\Testottest\Model\TransferInterface[]">TransferInterface[]</abbr></a>
+**Type:** <a href="../\testottest\Model\TransferInterface[]"><abbr title="\testottest\Model\TransferInterface[]">TransferInterface[]</abbr></a>
 
 **Details:**
 
@@ -120,7 +120,7 @@ public __construct(array $data = []) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -142,7 +142,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -164,7 +164,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -186,7 +186,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -209,7 +209,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -231,7 +231,7 @@ public clearValidationError() : mixed
 Очищает статус валидации текущего запроса
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+* Inherited From: [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
 
 **Returns:** mixed - 
 
@@ -248,7 +248,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -259,10 +259,10 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 
 
 <a name="method_getAmount" class="anchor"></a>
-#### public getAmount() : \Testottest\Model\AmountInterface
+#### public getAmount() : \testottest\Model\AmountInterface
 
 ```php
-public getAmount() : \Testottest\Model\AmountInterface
+public getAmount() : \testottest\Model\AmountInterface
 ```
 
 **Summary**
@@ -270,9 +270,9 @@ public getAmount() : \Testottest\Model\AmountInterface
 Возвращает сумму оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
 
-**Returns:** \Testottest\Model\AmountInterface - Сумма оплаты
+**Returns:** \testottest\Model\AmountInterface - Сумма оплаты
 
 
 <a name="method_getLastValidationError" class="anchor"></a>
@@ -287,16 +287,16 @@ public getLastValidationError() : string
 Возвращает последнюю ошибку валидации
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+* Inherited From: [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
 
 **Returns:** string - Последняя произошедшая ошибка валидации
 
 
 <a name="method_getReceipt" class="anchor"></a>
-#### public getReceipt() : \Testottest\Model\ReceiptInterface|null
+#### public getReceipt() : \testottest\Model\ReceiptInterface|null
 
 ```php
-public getReceipt() : \Testottest\Model\ReceiptInterface|null
+public getReceipt() : \testottest\Model\ReceiptInterface|null
 ```
 
 **Summary**
@@ -304,16 +304,16 @@ public getReceipt() : \Testottest\Model\ReceiptInterface|null
 Возвращает чек, если он есть
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
 
-**Returns:** \Testottest\Model\ReceiptInterface|null - Данные фискального чека 54-ФЗ или null, если чека нет
+**Returns:** \testottest\Model\ReceiptInterface|null - Данные фискального чека 54-ФЗ или null, если чека нет
 
 
 <a name="method_getTransfers" class="anchor"></a>
-#### public getTransfers() : \Testottest\Model\TransferInterface[]
+#### public getTransfers() : \testottest\Model\TransferInterface[]
 
 ```php
-public getTransfers() : \Testottest\Model\TransferInterface[]
+public getTransfers() : \testottest\Model\TransferInterface[]
 ```
 
 **Summary**
@@ -326,9 +326,9 @@ public getTransfers() : \Testottest\Model\TransferInterface[]
 (https://yookassa.ru/developers/special-solutions/checkout-for-platforms/basics)
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
 
-**Returns:** \Testottest\Model\TransferInterface[] - Данные о распределении денег
+**Returns:** \testottest\Model\TransferInterface[] - Данные о распределении денег
 
 
 <a name="method_hasAmount" class="anchor"></a>
@@ -343,7 +343,7 @@ public hasAmount() : bool
 Проверяет, была ли установлена сумма оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
 
 **Returns:** bool - True если сумма оплаты была установлена, false если нет
 
@@ -360,7 +360,7 @@ public hasReceipt() : bool
 Проверяет наличие чека
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
 
 **Returns:** bool - True если чек есть, false если нет
 
@@ -377,7 +377,7 @@ public hasTransfers() : bool
 Проверяет наличие данных о распределении денег
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
 
 **Returns:** bool - 
 
@@ -394,7 +394,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -411,7 +411,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -433,7 +433,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -455,7 +455,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -478,7 +478,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -500,7 +500,7 @@ public removeReceipt() : mixed
 Удаляет чек из запроса
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
 
 **Returns:** mixed - 
 
@@ -509,7 +509,7 @@ public removeReceipt() : mixed
 #### public setAmount() : mixed
 
 ```php
-public setAmount(\Testottest\Model\AmountInterface $value) : mixed
+public setAmount(\testottest\Model\AmountInterface $value) : mixed
 ```
 
 **Summary**
@@ -517,12 +517,12 @@ public setAmount(\Testottest\Model\AmountInterface $value) : mixed
 Устанавливает сумму оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\AmountInterface</code> | value  | Сумма оплаты |
+| <code lang="php">\testottest\Model\AmountInterface</code> | value  | Сумма оплаты |
 
 **Returns:** mixed - 
 
@@ -531,7 +531,7 @@ public setAmount(\Testottest\Model\AmountInterface $value) : mixed
 #### public setReceipt() : mixed
 
 ```php
-public setReceipt(\Testottest\Model\ReceiptInterface|null $value) : mixed
+public setReceipt(\testottest\Model\ReceiptInterface|null $value) : mixed
 ```
 
 **Summary**
@@ -539,17 +539,17 @@ public setReceipt(\Testottest\Model\ReceiptInterface|null $value) : mixed
 Устанавливает чек
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\ReceiptInterface OR null</code> | value  | Инстанс чека или null для удаления информации о чеке |
+| <code lang="php">\testottest\Model\ReceiptInterface OR null</code> | value  | Инстанс чека или null для удаления информации о чеке |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если передан не инстанс класса чека и не null |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если передан не инстанс класса чека и не null |
 
 **Returns:** mixed - 
 
@@ -558,7 +558,7 @@ public setReceipt(\Testottest\Model\ReceiptInterface|null $value) : mixed
 #### public setTransfers() : mixed
 
 ```php
-public setTransfers(\Testottest\Model\TransferInterface[]|array|null $value) : mixed
+public setTransfers(\testottest\Model\TransferInterface[]|array|null $value) : mixed
 ```
 
 **Summary**
@@ -566,12 +566,12 @@ public setTransfers(\Testottest\Model\TransferInterface[]|array|null $value) : m
 Устанавливает transfers (массив распределения денег между магазинами)
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\TransferInterface[] OR array OR null</code> | value  |  |
+| <code lang="php">\testottest\Model\TransferInterface[] OR array OR null</code> | value  |  |
 
 **Returns:** mixed - 
 
@@ -589,7 +589,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -606,7 +606,7 @@ public validate() : bool
 Валидирует объект запроса
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md)
 
 **Returns:** bool - True если запрос валиден и его можно отправить в API, false если нет
 
@@ -623,7 +623,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 
@@ -640,7 +640,7 @@ protected setValidationError(string $value) : mixed
 Устанавливает ошибку валидации
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+* Inherited From: [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |

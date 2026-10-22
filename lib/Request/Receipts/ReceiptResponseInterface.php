@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Receipts;
+namespace testottest\Request\Receipts;
 
-use Testottest\Model\SettlementInterface;
+use testottest\Model\SettlementInterface;
 
 /**
  * Interface ReceiptInterface

@@ -1,18 +1,18 @@
 <?php
 
-namespace Tests\Testottest\Request\Receipts;
+namespace Tests\testottest\Request\Receipts;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Receipt\PaymentMode;
-use Testottest\Model\Receipt\PaymentSubject;
-use Testottest\Model\Receipt\SettlementType;
-use Testottest\Model\ReceiptCustomer;
-use Testottest\Model\ReceiptCustomerInterface;
-use Testottest\Model\ReceiptType;
-use Testottest\Request\Receipts\CreatePostReceiptRequestBuilder;
+use testottest\Helpers\Random;
+use testottest\Model\CurrencyCode;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Receipt\PaymentMode;
+use testottest\Model\Receipt\PaymentSubject;
+use testottest\Model\Receipt\SettlementType;
+use testottest\Model\ReceiptCustomer;
+use testottest\Model\ReceiptCustomerInterface;
+use testottest\Model\ReceiptType;
+use testottest\Request\Receipts\CreatePostReceiptRequestBuilder;
 
 class CreatePostReceiptRequestBuilderTest extends TestCase
 {

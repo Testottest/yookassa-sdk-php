@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\Testottest\Request\Refunds;
+namespace Tests\testottest\Request\Refunds;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\ReceiptRegistrationStatus;
-use Testottest\Model\RefundInterface;
-use Testottest\Model\RefundStatus;
-use Testottest\Request\Refunds\RefundsResponse;
+use testottest\Helpers\Random;
+use testottest\Model\CurrencyCode;
+use testottest\Model\ReceiptRegistrationStatus;
+use testottest\Model\RefundInterface;
+use testottest\Model\RefundStatus;
+use testottest\Request\Refunds\RefundsResponse;
 
 class RefundsResponseTest extends TestCase
 {

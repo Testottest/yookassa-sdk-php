@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: CreatePayoutRequestInterface
-### Namespace: [\Testottest\Request\Payouts](../namespaces/yookassa-request-payouts.md)
+### Namespace: [\testottest\Request\Payouts](../namespaces/yookassa-request-payouts.md)
 ---
 **Summary:**
 
@@ -55,10 +55,10 @@ Interface CreatePayoutRequestInterface
 ---
 ## Methods
 <a name="method_getAmount" class="anchor"></a>
-#### public getAmount() : \Testottest\Model\AmountInterface|\Testottest\Model\MonetaryAmount
+#### public getAmount() : \testottest\Model\AmountInterface|\testottest\Model\MonetaryAmount
 
 ```php
-public getAmount() : \Testottest\Model\AmountInterface|\Testottest\Model\MonetaryAmount
+public getAmount() : \testottest\Model\AmountInterface|\testottest\Model\MonetaryAmount
 ```
 
 **Summary**
@@ -66,9 +66,9 @@ public getAmount() : \Testottest\Model\AmountInterface|\Testottest\Model\Monetar
 Возвращает сумму выплаты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
-**Returns:** \Testottest\Model\AmountInterface|\Testottest\Model\MonetaryAmount - Сумма выплаты
+**Returns:** \testottest\Model\AmountInterface|\testottest\Model\MonetaryAmount - Сумма выплаты
 
 
 <a name="method_hasAmount" class="anchor"></a>
@@ -83,7 +83,7 @@ public hasAmount() : bool
 Проверяет наличие суммы в создаваемой выплате
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
 **Returns:** bool - True если сумма установлена, false если нет
 
@@ -100,7 +100,7 @@ public setAmount(mixed $value) : mixed
 Устанавливает сумму выплаты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -111,10 +111,10 @@ public setAmount(mixed $value) : mixed
 
 
 <a name="method_getPayoutDestinationData" class="anchor"></a>
-#### public getPayoutDestinationData() : \Testottest\Model\Payout\AbstractPayoutDestination|null
+#### public getPayoutDestinationData() : \testottest\Model\Payout\AbstractPayoutDestination|null
 
 ```php
-public getPayoutDestinationData() : \Testottest\Model\Payout\AbstractPayoutDestination|null
+public getPayoutDestinationData() : \testottest\Model\Payout\AbstractPayoutDestination|null
 ```
 
 **Summary**
@@ -122,9 +122,9 @@ public getPayoutDestinationData() : \Testottest\Model\Payout\AbstractPayoutDesti
 Возвращает данные платежного средства, на которое нужно сделать выплату
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
-**Returns:** \Testottest\Model\Payout\AbstractPayoutDestination|null - Данные платежного средства, на которое нужно сделать выплату
+**Returns:** \testottest\Model\Payout\AbstractPayoutDestination|null - Данные платежного средства, на которое нужно сделать выплату
 
 
 <a name="method_hasPayoutDestinationData" class="anchor"></a>
@@ -139,7 +139,7 @@ public hasPayoutDestinationData() : bool
 Проверяет наличие данных платежного средства, на которое нужно сделать выплату
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
 **Returns:** bool - True если данные есть, false если нет
 
@@ -148,7 +148,7 @@ public hasPayoutDestinationData() : bool
 #### public setPayoutDestinationData() : mixed
 
 ```php
-public setPayoutDestinationData(\Testottest\Model\Payout\AbstractPayoutDestination|array|null $value) : mixed
+public setPayoutDestinationData(\testottest\Model\Payout\AbstractPayoutDestination|array|null $value) : mixed
 ```
 
 **Summary**
@@ -156,12 +156,12 @@ public setPayoutDestinationData(\Testottest\Model\Payout\AbstractPayoutDestinati
 Устанавливает данные платежного средства, на которое нужно сделать выплату
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\Payout\AbstractPayoutDestination OR array OR null</code> | value  | Данные платежного средства, на которое нужно сделать выплату |
+| <code lang="php">\testottest\Model\Payout\AbstractPayoutDestination OR array OR null</code> | value  | Данные платежного средства, на которое нужно сделать выплату |
 
 **Returns:** mixed - 
 
@@ -178,7 +178,7 @@ public getPayoutToken() : string
 Возвращает токенизированные данные для выплаты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
 **Returns:** string - Токенизированные данные для выплаты
 
@@ -195,7 +195,7 @@ public hasPayoutToken() : bool
 Проверяет наличие токенизированных данных для выплаты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
 **Returns:** bool - True если токен установлен, false если нет
 
@@ -212,7 +212,7 @@ public setPayoutToken(string $value) : mixed
 Устанавливает токенизированные данные для выплаты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -234,7 +234,7 @@ public getDescription() : string
 Возвращает описание транзакции
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
 **Returns:** string - Описание транзакции
 
@@ -251,7 +251,7 @@ public hasDescription() : bool
 Проверяет наличие описания транзакции в создаваемой выплате
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
 **Returns:** bool - True если описание транзакции установлено, false если нет
 
@@ -268,7 +268,7 @@ public setDescription(string $value) : mixed
 Устанавливает описание транзакции
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -279,10 +279,10 @@ public setDescription(string $value) : mixed
 
 
 <a name="method_getDeal" class="anchor"></a>
-#### public getDeal() : \Testottest\Model\Deal\PayoutDealInfo|null
+#### public getDeal() : \testottest\Model\Deal\PayoutDealInfo|null
 
 ```php
-public getDeal() : \Testottest\Model\Deal\PayoutDealInfo|null
+public getDeal() : \testottest\Model\Deal\PayoutDealInfo|null
 ```
 
 **Summary**
@@ -290,9 +290,9 @@ public getDeal() : \Testottest\Model\Deal\PayoutDealInfo|null
 Возвращает сделку, в рамках которой нужно провести выплату
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
-**Returns:** \Testottest\Model\Deal\PayoutDealInfo|null - Сделка, в рамках которой нужно провести выплату
+**Returns:** \testottest\Model\Deal\PayoutDealInfo|null - Сделка, в рамках которой нужно провести выплату
 
 
 <a name="method_hasDeal" class="anchor"></a>
@@ -307,7 +307,7 @@ public hasDeal() : bool
 Проверяет установлена ли сделка, в рамках которой нужно провести выплату
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
 **Returns:** bool - True если сделка установлена, false если нет
 
@@ -316,7 +316,7 @@ public hasDeal() : bool
 #### public setDeal() : mixed
 
 ```php
-public setDeal(\Testottest\Model\Deal\PayoutDealInfo|array|null $value) : mixed
+public setDeal(\testottest\Model\Deal\PayoutDealInfo|array|null $value) : mixed
 ```
 
 **Summary**
@@ -324,21 +324,21 @@ public setDeal(\Testottest\Model\Deal\PayoutDealInfo|array|null $value) : mixed
 Устанавливает сделку, в рамках которой нужно провести выплату
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\Deal\PayoutDealInfo OR array OR null</code> | value  | Сделка, в рамках которой нужно провести выплату |
+| <code lang="php">\testottest\Model\Deal\PayoutDealInfo OR array OR null</code> | value  | Сделка, в рамках которой нужно провести выплату |
 
 **Returns:** mixed - 
 
 
 <a name="method_getMetadata" class="anchor"></a>
-#### public getMetadata() : \Testottest\Model\Metadata
+#### public getMetadata() : \testottest\Model\Metadata
 
 ```php
-public getMetadata() : \Testottest\Model\Metadata
+public getMetadata() : \testottest\Model\Metadata
 ```
 
 **Summary**
@@ -346,9 +346,9 @@ public getMetadata() : \Testottest\Model\Metadata
 Возвращает данные оплаты установленные мерчантом
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
-**Returns:** \Testottest\Model\Metadata - Метаданные привязанные к выплате
+**Returns:** \testottest\Model\Metadata - Метаданные привязанные к выплате
 
 
 <a name="method_hasMetadata" class="anchor"></a>
@@ -363,7 +363,7 @@ public hasMetadata() : bool
 Проверяет, были ли установлены метаданные заказа
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
 **Returns:** bool - True если метаданные были установлены, false если нет
 
@@ -372,7 +372,7 @@ public hasMetadata() : bool
 #### public setMetadata() : mixed
 
 ```php
-public setMetadata(\Testottest\Model\Metadata|array|null $value) : mixed
+public setMetadata(\testottest\Model\Metadata|array|null $value) : mixed
 ```
 
 **Summary**
@@ -380,12 +380,12 @@ public setMetadata(\Testottest\Model\Metadata|array|null $value) : mixed
 Устанавливает метаданные, привязанные к выплате
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\Metadata OR array OR null</code> | value  | Метаданные платежа, устанавливаемые мерчантом |
+| <code lang="php">\testottest\Model\Metadata OR array OR null</code> | value  | Метаданные платежа, устанавливаемые мерчантом |
 
 **Returns:** mixed - 
 

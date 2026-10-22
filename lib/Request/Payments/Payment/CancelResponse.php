@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payments\Payment;
+namespace testottest\Request\Payments\Payment;
 
-use Testottest\Request\Payments\AbstractPaymentResponse;
+use testottest\Request\Payments\AbstractPaymentResponse;
 
 /**
  * Класс объекта ответа от API на запрос отмены платежа

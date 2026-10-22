@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: DealInterface
-### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
+### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -66,7 +66,7 @@ public getId() : string
 Возвращает Id сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
+* Inherited From: [\testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
 
 **Returns:** string - Id сделки
 
@@ -83,7 +83,7 @@ public getType() : string
 Возвращает тип сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
+* Inherited From: [\testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
 
 **Returns:** string - Тип сделки
 
@@ -100,7 +100,7 @@ public getFeeMoment() : string
 Возвращает момент перечисления вам вознаграждения платформы
 
 **Details:**
-* Inherited From: [\Testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
+* Inherited From: [\testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
 
 **Returns:** string - Момент перечисления вознаграждения
 
@@ -117,16 +117,16 @@ public getDescription() : string
 Возвращает описание сделки (не более 128 символов).
 
 **Details:**
-* Inherited From: [\Testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
+* Inherited From: [\testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
 
 **Returns:** string - Описание сделки
 
 
 <a name="method_getBalance" class="anchor"></a>
-#### public getBalance() : \Testottest\Model\MonetaryAmount
+#### public getBalance() : \testottest\Model\MonetaryAmount
 
 ```php
-public getBalance() : \Testottest\Model\MonetaryAmount
+public getBalance() : \testottest\Model\MonetaryAmount
 ```
 
 **Summary**
@@ -134,16 +134,16 @@ public getBalance() : \Testottest\Model\MonetaryAmount
 Возвращает баланс сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
+* Inherited From: [\testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
 
-**Returns:** \Testottest\Model\MonetaryAmount - Баланс сделки
+**Returns:** \testottest\Model\MonetaryAmount - Баланс сделки
 
 
 <a name="method_getPayoutBalance" class="anchor"></a>
-#### public getPayoutBalance() : \Testottest\Model\MonetaryAmount
+#### public getPayoutBalance() : \testottest\Model\MonetaryAmount
 
 ```php
-public getPayoutBalance() : \Testottest\Model\MonetaryAmount
+public getPayoutBalance() : \testottest\Model\MonetaryAmount
 ```
 
 **Summary**
@@ -151,9 +151,9 @@ public getPayoutBalance() : \Testottest\Model\MonetaryAmount
 Возвращает сумму вознаграждения продавца
 
 **Details:**
-* Inherited From: [\Testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
+* Inherited From: [\testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
 
-**Returns:** \Testottest\Model\MonetaryAmount - Сумма вознаграждения продавца
+**Returns:** \testottest\Model\MonetaryAmount - Сумма вознаграждения продавца
 
 
 <a name="method_getStatus" class="anchor"></a>
@@ -168,7 +168,7 @@ public getStatus() : string
 Возвращает статус сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
+* Inherited From: [\testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
 
 **Returns:** string - Статус сделки
 
@@ -185,7 +185,7 @@ public getCreatedAt() : \DateTime
 Возвращает время создания сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
+* Inherited From: [\testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
 
 **Returns:** \DateTime - Время создания сделки
 
@@ -202,16 +202,16 @@ public getExpiresAt() : \DateTime
 Возвращает время автоматического закрытия сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
+* Inherited From: [\testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
 
 **Returns:** \DateTime - Время автоматического закрытия сделки
 
 
 <a name="method_getMetadata" class="anchor"></a>
-#### public getMetadata() : \Testottest\Model\Metadata
+#### public getMetadata() : \testottest\Model\Metadata
 
 ```php
-public getMetadata() : \Testottest\Model\Metadata
+public getMetadata() : \testottest\Model\Metadata
 ```
 
 **Summary**
@@ -219,9 +219,9 @@ public getMetadata() : \Testottest\Model\Metadata
 Возвращает дополнительные данные сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
+* Inherited From: [\testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
 
-**Returns:** \Testottest\Model\Metadata - Дополнительные данные сделки
+**Returns:** \testottest\Model\Metadata - Дополнительные данные сделки
 
 
 <a name="method_getTest" class="anchor"></a>
@@ -236,7 +236,7 @@ public getTest() : bool
 Возвращает признак тестовой операции
 
 **Details:**
-* Inherited From: [\Testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
+* Inherited From: [\testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
 
 **Returns:** bool - Признак тестовой операции
 

@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Common;
+namespace testottest\Common;
 
 class HttpVerb extends AbstractEnum
 {

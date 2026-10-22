@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: ReceiptCustomerInterface
-### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
+### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -50,7 +50,7 @@ public getFullName() : string
 Возвращает название организации или ФИО физического лица
 
 **Details:**
-* Inherited From: [\Testottest\Model\ReceiptCustomerInterface](../classes/YooKassa-Model-ReceiptCustomerInterface.md)
+* Inherited From: [\testottest\Model\ReceiptCustomerInterface](../classes/YooKassa-Model-ReceiptCustomerInterface.md)
 
 **Returns:** string - Название организации или ФИО физического лица
 
@@ -67,7 +67,7 @@ public getPhone() : string
 Возвращает номер телефона плательщика в формате ITU-T E.164 на который будет выслан чек
 
 **Details:**
-* Inherited From: [\Testottest\Model\ReceiptCustomerInterface](../classes/YooKassa-Model-ReceiptCustomerInterface.md)
+* Inherited From: [\testottest\Model\ReceiptCustomerInterface](../classes/YooKassa-Model-ReceiptCustomerInterface.md)
 
 **Returns:** string - Номер телефона плательщика
 
@@ -84,7 +84,7 @@ public getEmail() : string
 Возвращает адрес электронной почты на который будет выслан чек
 
 **Details:**
-* Inherited From: [\Testottest\Model\ReceiptCustomerInterface](../classes/YooKassa-Model-ReceiptCustomerInterface.md)
+* Inherited From: [\testottest\Model\ReceiptCustomerInterface](../classes/YooKassa-Model-ReceiptCustomerInterface.md)
 
 **Returns:** string - E-mail адрес плательщика
 
@@ -101,7 +101,7 @@ public getInn() : string
 Возвращает ИНН плательщика
 
 **Details:**
-* Inherited From: [\Testottest\Model\ReceiptCustomerInterface](../classes/YooKassa-Model-ReceiptCustomerInterface.md)
+* Inherited From: [\testottest\Model\ReceiptCustomerInterface](../classes/YooKassa-Model-ReceiptCustomerInterface.md)
 
 **Returns:** string - ИНН плательщика
 
@@ -118,7 +118,7 @@ public jsonSerialize() : array
 Возвращает массив полей плательщика
 
 **Details:**
-* Inherited From: [\Testottest\Model\ReceiptCustomerInterface](../classes/YooKassa-Model-ReceiptCustomerInterface.md)
+* Inherited From: [\testottest\Model\ReceiptCustomerInterface](../classes/YooKassa-Model-ReceiptCustomerInterface.md)
 
 **Returns:** array - 
 

@@ -1,24 +1,24 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \Testottest\Helpers
+# Namespace: \testottest\Helpers
 
 ## Parent: [\YooKassa](../namespaces/yookassa.md)
 
 ### Namespaces
 
-* [\Testottest\Helpers\Config](../namespaces/yookassa-helpers-config.md)
+* [\testottest\Helpers\Config](../namespaces/yookassa-helpers-config.md)
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\Testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md) | Класс для формирования тега 1162 на основе кода в формате Data Matrix |
-| [\Testottest\Helpers\Random](../classes/YooKassa-Helpers-Random.md) | Класс хэлпера для генерации случайных значений, используется в тестах |
-| [\Testottest\Helpers\RawHeadersParser](../classes/YooKassa-Helpers-RawHeadersParser.md) |  |
-| [\Testottest\Helpers\SecurityHelper](../classes/YooKassa-Helpers-SecurityHelper.md) |  |
-| [\Testottest\Helpers\StringObject](../classes/YooKassa-Helpers-StringObject.md) | Класс объекта, кастящегося в строку, используется только в тестах |
-| [\Testottest\Helpers\TypeCast](../classes/YooKassa-Helpers-TypeCast.md) | Класс хэлпер для преобразования типов значений |
-| [\Testottest\Helpers\UUID](../classes/YooKassa-Helpers-UUID.md) |  |
+| [\testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md) | Класс для формирования тега 1162 на основе кода в формате Data Matrix |
+| [\testottest\Helpers\Random](../classes/YooKassa-Helpers-Random.md) | Класс хэлпера для генерации случайных значений, используется в тестах |
+| [\testottest\Helpers\RawHeadersParser](../classes/YooKassa-Helpers-RawHeadersParser.md) |  |
+| [\testottest\Helpers\SecurityHelper](../classes/YooKassa-Helpers-SecurityHelper.md) |  |
+| [\testottest\Helpers\StringObject](../classes/YooKassa-Helpers-StringObject.md) | Класс объекта, кастящегося в строку, используется только в тестах |
+| [\testottest\Helpers\TypeCast](../classes/YooKassa-Helpers-TypeCast.md) | Класс хэлпер для преобразования типов значений |
+| [\testottest\Helpers\UUID](../classes/YooKassa-Helpers-UUID.md) |  |
 
 ---
 

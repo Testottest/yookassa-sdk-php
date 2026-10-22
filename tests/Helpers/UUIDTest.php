@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Testottest\Helpers;
+namespace Tests\testottest\Helpers;
 
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\UUID;
+use testottest\Helpers\UUID;
 
 class UUIDTest extends TestCase
 {

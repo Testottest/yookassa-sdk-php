@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Receipts;
+namespace testottest\Request\Receipts;
 
-use Testottest\Model\AmountInterface;
-use Testottest\Model\SupplierInterface;
+use testottest\Model\AmountInterface;
+use testottest\Model\SupplierInterface;
 
 /**
  * Interface ReceiptItemInterface

@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\Testottest\Model\PaymentData;
+namespace Tests\testottest\Model\PaymentData;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\PaymentData\B2b\Sberbank\VatData;
-use Testottest\Model\PaymentData\B2b\Sberbank\VatDataRate;
-use Testottest\Model\PaymentData\B2b\Sberbank\VatDataType;
+use testottest\Helpers\Random;
+use testottest\Model\CurrencyCode;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\PaymentData\B2b\Sberbank\VatData;
+use testottest\Model\PaymentData\B2b\Sberbank\VatDataRate;
+use testottest\Model\PaymentData\B2b\Sberbank\VatDataType;
 
 class VatDataTest extends TestCase
 {

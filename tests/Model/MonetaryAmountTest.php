@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\MonetaryAmount;
+use testottest\Helpers\Random;
+use testottest\Model\CurrencyCode;
+use testottest\Model\MonetaryAmount;
 
 class MonetaryAmountTest extends TestCase
 {

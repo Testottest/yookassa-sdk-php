@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Testottest\Common\Exceptions;
+namespace Tests\testottest\Common\Exceptions;
 
-use Testottest\Common\Exceptions\TooManyRequestsException;
+use testottest\Common\Exceptions\TooManyRequestsException;
 
 class TooManyRequestsExceptionTest extends AbstractApiRequestExceptionTest
 {

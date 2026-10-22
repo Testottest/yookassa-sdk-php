@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\PaymentData;
+namespace testottest\Model\PaymentData;
 
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\PaymentData\B2b\Sberbank\VatData;
-use Testottest\Model\PaymentMethodType;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\TypeCast;
+use testottest\Model\PaymentData\B2b\Sberbank\VatData;
+use testottest\Model\PaymentMethodType;
 
 /**
  * PaymentDataB2BSberbank

@@ -3,10 +3,10 @@
 namespace Model\ConfirmationAttributes;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory;
-use Testottest\Model\ConfirmationType;
+use testottest\Helpers\Random;
+use testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory;
+use testottest\Model\ConfirmationType;
 
 class ConfirmationAttributesFactoryTest extends TestCase
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Tests\Testottest\Model\Notification;
+namespace Tests\testottest\Model\Notification;
 
-use Testottest\Helpers\Random;
-use Testottest\Model\ConfirmationType;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\Notification\NotificationSucceeded;
-use Testottest\Model\NotificationEventType;
-use Testottest\Model\NotificationType;
-use Testottest\Model\PaymentInterface;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Model\PaymentStatus;
-use Testottest\Model\ReceiptRegistrationStatus;
+use testottest\Helpers\Random;
+use testottest\Model\ConfirmationType;
+use testottest\Model\CurrencyCode;
+use testottest\Model\Notification\NotificationSucceeded;
+use testottest\Model\NotificationEventType;
+use testottest\Model\NotificationType;
+use testottest\Model\PaymentInterface;
+use testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentStatus;
+use testottest\Model\ReceiptRegistrationStatus;
 
 class NotificationSucceededTest extends AbstractNotificationTest
 {

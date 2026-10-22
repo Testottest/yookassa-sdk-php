@@ -1,30 +1,30 @@
 <?php
 
-namespace Tests\Testottest\Model\Notification;
+namespace Tests\testottest\Model\Notification;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\ConfirmationType;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\Deal\DealStatus;
-use Testottest\Model\Deal\DealType;
-use Testottest\Model\Deal\FeeMoment;
-use Testottest\Model\Notification\AbstractNotification;
-use Testottest\Model\Notification\NotificationFactory;
-use Testottest\Model\NotificationEventType;
-use Testottest\Model\NotificationType;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Model\PaymentStatus;
-use Testottest\Model\Payout;
-use Testottest\Model\Payout\PayoutCancellationDetailsPartyCode;
-use Testottest\Model\Payout\PayoutCancellationDetailsReasonCode;
-use Testottest\Model\PayoutStatus;
-use Testottest\Model\ReceiptRegistrationStatus;
-use Testottest\Model\RefundStatus;
-use Testottest\Request\Deals\DealResponse;
-use Testottest\Request\Payments\PaymentResponse;
-use Testottest\Request\Payouts\PayoutResponse;
-use Testottest\Request\Refunds\RefundResponse;
+use testottest\Helpers\Random;
+use testottest\Model\ConfirmationType;
+use testottest\Model\CurrencyCode;
+use testottest\Model\Deal\DealStatus;
+use testottest\Model\Deal\DealType;
+use testottest\Model\Deal\FeeMoment;
+use testottest\Model\Notification\AbstractNotification;
+use testottest\Model\Notification\NotificationFactory;
+use testottest\Model\NotificationEventType;
+use testottest\Model\NotificationType;
+use testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentStatus;
+use testottest\Model\Payout;
+use testottest\Model\Payout\PayoutCancellationDetailsPartyCode;
+use testottest\Model\Payout\PayoutCancellationDetailsReasonCode;
+use testottest\Model\PayoutStatus;
+use testottest\Model\ReceiptRegistrationStatus;
+use testottest\Model\RefundStatus;
+use testottest\Request\Deals\DealResponse;
+use testottest\Request\Payments\PaymentResponse;
+use testottest\Request\Payouts\PayoutResponse;
+use testottest\Request\Refunds\RefundResponse;
 
 class NotificationFactoryTest extends TestCase
 {

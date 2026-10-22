@@ -24,22 +24,22 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payments;
+namespace testottest\Request\Payments;
 
-use Testottest\Common\AbstractPaymentRequest;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\AirlineInterface;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory;
-use Testottest\Model\Deal\PaymentDealInfo;
-use Testottest\Model\Payment;
-use Testottest\Model\PaymentData\AbstractPaymentData;
-use Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use Testottest\Model\Metadata;
-use Testottest\Model\ReceiptInterface;
-use Testottest\Model\RecipientInterface;
+use testottest\Common\AbstractPaymentRequest;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\TypeCast;
+use testottest\Model\AirlineInterface;
+use testottest\Model\AmountInterface;
+use testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory;
+use testottest\Model\Deal\PaymentDealInfo;
+use testottest\Model\Payment;
+use testottest\Model\PaymentData\AbstractPaymentData;
+use testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use testottest\Model\Metadata;
+use testottest\Model\ReceiptInterface;
+use testottest\Model\RecipientInterface;
 
 /**
  * Класс объекта запроса к API на проведение нового платежа

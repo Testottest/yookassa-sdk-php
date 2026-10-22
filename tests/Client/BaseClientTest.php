@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\Testottest\Client;
+namespace Tests\testottest\Client;
 
-use Testottest\Client\ApiClientInterface;
-use Testottest\Client\BaseClient;
+use testottest\Client\ApiClientInterface;
+use testottest\Client\BaseClient;
 use PHPUnit\Framework\TestCase;
-use Testottest\Client\CurlClient;
-use Testottest\Helpers\Config\ConfigurationLoader;
-use Testottest\Helpers\Random;
+use testottest\Client\CurlClient;
+use testottest\Helpers\Config\ConfigurationLoader;
+use testottest\Helpers\Random;
 
 class BaseClientTest extends TestCase
 {

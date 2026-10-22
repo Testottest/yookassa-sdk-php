@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\Notification;
+namespace testottest\Model\Notification;
 
-use Testottest\Model\Notification\AbstractNotification;
-use Testottest\Model\NotificationEventType;
+use testottest\Model\Notification\AbstractNotification;
+use testottest\Model\NotificationEventType;
 
 /**
  * Фабрика для получения конкретного объекта уведомления.

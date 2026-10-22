@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Testottest\Request\Receipts;
+namespace Tests\testottest\Request\Receipts;
 
-use Testottest\Model\Receipt\SettlementType;
-use Testottest\Model\ReceiptType;
-use Testottest\Request\Receipts\ReceiptResponseFactory;
+use testottest\Model\Receipt\SettlementType;
+use testottest\Model\ReceiptType;
+use testottest\Request\Receipts\ReceiptResponseFactory;
 use PHPUnit\Framework\TestCase;
 
 class ReceiptResponseFactoryTest extends TestCase

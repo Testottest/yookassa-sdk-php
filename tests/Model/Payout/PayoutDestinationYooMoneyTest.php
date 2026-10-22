@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Testottest\Model\Payout;
+namespace Tests\testottest\Model\Payout;
 
-use Testottest\Helpers\Random;
-use Testottest\Model\Payout\PayoutDestinationYooMoney;
-use Testottest\Model\PaymentMethodType;
+use testottest\Helpers\Random;
+use testottest\Model\Payout\PayoutDestinationYooMoney;
+use testottest\Model\PaymentMethodType;
 
 class PayoutDestinationYooMoneyTest extends AbstractPayoutDestinationTest
 {

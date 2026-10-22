@@ -23,16 +23,16 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\Notification;
+namespace testottest\Model\Notification;
 
 
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Model\NotificationEventType;
-use Testottest\Model\NotificationType;
-use Testottest\Model\Refund;
-use Testottest\Model\RefundInterface;
-use Testottest\Request\Refunds\RefundResponse;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Model\NotificationEventType;
+use testottest\Model\NotificationType;
+use testottest\Model\Refund;
+use testottest\Model\RefundInterface;
+use testottest\Request\Refunds\RefundResponse;
 
 /**
  * Класс объекта, присылаемого API при изменении статуса возврата на "succeeded"

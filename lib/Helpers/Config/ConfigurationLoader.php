@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Helpers\Config;
+namespace testottest\Helpers\Config;
 
 class ConfigurationLoader implements ConfigurationLoaderInterface
 {

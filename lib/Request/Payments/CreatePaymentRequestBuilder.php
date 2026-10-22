@@ -24,27 +24,27 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payments;
+namespace testottest\Request\Payments;
 
-use Testottest\Common\AbstractPaymentRequest;
-use Testottest\Common\AbstractPaymentRequestBuilder;
-use Testottest\Common\AbstractRequest;
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Common\Exceptions\InvalidRequestException;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\Airline;
-use Testottest\Model\AirlineInterface;
-use Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory;
-use Testottest\Model\Deal\PaymentDealInfo;
-use Testottest\Model\Metadata;
-use Testottest\Model\Payment;
-use Testottest\Model\PaymentData\AbstractPaymentData;
-use Testottest\Model\PaymentData\PaymentDataFactory;
-use Testottest\Model\Recipient;
-use Testottest\Model\RecipientInterface;
+use testottest\Common\AbstractPaymentRequest;
+use testottest\Common\AbstractPaymentRequestBuilder;
+use testottest\Common\AbstractRequest;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Common\Exceptions\InvalidRequestException;
+use testottest\Helpers\TypeCast;
+use testottest\Model\Airline;
+use testottest\Model\AirlineInterface;
+use testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory;
+use testottest\Model\Deal\PaymentDealInfo;
+use testottest\Model\Metadata;
+use testottest\Model\Payment;
+use testottest\Model\PaymentData\AbstractPaymentData;
+use testottest\Model\PaymentData\PaymentDataFactory;
+use testottest\Model\Recipient;
+use testottest\Model\RecipientInterface;
 
 /**
  * Класс билдера объектов запросов к API на создание платежа

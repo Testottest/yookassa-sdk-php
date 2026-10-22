@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Testottest\Model\Deal;
+namespace Tests\testottest\Model\Deal;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\Deal\PayoutDealInfo;
+use testottest\Helpers\Random;
+use testottest\Model\Deal\PayoutDealInfo;
 
 class PayoutDealInfoTest extends TestCase
 {

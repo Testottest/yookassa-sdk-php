@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Common\Exceptions;
+namespace Tests\testottest\Common\Exceptions;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Common\Exceptions\ApiException;
+use testottest\Common\Exceptions\ApiException;
 
 class ApiExceptionTest extends TestCase
 {

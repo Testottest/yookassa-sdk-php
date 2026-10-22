@@ -24,13 +24,13 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payouts\PayoutDestinationData;
+namespace testottest\Request\Payouts\PayoutDestinationData;
 
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\PaymentMethodType;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\TypeCast;
+use testottest\Model\PaymentMethodType;
 
 /**
  * Класс PayoutDestinationDataYooMoney

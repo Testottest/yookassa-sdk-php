@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Refunds;
+namespace testottest\Request\Refunds;
 
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Refund;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Refund;
 
 /**
  * Абстрактный класс ответа от API с информацией о возврате

@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model;
+namespace testottest\Model;
 
 /**
  * Interface AmountInterface

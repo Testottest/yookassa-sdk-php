@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\Receipt;
-use Testottest\Model\ReceiptCustomer;
+use testottest\Helpers\Random;
+use testottest\Model\Receipt;
+use testottest\Model\ReceiptCustomer;
 
 class ReceiptCustomerTest extends TestCase
 {

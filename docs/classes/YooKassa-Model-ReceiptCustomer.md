@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Model\ReceiptCustomer
-### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
+# Class: \testottest\Model\ReceiptCustomer
+### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -54,10 +54,10 @@
 * File: [lib/Model/ReceiptCustomer.php](../../lib/Model/ReceiptCustomer.php)
 * Package: Default
 * Class Hierarchy: 
-  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * \Testottest\Model\ReceiptCustomer
+  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * \testottest\Model\ReceiptCustomer
 * Implements:
-  * [\Testottest\Model\ReceiptCustomerInterface](../classes/YooKassa-Model-ReceiptCustomerInterface.md)
+  * [\testottest\Model\ReceiptCustomerInterface](../classes/YooKassa-Model-ReceiptCustomerInterface.md)
 
 ---
 ## Properties
@@ -136,7 +136,7 @@ public __construct(array $data = []) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -158,7 +158,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -180,7 +180,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -202,7 +202,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -225,7 +225,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -247,7 +247,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -269,7 +269,7 @@ public getEmail() : string
 Возвращает адрес электронной почты на который будет выслан чек
 
 **Details:**
-* Inherited From: [\Testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
+* Inherited From: [\testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
 
 **Returns:** string - E-mail адрес плательщика
 
@@ -286,7 +286,7 @@ public getFullName() : string
 Возвращает для юрлица — название организации, для ИП и физического лица — ФИО
 
 **Details:**
-* Inherited From: [\Testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
+* Inherited From: [\testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
 
 **Returns:** string - Название организации или ФИО
 
@@ -303,7 +303,7 @@ public getInn() : string
 Возвращает ИНН плательщика
 
 **Details:**
-* Inherited From: [\Testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
+* Inherited From: [\testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
 
 **Returns:** string - 
 
@@ -320,7 +320,7 @@ public getPhone() : string
 Возвращает номер телефона плательщика в формате ITU-T E.164 на который будет выслан чек
 
 **Details:**
-* Inherited From: [\Testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
+* Inherited From: [\testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
 
 **Returns:** string - Номер телефона плательщика
 
@@ -337,7 +337,7 @@ public isEmpty() : bool
 Проверка на заполненность объекта
 
 **Details:**
-* Inherited From: [\Testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
+* Inherited From: [\testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
 
 **Returns:** bool - 
 
@@ -354,7 +354,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\Testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
+* Inherited From: [\testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
 
 **Returns:** array - 
 
@@ -371,7 +371,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -393,7 +393,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -415,7 +415,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -438,7 +438,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -460,7 +460,7 @@ public setEmail(string $value) : mixed
 Устанавливает адрес электронной почты на который будет выслан чек
 
 **Details:**
-* Inherited From: [\Testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
+* Inherited From: [\testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -470,7 +470,7 @@ public setEmail(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в качестве значения была передана не строка |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в качестве значения была передана не строка |
 
 **Returns:** mixed - 
 
@@ -487,7 +487,7 @@ public setFullName(string $value) : mixed
 Устанавливает Название организации или ФИО
 
 **Details:**
-* Inherited From: [\Testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
+* Inherited From: [\testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -497,7 +497,7 @@ public setFullName(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в качестве значения была передана не строка |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в качестве значения была передана не строка |
 
 **Returns:** mixed - 
 
@@ -514,7 +514,7 @@ public setInn(string $value) : mixed
 Устанавливает ИНН плательщика
 
 **Details:**
-* Inherited From: [\Testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
+* Inherited From: [\testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -524,8 +524,8 @@ public setInn(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в качестве значения была передана не строка |
-| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если ИНН не соответствует формату 10 или 12 цифр |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в качестве значения была передана не строка |
+| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если ИНН не соответствует формату 10 или 12 цифр |
 
 **Returns:** mixed - 
 
@@ -542,7 +542,7 @@ public setPhone(string $value) : mixed
 Устанавливает номер телефона плательщика в формате ITU-T E.164 на который будет выслан чек
 
 **Details:**
-* Inherited From: [\Testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
+* Inherited From: [\testottest\Model\ReceiptCustomer](../classes/YooKassa-Model-ReceiptCustomer.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -552,7 +552,7 @@ public setPhone(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в качестве значения была передана не строка |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в качестве значения была передана не строка |
 
 **Returns:** mixed - 
 
@@ -570,7 +570,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -587,7 +587,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

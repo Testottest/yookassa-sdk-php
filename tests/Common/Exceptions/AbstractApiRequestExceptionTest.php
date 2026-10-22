@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Testottest\Common\Exceptions;
+namespace Tests\testottest\Common\Exceptions;
 
 abstract class AbstractApiRequestExceptionTest extends ApiExceptionTest
 {

@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Common;
+namespace testottest\Common;
 
-use Testottest\Common\Exceptions\InvalidPropertyException;
-use Testottest\Common\Exceptions\InvalidRequestException;
+use testottest\Common\Exceptions\InvalidPropertyException;
+use testottest\Common\Exceptions\InvalidRequestException;
 
 /**
  * Базовый класс билдера запросов

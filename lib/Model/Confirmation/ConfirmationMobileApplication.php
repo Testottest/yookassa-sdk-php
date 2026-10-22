@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\Confirmation;
+namespace testottest\Model\Confirmation;
 
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\ConfirmationType;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\TypeCast;
+use testottest\Model\ConfirmationType;
 
 /**
  * Сценарий, при котором необходимо отправить плательщика на веб-страницу ЮKassa или партнера для

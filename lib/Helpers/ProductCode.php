@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Helpers;
+namespace testottest\Helpers;
 
 /**
  * Класс для формирования тега 1162 на основе кода в формате Data Matrix

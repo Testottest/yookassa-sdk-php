@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\Testottest\Request\Payments;
+namespace Tests\testottest\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\Receipt\PaymentMode;
-use Testottest\Model\Receipt\PaymentSubject;
-use Testottest\Model\Receipt\SettlementType;
-use Testottest\Model\ReceiptType;
-use Testottest\Request\Receipts\CreatePostReceiptRequest;
-use Testottest\Request\Receipts\CreatePostReceiptRequestSerializer;
+use testottest\Helpers\Random;
+use testottest\Model\CurrencyCode;
+use testottest\Model\Receipt\PaymentMode;
+use testottest\Model\Receipt\PaymentSubject;
+use testottest\Model\Receipt\SettlementType;
+use testottest\Model\ReceiptType;
+use testottest\Request\Receipts\CreatePostReceiptRequest;
+use testottest\Request\Receipts\CreatePostReceiptRequestSerializer;
 
 class CreatePostReceiptRequestSerializerTest extends TestCase
 {

@@ -1,16 +1,16 @@
 <?php
 
 
-namespace Tests\Testottest\Model\Notification;
+namespace Tests\testottest\Model\Notification;
 
-use Testottest\Helpers\Random;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\Notification\NotificationRefundSucceeded;
-use Testottest\Model\NotificationEventType;
-use Testottest\Model\NotificationType;
-use Testottest\Model\ReceiptRegistrationStatus;
-use Testottest\Model\RefundInterface;
-use Testottest\Model\RefundStatus;
+use testottest\Helpers\Random;
+use testottest\Model\CurrencyCode;
+use testottest\Model\Notification\NotificationRefundSucceeded;
+use testottest\Model\NotificationEventType;
+use testottest\Model\NotificationType;
+use testottest\Model\ReceiptRegistrationStatus;
+use testottest\Model\RefundInterface;
+use testottest\Model\RefundStatus;
 
 class NotificationRefundSucceededTest extends AbstractNotificationTest
 {

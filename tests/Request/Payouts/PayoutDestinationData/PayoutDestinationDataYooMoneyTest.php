@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Testottest\Request\Payouts\PayoutDestinationData;
+namespace Tests\testottest\Request\Payouts\PayoutDestinationData;
 
-use Testottest\Helpers\Random;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataYooMoney;
+use testottest\Helpers\Random;
+use testottest\Model\PaymentMethodType;
+use testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataYooMoney;
 
 class PayoutDestinationDataYooMoneyTest extends AbstractPayoutDestinationDataTest
 {

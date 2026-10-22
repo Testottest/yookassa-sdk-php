@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Common\Exceptions;
+namespace testottest\Common\Exceptions;
 
-use Testottest\Common\AbstractRequest;
+use testottest\Common\AbstractRequest;
 
 class InvalidRequestException extends \RuntimeException
 {

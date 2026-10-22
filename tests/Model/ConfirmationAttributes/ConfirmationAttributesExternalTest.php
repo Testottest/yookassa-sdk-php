@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Model\ConfirmationAttributes;
+namespace Tests\testottest\Model\ConfirmationAttributes;
 
-use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
-use Testottest\Model\ConfirmationType;
+use testottest\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
+use testottest\Model\ConfirmationType;
 
 class ConfirmationAttributesExternalTest extends AbstractConfirmationAttributesTest
 {

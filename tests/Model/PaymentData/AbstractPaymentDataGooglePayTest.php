@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Model\PaymentData;
+namespace Tests\testottest\Model\PaymentData;
 
-use Testottest\Helpers\Random;
-use Testottest\Model\PaymentData\PaymentDataGooglePay;
+use testottest\Helpers\Random;
+use testottest\Model\PaymentData\PaymentDataGooglePay;
 
 abstract class AbstractPaymentDataGooglePayTest extends AbstractPaymentDataTest
 {

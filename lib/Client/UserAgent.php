@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Client;
+namespace testottest\Client;
 
 
-use Testottest\Client;
+use testottest\Client;
 
 /**
  * Класс для создания заголовка User-Agent в запросах к API

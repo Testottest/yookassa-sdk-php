@@ -1,27 +1,27 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \Testottest\Common
+# Namespace: \testottest\Common
 
 ## Parent: [\YooKassa](../namespaces/yookassa.md)
 
 ### Namespaces
 
-* [\Testottest\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
+* [\testottest\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\Testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md) | Базовый класс генерируемых enum&#039;ов |
-| [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md) | Базовый класс генерируемых объектов |
-| [\Testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md) | Класс объекта запроса к API |
-| [\Testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md) | Базовый класс объекта платежного запроса, передаваемого в методы клиента API |
-| [\Testottest\Common\AbstractRefundRequest](../classes/YooKassa-Common-AbstractRefundRequest.md) | Класс объекта запроса к API |
-| [\Testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md) | Базовый класс объекта запроса, передаваемого в методы клиента API |
-| [\Testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md) | Базовый класс билдера запросов |
-| [\Testottest\Common\HttpVerb](../classes/YooKassa-Common-HttpVerb.md) | Базовый класс генерируемых enum&#039;ов |
-| [\Testottest\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md) |  |
-| [\Testottest\Common\ResponseObject](../classes/YooKassa-Common-ResponseObject.md) | Класс HTTP ответа |
+| [\testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md) | Базовый класс генерируемых enum&#039;ов |
+| [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md) | Базовый класс генерируемых объектов |
+| [\testottest\Common\AbstractPaymentRequest](../classes/YooKassa-Common-AbstractPaymentRequest.md) | Класс объекта запроса к API |
+| [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md) | Базовый класс объекта платежного запроса, передаваемого в методы клиента API |
+| [\testottest\Common\AbstractRefundRequest](../classes/YooKassa-Common-AbstractRefundRequest.md) | Класс объекта запроса к API |
+| [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md) | Базовый класс объекта запроса, передаваемого в методы клиента API |
+| [\testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md) | Базовый класс билдера запросов |
+| [\testottest\Common\HttpVerb](../classes/YooKassa-Common-HttpVerb.md) | Базовый класс генерируемых enum&#039;ов |
+| [\testottest\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md) |  |
+| [\testottest\Common\ResponseObject](../classes/YooKassa-Common-ResponseObject.md) | Класс HTTP ответа |
 
 ---
 

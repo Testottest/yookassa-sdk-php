@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Helpers\RawHeadersParser
-### Namespace: [\Testottest\Helpers](../namespaces/yookassa-helpers.md)
+# Class: \testottest\Helpers\RawHeadersParser
+### Namespace: [\testottest\Helpers](../namespaces/yookassa-helpers.md)
 ---
 
 ---
@@ -19,7 +19,7 @@
 * File: [lib/Helpers/RawHeadersParser.php](../../lib/Helpers/RawHeadersParser.php)
 * Package: Default
 * Class Hierarchy:
-  * \Testottest\Helpers\RawHeadersParser
+  * \testottest\Helpers\RawHeadersParser
 
 ---
 ## Methods
@@ -31,7 +31,7 @@ Static public parse(mixed $rawHeaders) : mixed
 ```
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\RawHeadersParser](../classes/YooKassa-Helpers-RawHeadersParser.md)
+* Inherited From: [\testottest\Helpers\RawHeadersParser](../classes/YooKassa-Helpers-RawHeadersParser.md)
 
 ##### Parameters:
 | Type | Name | Description |

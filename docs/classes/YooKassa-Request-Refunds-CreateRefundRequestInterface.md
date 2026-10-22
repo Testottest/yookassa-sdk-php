@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: CreateRefundRequestInterface
-### Namespace: [\Testottest\Request\Refunds](../namespaces/yookassa-request-refunds.md)
+### Namespace: [\testottest\Request\Refunds](../namespaces/yookassa-request-refunds.md)
 ---
 **Summary:**
 
@@ -59,16 +59,16 @@ public getPaymentId() : string
 Возвращает айди платежа для которого создаётся возврат средств
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
+* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
 
 **Returns:** string - Айди платежа для которого создаётся возврат
 
 
 <a name="method_getAmount" class="anchor"></a>
-#### public getAmount() : \Testottest\Model\AmountInterface
+#### public getAmount() : \testottest\Model\AmountInterface
 
 ```php
-public getAmount() : \Testottest\Model\AmountInterface
+public getAmount() : \testottest\Model\AmountInterface
 ```
 
 **Summary**
@@ -76,9 +76,9 @@ public getAmount() : \Testottest\Model\AmountInterface
 Возвращает сумму возвращаемых средств
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
+* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
 
-**Returns:** \Testottest\Model\AmountInterface - Сумма возврата
+**Returns:** \testottest\Model\AmountInterface - Сумма возврата
 
 
 <a name="method_hasPaymentId" class="anchor"></a>
@@ -93,7 +93,7 @@ public hasPaymentId() : bool
 Проверяет, был ли установлена идентификатор платежа
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
+* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
 
 **Returns:** bool - True если идентификатор платежа был установлен, false если нет
 
@@ -110,7 +110,7 @@ public setDescription(string $value) : mixed
 Устанавливает комментарий к возврату
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
+* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -132,7 +132,7 @@ public getDescription() : string
 Возвращает комментарий к возврату или null, если комментарий не задан
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
+* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
 
 **Returns:** string - Комментарий к операции возврата, основание для возврата средств покупателю.
 
@@ -149,7 +149,7 @@ public hasDescription() : bool
 Проверяет задан ли комментарий к создаваемому возврату
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
+* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
 
 **Returns:** bool - True если комментарий установлен, false если нет
 
@@ -158,7 +158,7 @@ public hasDescription() : bool
 #### public setReceipt() : mixed
 
 ```php
-public setReceipt(\Testottest\Model\ReceiptInterface|null $value) : mixed
+public setReceipt(\testottest\Model\ReceiptInterface|null $value) : mixed
 ```
 
 **Summary**
@@ -166,21 +166,21 @@ public setReceipt(\Testottest\Model\ReceiptInterface|null $value) : mixed
 Устанавливает чек
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
+* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\ReceiptInterface OR null</code> | value  | Инстанс чека или null для удаления информации о чеке |
+| <code lang="php">\testottest\Model\ReceiptInterface OR null</code> | value  | Инстанс чека или null для удаления информации о чеке |
 
 **Returns:** mixed - 
 
 
 <a name="method_getReceipt" class="anchor"></a>
-#### public getReceipt() : \Testottest\Model\ReceiptInterface|null
+#### public getReceipt() : \testottest\Model\ReceiptInterface|null
 
 ```php
-public getReceipt() : \Testottest\Model\ReceiptInterface|null
+public getReceipt() : \testottest\Model\ReceiptInterface|null
 ```
 
 **Summary**
@@ -188,9 +188,9 @@ public getReceipt() : \Testottest\Model\ReceiptInterface|null
 Возвращает инстанс чека или null, если чек не задан
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
+* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
 
-**Returns:** \Testottest\Model\ReceiptInterface|null - Инстанс чека или null
+**Returns:** \testottest\Model\ReceiptInterface|null - Инстанс чека или null
 
 
 <a name="method_hasReceipt" class="anchor"></a>
@@ -205,7 +205,7 @@ public hasReceipt() : bool
 Проверяет задан ли чек
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
+* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
 
 **Returns:** bool - True если чек есть, false если нет
 
@@ -214,7 +214,7 @@ public hasReceipt() : bool
 #### public setSources() : mixed
 
 ```php
-public setSources(\Testottest\Model\SourceInterface[] $value) : mixed
+public setSources(\testottest\Model\SourceInterface[] $value) : mixed
 ```
 
 **Summary**
@@ -222,21 +222,21 @@ public setSources(\Testottest\Model\SourceInterface[] $value) : mixed
 Устанавливает информацию о распределении денег — сколько и в какой магазин нужно перевести
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
+* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\SourceInterface[]</code> | value  | Информация о распределении денег |
+| <code lang="php">\testottest\Model\SourceInterface[]</code> | value  | Информация о распределении денег |
 
 **Returns:** mixed - 
 
 
 <a name="method_getSources" class="anchor"></a>
-#### public getSources() : \Testottest\Model\SourceInterface[]
+#### public getSources() : \testottest\Model\SourceInterface[]
 
 ```php
-public getSources() : \Testottest\Model\SourceInterface[]
+public getSources() : \testottest\Model\SourceInterface[]
 ```
 
 **Summary**
@@ -244,9 +244,9 @@ public getSources() : \Testottest\Model\SourceInterface[]
 Возвращает информацию о распределении денег — сколько и в какой магазин нужно перевести
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
+* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
 
-**Returns:** \Testottest\Model\SourceInterface[] - Информация о распределении денег
+**Returns:** \testottest\Model\SourceInterface[] - Информация о распределении денег
 
 
 <a name="method_hasSources" class="anchor"></a>
@@ -261,7 +261,7 @@ public hasSources() : bool
 Проверяет наличие информации о распределении денег
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
+* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
 
 **Returns:** bool - 
 
@@ -270,7 +270,7 @@ public hasSources() : bool
 #### public setDeal() : mixed
 
 ```php
-public setDeal(\Testottest\Model\Deal\RefundDealData $value) : mixed
+public setDeal(\testottest\Model\Deal\RefundDealData $value) : mixed
 ```
 
 **Summary**
@@ -278,21 +278,21 @@ public setDeal(\Testottest\Model\Deal\RefundDealData $value) : mixed
 Устанавливает информацию о сделке
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
+* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\Deal\RefundDealData</code> | value  | Информация о сделке |
+| <code lang="php">\testottest\Model\Deal\RefundDealData</code> | value  | Информация о сделке |
 
 **Returns:** mixed - 
 
 
 <a name="method_getDeal" class="anchor"></a>
-#### public getDeal() : \Testottest\Model\Deal\RefundDealData
+#### public getDeal() : \testottest\Model\Deal\RefundDealData
 
 ```php
-public getDeal() : \Testottest\Model\Deal\RefundDealData
+public getDeal() : \testottest\Model\Deal\RefundDealData
 ```
 
 **Summary**
@@ -300,9 +300,9 @@ public getDeal() : \Testottest\Model\Deal\RefundDealData
 Возвращает информацию о сделке
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
+* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
 
-**Returns:** \Testottest\Model\Deal\RefundDealData - Информация о сделке
+**Returns:** \testottest\Model\Deal\RefundDealData - Информация о сделке
 
 
 <a name="method_hasDeal" class="anchor"></a>
@@ -317,7 +317,7 @@ public hasDeal() : bool
 Проверяет наличие информации о сделке
 
 **Details:**
-* Inherited From: [\Testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
+* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestInterface](../classes/YooKassa-Request-Refunds-CreateRefundRequestInterface.md)
 
 **Returns:** bool - 
 

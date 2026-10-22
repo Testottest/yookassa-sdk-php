@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Common\Exceptions\InvalidPropertyValueException
-### Namespace: [\Testottest\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
+# Class: \testottest\Common\Exceptions\InvalidPropertyValueException
+### Namespace: [\testottest\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
 ---
 
 ---
@@ -22,8 +22,8 @@
 * Package: Default
 * Class Hierarchy:  
   * [\InvalidArgumentException](\InvalidArgumentException)
-  * [\Testottest\Common\Exceptions\InvalidPropertyException](../classes/YooKassa-Common-Exceptions-InvalidPropertyException.md)
-  * \Testottest\Common\Exceptions\InvalidPropertyValueException
+  * [\testottest\Common\Exceptions\InvalidPropertyException](../classes/YooKassa-Common-Exceptions-InvalidPropertyException.md)
+  * \testottest\Common\Exceptions\InvalidPropertyValueException
 
 ---
 ## Methods
@@ -39,7 +39,7 @@ public __construct(string $message = &#039;&#039;, int $code, string $property =
 InvalidPropertyValueTypeException constructor.
 
 **Details:**
-* Inherited From: [\Testottest\Common\Exceptions\InvalidPropertyValueException](../classes/YooKassa-Common-Exceptions-InvalidPropertyValueException.md)
+* Inherited From: [\testottest\Common\Exceptions\InvalidPropertyValueException](../classes/YooKassa-Common-Exceptions-InvalidPropertyValueException.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -60,7 +60,7 @@ public getProperty() : string
 ```
 
 **Details:**
-* Inherited From: [\Testottest\Common\Exceptions\InvalidPropertyException](../classes/YooKassa-Common-Exceptions-InvalidPropertyException.md)
+* Inherited From: [\testottest\Common\Exceptions\InvalidPropertyException](../classes/YooKassa-Common-Exceptions-InvalidPropertyException.md)
 
 **Returns:** string - 
 
@@ -73,7 +73,7 @@ public getValue() : mixed
 ```
 
 **Details:**
-* Inherited From: [\Testottest\Common\Exceptions\InvalidPropertyValueException](../classes/YooKassa-Common-Exceptions-InvalidPropertyValueException.md)
+* Inherited From: [\testottest\Common\Exceptions\InvalidPropertyValueException](../classes/YooKassa-Common-Exceptions-InvalidPropertyValueException.md)
 
 **Returns:** mixed - 
 

@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Receipts;
+namespace testottest\Request\Receipts;
 
 /**
  * Класс сериализатора объектов запросов к API для получения списка возвратов

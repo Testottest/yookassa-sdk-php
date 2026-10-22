@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Refunds;
+namespace testottest\Request\Refunds;
 
 use Exception;
-use Testottest\Model\RefundInterface;
+use testottest\Model\RefundInterface;
 
 /**
  * Класс объекта ответа от API со списком возвратов магазина

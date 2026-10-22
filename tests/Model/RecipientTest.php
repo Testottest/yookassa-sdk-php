@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Helpers\StringObject;
-use Testottest\Model\Recipient;
+use testottest\Helpers\Random;
+use testottest\Helpers\StringObject;
+use testottest\Model\Recipient;
 
 class RecipientTest extends TestCase
 {

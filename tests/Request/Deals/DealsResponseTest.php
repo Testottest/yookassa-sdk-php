@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\Testottest\Request\Deals;
+namespace Tests\testottest\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\Deal\DealType;
-use Testottest\Model\Deal\FeeMoment;
-use Testottest\Model\DealInterface;
-use Testottest\Model\Deal\DealStatus;
-use Testottest\Request\Deals\DealsResponse;
+use testottest\Helpers\Random;
+use testottest\Model\CurrencyCode;
+use testottest\Model\Deal\DealType;
+use testottest\Model\Deal\FeeMoment;
+use testottest\Model\DealInterface;
+use testottest\Model\Deal\DealStatus;
+use testottest\Request\Deals\DealsResponse;
 
 class DealsResponseTest extends TestCase
 {

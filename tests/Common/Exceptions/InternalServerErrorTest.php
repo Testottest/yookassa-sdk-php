@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Testottest\Common\Exceptions;
+namespace Tests\testottest\Common\Exceptions;
 
-use Testottest\Common\Exceptions\InternalServerError;
+use testottest\Common\Exceptions\InternalServerError;
 
 class InternalServerErrorTest extends AbstractApiRequestExceptionTest
 {

@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Common\Exceptions;
+namespace testottest\Common\Exceptions;
 
 /**
  * Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API.

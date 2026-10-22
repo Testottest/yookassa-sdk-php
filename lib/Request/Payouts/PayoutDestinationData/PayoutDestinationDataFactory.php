@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payouts\PayoutDestinationData;
+namespace testottest\Request\Payouts\PayoutDestinationData;
 
-use Testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentMethodType;
 
 /**
  * Класс PayoutDestinationDataFactory

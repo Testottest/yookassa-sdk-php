@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Receipts;
+namespace testottest\Request\Receipts;
 
 /**
  * Класс описывающий чек, не привязанный ни к платежу ни к возврату

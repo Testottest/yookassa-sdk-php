@@ -1,20 +1,20 @@
 <?php
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\Metadata;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Model\Payout;
-use Testottest\Model\Payout\PayoutCancellationDetails;
-use Testottest\Model\Payout\PayoutCancellationDetailsPartyCode;
-use Testottest\Model\Payout\PayoutCancellationDetailsReasonCode;
-use Testottest\Model\Deal\PayoutDealInfo;
-use Testottest\Model\Payout\PayoutDestinationFactory;
-use Testottest\Model\Payout\PayoutDestinationYooMoney;
-use Testottest\Model\PayoutStatus;
+use testottest\Helpers\Random;
+use testottest\Model\Metadata;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\PaymentMethodType;
+use testottest\Model\Payout;
+use testottest\Model\Payout\PayoutCancellationDetails;
+use testottest\Model\Payout\PayoutCancellationDetailsPartyCode;
+use testottest\Model\Payout\PayoutCancellationDetailsReasonCode;
+use testottest\Model\Deal\PayoutDealInfo;
+use testottest\Model\Payout\PayoutDestinationFactory;
+use testottest\Model\Payout\PayoutDestinationYooMoney;
+use testottest\Model\PayoutStatus;
 
 class PayoutTest extends TestCase
 {

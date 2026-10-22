@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\Testottest\Model\Notification;
+namespace Tests\testottest\Model\Notification;
 
-use Testottest\Helpers\Random;
-use Testottest\Model\Notification\NotificationPayoutSucceeded;
-use Testottest\Model\NotificationEventType;
-use Testottest\Model\NotificationType;
-use Testottest\Model\PayoutInterface;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Model\Payout;
-use Testottest\Model\PayoutStatus;
+use testottest\Helpers\Random;
+use testottest\Model\Notification\NotificationPayoutSucceeded;
+use testottest\Model\NotificationEventType;
+use testottest\Model\NotificationType;
+use testottest\Model\PayoutInterface;
+use testottest\Model\PaymentMethodType;
+use testottest\Model\Payout;
+use testottest\Model\PayoutStatus;
 
 class NotificationPayoutSucceededTest extends AbstractNotificationTest
 {

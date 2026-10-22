@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\Testottest\Model\Payout;
+namespace Tests\testottest\Model\Payout;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\Payout\AbstractPayoutDestination;
-use Testottest\Model\Payout\PayoutDestinationFactory;
-use Testottest\Model\Payout\PayoutDestinationType;
-use Testottest\Model\PaymentMethodType;
+use testottest\Helpers\Random;
+use testottest\Model\Payout\AbstractPayoutDestination;
+use testottest\Model\Payout\PayoutDestinationFactory;
+use testottest\Model\Payout\PayoutDestinationType;
+use testottest\Model\PaymentMethodType;
 
 class PayoutDestinationFactoryTest extends TestCase
 {

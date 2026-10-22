@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: ReceiptsRequestInterface
-### Namespace: [\Testottest\Request\Receipts](../namespaces/yookassa-request-receipts.md)
+### Namespace: [\testottest\Request\Receipts](../namespaces/yookassa-request-receipts.md)
 ---
 **Summary:**
 
@@ -67,7 +67,7 @@ public getRefundId() : string
 Возвращает идентификатор возврата
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** string - Идентификатор возврата
 
@@ -84,7 +84,7 @@ public hasRefundId() : bool
 Проверяет, был ли установлен идентификатор возврата
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** bool - True если идентификатор возврата был установлен, false если не был
 
@@ -101,7 +101,7 @@ public getPaymentId() : string|null
 Возвращает идентификатор платежа если он задан или null
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** string|null - Идентификатор платежа
 
@@ -118,7 +118,7 @@ public hasPaymentId() : bool
 Проверяет, был ли задан идентификатор платежа
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** bool - True если идентификатор был задан, false если нет
 
@@ -135,7 +135,7 @@ public getCreatedAtGte() : \DateTime|null
 Возвращает дату создания от которой будут возвращены возвраты или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** \DateTime|null - Время создания, от (включительно)
 
@@ -152,7 +152,7 @@ public hasCreatedAtGte() : bool
 Проверяет, была ли установлена дата создания от которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -169,7 +169,7 @@ public getCreatedAtGt() : \DateTime|null
 Возвращает дату создания от которой будут возвращены возвраты или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** \DateTime|null - Время создания, от (не включая)
 
@@ -186,7 +186,7 @@ public hasCreatedAtGt() : bool
 Проверяет, была ли установлена дата создания от которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -203,7 +203,7 @@ public getCreatedAtLte() : \DateTime|null
 Возвращает дату создания до которой будут возвращены возвраты или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** \DateTime|null - Время создания, до (включительно)
 
@@ -220,7 +220,7 @@ public hasCreatedAtLte() : bool
 Проверяет, была ли установлена дата создания до которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -237,7 +237,7 @@ public getCreatedAtLt() : \DateTime|null
 Возвращает дату создания до которой будут возвращены возвраты или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** \DateTime|null - Время создания, до (не включая)
 
@@ -254,7 +254,7 @@ public hasCreatedAtLt() : bool
 Проверяет, была ли установлена дата создания до которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -271,7 +271,7 @@ public getStatus() : string|null
 Возвращает статус выбираемых возвратов или null, если он до этого не был установлен
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** string|null - Статус выбираемых возвратов
 
@@ -288,7 +288,7 @@ public hasStatus() : bool
 Проверяет, был ли установлен статус выбираемых возвратов
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** bool - True если статус был установлен, false если нет
 
@@ -305,7 +305,7 @@ public getCursor() : string|null
 Возвращает токен для получения следующей страницы выборки
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** string|null - Токен для получения следующей страницы выборки
 
@@ -322,7 +322,7 @@ public hasCursor() : bool
 Проверяет, был ли установлен токен следующей страницы
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** bool - True если токен был установлен, false если нет
 
@@ -339,7 +339,7 @@ public getLimit() : string|null
 Возвращает ограничение количества объектов или null, если оно до этого не было установлено
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** string|null - Ограничение количества объектов
 
@@ -356,7 +356,7 @@ public hasLimit() : bool
 Проверяет, было ли установлено ограничение количества объектов
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestInterface](../classes/YooKassa-Request-Receipts-ReceiptsRequestInterface.md)
 
 **Returns:** bool - True если ограничение количества объектов было установлено, false если нет
 

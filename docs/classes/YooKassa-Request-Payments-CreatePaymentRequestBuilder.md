@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Request\Payments\CreatePaymentRequestBuilder
-### Namespace: [\Testottest\Request\Payments](../namespaces/yookassa-request-payments.md)
+# Class: \testottest\Request\Payments\CreatePaymentRequestBuilder
+### Namespace: [\testottest\Request\Payments](../namespaces/yookassa-request-payments.md)
 ---
 **Summary:**
 
@@ -14,9 +14,9 @@
 
 ```php
 try {
-    $builder = \Testottest\Request\Payments\CreatePaymentRequest::builder();
+    $builder = \testottest\Request\Payments\CreatePaymentRequest::builder();
     $builder->setAmount(100)
-            ->setCurrency(\Testottest\Model\CurrencyCode::RUB)
+            ->setCurrency(\testottest\Model\CurrencyCode::RUB)
             ->setCapture(true)
             ->setDescription('Оплата заказа 112233')
             ->setMetadata(array(
@@ -28,12 +28,12 @@ try {
 
     // Устанавливаем страницу для редиректа после оплаты
     $builder->setConfirmation(array(
-        'type'      => \Testottest\Model\ConfirmationType::REDIRECT,
+        'type'      => \testottest\Model\ConfirmationType::REDIRECT,
         'returnUrl' => 'https://merchant-site.ru/payment-return-page',
     ));
 
     // Можем установить конкретный способ оплаты
-    $builder->setPaymentMethodData(\Testottest\Model\PaymentMethodType::BANK_CARD);
+    $builder->setPaymentMethodData(\testottest\Model\PaymentMethodType::BANK_CARD);
 
     // Составляем чек
     $builder->setReceiptEmail('john.doe@merchant.com');
@@ -52,8 +52,8 @@ try {
         'Delivery/Shipping/Доставка',
         100,
         1,
-        \Testottest\Model\Receipt\PaymentMode::FULL_PAYMENT,
-        \Testottest\Model\Receipt\PaymentSubject::SERVICE
+        \testottest\Model\Receipt\PaymentMode::FULL_PAYMENT,
+        \testottest\Model\Receipt\PaymentSubject::SERVICE
     );
 
     // Можно добавить распределение денег по магазинам
@@ -63,7 +63,7 @@ try {
             'amount' => array(
                 array(
                     'value' => 1000,
-                    'currency' => \Testottest\Model\CurrencyCode::RUB
+                    'currency' => \testottest\Model\CurrencyCode::RUB
                 )
             ),
         ),
@@ -72,7 +72,7 @@ try {
             'amount' => array(
                 array(
                     'value' => 2000,
-                    'currency' => \Testottest\Model\CurrencyCode::RUB
+                    'currency' => \testottest\Model\CurrencyCode::RUB
                 )
             ),
         )
@@ -148,61 +148,61 @@ var_dump($response);
 * File: [lib/Request/Payments/CreatePaymentRequestBuilder.php](../../lib/Request/Payments/CreatePaymentRequestBuilder.php)
 * Package: YooKassa
 * Class Hierarchy:  
-  * [\Testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
-  * [\Testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
-  * \Testottest\Request\Payments\CreatePaymentRequestBuilder
+  * [\testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+  * [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+  * \testottest\Request\Payments\CreatePaymentRequestBuilder
 
 ---
 ## Properties
 <a name="property_amount"></a>
-#### protected $amount : \Testottest\Model\MonetaryAmount
+#### protected $amount : \testottest\Model\MonetaryAmount
 ---
 **Summary**
 
 Сумма
 
-**Type:** <a href="../classes/YooKassa-Model-MonetaryAmount.html"><abbr title="\Testottest\Model\MonetaryAmount">MonetaryAmount</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-MonetaryAmount.html"><abbr title="\testottest\Model\MonetaryAmount">MonetaryAmount</abbr></a>
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 
 <a name="property_currentObject"></a>
-#### protected $currentObject : \Testottest\Request\Payments\CreatePaymentRequest
+#### protected $currentObject : \testottest\Request\Payments\CreatePaymentRequest
 ---
 **Summary**
 
 Собираемый объект запроса
 
-**Type:** <a href="../classes/YooKassa-Request-Payments-CreatePaymentRequest.html"><abbr title="\Testottest\Request\Payments\CreatePaymentRequest">CreatePaymentRequest</abbr></a>
+**Type:** <a href="../classes/YooKassa-Request-Payments-CreatePaymentRequest.html"><abbr title="\testottest\Request\Payments\CreatePaymentRequest">CreatePaymentRequest</abbr></a>
 
 **Details:**
 
 
 <a name="property_receipt"></a>
-#### protected $receipt : \Testottest\Model\Receipt
+#### protected $receipt : \testottest\Model\Receipt
 ---
 **Summary**
 
 Объект с информацией о чеке
 
-**Type:** <a href="../classes/YooKassa-Model-Receipt.html"><abbr title="\Testottest\Model\Receipt">Receipt</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-Receipt.html"><abbr title="\testottest\Model\Receipt">Receipt</abbr></a>
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 
 <a name="property_transfers"></a>
-#### protected $transfers : \Testottest\Model\TransferInterface[]
+#### protected $transfers : \testottest\Model\TransferInterface[]
 ---
 **Summary**
 
 Массив платежей в пользу разных мерчантов
 
-**Type:** <a href="../\Testottest\Model\TransferInterface[]"><abbr title="\Testottest\Model\TransferInterface[]">TransferInterface[]</abbr></a>
+**Type:** <a href="../\testottest\Model\TransferInterface[]"><abbr title="\testottest\Model\TransferInterface[]">TransferInterface[]</abbr></a>
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 
 
@@ -220,7 +220,7 @@ public __construct() : mixed
 Конструктор, инициализирует пустой запрос, который в будущем начнём собирать
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
 **Returns:** mixed - 
 
@@ -237,10 +237,10 @@ public addReceiptItem(string $title, string $price, float $quantity, int $vatCod
 Добавляет в чек товар
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 * See Also:
- * [](\Testottest\Model\Receipt\PaymentSubject::class)
- * [](\Testottest\Model\Receipt\PaymentMode::class)
+ * [](\testottest\Model\Receipt\PaymentSubject::class)
+ * [](\testottest\Model\Receipt\PaymentMode::class)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -271,10 +271,10 @@ public addReceiptShipping(string $title, string $price, int $vatCode, null|strin
 Добавляет в чек доставку товара
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 * See Also:
- * [](\Testottest\Model\Receipt\PaymentSubject::class)
- * [](\Testottest\Model\Receipt\PaymentMode::class)
+ * [](\testottest\Model\Receipt\PaymentSubject::class)
+ * [](\testottest\Model\Receipt\PaymentMode::class)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -289,10 +289,10 @@ public addReceiptShipping(string $title, string $price, int $vatCode, null|strin
 
 
 <a name="method_build" class="anchor"></a>
-#### public build() : \Testottest\Request\Payments\CreatePaymentRequestInterface|\Testottest\Common\AbstractPaymentRequest|\Testottest\Common\AbstractRequest
+#### public build() : \testottest\Request\Payments\CreatePaymentRequestInterface|\testottest\Common\AbstractPaymentRequest|\testottest\Common\AbstractRequest
 
 ```php
-public build(array|null $options = null) : \Testottest\Request\Payments\CreatePaymentRequestInterface|\Testottest\Common\AbstractPaymentRequest|\Testottest\Common\AbstractRequest
+public build(array|null $options = null) : \testottest\Request\Payments\CreatePaymentRequestInterface|\testottest\Common\AbstractPaymentRequest|\testottest\Common\AbstractRequest
 ```
 
 **Summary**
@@ -300,7 +300,7 @@ public build(array|null $options = null) : \Testottest\Request\Payments\CreatePa
 Строит и возвращает объект запроса для отправки в API ЮKassa
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -310,16 +310,16 @@ public build(array|null $options = null) : \Testottest\Request\Payments\CreatePa
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidRequestException | Выбрасывается если собрать объект запроса не удалось |
+| \testottest\Common\Exceptions\InvalidRequestException | Выбрасывается если собрать объект запроса не удалось |
 
-**Returns:** \Testottest\Request\Payments\CreatePaymentRequestInterface|\Testottest\Common\AbstractPaymentRequest|\Testottest\Common\AbstractRequest - Инстанс объекта запроса
+**Returns:** \testottest\Request\Payments\CreatePaymentRequestInterface|\testottest\Common\AbstractPaymentRequest|\testottest\Common\AbstractRequest - Инстанс объекта запроса
 
 
 <a name="method_setAccountId" class="anchor"></a>
-#### public setAccountId() : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+#### public setAccountId() : \testottest\Request\Payments\CreatePaymentRequestBuilder
 
 ```php
-public setAccountId(string $value) : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+public setAccountId(string $value) : \testottest\Request\Payments\CreatePaymentRequestBuilder
 ```
 
 **Summary**
@@ -327,7 +327,7 @@ public setAccountId(string $value) : \Testottest\Request\Payments\CreatePaymentR
 Устанавливает идентификатор магазина получателя платежа
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -337,17 +337,17 @@ public setAccountId(string $value) : \Testottest\Request\Payments\CreatePaymentR
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если было передано пустое значение |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если было передано не строковое значение |
+| \testottest\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если было передано пустое значение |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если было передано не строковое значение |
 
-**Returns:** \Testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
+**Returns:** \testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setAirline" class="anchor"></a>
-#### public setAirline() : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+#### public setAirline() : \testottest\Request\Payments\CreatePaymentRequestBuilder
 
 ```php
-public setAirline(\Testottest\Model\AirlineInterface|array $value) : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+public setAirline(\testottest\Model\AirlineInterface|array $value) : \testottest\Request\Payments\CreatePaymentRequestBuilder
 ```
 
 **Summary**
@@ -355,21 +355,21 @@ public setAirline(\Testottest\Model\AirlineInterface|array $value) : \Testottest
 Устанавливает информацию об авиабилетах
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\AirlineInterface OR array</code> | value  | Объект данных длинной записи или ассоциативный массив с данными |
+| <code lang="php">\testottest\Model\AirlineInterface OR array</code> | value  | Объект данных длинной записи или ассоциативный массив с данными |
 
-**Returns:** \Testottest\Request\Payments\CreatePaymentRequestBuilder - 
+**Returns:** \testottest\Request\Payments\CreatePaymentRequestBuilder - 
 
 
 <a name="method_setAmount" class="anchor"></a>
 #### public setAmount() : self
 
 ```php
-public setAmount(\Testottest\Model\AmountInterface|array|string $value) : self
+public setAmount(\testottest\Model\AmountInterface|array|string $value) : self
 ```
 
 **Summary**
@@ -377,21 +377,21 @@ public setAmount(\Testottest\Model\AmountInterface|array|string $value) : self
 Устанавливает сумму
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\AmountInterface OR array OR string</code> | value  | Сумма оплаты |
+| <code lang="php">\testottest\Model\AmountInterface OR array OR string</code> | value  | Сумма оплаты |
 
 **Returns:** self - Инстанс билдера запросов
 
 
 <a name="method_setCapture" class="anchor"></a>
-#### public setCapture() : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+#### public setCapture() : \testottest\Request\Payments\CreatePaymentRequestBuilder
 
 ```php
-public setCapture(bool $value) : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+public setCapture(bool $value) : \testottest\Request\Payments\CreatePaymentRequestBuilder
 ```
 
 **Summary**
@@ -399,7 +399,7 @@ public setCapture(bool $value) : \Testottest\Request\Payments\CreatePaymentReque
 Устанавливает флаг автоматического принятия поступившей оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -409,16 +409,16 @@ public setCapture(bool $value) : \Testottest\Request\Payments\CreatePaymentReque
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если переданный аргумент не кастится в bool |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если переданный аргумент не кастится в bool |
 
-**Returns:** \Testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
+**Returns:** \testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setClientIp" class="anchor"></a>
-#### public setClientIp() : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+#### public setClientIp() : \testottest\Request\Payments\CreatePaymentRequestBuilder
 
 ```php
-public setClientIp(string $value) : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+public setClientIp(string $value) : \testottest\Request\Payments\CreatePaymentRequestBuilder
 ```
 
 **Summary**
@@ -426,7 +426,7 @@ public setClientIp(string $value) : \Testottest\Request\Payments\CreatePaymentRe
 Устанавливает IP адрес покупателя
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -436,16 +436,16 @@ public setClientIp(string $value) : \Testottest\Request\Payments\CreatePaymentRe
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданный аргумент не является строкой |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданный аргумент не является строкой |
 
-**Returns:** \Testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
+**Returns:** \testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setConfirmation" class="anchor"></a>
-#### public setConfirmation() : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+#### public setConfirmation() : \testottest\Request\Payments\CreatePaymentRequestBuilder
 
 ```php
-public setConfirmation(\Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes|string|array|null $value, array|null $options = null) : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+public setConfirmation(\testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes|string|array|null $value, array|null $options = null) : \testottest\Request\Payments\CreatePaymentRequestBuilder
 ```
 
 **Summary**
@@ -453,20 +453,20 @@ public setConfirmation(\Testottest\Model\ConfirmationAttributes\AbstractConfirma
 Устанавливает способ подтверждения платежа
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes OR string OR array OR null</code> | value  | Способ подтверждения платежа |
+| <code lang="php">\testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes OR string OR array OR null</code> | value  | Способ подтверждения платежа |
 | <code lang="php">array OR null</code> | options  | Настройки способа подтверждения платежа в виде массива |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является объектом типа AbstractConfirmationAttributes или null |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является объектом типа AbstractConfirmationAttributes или null |
 
-**Returns:** \Testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
+**Returns:** \testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setCurrency" class="anchor"></a>
@@ -481,7 +481,7 @@ public setCurrency(string $value) : self
 Устанавливает валюту в которой будет происходить подтверждение оплаты заказа
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -495,7 +495,7 @@ public setCurrency(string $value) : self
 #### public setDeal() : mixed
 
 ```php
-public setDeal(\Testottest\Model\Deal\PaymentDealInfo|array|null $value) : mixed
+public setDeal(\testottest\Model\Deal\PaymentDealInfo|array|null $value) : mixed
 ```
 
 **Summary**
@@ -503,26 +503,26 @@ public setDeal(\Testottest\Model\Deal\PaymentDealInfo|array|null $value) : mixed
 Устанавливает данные о сделке, в составе которой проходит платеж.
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\Deal\PaymentDealInfo OR array OR null</code> | value  | Данные о сделке, в составе которой проходит платеж |
+| <code lang="php">\testottest\Model\Deal\PaymentDealInfo OR array OR null</code> | value  | Данные о сделке, в составе которой проходит платеж |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданные данные не удалось интерпретировать как метаданные платежа |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданные данные не удалось интерпретировать как метаданные платежа |
 
 **Returns:** mixed - 
 
 
 <a name="method_setDescription" class="anchor"></a>
-#### public setDescription() : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+#### public setDescription() : \testottest\Request\Payments\CreatePaymentRequestBuilder
 
 ```php
-public setDescription(string $value) : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+public setDescription(string $value) : \testottest\Request\Payments\CreatePaymentRequestBuilder
 ```
 
 **Summary**
@@ -530,7 +530,7 @@ public setDescription(string $value) : \Testottest\Request\Payments\CreatePaymen
 Устанавливает описание транзакции
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -540,17 +540,17 @@ public setDescription(string $value) : \Testottest\Request\Payments\CreatePaymen
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение превышает допустимую длину |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
+| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение превышает допустимую длину |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
 
-**Returns:** \Testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
+**Returns:** \testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setGatewayId" class="anchor"></a>
-#### public setGatewayId() : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+#### public setGatewayId() : \testottest\Request\Payments\CreatePaymentRequestBuilder
 
 ```php
-public setGatewayId(string $value) : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+public setGatewayId(string $value) : \testottest\Request\Payments\CreatePaymentRequestBuilder
 ```
 
 **Summary**
@@ -558,7 +558,7 @@ public setGatewayId(string $value) : \Testottest\Request\Payments\CreatePaymentR
 Устанавливает идентификатор шлюза
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -568,10 +568,10 @@ public setGatewayId(string $value) : \Testottest\Request\Payments\CreatePaymentR
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если было передано пустое значение |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если было передано не строковое значение |
+| \testottest\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если было передано пустое значение |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если было передано не строковое значение |
 
-**Returns:** \Testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
+**Returns:** \testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setMerchantCustomerId" class="anchor"></a>
@@ -586,7 +586,7 @@ public setMerchantCustomerId(string $value) : mixed
 Устанавливает идентификатор покупателя в вашей системе
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -596,16 +596,16 @@ public setMerchantCustomerId(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданный аргумент не является строкой |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданный аргумент не является строкой |
 
 **Returns:** mixed - 
 
 
 <a name="method_setMetadata" class="anchor"></a>
-#### public setMetadata() : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+#### public setMetadata() : \testottest\Request\Payments\CreatePaymentRequestBuilder
 
 ```php
-public setMetadata(\Testottest\Model\Metadata|array|null $value) : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+public setMetadata(\testottest\Model\Metadata|array|null $value) : \testottest\Request\Payments\CreatePaymentRequestBuilder
 ```
 
 **Summary**
@@ -613,26 +613,26 @@ public setMetadata(\Testottest\Model\Metadata|array|null $value) : \Testottest\R
 Устанавливает метаданные, привязанные к платежу
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\Metadata OR array OR null</code> | value  | Метаданные платежа, устанавливаемые мерчантом |
+| <code lang="php">\testottest\Model\Metadata OR array OR null</code> | value  | Метаданные платежа, устанавливаемые мерчантом |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданные данные не удалось интерпретировать как метаданные платежа |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданные данные не удалось интерпретировать как метаданные платежа |
 
-**Returns:** \Testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
+**Returns:** \testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setOptions" class="anchor"></a>
-#### public setOptions() : \Testottest\Common\AbstractRequestBuilder
+#### public setOptions() : \testottest\Common\AbstractRequestBuilder
 
 ```php
-public setOptions(array|\Traversable $options) : \Testottest\Common\AbstractRequestBuilder
+public setOptions(array|\Traversable $options) : \testottest\Common\AbstractRequestBuilder
 ```
 
 **Summary**
@@ -640,7 +640,7 @@ public setOptions(array|\Traversable $options) : \Testottest\Common\AbstractRequ
 Устанавливает свойства запроса из массива
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -651,16 +651,16 @@ public setOptions(array|\Traversable $options) : \Testottest\Common\AbstractRequ
 | Type | Description |
 | ---- | ----------- |
 | \InvalidArgumentException | Выбрасывается если аргумент не массив и не итерируемый объект |
-| \Testottest\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданныч в массиве настроек |
+| \testottest\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданныч в массиве настроек |
 
-**Returns:** \Testottest\Common\AbstractRequestBuilder - Инстанс текущего билдера запросов
+**Returns:** \testottest\Common\AbstractRequestBuilder - Инстанс текущего билдера запросов
 
 
 <a name="method_setPaymentMethodData" class="anchor"></a>
-#### public setPaymentMethodData() : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+#### public setPaymentMethodData() : \testottest\Request\Payments\CreatePaymentRequestBuilder
 
 ```php
-public setPaymentMethodData(\Testottest\Model\PaymentData\AbstractPaymentData|string|array|null $value, array $options = null) : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+public setPaymentMethodData(\testottest\Model\PaymentData\AbstractPaymentData|string|array|null $value, array $options = null) : \testottest\Request\Payments\CreatePaymentRequestBuilder
 ```
 
 **Summary**
@@ -668,27 +668,27 @@ public setPaymentMethodData(\Testottest\Model\PaymentData\AbstractPaymentData|st
 Устанавливает объект с информацией для создания метода оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\PaymentData\AbstractPaymentData OR string OR array OR null</code> | value  | Объект создания метода оплаты или null |
+| <code lang="php">\testottest\Model\PaymentData\AbstractPaymentData OR string OR array OR null</code> | value  | Объект создания метода оплаты или null |
 | <code lang="php">array</code> | options  | Настройки способа оплаты в виде ассоциативного массива |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если был передан объект невалидного типа |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если был передан объект невалидного типа |
 
-**Returns:** \Testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
+**Returns:** \testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setPaymentMethodId" class="anchor"></a>
-#### public setPaymentMethodId() : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+#### public setPaymentMethodId() : \testottest\Request\Payments\CreatePaymentRequestBuilder
 
 ```php
-public setPaymentMethodId(string $value) : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+public setPaymentMethodId(string $value) : \testottest\Request\Payments\CreatePaymentRequestBuilder
 ```
 
 **Summary**
@@ -696,7 +696,7 @@ public setPaymentMethodId(string $value) : \Testottest\Request\Payments\CreatePa
 Устанавливает идентификатор записи о сохранённых данных покупателя
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -706,16 +706,16 @@ public setPaymentMethodId(string $value) : \Testottest\Request\Payments\CreatePa
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если переданные значение не является строкой или null |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если переданные значение не является строкой или null |
 
-**Returns:** \Testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
+**Returns:** \testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setPaymentToken" class="anchor"></a>
-#### public setPaymentToken() : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+#### public setPaymentToken() : \testottest\Request\Payments\CreatePaymentRequestBuilder
 
 ```php
-public setPaymentToken(string $value) : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+public setPaymentToken(string $value) : \testottest\Request\Payments\CreatePaymentRequestBuilder
 ```
 
 **Summary**
@@ -723,7 +723,7 @@ public setPaymentToken(string $value) : \Testottest\Request\Payments\CreatePayme
 Устанавливает одноразовый токен для проведения оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -733,17 +733,17 @@ public setPaymentToken(string $value) : \Testottest\Request\Payments\CreatePayme
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение превышает допустимую длину |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
+| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение превышает допустимую длину |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
 
-**Returns:** \Testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
+**Returns:** \testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setReceipt" class="anchor"></a>
 #### public setReceipt() : self
 
 ```php
-public setReceipt(\Testottest\Model\ReceiptInterface|array $value) : self
+public setReceipt(\testottest\Model\ReceiptInterface|array $value) : self
 ```
 
 **Summary**
@@ -751,17 +751,17 @@ public setReceipt(\Testottest\Model\ReceiptInterface|array $value) : self
 Устанавливает чек
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\ReceiptInterface OR array</code> | value  | Инстанс чека или ассоциативный массив с данными чека |
+| <code lang="php">\testottest\Model\ReceiptInterface OR array</code> | value  | Инстанс чека или ассоциативный массив с данными чека |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если было передано значение невалидного типа |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если было передано значение невалидного типа |
 
 **Returns:** self - 
 
@@ -778,7 +778,7 @@ public setReceiptEmail(string $value) : self
 Устанавливает адрес электронной почты получателя чека
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -800,7 +800,7 @@ public setReceiptItems(array $value) : self
 Устанавлвиает список товаров для создания чека
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -810,7 +810,7 @@ public setReceiptItems(array $value) : self
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если хотя бы один из товаров имеет неверную структуру |
+| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если хотя бы один из товаров имеет неверную структуру |
 
 **Returns:** self - Инстанс билдера запросов
 
@@ -827,7 +827,7 @@ public setReceiptPhone(string $value) : self
 Устанавливает телефон получателя чека
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -837,16 +837,16 @@ public setReceiptPhone(string $value) : self
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в качестве значения была передана не строка |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в качестве значения была передана не строка |
 
 **Returns:** self - Инстанс билдера запросов
 
 
 <a name="method_setRecipient" class="anchor"></a>
-#### public setRecipient() : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+#### public setRecipient() : \testottest\Request\Payments\CreatePaymentRequestBuilder
 
 ```php
-public setRecipient(\Testottest\Model\RecipientInterface|array $value) : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+public setRecipient(\testottest\Model\RecipientInterface|array $value) : \testottest\Request\Payments\CreatePaymentRequestBuilder
 ```
 
 **Summary**
@@ -854,26 +854,26 @@ public setRecipient(\Testottest\Model\RecipientInterface|array $value) : \Testot
 Устанавливает получателя платежа из объекта или ассоциативного массива
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\RecipientInterface OR array</code> | value  | Получатель платежа |
+| <code lang="php">\testottest\Model\RecipientInterface OR array</code> | value  | Получатель платежа |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если передан аргумент не валидного типа |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если передан аргумент не валидного типа |
 
-**Returns:** \Testottest\Request\Payments\CreatePaymentRequestBuilder - 
+**Returns:** \testottest\Request\Payments\CreatePaymentRequestBuilder - 
 
 
 <a name="method_setSavePaymentMethod" class="anchor"></a>
-#### public setSavePaymentMethod() : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+#### public setSavePaymentMethod() : \testottest\Request\Payments\CreatePaymentRequestBuilder
 
 ```php
-public setSavePaymentMethod(bool $value) : \Testottest\Request\Payments\CreatePaymentRequestBuilder
+public setSavePaymentMethod(bool $value) : \testottest\Request\Payments\CreatePaymentRequestBuilder
 ```
 
 **Summary**
@@ -881,7 +881,7 @@ public setSavePaymentMethod(bool $value) : \Testottest\Request\Payments\CreatePa
 Устанавливает флаг сохранения платёжных данных. Значение true инициирует создание многоразового payment_method.
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -891,9 +891,9 @@ public setSavePaymentMethod(bool $value) : \Testottest\Request\Payments\CreatePa
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если переданный аргумент не кастится в bool |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если переданный аргумент не кастится в bool |
 
-**Returns:** \Testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
+**Returns:** \testottest\Request\Payments\CreatePaymentRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setTaxSystemCode" class="anchor"></a>
@@ -908,7 +908,7 @@ public setTaxSystemCode(int $value) : self
 Устанавливает код системы налогообложения.
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -922,7 +922,7 @@ public setTaxSystemCode(int $value) : self
 #### public setTransfers() : self
 
 ```php
-public setTransfers(\Testottest\Model\TransferInterface[]|array|null $value) : self
+public setTransfers(\testottest\Model\TransferInterface[]|array|null $value) : self
 ```
 
 **Summary**
@@ -930,21 +930,21 @@ public setTransfers(\Testottest\Model\TransferInterface[]|array|null $value) : s
 Устанавливает трансферы
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\TransferInterface[] OR array OR null</code> | value  | Массив трансферов |
+| <code lang="php">\testottest\Model\TransferInterface[] OR array OR null</code> | value  | Массив трансферов |
 
 **Returns:** self - Инстанс билдера запросов
 
 
 <a name="method_getConfirmationFactory" class="anchor"></a>
-#### protected getConfirmationFactory() : \Testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory
+#### protected getConfirmationFactory() : \testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory
 
 ```php
-protected getConfirmationFactory() : \Testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory
+protected getConfirmationFactory() : \testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory
 ```
 
 **Summary**
@@ -952,16 +952,16 @@ protected getConfirmationFactory() : \Testottest\Model\ConfirmationAttributes\Co
 Возвращает фабрику для создания методов подтверждения платежей
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
-**Returns:** \Testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory - Фабрика объектов методов подтверждения платежей
+**Returns:** \testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory - Фабрика объектов методов подтверждения платежей
 
 
 <a name="method_getPaymentDataFactory" class="anchor"></a>
-#### protected getPaymentDataFactory() : \Testottest\Model\PaymentData\PaymentDataFactory
+#### protected getPaymentDataFactory() : \testottest\Model\PaymentData\PaymentDataFactory
 
 ```php
-protected getPaymentDataFactory() : \Testottest\Model\PaymentData\PaymentDataFactory
+protected getPaymentDataFactory() : \testottest\Model\PaymentData\PaymentDataFactory
 ```
 
 **Summary**
@@ -969,16 +969,16 @@ protected getPaymentDataFactory() : \Testottest\Model\PaymentData\PaymentDataFac
 Возвращает фабрику методов проведения платежей
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
-**Returns:** \Testottest\Model\PaymentData\PaymentDataFactory - Фабрика методов проведения платежей
+**Returns:** \testottest\Model\PaymentData\PaymentDataFactory - Фабрика методов проведения платежей
 
 
 <a name="method_initCurrentObject" class="anchor"></a>
-#### protected initCurrentObject() : \Testottest\Request\Payments\CreatePaymentRequest
+#### protected initCurrentObject() : \testottest\Request\Payments\CreatePaymentRequest
 
 ```php
-protected initCurrentObject() : \Testottest\Request\Payments\CreatePaymentRequest
+protected initCurrentObject() : \testottest\Request\Payments\CreatePaymentRequest
 ```
 
 **Summary**
@@ -986,9 +986,9 @@ protected initCurrentObject() : \Testottest\Request\Payments\CreatePaymentReques
 Инициализирует объект запроса, который в дальнейшем будет собираться билдером
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
+* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestBuilder](../classes/YooKassa-Request-Payments-CreatePaymentRequestBuilder.md)
 
-**Returns:** \Testottest\Request\Payments\CreatePaymentRequest - Инстанс собираемого объекта запроса к API
+**Returns:** \testottest\Request\Payments\CreatePaymentRequest - Инстанс собираемого объекта запроса к API
 
 
 

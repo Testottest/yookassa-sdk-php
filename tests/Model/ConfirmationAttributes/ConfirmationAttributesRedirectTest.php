@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Model\ConfirmationAttributes;
+namespace Tests\testottest\Model\ConfirmationAttributes;
 
-use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesRedirect;
-use Testottest\Model\ConfirmationType;
+use testottest\Model\ConfirmationAttributes\ConfirmationAttributesRedirect;
+use testottest\Model\ConfirmationType;
 
 class ConfirmationAttributesRedirectTest extends AbstractConfirmationAttributesTest
 {

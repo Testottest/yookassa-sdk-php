@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Model\PaymentMethod;
+namespace Tests\testottest\Model\PaymentMethod;
 
-use Testottest\Model\PaymentMethod\PaymentMethodGooglePay;
-use Testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentMethod\PaymentMethodGooglePay;
+use testottest\Model\PaymentMethodType;
 
 class PaymentMethodGooglePayTest extends AbstractPaymentMethodTest
 {

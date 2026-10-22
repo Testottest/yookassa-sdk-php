@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\Confirmation;
+namespace testottest\Model\Confirmation;
 
-use Testottest\Model\ConfirmationType;
+use testottest\Model\ConfirmationType;
 
 /**
  * Class ConfirmationFactory

@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\Testottest\Request\Refunds;
+namespace Tests\testottest\Request\Refunds;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\Deal\RefundDealData;
-use Testottest\Model\Deal\SettlementPayoutPaymentType;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Receipt;
-use Testottest\Model\ReceiptItem;
-use Testottest\Request\Refunds\CreateRefundRequest;
-use Testottest\Request\Refunds\CreateRefundRequestBuilder;
+use testottest\Helpers\Random;
+use testottest\Model\Deal\RefundDealData;
+use testottest\Model\Deal\SettlementPayoutPaymentType;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Receipt;
+use testottest\Model\ReceiptItem;
+use testottest\Request\Refunds\CreateRefundRequest;
+use testottest\Request\Refunds\CreateRefundRequestBuilder;
 
 class CreateRefundRequestTest extends TestCase
 {

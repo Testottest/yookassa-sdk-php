@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payouts;
+namespace testottest\Request\Payouts;
 
-use Testottest\Model\AmountInterface;
-use Testottest\Model\DealInterface;
-use Testottest\Model\Metadata;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Deal\PayoutDealInfo;
-use Testottest\Model\Payout\AbstractPayoutDestination;
+use testottest\Model\AmountInterface;
+use testottest\Model\DealInterface;
+use testottest\Model\Metadata;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Deal\PayoutDealInfo;
+use testottest\Model\Payout\AbstractPayoutDestination;
 
 /**
  * Interface CreatePayoutRequestInterface

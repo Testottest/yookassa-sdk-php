@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\Confirmation;
+namespace testottest\Model\Confirmation;
 
-use Testottest\Model\ConfirmationType;
+use testottest\Model\ConfirmationType;
 
 /**
  * Сценарий при котором необходимо получить одноразовый код от плательщика для подтверждения платежа

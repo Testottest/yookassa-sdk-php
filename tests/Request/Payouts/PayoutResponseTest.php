@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Testottest\Request\Payouts;
+namespace Tests\testottest\Request\Payouts;
 
-use Testottest\Request\Payouts\PayoutResponse;
+use testottest\Request\Payouts\PayoutResponse;
 
 class PayoutResponseTest extends AbstractPayoutResponseTest
 {

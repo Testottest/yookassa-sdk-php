@@ -24,15 +24,15 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Common;
+namespace testottest\Common;
 
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\Deal\PaymentDealInfo;
-use Testottest\Model\Receipt;
-use Testottest\Model\ReceiptInterface;
-use Testottest\Model\Transfer;
-use Testottest\Model\TransferInterface;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Model\AmountInterface;
+use testottest\Model\Deal\PaymentDealInfo;
+use testottest\Model\Receipt;
+use testottest\Model\ReceiptInterface;
+use testottest\Model\Transfer;
+use testottest\Model\TransferInterface;
 
 /**
  * Класс объекта запроса к API

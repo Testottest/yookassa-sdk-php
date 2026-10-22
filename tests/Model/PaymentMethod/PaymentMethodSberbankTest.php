@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Model\PaymentMethod;
+namespace Tests\testottest\Model\PaymentMethod;
 
-use Testottest\Model\PaymentMethod\PaymentMethodSberbank;
-use Testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentMethod\PaymentMethodSberbank;
+use testottest\Model\PaymentMethodType;
 
 class PaymentMethodSberbankTest extends AbstractPaymentMethodPhoneTest
 {

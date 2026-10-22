@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Testottest\Model\PaymentMethodTest;
+namespace Tests\testottest\Model\PaymentMethodTest;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\PaymentMethod\AbstractPaymentMethod;
-use Testottest\Model\PaymentMethod\PaymentMethodFactory;
-use Testottest\Model\PaymentMethodType;
+use testottest\Helpers\Random;
+use testottest\Model\PaymentMethod\AbstractPaymentMethod;
+use testottest\Model\PaymentMethod\PaymentMethodFactory;
+use testottest\Model\PaymentMethodType;
 
 class PaymentMethodFactoryTest extends TestCase
 {

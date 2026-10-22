@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Testottest\Request\Payments;
+namespace Tests\testottest\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Model\PaymentStatus;
-use Testottest\Request\Payments\PaymentsRequestBuilder;
+use testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentStatus;
+use testottest\Request\Payments\PaymentsRequestBuilder;
 
 class PaymentsRequestBuilderTest extends TestCase
 {

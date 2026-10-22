@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Testottest\Model\PaymentData;
+namespace Tests\testottest\Model\PaymentData;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails;
+use testottest\Helpers\Random;
+use testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails;
 
 class PayerBankDetailsTest extends TestCase
 {

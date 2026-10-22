@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: CreateCaptureRequestInterface
-### Namespace: [\Testottest\Request\Payments\Payment](../namespaces/yookassa-request-payments-payment.md)
+### Namespace: [\testottest\Request\Payments\Payment](../namespaces/yookassa-request-payments-payment.md)
 ---
 **Summary:**
 
@@ -43,10 +43,10 @@ Interface CreateCaptureRequestInterface
 ---
 ## Methods
 <a name="method_getAmount" class="anchor"></a>
-#### public getAmount() : \Testottest\Model\AmountInterface
+#### public getAmount() : \testottest\Model\AmountInterface
 
 ```php
-public getAmount() : \Testottest\Model\AmountInterface
+public getAmount() : \testottest\Model\AmountInterface
 ```
 
 **Summary**
@@ -54,9 +54,9 @@ public getAmount() : \Testottest\Model\AmountInterface
 Возвращает подтверждаемую сумму оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
+* Inherited From: [\testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
 
-**Returns:** \Testottest\Model\AmountInterface - Подтверждаемая сумма оплаты
+**Returns:** \testottest\Model\AmountInterface - Подтверждаемая сумма оплаты
 
 
 <a name="method_hasAmount" class="anchor"></a>
@@ -71,7 +71,7 @@ public hasAmount() : bool
 Проверяет, была ли установлена сумма оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
+* Inherited From: [\testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
 
 **Returns:** bool - True если сумма оплаты была установлена, false если нет
 
@@ -80,7 +80,7 @@ public hasAmount() : bool
 #### public setAmount() : mixed
 
 ```php
-public setAmount(\Testottest\Model\AmountInterface $value) : mixed
+public setAmount(\testottest\Model\AmountInterface $value) : mixed
 ```
 
 **Summary**
@@ -88,21 +88,21 @@ public setAmount(\Testottest\Model\AmountInterface $value) : mixed
 Устанавливает сумму оплаты
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
+* Inherited From: [\testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\AmountInterface</code> | value  | Сумма оплаты |
+| <code lang="php">\testottest\Model\AmountInterface</code> | value  | Сумма оплаты |
 
 **Returns:** mixed - 
 
 
 <a name="method_getReceipt" class="anchor"></a>
-#### public getReceipt() : \Testottest\Model\ReceiptInterface|null
+#### public getReceipt() : \testottest\Model\ReceiptInterface|null
 
 ```php
-public getReceipt() : \Testottest\Model\ReceiptInterface|null
+public getReceipt() : \testottest\Model\ReceiptInterface|null
 ```
 
 **Summary**
@@ -110,9 +110,9 @@ public getReceipt() : \Testottest\Model\ReceiptInterface|null
 Возвращает чек, если он есть
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
+* Inherited From: [\testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
 
-**Returns:** \Testottest\Model\ReceiptInterface|null - Данные фискального чека 54-ФЗ или null, если чека нет
+**Returns:** \testottest\Model\ReceiptInterface|null - Данные фискального чека 54-ФЗ или null, если чека нет
 
 ##### Tags
 | Tag | Version | Description |
@@ -131,7 +131,7 @@ public hasReceipt() : bool
 Проверяет наличие чека в создаваемом платеже
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
+* Inherited From: [\testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
 
 **Returns:** bool - True если чек есть, false если нет
 
@@ -144,7 +144,7 @@ public hasReceipt() : bool
 #### public setReceipt() : mixed
 
 ```php
-public setReceipt(\Testottest\Model\ReceiptInterface|null $value) : mixed
+public setReceipt(\testottest\Model\ReceiptInterface|null $value) : mixed
 ```
 
 **Summary**
@@ -152,17 +152,17 @@ public setReceipt(\Testottest\Model\ReceiptInterface|null $value) : mixed
 Устанавливает чек
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
+* Inherited From: [\testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\ReceiptInterface OR null</code> | value  | Инстанс чека или null для удаления информации о чеке |
+| <code lang="php">\testottest\Model\ReceiptInterface OR null</code> | value  | Инстанс чека или null для удаления информации о чеке |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если передан не инстанс класса чека и не null |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если передан не инстанс класса чека и не null |
 
 **Returns:** mixed - 
 
@@ -179,16 +179,16 @@ public hasTransfers() : bool
 Проверяет наличие данных о распределении денег
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
+* Inherited From: [\testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
 
 **Returns:** bool - 
 
 
 <a name="method_getTransfers" class="anchor"></a>
-#### public getTransfers() : \Testottest\Model\TransferInterface[]
+#### public getTransfers() : \testottest\Model\TransferInterface[]
 
 ```php
-public getTransfers() : \Testottest\Model\TransferInterface[]
+public getTransfers() : \testottest\Model\TransferInterface[]
 ```
 
 **Summary**
@@ -196,16 +196,16 @@ public getTransfers() : \Testottest\Model\TransferInterface[]
 Возвращает данные о распределении денег
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
+* Inherited From: [\testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
 
-**Returns:** \Testottest\Model\TransferInterface[] - 
+**Returns:** \testottest\Model\TransferInterface[] - 
 
 
 <a name="method_setTransfers" class="anchor"></a>
 #### public setTransfers() : mixed
 
 ```php
-public setTransfers(\Testottest\Model\TransferInterface[]|array|null $value) : mixed
+public setTransfers(\testottest\Model\TransferInterface[]|array|null $value) : mixed
 ```
 
 **Summary**
@@ -213,12 +213,12 @@ public setTransfers(\Testottest\Model\TransferInterface[]|array|null $value) : m
 Устанавливает transfers (массив распределения денег между магазинами)
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
+* Inherited From: [\testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\TransferInterface[] OR array OR null</code> | value  |  |
+| <code lang="php">\testottest\Model\TransferInterface[] OR array OR null</code> | value  |  |
 
 **Returns:** mixed - 
 
@@ -235,16 +235,16 @@ public hasDeal() : bool
 Проверяет наличие данных о сделке
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
+* Inherited From: [\testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
 
 **Returns:** bool - 
 
 
 <a name="method_getDeal" class="anchor"></a>
-#### public getDeal() : \Testottest\Model\Deal\PaymentDealInfo
+#### public getDeal() : \testottest\Model\Deal\PaymentDealInfo
 
 ```php
-public getDeal() : \Testottest\Model\Deal\PaymentDealInfo
+public getDeal() : \testottest\Model\Deal\PaymentDealInfo
 ```
 
 **Summary**
@@ -252,16 +252,16 @@ public getDeal() : \Testottest\Model\Deal\PaymentDealInfo
 Возвращает данные о сделке
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
+* Inherited From: [\testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
 
-**Returns:** \Testottest\Model\Deal\PaymentDealInfo - 
+**Returns:** \testottest\Model\Deal\PaymentDealInfo - 
 
 
 <a name="method_setDeal" class="anchor"></a>
 #### public setDeal() : mixed
 
 ```php
-public setDeal(\Testottest\Model\Deal\PaymentDealInfo|array|null $value) : mixed
+public setDeal(\testottest\Model\Deal\PaymentDealInfo|array|null $value) : mixed
 ```
 
 **Summary**
@@ -269,12 +269,12 @@ public setDeal(\Testottest\Model\Deal\PaymentDealInfo|array|null $value) : mixed
 Устанавливает данные о сделке
 
 **Details:**
-* Inherited From: [\Testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
+* Inherited From: [\testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\Deal\PaymentDealInfo OR array OR null</code> | value  |  |
+| <code lang="php">\testottest\Model\Deal\PaymentDealInfo OR array OR null</code> | value  |  |
 
 **Returns:** mixed - 
 

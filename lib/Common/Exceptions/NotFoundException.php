@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Common\Exceptions;
+namespace testottest\Common\Exceptions;
 
 /**
  * Ресурс не найден.

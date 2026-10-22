@@ -24,15 +24,15 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Client;
+namespace testottest\Client;
 
 use Psr\Log\LoggerInterface;
-use Testottest\Common\Exceptions\ApiConnectionException;
-use Testottest\Common\Exceptions\ApiException;
-use Testottest\Common\Exceptions\AuthorizeException;
-use Testottest\Common\Exceptions\ExtensionNotFoundException;
-use Testottest\Common\ResponseObject;
-use Testottest\Helpers\RawHeadersParser;
+use testottest\Common\Exceptions\ApiConnectionException;
+use testottest\Common\Exceptions\ApiException;
+use testottest\Common\Exceptions\AuthorizeException;
+use testottest\Common\Exceptions\ExtensionNotFoundException;
+use testottest\Common\ResponseObject;
+use testottest\Helpers\RawHeadersParser;
 
 /**
  * Класс клиента Curl запросов

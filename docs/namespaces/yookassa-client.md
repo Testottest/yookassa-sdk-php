@@ -1,6 +1,6 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \Testottest\Client
+# Namespace: \testottest\Client
 
 ## Parent: [\YooKassa](../namespaces/yookassa.md)
 
@@ -8,15 +8,15 @@
 
 | Name | Summary |
 | ---- | ------- |
-| [\Testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md) | Interface ApiClientInterface |
+| [\testottest\Client\ApiClientInterface](../classes/YooKassa-Client-ApiClientInterface.md) | Interface ApiClientInterface |
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\Testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md) |  |
-| [\Testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md) | Класс клиента Curl запросов |
-| [\Testottest\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md) | Класс для создания заголовка User-Agent в запросах к API |
+| [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md) |  |
+| [\testottest\Client\CurlClient](../classes/YooKassa-Client-CurlClient.md) | Класс клиента Curl запросов |
+| [\testottest\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md) | Класс для создания заголовка User-Agent в запросах к API |
 
 ---
 

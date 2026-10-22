@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: ReceiptResponseInterface
-### Namespace: [\Testottest\Request\Receipts](../namespaces/yookassa-request-receipts.md)
+### Namespace: [\testottest\Request\Receipts](../namespaces/yookassa-request-receipts.md)
 ---
 **Summary:**
 
@@ -57,7 +57,7 @@ public getId() : string
 Возвращает идентификатор чека в ЮKassa
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptResponseInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptResponseInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseInterface.md)
 
 **Returns:** string - Идентификатор чека в ЮKassa.
 
@@ -74,7 +74,7 @@ public getType() : string
 Возвращает тип чека в онлайн-кассе
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptResponseInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptResponseInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseInterface.md)
 
 **Returns:** string - Тип чека в онлайн-кассе: приход "payment" или возврат "refund".
 
@@ -95,7 +95,7 @@ public getStatus() : mixed
  @return string Статус доставки данных для чека в онлайн-кассу ("pending", "succeeded" или "canceled").
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptResponseInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptResponseInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseInterface.md)
 
 **Returns:** mixed - 
 
@@ -116,7 +116,7 @@ public getTaxSystemCode() : mixed
  @return int Код системы налогообложения. Число 1-6.
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptResponseInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptResponseInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseInterface.md)
 
 **Returns:** mixed - 
 
@@ -137,7 +137,7 @@ public getItems() : mixed
  @return ReceiptResponseItemInterface[]
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptResponseInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptResponseInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseInterface.md)
 
 **Returns:** mixed - 
 
@@ -158,7 +158,7 @@ public getSettlements() : mixed
  @return SettlementInterface[]
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptResponseInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptResponseInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseInterface.md)
 
 **Returns:** mixed - 
 
@@ -175,7 +175,7 @@ public getOnBehalfOf() : string|null
 Возвращает идентификатор магазин
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptResponseInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptResponseInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseInterface.md)
 
 **Returns:** string|null - 
 
@@ -192,7 +192,7 @@ public notEmpty() : bool
 Проверяет есть ли в чеке хотя бы одна позиция
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptResponseInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseInterface.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptResponseInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseInterface.md)
 
 **Returns:** bool - True если чек не пуст, false если в чеке нет ни одной позиции
 

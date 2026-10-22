@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Helpers\StringObject
-### Namespace: [\Testottest\Helpers](../namespaces/yookassa-helpers.md)
+# Class: \testottest\Helpers\StringObject
+### Namespace: [\testottest\Helpers](../namespaces/yookassa-helpers.md)
 ---
 **Summary:**
 
@@ -24,7 +24,7 @@
 * File: [lib/Helpers/StringObject.php](../../lib/Helpers/StringObject.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \Testottest\Helpers\StringObject
+  * \testottest\Helpers\StringObject
 
 ---
 ## Methods
@@ -40,7 +40,7 @@ public __construct(string $value) : mixed
 StringObject constructor.
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\StringObject](../classes/YooKassa-Helpers-StringObject.md)
+* Inherited From: [\testottest\Helpers\StringObject](../classes/YooKassa-Helpers-StringObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -62,7 +62,7 @@ public __toString() : string
 Возвращает строковое значение текущего объекта
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\StringObject](../classes/YooKassa-Helpers-StringObject.md)
+* Inherited From: [\testottest\Helpers\StringObject](../classes/YooKassa-Helpers-StringObject.md)
 
 **Returns:** string - Строковое представление объекта
 

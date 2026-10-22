@@ -24,21 +24,21 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Receipts;
+namespace testottest\Request\Receipts;
 
 
-use Testottest\Common\AbstractRequest;
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\ReceiptCustomer;
-use Testottest\Model\ReceiptCustomerInterface;
-use Testottest\Model\ReceiptItem;
-use Testottest\Model\ReceiptItemInterface;
-use Testottest\Model\ReceiptType;
-use Testottest\Model\Settlement;
-use Testottest\Model\SettlementInterface;
+use testottest\Common\AbstractRequest;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\TypeCast;
+use testottest\Model\ReceiptCustomer;
+use testottest\Model\ReceiptCustomerInterface;
+use testottest\Model\ReceiptItem;
+use testottest\Model\ReceiptItemInterface;
+use testottest\Model\ReceiptType;
+use testottest\Model\Settlement;
+use testottest\Model\SettlementInterface;
 
 /**
  * Класс объекта запроса к API на создание чека

@@ -24,18 +24,18 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payments;
+namespace testottest\Request\Payments;
 
-use Testottest\Model\Airline;
-use Testottest\Model\AirlineInterface;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use Testottest\Model\Deal\PaymentDealInfo;
-use Testottest\Model\Metadata;
-use Testottest\Model\PaymentData\AbstractPaymentData;
-use Testottest\Model\ReceiptInterface;
-use Testottest\Model\RecipientInterface;
-use Testottest\Model\TransferInterface;
+use testottest\Model\Airline;
+use testottest\Model\AirlineInterface;
+use testottest\Model\AmountInterface;
+use testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use testottest\Model\Deal\PaymentDealInfo;
+use testottest\Model\Metadata;
+use testottest\Model\PaymentData\AbstractPaymentData;
+use testottest\Model\ReceiptInterface;
+use testottest\Model\RecipientInterface;
+use testottest\Model\TransferInterface;
 
 /**
  * Interface CreatePaymentRequestInterface

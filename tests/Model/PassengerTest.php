@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\Passenger;
+use testottest\Helpers\Random;
+use testottest\Model\Passenger;
 
 class PassengerTest extends TestCase
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\Testottest\Request\Deals;
+namespace Tests\testottest\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\Deal\DealType;
-use Testottest\Model\Deal\FeeMoment;
-use Testottest\Model\Metadata;
-use Testottest\Request\Deals\CreateDealRequest;
-use Testottest\Request\Deals\CreateDealRequestBuilder;
+use testottest\Helpers\Random;
+use testottest\Model\Deal\DealType;
+use testottest\Model\Deal\FeeMoment;
+use testottest\Model\Metadata;
+use testottest\Request\Deals\CreateDealRequest;
+use testottest\Request\Deals\CreateDealRequestBuilder;
 
 class CreateDealRequestTest extends TestCase
 {

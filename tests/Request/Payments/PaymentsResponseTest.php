@@ -1,18 +1,18 @@
 <?php
 
-namespace Tests\Testottest\Request\Payments;
+namespace Tests\testottest\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\CancellationDetailsPartyCode;
-use Testottest\Model\CancellationDetailsReasonCode;
-use Testottest\Model\ConfirmationType;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\PaymentInterface;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Model\PaymentStatus;
-use Testottest\Model\ReceiptRegistrationStatus;
-use Testottest\Request\Payments\PaymentsResponse;
+use testottest\Helpers\Random;
+use testottest\Model\CancellationDetailsPartyCode;
+use testottest\Model\CancellationDetailsReasonCode;
+use testottest\Model\ConfirmationType;
+use testottest\Model\CurrencyCode;
+use testottest\Model\PaymentInterface;
+use testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentStatus;
+use testottest\Model\ReceiptRegistrationStatus;
+use testottest\Request\Payments\PaymentsResponse;
 
 class PaymentsResponseTest extends TestCase
 {

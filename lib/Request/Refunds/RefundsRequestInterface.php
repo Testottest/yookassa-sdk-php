@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Refunds;
+namespace testottest\Request\Refunds;
 
 /**
  * Интерфейс объекта запроса списка возвратов

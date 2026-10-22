@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Model\ReceiptRegistrationStatus
-### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
+# Class: \testottest\Model\ReceiptRegistrationStatus
+### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -43,8 +43,8 @@
 * File: [lib/Model/ReceiptRegistrationStatus.php](../../lib/Model/ReceiptRegistrationStatus.php)
 * Package: Default
 * Class Hierarchy: 
-  * [\Testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
-  * \Testottest\Model\ReceiptRegistrationStatus
+  * [\testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+  * \testottest\Model\ReceiptRegistrationStatus
 
 ---
 ## Constants
@@ -95,7 +95,7 @@ Static public getEnabledValues() : string[]
 Возвращает значения в enum'е значения которых разрешены
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 **Returns:** string[] - Массив разрешённых значений
 
@@ -112,7 +112,7 @@ Static public getValidValues() : array
 Возвращает все значения в enum'e
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 **Returns:** array - Массив значений в перечислении
 
@@ -129,7 +129,7 @@ Static public valueExists(mixed $value) : bool
 Проверяет наличие значения в enum'e
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 ##### Parameters:
 | Type | Name | Description |

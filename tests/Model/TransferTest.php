@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Transfer;
-use Testottest\Model\TransferStatus;
+use testottest\Helpers\Random;
+use testottest\Model\AmountInterface;
+use testottest\Model\CurrencyCode;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Transfer;
+use testottest\Model\TransferStatus;
 
 class TransferTest extends TestCase
 {
@@ -241,7 +241,7 @@ class TransferTest extends TestCase
     }
 
     /**
-     * @return \Testottest\Model\MonetaryAmount[][]
+     * @return \testottest\Model\MonetaryAmount[][]
      * @throws \Exception
      */
     public function validAmountDataProvider()

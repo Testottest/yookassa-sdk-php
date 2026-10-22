@@ -1,20 +1,20 @@
 <?php
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Helpers\StringObject;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\Deal\RefundDealInfo;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Payment;
-use Testottest\Model\ReceiptRegistrationStatus;
-use Testottest\Model\Refund;
-use Testottest\Model\RefundStatus;
-use Testottest\Model\Source;
-use Testottest\Request\Refunds\CreateRefundRequest;
+use testottest\Helpers\Random;
+use testottest\Helpers\StringObject;
+use testottest\Model\AmountInterface;
+use testottest\Model\CurrencyCode;
+use testottest\Model\Deal\RefundDealInfo;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Payment;
+use testottest\Model\ReceiptRegistrationStatus;
+use testottest\Model\Refund;
+use testottest\Model\RefundStatus;
+use testottest\Model\Source;
+use testottest\Request\Refunds\CreateRefundRequest;
 
 class RefundTest extends TestCase
 {

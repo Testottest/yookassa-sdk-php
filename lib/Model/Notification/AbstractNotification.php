@@ -24,17 +24,17 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\Notification;
+namespace testottest\Model\Notification;
 
-use Testottest\Common\AbstractObject;
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\NotificationEventType;
-use Testottest\Model\NotificationType;
-use Testottest\Model\PaymentInterface;
-use Testottest\Model\RefundInterface;
+use testottest\Common\AbstractObject;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\TypeCast;
+use testottest\Model\NotificationEventType;
+use testottest\Model\NotificationType;
+use testottest\Model\PaymentInterface;
+use testottest\Model\RefundInterface;
 
 /**
  * Базовый класс уведомлений

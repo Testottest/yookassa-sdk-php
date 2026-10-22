@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Testottest\Request\Payments;
+namespace Tests\testottest\Request\Payments;
 
-use Testottest\Request\Payments\CreatePaymentResponse;
+use testottest\Request\Payments\CreatePaymentResponse;
 
 class CreatePaymentResponseTest extends AbstractPaymentResponseTest
 {

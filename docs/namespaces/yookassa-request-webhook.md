@@ -1,14 +1,14 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \Testottest\Request\Webhook
+# Namespace: \testottest\Request\Webhook
 
-## Parent: [\Testottest\Request](../namespaces/yookassa-request.md)
+## Parent: [\testottest\Request](../namespaces/yookassa-request.md)
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\Testottest\Request\Webhook\WebhookListResponse](../classes/YooKassa-Request-Webhook-WebhookListResponse.md) | Актуальный список объектов webhook для переданного OAuth-токена |
+| [\testottest\Request\Webhook\WebhookListResponse](../classes/YooKassa-Request-Webhook-WebhookListResponse.md) | Актуальный список объектов webhook для переданного OAuth-токена |
 
 ---
 

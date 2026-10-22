@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model;
+namespace testottest\Model;
 
-use Testottest\Common\AbstractEnum;
+use testottest\Common\AbstractEnum;
 
 /**
  * CurrencyCode - Код валюты, ISO-4217 3-alpha currency symbol

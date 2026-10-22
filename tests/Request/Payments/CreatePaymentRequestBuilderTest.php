@@ -1,24 +1,24 @@
 <?php
 
-namespace Tests\Testottest\Request\Payments;
+namespace Tests\testottest\Request\Payments;
 
 use Exception;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
-use Testottest\Model\ConfirmationType;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Payment;
-use Testottest\Model\PaymentData\PaymentDataQiwi;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Model\Receipt\PaymentMode;
-use Testottest\Model\Receipt\PaymentSubject;
-use Testottest\Model\ReceiptItem;
-use Testottest\Model\Recipient;
-use Testottest\Request\Payments\CreatePaymentRequestBuilder;
+use testottest\Helpers\Random;
+use testottest\Model\AmountInterface;
+use testottest\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
+use testottest\Model\ConfirmationType;
+use testottest\Model\CurrencyCode;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Payment;
+use testottest\Model\PaymentData\PaymentDataQiwi;
+use testottest\Model\PaymentMethodType;
+use testottest\Model\Receipt\PaymentMode;
+use testottest\Model\Receipt\PaymentSubject;
+use testottest\Model\ReceiptItem;
+use testottest\Model\Recipient;
+use testottest\Request\Payments\CreatePaymentRequestBuilder;
 
 class CreatePaymentRequestBuilderTest extends TestCase
 {

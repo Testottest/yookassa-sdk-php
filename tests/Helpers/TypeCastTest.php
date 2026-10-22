@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Testottest\Helpers;
+namespace Tests\testottest\Helpers;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\StringObject;
-use Testottest\Helpers\TypeCast;
+use testottest\Helpers\StringObject;
+use testottest\Helpers\TypeCast;
 
 class TypeCastTest extends TestCase
 {

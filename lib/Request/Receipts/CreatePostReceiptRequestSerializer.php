@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Receipts;
+namespace testottest\Request\Receipts;
 
-use Testottest\Model\ReceiptItem;
-use Testottest\Model\ReceiptType;
-use Testottest\Model\Settlement;
+use testottest\Model\ReceiptItem;
+use testottest\Model\ReceiptType;
+use testottest\Model\Settlement;
 
 /**
  * Класс сериалайзера объекта запроса к API создание чека

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: RequestorInterface
-### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
+### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -56,7 +56,7 @@ public getType() : string
 Возвращает тип инициатора
 
 **Details:**
-* Inherited From: [\Testottest\Model\RequestorInterface](../classes/YooKassa-Model-RequestorInterface.md)
+* Inherited From: [\testottest\Model\RequestorInterface](../classes/YooKassa-Model-RequestorInterface.md)
 
 **Returns:** string - 
 
@@ -73,7 +73,7 @@ public setType(string $value) : mixed
 Устанавливает тип инициатора
 
 **Details:**
-* Inherited From: [\Testottest\Model\RequestorInterface](../classes/YooKassa-Model-RequestorInterface.md)
+* Inherited From: [\testottest\Model\RequestorInterface](../classes/YooKassa-Model-RequestorInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -95,7 +95,7 @@ public getAccountId() : string|null
 Возвращает идентификатор магазина
 
 **Details:**
-* Inherited From: [\Testottest\Model\RequestorInterface](../classes/YooKassa-Model-RequestorInterface.md)
+* Inherited From: [\testottest\Model\RequestorInterface](../classes/YooKassa-Model-RequestorInterface.md)
 
 **Returns:** string|null - 
 
@@ -112,7 +112,7 @@ public setAccountId(string $value) : mixed
 Устанавливает идентификатор магазина
 
 **Details:**
-* Inherited From: [\Testottest\Model\RequestorInterface](../classes/YooKassa-Model-RequestorInterface.md)
+* Inherited From: [\testottest\Model\RequestorInterface](../classes/YooKassa-Model-RequestorInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -134,7 +134,7 @@ public getClientId() : string|null
 Возвращает идентификатор приложения
 
 **Details:**
-* Inherited From: [\Testottest\Model\RequestorInterface](../classes/YooKassa-Model-RequestorInterface.md)
+* Inherited From: [\testottest\Model\RequestorInterface](../classes/YooKassa-Model-RequestorInterface.md)
 
 **Returns:** string|null - 
 
@@ -151,7 +151,7 @@ public setClientId(string $value) : mixed
 Устанавливает идентификатор приложения
 
 **Details:**
-* Inherited From: [\Testottest\Model\RequestorInterface](../classes/YooKassa-Model-RequestorInterface.md)
+* Inherited From: [\testottest\Model\RequestorInterface](../classes/YooKassa-Model-RequestorInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -173,7 +173,7 @@ public getClientName() : string|null
 Возвращает название приложения
 
 **Details:**
-* Inherited From: [\Testottest\Model\RequestorInterface](../classes/YooKassa-Model-RequestorInterface.md)
+* Inherited From: [\testottest\Model\RequestorInterface](../classes/YooKassa-Model-RequestorInterface.md)
 
 **Returns:** string|null - 
 
@@ -190,7 +190,7 @@ public setClientName(string $value) : mixed
 Устанавливает название приложения
 
 **Details:**
-* Inherited From: [\Testottest\Model\RequestorInterface](../classes/YooKassa-Model-RequestorInterface.md)
+* Inherited From: [\testottest\Model\RequestorInterface](../classes/YooKassa-Model-RequestorInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |

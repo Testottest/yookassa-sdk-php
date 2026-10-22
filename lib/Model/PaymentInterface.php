@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model;
+namespace testottest\Model;
 
-use Testottest\Model\Deal\PaymentDealInfo;
-use Testottest\Model\PaymentMethod\AbstractPaymentMethod;
+use testottest\Model\Deal\PaymentDealInfo;
+use testottest\Model\PaymentMethod\AbstractPaymentMethod;
 
 /**
  * Interface PaymentInterface

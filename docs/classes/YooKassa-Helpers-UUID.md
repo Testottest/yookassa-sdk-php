@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Helpers\UUID
-### Namespace: [\Testottest\Helpers](../namespaces/yookassa-helpers.md)
+# Class: \testottest\Helpers\UUID
+### Namespace: [\testottest\Helpers](../namespaces/yookassa-helpers.md)
 ---
 
 ---
@@ -19,7 +19,7 @@
 * File: [lib/Helpers/UUID.php](../../lib/Helpers/UUID.php)
 * Package: Default
 * Class Hierarchy:
-  * \Testottest\Helpers\UUID
+  * \testottest\Helpers\UUID
 
 ---
 ## Methods
@@ -31,7 +31,7 @@ Static public v4() : string
 ```
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\UUID](../classes/YooKassa-Helpers-UUID.md)
+* Inherited From: [\testottest\Helpers\UUID](../classes/YooKassa-Helpers-UUID.md)
 
 ##### Throws:
 | Type | Description |

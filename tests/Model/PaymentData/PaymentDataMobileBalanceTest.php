@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Model\PaymentData;
+namespace Tests\testottest\Model\PaymentData;
 
-use Testottest\Model\PaymentData\PaymentDataMobileBalance;
-use Testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentData\PaymentDataMobileBalance;
+use testottest\Model\PaymentMethodType;
 
 class PaymentDataMobileBalanceTest extends AbstractPaymentDataPhoneTest
 {

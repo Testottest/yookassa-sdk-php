@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payments\Payment;
+namespace testottest\Request\Payments\Payment;
 
-use Testottest\Model\AmountInterface;
-use Testottest\Model\ReceiptItem;
-use Testottest\Model\TransferInterface;
+use testottest\Model\AmountInterface;
+use testottest\Model\ReceiptItem;
+use testottest\Model\TransferInterface;
 
 /**
  * Класс объекта осуществляющего сериализацию запроса к API на подтверждение заказа

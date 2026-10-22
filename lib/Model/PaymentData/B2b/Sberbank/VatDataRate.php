@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\PaymentData\B2b\Sberbank;
+namespace testottest\Model\PaymentData\B2b\Sberbank;
 
-use Testottest\Common\AbstractEnum;
+use testottest\Common\AbstractEnum;
 
 /**
  * PaymentDataB2bSberbankVatDataRate - Налоговая ставка НДС

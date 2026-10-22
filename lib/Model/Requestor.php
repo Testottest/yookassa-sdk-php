@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Testottest\Model;
+namespace testottest\Model;
 
 
-use Testottest\Common\AbstractObject;
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\TypeCast;
+use testottest\Common\AbstractObject;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\TypeCast;
 
 /**
  * Инициатор платежа или возврата.

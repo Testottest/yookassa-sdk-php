@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Deals;
+namespace testottest\Request\Deals;
 
 use Exception;
-use Testottest\Common\AbstractObject;
-use Testottest\Model\DealInterface;
+use testottest\Common\AbstractObject;
+use testottest\Model\DealInterface;
 
 /**
  * Класс объекта ответа от API со списком сделок магазина

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Testottest\Model;
+namespace testottest\Model;
 
 /**
  * Interface RequestorInterface

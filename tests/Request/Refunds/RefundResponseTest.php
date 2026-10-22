@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Testottest\Request\Refunds;
+namespace Tests\testottest\Request\Refunds;
 
-use Testottest\Request\Refunds\RefundResponse;
+use testottest\Request\Refunds\RefundResponse;
 
 class RefundResponseTest extends AbstractRefundResponseTest
 {

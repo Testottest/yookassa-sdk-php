@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Testottest\Common\Exceptions;
+namespace Tests\testottest\Common\Exceptions;
 
-use Testottest\Common\Exceptions\UnauthorizedException;
+use testottest\Common\Exceptions\UnauthorizedException;
 
 class UnauthorizedExceptionTest extends AbstractApiRequestExceptionTest
 {

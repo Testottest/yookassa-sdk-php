@@ -1,8 +1,8 @@
 <?php
 
-namespace Testottest\Model\Deal;
+namespace testottest\Model\Deal;
 
-use Testottest\Common\AbstractEnum;
+use testottest\Common\AbstractEnum;
 
 /**
  * Class FeeMoment

@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\ConfirmationAttributes;
+namespace testottest\Model\ConfirmationAttributes;
 
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\ConfirmationType;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\TypeCast;
+use testottest\Model\ConfirmationType;
 
 /**
  * @property string $returnUrl URL на который вернется плательщик после подтверждения или отмены платежа на странице партнера.

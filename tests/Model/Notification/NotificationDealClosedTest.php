@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\Testottest\Model\Notification;
+namespace Tests\testottest\Model\Notification;
 
-use Testottest\Helpers\Random;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\Deal\DealStatus;
-use Testottest\Model\Deal\DealType;
-use Testottest\Model\Deal\FeeMoment;
-use Testottest\Model\Notification\NotificationDealClosed;
-use Testottest\Model\NotificationEventType;
-use Testottest\Model\NotificationType;
-use Testottest\Model\DealInterface;
+use testottest\Helpers\Random;
+use testottest\Model\CurrencyCode;
+use testottest\Model\Deal\DealStatus;
+use testottest\Model\Deal\DealType;
+use testottest\Model\Deal\FeeMoment;
+use testottest\Model\Notification\NotificationDealClosed;
+use testottest\Model\NotificationEventType;
+use testottest\Model\NotificationType;
+use testottest\Model\DealInterface;
 
 class NotificationDealClosedTest extends AbstractNotificationTest
 {

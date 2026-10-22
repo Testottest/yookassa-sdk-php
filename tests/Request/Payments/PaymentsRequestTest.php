@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\Testottest\Request\Payments;
+namespace Tests\testottest\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Helpers\StringObject;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Model\PaymentStatus;
-use Testottest\Request\Payments\PaymentsRequest;
-use Testottest\Request\Payments\PaymentsRequestBuilder;
+use testottest\Helpers\Random;
+use testottest\Helpers\StringObject;
+use testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentStatus;
+use testottest\Request\Payments\PaymentsRequest;
+use testottest\Request\Payments\PaymentsRequestBuilder;
 
 class PaymentsRequestTest extends TestCase
 {

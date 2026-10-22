@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\Notification;
+namespace testottest\Model\Notification;
 
 
-use Testottest\Model\PaymentInterface;
-use Testottest\Model\RefundInterface;
+use testottest\Model\PaymentInterface;
+use testottest\Model\RefundInterface;
 
 interface NotificationInterface
 {

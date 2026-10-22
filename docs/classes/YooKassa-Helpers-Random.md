@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Helpers\Random
-### Namespace: [\Testottest\Helpers](../namespaces/yookassa-helpers.md)
+# Class: \testottest\Helpers\Random
+### Namespace: [\testottest\Helpers](../namespaces/yookassa-helpers.md)
 ---
 **Summary:**
 
@@ -29,7 +29,7 @@
 * File: [lib/Helpers/Random.php](../../lib/Helpers/Random.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \Testottest\Helpers\Random
+  * \testottest\Helpers\Random
 
 ---
 ## Methods
@@ -45,7 +45,7 @@ Static public bool() : bool
 Возвращает рандомное буллево значение
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\Random](../classes/YooKassa-Helpers-Random.md)
+* Inherited From: [\testottest\Helpers\Random](../classes/YooKassa-Helpers-Random.md)
 
 ##### Throws:
 | Type | Description |
@@ -67,7 +67,7 @@ Static public bytes(int $length, bool $useBest = true) : string
 Возвращает рандомную последовательность байт
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\Random](../classes/YooKassa-Helpers-Random.md)
+* Inherited From: [\testottest\Helpers\Random](../classes/YooKassa-Helpers-Random.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -95,7 +95,7 @@ Static public float(float|null $min = null, float|null $max = null, bool $useBes
 Возвращает рандомное число с плавающей точкой. По умолчанию возвращает значение в промежутке от нуля до едениы.
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\Random](../classes/YooKassa-Helpers-Random.md)
+* Inherited From: [\testottest\Helpers\Random](../classes/YooKassa-Helpers-Random.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -124,7 +124,7 @@ Static public hex(int $length, bool $useBest = true) : string
 Возвращает строку, состоящую из символов '0123456789abcdef'
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\Random](../classes/YooKassa-Helpers-Random.md)
+* Inherited From: [\testottest\Helpers\Random](../classes/YooKassa-Helpers-Random.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -152,7 +152,7 @@ Static public int(int|null $min = null, int|null $max = null, bool $useBest = tr
 Возвращает рандомное целое число. По умолчанию возвращает число от нуля до PHP_INT_MAX.
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\Random](../classes/YooKassa-Helpers-Random.md)
+* Inherited From: [\testottest\Helpers\Random](../classes/YooKassa-Helpers-Random.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -181,7 +181,7 @@ Static public str(int $length, int|null $maxLength = null, string|array|null $ch
 Возвращает строку из рандомных символов
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\Random](../classes/YooKassa-Helpers-Random.md)
+* Inherited From: [\testottest\Helpers\Random](../classes/YooKassa-Helpers-Random.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -211,7 +211,7 @@ Static public value(array $values, bool $useBest = true) : mixed
 Возвращает рандомное значение из переданного массива
 
 **Details:**
-* Inherited From: [\Testottest\Helpers\Random](../classes/YooKassa-Helpers-Random.md)
+* Inherited From: [\testottest\Helpers\Random](../classes/YooKassa-Helpers-Random.md)
 
 ##### Parameters:
 | Type | Name | Description |

@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Testottest\Request\Webhook;
+namespace Tests\testottest\Request\Webhook;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\NotificationEventType;
-use Testottest\Model\Webhook\Webhook;
-use Testottest\Request\Webhook\WebhookListResponse;
+use testottest\Helpers\Random;
+use testottest\Model\NotificationEventType;
+use testottest\Model\Webhook\Webhook;
+use testottest\Request\Webhook\WebhookListResponse;
 
 class WebhookListResponseTest extends TestCase
 {

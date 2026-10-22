@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Testottest\Model\PaymentMethod;
+namespace Tests\testottest\Model\PaymentMethod;
 
-use Testottest\Helpers\Random;
-use Testottest\Helpers\StringObject;
-use Testottest\Model\PaymentMethod\BankCardSource;
-use Testottest\Model\PaymentMethod\PaymentMethodBankCard;
-use Testottest\Model\PaymentMethodType;
+use testottest\Helpers\Random;
+use testottest\Helpers\StringObject;
+use testottest\Model\PaymentMethod\BankCardSource;
+use testottest\Model\PaymentMethod\PaymentMethodBankCard;
+use testottest\Model\PaymentMethodType;
 
 class PaymentMethodBankCardTest extends AbstractPaymentMethodTest
 {

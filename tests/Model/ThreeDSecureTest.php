@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
-use Testottest\Model\ThreeDSecure;
+use testottest\Model\ThreeDSecure;
 
 class ThreeDSecureTest extends \PHPUnit_Framework_TestCase
 {

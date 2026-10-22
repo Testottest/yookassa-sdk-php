@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Testottest\Common\Exceptions;
+namespace Tests\testottest\Common\Exceptions;
 
-use Testottest\Common\Exceptions\ResponseProcessingException;
+use testottest\Common\Exceptions\ResponseProcessingException;
 
 class ResponseProcessingExceptionTest extends ApiExceptionTest
 {

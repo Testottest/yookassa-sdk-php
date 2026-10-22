@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\Testottest\Request\Payouts;
+namespace Tests\testottest\Request\Payouts;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Model\Payout;
-use Testottest\Model\Payout\PayoutCancellationDetailsPartyCode;
-use Testottest\Model\Payout\PayoutCancellationDetailsReasonCode;
-use Testottest\Model\PayoutStatus;
-use Testottest\Request\Payouts\PayoutResponse;
+use testottest\Helpers\Random;
+use testottest\Model\PaymentMethodType;
+use testottest\Model\Payout;
+use testottest\Model\Payout\PayoutCancellationDetailsPartyCode;
+use testottest\Model\Payout\PayoutCancellationDetailsReasonCode;
+use testottest\Model\PayoutStatus;
+use testottest\Request\Payouts\PayoutResponse;
 
 abstract class AbstractPayoutResponseTest extends TestCase
 {

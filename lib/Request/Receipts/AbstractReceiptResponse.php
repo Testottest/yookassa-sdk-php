@@ -24,18 +24,18 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Receipts;
+namespace testottest\Request\Receipts;
 
 use DateTime;
-use Testottest\Common\AbstractObject;
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\ReceiptRegistrationStatus;
-use Testottest\Model\ReceiptType;
-use Testottest\Model\Settlement;
-use Testottest\Model\SettlementInterface;
+use testottest\Common\AbstractObject;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\TypeCast;
+use testottest\Model\ReceiptRegistrationStatus;
+use testottest\Model\ReceiptType;
+use testottest\Model\Settlement;
+use testottest\Model\SettlementInterface;
 
 /**
  * Class AbstractReceipt

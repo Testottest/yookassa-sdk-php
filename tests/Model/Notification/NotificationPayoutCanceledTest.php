@@ -1,17 +1,17 @@
 <?php
 
-namespace Tests\Testottest\Model\Notification;
+namespace Tests\testottest\Model\Notification;
 
-use Testottest\Helpers\Random;
-use Testottest\Model\Notification\NotificationPayoutCanceled;
-use Testottest\Model\NotificationEventType;
-use Testottest\Model\NotificationType;
-use Testottest\Model\PayoutInterface;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Model\Payout;
-use Testottest\Model\Payout\PayoutCancellationDetailsPartyCode;
-use Testottest\Model\Payout\PayoutCancellationDetailsReasonCode;
-use Testottest\Model\PayoutStatus;
+use testottest\Helpers\Random;
+use testottest\Model\Notification\NotificationPayoutCanceled;
+use testottest\Model\NotificationEventType;
+use testottest\Model\NotificationType;
+use testottest\Model\PayoutInterface;
+use testottest\Model\PaymentMethodType;
+use testottest\Model\Payout;
+use testottest\Model\Payout\PayoutCancellationDetailsPartyCode;
+use testottest\Model\Payout\PayoutCancellationDetailsReasonCode;
+use testottest\Model\PayoutStatus;
 
 class NotificationPayoutCanceledTest extends AbstractNotificationTest
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Testottest\Request\Receipts;
+namespace Tests\testottest\Request\Receipts;
 
-use Testottest\Request\Receipts\SimpleReceiptResponse;
+use testottest\Request\Receipts\SimpleReceiptResponse;
 
 class SimpleReceiptResponseTest extends AbstractReceiptResponseTest
 {

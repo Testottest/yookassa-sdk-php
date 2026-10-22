@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Helpers\Config;
+namespace Tests\testottest\Helpers\Config;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Config\ConfigurationLoader;
+use testottest\Helpers\Config\ConfigurationLoader;
 
 class ConfigurationLoaderTest extends TestCase
 {

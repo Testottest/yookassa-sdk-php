@@ -1,15 +1,15 @@
 <?php
 
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
 
-use Testottest\Model\Airline;
+use testottest\Model\Airline;
 use PHPUnit\Framework\TestCase;
-use Testottest\Model\Leg;
-use Testottest\Model\LegInterface;
-use Testottest\Model\Passenger;
-use Testottest\Model\PassengerInterface;
+use testottest\Model\Leg;
+use testottest\Model\LegInterface;
+use testottest\Model\Passenger;
+use testottest\Model\PassengerInterface;
 
 class AirlineTest extends TestCase
 {

@@ -23,10 +23,10 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\Deal;
+namespace testottest\Model\Deal;
 
 
-use Testottest\Common\AbstractEnum;
+use testottest\Common\AbstractEnum;
 
 class SettlementPayoutPaymentType extends AbstractEnum
 {

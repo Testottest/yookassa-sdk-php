@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Source;
+use testottest\Helpers\Random;
+use testottest\Model\AmountInterface;
+use testottest\Model\CurrencyCode;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Source;
 
 class SourceTest extends TestCase
 {
@@ -199,7 +199,7 @@ class SourceTest extends TestCase
     }
 
     /**
-     * @return \Testottest\Model\MonetaryAmount[][]
+     * @return \testottest\Model\MonetaryAmount[][]
      * @throws \Exception
      */
     public function validAmountDataProvider()

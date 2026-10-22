@@ -23,16 +23,16 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Model\Notification;
+namespace testottest\Model\Notification;
 
 
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Model\NotificationEventType;
-use Testottest\Model\NotificationType;
-use Testottest\Model\SafeDeal;
-use Testottest\Model\DealInterface;
-use Testottest\Request\Deals\DealResponse;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Model\NotificationEventType;
+use testottest\Model\NotificationType;
+use testottest\Model\SafeDeal;
+use testottest\Model\DealInterface;
+use testottest\Request\Deals\DealResponse;
 
 /**
  * Класс объекта, присылаемого API при изменении статуса сделки на "closed"

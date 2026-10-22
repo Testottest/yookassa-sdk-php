@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Abstract Class: \Testottest\Request\Deals\AbstractDealResponse
-### Namespace: [\Testottest\Request\Deals](../namespaces/yookassa-request-deals.md)
+# Abstract Class: \testottest\Request\Deals\AbstractDealResponse
+### Namespace: [\testottest\Request\Deals](../namespaces/yookassa-request-deals.md)
 ---
 **Summary:**
 
@@ -59,18 +59,18 @@
 * File: [lib/Request/Deals/AbstractDealResponse.php](../../lib/Request/Deals/AbstractDealResponse.php)
 * Package: YooKassa
 * Class Hierarchy:   
-  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * [\Testottest\Model\BaseDeal](../classes/YooKassa-Model-BaseDeal.md)
-  * [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
-  * \Testottest\Request\Deals\AbstractDealResponse
+  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * [\testottest\Model\BaseDeal](../classes/YooKassa-Model-BaseDeal.md)
+  * [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+  * \testottest\Request\Deals\AbstractDealResponse
 * Implements:
-  * [\Testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
+  * [\testottest\Model\DealInterface](../classes/YooKassa-Model-DealInterface.md)
 
 ---
 ## Constants
 <a name="constant_MAX_LENGTH_DESCRIPTION" class="anchor"></a>
 ###### MAX_LENGTH_DESCRIPTION
-Inherited from [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+Inherited from [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 Максимальная длина строки описания сделки
 
@@ -94,7 +94,7 @@ public __construct(array $data = []) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -116,7 +116,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -138,7 +138,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -160,7 +160,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -183,7 +183,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -205,7 +205,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -216,10 +216,10 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 
 
 <a name="method_getBalance" class="anchor"></a>
-#### public getBalance() : \Testottest\Model\MonetaryAmount
+#### public getBalance() : \testottest\Model\MonetaryAmount
 
 ```php
-public getBalance() : \Testottest\Model\MonetaryAmount
+public getBalance() : \testottest\Model\MonetaryAmount
 ```
 
 **Summary**
@@ -227,9 +227,9 @@ public getBalance() : \Testottest\Model\MonetaryAmount
 Возвращает баланс сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
-**Returns:** \Testottest\Model\MonetaryAmount - Баланс сделки
+**Returns:** \testottest\Model\MonetaryAmount - Баланс сделки
 
 ##### Tags
 | Tag | Version | Description |
@@ -248,7 +248,7 @@ public getCreatedAt() : \DateTime
 Возвращает время создания сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 **Returns:** \DateTime - Время создания сделки
 
@@ -269,7 +269,7 @@ public getDescription() : string
 Возвращает описание сделки (не более 128 символов).
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 **Returns:** string - Описание сделки
 
@@ -290,7 +290,7 @@ public getExpiresAt() : \DateTime
 Возвращает время автоматического закрытия сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 **Returns:** \DateTime - Время автоматического закрытия сделки
 
@@ -311,7 +311,7 @@ public getFeeMoment() : string
 Возвращает момент перечисления вам вознаграждения платформы
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 **Returns:** string - Момент перечисления вознаграждения
 
@@ -332,7 +332,7 @@ public getId() : string
 Возвращает Id сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 **Returns:** string - Id сделки
 
@@ -342,10 +342,10 @@ public getId() : string
 | inheritDoc |  |  |
 
 <a name="method_getMetadata" class="anchor"></a>
-#### public getMetadata() : \Testottest\Model\Metadata
+#### public getMetadata() : \testottest\Model\Metadata
 
 ```php
-public getMetadata() : \Testottest\Model\Metadata
+public getMetadata() : \testottest\Model\Metadata
 ```
 
 **Summary**
@@ -353,9 +353,9 @@ public getMetadata() : \Testottest\Model\Metadata
 Возвращает дополнительные данные сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
-**Returns:** \Testottest\Model\Metadata - Дополнительные данные сделки
+**Returns:** \testottest\Model\Metadata - Дополнительные данные сделки
 
 ##### Tags
 | Tag | Version | Description |
@@ -363,10 +363,10 @@ public getMetadata() : \Testottest\Model\Metadata
 | inheritDoc |  |  |
 
 <a name="method_getPayoutBalance" class="anchor"></a>
-#### public getPayoutBalance() : \Testottest\Model\MonetaryAmount
+#### public getPayoutBalance() : \testottest\Model\MonetaryAmount
 
 ```php
-public getPayoutBalance() : \Testottest\Model\MonetaryAmount
+public getPayoutBalance() : \testottest\Model\MonetaryAmount
 ```
 
 **Summary**
@@ -374,9 +374,9 @@ public getPayoutBalance() : \Testottest\Model\MonetaryAmount
 Возвращает сумму вознаграждения продавца
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
-**Returns:** \Testottest\Model\MonetaryAmount - Сумма вознаграждения продавца
+**Returns:** \testottest\Model\MonetaryAmount - Сумма вознаграждения продавца
 
 ##### Tags
 | Tag | Version | Description |
@@ -395,7 +395,7 @@ public getStatus() : string
 Возвращает статус сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 **Returns:** string - Статус сделки
 
@@ -416,7 +416,7 @@ public getTest() : bool
 Возвращает признак тестовой операции
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 **Returns:** bool - Признак тестовой операции
 
@@ -437,7 +437,7 @@ public getType() : string
 Возвращает тип сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\BaseDeal](../classes/YooKassa-Model-BaseDeal.md)
+* Inherited From: [\testottest\Model\BaseDeal](../classes/YooKassa-Model-BaseDeal.md)
 
 **Returns:** string - Тип сделки
 
@@ -454,7 +454,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -471,7 +471,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -493,7 +493,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -515,7 +515,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -538,7 +538,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -549,10 +549,10 @@ public offsetUnset(string $offset) : mixed
 
 
 <a name="method_setBalance" class="anchor"></a>
-#### public setBalance() : \Testottest\Model\SafeDeal
+#### public setBalance() : \testottest\Model\SafeDeal
 
 ```php
-public setBalance(\Testottest\Model\Deal\DealBalanceAmount|array $value) : \Testottest\Model\SafeDeal
+public setBalance(\testottest\Model\Deal\DealBalanceAmount|array $value) : \testottest\Model\SafeDeal
 ```
 
 **Summary**
@@ -560,21 +560,21 @@ public setBalance(\Testottest\Model\Deal\DealBalanceAmount|array $value) : \Test
 Устанавливает баланс сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\Deal\DealBalanceAmount OR array</code> | value  | Баланс сделки |
+| <code lang="php">\testottest\Model\Deal\DealBalanceAmount OR array</code> | value  | Баланс сделки |
 
-**Returns:** \Testottest\Model\SafeDeal - 
+**Returns:** \testottest\Model\SafeDeal - 
 
 
 <a name="method_setCreatedAt" class="anchor"></a>
-#### public setCreatedAt() : \Testottest\Model\SafeDeal
+#### public setCreatedAt() : \testottest\Model\SafeDeal
 
 ```php
-public setCreatedAt(\DateTime|string $value) : \Testottest\Model\SafeDeal
+public setCreatedAt(\DateTime|string $value) : \testottest\Model\SafeDeal
 ```
 
 **Summary**
@@ -582,7 +582,7 @@ public setCreatedAt(\DateTime|string $value) : \Testottest\Model\SafeDeal
 Устанавливает время создания сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -592,18 +592,18 @@ public setCreatedAt(\DateTime|string $value) : \Testottest\Model\SafeDeal
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если в метод была передана пустая дата |
-| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если передали строку, которую не удалось привести к дате |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Выбрасывается если был передан аргумент, который невозможно интерпретировать как дату или время |
+| \testottest\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если в метод была передана пустая дата |
+| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если передали строку, которую не удалось привести к дате |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Выбрасывается если был передан аргумент, который невозможно интерпретировать как дату или время |
 
-**Returns:** \Testottest\Model\SafeDeal - 
+**Returns:** \testottest\Model\SafeDeal - 
 
 
 <a name="method_setDescription" class="anchor"></a>
-#### public setDescription() : \Testottest\Model\SafeDeal
+#### public setDescription() : \testottest\Model\SafeDeal
 
 ```php
-public setDescription(string $value) : \Testottest\Model\SafeDeal
+public setDescription(string $value) : \testottest\Model\SafeDeal
 ```
 
 **Summary**
@@ -611,7 +611,7 @@ public setDescription(string $value) : \Testottest\Model\SafeDeal
 Устанавливает описание сделки (не более 128 символов).
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -621,17 +621,17 @@ public setDescription(string $value) : \Testottest\Model\SafeDeal
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение превышает допустимую длину |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
+| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение превышает допустимую длину |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
 
-**Returns:** \Testottest\Model\SafeDeal - 
+**Returns:** \testottest\Model\SafeDeal - 
 
 
 <a name="method_setExpiresAt" class="anchor"></a>
-#### public setExpiresAt() : \Testottest\Model\SafeDeal
+#### public setExpiresAt() : \testottest\Model\SafeDeal
 
 ```php
-public setExpiresAt(\DateTime|string $value) : \Testottest\Model\SafeDeal
+public setExpiresAt(\DateTime|string $value) : \testottest\Model\SafeDeal
 ```
 
 **Summary**
@@ -639,7 +639,7 @@ public setExpiresAt(\DateTime|string $value) : \Testottest\Model\SafeDeal
 Устанавливает время автоматического закрытия сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -649,18 +649,18 @@ public setExpiresAt(\DateTime|string $value) : \Testottest\Model\SafeDeal
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \Testottest\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если в метод была передана пустая дата |
-| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если передали строку, которую не удалось привести к дате |
-| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Выбрасывается если был передан аргумент, который невозможно интерпретировать как дату или время |
+| \testottest\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если в метод была передана пустая дата |
+| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если передали строку, которую не удалось привести к дате |
+| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Выбрасывается если был передан аргумент, который невозможно интерпретировать как дату или время |
 
-**Returns:** \Testottest\Model\SafeDeal - 
+**Returns:** \testottest\Model\SafeDeal - 
 
 
 <a name="method_setFeeMoment" class="anchor"></a>
-#### public setFeeMoment() : \Testottest\Model\SafeDeal
+#### public setFeeMoment() : \testottest\Model\SafeDeal
 
 ```php
-public setFeeMoment(string $value) : \Testottest\Model\SafeDeal
+public setFeeMoment(string $value) : \testottest\Model\SafeDeal
 ```
 
 **Summary**
@@ -668,21 +668,21 @@ public setFeeMoment(string $value) : \Testottest\Model\SafeDeal
 Устанавливает момент перечисления вам вознаграждения платформы
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">string</code> | value  | Момент перечисления вам вознаграждения платформы |
 
-**Returns:** \Testottest\Model\SafeDeal - 
+**Returns:** \testottest\Model\SafeDeal - 
 
 
 <a name="method_setId" class="anchor"></a>
-#### public setId() : \Testottest\Model\SafeDeal
+#### public setId() : \testottest\Model\SafeDeal
 
 ```php
-public setId(string $value) : \Testottest\Model\SafeDeal
+public setId(string $value) : \testottest\Model\SafeDeal
 ```
 
 **Summary**
@@ -690,21 +690,21 @@ public setId(string $value) : \Testottest\Model\SafeDeal
 Устанавливает Id сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">string</code> | value  | Id сделки |
 
-**Returns:** \Testottest\Model\SafeDeal - 
+**Returns:** \testottest\Model\SafeDeal - 
 
 
 <a name="method_setMetadata" class="anchor"></a>
-#### public setMetadata() : \Testottest\Model\SafeDeal
+#### public setMetadata() : \testottest\Model\SafeDeal
 
 ```php
-public setMetadata(\Testottest\Model\Metadata|array $value) : \Testottest\Model\SafeDeal
+public setMetadata(\testottest\Model\Metadata|array $value) : \testottest\Model\SafeDeal
 ```
 
 **Summary**
@@ -712,21 +712,21 @@ public setMetadata(\Testottest\Model\Metadata|array $value) : \Testottest\Model\
 Устанавливает дополнительные данные сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\Metadata OR array</code> | value  | Дополнительные данные сделки |
+| <code lang="php">\testottest\Model\Metadata OR array</code> | value  | Дополнительные данные сделки |
 
-**Returns:** \Testottest\Model\SafeDeal - 
+**Returns:** \testottest\Model\SafeDeal - 
 
 
 <a name="method_setPayoutBalance" class="anchor"></a>
-#### public setPayoutBalance() : \Testottest\Model\SafeDeal
+#### public setPayoutBalance() : \testottest\Model\SafeDeal
 
 ```php
-public setPayoutBalance(\Testottest\Model\Deal\DealBalanceAmount $value) : \Testottest\Model\SafeDeal
+public setPayoutBalance(\testottest\Model\Deal\DealBalanceAmount $value) : \testottest\Model\SafeDeal
 ```
 
 **Summary**
@@ -734,21 +734,21 @@ public setPayoutBalance(\Testottest\Model\Deal\DealBalanceAmount $value) : \Test
 Устанавливает сумму вознаграждения продавца
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Model\Deal\DealBalanceAmount</code> | value  | Сумма вознаграждения продавца |
+| <code lang="php">\testottest\Model\Deal\DealBalanceAmount</code> | value  | Сумма вознаграждения продавца |
 
-**Returns:** \Testottest\Model\SafeDeal - 
+**Returns:** \testottest\Model\SafeDeal - 
 
 
 <a name="method_setStatus" class="anchor"></a>
-#### public setStatus() : \Testottest\Model\SafeDeal
+#### public setStatus() : \testottest\Model\SafeDeal
 
 ```php
-public setStatus(string $value) : \Testottest\Model\SafeDeal
+public setStatus(string $value) : \testottest\Model\SafeDeal
 ```
 
 **Summary**
@@ -756,21 +756,21 @@ public setStatus(string $value) : \Testottest\Model\SafeDeal
 Устанавливает статус сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">string</code> | value  | Статус сделки |
 
-**Returns:** \Testottest\Model\SafeDeal - 
+**Returns:** \testottest\Model\SafeDeal - 
 
 
 <a name="method_setTest" class="anchor"></a>
-#### public setTest() : \Testottest\Model\SafeDeal
+#### public setTest() : \testottest\Model\SafeDeal
 
 ```php
-public setTest(bool $value) : \Testottest\Model\SafeDeal
+public setTest(bool $value) : \testottest\Model\SafeDeal
 ```
 
 **Summary**
@@ -778,14 +778,14 @@ public setTest(bool $value) : \Testottest\Model\SafeDeal
 Устанавливает признак тестовой операции
 
 **Details:**
-* Inherited From: [\Testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
+* Inherited From: [\testottest\Model\SafeDeal](../classes/YooKassa-Model-SafeDeal.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">bool</code> | value  | Признак тестовой операции |
 
-**Returns:** \Testottest\Model\SafeDeal - 
+**Returns:** \testottest\Model\SafeDeal - 
 
 
 <a name="method_setType" class="anchor"></a>
@@ -800,7 +800,7 @@ public setType(string $value) : mixed
 Устанавливает тип сделки
 
 **Details:**
-* Inherited From: [\Testottest\Model\BaseDeal](../classes/YooKassa-Model-BaseDeal.md)
+* Inherited From: [\testottest\Model\BaseDeal](../classes/YooKassa-Model-BaseDeal.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -823,7 +823,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -840,7 +840,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Testottest\Common\Exceptions;
+namespace Tests\testottest\Common\Exceptions;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Common\AbstractRequest;
-use Testottest\Common\Exceptions\InvalidRequestException;
-use Testottest\Request\Payments\CreatePaymentRequest;
-use Testottest\Request\Payments\PaymentsRequest;
+use testottest\Common\AbstractRequest;
+use testottest\Common\Exceptions\InvalidRequestException;
+use testottest\Request\Payments\CreatePaymentRequest;
+use testottest\Request\Payments\PaymentsRequest;
 
 class InvalidRequestExceptionTest extends TestCase
 {

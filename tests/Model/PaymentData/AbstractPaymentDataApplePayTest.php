@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Model\PaymentData;
+namespace Tests\testottest\Model\PaymentData;
 
-use Testottest\Helpers\Random;
-use Testottest\Model\PaymentData\PaymentDataApplePay;
+use testottest\Helpers\Random;
+use testottest\Model\PaymentData\PaymentDataApplePay;
 
 abstract class AbstractPaymentDataApplePayTest extends AbstractPaymentDataTest
 {

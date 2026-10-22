@@ -1,17 +1,17 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \Testottest\Request
+# Namespace: \testottest\Request
 
 ## Parent: [\YooKassa](../namespaces/yookassa.md)
 
 ### Namespaces
 
-* [\Testottest\Request\Deals](../namespaces/yookassa-request-deals.md)
-* [\Testottest\Request\Payments](../namespaces/yookassa-request-payments.md)
-* [\Testottest\Request\Payouts](../namespaces/yookassa-request-payouts.md)
-* [\Testottest\Request\Receipts](../namespaces/yookassa-request-receipts.md)
-* [\Testottest\Request\Refunds](../namespaces/yookassa-request-refunds.md)
-* [\Testottest\Request\Webhook](../namespaces/yookassa-request-webhook.md)
+* [\testottest\Request\Deals](../namespaces/yookassa-request-deals.md)
+* [\testottest\Request\Payments](../namespaces/yookassa-request-payments.md)
+* [\testottest\Request\Payouts](../namespaces/yookassa-request-payouts.md)
+* [\testottest\Request\Receipts](../namespaces/yookassa-request-receipts.md)
+* [\testottest\Request\Refunds](../namespaces/yookassa-request-refunds.md)
+* [\testottest\Request\Webhook](../namespaces/yookassa-request-webhook.md)
 
 ---
 

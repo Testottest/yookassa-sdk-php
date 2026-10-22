@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Testottest\Common\Exceptions;
+namespace Tests\testottest\Common\Exceptions;
 
-use Testottest\Common\Exceptions\ForbiddenException;
+use testottest\Common\Exceptions\ForbiddenException;
 
 class ForbiddenExceptionTest extends AbstractApiRequestExceptionTest
 {

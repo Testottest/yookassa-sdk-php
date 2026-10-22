@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Tests\Testottest\Model\PaymentData;
+namespace Tests\testottest\Model\PaymentData;
 
 
-use Testottest\Model\PaymentData\AbstractPaymentData;
-use Testottest\Model\PaymentData\PaymentDataTinkoffBank;
-use Testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentData\AbstractPaymentData;
+use testottest\Model\PaymentData\PaymentDataTinkoffBank;
+use testottest\Model\PaymentMethodType;
 
 class PaymentDataTinkoffBankTest extends AbstractPaymentDataTest
 {

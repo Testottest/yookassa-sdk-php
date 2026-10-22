@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Model;
+namespace Tests\testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Model\Metadata;
+use testottest\Model\Metadata;
 
 class MetadataTest extends TestCase
 {

@@ -1,14 +1,14 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \Testottest\Model\Webhook
+# Namespace: \testottest\Model\Webhook
 
-## Parent: [\Testottest\Model](../namespaces/yookassa-model.md)
+## Parent: [\testottest\Model](../namespaces/yookassa-model.md)
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\Testottest\Model\Webhook\Webhook](../classes/YooKassa-Model-Webhook-Webhook.md) | Класс Webhook содержит информацию о подписке на одно событие |
+| [\testottest\Model\Webhook\Webhook](../classes/YooKassa-Model-Webhook-Webhook.md) | Класс Webhook содержит информацию о подписке на одно событие |
 
 ---
 

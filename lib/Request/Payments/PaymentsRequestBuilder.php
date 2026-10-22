@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payments;
+namespace testottest\Request\Payments;
 
 use DateTime;
 use Exception;
-use Testottest\Common\AbstractRequest;
-use Testottest\Common\AbstractRequestBuilder;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Common\AbstractRequest;
+use testottest\Common\AbstractRequestBuilder;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
 
 /**
  * Класс билдера запросов к API для получения списка платежей магазина

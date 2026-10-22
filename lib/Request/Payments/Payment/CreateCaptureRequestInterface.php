@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payments\Payment;
+namespace testottest\Request\Payments\Payment;
 
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Model\AmountInterface;
-use Testottest\Model\Deal\PaymentDealInfo;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\ReceiptInterface;
-use Testottest\Model\TransferInterface;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Model\AmountInterface;
+use testottest\Model\Deal\PaymentDealInfo;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\ReceiptInterface;
+use testottest\Model\TransferInterface;
 
 /**
  * Interface CreateCaptureRequestInterface

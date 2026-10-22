@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Request\Receipts\ReceiptsRequestSerializer
-### Namespace: [\Testottest\Request\Receipts](../namespaces/yookassa-request-receipts.md)
+# Class: \testottest\Request\Receipts\ReceiptsRequestSerializer
+### Namespace: [\testottest\Request\Receipts](../namespaces/yookassa-request-receipts.md)
 ---
 **Summary:**
 
@@ -23,7 +23,7 @@
 * File: [lib/Request/Receipts/ReceiptsRequestSerializer.php](../../lib/Request/Receipts/ReceiptsRequestSerializer.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \Testottest\Request\Receipts\ReceiptsRequestSerializer
+  * \testottest\Request\Receipts\ReceiptsRequestSerializer
 
 ---
 ## Methods
@@ -31,7 +31,7 @@
 #### public serialize() : array
 
 ```php
-public serialize(\Testottest\Request\Receipts\ReceiptsRequestInterface $request) : array
+public serialize(\testottest\Request\Receipts\ReceiptsRequestInterface $request) : array
 ```
 
 **Summary**
@@ -39,12 +39,12 @@ public serialize(\Testottest\Request\Receipts\ReceiptsRequestInterface $request)
 Сериализует объект запроса к API для дальнейшей его отправки
 
 **Details:**
-* Inherited From: [\Testottest\Request\Receipts\ReceiptsRequestSerializer](../classes/YooKassa-Request-Receipts-ReceiptsRequestSerializer.md)
+* Inherited From: [\testottest\Request\Receipts\ReceiptsRequestSerializer](../classes/YooKassa-Request-Receipts-ReceiptsRequestSerializer.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\Testottest\Request\Receipts\ReceiptsRequestInterface</code> | request  | Сериализуемый объект |
+| <code lang="php">\testottest\Request\Receipts\ReceiptsRequestInterface</code> | request  | Сериализуемый объект |
 
 **Returns:** array - Массив с информацией, отправляемый в дальнейшем в API
 

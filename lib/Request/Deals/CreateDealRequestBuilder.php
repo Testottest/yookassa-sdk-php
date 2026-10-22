@@ -24,13 +24,13 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Deals;
+namespace testottest\Request\Deals;
 
-use Testottest\Common\AbstractRequest;
-use Testottest\Common\AbstractRequestBuilder;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Model\Metadata;
+use testottest\Common\AbstractRequest;
+use testottest\Common\AbstractRequestBuilder;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Model\Metadata;
 
 /**
  * Класс билдера объектов запросов к API на создание платежа

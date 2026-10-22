@@ -1,27 +1,27 @@
 <?php
 
-namespace Tests\Testottest\Request\Receipts;
+namespace Tests\testottest\Request\Receipts;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Common\Exceptions\EmptyPropertyValueException;
-use Testottest\Helpers\Random;
-use Testottest\Model\Airline;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\Metadata;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\PaymentData\PaymentDataQiwi;
-use Testottest\Model\Receipt;
-use Testottest\Model\Receipt\PaymentMode;
-use Testottest\Model\Receipt\PaymentSubject;
-use Testottest\Model\Receipt\ReceiptItemAmount;
-use Testottest\Model\Receipt\SettlementType;
-use Testottest\Model\ReceiptCustomer;
-use Testottest\Model\ReceiptItem;
-use Testottest\Model\ReceiptType;
-use Testottest\Model\Settlement;
-use Testottest\Request\Payments\CreatePaymentRequest;
-use Testottest\Request\Payments\CreatePaymentRequestBuilder;
-use Testottest\Request\Receipts\CreatePostReceiptRequest;
+use testottest\Common\Exceptions\EmptyPropertyValueException;
+use testottest\Helpers\Random;
+use testottest\Model\Airline;
+use testottest\Model\CurrencyCode;
+use testottest\Model\Metadata;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\PaymentData\PaymentDataQiwi;
+use testottest\Model\Receipt;
+use testottest\Model\Receipt\PaymentMode;
+use testottest\Model\Receipt\PaymentSubject;
+use testottest\Model\Receipt\ReceiptItemAmount;
+use testottest\Model\Receipt\SettlementType;
+use testottest\Model\ReceiptCustomer;
+use testottest\Model\ReceiptItem;
+use testottest\Model\ReceiptType;
+use testottest\Model\Settlement;
+use testottest\Request\Payments\CreatePaymentRequest;
+use testottest\Request\Payments\CreatePaymentRequestBuilder;
+use testottest\Request\Receipts\CreatePostReceiptRequest;
 
 class CreatePostReceiptRequestTest extends TestCase
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Testottest\Common;
+namespace Tests\testottest\Common;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Common\AbstractRequest;
-use Testottest\Common\AbstractRequestBuilder;
-use Testottest\Common\Exceptions\InvalidRequestException;
+use testottest\Common\AbstractRequest;
+use testottest\Common\AbstractRequestBuilder;
+use testottest\Common\Exceptions\InvalidRequestException;
 
 class AbstractRequestBuilderTest extends TestCase
 {

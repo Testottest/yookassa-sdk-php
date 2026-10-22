@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\Testottest\Request\Receipts;
+namespace Tests\testottest\Request\Receipts;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\ProductCode;
-use Testottest\Helpers\Random;
-use Testottest\Model\Airline;
-use Testottest\Model\Receipt\SettlementType;
-use Testottest\Model\ReceiptType;
-use Testottest\Request\Receipts\ReceiptResponseInterface;
-use Testottest\Request\Receipts\ReceiptResponseItem;
-use Testottest\Request\Receipts\ReceiptResponseItemInterface;
+use testottest\Helpers\ProductCode;
+use testottest\Helpers\Random;
+use testottest\Model\Airline;
+use testottest\Model\Receipt\SettlementType;
+use testottest\Model\ReceiptType;
+use testottest\Request\Receipts\ReceiptResponseInterface;
+use testottest\Request\Receipts\ReceiptResponseItem;
+use testottest\Request\Receipts\ReceiptResponseItemInterface;
 
 abstract class AbstractReceiptResponseTest extends TestCase
 {

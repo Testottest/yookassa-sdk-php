@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Model\Leg
-### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
+# Class: \testottest\Model\Leg
+### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -54,10 +54,10 @@
 * File: [lib/Model/Leg.php](../../lib/Model/Leg.php)
 * Package: YooKassa
 * Class Hierarchy: 
-  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * \Testottest\Model\Leg
+  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * \testottest\Model\Leg
 * Implements:
-  * [\Testottest\Model\LegInterface](../classes/YooKassa-Model-LegInterface.md)
+  * [\testottest\Model\LegInterface](../classes/YooKassa-Model-LegInterface.md)
 
 ---
 ## Constants
@@ -160,7 +160,7 @@ public __construct(array $data = []) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -182,7 +182,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -204,7 +204,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -226,7 +226,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -249,7 +249,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -271,7 +271,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -293,7 +293,7 @@ public getDepartureAirport() : string
 Возвращает трёхбуквенный IATA-код аэропорта вылета
 
 **Details:**
-* Inherited From: [\Testottest\Model\Leg](../classes/YooKassa-Model-Leg.md)
+* Inherited From: [\testottest\Model\Leg](../classes/YooKassa-Model-Leg.md)
 
 **Returns:** string - Трёхбуквенный IATA-код аэропорта вылета
 
@@ -314,7 +314,7 @@ public getDepartureDate() : string
 Возвращает дату вылета в формате YYYY-MM-DD ISO 8601:2004
 
 **Details:**
-* Inherited From: [\Testottest\Model\Leg](../classes/YooKassa-Model-Leg.md)
+* Inherited From: [\testottest\Model\Leg](../classes/YooKassa-Model-Leg.md)
 
 **Returns:** string - Дата вылета в формате YYYY-MM-DD ISO 8601:2004
 
@@ -335,7 +335,7 @@ public getDestinationAirport() : string
 Возвращает трёхбуквенный IATA-код аэропорта прилёта
 
 **Details:**
-* Inherited From: [\Testottest\Model\Leg](../classes/YooKassa-Model-Leg.md)
+* Inherited From: [\testottest\Model\Leg](../classes/YooKassa-Model-Leg.md)
 
 **Returns:** string - Трёхбуквенный IATA-код аэропорта прилёта
 
@@ -356,7 +356,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -373,7 +373,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -395,7 +395,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -417,7 +417,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -440,7 +440,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -462,7 +462,7 @@ public setDepartureAirport(string $value) : mixed
 Устанавливает трёхбуквенный IATA-код аэропорта вылета
 
 **Details:**
-* Inherited From: [\Testottest\Model\Leg](../classes/YooKassa-Model-Leg.md)
+* Inherited From: [\testottest\Model\Leg](../classes/YooKassa-Model-Leg.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -488,7 +488,7 @@ public setDepartureDate(\DateTime|string $value) : mixed
 Устанавливает дату вылета в формате YYYY-MM-DD ISO 8601:2004
 
 **Details:**
-* Inherited From: [\Testottest\Model\Leg](../classes/YooKassa-Model-Leg.md)
+* Inherited From: [\testottest\Model\Leg](../classes/YooKassa-Model-Leg.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -519,7 +519,7 @@ public setDestinationAirport(string $value) : mixed
 Устанавливает трёхбуквенный IATA-код аэропорта прилёта
 
 **Details:**
-* Inherited From: [\Testottest\Model\Leg](../classes/YooKassa-Model-Leg.md)
+* Inherited From: [\testottest\Model\Leg](../classes/YooKassa-Model-Leg.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -546,7 +546,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -563,7 +563,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

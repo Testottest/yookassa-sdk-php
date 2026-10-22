@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \Testottest\Request\Webhook\WebhookListResponse
-### Namespace: [\Testottest\Request\Webhook](../namespaces/yookassa-request-webhook.md)
+# Class: \testottest\Request\Webhook\WebhookListResponse
+### Namespace: [\testottest\Request\Webhook](../namespaces/yookassa-request-webhook.md)
 ---
 **Summary:**
 
@@ -25,7 +25,7 @@
 * File: [lib/Request/Webhook/WebhookListResponse.php](../../lib/Request/Webhook/WebhookListResponse.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \Testottest\Request\Webhook\WebhookListResponse
+  * \testottest\Request\Webhook\WebhookListResponse
 
 ---
 ## Methods
@@ -41,7 +41,7 @@ public __construct(array $response) : mixed
 Конструктор, устанавливает список полученных от API установленных webhook для переданного OAuth-токена
 
 **Details:**
-* Inherited From: [\Testottest\Request\Webhook\WebhookListResponse](../classes/YooKassa-Request-Webhook-WebhookListResponse.md)
+* Inherited From: [\testottest\Request\Webhook\WebhookListResponse](../classes/YooKassa-Request-Webhook-WebhookListResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -52,10 +52,10 @@ public __construct(array $response) : mixed
 
 
 <a name="method_getItems" class="anchor"></a>
-#### public getItems() : \Testottest\Model\Webhook\Webhook[]
+#### public getItems() : \testottest\Model\Webhook\Webhook[]
 
 ```php
-public getItems() : \Testottest\Model\Webhook\Webhook[]
+public getItems() : \testottest\Model\Webhook\Webhook[]
 ```
 
 **Summary**
@@ -63,9 +63,9 @@ public getItems() : \Testottest\Model\Webhook\Webhook[]
 Возвращает список установленных webhook для переданного OAuth-токена
 
 **Details:**
-* Inherited From: [\Testottest\Request\Webhook\WebhookListResponse](../classes/YooKassa-Request-Webhook-WebhookListResponse.md)
+* Inherited From: [\testottest\Request\Webhook\WebhookListResponse](../classes/YooKassa-Request-Webhook-WebhookListResponse.md)
 
-**Returns:** \Testottest\Model\Webhook\Webhook[] - Список установленных webhook
+**Returns:** \testottest\Model\Webhook\Webhook[] - Список установленных webhook
 
 
 <a name="method_getType" class="anchor"></a>
@@ -80,7 +80,7 @@ public getType() : string
 Возвращает тип ответа. Доступен только `list`
 
 **Details:**
-* Inherited From: [\Testottest\Request\Webhook\WebhookListResponse](../classes/YooKassa-Request-Webhook-WebhookListResponse.md)
+* Inherited From: [\testottest\Request\Webhook\WebhookListResponse](../classes/YooKassa-Request-Webhook-WebhookListResponse.md)
 
 **Returns:** string - 
 

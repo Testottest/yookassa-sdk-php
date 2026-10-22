@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Testottest\Helpers;
+namespace Tests\testottest\Helpers;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
+use testottest\Helpers\Random;
 
 class RandomTest extends TestCase
 {

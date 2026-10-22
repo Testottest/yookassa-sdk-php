@@ -1,18 +1,18 @@
 <?php
 
-namespace Tests\Testottest\Request\Refunds;
+namespace Tests\testottest\Request\Refunds;
 
 use PHPUnit\Framework\TestCase;
-use Testottest\Helpers\Random;
-use Testottest\Model\CurrencyCode;
-use Testottest\Model\MonetaryAmount;
-use Testottest\Model\Receipt\PaymentMode;
-use Testottest\Model\Receipt\PaymentSubject;
-use Testottest\Model\Source;
-use Testottest\Model\Deal\RefundDealData;
-use Testottest\Model\Deal\SettlementPayoutPaymentType;
-use Testottest\Request\Refunds\CreateRefundRequest;
-use Testottest\Request\Refunds\CreateRefundRequestSerializer;
+use testottest\Helpers\Random;
+use testottest\Model\CurrencyCode;
+use testottest\Model\MonetaryAmount;
+use testottest\Model\Receipt\PaymentMode;
+use testottest\Model\Receipt\PaymentSubject;
+use testottest\Model\Source;
+use testottest\Model\Deal\RefundDealData;
+use testottest\Model\Deal\SettlementPayoutPaymentType;
+use testottest\Request\Refunds\CreateRefundRequest;
+use testottest\Request\Refunds\CreateRefundRequestSerializer;
 
 class CreateRefundRequestSerializerTest extends TestCase
 {

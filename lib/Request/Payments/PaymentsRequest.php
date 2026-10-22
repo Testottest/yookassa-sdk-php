@@ -24,15 +24,15 @@
  * THE SOFTWARE.
  */
 
-namespace Testottest\Request\Payments;
+namespace testottest\Request\Payments;
 
 use Exception;
-use Testottest\Common\AbstractRequest;
-use Testottest\Common\Exceptions\InvalidPropertyValueException;
-use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
-use Testottest\Helpers\TypeCast;
-use Testottest\Model\PaymentMethodType;
-use Testottest\Model\PaymentStatus;
+use testottest\Common\AbstractRequest;
+use testottest\Common\Exceptions\InvalidPropertyValueException;
+use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use testottest\Helpers\TypeCast;
+use testottest\Model\PaymentMethodType;
+use testottest\Model\PaymentStatus;
 
 /**
  * Класс объекта запроса к API для получения списка платежей магазина
