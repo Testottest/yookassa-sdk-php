@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\YooKassa\Model\PaymentData;
+namespace Tests\Testottest\Model\PaymentData;
 
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\PaymentData\PaymentDataBankCard;
-use temirovgroup\Model\PaymentData\PaymentDataBankCardCard;
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Helpers\Random;
+use Testottest\Model\PaymentData\PaymentDataBankCard;
+use Testottest\Model\PaymentData\PaymentDataBankCardCard;
+use Testottest\Model\PaymentMethodType;
 
 class PaymentDataBankCardTest extends AbstractPaymentDataTest
 {
@@ -37,7 +37,7 @@ class PaymentDataBankCardTest extends AbstractPaymentDataTest
         self::assertNull($instance->card);
 
         $instance->setCard($value);
-        if ($value === null || $value === '' || $value === array()) {
+        if ($value === null || $value === '' || $value === []) {
             self::assertNull($instance->getCard());
             self::assertNull($instance->card);
         } else {
@@ -55,7 +55,7 @@ class PaymentDataBankCardTest extends AbstractPaymentDataTest
 
         $instance = $this->getTestInstance();
         $instance->card = $value;
-        if ($value === null || $value === '' || $value === array()) {
+        if ($value === null || $value === '' || $value === []) {
             self::assertNull($instance->getCard());
             self::assertNull($instance->card);
         } else {

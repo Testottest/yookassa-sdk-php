@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Common\Exceptions;
+namespace Testottest\Common\Exceptions;
 
 /**
  * Ресурс не найден.
@@ -39,7 +39,7 @@ class NotFoundException extends ApiException
 
     public $retryAfter;
 
-    public function __construct($responseHeaders = array(), $responseBody = null)
+    public function __construct($responseHeaders = [], $responseBody = null)
     {
         $errorData = json_decode($responseBody, true);
         $message   = '';

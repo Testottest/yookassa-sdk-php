@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: PassengerInterface
-### Namespace: [\YooKassa\Model](../namespaces/yookassa-model.md)
+### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
 ---
 ---
 ### Constants
@@ -35,7 +35,7 @@ public getFirstName() : string
 Возвращает имя пассажира
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PassengerInterface](../classes/YooKassa-Model-PassengerInterface.md)
+* Inherited From: [\Testottest\Model\PassengerInterface](../classes/YooKassa-Model-PassengerInterface.md)
 
 **Returns:** string - 
 
@@ -52,7 +52,7 @@ public setFirstName(string $value) : mixed
 Устанавливает имя пассажира
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PassengerInterface](../classes/YooKassa-Model-PassengerInterface.md)
+* Inherited From: [\Testottest\Model\PassengerInterface](../classes/YooKassa-Model-PassengerInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -74,7 +74,7 @@ public getLastName() : string
 Возвращает фамилию пассажира
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PassengerInterface](../classes/YooKassa-Model-PassengerInterface.md)
+* Inherited From: [\Testottest\Model\PassengerInterface](../classes/YooKassa-Model-PassengerInterface.md)
 
 **Returns:** string - 
 
@@ -91,7 +91,7 @@ public setLastName(string $value) : mixed
 Устанавливает фамилию пассажира
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PassengerInterface](../classes/YooKassa-Model-PassengerInterface.md)
+* Inherited From: [\Testottest\Model\PassengerInterface](../classes/YooKassa-Model-PassengerInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |

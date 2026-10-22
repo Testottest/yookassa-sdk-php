@@ -24,21 +24,21 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Payouts;
+namespace Testottest\Request\Payouts;
 
-use temirovgroup\Common\AbstractRequest;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\Deal\PayoutDealInfo;
-use temirovgroup\Model\MonetaryAmount;
-use temirovgroup\Model\Payout;
-use temirovgroup\Model\Metadata;
-use temirovgroup\Model\Payout\AbstractPayoutDestination;
-use temirovgroup\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData;
-use temirovgroup\Request\Payouts\PayoutDestinationData\PayoutDestinationDataFactory;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\Deal\PayoutDealInfo;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Payout;
+use Testottest\Model\Metadata;
+use Testottest\Model\Payout\AbstractPayoutDestination;
+use Testottest\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData;
+use Testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataFactory;
 
 /**
  * Класс объекта запроса к API на проведение новой выплаты

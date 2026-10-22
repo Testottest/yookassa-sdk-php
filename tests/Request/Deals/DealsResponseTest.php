@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\YooKassa\Request\Deals;
+namespace Tests\Testottest\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\CurrencyCode;
-use temirovgroup\Model\Deal\DealType;
-use temirovgroup\Model\Deal\FeeMoment;
-use temirovgroup\Model\DealInterface;
-use temirovgroup\Model\Deal\DealStatus;
-use temirovgroup\Request\Deals\DealsResponse;
+use Testottest\Helpers\Random;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\Deal\DealType;
+use Testottest\Model\Deal\FeeMoment;
+use Testottest\Model\DealInterface;
+use Testottest\Model\Deal\DealStatus;
+use Testottest\Request\Deals\DealsResponse;
 
 class DealsResponseTest extends TestCase
 {

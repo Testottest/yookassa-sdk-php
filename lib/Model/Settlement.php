@@ -24,15 +24,15 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model;
+namespace Testottest\Model;
 
 
-use temirovgroup\Common\AbstractObject;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\Receipt\SettlementType;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\Receipt\SettlementType;
 
 /**
  * Class Settlement

@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\PaymentMethod;
+namespace Testottest\Model\PaymentMethod;
 
-use temirovgroup\Common\AbstractEnum;
+use Testottest\Common\AbstractEnum;
 
 /**
  * Тип банковской карты. Возможные значения:

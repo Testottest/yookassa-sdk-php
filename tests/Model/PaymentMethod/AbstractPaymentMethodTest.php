@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\YooKassa\Model\PaymentMethod;
+namespace Tests\Testottest\Model\PaymentMethod;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\PaymentMethod\AbstractPaymentMethod;
+use Testottest\Helpers\Random;
+use Testottest\Model\PaymentMethod\AbstractPaymentMethod;
 
 abstract class AbstractPaymentMethodTest extends TestCase
 {

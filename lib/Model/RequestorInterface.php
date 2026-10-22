@@ -1,7 +1,7 @@
 <?php
 
 
-namespace temirovgroup\Model;
+namespace Testottest\Model;
 
 /**
  * Interface RequestorInterface

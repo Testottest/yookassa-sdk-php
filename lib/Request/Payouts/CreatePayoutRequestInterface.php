@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Payouts;
+namespace Testottest\Request\Payouts;
 
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\DealInterface;
-use temirovgroup\Model\Metadata;
-use temirovgroup\Model\MonetaryAmount;
-use temirovgroup\Model\Deal\PayoutDealInfo;
-use temirovgroup\Model\Payout\AbstractPayoutDestination;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\DealInterface;
+use Testottest\Model\Metadata;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Deal\PayoutDealInfo;
+use Testottest\Model\Payout\AbstractPayoutDestination;
 
 /**
  * Interface CreatePayoutRequestInterface

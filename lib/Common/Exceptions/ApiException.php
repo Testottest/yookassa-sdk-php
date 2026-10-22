@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Common\Exceptions;
+namespace Testottest\Common\Exceptions;
 
 use Exception;
 
@@ -53,7 +53,7 @@ class ApiException extends Exception
      * @param string[] $responseHeaders HTTP header
      * @param mixed $responseBody HTTP body
      */
-    public function __construct($message = "", $code = 0, $responseHeaders = array(), $responseBody = null)
+    public function __construct($message = "", $code = 0, $responseHeaders = [], $responseBody = null)
     {
         parent::__construct($message, $code);
         $this->responseHeaders = $responseHeaders;

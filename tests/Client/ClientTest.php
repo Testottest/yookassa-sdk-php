@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\YooKassa\Client;
+namespace Tests\Testottest\Client;
 
 use DateTime;
 use Exception;
@@ -8,53 +8,53 @@ use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 use PHPUnit_Framework_MockObject_MockObject;
 use ReflectionMethod;
-use temirovgroup\Client;
-use temirovgroup\Common\Exceptions\ApiConnectionException;
-use temirovgroup\Common\Exceptions\ApiException;
-use temirovgroup\Common\Exceptions\AuthorizeException;
-use temirovgroup\Common\Exceptions\BadApiRequestException;
-use temirovgroup\Common\Exceptions\ExtensionNotFoundException;
-use temirovgroup\Common\Exceptions\ForbiddenException;
-use temirovgroup\Common\Exceptions\InternalServerError;
-use temirovgroup\Common\Exceptions\JsonException;
-use temirovgroup\Common\Exceptions\NotFoundException;
-use temirovgroup\Common\Exceptions\ResponseProcessingException;
-use temirovgroup\Common\Exceptions\TooManyRequestsException;
-use temirovgroup\Common\Exceptions\UnauthorizedException;
-use temirovgroup\Common\LoggerWrapper;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Helpers\StringObject;
-use temirovgroup\Model\Deal\DealType;
-use temirovgroup\Model\Deal\FeeMoment;
-use temirovgroup\Model\PaymentMethodType;
-use temirovgroup\Model\ReceiptCustomer;
-use temirovgroup\Model\ReceiptItem;
-use temirovgroup\Model\ReceiptType;
-use temirovgroup\Model\SafeDeal;
-use temirovgroup\Model\Settlement;
-use temirovgroup\Request\Deals\CreateDealRequest;
-use temirovgroup\Request\Deals\CreateDealResponse;
-use temirovgroup\Request\Deals\DealResponse;
-use temirovgroup\Request\Deals\DealsRequest;
-use temirovgroup\Request\Deals\DealsResponse;
-use temirovgroup\Request\Payments\CreatePaymentResponse;
-use temirovgroup\Request\Payments\CreatePaymentRequest;
-use temirovgroup\Request\Payments\Payment\CancelResponse;
-use temirovgroup\Request\Payments\Payment\CreateCaptureRequest;
-use temirovgroup\Request\Payments\Payment\CreateCaptureResponse;
-use temirovgroup\Request\Payments\PaymentResponse;
-use temirovgroup\Request\Payments\PaymentsRequest;
-use temirovgroup\Request\Payments\PaymentsResponse;
-use temirovgroup\Request\Payouts\CreatePayoutRequest;
-use temirovgroup\Request\Payouts\CreatePayoutResponse;
-use temirovgroup\Request\Payouts\PayoutResponse;
-use temirovgroup\Request\Receipts\AbstractReceiptResponse;
-use temirovgroup\Request\Receipts\CreatePostReceiptRequest;
-use temirovgroup\Request\Refunds\CreateRefundRequest;
-use temirovgroup\Request\Refunds\CreateRefundResponse;
-use temirovgroup\Request\Refunds\RefundResponse;
-use temirovgroup\Request\Refunds\RefundsRequest;
-use temirovgroup\Request\Refunds\RefundsResponse;
+use Testottest\Client;
+use Testottest\Common\Exceptions\ApiConnectionException;
+use Testottest\Common\Exceptions\ApiException;
+use Testottest\Common\Exceptions\AuthorizeException;
+use Testottest\Common\Exceptions\BadApiRequestException;
+use Testottest\Common\Exceptions\ExtensionNotFoundException;
+use Testottest\Common\Exceptions\ForbiddenException;
+use Testottest\Common\Exceptions\InternalServerError;
+use Testottest\Common\Exceptions\JsonException;
+use Testottest\Common\Exceptions\NotFoundException;
+use Testottest\Common\Exceptions\ResponseProcessingException;
+use Testottest\Common\Exceptions\TooManyRequestsException;
+use Testottest\Common\Exceptions\UnauthorizedException;
+use Testottest\Common\LoggerWrapper;
+use Testottest\Helpers\Random;
+use Testottest\Helpers\StringObject;
+use Testottest\Model\Deal\DealType;
+use Testottest\Model\Deal\FeeMoment;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\ReceiptCustomer;
+use Testottest\Model\ReceiptItem;
+use Testottest\Model\ReceiptType;
+use Testottest\Model\SafeDeal;
+use Testottest\Model\Settlement;
+use Testottest\Request\Deals\CreateDealRequest;
+use Testottest\Request\Deals\CreateDealResponse;
+use Testottest\Request\Deals\DealResponse;
+use Testottest\Request\Deals\DealsRequest;
+use Testottest\Request\Deals\DealsResponse;
+use Testottest\Request\Payments\CreatePaymentResponse;
+use Testottest\Request\Payments\CreatePaymentRequest;
+use Testottest\Request\Payments\Payment\CancelResponse;
+use Testottest\Request\Payments\Payment\CreateCaptureRequest;
+use Testottest\Request\Payments\Payment\CreateCaptureResponse;
+use Testottest\Request\Payments\PaymentResponse;
+use Testottest\Request\Payments\PaymentsRequest;
+use Testottest\Request\Payments\PaymentsResponse;
+use Testottest\Request\Payouts\CreatePayoutRequest;
+use Testottest\Request\Payouts\CreatePayoutResponse;
+use Testottest\Request\Payouts\PayoutResponse;
+use Testottest\Request\Receipts\AbstractReceiptResponse;
+use Testottest\Request\Receipts\CreatePostReceiptRequest;
+use Testottest\Request\Refunds\CreateRefundRequest;
+use Testottest\Request\Refunds\CreateRefundResponse;
+use Testottest\Request\Refunds\RefundResponse;
+use Testottest\Request\Refunds\RefundsRequest;
+use Testottest\Request\Refunds\RefundsResponse;
 
 class ClientTest extends TestCase
 {
@@ -1029,7 +1029,7 @@ class ClientTest extends TestCase
             ->setMethods(array('setLogger', 'setConfig', 'call', 'setShopId', 'getUserAgent', 'setBearerToken', 'setShopPassword'))
             ->disableOriginalConstructor()
             ->getMock();
-        $expectedLoggers = array();
+        $expectedLoggers = [];
         $clientMock->expects(self::exactly(3))->method('setLogger')->willReturnCallback(function ($logger) use(&$expectedLoggers) {
             $expectedLoggers[] = $logger;
         });
@@ -1039,7 +1039,7 @@ class ClientTest extends TestCase
         self::assertSame($expectedLoggers[0], $logger);
 
         $apiClient->setLogger($wrapped);
-        $apiClient->setLogger(function ($level, $log, $context = array()) use ($wrapped) {
+        $apiClient->setLogger(function ($level, $log, $context = []) use ($wrapped) {
             $wrapped->log($level, $log, $context);
         });
     }

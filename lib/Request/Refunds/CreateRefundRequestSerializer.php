@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Refunds;
+namespace Testottest\Request\Refunds;
 
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\ReceiptItem;
-use temirovgroup\Model\SourceInterface;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\ReceiptItem;
+use Testottest\Model\SourceInterface;
 
 /**
  * Класс сериалайзера запросов к API на создание нового возврата средств
@@ -58,7 +58,7 @@ class CreateRefundRequestSerializer
         }
         if ($request->hasReceipt()) {
             $receipt           = $request->getReceipt();
-            $result['receipt'] = array();
+            $result['receipt'] = [];
             /** @var ReceiptItem $item */
             foreach ($receipt->getItems() as $item) {
                 $itemArray = array(
@@ -126,7 +126,7 @@ class CreateRefundRequestSerializer
      */
     private function serializeSources($sources)
     {
-        $result = array();
+        $result = [];
         foreach ($sources as $source) {
             $result[] = array(
                 'account_id' => $source->getAccountId(),

@@ -1,27 +1,27 @@
 <?php
 
-namespace Tests\YooKassa\Request\Receipts;
+namespace Tests\Testottest\Request\Receipts;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\Airline;
-use temirovgroup\Model\CurrencyCode;
-use temirovgroup\Model\Metadata;
-use temirovgroup\Model\MonetaryAmount;
-use temirovgroup\Model\PaymentData\PaymentDataQiwi;
-use temirovgroup\Model\Receipt;
-use temirovgroup\Model\Receipt\PaymentMode;
-use temirovgroup\Model\Receipt\PaymentSubject;
-use temirovgroup\Model\Receipt\ReceiptItemAmount;
-use temirovgroup\Model\Receipt\SettlementType;
-use temirovgroup\Model\ReceiptCustomer;
-use temirovgroup\Model\ReceiptItem;
-use temirovgroup\Model\ReceiptType;
-use temirovgroup\Model\Settlement;
-use temirovgroup\Request\Payments\CreatePaymentRequest;
-use temirovgroup\Request\Payments\CreatePaymentRequestBuilder;
-use temirovgroup\Request\Receipts\CreatePostReceiptRequest;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Helpers\Random;
+use Testottest\Model\Airline;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\Metadata;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\PaymentData\PaymentDataQiwi;
+use Testottest\Model\Receipt;
+use Testottest\Model\Receipt\PaymentMode;
+use Testottest\Model\Receipt\PaymentSubject;
+use Testottest\Model\Receipt\ReceiptItemAmount;
+use Testottest\Model\Receipt\SettlementType;
+use Testottest\Model\ReceiptCustomer;
+use Testottest\Model\ReceiptItem;
+use Testottest\Model\ReceiptType;
+use Testottest\Model\Settlement;
+use Testottest\Request\Payments\CreatePaymentRequest;
+use Testottest\Request\Payments\CreatePaymentRequestBuilder;
+use Testottest\Request\Receipts\CreatePostReceiptRequest;
 
 class CreatePostReceiptRequestTest extends TestCase
 {
@@ -401,7 +401,7 @@ class CreatePostReceiptRequestTest extends TestCase
      */
     private function generateSettlements()
     {
-        $return = array();
+        $return = [];
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {

@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\Webhook;
+namespace Testottest\Model\Webhook;
 
 
-use temirovgroup\Common\AbstractObject;
-use temirovgroup\Model\NotificationEventType;
+use Testottest\Common\AbstractObject;
+use Testottest\Model\NotificationEventType;
 
 /**
  * Класс Webhook содержит информацию о подписке на одно событие

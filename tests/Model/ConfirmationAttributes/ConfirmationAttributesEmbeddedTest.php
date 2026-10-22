@@ -3,10 +3,10 @@
 namespace Model\ConfirmationAttributes;
 
 
-use Tests\YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributesTest;
-use temirovgroup\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use temirovgroup\Model\ConfirmationAttributes\ConfirmationAttributesEmbedded;
-use temirovgroup\Model\ConfirmationType;
+use Tests\Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributesTest;
+use Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesEmbedded;
+use Testottest\Model\ConfirmationType;
 
 class ConfirmationAttributesEmbeddedTest extends AbstractConfirmationAttributesTest
 {

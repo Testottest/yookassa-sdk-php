@@ -24,13 +24,13 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\Payout;
+namespace Testottest\Model\Payout;
 
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * Класс, описывающий метод оплаты, при оплате через ЮMoney

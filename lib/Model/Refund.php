@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model;
+namespace Testottest\Model;
 
-use temirovgroup\Common\AbstractObject;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\Deal\RefundDealInfo;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\Deal\RefundDealInfo;
 
 /**
  * Класс объекта с информацией о возврате платежа
@@ -343,7 +343,7 @@ class Refund extends AbstractObject implements RefundInterface
             throw new InvalidPropertyValueTypeException($message, 0, 'Refund.sources', $value);
         }
 
-        $sources = array();
+        $sources = [];
         foreach ($value as $item) {
             if (is_array($item)) {
                 $item = new Source($item);

@@ -1,18 +1,18 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \YooKassa\Model\Receipt
+# Namespace: \Testottest\Model\Receipt
 
-## Parent: [\YooKassa\Model](../namespaces/yookassa-model.md)
+## Parent: [\Testottest\Model](../namespaces/yookassa-model.md)
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\YooKassa\Model\Receipt\AgentType](../classes/YooKassa-Model-Receipt-AgentType.md) | Базовый класс генерируемых enum&#039;ов |
-| [\YooKassa\Model\Receipt\PaymentMode](../classes/YooKassa-Model-Receipt-PaymentMode.md) | Базовый класс генерируемых enum&#039;ов |
-| [\YooKassa\Model\Receipt\PaymentSubject](../classes/YooKassa-Model-Receipt-PaymentSubject.md) | Базовый класс генерируемых enum&#039;ов |
-| [\YooKassa\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md) | Class ReceiptItemAmount |
-| [\YooKassa\Model\Receipt\SettlementType](../classes/YooKassa-Model-Receipt-SettlementType.md) | Базовый класс генерируемых enum&#039;ов |
+| [\Testottest\Model\Receipt\AgentType](../classes/YooKassa-Model-Receipt-AgentType.md) | Базовый класс генерируемых enum&#039;ов |
+| [\Testottest\Model\Receipt\PaymentMode](../classes/YooKassa-Model-Receipt-PaymentMode.md) | Базовый класс генерируемых enum&#039;ов |
+| [\Testottest\Model\Receipt\PaymentSubject](../classes/YooKassa-Model-Receipt-PaymentSubject.md) | Базовый класс генерируемых enum&#039;ов |
+| [\Testottest\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md) | Class ReceiptItemAmount |
+| [\Testottest\Model\Receipt\SettlementType](../classes/YooKassa-Model-Receipt-SettlementType.md) | Базовый класс генерируемых enum&#039;ов |
 
 ---
 

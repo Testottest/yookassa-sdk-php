@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\YooKassa\Model\Confirmation;
+namespace Tests\Testottest\Model\Confirmation;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\Confirmation\AbstractConfirmation;
+use Testottest\Helpers\Random;
+use Testottest\Model\Confirmation\AbstractConfirmation;
 
 abstract class AbstractConfirmationTest extends TestCase
 {

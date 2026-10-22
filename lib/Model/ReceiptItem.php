@@ -24,16 +24,16 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model;
+namespace Testottest\Model;
 
-use temirovgroup\Common\AbstractObject;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\ProductCode;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\Receipt\AgentType;
-use temirovgroup\Model\Receipt\ReceiptItemAmount;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\ProductCode;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\Receipt\AgentType;
+use Testottest\Model\Receipt\ReceiptItemAmount;
 
 /**
  * Информация о товарной позиции в заказе, позиция фискального чека

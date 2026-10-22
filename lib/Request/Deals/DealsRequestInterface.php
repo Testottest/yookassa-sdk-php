@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Deals;
+namespace Testottest\Request\Deals;
 
 /**
  * Interface DealsRequestInterface

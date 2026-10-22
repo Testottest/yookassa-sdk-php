@@ -23,10 +23,10 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\Receipt;
+namespace Testottest\Model\Receipt;
 
 
-use temirovgroup\Common\AbstractEnum;
+use Testottest\Common\AbstractEnum;
 
 class PaymentMode extends AbstractEnum
 {

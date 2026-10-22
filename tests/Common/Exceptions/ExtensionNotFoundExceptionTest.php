@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Tests\YooKassa\Common\Exceptions;
+namespace Tests\Testottest\Common\Exceptions;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Common\Exceptions\ExtensionNotFoundException;
+use Testottest\Common\Exceptions\ExtensionNotFoundException;
 
 class ExtensionNotFoundExceptionTest extends TestCase
 {

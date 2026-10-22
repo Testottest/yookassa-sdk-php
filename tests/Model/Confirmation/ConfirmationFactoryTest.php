@@ -3,10 +3,10 @@
 namespace Model\Confirmation;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\Confirmation\AbstractConfirmation;
-use temirovgroup\Model\Confirmation\ConfirmationFactory;
-use temirovgroup\Model\ConfirmationType;
+use Testottest\Helpers\Random;
+use Testottest\Model\Confirmation\AbstractConfirmation;
+use Testottest\Model\Confirmation\ConfirmationFactory;
+use Testottest\Model\ConfirmationType;
 
 class ConfirmationFactoryTest extends TestCase
 {
@@ -82,7 +82,7 @@ class ConfirmationFactoryTest extends TestCase
 
     public function validTypeDataProvider()
     {
-        $result = array();
+        $result = [];
         foreach (ConfirmationType::getValidValues() as $value) {
             $result[] = array($value);
         }

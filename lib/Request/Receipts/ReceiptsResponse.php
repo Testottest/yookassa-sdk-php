@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Receipts;
+namespace Testottest\Request\Receipts;
 
 /**
  * Класс для работы со списком чеков
@@ -71,7 +71,7 @@ class ReceiptsResponse
             $this->type = $response['type'];
         }
 
-        $this->items = array();
+        $this->items = [];
         foreach ($response['items'] as $item) {
             if ($receipt = $this->factory->factory($item)) {
                 $this->items[] = $receipt;

@@ -24,16 +24,16 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Refunds;
+namespace Testottest\Request\Refunds;
 
-use temirovgroup\Common\AbstractRefundRequest;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\Deal\RefundDealData;
-use temirovgroup\Model\ReceiptInterface;
-use temirovgroup\Model\Source;
-use temirovgroup\Model\SourceInterface;
+use Testottest\Common\AbstractRefundRequest;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\Deal\RefundDealData;
+use Testottest\Model\ReceiptInterface;
+use Testottest\Model\Source;
+use Testottest\Model\SourceInterface;
 
 /**
  * Класс объекта запроса для создания возврата
@@ -121,7 +121,7 @@ class CreateRefundRequest extends AbstractRefundRequest implements CreateRefundR
             throw new InvalidPropertyValueTypeException($message, 0, 'CreateRefundRequest.sources', $value);
         }
 
-        $sources = array();
+        $sources = [];
         foreach ($value as $item) {
             if (is_array($item)) {
                 $item = new Source($item);

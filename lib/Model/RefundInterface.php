@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model;
+namespace Testottest\Model;
 
-use temirovgroup\Model\Deal\RefundDealInfo;
+use Testottest\Model\Deal\RefundDealInfo;
 
 /**
  * Interface RefundInterface

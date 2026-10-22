@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Deals;
+namespace Testottest\Request\Deals;
 
 /**
  * Класс объекта ответа, возвращаемого API при запросе конкретной сделки

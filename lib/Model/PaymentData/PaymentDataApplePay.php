@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\PaymentData;
+namespace Testottest\Model\PaymentData;
 
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * PaymentDataApplePay

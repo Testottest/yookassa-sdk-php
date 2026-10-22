@@ -24,25 +24,25 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Payments;
+namespace Testottest\Request\Payments;
 
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use temirovgroup\Model\ConfirmationAttributes\ConfirmationAttributesRedirect;
-use temirovgroup\Model\ConfirmationType;
-use temirovgroup\Model\LegInterface;
-use temirovgroup\Model\PassengerInterface;
-use temirovgroup\Model\PaymentData\AbstractPaymentData;
-use temirovgroup\Model\PaymentData\PaymentDataAlfabank;
-use temirovgroup\Model\PaymentData\PaymentDataB2bSberbank;
-use temirovgroup\Model\PaymentData\PaymentDataBankCard;
-use temirovgroup\Model\PaymentData\PaymentDataGooglePay;
-use temirovgroup\Model\PaymentData\PaymentDataSberbank;
-use temirovgroup\Model\PaymentData\PaymentDataYooMoney;
-use temirovgroup\Model\PaymentMethodType;
-use temirovgroup\Model\ReceiptInterface;
-use temirovgroup\Model\ReceiptItem;
-use temirovgroup\Model\TransferInterface;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesRedirect;
+use Testottest\Model\ConfirmationType;
+use Testottest\Model\LegInterface;
+use Testottest\Model\PassengerInterface;
+use Testottest\Model\PaymentData\AbstractPaymentData;
+use Testottest\Model\PaymentData\PaymentDataAlfabank;
+use Testottest\Model\PaymentData\PaymentDataB2bSberbank;
+use Testottest\Model\PaymentData\PaymentDataBankCard;
+use Testottest\Model\PaymentData\PaymentDataGooglePay;
+use Testottest\Model\PaymentData\PaymentDataSberbank;
+use Testottest\Model\PaymentData\PaymentDataYooMoney;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\ReceiptInterface;
+use Testottest\Model\ReceiptItem;
+use Testottest\Model\TransferInterface;
 
 /**
  * Класс сериалайзера объекта запроса к API на проведение платежа
@@ -85,7 +85,7 @@ class CreatePaymentRequestSerializer
      */
     public function serialize(CreatePaymentRequestInterface $request)
     {
-        $result = array();
+        $result = [];
 
         if ($request->getAmount()->getValue() > 0) {
             $result['amount'] = $this->serializeAmount($request->getAmount());
@@ -127,7 +127,7 @@ class CreatePaymentRequestSerializer
         }
         if ($request->hasAirline()) {
             $airline           = $request->getAirline();
-            $result['airline'] = array();
+            $result['airline'] = [];
 
             $ticketNumber = $airline->getTicketNumber();
             if (!empty($ticketNumber)) {
@@ -189,7 +189,7 @@ class CreatePaymentRequestSerializer
 
     private function serializeReceipt(ReceiptInterface $receipt)
     {
-        $result = array();
+        $result = [];
 
         /** @var ReceiptItem $item */
         foreach ($receipt->getItems() as $item) {
@@ -356,7 +356,7 @@ class CreatePaymentRequestSerializer
      */
     private function serializeTransfers(array $transfers)
     {
-        $result = array();
+        $result = [];
         foreach ($transfers as $transfer) {
             $item = array(
                 'account_id' => $transfer->getAccountId(),

@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model;
+namespace Testottest\Model;
 
-use temirovgroup\Common\AbstractObject;
+use Testottest\Common\AbstractObject;
 
 /**
  * Metadata - Метаданные платежа указанные мерчантом.

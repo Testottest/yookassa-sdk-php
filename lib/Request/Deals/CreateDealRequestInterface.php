@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Deals;
+namespace Testottest\Request\Deals;
 
-use temirovgroup\Model\Metadata;
+use Testottest\Model\Metadata;
 
 /**
  * Interface DealInterface

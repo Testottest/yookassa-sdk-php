@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Common\Exceptions;
+namespace Testottest\Common\Exceptions;
 
 class InvalidPropertyValueException extends InvalidPropertyException
 {

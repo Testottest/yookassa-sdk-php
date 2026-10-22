@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Helpers\Config\ConfigurationLoader
-### Namespace: [\YooKassa\Helpers\Config](../namespaces/yookassa-helpers-config.md)
+# Class: \Testottest\Helpers\Config\ConfigurationLoader
+### Namespace: [\Testottest\Helpers\Config](../namespaces/yookassa-helpers-config.md)
 ---
 
 ---
@@ -20,9 +20,9 @@
 * File: [lib/Helpers/Config/ConfigurationLoader.php](../../lib/Helpers/Config/ConfigurationLoader.php)
 * Package: Default
 * Class Hierarchy:
-  * \YooKassa\Helpers\Config\ConfigurationLoader
+  * \Testottest\Helpers\Config\ConfigurationLoader
 * Implements:
-  * [\YooKassa\Helpers\Config\ConfigurationLoaderInterface](../classes/YooKassa-Helpers-Config-ConfigurationLoaderInterface.md)
+  * [\Testottest\Helpers\Config\ConfigurationLoaderInterface](../classes/YooKassa-Helpers-Config-ConfigurationLoaderInterface.md)
 
 ---
 ## Methods
@@ -34,7 +34,7 @@ public getConfig() : mixed
 ```
 
 **Details:**
-* Inherited From: [\YooKassa\Helpers\Config\ConfigurationLoader](../classes/YooKassa-Helpers-Config-ConfigurationLoader.md)
+* Inherited From: [\Testottest\Helpers\Config\ConfigurationLoader](../classes/YooKassa-Helpers-Config-ConfigurationLoader.md)
 
 **Returns:** mixed - 
 
@@ -47,7 +47,7 @@ public load(mixed $filePath = null) : mixed
 ```
 
 **Details:**
-* Inherited From: [\YooKassa\Helpers\Config\ConfigurationLoader](../classes/YooKassa-Helpers-Config-ConfigurationLoader.md)
+* Inherited From: [\Testottest\Helpers\Config\ConfigurationLoader](../classes/YooKassa-Helpers-Config-ConfigurationLoader.md)
 
 ##### Parameters:
 | Type | Name | Description |

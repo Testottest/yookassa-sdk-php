@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\YooKassa\Common\Exceptions;
+namespace Tests\Testottest\Common\Exceptions;
 
 abstract class AbstractApiRequestExceptionTest extends ApiExceptionTest
 {

@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\Payout;
+namespace Testottest\Model\Payout;
 
-use temirovgroup\Common\AbstractEnum;
+use Testottest\Common\AbstractEnum;
 
 /**
  * PayoutCancellationDetailsReasonCode - Возможные причины отмены выплаты

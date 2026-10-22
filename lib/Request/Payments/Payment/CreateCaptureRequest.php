@@ -24,13 +24,13 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Payments\Payment;
+namespace Testottest\Request\Payments\Payment;
 
-use temirovgroup\Common\AbstractPaymentRequest;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\Deal\CaptureDealData;
-use temirovgroup\Model\ReceiptInterface;
+use Testottest\Common\AbstractPaymentRequest;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\Deal\CaptureDealData;
+use Testottest\Model\ReceiptInterface;
 
 /**
  * Класс объекта запроса к API на подтверждение оплаты

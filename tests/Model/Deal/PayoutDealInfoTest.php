@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\YooKassa\Model\Deal;
+namespace Tests\Testottest\Model\Deal;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\Deal\PayoutDealInfo;
+use Testottest\Helpers\Random;
+use Testottest\Model\Deal\PayoutDealInfo;
 
 class PayoutDealInfoTest extends TestCase
 {
@@ -48,7 +48,7 @@ class PayoutDealInfoTest extends TestCase
 
     public function validDataProvider()
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < 10; $i++) {
             $payment = array(
                 'id' => Random::str(36, 50),

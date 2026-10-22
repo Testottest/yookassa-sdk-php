@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\YooKassa\Common\Exceptions;
+namespace Tests\Testottest\Common\Exceptions;
 
-use temirovgroup\Common\Exceptions\ResponseProcessingException;
+use Testottest\Common\Exceptions\ResponseProcessingException;
 
 class ResponseProcessingExceptionTest extends ApiExceptionTest
 {
-    public function getTestInstance($message = '', $code = 0, $responseHeaders = array(), $responseBody = null)
+    public function getTestInstance($message = '', $code = 0, $responseHeaders = [], $responseBody = null)
     {
         return new ResponseProcessingException($responseHeaders, $responseBody);
     }

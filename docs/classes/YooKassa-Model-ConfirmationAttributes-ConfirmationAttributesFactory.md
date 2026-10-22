@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesFactory
-### Namespace: [\YooKassa\Model\ConfirmationAttributes](../namespaces/yookassa-model-confirmationattributes.md)
+# Class: \Testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory
+### Namespace: [\Testottest\Model\ConfirmationAttributes](../namespaces/yookassa-model-confirmationattributes.md)
 ---
 **Summary:**
 
@@ -24,37 +24,37 @@ Class ConfirmationAttributesFactory
 * File: [lib/Model/ConfirmationAttributes/ConfirmationAttributesFactory.php](../../lib/Model/ConfirmationAttributes/ConfirmationAttributesFactory.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesFactory
+  * \Testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory
 
 ---
 ## Methods
 <a name="method_factory" class="anchor"></a>
-#### public factory() : \YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes
+#### public factory() : \Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes
 
 ```php
-public factory(string $type) : \YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes
+public factory(string $type) : \Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes
 ```
 
 **Details:**
-* Inherited From: [\YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesFactory](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesFactory.md)
+* Inherited From: [\Testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesFactory.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">string</code> | type  |  |
 
-**Returns:** \YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes - 
+**Returns:** \Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes - 
 
 
 <a name="method_factoryFromArray" class="anchor"></a>
-#### public factoryFromArray() : \YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes
+#### public factoryFromArray() : \Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes
 
 ```php
-public factoryFromArray(array $data, string|null $type = null) : \YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes
+public factoryFromArray(array $data, string|null $type = null) : \Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes
 ```
 
 **Details:**
-* Inherited From: [\YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesFactory](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesFactory.md)
+* Inherited From: [\Testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesFactory.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -62,7 +62,7 @@ public factoryFromArray(array $data, string|null $type = null) : \YooKassa\Model
 | <code lang="php">array</code> | data  |  |
 | <code lang="php">string OR null</code> | type  |  |
 
-**Returns:** \YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes - 
+**Returns:** \Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes - 
 
 
 

@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\YooKassa\Model;
+namespace Tests\Testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\CurrencyCode;
-use temirovgroup\Model\MonetaryAmount;
-use temirovgroup\Model\Receipt\SettlementType;
-use temirovgroup\Model\Settlement;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Helpers\Random;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Receipt\SettlementType;
+use Testottest\Model\Settlement;
 
 class SettlementTest extends TestCase
 {
@@ -77,7 +77,7 @@ class SettlementTest extends TestCase
      */
     public function validDataProvider()
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < 10; $i++) {
             $result[] = array(
                 'type' => Random::value(SettlementType::getValidValues()),

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Request\Refunds\RefundsRequestSerializer
-### Namespace: [\YooKassa\Request\Refunds](../namespaces/yookassa-request-refunds.md)
+# Class: \Testottest\Request\Refunds\RefundsRequestSerializer
+### Namespace: [\Testottest\Request\Refunds](../namespaces/yookassa-request-refunds.md)
 ---
 **Summary:**
 
@@ -23,7 +23,7 @@
 * File: [lib/Request/Refunds/RefundsRequestSerializer.php](../../lib/Request/Refunds/RefundsRequestSerializer.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \YooKassa\Request\Refunds\RefundsRequestSerializer
+  * \Testottest\Request\Refunds\RefundsRequestSerializer
 
 ---
 ## Methods
@@ -31,7 +31,7 @@
 #### public serialize() : array
 
 ```php
-public serialize(\YooKassa\Request\Refunds\RefundsRequestInterface $request) : array
+public serialize(\Testottest\Request\Refunds\RefundsRequestInterface $request) : array
 ```
 
 **Summary**
@@ -39,12 +39,12 @@ public serialize(\YooKassa\Request\Refunds\RefundsRequestInterface $request) : a
 Сериализует объект запроса к API для дальнейшей его отправки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestSerializer](../classes/YooKassa-Request-Refunds-RefundsRequestSerializer.md)
+* Inherited From: [\Testottest\Request\Refunds\RefundsRequestSerializer](../classes/YooKassa-Request-Refunds-RefundsRequestSerializer.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Request\Refunds\RefundsRequestInterface</code> | request  | Сериализуемый объект |
+| <code lang="php">\Testottest\Request\Refunds\RefundsRequestInterface</code> | request  | Сериализуемый объект |
 
 **Returns:** array - Массив с информацией, отправляемый в дальнейшем в API
 

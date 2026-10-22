@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Common\Exceptions\UnauthorizedException
-### Namespace: [\YooKassa\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
+# Class: \Testottest\Common\Exceptions\UnauthorizedException
+### Namespace: [\Testottest\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
 ---
 **Summary:**
 
@@ -40,8 +40,8 @@
 * Package: YooKassa
 * Class Hierarchy:  
   * [\Exception](\Exception)
-  * [\YooKassa\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
-  * \YooKassa\Common\Exceptions\UnauthorizedException
+  * [\Testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
+  * \Testottest\Common\Exceptions\UnauthorizedException
 
 ---
 ## Constants
@@ -75,7 +75,7 @@ HTTP_CODE = 401
 **Type:** <a href="../mixed"><abbr title="mixed">mixed</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
+* Inherited From: [\Testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
 
 
 <a name="property_responseHeaders"></a>
@@ -84,7 +84,7 @@ HTTP_CODE = 401
 **Type:** <a href="../string[]"><abbr title="string[]">string[]</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
+* Inherited From: [\Testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
 
 
 
@@ -94,7 +94,7 @@ HTTP_CODE = 401
 #### public __construct() : mixed
 
 ```php
-public __construct(mixed $responseHeaders = array(), mixed $responseBody = null) : mixed
+public __construct(mixed $responseHeaders = [], mixed $responseBody = null) : mixed
 ```
 
 **Summary**
@@ -102,7 +102,7 @@ public __construct(mixed $responseHeaders = array(), mixed $responseBody = null)
 Constructor
 
 **Details:**
-* Inherited From: [\YooKassa\Common\Exceptions\UnauthorizedException](../classes/YooKassa-Common-Exceptions-UnauthorizedException.md)
+* Inherited From: [\Testottest\Common\Exceptions\UnauthorizedException](../classes/YooKassa-Common-Exceptions-UnauthorizedException.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -121,7 +121,7 @@ public getResponseBody() : mixed
 ```
 
 **Details:**
-* Inherited From: [\YooKassa\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
+* Inherited From: [\Testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
 
 **Returns:** mixed - 
 
@@ -134,7 +134,7 @@ public getResponseHeaders() : string[]
 ```
 
 **Details:**
-* Inherited From: [\YooKassa\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
+* Inherited From: [\Testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
 
 **Returns:** string[] - 
 

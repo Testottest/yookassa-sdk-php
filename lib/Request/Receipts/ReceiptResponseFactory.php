@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Receipts;
+namespace Testottest\Request\Receipts;
 
 
-use temirovgroup\Model\ReceiptType;
+use Testottest\Model\ReceiptType;
 
 /**
  * Фабричный класс для работы с чеками

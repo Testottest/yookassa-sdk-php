@@ -1,9 +1,9 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\NotificationEventType;
-use temirovgroup\Model\Webhook\Webhook;
+use Testottest\Helpers\Random;
+use Testottest\Model\NotificationEventType;
+use Testottest\Model\Webhook\Webhook;
 
 class WebhookTest extends TestCase
 {

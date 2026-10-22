@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\PaymentMethod;
+namespace Testottest\Model\PaymentMethod;
 
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Model\PaymentData\B2b\Sberbank\VatData;
-use temirovgroup\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails;
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Model\PaymentData\B2b\Sberbank\VatData;
+use Testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * Класс, описывающий метод оплаты, при оплате через Сбербанк Бизнес Онлайн

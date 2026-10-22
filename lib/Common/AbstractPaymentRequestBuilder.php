@@ -24,21 +24,21 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Common;
+namespace Testottest\Common;
 
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\Deal\PaymentDealInfo;
-use temirovgroup\Model\MonetaryAmount;
-use temirovgroup\Model\Receipt;
-use temirovgroup\Model\Receipt\ReceiptItemAmount;
-use temirovgroup\Model\ReceiptCustomer;
-use temirovgroup\Model\ReceiptInterface;
-use temirovgroup\Model\ReceiptItem;
-use temirovgroup\Model\ReceiptItemInterface;
-use temirovgroup\Model\Transfer;
-use temirovgroup\Model\TransferInterface;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\Deal\PaymentDealInfo;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Receipt;
+use Testottest\Model\Receipt\ReceiptItemAmount;
+use Testottest\Model\ReceiptCustomer;
+use Testottest\Model\ReceiptInterface;
+use Testottest\Model\ReceiptItem;
+use Testottest\Model\ReceiptItemInterface;
+use Testottest\Model\Transfer;
+use Testottest\Model\TransferInterface;
 
 /**
  * Базовый класс объекта платежного запроса, передаваемого в методы клиента API
@@ -74,7 +74,7 @@ abstract class AbstractPaymentRequestBuilder extends AbstractRequestBuilder
     {
         $this->amount    = new MonetaryAmount();
         $this->receipt   = new Receipt();
-        $this->transfers = array();
+        $this->transfers = [];
 
         return $this;
     }
@@ -120,7 +120,7 @@ abstract class AbstractPaymentRequestBuilder extends AbstractRequestBuilder
     public function setTransfers($value)
     {
         if (is_array($value)) {
-            $this->transfers = array();
+            $this->transfers = [];
             foreach ($value as $item) {
                 if ($item instanceof TransferInterface) {
                     $this->transfers[] = $item;
@@ -129,7 +129,7 @@ abstract class AbstractPaymentRequestBuilder extends AbstractRequestBuilder
                 }
             }
         } else {
-            $this->transfers = array();
+            $this->transfers = [];
         }
 
         return $this;
@@ -237,10 +237,10 @@ abstract class AbstractPaymentRequestBuilder extends AbstractRequestBuilder
      * @param int $vatCode Ставка НДС
      *
      * @param null|string $paymentSubject значение перечисления PaymentSubject
-     * @see \YooKassa\Model\Receipt\PaymentSubject::class
+     * @see \Testottest\Model\Receipt\PaymentSubject::class
      *
      * @param null|string $paymentMode значение перечисления PaymentMode
-     * @see \YooKassa\Model\Receipt\PaymentMode::class
+     * @see \Testottest\Model\Receipt\PaymentMode::class
      *
      * @return self Инстанс билдера запросов
      */
@@ -270,10 +270,10 @@ abstract class AbstractPaymentRequestBuilder extends AbstractRequestBuilder
      * @param int $vatCode Ставка НДС
      *
      * @param null|string $paymentSubject значение перечисления PaymentSubject
-     * @see \YooKassa\Model\Receipt\PaymentSubject::class
+     * @see \Testottest\Model\Receipt\PaymentSubject::class
      *
      * @param null|string $paymentMode значение перечисления PaymentMode
-     * @see \YooKassa\Model\Receipt\PaymentMode::class
+     * @see \Testottest\Model\Receipt\PaymentMode::class
      *
      * @return self Инстанс билдера запросов
      */

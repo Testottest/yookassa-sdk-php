@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\YooKassa\Model\Notification;
+namespace Tests\Testottest\Model\Notification;
 
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\CurrencyCode;
-use temirovgroup\Model\Deal\DealStatus;
-use temirovgroup\Model\Deal\DealType;
-use temirovgroup\Model\Deal\FeeMoment;
-use temirovgroup\Model\Notification\NotificationDealClosed;
-use temirovgroup\Model\NotificationEventType;
-use temirovgroup\Model\NotificationType;
-use temirovgroup\Model\DealInterface;
+use Testottest\Helpers\Random;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\Deal\DealStatus;
+use Testottest\Model\Deal\DealType;
+use Testottest\Model\Deal\FeeMoment;
+use Testottest\Model\Notification\NotificationDealClosed;
+use Testottest\Model\NotificationEventType;
+use Testottest\Model\NotificationType;
+use Testottest\Model\DealInterface;
 
 class NotificationDealClosedTest extends AbstractNotificationTest
 {
@@ -57,7 +57,7 @@ class NotificationDealClosedTest extends AbstractNotificationTest
      */
     public function validDataProvider()
     {
-        $result = array();
+        $result = [];
         $statuses = DealStatus::getValidValues();
         $types = DealType::getValidValues();
 

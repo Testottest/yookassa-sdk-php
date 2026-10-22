@@ -24,15 +24,15 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Deals;
+namespace Testottest\Request\Deals;
 
 use Exception;
-use temirovgroup\Common\AbstractRequest;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\Deal\DealStatus;
-use temirovgroup\Model\SafeDeal;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\Deal\DealStatus;
+use Testottest\Model\SafeDeal;
 
 /**
  * Класс объекта запроса к API для получения списка сделок магазина

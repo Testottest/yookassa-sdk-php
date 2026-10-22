@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: CancellationDetailsInterface
-### Namespace: [\YooKassa\Model](../namespaces/yookassa-model.md)
+### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -44,7 +44,7 @@ public getParty() : string
 Возвращает участника процесса платежа, который принял решение об отмене транзакции
 
 **Details:**
-* Inherited From: [\YooKassa\Model\CancellationDetailsInterface](../classes/YooKassa-Model-CancellationDetailsInterface.md)
+* Inherited From: [\Testottest\Model\CancellationDetailsInterface](../classes/YooKassa-Model-CancellationDetailsInterface.md)
 
 **Returns:** string - Участник процесса платежа
 
@@ -61,7 +61,7 @@ public getReason() : string
 Возвращает причину отмены платежа
 
 **Details:**
-* Inherited From: [\YooKassa\Model\CancellationDetailsInterface](../classes/YooKassa-Model-CancellationDetailsInterface.md)
+* Inherited From: [\Testottest\Model\CancellationDetailsInterface](../classes/YooKassa-Model-CancellationDetailsInterface.md)
 
 **Returns:** string - Причина отмены платежа
 

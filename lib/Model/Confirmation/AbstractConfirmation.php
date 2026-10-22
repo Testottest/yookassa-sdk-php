@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\Confirmation;
+namespace Testottest\Model\Confirmation;
 
-use temirovgroup\Common\AbstractObject;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\ConfirmationType;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\ConfirmationType;
 
 /**
  * Способ подтверждения платежа.

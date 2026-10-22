@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payouts\PayoutDestinationData;
+namespace Tests\Testottest\Request\Payouts\PayoutDestinationData;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\Payout\PayoutDestinationType;
-use temirovgroup\Model\PaymentMethodType;
-use temirovgroup\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData;
-use temirovgroup\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCardCard;
-use temirovgroup\Request\Payouts\PayoutDestinationData\PayoutDestinationDataFactory;
+use Testottest\Helpers\Random;
+use Testottest\Model\Payout\PayoutDestinationType;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData;
+use Testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCardCard;
+use Testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataFactory;
 
 class PayoutDestinationDataFactoryTest extends TestCase
 {
@@ -81,7 +81,7 @@ class PayoutDestinationDataFactoryTest extends TestCase
 
     public function validTypeDataProvider()
     {
-        $result = array();
+        $result = [];
         foreach (PayoutDestinationType::getEnabledValues() as $value) {
             $result[] = array($value);
         }

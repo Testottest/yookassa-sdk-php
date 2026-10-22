@@ -1,18 +1,18 @@
 <?php
 
-namespace Tests\YooKassa\Request\Refunds;
+namespace Tests\Testottest\Request\Refunds;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\CurrencyCode;
-use temirovgroup\Model\MonetaryAmount;
-use temirovgroup\Model\Receipt\PaymentMode;
-use temirovgroup\Model\Receipt\PaymentSubject;
-use temirovgroup\Model\Source;
-use temirovgroup\Model\Deal\RefundDealData;
-use temirovgroup\Model\Deal\SettlementPayoutPaymentType;
-use temirovgroup\Request\Refunds\CreateRefundRequest;
-use temirovgroup\Request\Refunds\CreateRefundRequestSerializer;
+use Testottest\Helpers\Random;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Receipt\PaymentMode;
+use Testottest\Model\Receipt\PaymentSubject;
+use Testottest\Model\Source;
+use Testottest\Model\Deal\RefundDealData;
+use Testottest\Model\Deal\SettlementPayoutPaymentType;
+use Testottest\Request\Refunds\CreateRefundRequest;
+use Testottest\Request\Refunds\CreateRefundRequestSerializer;
 
 class CreateRefundRequestSerializerTest extends TestCase
 {
@@ -186,7 +186,7 @@ class CreateRefundRequestSerializerTest extends TestCase
 
     private function getReceipt($count)
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < $count; $i++) {
             $result[] = array(
                 'title' => Random::str(10),

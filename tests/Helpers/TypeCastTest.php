@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\YooKassa\Helpers;
+namespace Tests\Testottest\Helpers;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\StringObject;
-use temirovgroup\Helpers\TypeCast;
+use Testottest\Helpers\StringObject;
+use Testottest\Helpers\TypeCast;
 
 class TypeCastTest extends TestCase
 {
@@ -137,7 +137,7 @@ class TypeCastTest extends TestCase
 
     public function castToDateTimeDataProvider()
     {
-        $result = array();
+        $result = [];
 
         $time = time();
         $result[] = array($time, $time, true);

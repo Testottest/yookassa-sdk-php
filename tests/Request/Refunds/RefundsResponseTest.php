@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\YooKassa\Request\Refunds;
+namespace Tests\Testottest\Request\Refunds;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\CurrencyCode;
-use temirovgroup\Model\ReceiptRegistrationStatus;
-use temirovgroup\Model\RefundInterface;
-use temirovgroup\Model\RefundStatus;
-use temirovgroup\Request\Refunds\RefundsResponse;
+use Testottest\Helpers\Random;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\ReceiptRegistrationStatus;
+use Testottest\Model\RefundInterface;
+use Testottest\Model\RefundStatus;
+use Testottest\Request\Refunds\RefundsResponse;
 
 class RefundsResponseTest extends TestCase
 {

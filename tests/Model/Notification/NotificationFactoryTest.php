@@ -1,30 +1,30 @@
 <?php
 
-namespace Tests\YooKassa\Model\Notification;
+namespace Tests\Testottest\Model\Notification;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\ConfirmationType;
-use temirovgroup\Model\CurrencyCode;
-use temirovgroup\Model\Deal\DealStatus;
-use temirovgroup\Model\Deal\DealType;
-use temirovgroup\Model\Deal\FeeMoment;
-use temirovgroup\Model\Notification\AbstractNotification;
-use temirovgroup\Model\Notification\NotificationFactory;
-use temirovgroup\Model\NotificationEventType;
-use temirovgroup\Model\NotificationType;
-use temirovgroup\Model\PaymentMethodType;
-use temirovgroup\Model\PaymentStatus;
-use temirovgroup\Model\Payout;
-use temirovgroup\Model\Payout\PayoutCancellationDetailsPartyCode;
-use temirovgroup\Model\Payout\PayoutCancellationDetailsReasonCode;
-use temirovgroup\Model\PayoutStatus;
-use temirovgroup\Model\ReceiptRegistrationStatus;
-use temirovgroup\Model\RefundStatus;
-use temirovgroup\Request\Deals\DealResponse;
-use temirovgroup\Request\Payments\PaymentResponse;
-use temirovgroup\Request\Payouts\PayoutResponse;
-use temirovgroup\Request\Refunds\RefundResponse;
+use Testottest\Helpers\Random;
+use Testottest\Model\ConfirmationType;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\Deal\DealStatus;
+use Testottest\Model\Deal\DealType;
+use Testottest\Model\Deal\FeeMoment;
+use Testottest\Model\Notification\AbstractNotification;
+use Testottest\Model\Notification\NotificationFactory;
+use Testottest\Model\NotificationEventType;
+use Testottest\Model\NotificationType;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\PaymentStatus;
+use Testottest\Model\Payout;
+use Testottest\Model\Payout\PayoutCancellationDetailsPartyCode;
+use Testottest\Model\Payout\PayoutCancellationDetailsReasonCode;
+use Testottest\Model\PayoutStatus;
+use Testottest\Model\ReceiptRegistrationStatus;
+use Testottest\Model\RefundStatus;
+use Testottest\Request\Deals\DealResponse;
+use Testottest\Request\Payments\PaymentResponse;
+use Testottest\Request\Payouts\PayoutResponse;
+use Testottest\Request\Refunds\RefundResponse;
 
 class NotificationFactoryTest extends TestCase
 {
@@ -75,7 +75,7 @@ class NotificationFactoryTest extends TestCase
      */
     public function validArrayDataProvider()
     {
-        $result = array();
+        $result = [];
 
         for ($i = 0; $i < 12; $i++) {
             $eventType = Random::value(NotificationEventType::getEnabledValues());

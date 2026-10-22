@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model;
+namespace Testottest\Model;
 
-use temirovgroup\Common\AbstractEnum;
+use Testottest\Common\AbstractEnum;
 
 /**
  * Locale - Язык интерфейса, писем и смс, которые будет видеть или получать пользователь

@@ -23,10 +23,10 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\PaymentMethod;
+namespace Testottest\Model\PaymentMethod;
 
 
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * Класс, описывающий метод оплаты, при оплате через сервис быстрых платежей

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: VatDataInterface
-### Namespace: [\YooKassa\Model\PaymentData\B2b\Sberbank](../namespaces/yookassa-model-paymentdata-b2b-sberbank.md)
+### Namespace: [\Testottest\Model\PaymentData\B2b\Sberbank](../namespaces/yookassa-model-paymentdata-b2b-sberbank.md)
 ---
 **Summary:**
 
@@ -46,7 +46,7 @@ public getType() : string
 Возвращает способ расчёта НДС
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\B2b\Sberbank\VatDataInterface](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatDataInterface.md)
+* Inherited From: [\Testottest\Model\PaymentData\B2b\Sberbank\VatDataInterface](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatDataInterface.md)
 
 **Returns:** string - Способ расчёта НДС
 
@@ -63,16 +63,16 @@ public getRate() : string
 Возвращает данные об НДС
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\B2b\Sberbank\VatDataInterface](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatDataInterface.md)
+* Inherited From: [\Testottest\Model\PaymentData\B2b\Sberbank\VatDataInterface](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatDataInterface.md)
 
 **Returns:** string - Данные об НДС
 
 
 <a name="method_getAmount" class="anchor"></a>
-#### public getAmount() : \YooKassa\Model\AmountInterface
+#### public getAmount() : \Testottest\Model\AmountInterface
 
 ```php
-public getAmount() : \YooKassa\Model\AmountInterface
+public getAmount() : \Testottest\Model\AmountInterface
 ```
 
 **Summary**
@@ -80,9 +80,9 @@ public getAmount() : \YooKassa\Model\AmountInterface
 Возвращает сумму НДС
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\B2b\Sberbank\VatDataInterface](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatDataInterface.md)
+* Inherited From: [\Testottest\Model\PaymentData\B2b\Sberbank\VatDataInterface](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatDataInterface.md)
 
-**Returns:** \YooKassa\Model\AmountInterface - Сумма НДС
+**Returns:** \Testottest\Model\AmountInterface - Сумма НДС
 
 
 

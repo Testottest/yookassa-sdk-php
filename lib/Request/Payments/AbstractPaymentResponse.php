@@ -24,27 +24,27 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Payments;
+namespace Testottest\Request\Payments;
 
 use InvalidArgumentException;
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\AuthorizationDetails;
-use temirovgroup\Model\CancellationDetails;
-use temirovgroup\Model\Confirmation\ConfirmationCodeVerification;
-use temirovgroup\Model\Confirmation\ConfirmationEmbedded;
-use temirovgroup\Model\Confirmation\ConfirmationMobileApplication;
-use temirovgroup\Model\Confirmation\ConfirmationQr;
-use temirovgroup\Model\Confirmation\ConfirmationRedirect;
-use temirovgroup\Model\Confirmation\ConfirmationExternal;
-use temirovgroup\Model\ConfirmationType;
-use temirovgroup\Model\Metadata;
-use temirovgroup\Model\MonetaryAmount;
-use temirovgroup\Model\Payment;
-use temirovgroup\Model\PaymentInterface;
-use temirovgroup\Model\PaymentMethod\AbstractPaymentMethod;
-use temirovgroup\Model\PaymentMethod\PaymentMethodFactory;
-use temirovgroup\Model\Recipient;
-use temirovgroup\Model\Transfer;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\AuthorizationDetails;
+use Testottest\Model\CancellationDetails;
+use Testottest\Model\Confirmation\ConfirmationCodeVerification;
+use Testottest\Model\Confirmation\ConfirmationEmbedded;
+use Testottest\Model\Confirmation\ConfirmationMobileApplication;
+use Testottest\Model\Confirmation\ConfirmationQr;
+use Testottest\Model\Confirmation\ConfirmationRedirect;
+use Testottest\Model\Confirmation\ConfirmationExternal;
+use Testottest\Model\ConfirmationType;
+use Testottest\Model\Metadata;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Payment;
+use Testottest\Model\PaymentInterface;
+use Testottest\Model\PaymentMethod\AbstractPaymentMethod;
+use Testottest\Model\PaymentMethod\PaymentMethodFactory;
+use Testottest\Model\Recipient;
+use Testottest\Model\Transfer;
 
 /**
  * Абстрактный класс ответа от API, возвращающего информацию о платеже
@@ -178,7 +178,7 @@ abstract class AbstractPaymentResponse extends Payment implements PaymentInterfa
             $this->setAuthorizationDetails(new AuthorizationDetails($sourceArray['authorization_details']));
         }
         if (!empty($sourceArray['transfers'])) {
-            $transfers = array();
+            $transfers = [];
             foreach ($sourceArray['transfers'] as $transferDefinition) {
                 $transfers[] = new Transfer($transferDefinition);
             }

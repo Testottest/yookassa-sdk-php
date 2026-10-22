@@ -24,15 +24,15 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model;
+namespace Testottest\Model;
 
-use temirovgroup\Common\AbstractObject;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\Deal\PaymentDealInfo;
-use temirovgroup\Model\PaymentMethod\AbstractPaymentMethod;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\Deal\PaymentDealInfo;
+use Testottest\Model\PaymentMethod\AbstractPaymentMethod;
 
 /**
  * Payment - Данные о платеже
@@ -174,7 +174,7 @@ class Payment extends AbstractObject implements PaymentInterface
     /**
      * @var TransferInterface[]
      */
-    private $_transfers = array();
+    private $_transfers = [];
 
     /**
      * @var MonetaryAmount

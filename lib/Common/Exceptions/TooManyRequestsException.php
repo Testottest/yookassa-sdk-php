@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Common\Exceptions;
+namespace Testottest\Common\Exceptions;
 
 /**
  * Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов.
@@ -39,7 +39,7 @@ class TooManyRequestsException extends ApiException
 
     public $retryAfter;
 
-    public function __construct($responseHeaders = array(), $responseBody = null)
+    public function __construct($responseHeaders = [], $responseBody = null)
     {
         $errorData = json_decode($responseBody, true);
         $message   = '';

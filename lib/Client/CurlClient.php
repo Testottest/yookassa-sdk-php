@@ -24,15 +24,15 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Client;
+namespace Testottest\Client;
 
 use Psr\Log\LoggerInterface;
-use temirovgroup\Common\Exceptions\ApiConnectionException;
-use temirovgroup\Common\Exceptions\ApiException;
-use temirovgroup\Common\Exceptions\AuthorizeException;
-use temirovgroup\Common\Exceptions\ExtensionNotFoundException;
-use temirovgroup\Common\ResponseObject;
-use temirovgroup\Helpers\RawHeadersParser;
+use Testottest\Common\Exceptions\ApiConnectionException;
+use Testottest\Common\Exceptions\ApiException;
+use Testottest\Common\Exceptions\AuthorizeException;
+use Testottest\Common\Exceptions\ExtensionNotFoundException;
+use Testottest\Common\ResponseObject;
+use Testottest\Helpers\RawHeadersParser;
 
 /**
  * Класс клиента Curl запросов
@@ -111,7 +111,7 @@ class CurlClient implements ApiClientInterface
      * @throws AuthorizeException
      * @throws ExtensionNotFoundException
      */
-    public function call($path, $method, $queryParams, $httpBody = null, $headers = array())
+    public function call($path, $method, $queryParams, $httpBody = null, $headers = [])
     {
         $headers = $this->prepareHeaders($headers);
 
@@ -444,7 +444,7 @@ class CurlClient implements ApiClientInterface
     {
         if ($this->logger !== null) {
             $message = 'Send request: ' . $method . ' ' . $path;
-            $context = array();
+            $context = [];
             if (!empty($queryParams)) {
                 $context['_params'] = $queryParams;
             }
@@ -488,7 +488,7 @@ class CurlClient implements ApiClientInterface
     {
         if ($this->logger !== null) {
             $message = 'Response with code ' . $responseInfo['http_code'] . ' received.';
-            $context = array();
+            $context = [];
             if (!empty($httpBody)) {
                 $data = json_decode($httpBody, true);
                 if (JSON_ERROR_NONE !== json_last_error()) {

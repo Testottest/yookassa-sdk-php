@@ -1,18 +1,18 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payments;
+namespace Tests\Testottest\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\CancellationDetailsPartyCode;
-use temirovgroup\Model\CancellationDetailsReasonCode;
-use temirovgroup\Model\ConfirmationType;
-use temirovgroup\Model\CurrencyCode;
-use temirovgroup\Model\PaymentInterface;
-use temirovgroup\Model\PaymentMethodType;
-use temirovgroup\Model\PaymentStatus;
-use temirovgroup\Model\ReceiptRegistrationStatus;
-use temirovgroup\Request\Payments\PaymentsResponse;
+use Testottest\Helpers\Random;
+use Testottest\Model\CancellationDetailsPartyCode;
+use Testottest\Model\CancellationDetailsReasonCode;
+use Testottest\Model\ConfirmationType;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\PaymentInterface;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\PaymentStatus;
+use Testottest\Model\ReceiptRegistrationStatus;
+use Testottest\Request\Payments\PaymentsResponse;
 
 class PaymentsResponseTest extends TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Common;
+namespace Tests\Testottest\Common;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Common\AbstractObject;
+use Testottest\Common\AbstractObject;
 
 class AbstractObjectTest extends TestCase
 {
@@ -121,7 +121,7 @@ class AbstractObjectTest extends TestCase
         $instance = $this->getTestInstance();
 
         $data = $instance->jsonSerialize();
-        $expected = array();
+        $expected = [];
         self::assertEquals($expected, $data);
 
         $instance->setProperty('propertyValue');

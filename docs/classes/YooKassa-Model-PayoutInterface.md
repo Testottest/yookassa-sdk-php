@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: PayoutInterface
-### Namespace: [\YooKassa\Model](../namespaces/yookassa-model.md)
+### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -63,16 +63,16 @@ public getId() : string
 Возвращает Id сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
+* Inherited From: [\Testottest\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
 
 **Returns:** string - Id сделки
 
 
 <a name="method_getAmount" class="anchor"></a>
-#### public getAmount() : \YooKassa\Model\MonetaryAmount
+#### public getAmount() : \Testottest\Model\MonetaryAmount
 
 ```php
-public getAmount() : \YooKassa\Model\MonetaryAmount
+public getAmount() : \Testottest\Model\MonetaryAmount
 ```
 
 **Summary**
@@ -80,9 +80,9 @@ public getAmount() : \YooKassa\Model\MonetaryAmount
 Возвращает баланс сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
+* Inherited From: [\Testottest\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
 
-**Returns:** \YooKassa\Model\MonetaryAmount - Баланс сделки
+**Returns:** \Testottest\Model\MonetaryAmount - Баланс сделки
 
 
 <a name="method_getStatus" class="anchor"></a>
@@ -97,7 +97,7 @@ public getStatus() : string
 Возвращает статус сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
+* Inherited From: [\Testottest\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
 
 **Returns:** string - Статус сделки
 
@@ -114,7 +114,7 @@ public getPayoutDestination() : string
 Возвращает платежное средство продавца, на которое ЮKassa переводит оплату
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
+* Inherited From: [\Testottest\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
 
 **Returns:** string - Платежное средство продавца, на которое ЮKassa переводит оплату
 
@@ -131,7 +131,7 @@ public getDescription() : string
 Возвращает описание транзакции (не более 128 символов)
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
+* Inherited From: [\Testottest\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
 
 **Returns:** string - Описание транзакции
 
@@ -148,16 +148,16 @@ public getCreatedAt() : \DateTime
 Возвращает время создания сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
+* Inherited From: [\Testottest\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
 
 **Returns:** \DateTime - Время создания сделки
 
 
 <a name="method_getDeal" class="anchor"></a>
-#### public getDeal() : \YooKassa\Model\Deal\PayoutDealInfo
+#### public getDeal() : \Testottest\Model\Deal\PayoutDealInfo
 
 ```php
-public getDeal() : \YooKassa\Model\Deal\PayoutDealInfo
+public getDeal() : \Testottest\Model\Deal\PayoutDealInfo
 ```
 
 **Summary**
@@ -165,16 +165,16 @@ public getDeal() : \YooKassa\Model\Deal\PayoutDealInfo
 Возвращает сделку, в рамках которой нужно провести выплату.
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
+* Inherited From: [\Testottest\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
 
-**Returns:** \YooKassa\Model\Deal\PayoutDealInfo - Сделка, в рамках которой нужно провести выплату
+**Returns:** \Testottest\Model\Deal\PayoutDealInfo - Сделка, в рамках которой нужно провести выплату
 
 
 <a name="method_getCancellationDetails" class="anchor"></a>
-#### public getCancellationDetails() : \YooKassa\Model\Payout\PayoutCancellationDetails
+#### public getCancellationDetails() : \Testottest\Model\Payout\PayoutCancellationDetails
 
 ```php
-public getCancellationDetails() : \YooKassa\Model\Payout\PayoutCancellationDetails
+public getCancellationDetails() : \Testottest\Model\Payout\PayoutCancellationDetails
 ```
 
 **Summary**
@@ -182,16 +182,16 @@ public getCancellationDetails() : \YooKassa\Model\Payout\PayoutCancellationDetai
 Возвращает комментарий к статусу canceled: кто отменил выплату и по какой причине.
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
+* Inherited From: [\Testottest\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
 
-**Returns:** \YooKassa\Model\Payout\PayoutCancellationDetails - Комментарий к статусу canceled: кто отменил выплату и по какой причине
+**Returns:** \Testottest\Model\Payout\PayoutCancellationDetails - Комментарий к статусу canceled: кто отменил выплату и по какой причине
 
 
 <a name="method_getMetadata" class="anchor"></a>
-#### public getMetadata() : \YooKassa\Model\Metadata
+#### public getMetadata() : \Testottest\Model\Metadata
 
 ```php
-public getMetadata() : \YooKassa\Model\Metadata
+public getMetadata() : \Testottest\Model\Metadata
 ```
 
 **Summary**
@@ -199,9 +199,9 @@ public getMetadata() : \YooKassa\Model\Metadata
 Возвращает дополнительные данные сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
+* Inherited From: [\Testottest\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
 
-**Returns:** \YooKassa\Model\Metadata - Дополнительные данные сделки
+**Returns:** \Testottest\Model\Metadata - Дополнительные данные сделки
 
 
 <a name="method_getTest" class="anchor"></a>
@@ -216,7 +216,7 @@ public getTest() : bool
 Возвращает признак тестовой операции
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
+* Inherited From: [\Testottest\Model\PayoutInterface](../classes/YooKassa-Model-PayoutInterface.md)
 
 **Returns:** bool - Признак тестовой операции
 

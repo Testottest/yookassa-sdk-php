@@ -24,21 +24,21 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Receipts;
+namespace Testottest\Request\Receipts;
 
 
-use temirovgroup\Common\AbstractRequest;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\ReceiptCustomer;
-use temirovgroup\Model\ReceiptCustomerInterface;
-use temirovgroup\Model\ReceiptItem;
-use temirovgroup\Model\ReceiptItemInterface;
-use temirovgroup\Model\ReceiptType;
-use temirovgroup\Model\Settlement;
-use temirovgroup\Model\SettlementInterface;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\ReceiptCustomer;
+use Testottest\Model\ReceiptCustomerInterface;
+use Testottest\Model\ReceiptItem;
+use Testottest\Model\ReceiptItemInterface;
+use Testottest\Model\ReceiptType;
+use Testottest\Model\Settlement;
+use Testottest\Model\SettlementInterface;
 
 /**
  * Класс объекта запроса к API на создание чека
@@ -62,10 +62,10 @@ class CreatePostReceiptRequest extends AbstractRequest implements CreatePostRece
     private $_taxSystemCode;
 
     /** @var ReceiptItemInterface[] Список товаров в заказе */
-    private $_items = array();
+    private $_items = [];
 
     /** @var SettlementInterface[] Список платежей */
-    private $_settlements = array();
+    private $_settlements = [];
 
     /** @var string Идентификатор объекта оплаты */
     private $_object_id;
@@ -197,7 +197,7 @@ class CreatePostReceiptRequest extends AbstractRequest implements CreatePostRece
                 'Invalid items value type in receipt', 0, 'Receipt.items', $value
             );
         }
-        $this->_items = array();
+        $this->_items = [];
         foreach ($value as $key => $item) {
             if (is_array($item)) {
                 $this->addItem(new ReceiptItem($item));
@@ -345,7 +345,7 @@ class CreatePostReceiptRequest extends AbstractRequest implements CreatePostRece
                 'Invalid settlements value type in receipt', 0, 'Receipt.settlements', $value
             );
         }
-        $this->_settlements = array();
+        $this->_settlements = [];
         foreach ($value as $key => $val) {
             if (is_array($val) && !empty($val['type']) && !empty($val['amount'])) {
                 $this->addSettlement(new Settlement($val));

@@ -22,10 +22,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-namespace temirovgroup\Model\PaymentMethod;
+namespace Testottest\Model\PaymentMethod;
 
 
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * Класс, описывающий метод оплаты, при оплате через Tinkoff

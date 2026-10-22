@@ -24,17 +24,17 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\Deal;
+namespace Testottest\Model\Deal;
 
 
-use temirovgroup\Common\AbstractObject;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\MonetaryAmount;
-use temirovgroup\Model\SettlementInterface;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\SettlementInterface;
 
 /**
  * Class SettlementPayoutPayment

@@ -1,17 +1,17 @@
 <?php
 
-namespace Tests\YooKassa\Model\PaymentMethod;
+namespace Tests\Testottest\Model\PaymentMethod;
 
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\CurrencyCode;
-use temirovgroup\Model\MonetaryAmount;
-use temirovgroup\Model\PaymentData\B2b\Sberbank\VatData;
-use temirovgroup\Model\PaymentData\B2b\Sberbank\VatDataRate;
-use temirovgroup\Model\PaymentData\B2b\Sberbank\VatDataType;
-use temirovgroup\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails;
-use temirovgroup\Model\PaymentMethod\PaymentMethodB2bSberbank;
+use Testottest\Helpers\Random;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\PaymentData\B2b\Sberbank\VatData;
+use Testottest\Model\PaymentData\B2b\Sberbank\VatDataRate;
+use Testottest\Model\PaymentData\B2b\Sberbank\VatDataType;
+use Testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails;
+use Testottest\Model\PaymentMethod\PaymentMethodB2bSberbank;
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Model\PaymentMethodType;
 
 class PaymentMethodB2bSberbankTest extends TestCase
 {

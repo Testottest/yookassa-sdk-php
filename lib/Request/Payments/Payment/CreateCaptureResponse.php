@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Payments\Payment;
+namespace Testottest\Request\Payments\Payment;
 
-use temirovgroup\Request\Payments\AbstractPaymentResponse;
+use Testottest\Request\Payments\AbstractPaymentResponse;
 
 /**
  * Класс объекта ответа от API на запрос подтверждения платежа

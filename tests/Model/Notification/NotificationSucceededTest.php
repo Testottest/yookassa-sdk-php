@@ -1,17 +1,17 @@
 <?php
 
-namespace Tests\YooKassa\Model\Notification;
+namespace Tests\Testottest\Model\Notification;
 
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\ConfirmationType;
-use temirovgroup\Model\CurrencyCode;
-use temirovgroup\Model\Notification\NotificationSucceeded;
-use temirovgroup\Model\NotificationEventType;
-use temirovgroup\Model\NotificationType;
-use temirovgroup\Model\PaymentInterface;
-use temirovgroup\Model\PaymentMethodType;
-use temirovgroup\Model\PaymentStatus;
-use temirovgroup\Model\ReceiptRegistrationStatus;
+use Testottest\Helpers\Random;
+use Testottest\Model\ConfirmationType;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\Notification\NotificationSucceeded;
+use Testottest\Model\NotificationEventType;
+use Testottest\Model\NotificationType;
+use Testottest\Model\PaymentInterface;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\PaymentStatus;
+use Testottest\Model\ReceiptRegistrationStatus;
 
 class NotificationSucceededTest extends AbstractNotificationTest
 {
@@ -57,7 +57,7 @@ class NotificationSucceededTest extends AbstractNotificationTest
      */
     public function validDataProvider()
     {
-        $result = array();
+        $result = [];
         $statuses = PaymentStatus::getValidValues();
         $receiptRegistrations = ReceiptRegistrationStatus::getValidValues();
 

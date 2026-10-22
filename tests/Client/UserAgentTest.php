@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\YooKassa\Client;
+namespace Tests\Testottest\Client;
 
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 use ReflectionException;
-use temirovgroup\Client\UserAgent;
+use Testottest\Client\UserAgent;
 
 
 class UserAgentTest extends TestCase
@@ -16,7 +16,7 @@ class UserAgentTest extends TestCase
     public function testHeaderString()
     {
         $agent = new UserAgent();
-        $reflector = new ReflectionClass('\YooKassa\Client\UserAgent');
+        $reflector = new ReflectionClass('\Testottest\Client\UserAgent');
         $method    = $reflector->getMethod('setOs');
         $method->setAccessible(true);
         $method->invokeArgs($agent, array('name' => 'CentOS', 'version' => '6.7'));
@@ -37,7 +37,7 @@ class UserAgentTest extends TestCase
     public function testSetGetOs()
     {
         $agent = new UserAgent();
-        $reflector = new ReflectionClass('\YooKassa\Client\UserAgent');
+        $reflector = new ReflectionClass('\Testottest\Client\UserAgent');
         $method    = $reflector->getMethod('setOs');
         $method->setAccessible(true);
         $method->invokeArgs($agent, array('name' => 'CentOS', 'version' => '6.7'));
@@ -50,7 +50,7 @@ class UserAgentTest extends TestCase
     public function testSetGetPhp()
     {
         $agent = new UserAgent();
-        $reflector = new ReflectionClass('\YooKassa\Client\UserAgent');
+        $reflector = new ReflectionClass('\Testottest\Client\UserAgent');
         $method    = $reflector->getMethod('setPhp');
         $method->setAccessible(true);
         $method->invokeArgs($agent, array('name' => 'PHP', 'version' => '5.4.45'));
@@ -84,7 +84,7 @@ class UserAgentTest extends TestCase
     public function testSetGetSdk()
     {
         $agent     = new UserAgent();
-        $reflector = new ReflectionClass('\YooKassa\Client\UserAgent');
+        $reflector = new ReflectionClass('\Testottest\Client\UserAgent');
         $method    = $reflector->getMethod('setSdk');
         $method->setAccessible(true);
         $method->invokeArgs($agent, array('name' => 'YooKassa.PHP', 'version' => '1.4.1'));

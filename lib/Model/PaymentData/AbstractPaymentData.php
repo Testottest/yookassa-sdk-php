@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\PaymentData;
+namespace Testottest\Model\PaymentData;
 
-use temirovgroup\Common\AbstractObject;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * Данные используемые для создания метода оплаты.
@@ -59,22 +59,24 @@ abstract class AbstractPaymentData extends AbstractObject
      */
     protected function _setType($value)
     {
-        if ($value === null || $value === '') {
-            throw new EmptyPropertyValueException(
-                'Empty payment data type', 0, 'paymentData.type'
-            );
-        } elseif (TypeCast::canCastToEnumString($value)) {
-            if (PaymentMethodType::valueExists($value)) {
-                $this->_type = (string)$value;
-            } else {
-                throw new InvalidPropertyValueException(
-                    'Invalid value for "type" parameter in PaymentData', 0, 'paymentData.type', $value
-                );
-            }
-        } else {
-            throw new InvalidPropertyValueTypeException(
-                'Invalid value type for "type" parameter in PaymentData', 0, 'paymentData.type', $value
-            );
-        }
-    }
+		if ($value === null || $value === '') {
+			throw new EmptyPropertyValueException(
+				'Empty payment data type', 0, 'paymentData.type'
+			);
+		}
+
+		if (TypeCast::canCastToEnumString($value)) {
+			if (PaymentMethodType::valueExists($value)) {
+				$this->_type = (string)$value;
+			} else {
+				throw new InvalidPropertyValueException(
+					'Invalid value for "type" parameter in PaymentData', 0, 'paymentData.type', $value
+				);
+			}
+		} else {
+			throw new InvalidPropertyValueTypeException(
+				'Invalid value type for "type" parameter in PaymentData', 0, 'paymentData.type', $value
+			);
+		}
+	}
 }

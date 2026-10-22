@@ -24,27 +24,27 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Payments;
+namespace Testottest\Request\Payments;
 
-use temirovgroup\Common\AbstractPaymentRequest;
-use temirovgroup\Common\AbstractPaymentRequestBuilder;
-use temirovgroup\Common\AbstractRequest;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Common\Exceptions\InvalidRequestException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\Airline;
-use temirovgroup\Model\AirlineInterface;
-use temirovgroup\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use temirovgroup\Model\ConfirmationAttributes\ConfirmationAttributesFactory;
-use temirovgroup\Model\Deal\PaymentDealInfo;
-use temirovgroup\Model\Metadata;
-use temirovgroup\Model\Payment;
-use temirovgroup\Model\PaymentData\AbstractPaymentData;
-use temirovgroup\Model\PaymentData\PaymentDataFactory;
-use temirovgroup\Model\Recipient;
-use temirovgroup\Model\RecipientInterface;
+use Testottest\Common\AbstractPaymentRequest;
+use Testottest\Common\AbstractPaymentRequestBuilder;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Common\Exceptions\InvalidRequestException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\Airline;
+use Testottest\Model\AirlineInterface;
+use Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory;
+use Testottest\Model\Deal\PaymentDealInfo;
+use Testottest\Model\Metadata;
+use Testottest\Model\Payment;
+use Testottest\Model\PaymentData\AbstractPaymentData;
+use Testottest\Model\PaymentData\PaymentDataFactory;
+use Testottest\Model\Recipient;
+use Testottest\Model\RecipientInterface;
 
 /**
  * Класс билдера объектов запросов к API на создание платежа

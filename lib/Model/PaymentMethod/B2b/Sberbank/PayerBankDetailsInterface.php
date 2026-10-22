@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\PaymentMethod\B2b\Sberbank;
+namespace Testottest\Model\PaymentMethod\B2b\Sberbank;
 
 /**
  * Interface PayerBankDetailsInterface

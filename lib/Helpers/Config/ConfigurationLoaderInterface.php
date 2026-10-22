@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Helpers\Config;
+namespace Testottest\Helpers\Config;
 
 interface ConfigurationLoaderInterface
 {

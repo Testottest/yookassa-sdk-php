@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\YooKassa\Model\PaymentMethodTest;
+namespace Tests\Testottest\Model\PaymentMethodTest;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\PaymentMethod\AbstractPaymentMethod;
-use temirovgroup\Model\PaymentMethod\PaymentMethodFactory;
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Helpers\Random;
+use Testottest\Model\PaymentMethod\AbstractPaymentMethod;
+use Testottest\Model\PaymentMethod\PaymentMethodFactory;
+use Testottest\Model\PaymentMethodType;
 
 class PaymentMethodFactoryTest extends TestCase
 {
@@ -96,7 +96,7 @@ class PaymentMethodFactoryTest extends TestCase
 
     public function validTypeDataProvider()
     {
-        $result = array();
+        $result = [];
         foreach (PaymentMethodType::getValidValues() as $value) {
             $result[] = array($value);
         }

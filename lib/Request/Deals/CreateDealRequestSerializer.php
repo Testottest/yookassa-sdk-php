@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Deals;
+namespace Testottest\Request\Deals;
 
-use temirovgroup\Common\AbstractRequest;
+use Testottest\Common\AbstractRequest;
 
 /**
  * Класс сериалайзера объекта запроса к API на создание сделки
@@ -43,7 +43,7 @@ class CreateDealRequestSerializer
      */
     public function serialize(CreateDealRequestInterface $request)
     {
-        $result = array();
+        $result = [];
 
         if ($request->hasType()) {
             $result['type'] = $request->getType();

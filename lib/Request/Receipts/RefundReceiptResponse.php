@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Receipts;
+namespace Testottest\Request\Receipts;
 
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
 
 /**
  * Класс описывающий чек, привязанный к возврату

@@ -1,19 +1,19 @@
 <?php
 
-namespace Tests\YooKassa\Model;
+namespace Tests\Testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Helpers\StringObject;
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\CurrencyCode;
-use temirovgroup\Model\Receipt\AgentType;
-use temirovgroup\Model\Receipt\PaymentMode;
-use temirovgroup\Model\Receipt\PaymentSubject;
-use temirovgroup\Model\Receipt\ReceiptItemAmount;
-use temirovgroup\Model\ReceiptItem;
-use temirovgroup\Model\Supplier;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\Random;
+use Testottest\Helpers\StringObject;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\Receipt\AgentType;
+use Testottest\Model\Receipt\PaymentMode;
+use Testottest\Model\Receipt\PaymentSubject;
+use Testottest\Model\Receipt\ReceiptItemAmount;
+use Testottest\Model\ReceiptItem;
+use Testottest\Model\Supplier;
 
 class ReceiptItemTest extends TestCase
 {
@@ -233,7 +233,7 @@ class ReceiptItemTest extends TestCase
 
     public function validDataAgent()
     {
-        $values = array();
+        $values = [];
         for ($i = 0; $i < 5; $i++) {
             $values[] = array(Random::value(AgentType::getValidValues()));
         }

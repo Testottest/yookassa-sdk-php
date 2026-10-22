@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Payments\Payment;
+namespace Testottest\Request\Payments\Payment;
 
-use temirovgroup\Common\AbstractPaymentRequestBuilder;
-use temirovgroup\Common\AbstractRequest;
-use temirovgroup\Common\Exceptions\InvalidPropertyException;
-use temirovgroup\Common\Exceptions\InvalidRequestException;
+use Testottest\Common\AbstractPaymentRequestBuilder;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\Exceptions\InvalidPropertyException;
+use Testottest\Common\Exceptions\InvalidRequestException;
 
 class CreateCaptureRequestBuilder extends AbstractPaymentRequestBuilder
 {

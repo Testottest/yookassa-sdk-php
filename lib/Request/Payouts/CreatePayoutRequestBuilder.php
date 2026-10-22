@@ -24,18 +24,18 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Payouts;
+namespace Testottest\Request\Payouts;
 
-use temirovgroup\Common\AbstractPaymentRequestBuilder;
-use temirovgroup\Common\AbstractRequest;
-use temirovgroup\Common\AbstractRequestBuilder;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Common\Exceptions\InvalidRequestException;
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\Metadata;
-use temirovgroup\Model\Payout\AbstractPayoutDestination;
-use temirovgroup\Model\Deal\PayoutDealInfo;
+use Testottest\Common\AbstractPaymentRequestBuilder;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\AbstractRequestBuilder;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Common\Exceptions\InvalidRequestException;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\Metadata;
+use Testottest\Model\Payout\AbstractPayoutDestination;
+use Testottest\Model\Deal\PayoutDealInfo;
 
 /**
  * Класс билдера объектов запросов к API на создание платежа

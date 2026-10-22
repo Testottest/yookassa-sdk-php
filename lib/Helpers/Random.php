@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Helpers;
+namespace Testottest\Helpers;
 
 /**
  * Класс хэлпера для генерации случайных значений, используется в тестах

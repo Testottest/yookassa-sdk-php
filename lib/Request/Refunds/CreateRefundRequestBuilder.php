@@ -24,15 +24,15 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Refunds;
+namespace Testottest\Request\Refunds;
 
-use temirovgroup\Common\AbstractPaymentRequestBuilder;
-use temirovgroup\Common\AbstractRequest;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Model\Deal\RefundDealData;
-use temirovgroup\Model\SourceInterface;
+use Testottest\Common\AbstractPaymentRequestBuilder;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Model\Deal\RefundDealData;
+use Testottest\Model\SourceInterface;
 
 /**
  * Класс билдера запросов к API на создание возврата средств

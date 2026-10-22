@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\ConfirmationAttributes;
+namespace Testottest\Model\ConfirmationAttributes;
 
-use temirovgroup\Model\ConfirmationType;
+use Testottest\Model\ConfirmationType;
 
 /**
  * Class ConfirmationAttributesFactory

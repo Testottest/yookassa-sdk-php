@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Request\Deals\CreateDealRequestBuilder
-### Namespace: [\YooKassa\Request\Deals](../namespaces/yookassa-request-deals.md)
+# Class: \Testottest\Request\Deals\CreateDealRequestBuilder
+### Namespace: [\Testottest\Request\Deals](../namespaces/yookassa-request-deals.md)
 ---
 **Summary:**
 
@@ -36,8 +36,8 @@
 * File: [lib/Request/Deals/CreateDealRequestBuilder.php](../../lib/Request/Deals/CreateDealRequestBuilder.php)
 * Package: YooKassa
 * Class Hierarchy: 
-  * [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
-  * \YooKassa\Request\Deals\CreateDealRequestBuilder
+  * [\Testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+  * \Testottest\Request\Deals\CreateDealRequestBuilder
 
 ---
 ### Tags
@@ -48,13 +48,13 @@
 ---
 ## Properties
 <a name="property_currentObject"></a>
-#### protected $currentObject : \YooKassa\Request\Deals\CreateDealRequest
+#### protected $currentObject : \Testottest\Request\Deals\CreateDealRequest
 ---
 **Summary**
 
 Собираемый объект запроса
 
-**Type:** <a href="../classes/YooKassa-Request-Deals-CreateDealRequest.html"><abbr title="\YooKassa\Request\Deals\CreateDealRequest">CreateDealRequest</abbr></a>
+**Type:** <a href="../classes/YooKassa-Request-Deals-CreateDealRequest.html"><abbr title="\Testottest\Request\Deals\CreateDealRequest">CreateDealRequest</abbr></a>
 
 **Details:**
 
@@ -74,16 +74,16 @@ public __construct() : mixed
 Конструктор, инициализирует пустой запрос, который в будущем начнём собирать
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\Testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
 **Returns:** mixed - 
 
 
 <a name="method_build" class="anchor"></a>
-#### public build() : \YooKassa\Request\Deals\CreateDealRequest|\YooKassa\Common\AbstractRequest
+#### public build() : \Testottest\Request\Deals\CreateDealRequest|\Testottest\Common\AbstractRequest
 
 ```php
-public build(array|null $options = null) : \YooKassa\Request\Deals\CreateDealRequest|\YooKassa\Common\AbstractRequest
+public build(array|null $options = null) : \Testottest\Request\Deals\CreateDealRequest|\Testottest\Common\AbstractRequest
 ```
 
 **Summary**
@@ -91,21 +91,21 @@ public build(array|null $options = null) : \YooKassa\Request\Deals\CreateDealReq
 Строит запрос, валидирует его и возвращает, если все прошло нормально
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestBuilder](../classes/YooKassa-Request-Deals-CreateDealRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Deals\CreateDealRequestBuilder](../classes/YooKassa-Request-Deals-CreateDealRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">array OR null</code> | options  |  |
 
-**Returns:** \YooKassa\Request\Deals\CreateDealRequest|\YooKassa\Common\AbstractRequest - 
+**Returns:** \Testottest\Request\Deals\CreateDealRequest|\Testottest\Common\AbstractRequest - 
 
 
 <a name="method_setDescription" class="anchor"></a>
-#### public setDescription() : \YooKassa\Request\Deals\CreateDealRequestBuilder
+#### public setDescription() : \Testottest\Request\Deals\CreateDealRequestBuilder
 
 ```php
-public setDescription(string $value) : \YooKassa\Request\Deals\CreateDealRequestBuilder
+public setDescription(string $value) : \Testottest\Request\Deals\CreateDealRequestBuilder
 ```
 
 **Summary**
@@ -113,7 +113,7 @@ public setDescription(string $value) : \YooKassa\Request\Deals\CreateDealRequest
 Устанавливает описание транзакции
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestBuilder](../classes/YooKassa-Request-Deals-CreateDealRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Deals\CreateDealRequestBuilder](../classes/YooKassa-Request-Deals-CreateDealRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -123,17 +123,17 @@ public setDescription(string $value) : \YooKassa\Request\Deals\CreateDealRequest
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение превышает допустимую длину |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение превышает допустимую длину |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
 
-**Returns:** \YooKassa\Request\Deals\CreateDealRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Deals\CreateDealRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setFeeMoment" class="anchor"></a>
-#### public setFeeMoment() : \YooKassa\Request\Deals\CreateDealRequestBuilder
+#### public setFeeMoment() : \Testottest\Request\Deals\CreateDealRequestBuilder
 
 ```php
-public setFeeMoment(string $value) : \YooKassa\Request\Deals\CreateDealRequestBuilder
+public setFeeMoment(string $value) : \Testottest\Request\Deals\CreateDealRequestBuilder
 ```
 
 **Summary**
@@ -141,7 +141,7 @@ public setFeeMoment(string $value) : \YooKassa\Request\Deals\CreateDealRequestBu
 Устанавливает момент перечисления вам вознаграждения платформы
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestBuilder](../classes/YooKassa-Request-Deals-CreateDealRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Deals\CreateDealRequestBuilder](../classes/YooKassa-Request-Deals-CreateDealRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -151,17 +151,17 @@ public setFeeMoment(string $value) : \YooKassa\Request\Deals\CreateDealRequestBu
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если переданный аргумент не является строкой |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если переданный аргумент не из списка FeeMoment |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если переданный аргумент не является строкой |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если переданный аргумент не из списка FeeMoment |
 
-**Returns:** \YooKassa\Request\Deals\CreateDealRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Deals\CreateDealRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setMetadata" class="anchor"></a>
-#### public setMetadata() : \YooKassa\Request\Deals\CreateDealRequestBuilder
+#### public setMetadata() : \Testottest\Request\Deals\CreateDealRequestBuilder
 
 ```php
-public setMetadata(\YooKassa\Model\Metadata|array|null $value) : \YooKassa\Request\Deals\CreateDealRequestBuilder
+public setMetadata(\Testottest\Model\Metadata|array|null $value) : \Testottest\Request\Deals\CreateDealRequestBuilder
 ```
 
 **Summary**
@@ -169,26 +169,26 @@ public setMetadata(\YooKassa\Model\Metadata|array|null $value) : \YooKassa\Reque
 Устанавливает метаданные, привязанные к платежу
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestBuilder](../classes/YooKassa-Request-Deals-CreateDealRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Deals\CreateDealRequestBuilder](../classes/YooKassa-Request-Deals-CreateDealRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Model\Metadata OR array OR null</code> | value  | Метаданные платежа, устанавливаемые мерчантом |
+| <code lang="php">\Testottest\Model\Metadata OR array OR null</code> | value  | Метаданные платежа, устанавливаемые мерчантом |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданные данные не удалось интерпретировать как метаданные платежа |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданные данные не удалось интерпретировать как метаданные платежа |
 
-**Returns:** \YooKassa\Request\Deals\CreateDealRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Deals\CreateDealRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setOptions" class="anchor"></a>
-#### public setOptions() : \YooKassa\Common\AbstractRequestBuilder
+#### public setOptions() : \Testottest\Common\AbstractRequestBuilder
 
 ```php
-public setOptions(array|\Traversable $options) : \YooKassa\Common\AbstractRequestBuilder
+public setOptions(array|\Traversable $options) : \Testottest\Common\AbstractRequestBuilder
 ```
 
 **Summary**
@@ -196,7 +196,7 @@ public setOptions(array|\Traversable $options) : \YooKassa\Common\AbstractReques
 Устанавливает свойства запроса из массива
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\Testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -207,16 +207,16 @@ public setOptions(array|\Traversable $options) : \YooKassa\Common\AbstractReques
 | Type | Description |
 | ---- | ----------- |
 | \InvalidArgumentException | Выбрасывается если аргумент не массив и не итерируемый объект |
-| \YooKassa\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданныч в массиве настроек |
+| \Testottest\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданныч в массиве настроек |
 
-**Returns:** \YooKassa\Common\AbstractRequestBuilder - Инстанс текущего билдера запросов
+**Returns:** \Testottest\Common\AbstractRequestBuilder - Инстанс текущего билдера запросов
 
 
 <a name="method_setType" class="anchor"></a>
-#### public setType() : \YooKassa\Request\Deals\CreateDealRequestBuilder
+#### public setType() : \Testottest\Request\Deals\CreateDealRequestBuilder
 
 ```php
-public setType(string $value) : \YooKassa\Request\Deals\CreateDealRequestBuilder
+public setType(string $value) : \Testottest\Request\Deals\CreateDealRequestBuilder
 ```
 
 **Summary**
@@ -224,7 +224,7 @@ public setType(string $value) : \YooKassa\Request\Deals\CreateDealRequestBuilder
 Устанавливает тип сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestBuilder](../classes/YooKassa-Request-Deals-CreateDealRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Deals\CreateDealRequestBuilder](../classes/YooKassa-Request-Deals-CreateDealRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -234,17 +234,17 @@ public setType(string $value) : \YooKassa\Request\Deals\CreateDealRequestBuilder
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если переданный аргумент не является строкой |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если переданный аргумент не из списка DealType |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если переданный аргумент не является строкой |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если переданный аргумент не из списка DealType |
 
-**Returns:** \YooKassa\Request\Deals\CreateDealRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Deals\CreateDealRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_initCurrentObject" class="anchor"></a>
-#### protected initCurrentObject() : \YooKassa\Request\Deals\CreateDealRequest
+#### protected initCurrentObject() : \Testottest\Request\Deals\CreateDealRequest
 
 ```php
-protected initCurrentObject() : \YooKassa\Request\Deals\CreateDealRequest
+protected initCurrentObject() : \Testottest\Request\Deals\CreateDealRequest
 ```
 
 **Summary**
@@ -252,9 +252,9 @@ protected initCurrentObject() : \YooKassa\Request\Deals\CreateDealRequest
 Инициализирует объект запроса, который в дальнейшем будет собираться билдером
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestBuilder](../classes/YooKassa-Request-Deals-CreateDealRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Deals\CreateDealRequestBuilder](../classes/YooKassa-Request-Deals-CreateDealRequestBuilder.md)
 
-**Returns:** \YooKassa\Request\Deals\CreateDealRequest - Инстанс собираемого объекта запроса к API
+**Returns:** \Testottest\Request\Deals\CreateDealRequest - Инстанс собираемого объекта запроса к API
 
 
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\YooKassa\Model\Payout;
+namespace Tests\Testottest\Model\Payout;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\Payout\AbstractPayoutDestination;
+use Testottest\Helpers\Random;
+use Testottest\Model\Payout\AbstractPayoutDestination;
 
 abstract class AbstractPayoutDestinationTest extends TestCase
 {

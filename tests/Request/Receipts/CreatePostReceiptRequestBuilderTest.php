@@ -1,18 +1,18 @@
 <?php
 
-namespace Tests\YooKassa\Request\Receipts;
+namespace Tests\Testottest\Request\Receipts;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\CurrencyCode;
-use temirovgroup\Model\MonetaryAmount;
-use temirovgroup\Model\Receipt\PaymentMode;
-use temirovgroup\Model\Receipt\PaymentSubject;
-use temirovgroup\Model\Receipt\SettlementType;
-use temirovgroup\Model\ReceiptCustomer;
-use temirovgroup\Model\ReceiptCustomerInterface;
-use temirovgroup\Model\ReceiptType;
-use temirovgroup\Request\Receipts\CreatePostReceiptRequestBuilder;
+use Testottest\Helpers\Random;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Receipt\PaymentMode;
+use Testottest\Model\Receipt\PaymentSubject;
+use Testottest\Model\Receipt\SettlementType;
+use Testottest\Model\ReceiptCustomer;
+use Testottest\Model\ReceiptCustomerInterface;
+use Testottest\Model\ReceiptType;
+use Testottest\Request\Receipts\CreatePostReceiptRequestBuilder;
 
 class CreatePostReceiptRequestBuilderTest extends TestCase
 {

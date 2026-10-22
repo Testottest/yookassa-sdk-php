@@ -24,13 +24,13 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\Payout;
+namespace Testottest\Model\Payout;
 
-use temirovgroup\Common\AbstractObject;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\CancellationDetailsInterface;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\CancellationDetailsInterface;
 
 /**
  * PayoutCancellationDetails - Комментарий к отмене выплаты

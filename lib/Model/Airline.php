@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model;
+namespace Testottest\Model;
 
 
-use temirovgroup\Common\AbstractObject;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
 
 /**
  * Класс описывающий авиабилет
@@ -143,7 +143,7 @@ class Airline extends AbstractObject implements AirlineInterface
                 'Invalid passengers value type in airline', 0, 'airline.passengers', $value
             );
         }
-        $this->_passengers = array();
+        $this->_passengers = [];
         foreach ($value as $key => $val) {
             try {
                 $this->addPassenger($val);
@@ -196,7 +196,7 @@ class Airline extends AbstractObject implements AirlineInterface
                 'Invalid legs value type in airline', 0, 'airline.legs', $value
             );
         }
-        $this->_legs = array();
+        $this->_legs = [];
         foreach ($value as $key => $val) {
             try {
                 $this->addLeg($val);

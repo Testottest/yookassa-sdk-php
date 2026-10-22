@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\YooKassa\Model\PaymentData;
+namespace Tests\Testottest\Model\PaymentData;
 
-use temirovgroup\Model\PaymentData\PaymentDataMobileBalance;
+use Testottest\Model\PaymentData\PaymentDataMobileBalance;
 
 abstract class AbstractPaymentDataPhoneTest extends AbstractPaymentDataTest
 {

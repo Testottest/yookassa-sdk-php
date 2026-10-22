@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Refunds;
+namespace Testottest\Request\Refunds;
 
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\Deal\RefundDealData;
-use temirovgroup\Model\ReceiptInterface;
-use temirovgroup\Model\SourceInterface;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\Deal\RefundDealData;
+use Testottest\Model\ReceiptInterface;
+use Testottest\Model\SourceInterface;
 
 /**
  * Интерфейс объекта запроса на возврат

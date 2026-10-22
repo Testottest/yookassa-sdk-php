@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\YooKassa\Common;
+namespace Tests\Testottest\Common;
 
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LogLevel;
-use temirovgroup\Common\LoggerWrapper;
-use temirovgroup\Helpers\Random;
+use Testottest\Common\LoggerWrapper;
+use Testottest\Helpers\Random;
 
 class LoggerWrapperTest extends TestCase
 {

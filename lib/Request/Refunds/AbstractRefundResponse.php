@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Refunds;
+namespace Testottest\Request\Refunds;
 
-use temirovgroup\Model\MonetaryAmount;
-use temirovgroup\Model\Refund;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Refund;
 
 /**
  * Абстрактный класс ответа от API с информацией о возврате

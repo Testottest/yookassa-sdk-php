@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\Payout;
+namespace Testottest\Model\Payout;
 
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * PaymentDataBankCard
@@ -63,7 +63,7 @@ class PayoutDestinationBankCard extends AbstractPayoutDestination
      */
     public function setCard($value)
     {
-        if ($value === null || $value === '' || $value === array()) {
+        if ($value === null || $value === '' || $value === []) {
             $this->_card = null;
         } elseif ($value instanceof PayoutDestinationBankCardCard) {
             $this->_card = $value;

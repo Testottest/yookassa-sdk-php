@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\YooKassa\Common;
+namespace Tests\Testottest\Common;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Common\AbstractRequest;
-use temirovgroup\Common\AbstractRequestBuilder;
-use temirovgroup\Common\Exceptions\InvalidRequestException;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\AbstractRequestBuilder;
+use Testottest\Common\Exceptions\InvalidRequestException;
 
 class AbstractRequestBuilderTest extends TestCase
 {

@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\Deal;
+namespace Testottest\Model\Deal;
 
-use temirovgroup\Common\AbstractObject;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Model\SettlementInterface;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Model\SettlementInterface;
 
 /**
  * Class PaymentDealInfo
@@ -45,7 +45,7 @@ class PaymentDealInfo extends AbstractObject
     private $_id;
 
     /** @var SettlementPayoutPayment[] Данные о распределении денег */
-    private $_settlements = array();
+    private $_settlements = [];
 
     /**
      * Возвращает Id сделки
@@ -92,7 +92,7 @@ class PaymentDealInfo extends AbstractObject
                 'Invalid settlements value type in deal', 0, 'deal.settlements', $value
             );
         }
-        $this->_settlements = array();
+        $this->_settlements = [];
         foreach ($value as $key => $val) {
             if (is_array($val)) {
                 $this->addSettlement(new SettlementPayoutPayment($val));

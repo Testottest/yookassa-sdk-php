@@ -1,19 +1,19 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payments;
+namespace Tests\Testottest\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\ConfirmationType;
-use temirovgroup\Model\CurrencyCode;
-use temirovgroup\Model\MonetaryAmount;
-use temirovgroup\Model\Payment;
-use temirovgroup\Model\PaymentMethodType;
-use temirovgroup\Model\PaymentStatus;
-use temirovgroup\Model\ReceiptRegistrationStatus;
-use temirovgroup\Model\Transfer;
-use temirovgroup\Model\TransferStatus;
-use temirovgroup\Request\Payments\PaymentResponse;
+use Testottest\Helpers\Random;
+use Testottest\Model\ConfirmationType;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Payment;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\PaymentStatus;
+use Testottest\Model\ReceiptRegistrationStatus;
+use Testottest\Model\Transfer;
+use Testottest\Model\TransferStatus;
+use Testottest\Request\Payments\PaymentResponse;
 
 abstract class AbstractPaymentResponseTest extends TestCase
 {
@@ -260,14 +260,14 @@ abstract class AbstractPaymentResponseTest extends TestCase
             self::assertEmpty($instance->getTransfers());
         } else {
             foreach ($instance->getTransfers() as $transfer) {
-                self::assertInstanceOf('\YooKassa\Model\Transfer', $transfer);
+                self::assertInstanceOf('\Testottest\Model\Transfer', $transfer);
             }
         }
     }
 
     public function validDataProvider()
     {
-        $result = array();
+        $result = [];
         $statuses = PaymentStatus::getValidValues();
         $receiptRegistrations = ReceiptRegistrationStatus::getValidValues();
 

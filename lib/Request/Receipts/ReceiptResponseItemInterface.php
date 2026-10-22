@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Receipts;
+namespace Testottest\Request\Receipts;
 
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\SupplierInterface;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\SupplierInterface;
 
 /**
  * Interface ReceiptItemInterface

@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\PaymentData\B2b\Sberbank;
+namespace Testottest\Model\PaymentData\B2b\Sberbank;
 
-use temirovgroup\Model\AmountInterface;
+use Testottest\Model\AmountInterface;
 
 /**
  * Interface VatDataInterface

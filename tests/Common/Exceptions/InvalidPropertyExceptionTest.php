@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\YooKassa\Common\Exceptions;
+namespace Tests\Testottest\Common\Exceptions;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Common\Exceptions\InvalidPropertyException;
-use temirovgroup\Helpers\StringObject;
+use Testottest\Common\Exceptions\InvalidPropertyException;
+use Testottest\Helpers\StringObject;
 
 class InvalidPropertyExceptionTest extends TestCase
 {

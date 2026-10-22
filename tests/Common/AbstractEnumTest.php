@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Common;
+namespace Tests\Testottest\Common;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Common\AbstractEnum;
+use Testottest\Common\AbstractEnum;
 
 class AbstractEnumTest extends TestCase
 {

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace temirovgroup\Model\Receipt;
+namespace Testottest\Model\Receipt;
 
 
-use temirovgroup\Common\AbstractEnum;
+use Testottest\Common\AbstractEnum;
 
 class AgentType extends AbstractEnum
 {

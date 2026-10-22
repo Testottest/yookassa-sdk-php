@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\Confirmation;
+namespace Testottest\Model\Confirmation;
 
-use temirovgroup\Model\ConfirmationType;
+use Testottest\Model\ConfirmationType;
 
 /**
  * Сценарий при котором необходимо ожидать пока пользователь самостоятельно подтвердит платеж. Например,

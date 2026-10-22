@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\Deal;
+namespace Testottest\Model\Deal;
 
-use temirovgroup\Common\AbstractObject;
+use Testottest\Common\AbstractObject;
 
 /**
  * Class PayoutDealInfo

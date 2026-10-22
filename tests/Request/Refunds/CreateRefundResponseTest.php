@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\YooKassa\Request\Refunds;
+namespace Tests\Testottest\Request\Refunds;
 
-use temirovgroup\Request\Refunds\CreateRefundResponse;
+use Testottest\Request\Refunds\CreateRefundResponse;
 
 class CreateRefundResponseTest extends AbstractRefundResponseTest
 {

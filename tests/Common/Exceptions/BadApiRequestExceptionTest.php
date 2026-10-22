@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\YooKassa\Common\Exceptions;
+namespace Tests\Testottest\Common\Exceptions;
 
-use temirovgroup\Common\Exceptions\BadApiRequestException;
+use Testottest\Common\Exceptions\BadApiRequestException;
 
 class BadApiRequestExceptionTest extends AbstractApiRequestExceptionTest
 {
-    public function getTestInstance($message = '', $code = 0, $responseHeaders = array(), $responseBody = null)
+    public function getTestInstance($message = '', $code = 0, $responseHeaders = [], $responseBody = null)
     {
         return new BadApiRequestException($responseHeaders, $responseBody);
     }

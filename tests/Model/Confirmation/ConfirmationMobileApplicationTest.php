@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Model\Confirmation;
+namespace Tests\Testottest\Model\Confirmation;
 
-use temirovgroup\Model\Confirmation\ConfirmationMobileApplication;
-use temirovgroup\Model\ConfirmationType;
+use Testottest\Model\Confirmation\ConfirmationMobileApplication;
+use Testottest\Model\ConfirmationType;
 
 class ConfirmationMobileApplicationTest extends AbstractConfirmationTest
 {

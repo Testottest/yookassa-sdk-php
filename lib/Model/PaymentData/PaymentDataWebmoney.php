@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\PaymentData;
+namespace Testottest\Model\PaymentData;
 
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * PaymentDataWebmoney

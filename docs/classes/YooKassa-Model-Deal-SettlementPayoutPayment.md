@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Model\Deal\SettlementPayoutPayment
-### Namespace: [\YooKassa\Model\Deal](../namespaces/yookassa-model-deal.md)
+# Class: \Testottest\Model\Deal\SettlementPayoutPayment
+### Namespace: [\Testottest\Model\Deal](../namespaces/yookassa-model-deal.md)
 ---
 **Summary:**
 
@@ -46,21 +46,21 @@ Class SettlementPayoutPayment
 * File: [lib/Model/Deal/SettlementPayoutPayment.php](../../lib/Model/Deal/SettlementPayoutPayment.php)
 * Package: YooKassa
 * Class Hierarchy: 
-  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * \YooKassa\Model\Deal\SettlementPayoutPayment
+  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * \Testottest\Model\Deal\SettlementPayoutPayment
 * Implements:
-  * [\YooKassa\Model\SettlementInterface](../classes/YooKassa-Model-SettlementInterface.md)
+  * [\Testottest\Model\SettlementInterface](../classes/YooKassa-Model-SettlementInterface.md)
 
 ---
 ## Properties
 <a name="property_amount"></a>
-#### public $amount : \YooKassa\Model\AmountInterface
+#### public $amount : \Testottest\Model\AmountInterface
 ---
 ***Description***
 
 Размер оплаты
 
-**Type:** <a href="../classes/YooKassa-Model-AmountInterface.html"><abbr title="\YooKassa\Model\AmountInterface">AmountInterface</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-AmountInterface.html"><abbr title="\Testottest\Model\AmountInterface">AmountInterface</abbr></a>
 
 **Details:**
 
@@ -84,7 +84,7 @@ Class SettlementPayoutPayment
 #### public __construct() : mixed
 
 ```php
-public __construct(array $data = array()) : mixed
+public __construct(array $data = []) : mixed
 ```
 
 **Summary**
@@ -92,7 +92,7 @@ public __construct(array $data = array()) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -114,7 +114,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -136,7 +136,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -158,7 +158,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -181,7 +181,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -203,7 +203,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -214,10 +214,10 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 
 
 <a name="method_getAmount" class="anchor"></a>
-#### public getAmount() : \YooKassa\Model\AmountInterface
+#### public getAmount() : \Testottest\Model\AmountInterface
 
 ```php
-public getAmount() : \YooKassa\Model\AmountInterface
+public getAmount() : \Testottest\Model\AmountInterface
 ```
 
 **Summary**
@@ -225,9 +225,9 @@ public getAmount() : \YooKassa\Model\AmountInterface
 Возвращает размер оплаты
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Deal\SettlementPayoutPayment](../classes/YooKassa-Model-Deal-SettlementPayoutPayment.md)
+* Inherited From: [\Testottest\Model\Deal\SettlementPayoutPayment](../classes/YooKassa-Model-Deal-SettlementPayoutPayment.md)
 
-**Returns:** \YooKassa\Model\AmountInterface - Размер оплаты
+**Returns:** \Testottest\Model\AmountInterface - Размер оплаты
 
 
 <a name="method_getType" class="anchor"></a>
@@ -242,7 +242,7 @@ public getType() : string
 Возвращает тип операции (payout - выплата продавцу)
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Deal\SettlementPayoutPayment](../classes/YooKassa-Model-Deal-SettlementPayoutPayment.md)
+* Inherited From: [\Testottest\Model\Deal\SettlementPayoutPayment](../classes/YooKassa-Model-Deal-SettlementPayoutPayment.md)
 
 **Returns:** string - Тип операции
 
@@ -259,7 +259,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -276,7 +276,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -298,7 +298,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -320,7 +320,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -343,7 +343,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -357,7 +357,7 @@ public offsetUnset(string $offset) : mixed
 #### public setAmount() : mixed
 
 ```php
-public setAmount(\YooKassa\Model\AmountInterface|array $value) : mixed
+public setAmount(\Testottest\Model\AmountInterface|array $value) : mixed
 ```
 
 **Summary**
@@ -365,12 +365,12 @@ public setAmount(\YooKassa\Model\AmountInterface|array $value) : mixed
 Устанавливает сумму платежа
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Deal\SettlementPayoutPayment](../classes/YooKassa-Model-Deal-SettlementPayoutPayment.md)
+* Inherited From: [\Testottest\Model\Deal\SettlementPayoutPayment](../classes/YooKassa-Model-Deal-SettlementPayoutPayment.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Model\AmountInterface OR array</code> | value  | Сумма платежа |
+| <code lang="php">\Testottest\Model\AmountInterface OR array</code> | value  | Сумма платежа |
 
 **Returns:** mixed - 
 
@@ -387,7 +387,7 @@ public setType(string $value) : mixed
 Устанавливает вид оплаты в чеке
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Deal\SettlementPayoutPayment](../classes/YooKassa-Model-Deal-SettlementPayoutPayment.md)
+* Inherited From: [\Testottest\Model\Deal\SettlementPayoutPayment](../classes/YooKassa-Model-Deal-SettlementPayoutPayment.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -410,7 +410,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -427,7 +427,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

@@ -1,24 +1,24 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \YooKassa\Request\Payments\Payment
+# Namespace: \Testottest\Request\Payments\Payment
 
-## Parent: [\YooKassa\Request\Payments](../namespaces/yookassa-request-payments.md)
+## Parent: [\Testottest\Request\Payments](../namespaces/yookassa-request-payments.md)
 
 ### Interfaces
 
 | Name | Summary |
 | ---- | ------- |
-| [\YooKassa\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md) | Interface CreateCaptureRequestInterface |
+| [\Testottest\Request\Payments\Payment\CreateCaptureRequestInterface](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestInterface.md) | Interface CreateCaptureRequestInterface |
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\YooKassa\Request\Payments\Payment\CancelResponse](../classes/YooKassa-Request-Payments-Payment-CancelResponse.md) | Класс объекта ответа от API на запрос отмены платежа |
-| [\YooKassa\Request\Payments\Payment\CreateCaptureRequest](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequest.md) | Класс объекта запроса к API на подтверждение оплаты |
-| [\YooKassa\Request\Payments\Payment\CreateCaptureRequestBuilder](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestBuilder.md) | Базовый класс объекта платежного запроса, передаваемого в методы клиента API |
-| [\YooKassa\Request\Payments\Payment\CreateCaptureRequestSerializer](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestSerializer.md) | Класс объекта осуществляющего сериализацию запроса к API на подтверждение заказа |
-| [\YooKassa\Request\Payments\Payment\CreateCaptureResponse](../classes/YooKassa-Request-Payments-Payment-CreateCaptureResponse.md) | Класс объекта ответа от API на запрос подтверждения платежа |
+| [\Testottest\Request\Payments\Payment\CancelResponse](../classes/YooKassa-Request-Payments-Payment-CancelResponse.md) | Класс объекта ответа от API на запрос отмены платежа |
+| [\Testottest\Request\Payments\Payment\CreateCaptureRequest](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequest.md) | Класс объекта запроса к API на подтверждение оплаты |
+| [\Testottest\Request\Payments\Payment\CreateCaptureRequestBuilder](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestBuilder.md) | Базовый класс объекта платежного запроса, передаваемого в методы клиента API |
+| [\Testottest\Request\Payments\Payment\CreateCaptureRequestSerializer](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestSerializer.md) | Класс объекта осуществляющего сериализацию запроса к API на подтверждение заказа |
+| [\Testottest\Request\Payments\Payment\CreateCaptureResponse](../classes/YooKassa-Request-Payments-Payment-CreateCaptureResponse.md) | Класс объекта ответа от API на запрос подтверждения платежа |
 
 ---
 

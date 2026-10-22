@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Helpers;
+namespace Tests\Testottest\Helpers;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\RawHeadersParser;
+use Testottest\Helpers\RawHeadersParser;
 
 class RawHeadersParserTest extends TestCase
 {

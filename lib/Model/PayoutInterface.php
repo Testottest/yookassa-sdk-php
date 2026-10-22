@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model;
+namespace Testottest\Model;
 
 use DateTime;
-use temirovgroup\Model\PaymentMethod\AbstractPaymentMethod;
-use temirovgroup\Model\Payout\PayoutCancellationDetails;
-use temirovgroup\Model\Deal\PayoutDealInfo;
+use Testottest\Model\PaymentMethod\AbstractPaymentMethod;
+use Testottest\Model\Payout\PayoutCancellationDetails;
+use Testottest\Model\Deal\PayoutDealInfo;
 
 /**
  * Interface DealInterface

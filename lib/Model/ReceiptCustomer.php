@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model;
+namespace Testottest\Model;
 
-use temirovgroup\Common\AbstractObject;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
 
 /**
  * Информация о плательщике
@@ -193,7 +193,7 @@ class ReceiptCustomer extends AbstractObject implements ReceiptCustomerInterface
      */
     public function jsonSerialize()
     {
-        $result = array();
+        $result = [];
 
         $value = $this->getFullName();
         if (!empty($value)) {

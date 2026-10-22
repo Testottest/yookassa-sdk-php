@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Tests\YooKassa\Model\PaymentMethod;
+namespace Tests\Testottest\Model\PaymentMethod;
 
 
-use temirovgroup\Model\PaymentMethod\AbstractPaymentMethod;
-use temirovgroup\Model\PaymentMethod\PaymentMethodTinkoffBank;
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Model\PaymentMethod\AbstractPaymentMethod;
+use Testottest\Model\PaymentMethod\PaymentMethodTinkoffBank;
+use Testottest\Model\PaymentMethodType;
 
 class PaymentMethodTinkoffBankTest extends AbstractPaymentMethodTest
 {

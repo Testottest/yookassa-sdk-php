@@ -24,18 +24,18 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Receipts;
+namespace Testottest\Request\Receipts;
 
-use temirovgroup\Common\AbstractObject;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\MonetaryAmount;
-use temirovgroup\Model\Receipt\ReceiptItemAmount;
-use temirovgroup\Model\Supplier;
-use temirovgroup\Model\SupplierInterface;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Receipt\ReceiptItemAmount;
+use Testottest\Model\Supplier;
+use Testottest\Model\SupplierInterface;
 
 /**
  * Класс, описывающий товар в чеке

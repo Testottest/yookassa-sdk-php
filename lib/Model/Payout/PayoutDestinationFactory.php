@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\Payout;
+namespace Testottest\Model\Payout;
 
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * Фабрика создания объекта платежных методов из массива

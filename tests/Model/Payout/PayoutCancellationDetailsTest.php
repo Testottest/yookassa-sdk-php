@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\YooKassa\Model\Payout;
+namespace Tests\Testottest\Model\Payout;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Model\CancellationDetails;
-use temirovgroup\Model\CancellationDetailsPartyCode;
-use temirovgroup\Model\CancellationDetailsReasonCode;
-use temirovgroup\Model\Payout\PayoutCancellationDetails;
+use Testottest\Model\CancellationDetails;
+use Testottest\Model\CancellationDetailsPartyCode;
+use Testottest\Model\CancellationDetailsReasonCode;
+use Testottest\Model\Payout\PayoutCancellationDetails;
 
 class PayoutCancellationDetailsTest extends TestCase
 {
@@ -99,7 +99,7 @@ class PayoutCancellationDetailsTest extends TestCase
      */
     public function validDataProvider()
     {
-        $result                          = array();
+        $result                          = [];
         $cancellationDetailsParties      = CancellationDetailsPartyCode::getValidValues();
         $countCancellationDetailsParties = count($cancellationDetailsParties);
         $cancellationDetailsReasons      = CancellationDetailsReasonCode::getValidValues();

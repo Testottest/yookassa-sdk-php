@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\Deal;
+namespace Testottest\Model\Deal;
 
-use temirovgroup\Common\AbstractObject;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Model\SettlementInterface;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Model\SettlementInterface;
 
 /**
  * Class PaymentDealInfo
@@ -43,7 +43,7 @@ class RefundDealData extends AbstractObject
 {
 
     /** @var SettlementPayoutRefund[] Данные о распределении денег */
-    private $_refund_settlements = array();
+    private $_refund_settlements = [];
 
      /**
      * Возвращает массив оплат, обеспечивающих выдачу товара
@@ -71,7 +71,7 @@ class RefundDealData extends AbstractObject
                 'Invalid refund_settlements value type in deal', 0, 'deal.refund_settlements', $value
             );
         }
-        $this->_refund_settlements = array();
+        $this->_refund_settlements = [];
         foreach ($value as $key => $val) {
             if (is_array($val)) {
                 $this->addRefundSettlement(new SettlementPayoutRefund($val));

@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\YooKassa\Model\PaymentMethod;
+namespace Tests\Testottest\Model\PaymentMethod;
 
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\PaymentMethod\PaymentMethodAlfaBank;
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Helpers\Random;
+use Testottest\Model\PaymentMethod\PaymentMethodAlfaBank;
+use Testottest\Model\PaymentMethodType;
 
 class PaymentMethodAlfaBankTest extends AbstractPaymentMethodTest
 {

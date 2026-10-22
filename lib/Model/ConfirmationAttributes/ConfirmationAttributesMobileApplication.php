@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\ConfirmationAttributes;
+namespace Testottest\Model\ConfirmationAttributes;
 
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\ConfirmationType;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\ConfirmationType;
 
 /**
  * @property string $returnUrl URL на который вернется плательщик после подтверждения или отмены платежа на странице партнера.
@@ -41,7 +41,7 @@ class ConfirmationAttributesMobileApplication extends AbstractConfirmationAttrib
      */
     private $_returnUrl;
 
-    public function __construct($data = array())
+    public function __construct($data = [])
     {
         parent::__construct($data);
         $this->_setType(ConfirmationType::MOBILE_APPLICATION);

@@ -24,15 +24,15 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Common;
+namespace Testottest\Common;
 
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\Deal\PaymentDealInfo;
-use temirovgroup\Model\Receipt;
-use temirovgroup\Model\ReceiptInterface;
-use temirovgroup\Model\Transfer;
-use temirovgroup\Model\TransferInterface;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\Deal\PaymentDealInfo;
+use Testottest\Model\Receipt;
+use Testottest\Model\ReceiptInterface;
+use Testottest\Model\Transfer;
+use Testottest\Model\TransferInterface;
 
 /**
  * Класс объекта запроса к API
@@ -58,7 +58,7 @@ class AbstractPaymentRequest extends AbstractRequest
     /**
      * @var TransferInterface[]
      */
-    private $_transfers = array();
+    private $_transfers = [];
 
     /**
      * Возвращает сумму оплаты
@@ -156,7 +156,7 @@ class AbstractPaymentRequest extends AbstractRequest
     {
         if ($value === null || is_array($value)) {
             if (is_array($value)) {
-                $transfers = array();
+                $transfers = [];
                 foreach ($value as $item) {
                     if (is_array($item)) {
                         $item = new Transfer($item);

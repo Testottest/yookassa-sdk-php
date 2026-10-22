@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Model\Payout\PayoutCancellationDetailsPartyCode
-### Namespace: [\YooKassa\Model\Payout](../namespaces/yookassa-model-payout.md)
+# Class: \Testottest\Model\Payout\PayoutCancellationDetailsPartyCode
+### Namespace: [\Testottest\Model\Payout](../namespaces/yookassa-model-payout.md)
 ---
 **Summary:**
 
@@ -35,8 +35,8 @@ PayoutCancellationDetailsPartyCode - Возможные инициаторы о�
 * File: [lib/Model/Payout/PayoutCancellationDetailsPartyCode.php](../../lib/Model/Payout/PayoutCancellationDetailsPartyCode.php)
 * Package: Default
 * Class Hierarchy: 
-  * [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
-  * \YooKassa\Model\Payout\PayoutCancellationDetailsPartyCode
+  * [\Testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+  * \Testottest\Model\Payout\PayoutCancellationDetailsPartyCode
 
 ---
 ## Constants
@@ -93,7 +93,7 @@ Static public getEnabledValues() : string[]
 Возвращает значения в enum'е значения которых разрешены
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\Testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 **Returns:** string[] - Массив разрешённых значений
 
@@ -110,7 +110,7 @@ Static public getValidValues() : array
 Возвращает все значения в enum'e
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\Testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 **Returns:** array - Массив значений в перечислении
 
@@ -127,7 +127,7 @@ Static public valueExists(mixed $value) : bool
 Проверяет наличие значения в enum'e
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\Testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 ##### Parameters:
 | Type | Name | Description |

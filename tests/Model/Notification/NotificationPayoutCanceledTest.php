@@ -1,17 +1,17 @@
 <?php
 
-namespace Tests\YooKassa\Model\Notification;
+namespace Tests\Testottest\Model\Notification;
 
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\Notification\NotificationPayoutCanceled;
-use temirovgroup\Model\NotificationEventType;
-use temirovgroup\Model\NotificationType;
-use temirovgroup\Model\PayoutInterface;
-use temirovgroup\Model\PaymentMethodType;
-use temirovgroup\Model\Payout;
-use temirovgroup\Model\Payout\PayoutCancellationDetailsPartyCode;
-use temirovgroup\Model\Payout\PayoutCancellationDetailsReasonCode;
-use temirovgroup\Model\PayoutStatus;
+use Testottest\Helpers\Random;
+use Testottest\Model\Notification\NotificationPayoutCanceled;
+use Testottest\Model\NotificationEventType;
+use Testottest\Model\NotificationType;
+use Testottest\Model\PayoutInterface;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\Payout;
+use Testottest\Model\Payout\PayoutCancellationDetailsPartyCode;
+use Testottest\Model\Payout\PayoutCancellationDetailsReasonCode;
+use Testottest\Model\PayoutStatus;
 
 class NotificationPayoutCanceledTest extends AbstractNotificationTest
 {
@@ -58,7 +58,7 @@ class NotificationPayoutCanceledTest extends AbstractNotificationTest
      */
     public function validDataProvider()
     {
-        $result = array();
+        $result = [];
         $cancellationDetailsParties = PayoutCancellationDetailsPartyCode::getValidValues();
         $countCancellationDetailsParties = count($cancellationDetailsParties);
         $cancellationDetailsReasons = PayoutCancellationDetailsReasonCode::getValidValues();

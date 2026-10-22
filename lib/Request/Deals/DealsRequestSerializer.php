@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Deals;
+namespace Testottest\Request\Deals;
 
-use temirovgroup\Common\AbstractObject;
-use temirovgroup\Common\AbstractRequest;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\AbstractRequest;
 
 /**
  * Класс сериализатора объектов запросов к API для получения списка платежей
@@ -61,7 +61,7 @@ class DealsRequestSerializer
      */
     public function serialize(DealsRequestInterface $request)
     {
-        $result = array();
+        $result = [];
         foreach (self::$propertyMap as $property => $name) {
             $value = $request->{$property};
             if (!empty($value)) {

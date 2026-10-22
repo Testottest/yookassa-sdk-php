@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\YooKassa\Helpers;
+namespace Tests\Testottest\Helpers;
 
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\UUID;
+use Testottest\Helpers\UUID;
 
 class UUIDTest extends TestCase
 {

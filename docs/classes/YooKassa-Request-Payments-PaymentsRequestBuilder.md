@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Request\Payments\PaymentsRequestBuilder
-### Namespace: [\YooKassa\Request\Payments](../namespaces/yookassa-request-payments.md)
+# Class: \Testottest\Request\Payments\PaymentsRequestBuilder
+### Namespace: [\Testottest\Request\Payments](../namespaces/yookassa-request-payments.md)
 ---
 **Summary:**
 
@@ -44,19 +44,19 @@
 * File: [lib/Request/Payments/PaymentsRequestBuilder.php](../../lib/Request/Payments/PaymentsRequestBuilder.php)
 * Package: YooKassa
 * Class Hierarchy: 
-  * [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
-  * \YooKassa\Request\Payments\PaymentsRequestBuilder
+  * [\Testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+  * \Testottest\Request\Payments\PaymentsRequestBuilder
 
 ---
 ## Properties
 <a name="property_currentObject"></a>
-#### protected $currentObject : \YooKassa\Request\Payments\PaymentsRequest
+#### protected $currentObject : \Testottest\Request\Payments\PaymentsRequest
 ---
 **Summary**
 
 Инстанс собираемого запроса
 
-**Type:** <a href="../classes/YooKassa-Request-Payments-PaymentsRequest.html"><abbr title="\YooKassa\Request\Payments\PaymentsRequest">PaymentsRequest</abbr></a>
+**Type:** <a href="../classes/YooKassa-Request-Payments-PaymentsRequest.html"><abbr title="\Testottest\Request\Payments\PaymentsRequest">PaymentsRequest</abbr></a>
 Собираемый объект запроса списка платежей магазина
 **Details:**
 
@@ -76,16 +76,16 @@ public __construct() : mixed
 Конструктор, инициализирует пустой запрос, который в будущем начнём собирать
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\Testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
 **Returns:** mixed - 
 
 
 <a name="method_build" class="anchor"></a>
-#### public build() : \YooKassa\Common\AbstractRequest
+#### public build() : \Testottest\Common\AbstractRequest
 
 ```php
-public build(array|null $options = null) : \YooKassa\Common\AbstractRequest
+public build(array|null $options = null) : \Testottest\Common\AbstractRequest
 ```
 
 **Summary**
@@ -93,21 +93,21 @@ public build(array|null $options = null) : \YooKassa\Common\AbstractRequest
 Собирает и возвращает объект запроса списка платежей магазина
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">array OR null</code> | options  | Массив с настройками запроса |
 
-**Returns:** \YooKassa\Common\AbstractRequest - Инстанс объекта запроса к API для получения списка платежей магазина
+**Returns:** \Testottest\Common\AbstractRequest - Инстанс объекта запроса к API для получения списка платежей магазина
 
 
 <a name="method_setCapturedAtGt" class="anchor"></a>
-#### public setCapturedAtGt() : \YooKassa\Request\Payments\PaymentsRequestBuilder
+#### public setCapturedAtGt() : \Testottest\Request\Payments\PaymentsRequestBuilder
 
 ```php
-public setCapturedAtGt(\DateTime|string|int|null $value) : \YooKassa\Request\Payments\PaymentsRequestBuilder
+public setCapturedAtGt(\DateTime|string|int|null $value) : \Testottest\Request\Payments\PaymentsRequestBuilder
 ```
 
 **Summary**
@@ -115,7 +115,7 @@ public setCapturedAtGt(\DateTime|string|int|null $value) : \YooKassa\Request\Pay
 Устанавливает дату подтверждения от которой выбираются платежи
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -125,17 +125,17 @@ public setCapturedAtGt(\DateTime|string|int|null $value) : \YooKassa\Request\Pay
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
-**Returns:** \YooKassa\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setCapturedAtGte" class="anchor"></a>
-#### public setCapturedAtGte() : \YooKassa\Request\Payments\PaymentsRequestBuilder
+#### public setCapturedAtGte() : \Testottest\Request\Payments\PaymentsRequestBuilder
 
 ```php
-public setCapturedAtGte(\DateTime|string|int|null $value) : \YooKassa\Request\Payments\PaymentsRequestBuilder
+public setCapturedAtGte(\DateTime|string|int|null $value) : \Testottest\Request\Payments\PaymentsRequestBuilder
 ```
 
 **Summary**
@@ -143,7 +143,7 @@ public setCapturedAtGte(\DateTime|string|int|null $value) : \YooKassa\Request\Pa
 Устанавливает дату подтверждения от которой выбираются платежи
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -153,17 +153,17 @@ public setCapturedAtGte(\DateTime|string|int|null $value) : \YooKassa\Request\Pa
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
-**Returns:** \YooKassa\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setCapturedAtLt" class="anchor"></a>
-#### public setCapturedAtLt() : \YooKassa\Request\Payments\PaymentsRequestBuilder
+#### public setCapturedAtLt() : \Testottest\Request\Payments\PaymentsRequestBuilder
 
 ```php
-public setCapturedAtLt(\DateTime|string|int|null $value) : \YooKassa\Request\Payments\PaymentsRequestBuilder
+public setCapturedAtLt(\DateTime|string|int|null $value) : \Testottest\Request\Payments\PaymentsRequestBuilder
 ```
 
 **Summary**
@@ -171,7 +171,7 @@ public setCapturedAtLt(\DateTime|string|int|null $value) : \YooKassa\Request\Pay
 Устанавливает дату подтверждения до которой выбираются платежи
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -181,17 +181,17 @@ public setCapturedAtLt(\DateTime|string|int|null $value) : \YooKassa\Request\Pay
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
-**Returns:** \YooKassa\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setCapturedAtLte" class="anchor"></a>
-#### public setCapturedAtLte() : \YooKassa\Request\Payments\PaymentsRequestBuilder
+#### public setCapturedAtLte() : \Testottest\Request\Payments\PaymentsRequestBuilder
 
 ```php
-public setCapturedAtLte(\DateTime|string|int|null $value) : \YooKassa\Request\Payments\PaymentsRequestBuilder
+public setCapturedAtLte(\DateTime|string|int|null $value) : \Testottest\Request\Payments\PaymentsRequestBuilder
 ```
 
 **Summary**
@@ -199,7 +199,7 @@ public setCapturedAtLte(\DateTime|string|int|null $value) : \YooKassa\Request\Pa
 Устанавливает дату подтверждения до которой выбираются платежи
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -209,17 +209,17 @@ public setCapturedAtLte(\DateTime|string|int|null $value) : \YooKassa\Request\Pa
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
-**Returns:** \YooKassa\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setCreatedAtGt" class="anchor"></a>
-#### public setCreatedAtGt() : \YooKassa\Request\Payments\PaymentsRequestBuilder
+#### public setCreatedAtGt() : \Testottest\Request\Payments\PaymentsRequestBuilder
 
 ```php
-public setCreatedAtGt(\DateTime|string|int|null $value) : \YooKassa\Request\Payments\PaymentsRequestBuilder
+public setCreatedAtGt(\DateTime|string|int|null $value) : \Testottest\Request\Payments\PaymentsRequestBuilder
 ```
 
 **Summary**
@@ -227,7 +227,7 @@ public setCreatedAtGt(\DateTime|string|int|null $value) : \YooKassa\Request\Paym
 Устанавливает дату создания от которой выбираются платежи
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -237,17 +237,17 @@ public setCreatedAtGt(\DateTime|string|int|null $value) : \YooKassa\Request\Paym
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
-**Returns:** \YooKassa\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setCreatedAtGte" class="anchor"></a>
-#### public setCreatedAtGte() : \YooKassa\Request\Payments\PaymentsRequestBuilder
+#### public setCreatedAtGte() : \Testottest\Request\Payments\PaymentsRequestBuilder
 
 ```php
-public setCreatedAtGte(\DateTime|string|int|null $value) : \YooKassa\Request\Payments\PaymentsRequestBuilder
+public setCreatedAtGte(\DateTime|string|int|null $value) : \Testottest\Request\Payments\PaymentsRequestBuilder
 ```
 
 **Summary**
@@ -255,7 +255,7 @@ public setCreatedAtGte(\DateTime|string|int|null $value) : \YooKassa\Request\Pay
 Устанавливает дату создания от которой выбираются платежи
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -265,17 +265,17 @@ public setCreatedAtGte(\DateTime|string|int|null $value) : \YooKassa\Request\Pay
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
-**Returns:** \YooKassa\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setCreatedAtLt" class="anchor"></a>
-#### public setCreatedAtLt() : \YooKassa\Request\Payments\PaymentsRequestBuilder
+#### public setCreatedAtLt() : \Testottest\Request\Payments\PaymentsRequestBuilder
 
 ```php
-public setCreatedAtLt(\DateTime|string|int|null $value) : \YooKassa\Request\Payments\PaymentsRequestBuilder
+public setCreatedAtLt(\DateTime|string|int|null $value) : \Testottest\Request\Payments\PaymentsRequestBuilder
 ```
 
 **Summary**
@@ -283,7 +283,7 @@ public setCreatedAtLt(\DateTime|string|int|null $value) : \YooKassa\Request\Paym
 Устанавливает дату создания до которой выбираются платежи
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -293,17 +293,17 @@ public setCreatedAtLt(\DateTime|string|int|null $value) : \YooKassa\Request\Paym
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
-**Returns:** \YooKassa\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setCreatedAtLte" class="anchor"></a>
-#### public setCreatedAtLte() : \YooKassa\Request\Payments\PaymentsRequestBuilder
+#### public setCreatedAtLte() : \Testottest\Request\Payments\PaymentsRequestBuilder
 
 ```php
-public setCreatedAtLte(\DateTime|string|int|null $value) : \YooKassa\Request\Payments\PaymentsRequestBuilder
+public setCreatedAtLte(\DateTime|string|int|null $value) : \Testottest\Request\Payments\PaymentsRequestBuilder
 ```
 
 **Summary**
@@ -311,7 +311,7 @@ public setCreatedAtLte(\DateTime|string|int|null $value) : \YooKassa\Request\Pay
 Устанавливает дату создания до которой выбираются платежи
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -321,17 +321,17 @@ public setCreatedAtLte(\DateTime|string|int|null $value) : \YooKassa\Request\Pay
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
-**Returns:** \YooKassa\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setCursor" class="anchor"></a>
-#### public setCursor() : \YooKassa\Request\Payments\PaymentsRequestBuilder
+#### public setCursor() : \Testottest\Request\Payments\PaymentsRequestBuilder
 
 ```php
-public setCursor(string|null $value) : \YooKassa\Request\Payments\PaymentsRequestBuilder
+public setCursor(string|null $value) : \Testottest\Request\Payments\PaymentsRequestBuilder
 ```
 
 **Summary**
@@ -339,7 +339,7 @@ public setCursor(string|null $value) : \YooKassa\Request\Payments\PaymentsReques
 Устанавливает страница выдачи результатов
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -349,16 +349,16 @@ public setCursor(string|null $value) : \YooKassa\Request\Payments\PaymentsReques
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
 
-**Returns:** \YooKassa\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setLimit" class="anchor"></a>
-#### public setLimit() : \YooKassa\Request\Payments\PaymentsRequestBuilder
+#### public setLimit() : \Testottest\Request\Payments\PaymentsRequestBuilder
 
 ```php
-public setLimit(string $value) : \YooKassa\Request\Payments\PaymentsRequestBuilder
+public setLimit(string $value) : \Testottest\Request\Payments\PaymentsRequestBuilder
 ```
 
 **Summary**
@@ -366,7 +366,7 @@ public setLimit(string $value) : \YooKassa\Request\Payments\PaymentsRequestBuild
 Устанавливает ограничение количества объектов платежа
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -376,16 +376,16 @@ public setLimit(string $value) : \YooKassa\Request\Payments\PaymentsRequestBuild
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод было передана не целое число |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод было передана не целое число |
 
-**Returns:** \YooKassa\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setOptions" class="anchor"></a>
-#### public setOptions() : \YooKassa\Common\AbstractRequestBuilder
+#### public setOptions() : \Testottest\Common\AbstractRequestBuilder
 
 ```php
-public setOptions(array|\Traversable $options) : \YooKassa\Common\AbstractRequestBuilder
+public setOptions(array|\Traversable $options) : \Testottest\Common\AbstractRequestBuilder
 ```
 
 **Summary**
@@ -393,7 +393,7 @@ public setOptions(array|\Traversable $options) : \YooKassa\Common\AbstractReques
 Устанавливает свойства запроса из массива
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\Testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -404,16 +404,16 @@ public setOptions(array|\Traversable $options) : \YooKassa\Common\AbstractReques
 | Type | Description |
 | ---- | ----------- |
 | \InvalidArgumentException | Выбрасывается если аргумент не массив и не итерируемый объект |
-| \YooKassa\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданныч в массиве настроек |
+| \Testottest\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданныч в массиве настроек |
 
-**Returns:** \YooKassa\Common\AbstractRequestBuilder - Инстанс текущего билдера запросов
+**Returns:** \Testottest\Common\AbstractRequestBuilder - Инстанс текущего билдера запросов
 
 
 <a name="method_setPaymentMethod" class="anchor"></a>
-#### public setPaymentMethod() : \YooKassa\Request\Payments\PaymentsRequestBuilder
+#### public setPaymentMethod() : \Testottest\Request\Payments\PaymentsRequestBuilder
 
 ```php
-public setPaymentMethod(string $value) : \YooKassa\Request\Payments\PaymentsRequestBuilder
+public setPaymentMethod(string $value) : \Testottest\Request\Payments\PaymentsRequestBuilder
 ```
 
 **Summary**
@@ -421,7 +421,7 @@ public setPaymentMethod(string $value) : \YooKassa\Request\Payments\PaymentsRequ
 Устанавливает платежный метод выбираемых платежей
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -431,17 +431,17 @@ public setPaymentMethod(string $value) : \YooKassa\Request\Payments\PaymentsRequ
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение не является валидным статусом |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение не является валидным статусом |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
 
-**Returns:** \YooKassa\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setStatus" class="anchor"></a>
-#### public setStatus() : \YooKassa\Request\Payments\PaymentsRequestBuilder
+#### public setStatus() : \Testottest\Request\Payments\PaymentsRequestBuilder
 
 ```php
-public setStatus(string $value) : \YooKassa\Request\Payments\PaymentsRequestBuilder
+public setStatus(string $value) : \Testottest\Request\Payments\PaymentsRequestBuilder
 ```
 
 **Summary**
@@ -449,7 +449,7 @@ public setStatus(string $value) : \YooKassa\Request\Payments\PaymentsRequestBuil
 Устанавливает статус выбираемых платежей
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -459,17 +459,17 @@ public setStatus(string $value) : \YooKassa\Request\Payments\PaymentsRequestBuil
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение не является валидным статусом |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение не является валидным статусом |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
 
-**Returns:** \YooKassa\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Payments\PaymentsRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_initCurrentObject" class="anchor"></a>
-#### protected initCurrentObject() : \YooKassa\Request\Payments\PaymentsRequest
+#### protected initCurrentObject() : \Testottest\Request\Payments\PaymentsRequest
 
 ```php
-protected initCurrentObject() : \YooKassa\Request\Payments\PaymentsRequest
+protected initCurrentObject() : \Testottest\Request\Payments\PaymentsRequest
 ```
 
 **Summary**
@@ -477,9 +477,9 @@ protected initCurrentObject() : \YooKassa\Request\Payments\PaymentsRequest
 Возвращает новый объект запроса для получения списка платежей, который в дальнейшем будет собираться в билдере
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payments\PaymentsRequestBuilder](../classes/YooKassa-Request-Payments-PaymentsRequestBuilder.md)
 
-**Returns:** \YooKassa\Request\Payments\PaymentsRequest - Объект запроса списка платежей магазина
+**Returns:** \Testottest\Request\Payments\PaymentsRequest - Объект запроса списка платежей магазина
 
 
 

@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\PaymentMethod\B2b\Sberbank;
+namespace Testottest\Model\PaymentMethod\B2b\Sberbank;
 
-use temirovgroup\Common\AbstractObject;
+use Testottest\Common\AbstractObject;
 
 /**
  * Банковские реквизиты плательщика

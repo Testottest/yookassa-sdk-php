@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Model\PaymentMethod;
+namespace Tests\Testottest\Model\PaymentMethod;
 
-use temirovgroup\Model\PaymentMethod\PaymentMethodWechat;
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Model\PaymentMethod\PaymentMethodWechat;
+use Testottest\Model\PaymentMethodType;
 
 class PaymentMethodWechatTest extends AbstractPaymentMethodTest
 {

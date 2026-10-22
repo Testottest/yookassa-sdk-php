@@ -24,18 +24,18 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Payments;
+namespace Testottest\Request\Payments;
 
-use temirovgroup\Model\Airline;
-use temirovgroup\Model\AirlineInterface;
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use temirovgroup\Model\Deal\PaymentDealInfo;
-use temirovgroup\Model\Metadata;
-use temirovgroup\Model\PaymentData\AbstractPaymentData;
-use temirovgroup\Model\ReceiptInterface;
-use temirovgroup\Model\RecipientInterface;
-use temirovgroup\Model\TransferInterface;
+use Testottest\Model\Airline;
+use Testottest\Model\AirlineInterface;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use Testottest\Model\Deal\PaymentDealInfo;
+use Testottest\Model\Metadata;
+use Testottest\Model\PaymentData\AbstractPaymentData;
+use Testottest\Model\ReceiptInterface;
+use Testottest\Model\RecipientInterface;
+use Testottest\Model\TransferInterface;
 
 /**
  * Interface CreatePaymentRequestInterface

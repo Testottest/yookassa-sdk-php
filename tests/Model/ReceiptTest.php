@@ -1,18 +1,18 @@
 <?php
 
-namespace Tests\YooKassa\Model;
+namespace Tests\Testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\CurrencyCode;
-use temirovgroup\Model\MonetaryAmount;
-use temirovgroup\Model\Payment;
-use temirovgroup\Model\Receipt;
-use temirovgroup\Model\Receipt\ReceiptItemAmount;
-use temirovgroup\Model\Receipt\SettlementType;
-use temirovgroup\Model\ReceiptCustomer;
-use temirovgroup\Model\ReceiptItem;
-use temirovgroup\Model\Settlement;
+use Testottest\Helpers\Random;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Payment;
+use Testottest\Model\Receipt;
+use Testottest\Model\Receipt\ReceiptItemAmount;
+use Testottest\Model\Receipt\SettlementType;
+use Testottest\Model\ReceiptCustomer;
+use Testottest\Model\ReceiptItem;
+use Testottest\Model\Settlement;
 
 class ReceiptTest extends TestCase
 {

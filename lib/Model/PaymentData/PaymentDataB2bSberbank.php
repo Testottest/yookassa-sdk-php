@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\PaymentData;
+namespace Testottest\Model\PaymentData;
 
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\PaymentData\B2b\Sberbank\VatData;
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\PaymentData\B2b\Sberbank\VatData;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * PaymentDataB2BSberbank
@@ -104,7 +104,7 @@ class PaymentDataB2bSberbank extends AbstractPaymentData
      */
     public function setVatData($value)
     {
-        if ($value === null || $value === array()) {
+        if ($value === null || $value === []) {
             $this->_vatData = null;
         } elseif ($value instanceof VatData) {
             $this->_vatData = $value;

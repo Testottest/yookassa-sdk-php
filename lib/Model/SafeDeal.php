@@ -24,16 +24,16 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model;
+namespace Testottest\Model;
 
 use DateTime;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\Deal\DealBalanceAmount;
-use temirovgroup\Model\Deal\DealStatus;
-use temirovgroup\Model\Deal\DealType;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\Deal\DealBalanceAmount;
+use Testottest\Model\Deal\DealStatus;
+use Testottest\Model\Deal\DealType;
 
 /**
  * Class SafeBaseDeal
@@ -81,7 +81,7 @@ class SafeDeal extends BaseDeal implements DealInterface
      * SafeDeal constructor.
      * @param array $data
      */
-    public function __construct($data = array())
+    public function __construct($data = [])
     {
         parent::__construct($data);
         $this->setType(DealType::SAFE_DEAL);

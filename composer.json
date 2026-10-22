@@ -1,5 +1,5 @@
 {
-  "name": "temirovgroup/yookassa-sdk-php",
+  "name": "Testottest/yookassa-sdk-php",
   "description": "This is a developer tool for integration with YooMoney.",
   "type": "library",
   "license": "MIT",
@@ -45,12 +45,12 @@
   },
   "autoload": {
     "psr-4": {
-      "temirovgroup\\": "lib/"
+      "Testottest\\": "lib/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Tests\\temirovgroup\\": "tests/"
+      "Tests\\Testottest\\": "tests/"
     }
   }
 }

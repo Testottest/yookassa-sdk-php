@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Receipts;
+namespace Testottest\Request\Receipts;
 
 /**
  * Класс сериализатора объектов запросов к API для получения списка возвратов
@@ -56,7 +56,7 @@ class ReceiptsRequestSerializer
      */
     public function serialize(ReceiptsRequestInterface $request)
     {
-        $result = array();
+        $result = [];
         foreach (self::$propertyMap as $property => $name) {
             $value = $request->{$property};
             if (!empty($value)) {

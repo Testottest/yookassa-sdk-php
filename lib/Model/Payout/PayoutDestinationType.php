@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\Payout;
+namespace Testottest\Model\Payout;
 
-use temirovgroup\Common\AbstractEnum;
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Common\AbstractEnum;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * PayoutDestinationType - Виды выплат

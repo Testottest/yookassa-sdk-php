@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Request\Payouts\CreatePayoutRequestBuilder
-### Namespace: [\YooKassa\Request\Payouts](../namespaces/yookassa-request-payouts.md)
+# Class: \Testottest\Request\Payouts\CreatePayoutRequestBuilder
+### Namespace: [\Testottest\Request\Payouts](../namespaces/yookassa-request-payouts.md)
 ---
 **Summary:**
 
@@ -38,8 +38,8 @@
 * File: [lib/Request/Payouts/CreatePayoutRequestBuilder.php](../../lib/Request/Payouts/CreatePayoutRequestBuilder.php)
 * Package: YooKassa
 * Class Hierarchy: 
-  * [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
-  * \YooKassa\Request\Payouts\CreatePayoutRequestBuilder
+  * [\Testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+  * \Testottest\Request\Payouts\CreatePayoutRequestBuilder
 
 ---
 ### Tags
@@ -50,13 +50,13 @@
 ---
 ## Properties
 <a name="property_currentObject"></a>
-#### protected $currentObject : \YooKassa\Request\Payouts\CreatePayoutRequest
+#### protected $currentObject : \Testottest\Request\Payouts\CreatePayoutRequest
 ---
 **Summary**
 
 Собираемый объект запроса
 
-**Type:** <a href="../classes/YooKassa-Request-Payouts-CreatePayoutRequest.html"><abbr title="\YooKassa\Request\Payouts\CreatePayoutRequest">CreatePayoutRequest</abbr></a>
+**Type:** <a href="../classes/YooKassa-Request-Payouts-CreatePayoutRequest.html"><abbr title="\Testottest\Request\Payouts\CreatePayoutRequest">CreatePayoutRequest</abbr></a>
 
 **Details:**
 
@@ -76,16 +76,16 @@ public __construct() : mixed
 Конструктор, инициализирует пустой запрос, который в будущем начнём собирать
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\Testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
 **Returns:** mixed - 
 
 
 <a name="method_build" class="anchor"></a>
-#### public build() : \YooKassa\Request\Payouts\CreatePayoutRequestInterface|\YooKassa\Request\Payouts\CreatePayoutRequest|\YooKassa\Common\AbstractRequest
+#### public build() : \Testottest\Request\Payouts\CreatePayoutRequestInterface|\Testottest\Request\Payouts\CreatePayoutRequest|\Testottest\Common\AbstractRequest
 
 ```php
-public build(array|null $options = null) : \YooKassa\Request\Payouts\CreatePayoutRequestInterface|\YooKassa\Request\Payouts\CreatePayoutRequest|\YooKassa\Common\AbstractRequest
+public build(array|null $options = null) : \Testottest\Request\Payouts\CreatePayoutRequestInterface|\Testottest\Request\Payouts\CreatePayoutRequest|\Testottest\Common\AbstractRequest
 ```
 
 **Summary**
@@ -93,7 +93,7 @@ public build(array|null $options = null) : \YooKassa\Request\Payouts\CreatePayou
 Строит и возвращает объект запроса для отправки в API ЮKassa
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -103,16 +103,16 @@ public build(array|null $options = null) : \YooKassa\Request\Payouts\CreatePayou
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidRequestException | Выбрасывается если собрать объект запроса не удалось |
+| \Testottest\Common\Exceptions\InvalidRequestException | Выбрасывается если собрать объект запроса не удалось |
 
-**Returns:** \YooKassa\Request\Payouts\CreatePayoutRequestInterface|\YooKassa\Request\Payouts\CreatePayoutRequest|\YooKassa\Common\AbstractRequest - Инстанс объекта запроса
+**Returns:** \Testottest\Request\Payouts\CreatePayoutRequestInterface|\Testottest\Request\Payouts\CreatePayoutRequest|\Testottest\Common\AbstractRequest - Инстанс объекта запроса
 
 
 <a name="method_setAmount" class="anchor"></a>
 #### public setAmount() : self
 
 ```php
-public setAmount(\YooKassa\Model\AmountInterface|array|string $value) : self
+public setAmount(\Testottest\Model\AmountInterface|array|string $value) : self
 ```
 
 **Summary**
@@ -120,12 +120,12 @@ public setAmount(\YooKassa\Model\AmountInterface|array|string $value) : self
 Устанавливает сумму
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Model\AmountInterface OR array OR string</code> | value  | Сумма выплаты |
+| <code lang="php">\Testottest\Model\AmountInterface OR array OR string</code> | value  | Сумма выплаты |
 
 **Returns:** self - Инстанс билдера запросов
 
@@ -134,7 +134,7 @@ public setAmount(\YooKassa\Model\AmountInterface|array|string $value) : self
 #### public setDeal() : mixed
 
 ```php
-public setDeal(\YooKassa\Model\Deal\PayoutDealInfo|array $value) : mixed
+public setDeal(\Testottest\Model\Deal\PayoutDealInfo|array $value) : mixed
 ```
 
 **Summary**
@@ -142,26 +142,26 @@ public setDeal(\YooKassa\Model\Deal\PayoutDealInfo|array $value) : mixed
 Устанавливает сделку, в рамках которой нужно провести выплату
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Model\Deal\PayoutDealInfo OR array</code> | value  | Сделка, в рамках которой нужно провести выплату |
+| <code lang="php">\Testottest\Model\Deal\PayoutDealInfo OR array</code> | value  | Сделка, в рамках которой нужно провести выплату |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если был передан объект невалидного типа |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если был передан объект невалидного типа |
 
 **Returns:** mixed - 
 
 
 <a name="method_setDescription" class="anchor"></a>
-#### public setDescription() : \YooKassa\Request\Payouts\CreatePayoutRequestBuilder
+#### public setDescription() : \Testottest\Request\Payouts\CreatePayoutRequestBuilder
 
 ```php
-public setDescription(string $value) : \YooKassa\Request\Payouts\CreatePayoutRequestBuilder
+public setDescription(string $value) : \Testottest\Request\Payouts\CreatePayoutRequestBuilder
 ```
 
 **Summary**
@@ -169,7 +169,7 @@ public setDescription(string $value) : \YooKassa\Request\Payouts\CreatePayoutReq
 Устанавливает описание транзакции
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -179,17 +179,17 @@ public setDescription(string $value) : \YooKassa\Request\Payouts\CreatePayoutReq
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение превышает допустимую длину |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение превышает допустимую длину |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
 
-**Returns:** \YooKassa\Request\Payouts\CreatePayoutRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Payouts\CreatePayoutRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setMetadata" class="anchor"></a>
-#### public setMetadata() : \YooKassa\Request\Payouts\CreatePayoutRequestBuilder
+#### public setMetadata() : \Testottest\Request\Payouts\CreatePayoutRequestBuilder
 
 ```php
-public setMetadata(\YooKassa\Model\Metadata|array|null $value) : \YooKassa\Request\Payouts\CreatePayoutRequestBuilder
+public setMetadata(\Testottest\Model\Metadata|array|null $value) : \Testottest\Request\Payouts\CreatePayoutRequestBuilder
 ```
 
 **Summary**
@@ -197,26 +197,26 @@ public setMetadata(\YooKassa\Model\Metadata|array|null $value) : \YooKassa\Reque
 Устанавливает метаданные, привязанные к платежу
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Model\Metadata OR array OR null</code> | value  | Метаданные платежа, устанавливаемые мерчантом |
+| <code lang="php">\Testottest\Model\Metadata OR array OR null</code> | value  | Метаданные платежа, устанавливаемые мерчантом |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданные данные не удалось интерпретировать как метаданные платежа |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданные данные не удалось интерпретировать как метаданные платежа |
 
-**Returns:** \YooKassa\Request\Payouts\CreatePayoutRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Payouts\CreatePayoutRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setOptions" class="anchor"></a>
-#### public setOptions() : \YooKassa\Common\AbstractRequestBuilder
+#### public setOptions() : \Testottest\Common\AbstractRequestBuilder
 
 ```php
-public setOptions(array|\Traversable $options) : \YooKassa\Common\AbstractRequestBuilder
+public setOptions(array|\Traversable $options) : \Testottest\Common\AbstractRequestBuilder
 ```
 
 **Summary**
@@ -224,7 +224,7 @@ public setOptions(array|\Traversable $options) : \YooKassa\Common\AbstractReques
 Устанавливает свойства запроса из массива
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\Testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -235,16 +235,16 @@ public setOptions(array|\Traversable $options) : \YooKassa\Common\AbstractReques
 | Type | Description |
 | ---- | ----------- |
 | \InvalidArgumentException | Выбрасывается если аргумент не массив и не итерируемый объект |
-| \YooKassa\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданныч в массиве настроек |
+| \Testottest\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданныч в массиве настроек |
 
-**Returns:** \YooKassa\Common\AbstractRequestBuilder - Инстанс текущего билдера запросов
+**Returns:** \Testottest\Common\AbstractRequestBuilder - Инстанс текущего билдера запросов
 
 
 <a name="method_setPayoutDestinationData" class="anchor"></a>
 #### public setPayoutDestinationData() : mixed
 
 ```php
-public setPayoutDestinationData(\YooKassa\Model\Payout\AbstractPayoutDestination|array|null $value) : mixed
+public setPayoutDestinationData(\Testottest\Model\Payout\AbstractPayoutDestination|array|null $value) : mixed
 ```
 
 **Summary**
@@ -252,26 +252,26 @@ public setPayoutDestinationData(\YooKassa\Model\Payout\AbstractPayoutDestination
 Устанавливает объект с информацией для создания метода оплаты
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Model\Payout\AbstractPayoutDestination OR array OR null</code> | value  | Объект создания метода оплаты или null |
+| <code lang="php">\Testottest\Model\Payout\AbstractPayoutDestination OR array OR null</code> | value  | Объект создания метода оплаты или null |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если был передан объект невалидного типа |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если был передан объект невалидного типа |
 
 **Returns:** mixed - 
 
 
 <a name="method_setPayoutToken" class="anchor"></a>
-#### public setPayoutToken() : \YooKassa\Request\Payouts\CreatePayoutRequestBuilder
+#### public setPayoutToken() : \Testottest\Request\Payouts\CreatePayoutRequestBuilder
 
 ```php
-public setPayoutToken(string $value) : \YooKassa\Request\Payouts\CreatePayoutRequestBuilder
+public setPayoutToken(string $value) : \Testottest\Request\Payouts\CreatePayoutRequestBuilder
 ```
 
 **Summary**
@@ -279,7 +279,7 @@ public setPayoutToken(string $value) : \YooKassa\Request\Payouts\CreatePayoutReq
 Устанавливает одноразовый токен для проведения выплаты
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -289,16 +289,16 @@ public setPayoutToken(string $value) : \YooKassa\Request\Payouts\CreatePayoutReq
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
 
-**Returns:** \YooKassa\Request\Payouts\CreatePayoutRequestBuilder - Инстанс текущего билдера
+**Returns:** \Testottest\Request\Payouts\CreatePayoutRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_initCurrentObject" class="anchor"></a>
-#### protected initCurrentObject() : \YooKassa\Request\Payouts\CreatePayoutRequest
+#### protected initCurrentObject() : \Testottest\Request\Payouts\CreatePayoutRequest
 
 ```php
-protected initCurrentObject() : \YooKassa\Request\Payouts\CreatePayoutRequest
+protected initCurrentObject() : \Testottest\Request\Payouts\CreatePayoutRequest
 ```
 
 **Summary**
@@ -306,9 +306,9 @@ protected initCurrentObject() : \YooKassa\Request\Payouts\CreatePayoutRequest
 Инициализирует объект запроса, который в дальнейшем будет собираться билдером
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md)
+* Inherited From: [\Testottest\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md)
 
-**Returns:** \YooKassa\Request\Payouts\CreatePayoutRequest - Инстанс собираемого объекта запроса к API
+**Returns:** \Testottest\Request\Payouts\CreatePayoutRequest - Инстанс собираемого объекта запроса к API
 
 
 

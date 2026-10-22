@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\YooKassa\Common\Exceptions;
+namespace Tests\Testottest\Common\Exceptions;
 
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
 
 class EmptyPropertyValueExceptionTest extends InvalidPropertyExceptionTest
 {

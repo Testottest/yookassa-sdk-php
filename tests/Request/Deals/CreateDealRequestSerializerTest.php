@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\YooKassa\Request\Deals;
+namespace Tests\Testottest\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\Deal\DealType;
-use temirovgroup\Model\Deal\FeeMoment;
-use temirovgroup\Request\Deals\CreateDealRequest;
-use temirovgroup\Request\Deals\CreateDealRequestSerializer;
+use Testottest\Helpers\Random;
+use Testottest\Model\Deal\DealType;
+use Testottest\Model\Deal\FeeMoment;
+use Testottest\Request\Deals\CreateDealRequest;
+use Testottest\Request\Deals\CreateDealRequestSerializer;
 
 class CreateDealRequestSerializerTest extends TestCase
 {
@@ -29,7 +29,7 @@ class CreateDealRequestSerializerTest extends TestCase
         );
 
         if (!empty($options['metadata'])) {
-            $expected['metadata'] = array();
+            $expected['metadata'] = [];
             foreach ($options['metadata'] as $key => $value) {
                 $expected['metadata'][$key] = $value;
             }

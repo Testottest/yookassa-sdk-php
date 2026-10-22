@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Helpers;
+namespace Testottest\Helpers;
 
 /**
  * Класс объекта, кастящегося в строку, используется только в тестах

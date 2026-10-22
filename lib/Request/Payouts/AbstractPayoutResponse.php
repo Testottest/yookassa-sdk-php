@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Payouts;
+namespace Testottest\Request\Payouts;
 
-use temirovgroup\Model\Payout;
-use temirovgroup\Model\PayoutInterface;
+use Testottest\Model\Payout;
+use Testottest\Model\PayoutInterface;
 
 /**
  * Абстрактный класс ответа от API, возвращающего информацию о выплате

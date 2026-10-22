@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\YooKassa\Request\Deals;
+namespace Tests\Testottest\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\Deal\DealStatus;
-use temirovgroup\Model\SafeDeal;
-use temirovgroup\Request\Deals\DealsRequest;
-use temirovgroup\Request\Deals\DealsRequestBuilder;
+use Testottest\Helpers\Random;
+use Testottest\Model\Deal\DealStatus;
+use Testottest\Model\SafeDeal;
+use Testottest\Request\Deals\DealsRequest;
+use Testottest\Request\Deals\DealsRequestBuilder;
 
 class DealsRequestBuilderTest extends TestCase
 {

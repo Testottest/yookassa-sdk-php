@@ -23,27 +23,27 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Client;
+namespace Testottest\Client;
 
 use Exception;
 use Psr\Log\LoggerInterface;
-use temirovgroup\Common\Exceptions\ApiConnectionException;
-use temirovgroup\Common\Exceptions\ApiException;
-use temirovgroup\Common\Exceptions\AuthorizeException;
-use temirovgroup\Common\Exceptions\BadApiRequestException;
-use temirovgroup\Common\Exceptions\ExtensionNotFoundException;
-use temirovgroup\Common\Exceptions\ForbiddenException;
-use temirovgroup\Common\Exceptions\InternalServerError;
-use temirovgroup\Common\Exceptions\JsonException;
-use temirovgroup\Common\Exceptions\NotFoundException;
-use temirovgroup\Common\Exceptions\ResponseProcessingException;
-use temirovgroup\Common\Exceptions\TooManyRequestsException;
-use temirovgroup\Common\Exceptions\UnauthorizedException;
-use temirovgroup\Common\LoggerWrapper;
-use temirovgroup\Common\ResponseObject;
-use temirovgroup\Helpers\Config\ConfigurationLoader;
-use temirovgroup\Helpers\Config\ConfigurationLoaderInterface;
-use temirovgroup\Helpers\SecurityHelper;
+use Testottest\Common\Exceptions\ApiConnectionException;
+use Testottest\Common\Exceptions\ApiException;
+use Testottest\Common\Exceptions\AuthorizeException;
+use Testottest\Common\Exceptions\BadApiRequestException;
+use Testottest\Common\Exceptions\ExtensionNotFoundException;
+use Testottest\Common\Exceptions\ForbiddenException;
+use Testottest\Common\Exceptions\InternalServerError;
+use Testottest\Common\Exceptions\JsonException;
+use Testottest\Common\Exceptions\NotFoundException;
+use Testottest\Common\Exceptions\ResponseProcessingException;
+use Testottest\Common\Exceptions\TooManyRequestsException;
+use Testottest\Common\Exceptions\UnauthorizedException;
+use Testottest\Common\LoggerWrapper;
+use Testottest\Common\ResponseObject;
+use Testottest\Helpers\Config\ConfigurationLoader;
+use Testottest\Helpers\Config\ConfigurationLoaderInterface;
+use Testottest\Helpers\SecurityHelper;
 
 class BaseClient
 {
@@ -318,7 +318,7 @@ class BaseClient
      */
     protected function encodeData($serializedData)
     {
-        if ($serializedData === array()) {
+        if ($serializedData === []) {
             return '{}';
         }
 
@@ -460,7 +460,7 @@ class BaseClient
      * @throws ApiConnectionException
      * @throws ExtensionNotFoundException
      */
-    protected function execute($path, $method, $queryParams, $httpBody = null, $headers = array())
+    protected function execute($path, $method, $queryParams, $httpBody = null, $headers = [])
     {
         $attempts = $this->attempts;
         $response = $this->apiClient->call($path, $method, $queryParams, $httpBody, $headers);

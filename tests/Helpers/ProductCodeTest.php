@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\YooKassa\Helpers;
+namespace Tests\Testottest\Helpers;
 
-use temirovgroup\Helpers\ProductCode;
+use Testottest\Helpers\ProductCode;
 
 class ProductCodeTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\YooKassa\Request\Webhook;
+namespace Tests\Testottest\Request\Webhook;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\NotificationEventType;
-use temirovgroup\Model\Webhook\Webhook;
-use temirovgroup\Request\Webhook\WebhookListResponse;
+use Testottest\Helpers\Random;
+use Testottest\Model\NotificationEventType;
+use Testottest\Model\Webhook\Webhook;
+use Testottest\Request\Webhook\WebhookListResponse;
 
 class WebhookListResponseTest extends TestCase
 {
@@ -56,7 +56,7 @@ class WebhookListResponseTest extends TestCase
 
     private function generateWebhooks()
     {
-        $return = array();
+        $return = [];
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {

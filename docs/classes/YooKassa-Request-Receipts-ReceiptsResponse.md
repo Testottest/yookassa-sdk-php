@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Request\Receipts\ReceiptsResponse
-### Namespace: [\YooKassa\Request\Receipts](../namespaces/yookassa-request-receipts.md)
+# Class: \Testottest\Request\Receipts\ReceiptsResponse
+### Namespace: [\Testottest\Request\Receipts](../namespaces/yookassa-request-receipts.md)
 ---
 **Summary:**
 
@@ -27,7 +27,7 @@
 * File: [lib/Request/Receipts/ReceiptsResponse.php](../../lib/Request/Receipts/ReceiptsResponse.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \YooKassa\Request\Receipts\ReceiptsResponse
+  * \Testottest\Request\Receipts\ReceiptsResponse
 
 ---
 ## Methods
@@ -43,7 +43,7 @@ public __construct(array $response) : mixed
 Конструктор, устанавливает список полученых от API чеков
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\ReceiptsResponse](../classes/YooKassa-Request-Receipts-ReceiptsResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\ReceiptsResponse](../classes/YooKassa-Request-Receipts-ReceiptsResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -59,10 +59,10 @@ public __construct(array $response) : mixed
 
 
 <a name="method_getItems" class="anchor"></a>
-#### public getItems() : \YooKassa\Request\Receipts\ReceiptResponseInterface[]
+#### public getItems() : \Testottest\Request\Receipts\ReceiptResponseInterface[]
 
 ```php
-public getItems() : \YooKassa\Request\Receipts\ReceiptResponseInterface[]
+public getItems() : \Testottest\Request\Receipts\ReceiptResponseInterface[]
 ```
 
 **Summary**
@@ -70,9 +70,9 @@ public getItems() : \YooKassa\Request\Receipts\ReceiptResponseInterface[]
 Возаращает список чеков
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\ReceiptsResponse](../classes/YooKassa-Request-Receipts-ReceiptsResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\ReceiptsResponse](../classes/YooKassa-Request-Receipts-ReceiptsResponse.md)
 
-**Returns:** \YooKassa\Request\Receipts\ReceiptResponseInterface[] - Список чеков
+**Returns:** \Testottest\Request\Receipts\ReceiptResponseInterface[] - Список чеков
 
 
 <a name="method_getNextCursor" class="anchor"></a>
@@ -87,7 +87,7 @@ public getNextCursor() : string|null
 Возвращает токен следующей страницы, если он задан, или null
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\ReceiptsResponse](../classes/YooKassa-Request-Receipts-ReceiptsResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\ReceiptsResponse](../classes/YooKassa-Request-Receipts-ReceiptsResponse.md)
 
 **Returns:** string|null - Токен следующей страницы
 
@@ -104,7 +104,7 @@ public getType() : string
 Возвращает формат выдачи результатов запроса. Возможное значение: `list` (список).
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\ReceiptsResponse](../classes/YooKassa-Request-Receipts-ReceiptsResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\ReceiptsResponse](../classes/YooKassa-Request-Receipts-ReceiptsResponse.md)
 
 **Returns:** string - Формат выдачи результатов запроса.
 
@@ -121,7 +121,7 @@ public hasNextCursor() : bool
 Проверяет имееотся ли в ответе токен следующей страницы
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\ReceiptsResponse](../classes/YooKassa-Request-Receipts-ReceiptsResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\ReceiptsResponse](../classes/YooKassa-Request-Receipts-ReceiptsResponse.md)
 
 **Returns:** bool - True если токен следующей страницы есть, false если нет
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\YooKassa\Model;
+namespace Tests\Testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\CurrencyCode;
-use temirovgroup\Model\MonetaryAmount;
-use temirovgroup\Model\Source;
+use Testottest\Helpers\Random;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Source;
 
 class SourceTest extends TestCase
 {
@@ -86,7 +86,7 @@ class SourceTest extends TestCase
      */
     public function validDataProvider()
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < 10; $i++) {
             $result[] = array(
                 'account_id' => (string)Random::int(11111111, 99999999),
@@ -199,7 +199,7 @@ class SourceTest extends TestCase
     }
 
     /**
-     * @return \YooKassa\Model\MonetaryAmount[][]
+     * @return \Testottest\Model\MonetaryAmount[][]
      * @throws \Exception
      */
     public function validAmountDataProvider()

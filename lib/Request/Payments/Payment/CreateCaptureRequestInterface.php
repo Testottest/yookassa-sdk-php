@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Payments\Payment;
+namespace Testottest\Request\Payments\Payment;
 
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\Deal\PaymentDealInfo;
-use temirovgroup\Model\MonetaryAmount;
-use temirovgroup\Model\ReceiptInterface;
-use temirovgroup\Model\TransferInterface;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\Deal\PaymentDealInfo;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\ReceiptInterface;
+use Testottest\Model\TransferInterface;
 
 /**
  * Interface CreateCaptureRequestInterface

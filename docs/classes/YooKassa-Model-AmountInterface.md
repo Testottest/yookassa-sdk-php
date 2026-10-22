@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: AmountInterface
-### Namespace: [\YooKassa\Model](../namespaces/yookassa-model.md)
+### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -47,7 +47,7 @@ public getValue() : string
 Возвращает значение суммы
 
 **Details:**
-* Inherited From: [\YooKassa\Model\AmountInterface](../classes/YooKassa-Model-AmountInterface.md)
+* Inherited From: [\Testottest\Model\AmountInterface](../classes/YooKassa-Model-AmountInterface.md)
 
 **Returns:** string - Сумма
 
@@ -56,7 +56,7 @@ public getValue() : string
 #### public setValue() : mixed
 
 ```php
-public setValue(\YooKassa\Model\numeric $value) : mixed
+public setValue(\Testottest\Model\numeric $value) : mixed
 ```
 
 **Summary**
@@ -64,12 +64,12 @@ public setValue(\YooKassa\Model\numeric $value) : mixed
 Устанавливает значение суммы
 
 **Details:**
-* Inherited From: [\YooKassa\Model\AmountInterface](../classes/YooKassa-Model-AmountInterface.md)
+* Inherited From: [\Testottest\Model\AmountInterface](../classes/YooKassa-Model-AmountInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Model\numeric</code> | value  | Сумма |
+| <code lang="php">\Testottest\Model\numeric</code> | value  | Сумма |
 
 **Returns:** mixed - 
 
@@ -86,7 +86,7 @@ public getIntegerValue() : int
 Возвращает сумму в копейках в виде целого числа
 
 **Details:**
-* Inherited From: [\YooKassa\Model\AmountInterface](../classes/YooKassa-Model-AmountInterface.md)
+* Inherited From: [\Testottest\Model\AmountInterface](../classes/YooKassa-Model-AmountInterface.md)
 
 **Returns:** int - Сумма в копейках/центах
 
@@ -103,7 +103,7 @@ public getCurrency() : string
 Возвращает валюту
 
 **Details:**
-* Inherited From: [\YooKassa\Model\AmountInterface](../classes/YooKassa-Model-AmountInterface.md)
+* Inherited From: [\Testottest\Model\AmountInterface](../classes/YooKassa-Model-AmountInterface.md)
 
 **Returns:** string - Код валюты
 
@@ -120,7 +120,7 @@ public setCurrency(string $value) : mixed
 Устанавливает код валюты
 
 **Details:**
-* Inherited From: [\YooKassa\Model\AmountInterface](../classes/YooKassa-Model-AmountInterface.md)
+* Inherited From: [\Testottest\Model\AmountInterface](../classes/YooKassa-Model-AmountInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |

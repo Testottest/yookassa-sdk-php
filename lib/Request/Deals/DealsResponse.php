@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Deals;
+namespace Testottest\Request\Deals;
 
 use Exception;
-use temirovgroup\Common\AbstractObject;
-use temirovgroup\Model\DealInterface;
+use Testottest\Common\AbstractObject;
+use Testottest\Model\DealInterface;
 
 /**
  * Класс объекта ответа от API со списком сделок магазина
@@ -55,7 +55,7 @@ class DealsResponse extends AbstractObject
      */
     public function fromArray($sourceArray)
     {
-        $this->items = array();
+        $this->items = [];
         foreach ($sourceArray['items'] as $dealInfo) {
             $this->items[] = new DealResponse($dealInfo);
         }

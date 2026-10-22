@@ -24,19 +24,19 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Receipts;
+namespace Testottest\Request\Receipts;
 
 
-use temirovgroup\Common\AbstractRequest;
-use temirovgroup\Common\AbstractRequestBuilder;
-use temirovgroup\Common\Exceptions\InvalidRequestException;
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\MonetaryAmount;
-use temirovgroup\Model\ReceiptCustomer;
-use temirovgroup\Model\ReceiptCustomerInterface;
-use temirovgroup\Model\ReceiptItemInterface;
-use temirovgroup\Model\ReceiptType;
-use temirovgroup\Model\SettlementInterface;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\AbstractRequestBuilder;
+use Testottest\Common\Exceptions\InvalidRequestException;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\ReceiptCustomer;
+use Testottest\Model\ReceiptCustomerInterface;
+use Testottest\Model\ReceiptItemInterface;
+use Testottest\Model\ReceiptType;
+use Testottest\Model\SettlementInterface;
 
 /**
  * Класс билдера объектов запросов к API на создание чека

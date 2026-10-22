@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Payouts;
+namespace Testottest\Request\Payouts;
 
 /**
  * Класс сериалайзера объекта запроса к API на проведение выплаты
@@ -41,7 +41,7 @@ class CreatePayoutRequestSerializer
      */
     public function serialize(CreatePayoutRequestInterface $request)
     {
-        $result = array();
+        $result = [];
 
         if ($request->getAmount()->getValue() > 0) {
             $result['amount'] = $request->getAmount()->toArray();

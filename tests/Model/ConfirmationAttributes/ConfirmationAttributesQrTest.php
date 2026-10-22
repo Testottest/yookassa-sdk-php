@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Model\ConfirmationAttributes;
+namespace Tests\Testottest\Model\ConfirmationAttributes;
 
-use temirovgroup\Model\ConfirmationAttributes\ConfirmationAttributesQr;
-use temirovgroup\Model\ConfirmationType;
+use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesQr;
+use Testottest\Model\ConfirmationType;
 
 class ConfirmationAttributesQrTest extends AbstractConfirmationAttributesTest
 {

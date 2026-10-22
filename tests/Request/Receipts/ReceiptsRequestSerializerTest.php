@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\YooKassa\Request\Receipts;
+namespace Tests\Testottest\Request\Receipts;
 
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\ReceiptRegistrationStatus;
-use temirovgroup\Model\RefundStatus;
-use temirovgroup\Request\Receipts\ReceiptsRequest;
+use Testottest\Helpers\Random;
+use Testottest\Model\ReceiptRegistrationStatus;
+use Testottest\Model\RefundStatus;
+use Testottest\Request\Receipts\ReceiptsRequest;
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Request\Receipts\ReceiptsRequestSerializer;
+use Testottest\Request\Receipts\ReceiptsRequestSerializer;
 
 class ReceiptsRequestSerializerTest extends TestCase
 {
@@ -21,7 +21,7 @@ class ReceiptsRequestSerializerTest extends TestCase
         $instance = ReceiptsRequest::builder()->build($value);
         $data = $serializer->serialize($instance);
 
-        $expected = array();
+        $expected = [];
 
         if (!empty($value)) {
             $expected = array(

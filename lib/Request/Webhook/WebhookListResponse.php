@@ -23,9 +23,9 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Webhook;
+namespace Testottest\Request\Webhook;
 
-use temirovgroup\Model\Webhook\Webhook;
+use Testottest\Model\Webhook\Webhook;
 
 /**
  * Актуальный список объектов webhook для переданного OAuth-токена
@@ -56,7 +56,7 @@ class WebhookListResponse
         if (!empty($response['type'])) {
             $this->type = $response['type'];
         }
-        $this->items = array();
+        $this->items = [];
         foreach ($response['items'] as $item) {
             $this->items[] = new Webhook($item);
         }

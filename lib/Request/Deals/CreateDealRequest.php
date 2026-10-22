@@ -24,24 +24,24 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Deals;
+namespace Testottest\Request\Deals;
 
-use temirovgroup\Common\AbstractPaymentRequest;
-use temirovgroup\Common\AbstractRequest;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\AirlineInterface;
-use temirovgroup\Model\AmountInterface;
-use temirovgroup\Model\Deal\DealType;
-use temirovgroup\Model\Deal\FeeMoment;
-use temirovgroup\Model\Payment;
-use temirovgroup\Model\PaymentData\AbstractPaymentData;
-use temirovgroup\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use temirovgroup\Model\Metadata;
-use temirovgroup\Model\ReceiptInterface;
-use temirovgroup\Model\RecipientInterface;
-use temirovgroup\Model\SafeDeal;
+use Testottest\Common\AbstractPaymentRequest;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\AirlineInterface;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\Deal\DealType;
+use Testottest\Model\Deal\FeeMoment;
+use Testottest\Model\Payment;
+use Testottest\Model\PaymentData\AbstractPaymentData;
+use Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use Testottest\Model\Metadata;
+use Testottest\Model\ReceiptInterface;
+use Testottest\Model\RecipientInterface;
+use Testottest\Model\SafeDeal;
 
 /**
  * Класс объекта запроса к API на проведение новой сделки

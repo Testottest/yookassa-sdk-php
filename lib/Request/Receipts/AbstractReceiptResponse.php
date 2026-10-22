@@ -24,18 +24,18 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Request\Receipts;
+namespace Testottest\Request\Receipts;
 
 use DateTime;
-use temirovgroup\Common\AbstractObject;
-use temirovgroup\Common\Exceptions\EmptyPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Model\ReceiptRegistrationStatus;
-use temirovgroup\Model\ReceiptType;
-use temirovgroup\Model\Settlement;
-use temirovgroup\Model\SettlementInterface;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\ReceiptRegistrationStatus;
+use Testottest\Model\ReceiptType;
+use Testottest\Model\Settlement;
+use Testottest\Model\SettlementInterface;
 
 /**
  * Class AbstractReceipt
@@ -103,10 +103,10 @@ abstract class AbstractReceiptResponse extends AbstractObject implements Receipt
     private $_fiscalProviderId;
 
     /** @var ReceiptResponseItemInterface[] Список товаров в заказе */
-    private $_items = array();
+    private $_items = [];
 
     /** @var SettlementInterface[] Список оплат */
-    private $_settlements = array();
+    private $_settlements = [];
 
     /** @var int Код системы налогообложения. Число 1-6. */
     private $_taxSystemCode;
@@ -155,7 +155,7 @@ abstract class AbstractReceiptResponse extends AbstractObject implements Receipt
         }
         if (!empty($receiptData['items'])) {
             if (is_array($receiptData['items']) && count($receiptData['items'])) {
-                $itemsArray = array();
+                $itemsArray = [];
                 foreach ($receiptData['items'] as $item) {
                     $itemsArray[] = new ReceiptResponseItem($item);
                 }
@@ -168,7 +168,7 @@ abstract class AbstractReceiptResponse extends AbstractObject implements Receipt
         }
         if (!empty($receiptData['settlements'])) {
             if (is_array($receiptData['settlements']) && count($receiptData['settlements'])) {
-                $itemsArray = array();
+                $itemsArray = [];
                 foreach ($receiptData['settlements'] as $item) {
                     $itemsArray[] = new Settlement($item);
                 }
@@ -457,7 +457,7 @@ abstract class AbstractReceiptResponse extends AbstractObject implements Receipt
                 'Invalid items value type in receipt', 0, 'receipt.items', $value
             );
         }
-        $this->_items = array();
+        $this->_items = [];
         foreach ($value as $key => $val) {
             if (is_object($val) && $val instanceof ReceiptResponseItemInterface) {
                 $this->addItem($val);
@@ -504,7 +504,7 @@ abstract class AbstractReceiptResponse extends AbstractObject implements Receipt
                 'Invalid settlements value type in receipt', 0, 'receipt.settlements', $value
             );
         }
-        $this->_settlements = array();
+        $this->_settlements = [];
         foreach ($value as $key => $val) {
             if (is_array($val)) {
                 $this->addSettlement(new Settlement($val));

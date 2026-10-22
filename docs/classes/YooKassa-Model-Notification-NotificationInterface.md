@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: NotificationInterface
-### Namespace: [\YooKassa\Model\Notification](../namespaces/yookassa-model-notification.md)
+### Namespace: [\Testottest\Model\Notification](../namespaces/yookassa-model-notification.md)
 ---
 ---
 ### Constants
@@ -38,7 +38,7 @@ public getType() : string
 Тип уведомления - одна из констант, указанных в перечислении {@link}.
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Notification\NotificationInterface](../classes/YooKassa-Model-Notification-NotificationInterface.md)
+* Inherited From: [\Testottest\Model\Notification\NotificationInterface](../classes/YooKassa-Model-Notification-NotificationInterface.md)
 
 **Returns:** string - Тип уведомления в виде строки
 
@@ -59,16 +59,16 @@ public getEvent() : string
 Тип события - одна из констант, указанных в перечислении {@link}.
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Notification\NotificationInterface](../classes/YooKassa-Model-Notification-NotificationInterface.md)
+* Inherited From: [\Testottest\Model\Notification\NotificationInterface](../classes/YooKassa-Model-Notification-NotificationInterface.md)
 
 **Returns:** string - Тип события
 
 
 <a name="method_getObject" class="anchor"></a>
-#### public getObject() : \YooKassa\Model\PaymentInterface|\YooKassa\Model\RefundInterface
+#### public getObject() : \Testottest\Model\PaymentInterface|\Testottest\Model\RefundInterface
 
 ```php
-public getObject() : \YooKassa\Model\PaymentInterface|\YooKassa\Model\RefundInterface
+public getObject() : \Testottest\Model\PaymentInterface|\Testottest\Model\RefundInterface
 ```
 
 **Summary**
@@ -82,9 +82,9 @@ public getObject() : \YooKassa\Model\PaymentInterface|\YooKassa\Model\RefundInte
 платеже у API.
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Notification\NotificationInterface](../classes/YooKassa-Model-Notification-NotificationInterface.md)
+* Inherited From: [\Testottest\Model\Notification\NotificationInterface](../classes/YooKassa-Model-Notification-NotificationInterface.md)
 
-**Returns:** \YooKassa\Model\PaymentInterface|\YooKassa\Model\RefundInterface - Объект с информацией о платеже
+**Returns:** \Testottest\Model\PaymentInterface|\Testottest\Model\RefundInterface - Объект с информацией о платеже
 
 
 

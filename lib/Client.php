@@ -24,78 +24,78 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup;
+namespace Testottest;
 
 use Exception;
 use InvalidArgumentException;
-use temirovgroup\Client\BaseClient;
-use temirovgroup\Common\Exceptions\ApiException;
-use temirovgroup\Common\Exceptions\AuthorizeException;
-use temirovgroup\Common\Exceptions\BadApiRequestException;
-use temirovgroup\Common\Exceptions\ExtensionNotFoundException;
-use temirovgroup\Common\Exceptions\ForbiddenException;
-use temirovgroup\Common\Exceptions\InternalServerError;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueException;
-use temirovgroup\Common\Exceptions\InvalidPropertyValueTypeException;
-use temirovgroup\Common\Exceptions\NotFoundException;
-use temirovgroup\Common\Exceptions\ResponseProcessingException;
-use temirovgroup\Common\Exceptions\TooManyRequestsException;
-use temirovgroup\Common\Exceptions\UnauthorizedException;
-use temirovgroup\Common\HttpVerb;
-use temirovgroup\Helpers\TypeCast;
-use temirovgroup\Helpers\UUID;
-use temirovgroup\Model\DealInterface;
-use temirovgroup\Model\PaymentInterface;
-use temirovgroup\Model\PayoutInterface;
-use temirovgroup\Model\RefundInterface;
-use temirovgroup\Model\Webhook\Webhook;
-use temirovgroup\Request\Deals\CreateDealRequest;
-use temirovgroup\Request\Deals\CreateDealRequestInterface;
-use temirovgroup\Request\Deals\CreateDealRequestSerializer;
-use temirovgroup\Request\Deals\CreateDealResponse;
-use temirovgroup\Request\Deals\DealResponse;
-use temirovgroup\Request\Deals\DealsRequest;
-use temirovgroup\Request\Deals\DealsRequestInterface;
-use temirovgroup\Request\Deals\DealsRequestSerializer;
-use temirovgroup\Request\Deals\DealsResponse;
-use temirovgroup\Request\Payments\CreatePaymentRequest;
-use temirovgroup\Request\Payments\CreatePaymentRequestInterface;
-use temirovgroup\Request\Payments\CreatePaymentRequestSerializer;
-use temirovgroup\Request\Payments\CreatePaymentResponse;
-use temirovgroup\Request\Payments\Payment\CancelResponse;
-use temirovgroup\Request\Payments\Payment\CreateCaptureRequest;
-use temirovgroup\Request\Payments\Payment\CreateCaptureRequestInterface;
-use temirovgroup\Request\Payments\Payment\CreateCaptureRequestSerializer;
-use temirovgroup\Request\Payments\Payment\CreateCaptureResponse;
-use temirovgroup\Request\Payments\PaymentResponse;
-use temirovgroup\Request\Payments\PaymentsRequest;
-use temirovgroup\Request\Payments\PaymentsRequestInterface;
-use temirovgroup\Request\Payments\PaymentsRequestSerializer;
-use temirovgroup\Request\Payments\PaymentsResponse;
-use temirovgroup\Request\Payouts\CreatePayoutRequest;
-use temirovgroup\Request\Payouts\CreatePayoutRequestInterface;
-use temirovgroup\Request\Payouts\CreatePayoutRequestSerializer;
-use temirovgroup\Request\Payouts\CreatePayoutResponse;
-use temirovgroup\Request\Payouts\PayoutResponse;
-use temirovgroup\Request\Receipts\AbstractReceiptResponse;
-use temirovgroup\Request\Receipts\CreatePostReceiptRequest;
-use temirovgroup\Request\Receipts\CreatePostReceiptRequestInterface;
-use temirovgroup\Request\Receipts\CreatePostReceiptRequestSerializer;
-use temirovgroup\Request\Receipts\ReceiptResponseFactory;
-use temirovgroup\Request\Receipts\ReceiptResponseInterface;
-use temirovgroup\Request\Receipts\ReceiptsRequest;
-use temirovgroup\Request\Receipts\ReceiptsRequestSerializer;
-use temirovgroup\Request\Receipts\ReceiptsResponse;
-use temirovgroup\Request\Refunds\CreateRefundRequest;
-use temirovgroup\Request\Refunds\CreateRefundRequestInterface;
-use temirovgroup\Request\Refunds\CreateRefundRequestSerializer;
-use temirovgroup\Request\Refunds\CreateRefundResponse;
-use temirovgroup\Request\Refunds\RefundResponse;
-use temirovgroup\Request\Refunds\RefundsRequest;
-use temirovgroup\Request\Refunds\RefundsRequestInterface;
-use temirovgroup\Request\Refunds\RefundsRequestSerializer;
-use temirovgroup\Request\Refunds\RefundsResponse;
-use temirovgroup\Request\Webhook\WebhookListResponse;
+use Testottest\Client\BaseClient;
+use Testottest\Common\Exceptions\ApiException;
+use Testottest\Common\Exceptions\AuthorizeException;
+use Testottest\Common\Exceptions\BadApiRequestException;
+use Testottest\Common\Exceptions\ExtensionNotFoundException;
+use Testottest\Common\Exceptions\ForbiddenException;
+use Testottest\Common\Exceptions\InternalServerError;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Common\Exceptions\NotFoundException;
+use Testottest\Common\Exceptions\ResponseProcessingException;
+use Testottest\Common\Exceptions\TooManyRequestsException;
+use Testottest\Common\Exceptions\UnauthorizedException;
+use Testottest\Common\HttpVerb;
+use Testottest\Helpers\TypeCast;
+use Testottest\Helpers\UUID;
+use Testottest\Model\DealInterface;
+use Testottest\Model\PaymentInterface;
+use Testottest\Model\PayoutInterface;
+use Testottest\Model\RefundInterface;
+use Testottest\Model\Webhook\Webhook;
+use Testottest\Request\Deals\CreateDealRequest;
+use Testottest\Request\Deals\CreateDealRequestInterface;
+use Testottest\Request\Deals\CreateDealRequestSerializer;
+use Testottest\Request\Deals\CreateDealResponse;
+use Testottest\Request\Deals\DealResponse;
+use Testottest\Request\Deals\DealsRequest;
+use Testottest\Request\Deals\DealsRequestInterface;
+use Testottest\Request\Deals\DealsRequestSerializer;
+use Testottest\Request\Deals\DealsResponse;
+use Testottest\Request\Payments\CreatePaymentRequest;
+use Testottest\Request\Payments\CreatePaymentRequestInterface;
+use Testottest\Request\Payments\CreatePaymentRequestSerializer;
+use Testottest\Request\Payments\CreatePaymentResponse;
+use Testottest\Request\Payments\Payment\CancelResponse;
+use Testottest\Request\Payments\Payment\CreateCaptureRequest;
+use Testottest\Request\Payments\Payment\CreateCaptureRequestInterface;
+use Testottest\Request\Payments\Payment\CreateCaptureRequestSerializer;
+use Testottest\Request\Payments\Payment\CreateCaptureResponse;
+use Testottest\Request\Payments\PaymentResponse;
+use Testottest\Request\Payments\PaymentsRequest;
+use Testottest\Request\Payments\PaymentsRequestInterface;
+use Testottest\Request\Payments\PaymentsRequestSerializer;
+use Testottest\Request\Payments\PaymentsResponse;
+use Testottest\Request\Payouts\CreatePayoutRequest;
+use Testottest\Request\Payouts\CreatePayoutRequestInterface;
+use Testottest\Request\Payouts\CreatePayoutRequestSerializer;
+use Testottest\Request\Payouts\CreatePayoutResponse;
+use Testottest\Request\Payouts\PayoutResponse;
+use Testottest\Request\Receipts\AbstractReceiptResponse;
+use Testottest\Request\Receipts\CreatePostReceiptRequest;
+use Testottest\Request\Receipts\CreatePostReceiptRequestInterface;
+use Testottest\Request\Receipts\CreatePostReceiptRequestSerializer;
+use Testottest\Request\Receipts\ReceiptResponseFactory;
+use Testottest\Request\Receipts\ReceiptResponseInterface;
+use Testottest\Request\Receipts\ReceiptsRequest;
+use Testottest\Request\Receipts\ReceiptsRequestSerializer;
+use Testottest\Request\Receipts\ReceiptsResponse;
+use Testottest\Request\Refunds\CreateRefundRequest;
+use Testottest\Request\Refunds\CreateRefundRequestInterface;
+use Testottest\Request\Refunds\CreateRefundRequestSerializer;
+use Testottest\Request\Refunds\CreateRefundResponse;
+use Testottest\Request\Refunds\RefundResponse;
+use Testottest\Request\Refunds\RefundsRequest;
+use Testottest\Request\Refunds\RefundsRequestInterface;
+use Testottest\Request\Refunds\RefundsRequestSerializer;
+use Testottest\Request\Refunds\RefundsResponse;
+use Testottest\Request\Webhook\WebhookListResponse;
 
 /**
  * Класс клиента API
@@ -144,7 +144,7 @@ class Client extends BaseClient
         $path = self::PAYMENTS_PATH;
 
         if ($filter === null) {
-            $queryParams = array();
+            $queryParams = [];
         } else {
             if (is_array($filter)) {
                 $filter = PaymentsRequest::builder()->build($filter);
@@ -210,7 +210,7 @@ class Client extends BaseClient
     {
         $path = self::PAYMENTS_PATH;
 
-        $headers = array();
+        $headers = [];
 
         if ($idempotenceKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotenceKey;
@@ -327,7 +327,7 @@ class Client extends BaseClient
 
         $path = '/payments/'.$paymentId.'/capture';
 
-        $headers = array();
+        $headers = [];
 
         if ($idempotencyKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotencyKey;
@@ -392,7 +392,7 @@ class Client extends BaseClient
         }
 
         $path    = self::PAYMENTS_PATH.'/'.$paymentId.'/cancel';
-        $headers = array();
+        $headers = [];
         if ($idempotencyKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotencyKey;
         } else {
@@ -443,7 +443,7 @@ class Client extends BaseClient
         $path = self::REFUNDS_PATH;
 
         if ($filter === null) {
-            $queryParams = array();
+            $queryParams = [];
         } else {
             if (is_array($filter)) {
                 $filter = RefundsRequest::builder()->build($filter);
@@ -494,7 +494,7 @@ class Client extends BaseClient
     {
         $path = self::REFUNDS_PATH;
 
-        $headers = array();
+        $headers = [];
 
         if ($idempotencyKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotencyKey;
@@ -595,7 +595,7 @@ class Client extends BaseClient
     {
         $path = self::WEBHOOKS_PATH;
 
-        $headers = array();
+        $headers = [];
 
         if ($idempotencyKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotencyKey;
@@ -653,7 +653,7 @@ class Client extends BaseClient
      */
     public function removeWebhook($webhookId, $idempotencyKey = null)
     {
-        $headers = array();
+        $headers = [];
 
         if ($idempotencyKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotencyKey;
@@ -744,7 +744,7 @@ class Client extends BaseClient
         $path = self::RECEIPTS_PATH;
 
         if ($filter === null) {
-            $queryParams = array();
+            $queryParams = [];
         } else {
             if (is_array($filter)) {
                 $filter = ReceiptsRequest::builder()->build($filter);
@@ -795,7 +795,7 @@ class Client extends BaseClient
     {
         $path = self::RECEIPTS_PATH;
 
-        $headers = array();
+        $headers = [];
 
         if ($idempotenceKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotenceKey;
@@ -911,7 +911,7 @@ class Client extends BaseClient
     {
         $path = self::DEALS_PATH;
 
-        $headers = array();
+        $headers = [];
 
         if ($idempotenceKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotenceKey;
@@ -1017,7 +1017,7 @@ class Client extends BaseClient
         $path = self::DEALS_PATH;
 
         if ($filter === null) {
-            $queryParams = array();
+            $queryParams = [];
         } else {
             if (is_array($filter)) {
                 $filter = DealsRequest::builder()->build($filter);
@@ -1084,7 +1084,7 @@ class Client extends BaseClient
     {
         $path = self::PAYOUTS_PATH;
 
-        $headers = array();
+        $headers = [];
 
         if ($idempotenceKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotenceKey;
@@ -1188,7 +1188,7 @@ class Client extends BaseClient
     {
         $path = self::ME_PATH;
 
-        $queryParams = array();
+        $queryParams = [];
         if (is_array($filter)) {
             $queryParams = $filter;
         } elseif (is_string($filter) || is_int($filter)) {

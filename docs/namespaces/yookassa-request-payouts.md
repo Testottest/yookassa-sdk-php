@@ -1,29 +1,29 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \YooKassa\Request\Payouts
+# Namespace: \Testottest\Request\Payouts
 
-## Parent: [\YooKassa\Request](../namespaces/yookassa-request.md)
+## Parent: [\Testottest\Request](../namespaces/yookassa-request.md)
 
 ### Namespaces
 
-* [\YooKassa\Request\Payouts\PayoutDestinationData](../namespaces/yookassa-request-payouts-payoutdestinationdata.md)
+* [\Testottest\Request\Payouts\PayoutDestinationData](../namespaces/yookassa-request-payouts-payoutdestinationdata.md)
 
 ### Interfaces
 
 | Name | Summary |
 | ---- | ------- |
-| [\YooKassa\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md) | Interface CreatePayoutRequestInterface |
+| [\Testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md) | Interface CreatePayoutRequestInterface |
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\YooKassa\Request\Payouts\AbstractPayoutResponse](../classes/YooKassa-Request-Payouts-AbstractPayoutResponse.md) | Абстрактный класс ответа от API, возвращающего информацию о выплате |
-| [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md) | Класс объекта запроса к API на проведение новой выплаты |
-| [\YooKassa\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md) | Класс билдера объектов запросов к API на создание платежа |
-| [\YooKassa\Request\Payouts\CreatePayoutRequestSerializer](../classes/YooKassa-Request-Payouts-CreatePayoutRequestSerializer.md) | Класс сериалайзера объекта запроса к API на проведение выплаты |
-| [\YooKassa\Request\Payouts\CreatePayoutResponse](../classes/YooKassa-Request-Payouts-CreatePayoutResponse.md) | Класс объекта ответа возвращаемого API при запросе на создание выплаты |
-| [\YooKassa\Request\Payouts\PayoutResponse](../classes/YooKassa-Request-Payouts-PayoutResponse.md) | Класс объекта ответа, возвращаемого API при запросе конкретной выплаты |
+| [\Testottest\Request\Payouts\AbstractPayoutResponse](../classes/YooKassa-Request-Payouts-AbstractPayoutResponse.md) | Абстрактный класс ответа от API, возвращающего информацию о выплате |
+| [\Testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md) | Класс объекта запроса к API на проведение новой выплаты |
+| [\Testottest\Request\Payouts\CreatePayoutRequestBuilder](../classes/YooKassa-Request-Payouts-CreatePayoutRequestBuilder.md) | Класс билдера объектов запросов к API на создание платежа |
+| [\Testottest\Request\Payouts\CreatePayoutRequestSerializer](../classes/YooKassa-Request-Payouts-CreatePayoutRequestSerializer.md) | Класс сериалайзера объекта запроса к API на проведение выплаты |
+| [\Testottest\Request\Payouts\CreatePayoutResponse](../classes/YooKassa-Request-Payouts-CreatePayoutResponse.md) | Класс объекта ответа возвращаемого API при запросе на создание выплаты |
+| [\Testottest\Request\Payouts\PayoutResponse](../classes/YooKassa-Request-Payouts-PayoutResponse.md) | Класс объекта ответа, возвращаемого API при запросе конкретной выплаты |
 
 ---
 

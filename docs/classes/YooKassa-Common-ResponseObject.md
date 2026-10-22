@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Common\ResponseObject
-### Namespace: [\YooKassa\Common](../namespaces/yookassa-common.md)
+# Class: \Testottest\Common\ResponseObject
+### Namespace: [\Testottest\Common](../namespaces/yookassa-common.md)
 ---
 **Summary:**
 
@@ -34,7 +34,7 @@
 * File: [lib/Common/ResponseObject.php](../../lib/Common/ResponseObject.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \YooKassa\Common\ResponseObject
+  * \Testottest\Common\ResponseObject
 
 ---
 ## Properties
@@ -85,7 +85,7 @@ public __construct(mixed $config = null) : mixed
 ```
 
 **Details:**
-* Inherited From: [\YooKassa\Common\ResponseObject](../classes/YooKassa-Common-ResponseObject.md)
+* Inherited From: [\Testottest\Common\ResponseObject](../classes/YooKassa-Common-ResponseObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -107,7 +107,7 @@ public getBody() : mixed
 Возвращает тело ответа
 
 **Details:**
-* Inherited From: [\YooKassa\Common\ResponseObject](../classes/YooKassa-Common-ResponseObject.md)
+* Inherited From: [\Testottest\Common\ResponseObject](../classes/YooKassa-Common-ResponseObject.md)
 
 **Returns:** mixed - Тело ответа
 
@@ -124,7 +124,7 @@ public getCode() : int|string
 Возвращает HTTP код ответа
 
 **Details:**
-* Inherited From: [\YooKassa\Common\ResponseObject](../classes/YooKassa-Common-ResponseObject.md)
+* Inherited From: [\Testottest\Common\ResponseObject](../classes/YooKassa-Common-ResponseObject.md)
 
 **Returns:** int|string - HTTP код ответа
 
@@ -141,7 +141,7 @@ public getHeaders() : array
 Возвращает массив заголовков ответа
 
 **Details:**
-* Inherited From: [\YooKassa\Common\ResponseObject](../classes/YooKassa-Common-ResponseObject.md)
+* Inherited From: [\Testottest\Common\ResponseObject](../classes/YooKassa-Common-ResponseObject.md)
 
 **Returns:** array - Массив заголовков ответа
 

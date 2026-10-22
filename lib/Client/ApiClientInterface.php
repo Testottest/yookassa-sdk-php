@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Client;
+namespace Testottest\Client;
 
 use Psr\Log\LoggerInterface;
-use temirovgroup\Common\ResponseObject;
+use Testottest\Common\ResponseObject;
 
 /**
  * Interface ApiClientInterface

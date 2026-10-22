@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\YooKassa\Request\Receipts;
+namespace Tests\Testottest\Request\Receipts;
 
-use temirovgroup\Helpers\Random;
-use temirovgroup\Model\Receipt\SettlementType;
-use temirovgroup\Model\ReceiptRegistrationStatus;
-use temirovgroup\Model\RefundStatus;
-use temirovgroup\Request\Receipts\ReceiptsRequest;
+use Testottest\Helpers\Random;
+use Testottest\Model\Receipt\SettlementType;
+use Testottest\Model\ReceiptRegistrationStatus;
+use Testottest\Model\RefundStatus;
+use Testottest\Request\Receipts\ReceiptsRequest;
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Request\Receipts\ReceiptsRequestBuilder;
+use Testottest\Request\Receipts\ReceiptsRequestBuilder;
 
 class ReceiptsRequestTest extends TestCase
 {

@@ -23,10 +23,10 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\PaymentData;
+namespace Testottest\Model\PaymentData;
 
 
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * @deprecated Класс будет удалён в одной из будущих версий.

@@ -23,10 +23,10 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model\PaymentMethod;
+namespace Testottest\Model\PaymentMethod;
 
 
-use temirovgroup\Model\PaymentMethodType;
+use Testottest\Model\PaymentMethodType;
 
 class PaymentMethodPsb extends AbstractPaymentMethod
 {

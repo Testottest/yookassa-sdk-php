@@ -1,28 +1,28 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \YooKassa\Model\Notification
+# Namespace: \Testottest\Model\Notification
 
-## Parent: [\YooKassa\Model](../namespaces/yookassa-model.md)
+## Parent: [\Testottest\Model](../namespaces/yookassa-model.md)
 
 ### Interfaces
 
 | Name | Summary |
 | ---- | ------- |
-| [\YooKassa\Model\Notification\NotificationInterface](../classes/YooKassa-Model-Notification-NotificationInterface.md) |  |
+| [\Testottest\Model\Notification\NotificationInterface](../classes/YooKassa-Model-Notification-NotificationInterface.md) |  |
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\YooKassa\Model\Notification\AbstractNotification](../classes/YooKassa-Model-Notification-AbstractNotification.md) | Базовый класс уведомлений |
-| [\YooKassa\Model\Notification\NotificationCanceled](../classes/YooKassa-Model-Notification-NotificationCanceled.md) | Класс объекта, присылаемого API при изменении статуса платежа на &quot;canceled&quot; |
-| [\YooKassa\Model\Notification\NotificationDealClosed](../classes/YooKassa-Model-Notification-NotificationDealClosed.md) | Класс объекта, присылаемого API при изменении статуса сделки на &quot;closed&quot; |
-| [\YooKassa\Model\Notification\NotificationFactory](../classes/YooKassa-Model-Notification-NotificationFactory.md) | Фабрика для получения конкретного объекта уведомления. |
-| [\YooKassa\Model\Notification\NotificationPayoutCanceled](../classes/YooKassa-Model-Notification-NotificationPayoutCanceled.md) | Класс объекта, присылаемого API при изменении статуса выплаты на &quot;canceled&quot; |
-| [\YooKassa\Model\Notification\NotificationPayoutSucceeded](../classes/YooKassa-Model-Notification-NotificationPayoutSucceeded.md) | Класс объекта, присылаемого API при изменении статуса выплаты на &quot;succeeded&quot; |
-| [\YooKassa\Model\Notification\NotificationRefundSucceeded](../classes/YooKassa-Model-Notification-NotificationRefundSucceeded.md) | Класс объекта, присылаемого API при изменении статуса возврата на &quot;succeeded&quot; |
-| [\YooKassa\Model\Notification\NotificationSucceeded](../classes/YooKassa-Model-Notification-NotificationSucceeded.md) | Класс объекта, присылаемого API при изменении статуса платежа на &quot;succeeded&quot; |
-| [\YooKassa\Model\Notification\NotificationWaitingForCapture](../classes/YooKassa-Model-Notification-NotificationWaitingForCapture.md) | Класс объекта, присылаемого API при изменении статуса платежа на &quot;waiting_for_capture&quot; |
+| [\Testottest\Model\Notification\AbstractNotification](../classes/YooKassa-Model-Notification-AbstractNotification.md) | Базовый класс уведомлений |
+| [\Testottest\Model\Notification\NotificationCanceled](../classes/YooKassa-Model-Notification-NotificationCanceled.md) | Класс объекта, присылаемого API при изменении статуса платежа на &quot;canceled&quot; |
+| [\Testottest\Model\Notification\NotificationDealClosed](../classes/YooKassa-Model-Notification-NotificationDealClosed.md) | Класс объекта, присылаемого API при изменении статуса сделки на &quot;closed&quot; |
+| [\Testottest\Model\Notification\NotificationFactory](../classes/YooKassa-Model-Notification-NotificationFactory.md) | Фабрика для получения конкретного объекта уведомления. |
+| [\Testottest\Model\Notification\NotificationPayoutCanceled](../classes/YooKassa-Model-Notification-NotificationPayoutCanceled.md) | Класс объекта, присылаемого API при изменении статуса выплаты на &quot;canceled&quot; |
+| [\Testottest\Model\Notification\NotificationPayoutSucceeded](../classes/YooKassa-Model-Notification-NotificationPayoutSucceeded.md) | Класс объекта, присылаемого API при изменении статуса выплаты на &quot;succeeded&quot; |
+| [\Testottest\Model\Notification\NotificationRefundSucceeded](../classes/YooKassa-Model-Notification-NotificationRefundSucceeded.md) | Класс объекта, присылаемого API при изменении статуса возврата на &quot;succeeded&quot; |
+| [\Testottest\Model\Notification\NotificationSucceeded](../classes/YooKassa-Model-Notification-NotificationSucceeded.md) | Класс объекта, присылаемого API при изменении статуса платежа на &quot;succeeded&quot; |
+| [\Testottest\Model\Notification\NotificationWaitingForCapture](../classes/YooKassa-Model-Notification-NotificationWaitingForCapture.md) | Класс объекта, присылаемого API при изменении статуса платежа на &quot;waiting_for_capture&quot; |
 
 ---
 

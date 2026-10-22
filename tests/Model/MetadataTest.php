@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Model;
+namespace Tests\Testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use temirovgroup\Model\Metadata;
+use Testottest\Model\Metadata;
 
 class MetadataTest extends TestCase
 {

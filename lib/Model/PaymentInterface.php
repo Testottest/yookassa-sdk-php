@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace temirovgroup\Model;
+namespace Testottest\Model;
 
-use temirovgroup\Model\Deal\PaymentDealInfo;
-use temirovgroup\Model\PaymentMethod\AbstractPaymentMethod;
+use Testottest\Model\Deal\PaymentDealInfo;
+use Testottest\Model\PaymentMethod\AbstractPaymentMethod;
 
 /**
  * Interface PaymentInterface
