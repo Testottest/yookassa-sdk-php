@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Helpers;
+namespace Testottest\Helpers;
 
 class SecurityHelper
 {

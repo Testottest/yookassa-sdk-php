@@ -1,19 +1,19 @@
 <?php
 
-namespace Tests\YooKassa\Request\Receipts;
+namespace Tests\Testottest\Request\Receipts;
 
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Helpers\ProductCode;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Airline;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Receipt\PaymentMode;
-use YooKassa\Model\Receipt\PaymentSubject;
-use YooKassa\Model\Supplier;
-use YooKassa\Model\SupplierInterface;
-use YooKassa\Request\Receipts\ReceiptResponseItem;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Helpers\ProductCode;
+use Testottest\Helpers\Random;
+use Testottest\Model\Airline;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Receipt\PaymentMode;
+use Testottest\Model\Receipt\PaymentSubject;
+use Testottest\Model\Supplier;
+use Testottest\Model\SupplierInterface;
+use Testottest\Request\Receipts\ReceiptResponseItem;
 use PHPUnit\Framework\TestCase;
 
 class ReceiptResponseItemTest extends TestCase

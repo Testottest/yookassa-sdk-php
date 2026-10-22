@@ -1,20 +1,20 @@
 <?php
 
-namespace Tests\YooKassa\Model;
+namespace Tests\Testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Helpers\StringObject;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Deal\RefundDealInfo;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Payment;
-use YooKassa\Model\ReceiptRegistrationStatus;
-use YooKassa\Model\Refund;
-use YooKassa\Model\RefundStatus;
-use YooKassa\Model\Source;
-use YooKassa\Request\Refunds\CreateRefundRequest;
+use Testottest\Helpers\Random;
+use Testottest\Helpers\StringObject;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\Deal\RefundDealInfo;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Payment;
+use Testottest\Model\ReceiptRegistrationStatus;
+use Testottest\Model\Refund;
+use Testottest\Model\RefundStatus;
+use Testottest\Model\Source;
+use Testottest\Request\Refunds\CreateRefundRequest;
 
 class RefundTest extends TestCase
 {
@@ -128,7 +128,7 @@ class RefundTest extends TestCase
      */
     public function validSources()
     {
-        $sources = array();
+        $sources = [];
         for($i = 0; $i < 10; $i++) {
             $sources[$i][] = array(
                 'account_id' => (string)Random::int(11111111, 99999999),
@@ -236,7 +236,7 @@ class RefundTest extends TestCase
      */
     public function validStatusDataProvider()
     {
-        $result = array();
+        $result = [];
         foreach (RefundStatus::getValidValues() as $value) {
             $result[] = array($value);
             $result[] = array(new StringObject($value));
@@ -486,7 +486,7 @@ class RefundTest extends TestCase
      */
     public function validReceiptRegisteredDataProvider()
     {
-        $result = array();
+        $result = [];
         foreach (ReceiptRegistrationStatus::getValidValues() as $value) {
             $result[] = array($value);
             $result[] = array(new StringObject($value));

@@ -24,17 +24,17 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Notification;
+namespace Testottest\Model\Notification;
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\NotificationEventType;
-use YooKassa\Model\NotificationType;
-use YooKassa\Model\PaymentInterface;
-use YooKassa\Model\RefundInterface;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\NotificationEventType;
+use Testottest\Model\NotificationType;
+use Testottest\Model\PaymentInterface;
+use Testottest\Model\RefundInterface;
 
 /**
  * Базовый класс уведомлений

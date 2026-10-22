@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\YooKassa\Model\Notification;
+namespace Tests\Testottest\Model\Notification;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Notification\AbstractNotification;
+use Testottest\Helpers\Random;
+use Testottest\Model\Notification\AbstractNotification;
 
 abstract class AbstractNotificationTest extends TestCase
 {

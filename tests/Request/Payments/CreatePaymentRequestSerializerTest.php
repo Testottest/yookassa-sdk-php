@@ -1,37 +1,37 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payments;
+namespace Tests\Testottest\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Airline;
-use YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
-use YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesRedirect;
-use YooKassa\Model\ConfirmationType;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Leg;
-use YooKassa\Model\Passenger;
-use YooKassa\Model\Payment;
-use YooKassa\Model\PaymentData\B2b\Sberbank\VatDataRate;
-use YooKassa\Model\PaymentData\B2b\Sberbank\VatDataType;
-use YooKassa\Model\PaymentData\PaymentDataAlfabank;
-use YooKassa\Model\PaymentData\PaymentDataB2bSberbank;
-use YooKassa\Model\PaymentData\PaymentDataGooglePay;
-use YooKassa\Model\PaymentData\PaymentDataApplePay;
-use YooKassa\Model\PaymentData\PaymentDataBankCard;
-use YooKassa\Model\PaymentData\PaymentDataBankCardCard;
-use YooKassa\Model\PaymentData\PaymentDataMobileBalance;
-use YooKassa\Model\PaymentData\PaymentDataInstallments;
-use YooKassa\Model\PaymentData\PaymentDataQiwi;
-use YooKassa\Model\PaymentData\PaymentDataSberbank;
-use YooKassa\Model\PaymentData\PaymentDataWebmoney;
-use YooKassa\Model\PaymentData\PaymentDataYooMoney;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\Receipt\PaymentMode;
-use YooKassa\Model\Receipt\PaymentSubject;
-use YooKassa\Model\TransferStatus;
-use YooKassa\Request\Payments\CreatePaymentRequest;
-use YooKassa\Request\Payments\CreatePaymentRequestSerializer;
+use Testottest\Helpers\Random;
+use Testottest\Model\Airline;
+use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
+use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesRedirect;
+use Testottest\Model\ConfirmationType;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\Leg;
+use Testottest\Model\Passenger;
+use Testottest\Model\Payment;
+use Testottest\Model\PaymentData\B2b\Sberbank\VatDataRate;
+use Testottest\Model\PaymentData\B2b\Sberbank\VatDataType;
+use Testottest\Model\PaymentData\PaymentDataAlfabank;
+use Testottest\Model\PaymentData\PaymentDataB2bSberbank;
+use Testottest\Model\PaymentData\PaymentDataGooglePay;
+use Testottest\Model\PaymentData\PaymentDataApplePay;
+use Testottest\Model\PaymentData\PaymentDataBankCard;
+use Testottest\Model\PaymentData\PaymentDataBankCardCard;
+use Testottest\Model\PaymentData\PaymentDataMobileBalance;
+use Testottest\Model\PaymentData\PaymentDataInstallments;
+use Testottest\Model\PaymentData\PaymentDataQiwi;
+use Testottest\Model\PaymentData\PaymentDataSberbank;
+use Testottest\Model\PaymentData\PaymentDataWebmoney;
+use Testottest\Model\PaymentData\PaymentDataYooMoney;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\Receipt\PaymentMode;
+use Testottest\Model\Receipt\PaymentSubject;
+use Testottest\Model\TransferStatus;
+use Testottest\Request\Payments\CreatePaymentRequest;
+use Testottest\Request\Payments\CreatePaymentRequestSerializer;
 
 class CreatePaymentRequestSerializerTest extends TestCase
 {
@@ -130,7 +130,7 @@ class CreatePaymentRequestSerializerTest extends TestCase
             }
         }
         if (!empty($options['metadata'])) {
-            $expected['metadata'] = array();
+            $expected['metadata'] = [];
             foreach ($options['metadata'] as $key => $value) {
                 $expected['metadata'][$key] = $value;
             }
@@ -394,7 +394,7 @@ class CreatePaymentRequestSerializerTest extends TestCase
      */
     private function getReceiptItem($count)
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < $count; $i++) {
             $result[] = array(
                 'description'     => Random::str(10),

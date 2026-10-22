@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common;
+namespace Testottest\Common;
 
 /**
  * Базовый класс объекта запроса, передаваемого в методы клиента API

@@ -23,10 +23,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentMethod;
+namespace Testottest\Model\PaymentMethod;
 
 
-use YooKassa\Model\PaymentMethodType;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * Класс, описывающий метод оплаты, при оплате через сервис быстрых платежей

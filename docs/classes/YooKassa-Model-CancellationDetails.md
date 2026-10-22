@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Model\CancellationDetails
-### Namespace: [\YooKassa\Model](../namespaces/yookassa-model.md)
+# Class: \Testottest\Model\CancellationDetails
+### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -46,10 +46,10 @@ CancellationDetails - Комментарий к отмене платежа
 * File: [lib/Model/CancellationDetails.php](../../lib/Model/CancellationDetails.php)
 * Package: Default
 * Class Hierarchy: 
-  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * \YooKassa\Model\CancellationDetails
+  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * \Testottest\Model\CancellationDetails
 * Implements:
-  * [\YooKassa\Model\CancellationDetailsInterface](../classes/YooKassa-Model-CancellationDetailsInterface.md)
+  * [\Testottest\Model\CancellationDetailsInterface](../classes/YooKassa-Model-CancellationDetailsInterface.md)
 
 ---
 ## Properties
@@ -92,7 +92,7 @@ public __construct(string|null $party = null, string|null $reason = null) : mixe
 CancellationDetails constructor.
 
 **Details:**
-* Inherited From: [\YooKassa\Model\CancellationDetails](../classes/YooKassa-Model-CancellationDetails.md)
+* Inherited From: [\Testottest\Model\CancellationDetails](../classes/YooKassa-Model-CancellationDetails.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -115,7 +115,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -137,7 +137,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -159,7 +159,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -182,7 +182,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -204,7 +204,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -226,7 +226,7 @@ public getParty() : string
 Возвращает участника процесса платежа, который принял решение об отмене транзакции
 
 **Details:**
-* Inherited From: [\YooKassa\Model\CancellationDetails](../classes/YooKassa-Model-CancellationDetails.md)
+* Inherited From: [\Testottest\Model\CancellationDetails](../classes/YooKassa-Model-CancellationDetails.md)
 
 **Returns:** string - Инициатор отмены платежа
 
@@ -243,7 +243,7 @@ public getReason() : string
 Возвращает причину отмены платежа
 
 **Details:**
-* Inherited From: [\YooKassa\Model\CancellationDetails](../classes/YooKassa-Model-CancellationDetails.md)
+* Inherited From: [\Testottest\Model\CancellationDetails](../classes/YooKassa-Model-CancellationDetails.md)
 
 **Returns:** string - Причина отмены платежа
 
@@ -260,7 +260,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -277,7 +277,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -299,7 +299,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -321,7 +321,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -344,7 +344,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -366,7 +366,7 @@ public setParty($value) : mixed
 Устанавливает участника процесса платежа, который принял решение об отмене транзакции
 
 **Details:**
-* Inherited From: [\YooKassa\Model\CancellationDetails](../classes/YooKassa-Model-CancellationDetails.md)
+* Inherited From: [\Testottest\Model\CancellationDetails](../classes/YooKassa-Model-CancellationDetails.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -388,7 +388,7 @@ public setReason($value) : mixed
 Устанавливает причину отмены платежа
 
 **Details:**
-* Inherited From: [\YooKassa\Model\CancellationDetails](../classes/YooKassa-Model-CancellationDetails.md)
+* Inherited From: [\Testottest\Model\CancellationDetails](../classes/YooKassa-Model-CancellationDetails.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -411,7 +411,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -428,7 +428,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

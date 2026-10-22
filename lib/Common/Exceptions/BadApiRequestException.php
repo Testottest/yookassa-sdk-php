@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common\Exceptions;
+namespace Testottest\Common\Exceptions;
 
 /**
  * Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API.
@@ -39,7 +39,7 @@ class BadApiRequestException extends ApiException
 
     public $retryAfter;
 
-    public function __construct($responseHeaders = array(), $responseBody = null)
+    public function __construct($responseHeaders = [], $responseBody = null)
     {
         $errorData = json_decode($responseBody, true);
         $message   = '';

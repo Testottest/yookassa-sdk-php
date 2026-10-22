@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Model\Confirmation;
+namespace Tests\Testottest\Model\Confirmation;
 
-use YooKassa\Model\Confirmation\ConfirmationExternal;
-use YooKassa\Model\ConfirmationType;
+use Testottest\Model\Confirmation\ConfirmationExternal;
+use Testottest\Model\ConfirmationType;
 
 
 class ConfirmationExternalTest extends AbstractConfirmationTest

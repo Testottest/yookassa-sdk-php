@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\YooKassa\Common\Exceptions;
+namespace Tests\Testottest\Common\Exceptions;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Common\Exceptions\ApiException;
+use Testottest\Common\Exceptions\ApiException;
 
 class ApiExceptionTest extends TestCase
 {
-    public function getTestInstance($message = '', $code = 0, $responseHeaders = array(), $responseBody = null)
+    public function getTestInstance($message = '', $code = 0, $responseHeaders = [], $responseBody = null)
     {
         return new ApiException($message, $code, $responseHeaders, $responseBody);
     }

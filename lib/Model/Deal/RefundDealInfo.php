@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Deal;
+namespace Testottest\Model\Deal;
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Model\SettlementInterface;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Model\SettlementInterface;
 
 /**
  * Class PaymentDealInfo
@@ -46,7 +46,7 @@ class RefundDealInfo extends AbstractObject
     private $_id;
 
     /** @var SettlementPayoutRefund[] Данные о распределении денег */
-    private $_refund_settlements = array();
+    private $_refund_settlements = [];
 
     /**
      * Возвращает Id сделки
@@ -94,7 +94,7 @@ class RefundDealInfo extends AbstractObject
                 'Invalid settlements value type in deal', 0, 'deal.settlements', $value
             );
         }
-        $this->_refund_settlements = array();
+        $this->_refund_settlements = [];
         foreach ($value as $key => $val) {
             if (is_array($val)) {
                 $this->addSettlement(new SettlementPayoutRefund($val));

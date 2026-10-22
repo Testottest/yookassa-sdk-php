@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Refunds;
+namespace Testottest\Request\Refunds;
 
 /**
  * Класс объекта ответа от API при запросе одного конкретного возврата

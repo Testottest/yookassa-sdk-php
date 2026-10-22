@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Model\PaymentMethod\PaymentMethodB2bSberbank
-### Namespace: [\YooKassa\Model\PaymentMethod](../namespaces/yookassa-model-paymentmethod.md)
+# Class: \Testottest\Model\PaymentMethod\PaymentMethodB2bSberbank
+### Namespace: [\Testottest\Model\PaymentMethod](../namespaces/yookassa-model-paymentmethod.md)
 ---
 **Summary:**
 
@@ -62,9 +62,9 @@
 * File: [lib/Model/PaymentMethod/PaymentMethodB2bSberbank.php](../../lib/Model/PaymentMethod/PaymentMethodB2bSberbank.php)
 * Package: Default
 * Class Hierarchy:  
-  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * [\YooKassa\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
-  * \YooKassa\Model\PaymentMethod\PaymentMethodB2bSberbank
+  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+  * \Testottest\Model\PaymentMethod\PaymentMethodB2bSberbank
 
 ---
 ## Properties
@@ -78,29 +78,29 @@
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 
 <a name="property_payer_bank_details"></a>
-#### public $payer_bank_details : \YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails
+#### public $payer_bank_details : \Testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails
 ---
 ***Description***
 
 Банковские реквизиты плательщика
 
-**Type:** <a href="../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetails.html"><abbr title="\YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails">PayerBankDetails</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetails.html"><abbr title="\Testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails">PayerBankDetails</abbr></a>
 
 **Details:**
 
 
 <a name="property_payerBankDetails"></a>
-#### public $payerBankDetails : \YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails
+#### public $payerBankDetails : \Testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails
 ---
 ***Description***
 
 Банковские реквизиты плательщика
 
-**Type:** <a href="../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetails.html"><abbr title="\YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails">PayerBankDetails</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetails.html"><abbr title="\Testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails">PayerBankDetails</abbr></a>
 
 **Details:**
 
@@ -139,7 +139,7 @@
 **Type:** <a href="../bool"><abbr title="bool">bool</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 
 <a name="property_title"></a>
@@ -152,17 +152,17 @@
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 
 <a name="property_vatData"></a>
-#### public $vatData : \YooKassa\Model\PaymentData\B2b\Sberbank\VatData
+#### public $vatData : \Testottest\Model\PaymentData\B2b\Sberbank\VatData
 ---
 ***Description***
 
 Данные об НДС
 
-**Type:** <a href="../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.html"><abbr title="\YooKassa\Model\PaymentData\B2b\Sberbank\VatData">VatData</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.html"><abbr title="\Testottest\Model\PaymentData\B2b\Sberbank\VatData">VatData</abbr></a>
 
 **Details:**
 
@@ -178,7 +178,7 @@ public __construct() : mixed
 ```
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\PaymentMethodB2bSberbank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodB2bSberbank.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\PaymentMethodB2bSberbank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodB2bSberbank.md)
 
 **Returns:** mixed - 
 
@@ -195,7 +195,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -217,7 +217,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -239,7 +239,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -262,7 +262,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -284,7 +284,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -306,16 +306,16 @@ public getId() : string
 Устанавливает идентификатор записи о сохраненных платежных данных
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 **Returns:** string - Идентификатор записи о сохраненных платежных данных
 
 
 <a name="method_getPayerBankDetails" class="anchor"></a>
-#### public getPayerBankDetails() : \YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails
+#### public getPayerBankDetails() : \Testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails
 
 ```php
-public getPayerBankDetails() : \YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails
+public getPayerBankDetails() : \Testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails
 ```
 
 **Summary**
@@ -323,9 +323,9 @@ public getPayerBankDetails() : \YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerB
 Возвращает банковские реквизиты плательщика (юридического лица или ИП)
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\PaymentMethodB2bSberbank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodB2bSberbank.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\PaymentMethodB2bSberbank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodB2bSberbank.md)
 
-**Returns:** \YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails - Банковские реквизиты плательщика
+**Returns:** \Testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails - Банковские реквизиты плательщика
 
 
 <a name="method_getPaymentPurpose" class="anchor"></a>
@@ -340,7 +340,7 @@ public getPaymentPurpose() : string
 Возвращает назначение платежа
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\PaymentMethodB2bSberbank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodB2bSberbank.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\PaymentMethodB2bSberbank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodB2bSberbank.md)
 
 **Returns:** string - Назначение платежа
 
@@ -357,7 +357,7 @@ public getSaved() : bool
 Возвращает признак возможности многократного использования
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 **Returns:** bool - Возможность многократного использования
 
@@ -374,7 +374,7 @@ public getTitle() : string|null
 Возвращает название метода оплаты
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 **Returns:** string|null - Название метода оплаты
 
@@ -391,16 +391,16 @@ public getType() : string
 Возвращает тип объекта
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 **Returns:** string - Тип объекта
 
 
 <a name="method_getVatData" class="anchor"></a>
-#### public getVatData() : \YooKassa\Model\PaymentData\B2b\Sberbank\VatData
+#### public getVatData() : \Testottest\Model\PaymentData\B2b\Sberbank\VatData
 
 ```php
-public getVatData() : \YooKassa\Model\PaymentData\B2b\Sberbank\VatData
+public getVatData() : \Testottest\Model\PaymentData\B2b\Sberbank\VatData
 ```
 
 **Summary**
@@ -408,9 +408,9 @@ public getVatData() : \YooKassa\Model\PaymentData\B2b\Sberbank\VatData
 Возвращает назначение платежа
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\PaymentMethodB2bSberbank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodB2bSberbank.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\PaymentMethodB2bSberbank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodB2bSberbank.md)
 
-**Returns:** \YooKassa\Model\PaymentData\B2b\Sberbank\VatData - Данные об НДС
+**Returns:** \Testottest\Model\PaymentData\B2b\Sberbank\VatData - Данные об НДС
 
 
 <a name="method_jsonSerialize" class="anchor"></a>
@@ -425,7 +425,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -442,7 +442,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -464,7 +464,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -486,7 +486,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -509,7 +509,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -531,7 +531,7 @@ public setId(string $value) : mixed
 Возвращает идентификатор записи о сохраненных платежных данных
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -545,7 +545,7 @@ public setId(string $value) : mixed
 #### public setPayerBankDetails() : mixed
 
 ```php
-public setPayerBankDetails(\YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails|array $payerBankDetails) : mixed
+public setPayerBankDetails(\Testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails|array $payerBankDetails) : mixed
 ```
 
 **Summary**
@@ -553,12 +553,12 @@ public setPayerBankDetails(\YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankD
 Устанавливает Банковские реквизиты плательщика (юридического лица или ИП).
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\PaymentMethodB2bSberbank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodB2bSberbank.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\PaymentMethodB2bSberbank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodB2bSberbank.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails OR array</code> | payerBankDetails  | Банковские реквизиты плательщика |
+| <code lang="php">\Testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails OR array</code> | payerBankDetails  | Банковские реквизиты плательщика |
 
 **Returns:** mixed - 
 
@@ -575,7 +575,7 @@ public setPaymentPurpose(string $paymentPurpose) : mixed
 Устанавливает назначение платежа
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\PaymentMethodB2bSberbank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodB2bSberbank.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\PaymentMethodB2bSberbank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodB2bSberbank.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -597,7 +597,7 @@ public setSaved(bool $value) : mixed
 Устанавливает признак возможности многократного использования
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -619,7 +619,7 @@ public setTitle(string $value) : mixed
 Устанавливает название метода оплаты
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -633,7 +633,7 @@ public setTitle(string $value) : mixed
 #### public setVatData() : mixed
 
 ```php
-public setVatData(\YooKassa\Model\PaymentData\B2b\Sberbank\VatData $vatData) : mixed
+public setVatData(\Testottest\Model\PaymentData\B2b\Sberbank\VatData $vatData) : mixed
 ```
 
 **Summary**
@@ -641,12 +641,12 @@ public setVatData(\YooKassa\Model\PaymentData\B2b\Sberbank\VatData $vatData) : m
 Устанавливает назначение платежа
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\PaymentMethodB2bSberbank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodB2bSberbank.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\PaymentMethodB2bSberbank](../classes/YooKassa-Model-PaymentMethod-PaymentMethodB2bSberbank.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Model\PaymentData\B2b\Sberbank\VatData</code> | vatData  | Данные об НДС |
+| <code lang="php">\Testottest\Model\PaymentData\B2b\Sberbank\VatData</code> | vatData  | Данные об НДС |
 
 **Returns:** mixed - 
 
@@ -664,7 +664,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -681,7 +681,7 @@ protected _setType(string $value) : mixed
 Устанавливает тип объекта
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\AbstractPaymentMethod](../classes/YooKassa-Model-PaymentMethod-AbstractPaymentMethod.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -703,7 +703,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

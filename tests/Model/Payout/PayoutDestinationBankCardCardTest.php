@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\YooKassa\Model\Payout;
+namespace Tests\Testottest\Model\Payout;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\Payout\PayoutDestinationBankCardCard;
+use Testottest\Helpers\Random;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\Payout\PayoutDestinationBankCardCard;
 
 class PayoutDestinationBankCardCardTest extends TestCase
 {
@@ -205,7 +205,7 @@ class PayoutDestinationBankCardCardTest extends TestCase
      */
     public function validLast4DataProvider()
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < 10; $i++) {
             $result[] = array(Random::str(4, '0123456789'));
         }
@@ -217,7 +217,7 @@ class PayoutDestinationBankCardCardTest extends TestCase
      */
     public function validFirst6DataProvider()
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < 10; $i++) {
             $result[] = array(Random::str(6, '0123456789'));
         }
@@ -226,7 +226,7 @@ class PayoutDestinationBankCardCardTest extends TestCase
 
     public function validCardTypeDataProvider()
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < 10; $i++) {
             $result[] = array(Random::str(3, 35));
         }
@@ -248,7 +248,7 @@ class PayoutDestinationBankCardCardTest extends TestCase
 
     public function validIssuerNameDataProvider()
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < 10; $i++) {
             $result[] = array(Random::str(3, 35));
         }

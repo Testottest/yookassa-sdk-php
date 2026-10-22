@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\YooKassa\Request\Refunds;
+namespace Tests\Testottest\Request\Refunds;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Model\RefundStatus;
-use YooKassa\Request\Refunds\RefundsRequest;
-use YooKassa\Request\Refunds\RefundsRequestBuilder;
+use Testottest\Model\RefundStatus;
+use Testottest\Request\Refunds\RefundsRequest;
+use Testottest\Request\Refunds\RefundsRequestBuilder;
 
 class RefundsRequestBuilderTest extends TestCase
 {

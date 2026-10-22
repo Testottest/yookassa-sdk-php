@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payments\Payment;
+namespace Tests\Testottest\Request\Payments\Payment;
 
-use Tests\YooKassa\Request\Payments\AbstractPaymentResponseTest;
-use YooKassa\Request\Payments\Payment\CancelResponse;
+use Tests\Testottest\Request\Payments\AbstractPaymentResponseTest;
+use Testottest\Request\Payments\Payment\CancelResponse;
 
 class CancelResponseTest extends AbstractPaymentResponseTest
 {

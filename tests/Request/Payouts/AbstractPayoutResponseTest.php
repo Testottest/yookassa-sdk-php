@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payouts;
+namespace Tests\Testottest\Request\Payouts;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\Payout;
-use YooKassa\Model\Payout\PayoutCancellationDetailsPartyCode;
-use YooKassa\Model\Payout\PayoutCancellationDetailsReasonCode;
-use YooKassa\Model\PayoutStatus;
-use YooKassa\Request\Payouts\PayoutResponse;
+use Testottest\Helpers\Random;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\Payout;
+use Testottest\Model\Payout\PayoutCancellationDetailsPartyCode;
+use Testottest\Model\Payout\PayoutCancellationDetailsReasonCode;
+use Testottest\Model\PayoutStatus;
+use Testottest\Request\Payouts\PayoutResponse;
 
 abstract class AbstractPayoutResponseTest extends TestCase
 {
@@ -151,7 +151,7 @@ abstract class AbstractPayoutResponseTest extends TestCase
 
     public function validDataProvider()
     {
-        $result = array();
+        $result = [];
         $cancellationDetailsParties = PayoutCancellationDetailsPartyCode::getValidValues();
         $countCancellationDetailsParties = count($cancellationDetailsParties);
         $cancellationDetailsReasons = PayoutCancellationDetailsReasonCode::getValidValues();

@@ -1,17 +1,17 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payouts;
+namespace Tests\Testottest\Request\Payouts;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Deal\PayoutDealInfo;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Payout;
-use YooKassa\Request\Payouts\CreatePayoutRequest;
-use YooKassa\Request\Payouts\CreatePayoutRequestBuilder;
-use YooKassa\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCard;
-use YooKassa\Request\Payouts\PayoutDestinationData\PayoutDestinationDataYooMoney;
+use Testottest\Helpers\Random;
+use Testottest\Model\Deal\PayoutDealInfo;
+use Testottest\Model\Metadata;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Payout;
+use Testottest\Request\Payouts\CreatePayoutRequest;
+use Testottest\Request\Payouts\CreatePayoutRequestBuilder;
+use Testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCard;
+use Testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataYooMoney;
 
 class CreatePayoutRequestTest extends TestCase
 {

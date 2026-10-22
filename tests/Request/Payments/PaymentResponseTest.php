@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payments;
+namespace Tests\Testottest\Request\Payments;
 
-use YooKassa\Request\Payments\PaymentResponse;
+use Testottest\Request\Payments\PaymentResponse;
 
 class PaymentResponseTest extends AbstractPaymentResponseTest
 {

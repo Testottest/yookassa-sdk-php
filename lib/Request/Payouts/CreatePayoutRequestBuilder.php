@@ -24,18 +24,18 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payouts;
+namespace Testottest\Request\Payouts;
 
-use YooKassa\Common\AbstractPaymentRequestBuilder;
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\AbstractRequestBuilder;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Common\Exceptions\InvalidRequestException;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\Payout\AbstractPayoutDestination;
-use YooKassa\Model\Deal\PayoutDealInfo;
+use Testottest\Common\AbstractPaymentRequestBuilder;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\AbstractRequestBuilder;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Common\Exceptions\InvalidRequestException;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\Metadata;
+use Testottest\Model\Payout\AbstractPayoutDestination;
+use Testottest\Model\Deal\PayoutDealInfo;
 
 /**
  * Класс билдера объектов запросов к API на создание платежа

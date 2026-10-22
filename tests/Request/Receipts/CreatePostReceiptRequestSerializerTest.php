@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payments;
+namespace Tests\Testottest\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Receipt\PaymentMode;
-use YooKassa\Model\Receipt\PaymentSubject;
-use YooKassa\Model\Receipt\SettlementType;
-use YooKassa\Model\ReceiptType;
-use YooKassa\Request\Receipts\CreatePostReceiptRequest;
-use YooKassa\Request\Receipts\CreatePostReceiptRequestSerializer;
+use Testottest\Helpers\Random;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\Receipt\PaymentMode;
+use Testottest\Model\Receipt\PaymentSubject;
+use Testottest\Model\Receipt\SettlementType;
+use Testottest\Model\ReceiptType;
+use Testottest\Request\Receipts\CreatePostReceiptRequest;
+use Testottest\Request\Receipts\CreatePostReceiptRequestSerializer;
 
 class CreatePostReceiptRequestSerializerTest extends TestCase
 {
@@ -138,7 +138,7 @@ class CreatePostReceiptRequestSerializerTest extends TestCase
      */
     private function getReceiptItems($count)
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < $count; $i++) {
             $result[] = array(
                 'description' => Random::str(10),
@@ -167,7 +167,7 @@ class CreatePostReceiptRequestSerializerTest extends TestCase
      */
     private function getSettlements($count)
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < $count; $i++) {
             $result[] = array(
                 'type' => Random::value(SettlementType::getValidValues()),

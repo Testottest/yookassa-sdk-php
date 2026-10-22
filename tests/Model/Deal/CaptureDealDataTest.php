@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\YooKassa\Model\Deal;
+namespace Tests\Testottest\Model\Deal;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Deal\CaptureDealData;
-use YooKassa\Model\Deal\SettlementPayoutPayment;
-use YooKassa\Model\Deal\SettlementPayoutPaymentType;
+use Testottest\Helpers\Random;
+use Testottest\Model\Deal\CaptureDealData;
+use Testottest\Model\Deal\SettlementPayoutPayment;
+use Testottest\Model\Deal\SettlementPayoutPaymentType;
 
 class CaptureDealDataTest extends TestCase
 {
@@ -30,7 +30,7 @@ class CaptureDealDataTest extends TestCase
 
     public function validDataProvider()
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < 10; $i++) {
             $payment = array(
                 'settlements' => $this->generateSettlements(),
@@ -77,7 +77,7 @@ class CaptureDealDataTest extends TestCase
     public function fromArrayDataProvider()
     {
         $deal = new CaptureDealData();
-        $settlements = array();
+        $settlements = [];
         $settlements[] = new SettlementPayoutPayment(array(
             'type' => SettlementPayoutPaymentType::PAYOUT,
             'amount' => array(
@@ -107,7 +107,7 @@ class CaptureDealDataTest extends TestCase
 
     private function generateSettlements()
     {
-        $return = array();
+        $return = [];
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {

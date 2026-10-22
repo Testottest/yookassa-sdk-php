@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\YooKassa\Model;
+namespace Tests\Testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Receipt;
-use YooKassa\Model\ReceiptCustomer;
+use Testottest\Helpers\Random;
+use Testottest\Model\Receipt;
+use Testottest\Model\ReceiptCustomer;
 
 class ReceiptCustomerTest extends TestCase
 {

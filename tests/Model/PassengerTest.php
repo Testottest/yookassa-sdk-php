@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\YooKassa\Model;
+namespace Tests\Testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Passenger;
+use Testottest\Helpers\Random;
+use Testottest\Model\Passenger;
 
 class PassengerTest extends TestCase
 {

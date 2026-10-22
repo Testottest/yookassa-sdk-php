@@ -1,6 +1,6 @@
 <?php
 //
-//namespace YooKassa;
+//namespace Testottest;
 //
 //use PHPUnit\Framework\TestCase;
 //

@@ -1,11 +1,11 @@
 <?php
 
-namespace YooKassa\Model;
+namespace Testottest\Model;
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
 
 /**
  * ThreeDSecure - Данные о прохождении пользователем аутентификации по 3‑D Secure для подтверждения платежа.

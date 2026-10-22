@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common;
+namespace Testottest\Common;
 
 /**
  * Базовый класс генерируемых enum'ов
@@ -36,7 +36,7 @@ abstract class AbstractEnum
     /**
      * @var array Массив принимаемых enum'ом значений
      */
-    protected static $validValues = array();
+    protected static $validValues = [];
 
     /**
      * Проверяет наличие значения в enum'e
@@ -63,7 +63,7 @@ abstract class AbstractEnum
      */
     public static function getEnabledValues()
     {
-        $result = array();
+        $result = [];
         foreach (static::$validValues as $key => $enabled) {
             if ($enabled) {
                 $result[] = $key;

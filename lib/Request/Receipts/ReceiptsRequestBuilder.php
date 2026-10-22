@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Receipts;
+namespace Testottest\Request\Receipts;
 
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\AbstractRequestBuilder;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\AbstractRequestBuilder;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
 
 /**
  * Класс билдера объектов запросов к API списка чеков

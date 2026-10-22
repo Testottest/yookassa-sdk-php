@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Model\Confirmation\ConfirmationFactory
-### Namespace: [\YooKassa\Model\Confirmation](../namespaces/yookassa-model-confirmation.md)
+# Class: \Testottest\Model\Confirmation\ConfirmationFactory
+### Namespace: [\Testottest\Model\Confirmation](../namespaces/yookassa-model-confirmation.md)
 ---
 **Summary:**
 
@@ -24,15 +24,15 @@ Class ConfirmationFactory
 * File: [lib/Model/Confirmation/ConfirmationFactory.php](../../lib/Model/Confirmation/ConfirmationFactory.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \YooKassa\Model\Confirmation\ConfirmationFactory
+  * \Testottest\Model\Confirmation\ConfirmationFactory
 
 ---
 ## Methods
 <a name="method_factory" class="anchor"></a>
-#### public factory() : \YooKassa\Model\Confirmation\AbstractConfirmation
+#### public factory() : \Testottest\Model\Confirmation\AbstractConfirmation
 
 ```php
-public factory(string $type) : \YooKassa\Model\Confirmation\AbstractConfirmation
+public factory(string $type) : \Testottest\Model\Confirmation\AbstractConfirmation
 ```
 
 **Summary**
@@ -40,21 +40,21 @@ public factory(string $type) : \YooKassa\Model\Confirmation\AbstractConfirmation
 Возвращает объект, соответствующий типу подтверждения платежа
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Confirmation\ConfirmationFactory](../classes/YooKassa-Model-Confirmation-ConfirmationFactory.md)
+* Inherited From: [\Testottest\Model\Confirmation\ConfirmationFactory](../classes/YooKassa-Model-Confirmation-ConfirmationFactory.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">string</code> | type  | Тип подтверждения платежа |
 
-**Returns:** \YooKassa\Model\Confirmation\AbstractConfirmation - 
+**Returns:** \Testottest\Model\Confirmation\AbstractConfirmation - 
 
 
 <a name="method_factoryFromArray" class="anchor"></a>
-#### public factoryFromArray() : \YooKassa\Model\Confirmation\AbstractConfirmation
+#### public factoryFromArray() : \Testottest\Model\Confirmation\AbstractConfirmation
 
 ```php
-public factoryFromArray(array $data, string|null $type = null) : \YooKassa\Model\Confirmation\AbstractConfirmation
+public factoryFromArray(array $data, string|null $type = null) : \Testottest\Model\Confirmation\AbstractConfirmation
 ```
 
 **Summary**
@@ -62,7 +62,7 @@ public factoryFromArray(array $data, string|null $type = null) : \YooKassa\Model
 Возвращает объект, соответствующий типу подтверждения платежа, из массива данных
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Confirmation\ConfirmationFactory](../classes/YooKassa-Model-Confirmation-ConfirmationFactory.md)
+* Inherited From: [\Testottest\Model\Confirmation\ConfirmationFactory](../classes/YooKassa-Model-Confirmation-ConfirmationFactory.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -70,7 +70,7 @@ public factoryFromArray(array $data, string|null $type = null) : \YooKassa\Model
 | <code lang="php">array</code> | data  | Массив данных подтверждения платежа |
 | <code lang="php">string OR null</code> | type  | Тип подтверждения платежа |
 
-**Returns:** \YooKassa\Model\Confirmation\AbstractConfirmation - 
+**Returns:** \Testottest\Model\Confirmation\AbstractConfirmation - 
 
 
 

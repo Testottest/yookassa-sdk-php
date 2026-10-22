@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Helpers\Config;
+namespace Testottest\Helpers\Config;
 
 interface ConfigurationLoaderInterface
 {

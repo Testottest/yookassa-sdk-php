@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\YooKassa\Request\Receipts;
+namespace Tests\Testottest\Request\Receipts;
 
-use YooKassa\Request\Receipts\SimpleReceiptResponse;
+use Testottest\Request\Receipts\SimpleReceiptResponse;
 
 class SimpleReceiptResponseTest extends AbstractReceiptResponseTest
 {

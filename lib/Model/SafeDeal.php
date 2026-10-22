@@ -24,16 +24,16 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model;
+namespace Testottest\Model;
 
 use DateTime;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\Deal\DealBalanceAmount;
-use YooKassa\Model\Deal\DealStatus;
-use YooKassa\Model\Deal\DealType;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\Deal\DealBalanceAmount;
+use Testottest\Model\Deal\DealStatus;
+use Testottest\Model\Deal\DealType;
 
 /**
  * Class SafeBaseDeal
@@ -81,7 +81,7 @@ class SafeDeal extends BaseDeal implements DealInterface
      * SafeDeal constructor.
      * @param array $data
      */
-    public function __construct($data = array())
+    public function __construct($data = [])
     {
         parent::__construct($data);
         $this->setType(DealType::SAFE_DEAL);

@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments\Payment;
+namespace Testottest\Request\Payments\Payment;
 
-use YooKassa\Common\AbstractPaymentRequestBuilder;
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\Exceptions\InvalidPropertyException;
-use YooKassa\Common\Exceptions\InvalidRequestException;
+use Testottest\Common\AbstractPaymentRequestBuilder;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\Exceptions\InvalidPropertyException;
+use Testottest\Common\Exceptions\InvalidRequestException;
 
 class CreateCaptureRequestBuilder extends AbstractPaymentRequestBuilder
 {

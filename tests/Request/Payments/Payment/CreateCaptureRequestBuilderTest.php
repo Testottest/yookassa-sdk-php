@@ -1,18 +1,18 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payments\Payment;
+namespace Tests\Testottest\Request\Payments\Payment;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Payment;
-use YooKassa\Model\Receipt\PaymentMode;
-use YooKassa\Model\Receipt\PaymentSubject;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\Transfer;
-use YooKassa\Request\Payments\Payment\CreateCaptureRequestBuilder;
+use Testottest\Helpers\Random;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Payment;
+use Testottest\Model\Receipt\PaymentMode;
+use Testottest\Model\Receipt\PaymentSubject;
+use Testottest\Model\ReceiptItem;
+use Testottest\Model\Transfer;
+use Testottest\Request\Payments\Payment\CreateCaptureRequestBuilder;
 
 class CreateCaptureRequestBuilderTest extends TestCase
 {

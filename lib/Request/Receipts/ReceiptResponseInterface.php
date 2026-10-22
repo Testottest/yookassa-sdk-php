@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Receipts;
+namespace Testottest\Request\Receipts;
 
-use YooKassa\Model\SettlementInterface;
+use Testottest\Model\SettlementInterface;
 
 /**
  * Interface ReceiptInterface

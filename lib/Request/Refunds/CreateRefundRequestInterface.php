@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Refunds;
+namespace Testottest\Request\Refunds;
 
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\Deal\RefundDealData;
-use YooKassa\Model\ReceiptInterface;
-use YooKassa\Model\SourceInterface;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\Deal\RefundDealData;
+use Testottest\Model\ReceiptInterface;
+use Testottest\Model\SourceInterface;
 
 /**
  * Интерфейс объекта запроса на возврат

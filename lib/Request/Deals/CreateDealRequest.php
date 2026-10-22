@@ -24,24 +24,24 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Deals;
+namespace Testottest\Request\Deals;
 
-use YooKassa\Common\AbstractPaymentRequest;
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\AirlineInterface;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\Deal\DealType;
-use YooKassa\Model\Deal\FeeMoment;
-use YooKassa\Model\Payment;
-use YooKassa\Model\PaymentData\AbstractPaymentData;
-use YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\ReceiptInterface;
-use YooKassa\Model\RecipientInterface;
-use YooKassa\Model\SafeDeal;
+use Testottest\Common\AbstractPaymentRequest;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\AirlineInterface;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\Deal\DealType;
+use Testottest\Model\Deal\FeeMoment;
+use Testottest\Model\Payment;
+use Testottest\Model\PaymentData\AbstractPaymentData;
+use Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use Testottest\Model\Metadata;
+use Testottest\Model\ReceiptInterface;
+use Testottest\Model\RecipientInterface;
+use Testottest\Model\SafeDeal;
 
 /**
  * Класс объекта запроса к API на проведение новой сделки

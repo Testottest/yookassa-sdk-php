@@ -23,10 +23,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\ConfirmationAttributes;
+namespace Testottest\Model\ConfirmationAttributes;
 
 
-use YooKassa\Model\ConfirmationType;
+use Testottest\Model\ConfirmationType;
 
 class ConfirmationAttributesEmbedded extends AbstractConfirmationAttributes
 {

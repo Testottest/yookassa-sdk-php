@@ -1,24 +1,24 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payments;
+namespace Tests\Testottest\Request\Payments;
 
 use Exception;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
-use YooKassa\Model\ConfirmationType;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Payment;
-use YooKassa\Model\PaymentData\PaymentDataQiwi;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\Receipt\PaymentMode;
-use YooKassa\Model\Receipt\PaymentSubject;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\Recipient;
-use YooKassa\Request\Payments\CreatePaymentRequestBuilder;
+use Testottest\Helpers\Random;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
+use Testottest\Model\ConfirmationType;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Payment;
+use Testottest\Model\PaymentData\PaymentDataQiwi;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\Receipt\PaymentMode;
+use Testottest\Model\Receipt\PaymentSubject;
+use Testottest\Model\ReceiptItem;
+use Testottest\Model\Recipient;
+use Testottest\Request\Payments\CreatePaymentRequestBuilder;
 
 class CreatePaymentRequestBuilderTest extends TestCase
 {
@@ -30,7 +30,7 @@ class CreatePaymentRequestBuilderTest extends TestCase
      */
     protected function getRequiredData($testingProperty = null, $paymentType = null)
     {
-        $result = array();
+        $result = [];
         if ($testingProperty === 'accountId' || $testingProperty === 'gatewayId') {
             if ($testingProperty !== 'accountId') {
                 $result['accountId'] = Random::str(1, 32);

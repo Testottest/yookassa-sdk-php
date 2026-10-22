@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payouts\PayoutDestinationData;
+namespace Testottest\Request\Payouts\PayoutDestinationData;
 
-use YooKassa\Model\Payout\AbstractPayoutDestination;
+use Testottest\Model\Payout\AbstractPayoutDestination;
 
 /**
  * Данные используемые для создания метода оплаты.

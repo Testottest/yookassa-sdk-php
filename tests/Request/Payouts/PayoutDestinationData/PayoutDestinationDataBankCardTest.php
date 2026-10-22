@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payouts\PayoutDestinationData;
+namespace Tests\Testottest\Request\Payouts\PayoutDestinationData;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCard;
-use YooKassa\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCardCard;
+use Testottest\Helpers\Random;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCard;
+use Testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCardCard;
 
 class PayoutDestinationDataBankCardTest extends AbstractPayoutDestinationDataTest
 {
@@ -37,7 +37,7 @@ class PayoutDestinationDataBankCardTest extends AbstractPayoutDestinationDataTes
         self::assertNull($instance->card);
 
         $instance->setCard($value);
-        if ($value === null || $value === '' || $value === array()) {
+        if ($value === null || $value === '' || $value === []) {
             self::assertNull($instance->getCard());
             self::assertNull($instance->card);
         } else {
@@ -55,7 +55,7 @@ class PayoutDestinationDataBankCardTest extends AbstractPayoutDestinationDataTes
 
         $instance = $this->getTestInstance();
         $instance->card = $value;
-        if ($value === null || $value === '' || $value === array()) {
+        if ($value === null || $value === '' || $value === []) {
             self::assertNull($instance->getCard());
             self::assertNull($instance->card);
         } else {

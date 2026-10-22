@@ -24,15 +24,15 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Refunds;
+namespace Testottest\Request\Refunds;
 
-use YooKassa\Common\AbstractPaymentRequestBuilder;
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Model\Deal\RefundDealData;
-use YooKassa\Model\SourceInterface;
+use Testottest\Common\AbstractPaymentRequestBuilder;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Model\Deal\RefundDealData;
+use Testottest\Model\SourceInterface;
 
 /**
  * Класс билдера запросов к API на создание возврата средств

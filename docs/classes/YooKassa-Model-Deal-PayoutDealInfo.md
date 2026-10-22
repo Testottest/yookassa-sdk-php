@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Model\Deal\PayoutDealInfo
-### Namespace: [\YooKassa\Model\Deal](../namespaces/yookassa-model-deal.md)
+# Class: \Testottest\Model\Deal\PayoutDealInfo
+### Namespace: [\Testottest\Model\Deal](../namespaces/yookassa-model-deal.md)
 ---
 **Summary:**
 
@@ -43,8 +43,8 @@ Class PayoutDealInfo
 * File: [lib/Model/Deal/PayoutDealInfo.php](../../lib/Model/Deal/PayoutDealInfo.php)
 * Package: YooKassa
 * Class Hierarchy: 
-  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * \YooKassa\Model\Deal\PayoutDealInfo
+  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * \Testottest\Model\Deal\PayoutDealInfo
 
 ---
 ## Properties
@@ -67,7 +67,7 @@ Class PayoutDealInfo
 #### public __construct() : mixed
 
 ```php
-public __construct(array $data = array()) : mixed
+public __construct(array $data = []) : mixed
 ```
 
 **Summary**
@@ -75,7 +75,7 @@ public __construct(array $data = array()) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -97,7 +97,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -119,7 +119,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -141,7 +141,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -164,7 +164,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -186,7 +186,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -208,7 +208,7 @@ public getId() : mixed
 Возвращает Id сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Deal\PayoutDealInfo](../classes/YooKassa-Model-Deal-PayoutDealInfo.md)
+* Inherited From: [\Testottest\Model\Deal\PayoutDealInfo](../classes/YooKassa-Model-Deal-PayoutDealInfo.md)
 
 **Returns:** mixed - 
 
@@ -225,7 +225,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -242,7 +242,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -264,7 +264,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -286,7 +286,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -309,7 +309,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -320,10 +320,10 @@ public offsetUnset(string $offset) : mixed
 
 
 <a name="method_setId" class="anchor"></a>
-#### public setId() : \YooKassa\Model\Deal\PayoutDealInfo
+#### public setId() : \Testottest\Model\Deal\PayoutDealInfo
 
 ```php
-public setId(string $value) : \YooKassa\Model\Deal\PayoutDealInfo
+public setId(string $value) : \Testottest\Model\Deal\PayoutDealInfo
 ```
 
 **Summary**
@@ -331,14 +331,14 @@ public setId(string $value) : \YooKassa\Model\Deal\PayoutDealInfo
 Устанавливает Id сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Deal\PayoutDealInfo](../classes/YooKassa-Model-Deal-PayoutDealInfo.md)
+* Inherited From: [\Testottest\Model\Deal\PayoutDealInfo](../classes/YooKassa-Model-Deal-PayoutDealInfo.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">string</code> | value  | Id сделки |
 
-**Returns:** \YooKassa\Model\Deal\PayoutDealInfo - 
+**Returns:** \Testottest\Model\Deal\PayoutDealInfo - 
 
 
 <a name="method_toArray" class="anchor"></a>
@@ -354,7 +354,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -371,7 +371,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

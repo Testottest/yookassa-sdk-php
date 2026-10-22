@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common\Exceptions;
+namespace Testottest\Common\Exceptions;
 
 /**
  * Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции.
@@ -39,7 +39,7 @@ class ForbiddenException extends ApiException
 
     public $retryAfter;
 
-    public function __construct($responseHeaders = array(), $responseBody = null)
+    public function __construct($responseHeaders = [], $responseBody = null)
     {
         $errorData = json_decode($responseBody, true);
         $message   = '';

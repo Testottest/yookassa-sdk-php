@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\YooKassa\Request\Refunds;
+namespace Tests\Testottest\Request\Refunds;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Deal\RefundDealData;
-use YooKassa\Model\Deal\SettlementPayoutPaymentType;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Receipt;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Request\Refunds\CreateRefundRequest;
-use YooKassa\Request\Refunds\CreateRefundRequestBuilder;
+use Testottest\Helpers\Random;
+use Testottest\Model\Deal\RefundDealData;
+use Testottest\Model\Deal\SettlementPayoutPaymentType;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Receipt;
+use Testottest\Model\ReceiptItem;
+use Testottest\Request\Refunds\CreateRefundRequest;
+use Testottest\Request\Refunds\CreateRefundRequestBuilder;
 
 class CreateRefundRequestTest extends TestCase
 {

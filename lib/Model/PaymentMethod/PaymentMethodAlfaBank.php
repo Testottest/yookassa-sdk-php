@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentMethod;
+namespace Testottest\Model\PaymentMethod;
 
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\PaymentMethodType;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * Класс, описывающий метод оплаты, при оплате через Альфа Банк

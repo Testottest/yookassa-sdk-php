@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentMethod\B2b\Sberbank;
+namespace Testottest\Model\PaymentMethod\B2b\Sberbank;
 
-use YooKassa\Common\AbstractObject;
+use Testottest\Common\AbstractObject;
 
 /**
  * Банковские реквизиты плательщика

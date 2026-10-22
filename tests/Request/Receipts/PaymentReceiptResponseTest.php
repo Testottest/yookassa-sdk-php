@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\YooKassa\Request\Receipts;
+namespace Tests\Testottest\Request\Receipts;
 
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Airline;
-use YooKassa\Model\SettlementInterface;
-use YooKassa\Request\Receipts\PaymentReceiptResponse;
-use YooKassa\Request\Receipts\ReceiptResponseItemInterface;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\Random;
+use Testottest\Model\Airline;
+use Testottest\Model\SettlementInterface;
+use Testottest\Request\Receipts\PaymentReceiptResponse;
+use Testottest\Request\Receipts\ReceiptResponseItemInterface;
 
 class PaymentReceiptResponseTest extends AbstractReceiptResponseTest
 {

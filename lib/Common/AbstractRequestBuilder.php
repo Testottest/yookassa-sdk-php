@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common;
+namespace Testottest\Common;
 
-use YooKassa\Common\Exceptions\InvalidPropertyException;
-use YooKassa\Common\Exceptions\InvalidRequestException;
+use Testottest\Common\Exceptions\InvalidPropertyException;
+use Testottest\Common\Exceptions\InvalidRequestException;
 
 /**
  * Базовый класс билдера запросов

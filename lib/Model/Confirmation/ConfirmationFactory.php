@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Confirmation;
+namespace Testottest\Model\Confirmation;
 
-use YooKassa\Model\ConfirmationType;
+use Testottest\Model\ConfirmationType;
 
 /**
  * Class ConfirmationFactory

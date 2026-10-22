@@ -24,17 +24,17 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Deal;
+namespace Testottest\Model\Deal;
 
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\SettlementInterface;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\SettlementInterface;
 
 /**
  * Class SettlementPayoutRefund

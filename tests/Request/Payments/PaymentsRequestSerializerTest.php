@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payments;
+namespace Tests\Testottest\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\PaymentStatus;
-use YooKassa\Request\Payments\PaymentsRequest;
-use YooKassa\Request\Payments\PaymentsRequestSerializer;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\PaymentStatus;
+use Testottest\Request\Payments\PaymentsRequest;
+use Testottest\Request\Payments\PaymentsRequestSerializer;
 
 class PaymentsRequestSerializerTest extends TestCase
 {
@@ -34,7 +34,7 @@ class PaymentsRequestSerializerTest extends TestCase
         $serializer = new PaymentsRequestSerializer();
         $data       = $serializer->serialize(PaymentsRequest::builder()->build($options));
 
-        $expected = array();
+        $expected = [];
         foreach ($this->fieldMap as $field => $mapped) {
             if (isset($options[$field])) {
                 $value = $options[$field];

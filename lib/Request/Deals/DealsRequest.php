@@ -24,15 +24,15 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Deals;
+namespace Testottest\Request\Deals;
 
 use Exception;
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\Deal\DealStatus;
-use YooKassa\Model\SafeDeal;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\Deal\DealStatus;
+use Testottest\Model\SafeDeal;
 
 /**
  * Класс объекта запроса к API для получения списка сделок магазина

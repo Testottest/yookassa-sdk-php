@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Deals;
+namespace Testottest\Request\Deals;
 
-use YooKassa\Model\Metadata;
+use Testottest\Model\Metadata;
 
 /**
  * Interface DealInterface

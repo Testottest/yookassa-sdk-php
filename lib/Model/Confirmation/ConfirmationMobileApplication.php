@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Confirmation;
+namespace Testottest\Model\Confirmation;
 
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\ConfirmationType;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\ConfirmationType;
 
 /**
  * Сценарий, при котором необходимо отправить плательщика на веб-страницу ЮKassa или партнера для
@@ -51,7 +51,7 @@ class ConfirmationMobileApplication extends AbstractConfirmation
      */
     private $_confirmationUrl;
 
-    public function __construct($data = array())
+    public function __construct($data = [])
     {
         parent::__construct($data);
         $this->setType(ConfirmationType::MOBILE_APPLICATION);

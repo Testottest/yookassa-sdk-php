@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: SupplierInterface
-### Namespace: [\YooKassa\Model](../namespaces/yookassa-model.md)
+### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -55,7 +55,7 @@ public getName() : string|null
 Возвращает наименование поставщика
 
 **Details:**
-* Inherited From: [\YooKassa\Model\SupplierInterface](../classes/YooKassa-Model-SupplierInterface.md)
+* Inherited From: [\Testottest\Model\SupplierInterface](../classes/YooKassa-Model-SupplierInterface.md)
 
 **Returns:** string|null - 
 
@@ -72,7 +72,7 @@ public setName(string|null $value) : mixed
 Устанавливает наименование поставщика
 
 **Details:**
-* Inherited From: [\YooKassa\Model\SupplierInterface](../classes/YooKassa-Model-SupplierInterface.md)
+* Inherited From: [\Testottest\Model\SupplierInterface](../classes/YooKassa-Model-SupplierInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -94,7 +94,7 @@ public getPhone() : string|null
 Возвращает Телефон пользователя. Указывается в формате ITU-T E.164
 
 **Details:**
-* Inherited From: [\YooKassa\Model\SupplierInterface](../classes/YooKassa-Model-SupplierInterface.md)
+* Inherited From: [\Testottest\Model\SupplierInterface](../classes/YooKassa-Model-SupplierInterface.md)
 
 **Returns:** string|null - Телефон пользователя
 
@@ -111,7 +111,7 @@ public setPhone(string|null $value) : mixed
 Устанавливает Телефон пользователя. Указывается в формате ITU-T E.164
 
 **Details:**
-* Inherited From: [\YooKassa\Model\SupplierInterface](../classes/YooKassa-Model-SupplierInterface.md)
+* Inherited From: [\Testottest\Model\SupplierInterface](../classes/YooKassa-Model-SupplierInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -133,7 +133,7 @@ public getInn() : string|null
 Возвращает ИНН пользователя (10 или 12 цифр)
 
 **Details:**
-* Inherited From: [\YooKassa\Model\SupplierInterface](../classes/YooKassa-Model-SupplierInterface.md)
+* Inherited From: [\Testottest\Model\SupplierInterface](../classes/YooKassa-Model-SupplierInterface.md)
 
 **Returns:** string|null - ИНН пользователя
 
@@ -150,7 +150,7 @@ public setInn($value) : mixed
 Устанавливает ИНН пользователя (10 или 12 цифр)
 
 **Details:**
-* Inherited From: [\YooKassa\Model\SupplierInterface](../classes/YooKassa-Model-SupplierInterface.md)
+* Inherited From: [\Testottest\Model\SupplierInterface](../classes/YooKassa-Model-SupplierInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |

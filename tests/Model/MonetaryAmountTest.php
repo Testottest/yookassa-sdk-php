@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\YooKassa\Model;
+namespace Tests\Testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\MonetaryAmount;
+use Testottest\Helpers\Random;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\MonetaryAmount;
 
 class MonetaryAmountTest extends TestCase
 {
@@ -164,7 +164,7 @@ class MonetaryAmountTest extends TestCase
 
     public function validArrayDataProvider()
     {
-        $result = array();
+        $result = [];
         foreach (range(1, 10) as $i) {
             $result[$i][] = array(
                 'value' => Random::float(0, 9999.99),
@@ -194,7 +194,7 @@ class MonetaryAmountTest extends TestCase
 
     public function validCurrencyDataProvider()
     {
-        $result = array();
+        $result = [];
         foreach (CurrencyCode::getValidValues() as $value) {
             $result[] = array($value);
             $result[] = array(strtolower($value[0]) . $value[1] . $value[2]);

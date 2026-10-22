@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Model\Deal\DealBalanceAmount
-### Namespace: [\YooKassa\Model\Deal](../namespaces/yookassa-model-deal.md)
+# Class: \Testottest\Model\Deal\DealBalanceAmount
+### Namespace: [\Testottest\Model\Deal](../namespaces/yookassa-model-deal.md)
 ---
 **Summary:**
 
@@ -47,10 +47,10 @@ MonetaryAmount - Сумма определенная в валюте
 * File: [lib/Model/Deal/DealBalanceAmount.php](../../lib/Model/Deal/DealBalanceAmount.php)
 * Package: YooKassa
 * Class Hierarchy: 
-  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * \YooKassa\Model\Deal\DealBalanceAmount
+  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * \Testottest\Model\Deal\DealBalanceAmount
 * Implements:
-  * [\YooKassa\Model\AmountInterface](../classes/YooKassa-Model-AmountInterface.md)
+  * [\Testottest\Model\AmountInterface](../classes/YooKassa-Model-AmountInterface.md)
 
 ---
 ## Properties
@@ -85,7 +85,7 @@ MonetaryAmount - Сумма определенная в валюте
 #### public __construct() : mixed
 
 ```php
-public __construct(array|\YooKassa\Model\Deal\numeric|null $value = null, string|null $currency = null) : mixed
+public __construct(array|\Testottest\Model\Deal\numeric|null $value = null, string|null $currency = null) : mixed
 ```
 
 **Summary**
@@ -93,12 +93,12 @@ public __construct(array|\YooKassa\Model\Deal\numeric|null $value = null, string
 MonetaryAmount constructor.
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Deal\DealBalanceAmount](../classes/YooKassa-Model-Deal-DealBalanceAmount.md)
+* Inherited From: [\Testottest\Model\Deal\DealBalanceAmount](../classes/YooKassa-Model-Deal-DealBalanceAmount.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">array OR \YooKassa\Model\Deal\numeric OR null</code> | value  | Сумма |
+| <code lang="php">array OR \Testottest\Model\Deal\numeric OR null</code> | value  | Сумма |
 | <code lang="php">string OR null</code> | currency  | Код валюты |
 
 **Returns:** mixed - 
@@ -116,7 +116,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -138,7 +138,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -160,7 +160,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -183,7 +183,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -205,7 +205,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -227,7 +227,7 @@ public getCurrency() : string
 Возвращает валюту
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Deal\DealBalanceAmount](../classes/YooKassa-Model-Deal-DealBalanceAmount.md)
+* Inherited From: [\Testottest\Model\Deal\DealBalanceAmount](../classes/YooKassa-Model-Deal-DealBalanceAmount.md)
 
 **Returns:** string - Код валюты
 
@@ -244,7 +244,7 @@ public getIntegerValue() : int
 Возвращает сумму в копейках в виде целого числа
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Deal\DealBalanceAmount](../classes/YooKassa-Model-Deal-DealBalanceAmount.md)
+* Inherited From: [\Testottest\Model\Deal\DealBalanceAmount](../classes/YooKassa-Model-Deal-DealBalanceAmount.md)
 
 **Returns:** int - Сумма в копейках/центах
 
@@ -261,7 +261,7 @@ public getValue() : string
 Возвращает значение суммы
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Deal\DealBalanceAmount](../classes/YooKassa-Model-Deal-DealBalanceAmount.md)
+* Inherited From: [\Testottest\Model\Deal\DealBalanceAmount](../classes/YooKassa-Model-Deal-DealBalanceAmount.md)
 
 **Returns:** string - Сумма
 
@@ -278,7 +278,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Deal\DealBalanceAmount](../classes/YooKassa-Model-Deal-DealBalanceAmount.md)
+* Inherited From: [\Testottest\Model\Deal\DealBalanceAmount](../classes/YooKassa-Model-Deal-DealBalanceAmount.md)
 
 **Returns:** array - 
 
@@ -295,7 +295,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -317,7 +317,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -339,7 +339,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -362,7 +362,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -384,7 +384,7 @@ public setCurrency(string $value) : mixed
 Устанавливает код валюты
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Deal\DealBalanceAmount](../classes/YooKassa-Model-Deal-DealBalanceAmount.md)
+* Inherited From: [\Testottest\Model\Deal\DealBalanceAmount](../classes/YooKassa-Model-Deal-DealBalanceAmount.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -394,9 +394,9 @@ public setCurrency(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\EmptyPropertyValueException | Генерируется если было передано пустое значение |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если было передано значение невалидного типа |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если был передан неподдерживаемый код валюты |
+| \Testottest\Common\Exceptions\EmptyPropertyValueException | Генерируется если было передано пустое значение |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если было передано значение невалидного типа |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если был передан неподдерживаемый код валюты |
 
 **Returns:** mixed - 
 
@@ -413,7 +413,7 @@ public setValue(string $value) : mixed
 Устанавливает сумму
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Deal\DealBalanceAmount](../classes/YooKassa-Model-Deal-DealBalanceAmount.md)
+* Inherited From: [\Testottest\Model\Deal\DealBalanceAmount](../classes/YooKassa-Model-Deal-DealBalanceAmount.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -423,9 +423,9 @@ public setValue(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\EmptyPropertyValueException | Генерируется если было передано пустое значение |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если было передано значение невалидного типа |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если было передано не валидное значение |
+| \Testottest\Common\Exceptions\EmptyPropertyValueException | Генерируется если было передано пустое значение |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если было передано значение невалидного типа |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если было передано не валидное значение |
 
 **Returns:** mixed - 
 
@@ -443,7 +443,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -460,7 +460,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

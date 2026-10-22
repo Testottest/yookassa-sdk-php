@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\YooKassa\Client;
+namespace Tests\Testottest\Client;
 
 use DateTime;
 use Exception;
@@ -8,53 +8,53 @@ use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 use PHPUnit_Framework_MockObject_MockObject;
 use ReflectionMethod;
-use YooKassa\Client;
-use YooKassa\Common\Exceptions\ApiConnectionException;
-use YooKassa\Common\Exceptions\ApiException;
-use YooKassa\Common\Exceptions\AuthorizeException;
-use YooKassa\Common\Exceptions\BadApiRequestException;
-use YooKassa\Common\Exceptions\ExtensionNotFoundException;
-use YooKassa\Common\Exceptions\ForbiddenException;
-use YooKassa\Common\Exceptions\InternalServerError;
-use YooKassa\Common\Exceptions\JsonException;
-use YooKassa\Common\Exceptions\NotFoundException;
-use YooKassa\Common\Exceptions\ResponseProcessingException;
-use YooKassa\Common\Exceptions\TooManyRequestsException;
-use YooKassa\Common\Exceptions\UnauthorizedException;
-use YooKassa\Common\LoggerWrapper;
-use YooKassa\Helpers\Random;
-use YooKassa\Helpers\StringObject;
-use YooKassa\Model\Deal\DealType;
-use YooKassa\Model\Deal\FeeMoment;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\ReceiptCustomer;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\ReceiptType;
-use YooKassa\Model\SafeDeal;
-use YooKassa\Model\Settlement;
-use YooKassa\Request\Deals\CreateDealRequest;
-use YooKassa\Request\Deals\CreateDealResponse;
-use YooKassa\Request\Deals\DealResponse;
-use YooKassa\Request\Deals\DealsRequest;
-use YooKassa\Request\Deals\DealsResponse;
-use YooKassa\Request\Payments\CreatePaymentResponse;
-use YooKassa\Request\Payments\CreatePaymentRequest;
-use YooKassa\Request\Payments\Payment\CancelResponse;
-use YooKassa\Request\Payments\Payment\CreateCaptureRequest;
-use YooKassa\Request\Payments\Payment\CreateCaptureResponse;
-use YooKassa\Request\Payments\PaymentResponse;
-use YooKassa\Request\Payments\PaymentsRequest;
-use YooKassa\Request\Payments\PaymentsResponse;
-use YooKassa\Request\Payouts\CreatePayoutRequest;
-use YooKassa\Request\Payouts\CreatePayoutResponse;
-use YooKassa\Request\Payouts\PayoutResponse;
-use YooKassa\Request\Receipts\AbstractReceiptResponse;
-use YooKassa\Request\Receipts\CreatePostReceiptRequest;
-use YooKassa\Request\Refunds\CreateRefundRequest;
-use YooKassa\Request\Refunds\CreateRefundResponse;
-use YooKassa\Request\Refunds\RefundResponse;
-use YooKassa\Request\Refunds\RefundsRequest;
-use YooKassa\Request\Refunds\RefundsResponse;
+use Testottest\Client;
+use Testottest\Common\Exceptions\ApiConnectionException;
+use Testottest\Common\Exceptions\ApiException;
+use Testottest\Common\Exceptions\AuthorizeException;
+use Testottest\Common\Exceptions\BadApiRequestException;
+use Testottest\Common\Exceptions\ExtensionNotFoundException;
+use Testottest\Common\Exceptions\ForbiddenException;
+use Testottest\Common\Exceptions\InternalServerError;
+use Testottest\Common\Exceptions\JsonException;
+use Testottest\Common\Exceptions\NotFoundException;
+use Testottest\Common\Exceptions\ResponseProcessingException;
+use Testottest\Common\Exceptions\TooManyRequestsException;
+use Testottest\Common\Exceptions\UnauthorizedException;
+use Testottest\Common\LoggerWrapper;
+use Testottest\Helpers\Random;
+use Testottest\Helpers\StringObject;
+use Testottest\Model\Deal\DealType;
+use Testottest\Model\Deal\FeeMoment;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\ReceiptCustomer;
+use Testottest\Model\ReceiptItem;
+use Testottest\Model\ReceiptType;
+use Testottest\Model\SafeDeal;
+use Testottest\Model\Settlement;
+use Testottest\Request\Deals\CreateDealRequest;
+use Testottest\Request\Deals\CreateDealResponse;
+use Testottest\Request\Deals\DealResponse;
+use Testottest\Request\Deals\DealsRequest;
+use Testottest\Request\Deals\DealsResponse;
+use Testottest\Request\Payments\CreatePaymentResponse;
+use Testottest\Request\Payments\CreatePaymentRequest;
+use Testottest\Request\Payments\Payment\CancelResponse;
+use Testottest\Request\Payments\Payment\CreateCaptureRequest;
+use Testottest\Request\Payments\Payment\CreateCaptureResponse;
+use Testottest\Request\Payments\PaymentResponse;
+use Testottest\Request\Payments\PaymentsRequest;
+use Testottest\Request\Payments\PaymentsResponse;
+use Testottest\Request\Payouts\CreatePayoutRequest;
+use Testottest\Request\Payouts\CreatePayoutResponse;
+use Testottest\Request\Payouts\PayoutResponse;
+use Testottest\Request\Receipts\AbstractReceiptResponse;
+use Testottest\Request\Receipts\CreatePostReceiptRequest;
+use Testottest\Request\Refunds\CreateRefundRequest;
+use Testottest\Request\Refunds\CreateRefundResponse;
+use Testottest\Request\Refunds\RefundResponse;
+use Testottest\Request\Refunds\RefundsRequest;
+use Testottest\Request\Refunds\RefundsResponse;
 
 class ClientTest extends TestCase
 {
@@ -1029,7 +1029,7 @@ class ClientTest extends TestCase
             ->setMethods(array('setLogger', 'setConfig', 'call', 'setShopId', 'getUserAgent', 'setBearerToken', 'setShopPassword'))
             ->disableOriginalConstructor()
             ->getMock();
-        $expectedLoggers = array();
+        $expectedLoggers = [];
         $clientMock->expects(self::exactly(3))->method('setLogger')->willReturnCallback(function ($logger) use(&$expectedLoggers) {
             $expectedLoggers[] = $logger;
         });
@@ -1039,7 +1039,7 @@ class ClientTest extends TestCase
         self::assertSame($expectedLoggers[0], $logger);
 
         $apiClient->setLogger($wrapped);
-        $apiClient->setLogger(function ($level, $log, $context = array()) use ($wrapped) {
+        $apiClient->setLogger(function ($level, $log, $context = []) use ($wrapped) {
             $wrapped->log($level, $log, $context);
         });
     }

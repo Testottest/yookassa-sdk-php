@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payouts;
+namespace Testottest\Request\Payouts;
 
-use YooKassa\Model\Payout;
-use YooKassa\Model\PayoutInterface;
+use Testottest\Model\Payout;
+use Testottest\Model\PayoutInterface;
 
 /**
  * Абстрактный класс ответа от API, возвращающего информацию о выплате

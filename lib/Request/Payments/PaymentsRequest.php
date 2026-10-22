@@ -24,15 +24,15 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments;
+namespace Testottest\Request\Payments;
 
 use Exception;
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\PaymentStatus;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\PaymentStatus;
 
 /**
  * Класс объекта запроса к API для получения списка платежей магазина

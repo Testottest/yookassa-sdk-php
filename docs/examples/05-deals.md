@@ -26,14 +26,14 @@ SDK позволяет создавать безопасные сделки, п�
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \YooKassa\Client();
+$client = new \Testottest\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 try {
     $response = $client->createDeal(
         array(
-            'type' => \YooKassa\Model\Deal\DealType::SAFE_DEAL,
-            'fee_moment' => \YooKassa\Model\Deal\FeeMoment::PAYMENT_SUCCEEDED,
+            'type' => \Testottest\Model\Deal\DealType::SAFE_DEAL,
+            'fee_moment' => \Testottest\Model\Deal\FeeMoment::PAYMENT_SUCCEEDED,
             'metadata' => array(
                 'order_id' => '37',
             ),
@@ -61,14 +61,14 @@ if (!empty($response)) {
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \YooKassa\Client();
+$client = new \Testottest\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 try {
     try {
-    $builder = \YooKassa\Request\Deals\CreateDealRequest::builder();
-    $builder->setType(\YooKassa\Model\Deal\DealType::SAFE_DEAL)
-        ->setFeeMoment(\YooKassa\Model\Deal\FeeMoment::PAYMENT_SUCCEEDED)
+    $builder = \Testottest\Request\Deals\CreateDealRequest::builder();
+    $builder->setType(\Testottest\Model\Deal\DealType::SAFE_DEAL)
+        ->setFeeMoment(\Testottest\Model\Deal\FeeMoment::PAYMENT_SUCCEEDED)
         ->setMetadata(array(
             'order_id' => '37',
         ))
@@ -113,7 +113,7 @@ var_dump($response);
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \YooKassa\Client();
+$client = new \Testottest\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 $paymentId = '21b23b5b-000f-5061-a000-0674e49a8c10';
@@ -170,7 +170,7 @@ var_dump($result);
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \YooKassa\Client();
+$client = new \Testottest\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 $request = array(
@@ -214,7 +214,7 @@ var_dump($result);
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \YooKassa\Client();
+$client = new \Testottest\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 $dealId = 'dl-215d8da0-000f-50be-b000-0003308c89be';
@@ -243,13 +243,13 @@ var_dump($response);
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \YooKassa\Client();
+$client = new \Testottest\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 $cursor = null;
 $params = array(
     'limit' => 30,
-    'status' => \YooKassa\Model\Deal\DealStatus::OPENED,
+    'status' => \Testottest\Model\Deal\DealStatus::OPENED,
     'full_text_search' => 'DEAL',
     'created_at_gte' => '2021-10-01T00:00:00.000Z',
     'created_at_lt' => '2021-11-01T23:59:59.999Z',
@@ -289,7 +289,7 @@ try {
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \YooKassa\Client();
+$client = new \Testottest\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 $payoutId = 'po-285c0ab7-0003-5000-9000-0e1166498fda';

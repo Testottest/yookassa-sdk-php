@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentMethod;
+namespace Testottest\Model\PaymentMethod;
 
 
-use YooKassa\Common\AbstractEnum;
+use Testottest\Common\AbstractEnum;
 
 /**
  * BankCardSource - Источник данных банковской карты

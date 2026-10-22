@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common\Exceptions;
+namespace Testottest\Common\Exceptions;
 
-use YooKassa\Common\AbstractRequest;
+use Testottest\Common\AbstractRequest;
 
 class InvalidRequestException extends \RuntimeException
 {

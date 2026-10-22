@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentData;
+namespace Testottest\Model\PaymentData;
 
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\PaymentData\B2b\Sberbank\VatData;
-use YooKassa\Model\PaymentMethodType;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\PaymentData\B2b\Sberbank\VatData;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * PaymentDataB2BSberbank
@@ -104,7 +104,7 @@ class PaymentDataB2bSberbank extends AbstractPaymentData
      */
     public function setVatData($value)
     {
-        if ($value === null || $value === array()) {
+        if ($value === null || $value === []) {
             $this->_vatData = null;
         } elseif ($value instanceof VatData) {
             $this->_vatData = $value;

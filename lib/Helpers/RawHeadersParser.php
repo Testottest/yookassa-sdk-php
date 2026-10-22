@@ -24,13 +24,13 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Helpers;
+namespace Testottest\Helpers;
 
 class RawHeadersParser
 {
     public static function parse($rawHeaders)
     {
-        $headers = array();
+        $headers = [];
         $key = '';
 
         foreach (explode("\n", $rawHeaders) as $headerRow) {

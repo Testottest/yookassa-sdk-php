@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Helpers\Config;
+namespace Tests\Testottest\Helpers\Config;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Config\ConfigurationLoader;
+use Testottest\Helpers\Config\ConfigurationLoader;
 
 class ConfigurationLoaderTest extends TestCase
 {

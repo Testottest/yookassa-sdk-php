@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\YooKassa\Common\Exceptions;
+namespace Tests\Testottest\Common\Exceptions;
 
-use YooKassa\Common\Exceptions\ForbiddenException;
+use Testottest\Common\Exceptions\ForbiddenException;
 
 class ForbiddenExceptionTest extends AbstractApiRequestExceptionTest
 {
-    public function getTestInstance($message = '', $code = 0, $responseHeaders = array(), $responseBody = null)
+    public function getTestInstance($message = '', $code = 0, $responseHeaders = [], $responseBody = null)
     {
         return new ForbiddenException($responseHeaders, $responseBody);
     }

@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Model\PaymentMethod;
+namespace Tests\Testottest\Model\PaymentMethod;
 
-use YooKassa\Model\PaymentMethod\PaymentMethodMobileBalance;
-use YooKassa\Model\PaymentMethodType;
+use Testottest\Model\PaymentMethod\PaymentMethodMobileBalance;
+use Testottest\Model\PaymentMethodType;
 
 class PaymentMethodMobileBalanceTest extends AbstractPaymentMethodPhoneTest
 {

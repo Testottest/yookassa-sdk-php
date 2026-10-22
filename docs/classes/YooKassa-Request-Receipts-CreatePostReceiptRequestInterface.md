@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: CreatePostReceiptRequestInterface
-### Namespace: [\YooKassa\Request\Receipts](../namespaces/yookassa-request-receipts.md)
+### Namespace: [\Testottest\Request\Receipts](../namespaces/yookassa-request-receipts.md)
 ---
 **Summary:**
 
@@ -68,16 +68,16 @@ public getObjectId() : string
 Возвращает идентификатор объекта, для которого формируется чек
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
 **Returns:** string - Идентификатор объекта
 
 
 <a name="method_setObjectId" class="anchor"></a>
-#### public setObjectId() : \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface
+#### public setObjectId() : \Testottest\Request\Receipts\CreatePostReceiptRequestInterface
 
 ```php
-public setObjectId(string $value) : \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface
+public setObjectId(string $value) : \Testottest\Request\Receipts\CreatePostReceiptRequestInterface
 ```
 
 **Summary**
@@ -85,14 +85,14 @@ public setObjectId(string $value) : \YooKassa\Request\Receipts\CreatePostReceipt
 Устанавливает идентификатор объекта, для которого формируется чек
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">string</code> | value  | Идентификатор объекта |
 
-**Returns:** \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface - 
+**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequestInterface - 
 
 
 <a name="method_getType" class="anchor"></a>
@@ -107,16 +107,16 @@ public getType() : string
 Возвращает тип чека в онлайн-кассе
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
 **Returns:** string - Тип чека в онлайн-кассе: приход "payment" или возврат "refund"
 
 
 <a name="method_setType" class="anchor"></a>
-#### public setType() : \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface
+#### public setType() : \Testottest\Request\Receipts\CreatePostReceiptRequestInterface
 
 ```php
-public setType(string $value) : \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface
+public setType(string $value) : \Testottest\Request\Receipts\CreatePostReceiptRequestInterface
 ```
 
 **Summary**
@@ -124,14 +124,14 @@ public setType(string $value) : \YooKassa\Request\Receipts\CreatePostReceiptRequ
 Устанавливает тип чека в онлайн-кассе
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">string</code> | value  | Тип чека в онлайн-кассе: приход "payment" или возврат "refund" |
 
-**Returns:** \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface - 
+**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequestInterface - 
 
 
 <a name="method_getSend" class="anchor"></a>
@@ -150,16 +150,16 @@ public getSend() : mixed
  @return bool Признак отложенной отправки чека
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
 **Returns:** mixed - 
 
 
 <a name="method_setSend" class="anchor"></a>
-#### public setSend() : \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface
+#### public setSend() : \Testottest\Request\Receipts\CreatePostReceiptRequestInterface
 
 ```php
-public setSend(bool $value) : \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface
+public setSend(bool $value) : \Testottest\Request\Receipts\CreatePostReceiptRequestInterface
 ```
 
 **Summary**
@@ -167,14 +167,14 @@ public setSend(bool $value) : \YooKassa\Request\Receipts\CreatePostReceiptReques
 Устанавливает признак отложенной отправки чека
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">bool</code> | value  | Признак отложенной отправки чека |
 
-**Returns:** \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface - 
+**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequestInterface - 
 
 
 <a name="method_getTaxSystemCode" class="anchor"></a>
@@ -193,16 +193,16 @@ public getTaxSystemCode() : mixed
  @return int Код системы налогообложения. Число 1-6
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
 **Returns:** mixed - 
 
 
 <a name="method_setTaxSystemCode" class="anchor"></a>
-#### public setTaxSystemCode() : \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface
+#### public setTaxSystemCode() : \Testottest\Request\Receipts\CreatePostReceiptRequestInterface
 
 ```php
-public setTaxSystemCode(int $value) : \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface
+public setTaxSystemCode(int $value) : \Testottest\Request\Receipts\CreatePostReceiptRequestInterface
 ```
 
 **Summary**
@@ -210,21 +210,21 @@ public setTaxSystemCode(int $value) : \YooKassa\Request\Receipts\CreatePostRecei
 Устанавливает код системы налогообложения
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">int</code> | value  | Код системы налогообложения. Число 1-6 |
 
-**Returns:** \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface - 
+**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequestInterface - 
 
 
 <a name="method_getCustomer" class="anchor"></a>
-#### public getCustomer() : \YooKassa\Model\ReceiptCustomerInterface
+#### public getCustomer() : \Testottest\Model\ReceiptCustomerInterface
 
 ```php
-public getCustomer() : \YooKassa\Model\ReceiptCustomerInterface
+public getCustomer() : \Testottest\Model\ReceiptCustomerInterface
 ```
 
 **Summary**
@@ -232,16 +232,16 @@ public getCustomer() : \YooKassa\Model\ReceiptCustomerInterface
 Возвращает информацию о плательщике.
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
-**Returns:** \YooKassa\Model\ReceiptCustomerInterface - Информация о плательщике
+**Returns:** \Testottest\Model\ReceiptCustomerInterface - Информация о плательщике
 
 
 <a name="method_setCustomer" class="anchor"></a>
-#### public setCustomer() : \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface
+#### public setCustomer() : \Testottest\Request\Receipts\CreatePostReceiptRequestInterface
 
 ```php
-public setCustomer(\YooKassa\Model\ReceiptCustomerInterface $value) : \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface
+public setCustomer(\Testottest\Model\ReceiptCustomerInterface $value) : \Testottest\Request\Receipts\CreatePostReceiptRequestInterface
 ```
 
 **Summary**
@@ -249,14 +249,14 @@ public setCustomer(\YooKassa\Model\ReceiptCustomerInterface $value) : \YooKassa\
 Устанавливает информацию о пользователе
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Model\ReceiptCustomerInterface</code> | value  | Информация о плательщике |
+| <code lang="php">\Testottest\Model\ReceiptCustomerInterface</code> | value  | Информация о плательщике |
 
-**Returns:** \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface - 
+**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequestInterface - 
 
 
 <a name="method_getItems" class="anchor"></a>
@@ -275,16 +275,16 @@ public getItems() : mixed
  @return ReceiptItemInterface[]
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
 **Returns:** mixed - 
 
 
 <a name="method_setItems" class="anchor"></a>
-#### public setItems() : \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface
+#### public setItems() : \Testottest\Request\Receipts\CreatePostReceiptRequestInterface
 
 ```php
-public setItems(\YooKassa\Model\ReceiptItemInterface[]|array $value) : \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface
+public setItems(\Testottest\Model\ReceiptItemInterface[]|array $value) : \Testottest\Request\Receipts\CreatePostReceiptRequestInterface
 ```
 
 **Summary**
@@ -292,21 +292,21 @@ public setItems(\YooKassa\Model\ReceiptItemInterface[]|array $value) : \YooKassa
 Устанавливает список товаров чека
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Model\ReceiptItemInterface[] OR array</code> | value  | Список товаров чека |
+| <code lang="php">\Testottest\Model\ReceiptItemInterface[] OR array</code> | value  | Список товаров чека |
 
-**Returns:** \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface - 
+**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequestInterface - 
 
 
 <a name="method_addItem" class="anchor"></a>
-#### public addItem() : \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface
+#### public addItem() : \Testottest\Request\Receipts\CreatePostReceiptRequestInterface
 
 ```php
-public addItem(\YooKassa\Model\ReceiptItemInterface|array $value) : \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface
+public addItem(\Testottest\Model\ReceiptItemInterface|array $value) : \Testottest\Request\Receipts\CreatePostReceiptRequestInterface
 ```
 
 **Summary**
@@ -314,14 +314,14 @@ public addItem(\YooKassa\Model\ReceiptItemInterface|array $value) : \YooKassa\Re
 Добавляет товар в чек
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Model\ReceiptItemInterface OR array</code> | value  | Информация о товаре |
+| <code lang="php">\Testottest\Model\ReceiptItemInterface OR array</code> | value  | Информация о товаре |
 
-**Returns:** \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface - 
+**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequestInterface - 
 
 
 <a name="method_getSettlements" class="anchor"></a>
@@ -340,16 +340,16 @@ public getSettlements() : mixed
  @return SettlementInterface[]
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
 **Returns:** mixed - 
 
 
 <a name="method_setSettlements" class="anchor"></a>
-#### public setSettlements() : \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface
+#### public setSettlements() : \Testottest\Request\Receipts\CreatePostReceiptRequestInterface
 
 ```php
-public setSettlements(\YooKassa\Model\SettlementInterface[]|array $value) : \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface
+public setSettlements(\Testottest\Model\SettlementInterface[]|array $value) : \Testottest\Request\Receipts\CreatePostReceiptRequestInterface
 ```
 
 **Summary**
@@ -357,14 +357,14 @@ public setSettlements(\YooKassa\Model\SettlementInterface[]|array $value) : \Yoo
 Устанавливает массив оплат, обеспечивающих выдачу товара
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Model\SettlementInterface[] OR array</code> | value  | Массив оплат, обеспечивающих выдачу товара |
+| <code lang="php">\Testottest\Model\SettlementInterface[] OR array</code> | value  | Массив оплат, обеспечивающих выдачу товара |
 
-**Returns:** \YooKassa\Request\Receipts\CreatePostReceiptRequestInterface - 
+**Returns:** \Testottest\Request\Receipts\CreatePostReceiptRequestInterface - 
 
 
 <a name="method_getOnBehalfOf" class="anchor"></a>
@@ -379,7 +379,7 @@ public getOnBehalfOf() : string|null
 Возвращает идентификатор магазина, от имени которого нужно отправить чек
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
 **Returns:** string|null - Идентификатор магазина, от имени которого нужно отправить чек
 
@@ -401,7 +401,7 @@ public setOnBehalfOf(string $value) : mixed
 Необходимо передавать, если вы используете решение ЮKassa для платформ.
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -423,7 +423,7 @@ public notEmpty() : bool
 Проверяет есть ли в чеке хотя бы одна позиция
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
+* Inherited From: [\Testottest\Request\Receipts\CreatePostReceiptRequestInterface](../classes/YooKassa-Request-Receipts-CreatePostReceiptRequestInterface.md)
 
 **Returns:** bool - True если чек не пуст, false если в чеке нет ни одной позиции
 

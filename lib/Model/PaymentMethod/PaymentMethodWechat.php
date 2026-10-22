@@ -23,10 +23,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentMethod;
+namespace Testottest\Model\PaymentMethod;
 
 
-use YooKassa\Model\PaymentMethodType;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * @deprecated Класс будет удалён в одной из будущих версий.

@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Receipts;
+namespace Testottest\Request\Receipts;
 
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\ReceiptType;
-use YooKassa\Model\Settlement;
+use Testottest\Model\ReceiptItem;
+use Testottest\Model\ReceiptType;
+use Testottest\Model\Settlement;
 
 /**
  * Класс сериалайзера объекта запроса к API создание чека
@@ -84,7 +84,7 @@ class CreatePostReceiptRequestSerializer
      */
     private function serializeObjectId(CreatePostReceiptRequestInterface $request)
     {
-        $result = array();
+        $result = [];
 
         if ($request->getObjectType() === ReceiptType::PAYMENT) {
             $result['payment_id'] = $request->getObjectId();

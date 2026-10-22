@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Receipts;
+namespace Testottest\Request\Receipts;
 
 use Exception;
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\RefundStatus;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\RefundStatus;
 
 /**
  * Класс объекта запроса к API списка возвратов магазина

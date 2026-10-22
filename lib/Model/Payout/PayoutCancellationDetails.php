@@ -24,13 +24,13 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Payout;
+namespace Testottest\Model\Payout;
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\CancellationDetailsInterface;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\CancellationDetailsInterface;
 
 /**
  * PayoutCancellationDetails - Комментарий к отмене выплаты

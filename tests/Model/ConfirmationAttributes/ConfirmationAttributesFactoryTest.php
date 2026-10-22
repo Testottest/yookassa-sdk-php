@@ -3,10 +3,10 @@
 namespace Model\ConfirmationAttributes;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesFactory;
-use YooKassa\Model\ConfirmationType;
+use Testottest\Helpers\Random;
+use Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory;
+use Testottest\Model\ConfirmationType;
 
 class ConfirmationAttributesFactoryTest extends TestCase
 {
@@ -82,7 +82,7 @@ class ConfirmationAttributesFactoryTest extends TestCase
 
     public function validTypeDataProvider()
     {
-        $result = array();
+        $result = [];
         foreach (ConfirmationType::getValidValues() as $value) {
             $result[] = array($value);
         }

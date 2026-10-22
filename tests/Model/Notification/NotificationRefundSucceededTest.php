@@ -1,16 +1,16 @@
 <?php
 
 
-namespace Tests\YooKassa\Model\Notification;
+namespace Tests\Testottest\Model\Notification;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Notification\NotificationRefundSucceeded;
-use YooKassa\Model\NotificationEventType;
-use YooKassa\Model\NotificationType;
-use YooKassa\Model\ReceiptRegistrationStatus;
-use YooKassa\Model\RefundInterface;
-use YooKassa\Model\RefundStatus;
+use Testottest\Helpers\Random;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\Notification\NotificationRefundSucceeded;
+use Testottest\Model\NotificationEventType;
+use Testottest\Model\NotificationType;
+use Testottest\Model\ReceiptRegistrationStatus;
+use Testottest\Model\RefundInterface;
+use Testottest\Model\RefundStatus;
 
 class NotificationRefundSucceededTest extends AbstractNotificationTest
 {
@@ -59,7 +59,7 @@ class NotificationRefundSucceededTest extends AbstractNotificationTest
      */
     public function validDataProvider()
     {
-        $result               = array();
+        $result               = [];
         $statuses             = RefundStatus::getValidValues();
         $receiptRegistrations = ReceiptRegistrationStatus::getValidValues();
 

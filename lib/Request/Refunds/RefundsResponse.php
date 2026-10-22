@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Refunds;
+namespace Testottest\Request\Refunds;
 
 use Exception;
-use YooKassa\Model\RefundInterface;
+use Testottest\Model\RefundInterface;
 
 /**
  * Класс объекта ответа от API со списком возвратов магазина
@@ -53,7 +53,7 @@ class RefundsResponse
      */
     public function __construct(array $options)
     {
-        $this->items = array();
+        $this->items = [];
         foreach ($options['items'] as $item) {
             $this->items[] = new RefundResponse($item);
         }

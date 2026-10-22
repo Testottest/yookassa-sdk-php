@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\YooKassa\Request\Deals;
+namespace Tests\Testottest\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Deal\DealType;
-use YooKassa\Model\Deal\FeeMoment;
-use YooKassa\Model\DealInterface;
-use YooKassa\Model\Deal\DealStatus;
-use YooKassa\Request\Deals\DealsResponse;
+use Testottest\Helpers\Random;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\Deal\DealType;
+use Testottest\Model\Deal\FeeMoment;
+use Testottest\Model\DealInterface;
+use Testottest\Model\Deal\DealStatus;
+use Testottest\Request\Deals\DealsResponse;
 
 class DealsResponseTest extends TestCase
 {

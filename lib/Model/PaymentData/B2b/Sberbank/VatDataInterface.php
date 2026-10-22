@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentData\B2b\Sberbank;
+namespace Testottest\Model\PaymentData\B2b\Sberbank;
 
-use YooKassa\Model\AmountInterface;
+use Testottest\Model\AmountInterface;
 
 /**
  * Interface VatDataInterface

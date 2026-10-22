@@ -24,13 +24,13 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Deals;
+namespace Testottest\Request\Deals;
 
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\AbstractRequestBuilder;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Model\Metadata;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\AbstractRequestBuilder;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Model\Metadata;
 
 /**
  * Класс билдера объектов запросов к API на создание платежа

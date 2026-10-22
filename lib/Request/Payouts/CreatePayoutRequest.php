@@ -24,21 +24,21 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payouts;
+namespace Testottest\Request\Payouts;
 
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\Deal\PayoutDealInfo;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Payout;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\Payout\AbstractPayoutDestination;
-use YooKassa\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData;
-use YooKassa\Request\Payouts\PayoutDestinationData\PayoutDestinationDataFactory;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\Deal\PayoutDealInfo;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Payout;
+use Testottest\Model\Metadata;
+use Testottest\Model\Payout\AbstractPayoutDestination;
+use Testottest\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData;
+use Testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataFactory;
 
 /**
  * Класс объекта запроса к API на проведение новой выплаты

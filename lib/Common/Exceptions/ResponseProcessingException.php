@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common\Exceptions;
+namespace Testottest\Common\Exceptions;
 
 /**
  * Запрос был принят на обработку, но она не завершена.
@@ -39,7 +39,7 @@ class ResponseProcessingException extends ApiException
 
     public $retryAfter;
 
-    public function __construct($responseHeaders = array(), $responseBody = null)
+    public function __construct($responseHeaders = [], $responseBody = null)
     {
         $errorData = json_decode($responseBody, true);
         $message   = '';

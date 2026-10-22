@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\YooKassa\Model\PaymentData;
+namespace Tests\Testottest\Model\PaymentData;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails;
+use Testottest\Helpers\Random;
+use Testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails;
 
 class PayerBankDetailsTest extends TestCase
 {

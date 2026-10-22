@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model;
+namespace Testottest\Model;
 
-use YooKassa\Model\Deal\PaymentDealInfo;
-use YooKassa\Model\PaymentMethod\AbstractPaymentMethod;
+use Testottest\Model\Deal\PaymentDealInfo;
+use Testottest\Model\PaymentMethod\AbstractPaymentMethod;
 
 /**
  * Interface PaymentInterface

@@ -1,6 +1,6 @@
 <?php
 
-namespace YooKassa\Helpers;
+namespace Testottest\Helpers;
 
 
 class UUID

@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Client;
+namespace Testottest\Client;
 
 
-use YooKassa\Client;
+use Testottest\Client;
 
 /**
  * Класс для создания заголовка User-Agent в запросах к API
@@ -83,7 +83,7 @@ class UserAgent
      */
     public function getHeaderString()
     {
-        $result = array();
+        $result = [];
 
         $result[] = $this->getOs();
         $result[] = $this->getPhp();
@@ -243,7 +243,7 @@ class UserAgent
      */
     private function parseSmartLinuxRelease()
     {
-        $vars = array();
+        $vars = [];
 
         if ($files = glob('/etc/*elease')) {
             foreach ($files as $file) {
@@ -286,7 +286,7 @@ class UserAgent
      */
     private function parseSimpleLinuxRelease()
     {
-        $vars = array();
+        $vars = [];
 
         if ($files = glob('/etc/*elease')) {
             foreach ($files as $file) {
@@ -311,7 +311,7 @@ class UserAgent
      */
     private static function callbackSimpleLinux($line)
     {
-        $parse = array();
+        $parse = [];
         preg_match('/(.+) release (.+) (.+)/iu', $line, $parts);
         if (!empty($parts[1])) {
             $parse['name'] = str_replace(' ', '.', trim($parts[1]));

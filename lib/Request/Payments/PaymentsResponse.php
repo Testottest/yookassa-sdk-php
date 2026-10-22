@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments;
+namespace Testottest\Request\Payments;
 
 use Exception;
-use YooKassa\Common\AbstractObject;
-use YooKassa\Model\PaymentInterface;
+use Testottest\Common\AbstractObject;
+use Testottest\Model\PaymentInterface;
 
 /**
  * Класс объекта ответа от API со списком платежей магазина
@@ -55,7 +55,7 @@ class PaymentsResponse extends AbstractObject
      */
     public function fromArray($sourceArray)
     {
-        $this->items = array();
+        $this->items = [];
         foreach ($sourceArray['items'] as $paymentInfo) {
             $this->items[] = new PaymentResponse($paymentInfo);
         }

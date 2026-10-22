@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Helpers;
+namespace Tests\Testottest\Helpers;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\StringObject;
+use Testottest\Helpers\StringObject;
 
 class StringObjectTest extends TestCase
 {

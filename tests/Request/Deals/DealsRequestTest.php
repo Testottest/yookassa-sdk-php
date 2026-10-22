@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\YooKassa\Request\Deals;
+namespace Tests\Testottest\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Helpers\StringObject;
-use YooKassa\Model\Deal\DealStatus;
-use YooKassa\Model\SafeDeal;
-use YooKassa\Request\Deals\DealsRequest;
-use YooKassa\Request\Deals\DealsRequestBuilder;
+use Testottest\Helpers\Random;
+use Testottest\Helpers\StringObject;
+use Testottest\Model\Deal\DealStatus;
+use Testottest\Model\SafeDeal;
+use Testottest\Request\Deals\DealsRequest;
+use Testottest\Request\Deals\DealsRequestBuilder;
 
 class DealsRequestTest extends TestCase
 {

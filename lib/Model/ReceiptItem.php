@@ -24,16 +24,16 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model;
+namespace Testottest\Model;
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\ProductCode;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\Receipt\AgentType;
-use YooKassa\Model\Receipt\ReceiptItemAmount;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\ProductCode;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\Receipt\AgentType;
+use Testottest\Model\Receipt\ReceiptItemAmount;
 
 /**
  * Информация о товарной позиции в заказе, позиция фискального чека
@@ -60,6 +60,9 @@ use YooKassa\Model\Receipt\ReceiptItemAmount;
  */
 class ReceiptItem extends AbstractObject implements ReceiptItemInterface
 {
+	private const MIN_VAT_CODE = 1;
+	private const MAX_VAT_CODE = 12;
+
     /**
      * @var string Наименование товара
      */
@@ -261,7 +264,7 @@ class ReceiptItem extends AbstractObject implements ReceiptItemInterface
             throw new InvalidPropertyValueTypeException(
                 'Invalid vatId value type in ReceiptItem', 0, 'ReceiptItem.vatId', $value
             );
-        } elseif ($value < 1 || $value > 6) {
+        } elseif ($value < self::MIN_VAT_CODE || $value > self::MAX_VAT_CODE) {
             throw new InvalidPropertyValueException(
                 'Invalid vatId value in ReceiptItem', 0, 'ReceiptItem.vatId', $value
             );

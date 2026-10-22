@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\YooKassa\Model;
+namespace Tests\Testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\AuthorizationDetails;
-use YooKassa\Model\ThreeDSecure;
+use Testottest\Helpers\Random;
+use Testottest\Model\AuthorizationDetails;
+use Testottest\Model\ThreeDSecure;
 
 class AuthorizationDetailsTest extends TestCase
 {

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Model\Webhook\Webhook
-### Namespace: [\YooKassa\Model\Webhook](../namespaces/yookassa-model-webhook.md)
+# Class: \Testottest\Model\Webhook\Webhook
+### Namespace: [\Testottest\Model\Webhook](../namespaces/yookassa-model-webhook.md)
 ---
 **Summary:**
 
@@ -49,8 +49,8 @@
 * File: [lib/Model/Webhook/Webhook.php](../../lib/Model/Webhook/Webhook.php)
 * Package: YooKassa
 * Class Hierarchy: 
-  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * \YooKassa\Model\Webhook\Webhook
+  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * \Testottest\Model\Webhook\Webhook
 
 ---
 ## Properties
@@ -97,7 +97,7 @@ URL, на который ЮKassa будет отправлять уведомл�
 #### public __construct() : mixed
 
 ```php
-public __construct(array $data = array()) : mixed
+public __construct(array $data = []) : mixed
 ```
 
 **Summary**
@@ -105,7 +105,7 @@ public __construct(array $data = array()) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -127,7 +127,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -149,7 +149,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -171,7 +171,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -194,7 +194,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -216,7 +216,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -238,7 +238,7 @@ public getEvent() : string
 Возвращает событие, о котором уведомляет ЮKassa
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Webhook\Webhook](../classes/YooKassa-Model-Webhook-Webhook.md)
+* Inherited From: [\Testottest\Model\Webhook\Webhook](../classes/YooKassa-Model-Webhook-Webhook.md)
 
 **Returns:** string - Событие, о котором уведомляет ЮKassa
 
@@ -255,7 +255,7 @@ public getId() : string
 Возвращает идентификатор webhook
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Webhook\Webhook](../classes/YooKassa-Model-Webhook-Webhook.md)
+* Inherited From: [\Testottest\Model\Webhook\Webhook](../classes/YooKassa-Model-Webhook-Webhook.md)
 
 **Returns:** string - Идентификатор webhook
 
@@ -272,7 +272,7 @@ public getUrl() : string
 Возвращает URL, на который ЮKassa будет отправлять уведомления
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Webhook\Webhook](../classes/YooKassa-Model-Webhook-Webhook.md)
+* Inherited From: [\Testottest\Model\Webhook\Webhook](../classes/YooKassa-Model-Webhook-Webhook.md)
 
 **Returns:** string - URL, на который ЮKassa будет отправлять уведомления
 
@@ -289,7 +289,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -306,7 +306,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -328,7 +328,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -350,7 +350,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -373,7 +373,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -395,7 +395,7 @@ public setEvent(string $event) : mixed
 Устанавливает событие, о котором уведомляет ЮKassa
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Webhook\Webhook](../classes/YooKassa-Model-Webhook-Webhook.md)
+* Inherited From: [\Testottest\Model\Webhook\Webhook](../classes/YooKassa-Model-Webhook-Webhook.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -417,7 +417,7 @@ public setId(mixed $id) : mixed
 Устанавливает идентификатор webhook
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Webhook\Webhook](../classes/YooKassa-Model-Webhook-Webhook.md)
+* Inherited From: [\Testottest\Model\Webhook\Webhook](../classes/YooKassa-Model-Webhook-Webhook.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -439,7 +439,7 @@ public setUrl(string $url) : mixed
 Устанавливает URL, на который ЮKassa будет отправлять уведомления
 
 **Details:**
-* Inherited From: [\YooKassa\Model\Webhook\Webhook](../classes/YooKassa-Model-Webhook-Webhook.md)
+* Inherited From: [\Testottest\Model\Webhook\Webhook](../classes/YooKassa-Model-Webhook-Webhook.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -462,7 +462,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -479,7 +479,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

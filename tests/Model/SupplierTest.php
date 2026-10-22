@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\YooKassa\Model;
+namespace Tests\Testottest\Model;
 
-use YooKassa\Helpers\ProductCode;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Supplier;
+use Testottest\Helpers\ProductCode;
+use Testottest\Helpers\Random;
+use Testottest\Model\Supplier;
 use PHPUnit\Framework\TestCase;
 
 class SupplierTest extends TestCase

@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Tests\YooKassa\Model\PaymentData;
+namespace Tests\Testottest\Model\PaymentData;
 
 
-use YooKassa\Model\PaymentData\AbstractPaymentData;
-use YooKassa\Model\PaymentData\PaymentDataTinkoffBank;
-use YooKassa\Model\PaymentMethodType;
+use Testottest\Model\PaymentData\AbstractPaymentData;
+use Testottest\Model\PaymentData\PaymentDataTinkoffBank;
+use Testottest\Model\PaymentMethodType;
 
 class PaymentDataTinkoffBankTest extends AbstractPaymentDataTest
 {

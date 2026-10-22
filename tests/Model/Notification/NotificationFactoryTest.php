@@ -1,30 +1,30 @@
 <?php
 
-namespace Tests\YooKassa\Model\Notification;
+namespace Tests\Testottest\Model\Notification;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\ConfirmationType;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Deal\DealStatus;
-use YooKassa\Model\Deal\DealType;
-use YooKassa\Model\Deal\FeeMoment;
-use YooKassa\Model\Notification\AbstractNotification;
-use YooKassa\Model\Notification\NotificationFactory;
-use YooKassa\Model\NotificationEventType;
-use YooKassa\Model\NotificationType;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\PaymentStatus;
-use YooKassa\Model\Payout;
-use YooKassa\Model\Payout\PayoutCancellationDetailsPartyCode;
-use YooKassa\Model\Payout\PayoutCancellationDetailsReasonCode;
-use YooKassa\Model\PayoutStatus;
-use YooKassa\Model\ReceiptRegistrationStatus;
-use YooKassa\Model\RefundStatus;
-use YooKassa\Request\Deals\DealResponse;
-use YooKassa\Request\Payments\PaymentResponse;
-use YooKassa\Request\Payouts\PayoutResponse;
-use YooKassa\Request\Refunds\RefundResponse;
+use Testottest\Helpers\Random;
+use Testottest\Model\ConfirmationType;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\Deal\DealStatus;
+use Testottest\Model\Deal\DealType;
+use Testottest\Model\Deal\FeeMoment;
+use Testottest\Model\Notification\AbstractNotification;
+use Testottest\Model\Notification\NotificationFactory;
+use Testottest\Model\NotificationEventType;
+use Testottest\Model\NotificationType;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\PaymentStatus;
+use Testottest\Model\Payout;
+use Testottest\Model\Payout\PayoutCancellationDetailsPartyCode;
+use Testottest\Model\Payout\PayoutCancellationDetailsReasonCode;
+use Testottest\Model\PayoutStatus;
+use Testottest\Model\ReceiptRegistrationStatus;
+use Testottest\Model\RefundStatus;
+use Testottest\Request\Deals\DealResponse;
+use Testottest\Request\Payments\PaymentResponse;
+use Testottest\Request\Payouts\PayoutResponse;
+use Testottest\Request\Refunds\RefundResponse;
 
 class NotificationFactoryTest extends TestCase
 {
@@ -75,7 +75,7 @@ class NotificationFactoryTest extends TestCase
      */
     public function validArrayDataProvider()
     {
-        $result = array();
+        $result = [];
 
         for ($i = 0; $i < 12; $i++) {
             $eventType = Random::value(NotificationEventType::getEnabledValues());

@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Model\PaymentData;
+namespace Tests\Testottest\Model\PaymentData;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\PaymentData\PaymentDataApplePay;
+use Testottest\Helpers\Random;
+use Testottest\Model\PaymentData\PaymentDataApplePay;
 
 abstract class AbstractPaymentDataApplePayTest extends AbstractPaymentDataTest
 {

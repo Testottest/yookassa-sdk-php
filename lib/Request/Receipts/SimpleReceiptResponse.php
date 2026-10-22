@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Receipts;
+namespace Testottest\Request\Receipts;
 
 /**
  * Класс описывающий чек, не привязанный ни к платежу ни к возврату

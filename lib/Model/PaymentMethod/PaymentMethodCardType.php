@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentMethod;
+namespace Testottest\Model\PaymentMethod;
 
-use YooKassa\Common\AbstractEnum;
+use Testottest\Common\AbstractEnum;
 
 /**
  * Тип банковской карты. Возможные значения:

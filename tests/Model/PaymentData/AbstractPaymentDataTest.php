@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\YooKassa\Model\PaymentData;
+namespace Tests\Testottest\Model\PaymentData;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\PaymentData\AbstractPaymentData;
+use Testottest\Helpers\Random;
+use Testottest\Model\PaymentData\AbstractPaymentData;
 
 abstract class AbstractPaymentDataTest extends TestCase
 {

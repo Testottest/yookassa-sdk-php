@@ -24,7 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common;
+namespace Testottest\Common;
+
+use ArrayAccess;
+use DateTime;
+use JsonSerializable;
+use Traversable;
 
 if (!defined('YOOKASSA_DATE')) {
     if (version_compare(PHP_VERSION, '7.0') >= 0) {
@@ -35,7 +40,7 @@ if (!defined('YOOKASSA_DATE')) {
 }
 
 if (!interface_exists('JsonSerializable')) {
-    require_once dirname(__FILE__) . '/legacy_json_serializable.php';
+    require_once __DIR__ . '/legacy_json_serializable.php';
 }
 
 /**
@@ -43,18 +48,18 @@ if (!interface_exists('JsonSerializable')) {
  *
  * @package YooKassa
  */
-abstract class AbstractObject implements \ArrayAccess, \JsonSerializable
+abstract class AbstractObject implements ArrayAccess, JsonSerializable
 {
     /**
      * @var array Свойства установленные пользователем
      */
-    private $unknownProperties = array();
+    private $unknownProperties = [];
 
     /**
      * AbstractObject constructor.
      * @param array $data
      */
-    public function __construct($data = array())
+    public function __construct($data = [])
     {
         if (!empty($data) && is_array($data)) {
             $this->fromArray($data);
@@ -177,7 +182,7 @@ abstract class AbstractObject implements \ArrayAccess, \JsonSerializable
 
     /**
      * Устанавливает значения свойств текущего объекта из массива
-     * @param array|\Traversable $sourceArray Ассоциативный массив с настройками
+     * @param array|Traversable $sourceArray Ассоциативный массив с настройками
      */
     public function fromArray($sourceArray)
     {
@@ -202,7 +207,7 @@ abstract class AbstractObject implements \ArrayAccess, \JsonSerializable
      */
     public function jsonSerialize()
     {
-        $result = array();
+        $result = [];
         foreach (get_class_methods($this) as $method) {
             if (strncmp('get', $method, 3) === 0) {
                 if ($method === 'getUnknownProperties') {
@@ -230,20 +235,26 @@ abstract class AbstractObject implements \ArrayAccess, \JsonSerializable
 
     private function serializeValueToJson($value)
     {
-        if ($value === null || is_scalar($value)) {
-            return $value;
-        } elseif (is_array($value)) {
-            $array = array();
-            foreach ($value as $key => $item) {
-                $array[$key] = $this->serializeValueToJson($item);
-            }
-            return $array;
-        } elseif (is_object($value) && $value instanceof \JsonSerializable) {
-            return $value->jsonSerialize();
-        } elseif (is_object($value) && $value instanceof \DateTime) {
-            return $value->format(YOOKASSA_DATE);
-        }
-        return $value;
+		if ($value === null || is_scalar($value)) {
+			return $value;
+		}
+
+		if (is_array($value)) {
+			$array = [];
+			foreach ($value as $key => $item) {
+				$array[$key] = $this->serializeValueToJson($item);
+			}
+			return $array;
+		}
+
+		if (is_object($value) && $value instanceof JsonSerializable) {
+			return $value->jsonSerialize();
+		}
+
+		if (is_object($value) && $value instanceof DateTime) {
+			return $value->format(YOOKASSA_DATE);
+		}
+		return $value;
     }
 
     /**

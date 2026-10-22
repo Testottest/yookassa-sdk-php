@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model;
+namespace Testottest\Model;
 
-use YooKassa\Common\AbstractObject;
+use Testottest\Common\AbstractObject;
 
 /**
  * Metadata - Метаданные платежа указанные мерчантом.

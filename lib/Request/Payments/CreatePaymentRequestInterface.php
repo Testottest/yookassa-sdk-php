@@ -24,18 +24,18 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments;
+namespace Testottest\Request\Payments;
 
-use YooKassa\Model\Airline;
-use YooKassa\Model\AirlineInterface;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use YooKassa\Model\Deal\PaymentDealInfo;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\PaymentData\AbstractPaymentData;
-use YooKassa\Model\ReceiptInterface;
-use YooKassa\Model\RecipientInterface;
-use YooKassa\Model\TransferInterface;
+use Testottest\Model\Airline;
+use Testottest\Model\AirlineInterface;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use Testottest\Model\Deal\PaymentDealInfo;
+use Testottest\Model\Metadata;
+use Testottest\Model\PaymentData\AbstractPaymentData;
+use Testottest\Model\ReceiptInterface;
+use Testottest\Model\RecipientInterface;
+use Testottest\Model\TransferInterface;
 
 /**
  * Interface CreatePaymentRequestInterface

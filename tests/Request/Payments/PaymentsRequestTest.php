@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payments;
+namespace Tests\Testottest\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Helpers\StringObject;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\PaymentStatus;
-use YooKassa\Request\Payments\PaymentsRequest;
-use YooKassa\Request\Payments\PaymentsRequestBuilder;
+use Testottest\Helpers\Random;
+use Testottest\Helpers\StringObject;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\PaymentStatus;
+use Testottest\Request\Payments\PaymentsRequest;
+use Testottest\Request\Payments\PaymentsRequestBuilder;
 
 class PaymentsRequestTest extends TestCase
 {

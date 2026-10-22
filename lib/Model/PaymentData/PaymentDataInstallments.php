@@ -24,17 +24,19 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentData;
+namespace Testottest\Model\PaymentData;
 
-use YooKassa\Model\PaymentMethodType;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * Данные для проведения оплаты по частям
  */
 class PaymentDataInstallments extends AbstractPaymentData
 {
-    public function __construct()
+    public function __construct($data = [])
     {
+		parent::__construct($data);
+
         $this->_setType(PaymentMethodType::INSTALLMENTS);
     }
 }

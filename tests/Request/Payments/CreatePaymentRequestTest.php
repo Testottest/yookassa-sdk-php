@@ -1,25 +1,25 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payments;
+namespace Tests\Testottest\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
-use YooKassa\Model\ConfirmationType;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Deal\PaymentDealInfo;
-use YooKassa\Model\Locale;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Payment;
-use YooKassa\Model\PaymentData\PaymentDataQiwi;
-use YooKassa\Model\Receipt;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\Recipient;
-use YooKassa\Model\Transfer;
-use YooKassa\Model\TransferStatus;
-use YooKassa\Request\Payments\CreatePaymentRequest;
-use YooKassa\Request\Payments\CreatePaymentRequestBuilder;
+use Testottest\Helpers\Random;
+use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesExternal;
+use Testottest\Model\ConfirmationType;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\Deal\PaymentDealInfo;
+use Testottest\Model\Locale;
+use Testottest\Model\Metadata;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Payment;
+use Testottest\Model\PaymentData\PaymentDataQiwi;
+use Testottest\Model\Receipt;
+use Testottest\Model\ReceiptItem;
+use Testottest\Model\Recipient;
+use Testottest\Model\Transfer;
+use Testottest\Model\TransferStatus;
+use Testottest\Request\Payments\CreatePaymentRequest;
+use Testottest\Request\Payments\CreatePaymentRequestBuilder;
 
 class CreatePaymentRequestTest extends TestCase
 {
@@ -647,7 +647,7 @@ class CreatePaymentRequestTest extends TestCase
     {
         $metadata = new Metadata();
         $metadata->test = 'test';
-        $transfers = array();
+        $transfers = [];
         for($i = 0; $i < 10; $i++) {
             $transfers[$i][] = array(
                 'account_id' => (string)Random::int(11111111, 99999999),

@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payouts\PayoutDestinationData;
+namespace Testottest\Request\Payouts\PayoutDestinationData;
 
-use YooKassa\Model\PaymentMethodType;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * Класс PayoutDestinationDataFactory

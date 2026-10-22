@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model;
+namespace Testottest\Model;
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
 
 /**
  * Информация о плательщике
@@ -193,7 +193,7 @@ class ReceiptCustomer extends AbstractObject implements ReceiptCustomerInterface
      */
     public function jsonSerialize()
     {
-        $result = array();
+        $result = [];
 
         $value = $this->getFullName();
         if (!empty($value)) {

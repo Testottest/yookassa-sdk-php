@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model;
+namespace Testottest\Model;
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\Deal\RefundDealInfo;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\Deal\RefundDealInfo;
 
 /**
  * Класс объекта с информацией о возврате платежа
@@ -343,7 +343,7 @@ class Refund extends AbstractObject implements RefundInterface
             throw new InvalidPropertyValueTypeException($message, 0, 'Refund.sources', $value);
         }
 
-        $sources = array();
+        $sources = [];
         foreach ($value as $item) {
             if (is_array($item)) {
                 $item = new Source($item);

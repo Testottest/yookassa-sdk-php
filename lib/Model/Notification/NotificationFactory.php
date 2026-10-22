@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Notification;
+namespace Testottest\Model\Notification;
 
-use YooKassa\Model\Notification\AbstractNotification;
-use YooKassa\Model\NotificationEventType;
+use Testottest\Model\Notification\AbstractNotification;
+use Testottest\Model\NotificationEventType;
 
 /**
  * Фабрика для получения конкретного объекта уведомления.

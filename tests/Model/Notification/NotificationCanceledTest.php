@@ -1,19 +1,19 @@
 <?php
 
 
-namespace Tests\YooKassa\Model\Notification;
+namespace Tests\Testottest\Model\Notification;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\ConfirmationType;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Notification\NotificationCanceled;
-use YooKassa\Model\NotificationEventType;
-use YooKassa\Model\NotificationType;
-use YooKassa\Model\PaymentInterface;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\PaymentStatus;
-use YooKassa\Model\Receipt\SettlementType;
-use YooKassa\Model\ReceiptRegistrationStatus;
+use Testottest\Helpers\Random;
+use Testottest\Model\ConfirmationType;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\Notification\NotificationCanceled;
+use Testottest\Model\NotificationEventType;
+use Testottest\Model\NotificationType;
+use Testottest\Model\PaymentInterface;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\PaymentStatus;
+use Testottest\Model\Receipt\SettlementType;
+use Testottest\Model\ReceiptRegistrationStatus;
 
 class NotificationCanceledTest extends \PHPUnit_Framework_TestCase
 {
@@ -69,7 +69,7 @@ class NotificationCanceledTest extends \PHPUnit_Framework_TestCase
      */
     public function validDataProvider()
     {
-        $result = array();
+        $result = [];
         $statuses = PaymentStatus::getValidValues();
         $receiptRegistrations = ReceiptRegistrationStatus::getValidValues();
 

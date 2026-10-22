@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Model\PaymentData;
+namespace Tests\Testottest\Model\PaymentData;
 
-use YooKassa\Model\PaymentData\PaymentDataQiwi;
-use YooKassa\Model\PaymentMethodType;
+use Testottest\Model\PaymentData\PaymentDataQiwi;
+use Testottest\Model\PaymentMethodType;
 
 class PaymentDataQiwiTest extends AbstractPaymentDataPhoneTest
 {

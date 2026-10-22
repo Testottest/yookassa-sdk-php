@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\ConfirmationAttributes;
+namespace Testottest\Model\ConfirmationAttributes;
 
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\ConfirmationType;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\ConfirmationType;
 
 /**
  * @property bool $enforce Требование принудительного подтверждения платежа покупателем, требование 3-D Secure для

@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model;
+namespace Testottest\Model;
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
 
 /**
  * Класс данных для формирования чека в онлайн-кассе (для соблюдения 54-ФЗ)
@@ -50,17 +50,17 @@ class Receipt extends AbstractObject implements ReceiptInterface
     /**
      * @var ReceiptItem[] Список товаров в заказе
      */
-    private $_items = array();
+    private $_items = [];
 
     /**
      * @var Settlement[] Массив оплат, обеспечивающих выдачу товара
      */
-    private $_settlements = array();
+    private $_settlements = [];
 
     /**
      * @var ReceiptItem[] Список айтемов в заказе, являющихся доставкой
      */
-    private $_shippingItems = array();
+    private $_shippingItems = [];
 
     /**
      * @var int Код системы налогообложения. Число 1-6.
@@ -122,8 +122,8 @@ class Receipt extends AbstractObject implements ReceiptInterface
                 'Invalid items value type in receipt', 0, 'receipt.items', $value
             );
         }
-        $this->_items         = array();
-        $this->_shippingItems = array();
+        $this->_items         = [];
+        $this->_shippingItems = [];
         foreach ($value as $key => $val) {
             if (is_object($val) && $val instanceof ReceiptItemInterface) {
                 $this->addItem($val);
@@ -173,7 +173,7 @@ class Receipt extends AbstractObject implements ReceiptInterface
                 'Invalid settlements value type in receipt', 0, 'receipt.settlements', $value
             );
         }
-        $this->_settlements = array();
+        $this->_settlements = [];
         foreach ($value as $key => $val) {
             if (is_array($val)) {
                 $this->addSettlement(new Settlement($val));
@@ -302,7 +302,7 @@ class Receipt extends AbstractObject implements ReceiptInterface
 
         if ($realAmount !== $amount) {
             $coefficient = (float)$amount / (float)$realAmount;
-            $items       = array();
+            $items       = [];
             $realAmount  = 0;
             foreach ($this->_items as $item) {
                 if ($withShipping || !$item->isShipping()) {

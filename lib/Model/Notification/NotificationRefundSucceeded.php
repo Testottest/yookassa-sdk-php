@@ -23,16 +23,16 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Notification;
+namespace Testottest\Model\Notification;
 
 
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Model\NotificationEventType;
-use YooKassa\Model\NotificationType;
-use YooKassa\Model\Refund;
-use YooKassa\Model\RefundInterface;
-use YooKassa\Request\Refunds\RefundResponse;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Model\NotificationEventType;
+use Testottest\Model\NotificationType;
+use Testottest\Model\Refund;
+use Testottest\Model\RefundInterface;
+use Testottest\Request\Refunds\RefundResponse;
 
 /**
  * Класс объекта, присылаемого API при изменении статуса возврата на "succeeded"

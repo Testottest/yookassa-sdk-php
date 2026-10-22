@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Model\PaymentData\B2b\Sberbank\VatData
-### Namespace: [\YooKassa\Model\PaymentData\B2b\Sberbank](../namespaces/yookassa-model-paymentdata-b2b-sberbank.md)
+# Class: \Testottest\Model\PaymentData\B2b\Sberbank\VatData
+### Namespace: [\Testottest\Model\PaymentData\B2b\Sberbank](../namespaces/yookassa-model-paymentdata-b2b-sberbank.md)
 ---
 **Summary:**
 
@@ -49,21 +49,21 @@
 * File: [lib/Model/PaymentData/B2b/Sberbank/VatData.php](../../lib/Model/PaymentData/B2b/Sberbank/VatData.php)
 * Package: Default
 * Class Hierarchy: 
-  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * \YooKassa\Model\PaymentData\B2b\Sberbank\VatData
+  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * \Testottest\Model\PaymentData\B2b\Sberbank\VatData
 * Implements:
-  * [\YooKassa\Model\PaymentData\B2b\Sberbank\VatDataInterface](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatDataInterface.md)
+  * [\Testottest\Model\PaymentData\B2b\Sberbank\VatDataInterface](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatDataInterface.md)
 
 ---
 ## Properties
 <a name="property_amount"></a>
-#### public $amount : \YooKassa\Model\AmountInterface
+#### public $amount : \Testottest\Model\AmountInterface
 ---
 ***Description***
 
 Сумма НДС
 
-**Type:** <a href="../classes/YooKassa-Model-AmountInterface.html"><abbr title="\YooKassa\Model\AmountInterface">AmountInterface</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-AmountInterface.html"><abbr title="\Testottest\Model\AmountInterface">AmountInterface</abbr></a>
 
 **Details:**
 
@@ -99,7 +99,7 @@
 #### public __construct() : mixed
 
 ```php
-public __construct(string|null $type = null, string|null $rate = null, \YooKassa\Model\AmountInterface|null $amount = null) : mixed
+public __construct(string|null $type = null, string|null $rate = null, \Testottest\Model\AmountInterface|null $amount = null) : mixed
 ```
 
 **Summary**
@@ -107,14 +107,14 @@ public __construct(string|null $type = null, string|null $rate = null, \YooKassa
 VatData constructor.
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\B2b\Sberbank\VatData](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.md)
+* Inherited From: [\Testottest\Model\PaymentData\B2b\Sberbank\VatData](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">string OR null</code> | type  | Способ расчёта НДС |
 | <code lang="php">string OR null</code> | rate  | Налоговая ставка НДС |
-| <code lang="php">\YooKassa\Model\AmountInterface OR null</code> | amount  | Сумма НДС |
+| <code lang="php">\Testottest\Model\AmountInterface OR null</code> | amount  | Сумма НДС |
 
 **Returns:** mixed - 
 
@@ -131,7 +131,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -153,7 +153,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -175,7 +175,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -198,7 +198,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -220,7 +220,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -231,10 +231,10 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 
 
 <a name="method_getAmount" class="anchor"></a>
-#### public getAmount() : \YooKassa\Model\AmountInterface
+#### public getAmount() : \Testottest\Model\AmountInterface
 
 ```php
-public getAmount() : \YooKassa\Model\AmountInterface
+public getAmount() : \Testottest\Model\AmountInterface
 ```
 
 **Summary**
@@ -242,9 +242,9 @@ public getAmount() : \YooKassa\Model\AmountInterface
 Возвращает сумму НДС
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\B2b\Sberbank\VatData](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.md)
+* Inherited From: [\Testottest\Model\PaymentData\B2b\Sberbank\VatData](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.md)
 
-**Returns:** \YooKassa\Model\AmountInterface - Сумма НДС
+**Returns:** \Testottest\Model\AmountInterface - Сумма НДС
 
 
 <a name="method_getRate" class="anchor"></a>
@@ -259,7 +259,7 @@ public getRate() : string
 Возвращает налоговую ставку НДС
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\B2b\Sberbank\VatData](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.md)
+* Inherited From: [\Testottest\Model\PaymentData\B2b\Sberbank\VatData](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.md)
 
 **Returns:** string - Налоговая ставка НДС
 
@@ -276,7 +276,7 @@ public getType() : string
 Возвращает способ расчёта НДС
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\B2b\Sberbank\VatData](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.md)
+* Inherited From: [\Testottest\Model\PaymentData\B2b\Sberbank\VatData](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.md)
 
 **Returns:** string - Способ расчёта НДС
 
@@ -293,7 +293,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -310,7 +310,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -332,7 +332,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -354,7 +354,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -377,7 +377,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -391,7 +391,7 @@ public offsetUnset(string $offset) : mixed
 #### public setAmount() : mixed
 
 ```php
-public setAmount(\YooKassa\Model\AmountInterface|array|null $value) : mixed
+public setAmount(\Testottest\Model\AmountInterface|array|null $value) : mixed
 ```
 
 **Summary**
@@ -399,12 +399,12 @@ public setAmount(\YooKassa\Model\AmountInterface|array|null $value) : mixed
 Устанавливает сумму НДС
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\B2b\Sberbank\VatData](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.md)
+* Inherited From: [\Testottest\Model\PaymentData\B2b\Sberbank\VatData](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Model\AmountInterface OR array OR null</code> | value  | Сумма НДС |
+| <code lang="php">\Testottest\Model\AmountInterface OR array OR null</code> | value  | Сумма НДС |
 
 **Returns:** mixed - 
 
@@ -421,7 +421,7 @@ public setRate(string $value) : mixed
 Устанавливает налоговую ставку НДС
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\B2b\Sberbank\VatData](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.md)
+* Inherited From: [\Testottest\Model\PaymentData\B2b\Sberbank\VatData](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -431,8 +431,8 @@ public setRate(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданная строка не является валидной ставкой |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданная строка не является валидной ставкой |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
 
 **Returns:** mixed - 
 
@@ -449,7 +449,7 @@ public setType(string $value) : mixed
 Устанавливает способ расчёта НДС
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\B2b\Sberbank\VatData](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.md)
+* Inherited From: [\Testottest\Model\PaymentData\B2b\Sberbank\VatData](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatData.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -459,8 +459,8 @@ public setType(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданная строка не является валидным способом |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданная строка не является валидным способом |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
 
 **Returns:** mixed - 
 
@@ -478,7 +478,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -495,7 +495,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

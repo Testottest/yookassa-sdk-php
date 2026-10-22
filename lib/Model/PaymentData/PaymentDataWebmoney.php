@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentData;
+namespace Testottest\Model\PaymentData;
 
-use YooKassa\Model\PaymentMethodType;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * PaymentDataWebmoney

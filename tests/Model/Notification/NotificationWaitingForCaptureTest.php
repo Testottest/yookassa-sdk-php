@@ -1,17 +1,17 @@
 <?php
 
-namespace Tests\YooKassa\Model\Notification;
+namespace Tests\Testottest\Model\Notification;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\ConfirmationType;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Notification\NotificationWaitingForCapture;
-use YooKassa\Model\NotificationEventType;
-use YooKassa\Model\NotificationType;
-use YooKassa\Model\PaymentInterface;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\ReceiptRegistrationStatus;
-use YooKassa\Model\PaymentStatus;
+use Testottest\Helpers\Random;
+use Testottest\Model\ConfirmationType;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\Notification\NotificationWaitingForCapture;
+use Testottest\Model\NotificationEventType;
+use Testottest\Model\NotificationType;
+use Testottest\Model\PaymentInterface;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\ReceiptRegistrationStatus;
+use Testottest\Model\PaymentStatus;
 
 class NotificationWaitingForCaptureTest extends AbstractNotificationTest
 {
@@ -53,7 +53,7 @@ class NotificationWaitingForCaptureTest extends AbstractNotificationTest
 
     public function validDataProvider()
     {
-        $result = array();
+        $result = [];
         $statuses = PaymentStatus::getValidValues();
         $receiptRegistrations = ReceiptRegistrationStatus::getValidValues();
 

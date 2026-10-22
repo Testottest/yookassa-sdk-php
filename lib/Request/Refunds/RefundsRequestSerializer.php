@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Refunds;
+namespace Testottest\Request\Refunds;
 
 /**
  * Класс сериализатора объектов запросов к API для получения списка возвратов
@@ -54,7 +54,7 @@ class RefundsRequestSerializer
      */
     public function serialize(RefundsRequestInterface $request)
     {
-        $result = array();
+        $result = [];
         foreach (self::$propertyMap as $property => $name) {
             $value = $request->{$property};
             if (!empty($value)) {

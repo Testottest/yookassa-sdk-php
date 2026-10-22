@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\YooKassa\Model;
+namespace Tests\Testottest\Model;
 
-use YooKassa\Model\ThreeDSecure;
+use Testottest\Model\ThreeDSecure;
 
 class ThreeDSecureTest extends \PHPUnit_Framework_TestCase
 {

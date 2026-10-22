@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments;
+namespace Testottest\Request\Payments;
 
 /**
  * Класс сериализатора объектов запросов к API для получения списка платежей
@@ -58,7 +58,7 @@ class PaymentsRequestSerializer
      */
     public function serialize(PaymentsRequestInterface $request)
     {
-        $result = array();
+        $result = [];
         foreach (self::$propertyMap as $property => $name) {
             $value = $request->{$property};
             if (!empty($value)) {

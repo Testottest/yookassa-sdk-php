@@ -24,12 +24,12 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Deal;
+namespace Testottest\Model\Deal;
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Model\SettlementInterface;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Model\SettlementInterface;
 
 /**
  * Class CaptureDealData
@@ -41,7 +41,7 @@ use YooKassa\Model\SettlementInterface;
 class CaptureDealData extends AbstractObject
 {
     /** @var SettlementPayoutPayment[] Данные о распределении денег */
-    private $_settlements = array();
+    private $_settlements = [];
 
     /**
      * Возвращает массив оплат, обеспечивающих выдачу товара
@@ -68,7 +68,7 @@ class CaptureDealData extends AbstractObject
                 'Invalid settlements value type in deal', 0, 'deal.settlements', $value
             );
         }
-        $this->_settlements = array();
+        $this->_settlements = [];
         foreach ($value as $key => $val) {
             if (is_array($val)) {
                 $this->addSettlement(new SettlementPayoutPayment($val));

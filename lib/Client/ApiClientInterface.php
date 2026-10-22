@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Client;
+namespace Testottest\Client;
 
 use Psr\Log\LoggerInterface;
-use YooKassa\Common\ResponseObject;
+use Testottest\Common\ResponseObject;
 
 /**
  * Interface ApiClientInterface

@@ -23,16 +23,16 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Notification;
+namespace Testottest\Model\Notification;
 
 
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Model\NotificationEventType;
-use YooKassa\Model\NotificationType;
-use YooKassa\Model\SafeDeal;
-use YooKassa\Model\DealInterface;
-use YooKassa\Request\Deals\DealResponse;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Model\NotificationEventType;
+use Testottest\Model\NotificationType;
+use Testottest\Model\SafeDeal;
+use Testottest\Model\DealInterface;
+use Testottest\Request\Deals\DealResponse;
 
 /**
  * Класс объекта, присылаемого API при изменении статуса сделки на "closed"

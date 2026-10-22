@@ -24,27 +24,27 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments;
+namespace Testottest\Request\Payments;
 
-use YooKassa\Common\AbstractPaymentRequest;
-use YooKassa\Common\AbstractPaymentRequestBuilder;
-use YooKassa\Common\AbstractRequest;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Common\Exceptions\InvalidRequestException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\Airline;
-use YooKassa\Model\AirlineInterface;
-use YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesFactory;
-use YooKassa\Model\Deal\PaymentDealInfo;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\Payment;
-use YooKassa\Model\PaymentData\AbstractPaymentData;
-use YooKassa\Model\PaymentData\PaymentDataFactory;
-use YooKassa\Model\Recipient;
-use YooKassa\Model\RecipientInterface;
+use Testottest\Common\AbstractPaymentRequest;
+use Testottest\Common\AbstractPaymentRequestBuilder;
+use Testottest\Common\AbstractRequest;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Common\Exceptions\InvalidRequestException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\Airline;
+use Testottest\Model\AirlineInterface;
+use Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory;
+use Testottest\Model\Deal\PaymentDealInfo;
+use Testottest\Model\Metadata;
+use Testottest\Model\Payment;
+use Testottest\Model\PaymentData\AbstractPaymentData;
+use Testottest\Model\PaymentData\PaymentDataFactory;
+use Testottest\Model\Recipient;
+use Testottest\Model\RecipientInterface;
 
 /**
  * Класс билдера объектов запросов к API на создание платежа

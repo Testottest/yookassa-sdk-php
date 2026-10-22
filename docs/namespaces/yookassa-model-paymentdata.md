@@ -1,35 +1,35 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \YooKassa\Model\PaymentData
+# Namespace: \Testottest\Model\PaymentData
 
-## Parent: [\YooKassa\Model](../namespaces/yookassa-model.md)
+## Parent: [\Testottest\Model](../namespaces/yookassa-model.md)
 
 ### Namespaces
 
-* [\YooKassa\Model\PaymentData\B2b](../namespaces/yookassa-model-paymentdata-b2b.md)
+* [\Testottest\Model\PaymentData\B2b](../namespaces/yookassa-model-paymentdata-b2b.md)
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\YooKassa\Model\PaymentData\AbstractPaymentData](../classes/YooKassa-Model-PaymentData-AbstractPaymentData.md) | Данные используемые для создания метода оплаты. |
-| [\YooKassa\Model\PaymentData\PaymentDataAlfabank](../classes/YooKassa-Model-PaymentData-PaymentDataAlfabank.md) | PaymentDataAlfabank Платежные данные для проведения оплаты через Альфа Клик или Альфа Молнию. |
-| [\YooKassa\Model\PaymentData\PaymentDataApplePay](../classes/YooKassa-Model-PaymentData-PaymentDataApplePay.md) | PaymentDataApplePay Платежные данные для проведения оплаты при помощи Apple Pay |
-| [\YooKassa\Model\PaymentData\PaymentDataB2bSberbank](../classes/YooKassa-Model-PaymentData-PaymentDataB2bSberbank.md) | PaymentDataB2BSberbank Платежные данные для проведения оплаты при помощи Сбербанк Бизнес Онлайн. |
-| [\YooKassa\Model\PaymentData\PaymentDataBankCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCard.md) | PaymentDataBankCard Платежные данные для проведения оплаты при помощи банковской карты |
-| [\YooKassa\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md) | Данные банковской карты Необходим при оплате PCI-DSS данными. |
-| [\YooKassa\Model\PaymentData\PaymentDataCash](../classes/YooKassa-Model-PaymentData-PaymentDataCash.md) | PaymentDataCash Платежные данные для проведения оплаты Qiwi. |
-| [\YooKassa\Model\PaymentData\PaymentDataFactory](../classes/YooKassa-Model-PaymentData-PaymentDataFactory.md) | Фабрика создания объекта платежных данных из массива |
-| [\YooKassa\Model\PaymentData\PaymentDataGooglePay](../classes/YooKassa-Model-PaymentData-PaymentDataGooglePay.md) | PaymentDataGooglePay Платежные данные для проведения оплаты при помощи Google Pay. |
-| [\YooKassa\Model\PaymentData\PaymentDataInstallments](../classes/YooKassa-Model-PaymentData-PaymentDataInstallments.md) | Данные для проведения оплаты по частям |
-| [\YooKassa\Model\PaymentData\PaymentDataMobileBalance](../classes/YooKassa-Model-PaymentData-PaymentDataMobileBalance.md) | PaymentDataMobileBalance Платежные данные для проведения оплаты Qiwi. |
-| [\YooKassa\Model\PaymentData\PaymentDataQiwi](../classes/YooKassa-Model-PaymentData-PaymentDataQiwi.md) | PaymentDataQiwi Платежные данные для проведения оплаты Qiwi. |
-| [\YooKassa\Model\PaymentData\PaymentDataSberbank](../classes/YooKassa-Model-PaymentData-PaymentDataSberbank.md) | PaymentDataSberbank Платежные данные для проведения оплаты при помощи Сбербанк Онлайн. |
-| [\YooKassa\Model\PaymentData\PaymentDataSbp](../classes/YooKassa-Model-PaymentData-PaymentDataSbp.md) | Данные используемые для создания метода оплаты. |
-| [\YooKassa\Model\PaymentData\PaymentDataTinkoffBank](../classes/YooKassa-Model-PaymentData-PaymentDataTinkoffBank.md) | Данные используемые для создания метода оплаты. |
-| [\YooKassa\Model\PaymentData\PaymentDataWebmoney](../classes/YooKassa-Model-PaymentData-PaymentDataWebmoney.md) | PaymentDataWebmoney Платежные данные для проведения оплаты Webmoney. |
-| [\YooKassa\Model\PaymentData\PaymentDataWechat](../classes/YooKassa-Model-PaymentData-PaymentDataWechat.md) | Данные используемые для создания метода оплаты. |
-| [\YooKassa\Model\PaymentData\PaymentDataYooMoney](../classes/YooKassa-Model-PaymentData-PaymentDataYooMoney.md) | Данные для проведения оплаты через ЮMoney |
+| [\Testottest\Model\PaymentData\AbstractPaymentData](../classes/YooKassa-Model-PaymentData-AbstractPaymentData.md) | Данные используемые для создания метода оплаты. |
+| [\Testottest\Model\PaymentData\PaymentDataAlfabank](../classes/YooKassa-Model-PaymentData-PaymentDataAlfabank.md) | PaymentDataAlfabank Платежные данные для проведения оплаты через Альфа Клик или Альфа Молнию. |
+| [\Testottest\Model\PaymentData\PaymentDataApplePay](../classes/YooKassa-Model-PaymentData-PaymentDataApplePay.md) | PaymentDataApplePay Платежные данные для проведения оплаты при помощи Apple Pay |
+| [\Testottest\Model\PaymentData\PaymentDataB2bSberbank](../classes/YooKassa-Model-PaymentData-PaymentDataB2bSberbank.md) | PaymentDataB2BSberbank Платежные данные для проведения оплаты при помощи Сбербанк Бизнес Онлайн. |
+| [\Testottest\Model\PaymentData\PaymentDataBankCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCard.md) | PaymentDataBankCard Платежные данные для проведения оплаты при помощи банковской карты |
+| [\Testottest\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md) | Данные банковской карты Необходим при оплате PCI-DSS данными. |
+| [\Testottest\Model\PaymentData\PaymentDataCash](../classes/YooKassa-Model-PaymentData-PaymentDataCash.md) | PaymentDataCash Платежные данные для проведения оплаты Qiwi. |
+| [\Testottest\Model\PaymentData\PaymentDataFactory](../classes/YooKassa-Model-PaymentData-PaymentDataFactory.md) | Фабрика создания объекта платежных данных из массива |
+| [\Testottest\Model\PaymentData\PaymentDataGooglePay](../classes/YooKassa-Model-PaymentData-PaymentDataGooglePay.md) | PaymentDataGooglePay Платежные данные для проведения оплаты при помощи Google Pay. |
+| [\Testottest\Model\PaymentData\PaymentDataInstallments](../classes/YooKassa-Model-PaymentData-PaymentDataInstallments.md) | Данные для проведения оплаты по частям |
+| [\Testottest\Model\PaymentData\PaymentDataMobileBalance](../classes/YooKassa-Model-PaymentData-PaymentDataMobileBalance.md) | PaymentDataMobileBalance Платежные данные для проведения оплаты Qiwi. |
+| [\Testottest\Model\PaymentData\PaymentDataQiwi](../classes/YooKassa-Model-PaymentData-PaymentDataQiwi.md) | PaymentDataQiwi Платежные данные для проведения оплаты Qiwi. |
+| [\Testottest\Model\PaymentData\PaymentDataSberbank](../classes/YooKassa-Model-PaymentData-PaymentDataSberbank.md) | PaymentDataSberbank Платежные данные для проведения оплаты при помощи Сбербанк Онлайн. |
+| [\Testottest\Model\PaymentData\PaymentDataSbp](../classes/YooKassa-Model-PaymentData-PaymentDataSbp.md) | Данные используемые для создания метода оплаты. |
+| [\Testottest\Model\PaymentData\PaymentDataTinkoffBank](../classes/YooKassa-Model-PaymentData-PaymentDataTinkoffBank.md) | Данные используемые для создания метода оплаты. |
+| [\Testottest\Model\PaymentData\PaymentDataWebmoney](../classes/YooKassa-Model-PaymentData-PaymentDataWebmoney.md) | PaymentDataWebmoney Платежные данные для проведения оплаты Webmoney. |
+| [\Testottest\Model\PaymentData\PaymentDataWechat](../classes/YooKassa-Model-PaymentData-PaymentDataWechat.md) | Данные используемые для создания метода оплаты. |
+| [\Testottest\Model\PaymentData\PaymentDataYooMoney](../classes/YooKassa-Model-PaymentData-PaymentDataYooMoney.md) | Данные для проведения оплаты через ЮMoney |
 
 ---
 

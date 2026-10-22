@@ -1,27 +1,27 @@
 <?php
 
-namespace Tests\YooKassa\Request\Receipts;
+namespace Tests\Testottest\Request\Receipts;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Airline;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\PaymentData\PaymentDataQiwi;
-use YooKassa\Model\Receipt;
-use YooKassa\Model\Receipt\PaymentMode;
-use YooKassa\Model\Receipt\PaymentSubject;
-use YooKassa\Model\Receipt\ReceiptItemAmount;
-use YooKassa\Model\Receipt\SettlementType;
-use YooKassa\Model\ReceiptCustomer;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\ReceiptType;
-use YooKassa\Model\Settlement;
-use YooKassa\Request\Payments\CreatePaymentRequest;
-use YooKassa\Request\Payments\CreatePaymentRequestBuilder;
-use YooKassa\Request\Receipts\CreatePostReceiptRequest;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Helpers\Random;
+use Testottest\Model\Airline;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\Metadata;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\PaymentData\PaymentDataQiwi;
+use Testottest\Model\Receipt;
+use Testottest\Model\Receipt\PaymentMode;
+use Testottest\Model\Receipt\PaymentSubject;
+use Testottest\Model\Receipt\ReceiptItemAmount;
+use Testottest\Model\Receipt\SettlementType;
+use Testottest\Model\ReceiptCustomer;
+use Testottest\Model\ReceiptItem;
+use Testottest\Model\ReceiptType;
+use Testottest\Model\Settlement;
+use Testottest\Request\Payments\CreatePaymentRequest;
+use Testottest\Request\Payments\CreatePaymentRequestBuilder;
+use Testottest\Request\Receipts\CreatePostReceiptRequest;
 
 class CreatePostReceiptRequestTest extends TestCase
 {
@@ -401,7 +401,7 @@ class CreatePostReceiptRequestTest extends TestCase
      */
     private function generateSettlements()
     {
-        $return = array();
+        $return = [];
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Model\Payout\PayoutCancellationDetailsReasonCode
-### Namespace: [\YooKassa\Model\Payout](../namespaces/yookassa-model-payout.md)
+# Class: \Testottest\Model\Payout\PayoutCancellationDetailsReasonCode
+### Namespace: [\Testottest\Model\Payout](../namespaces/yookassa-model-payout.md)
 ---
 **Summary:**
 
@@ -37,8 +37,8 @@ PayoutCancellationDetailsReasonCode - Возможные причины отме
 * File: [lib/Model/Payout/PayoutCancellationDetailsReasonCode.php](../../lib/Model/Payout/PayoutCancellationDetailsReasonCode.php)
 * Package: Default
 * Class Hierarchy: 
-  * [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
-  * \YooKassa\Model\Payout\PayoutCancellationDetailsReasonCode
+  * [\Testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+  * \Testottest\Model\Payout\PayoutCancellationDetailsReasonCode
 
 ---
 ## Constants
@@ -113,7 +113,7 @@ Static public getEnabledValues() : string[]
 Возвращает значения в enum'е значения которых разрешены
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\Testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 **Returns:** string[] - Массив разрешённых значений
 
@@ -130,7 +130,7 @@ Static public getValidValues() : array
 Возвращает все значения в enum'e
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\Testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 **Returns:** array - Массив значений в перечислении
 
@@ -147,7 +147,7 @@ Static public valueExists(mixed $value) : bool
 Проверяет наличие значения в enum'e
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\Testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 ##### Parameters:
 | Type | Name | Description |

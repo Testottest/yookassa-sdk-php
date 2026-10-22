@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments\Payment;
+namespace Testottest\Request\Payments\Payment;
 
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\TransferInterface;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\ReceiptItem;
+use Testottest\Model\TransferInterface;
 
 /**
  * Класс объекта осуществляющего сериализацию запроса к API на подтверждение заказа
@@ -46,7 +46,7 @@ class CreateCaptureRequestSerializer
      */
     public function serialize(CreateCaptureRequestInterface $request)
     {
-        $result = array();
+        $result = [];
         if ($request->hasAmount()) {
             $result['amount'] = $this->serializeAmount($request->getAmount());
         }
@@ -56,7 +56,7 @@ class CreateCaptureRequestSerializer
         if ($request->hasReceipt()) {
             $receipt = $request->getReceipt();
             if ($receipt->notEmpty()) {
-                $result['receipt'] = array();
+                $result['receipt'] = [];
                 /** @var ReceiptItem $item */
                 foreach ($receipt->getItems() as $item) {
                     $itemArray = array(
@@ -97,7 +97,7 @@ class CreateCaptureRequestSerializer
                 }
 
                 if ($customer = $receipt->getCustomer()) {
-                    $customerArray = array();
+                    $customerArray = [];
 
                     if ($value = $customer->getEmail()) {
                         $customerArray['email'] = $value;
@@ -142,7 +142,7 @@ class CreateCaptureRequestSerializer
      */
     private function serializeTransfers(array $transfers)
     {
-        $result = array();
+        $result = [];
         foreach ($transfers as $transfer) {
             $item = array(
                 'account_id' => $transfer->getAccountId(),

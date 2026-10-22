@@ -24,19 +24,19 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model;
+namespace Testottest\Model;
 
 use DateTime;
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\Deal\PayoutDealInfo;
-use YooKassa\Model\PaymentMethod\AbstractPaymentMethod;
-use YooKassa\Model\Payout\AbstractPayoutDestination;
-use YooKassa\Model\Payout\PayoutCancellationDetails;
-use YooKassa\Model\Payout\PayoutDestinationFactory;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\Deal\PayoutDealInfo;
+use Testottest\Model\PaymentMethod\AbstractPaymentMethod;
+use Testottest\Model\Payout\AbstractPayoutDestination;
+use Testottest\Model\Payout\PayoutCancellationDetails;
+use Testottest\Model\Payout\PayoutDestinationFactory;
 
 /**
  * Payout - Данные о выплате

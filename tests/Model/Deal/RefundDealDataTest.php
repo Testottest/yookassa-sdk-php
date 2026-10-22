@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\YooKassa\Model\Deal;
+namespace Tests\Testottest\Model\Deal;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Deal\RefundDealData;
-use YooKassa\Model\Deal\SettlementPayoutPayment;
-use YooKassa\Model\Deal\SettlementPayoutPaymentType;
+use Testottest\Helpers\Random;
+use Testottest\Model\Deal\RefundDealData;
+use Testottest\Model\Deal\SettlementPayoutPayment;
+use Testottest\Model\Deal\SettlementPayoutPaymentType;
 
 class RefundDealDataTest extends TestCase
 {
@@ -30,7 +30,7 @@ class RefundDealDataTest extends TestCase
 
     public function validDataProvider()
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < 10; $i++) {
             $payment = array(
                 'refund_settlements' => $this->generateRefundSettlements(),
@@ -77,7 +77,7 @@ class RefundDealDataTest extends TestCase
     public function fromArrayDataProvider()
     {
         $deal = new RefundDealData();
-        $settlements = array();
+        $settlements = [];
         $settlements[] = new SettlementPayoutPayment(array(
             'type' => SettlementPayoutPaymentType::PAYOUT,
             'amount' => array(
@@ -107,7 +107,7 @@ class RefundDealDataTest extends TestCase
 
     private function generateRefundSettlements()
     {
-        $return = array();
+        $return = [];
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {

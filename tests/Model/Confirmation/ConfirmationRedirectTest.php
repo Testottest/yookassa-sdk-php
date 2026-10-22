@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Model\Confirmation;
+namespace Tests\Testottest\Model\Confirmation;
 
-use YooKassa\Model\Confirmation\ConfirmationRedirect;
-use YooKassa\Model\ConfirmationType;
+use Testottest\Model\Confirmation\ConfirmationRedirect;
+use Testottest\Model\ConfirmationType;
 
 class ConfirmationRedirectTest extends AbstractConfirmationTest
 {

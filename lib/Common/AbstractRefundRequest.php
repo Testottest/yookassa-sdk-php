@@ -24,16 +24,16 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common;
+namespace Testottest\Common;
 
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Receipt;
-use YooKassa\Model\ReceiptInterface;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Receipt;
+use Testottest\Model\ReceiptInterface;
 
 /**
  * Класс объекта запроса к API
@@ -89,24 +89,26 @@ class AbstractRefundRequest extends AbstractRequest
      */
     public function setPaymentId($value)
     {
-        if ($value === null || $value === '') {
-            throw new EmptyPropertyValueException(
-                'Empty payment id value in CreateRefundRequest', 0, 'CreateRefundRequest.paymentId'
-            );
-        } elseif (TypeCast::canCastToString($value)) {
-            $length = mb_strlen($value, 'utf-8');
-            if ($length != 36) {
-                throw new InvalidPropertyValueException(
-                    'Invalid payment id value in CreateRefundRequest', 0, 'CreateRefundRequest.paymentId', $value
-                );
-            }
-            $this->_paymentId = (string)$value;
-        } else {
-            throw new InvalidPropertyValueTypeException(
-                'Invalid payment id value type in CreateRefundRequest', 0, 'CreateRefundRequest.paymentId', $value
-            );
-        }
-    }
+		if ($value === null || $value === '') {
+			throw new EmptyPropertyValueException(
+				'Empty payment id value in CreateRefundRequest', 0, 'CreateRefundRequest.paymentId'
+			);
+		}
+
+		if (TypeCast::canCastToString($value)) {
+			$length = mb_strlen($value, 'utf-8');
+			if ($length != 36) {
+				throw new InvalidPropertyValueException(
+					'Invalid payment id value in CreateRefundRequest', 0, 'CreateRefundRequest.paymentId', $value
+				);
+			}
+			$this->_paymentId = (string)$value;
+		} else {
+			throw new InvalidPropertyValueTypeException(
+				'Invalid payment id value type in CreateRefundRequest', 0, 'CreateRefundRequest.paymentId', $value
+			);
+		}
+	}
 
     /**
      * Возвращает сумму возврата

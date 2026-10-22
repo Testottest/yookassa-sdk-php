@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentData\B2b\Sberbank;
+namespace Testottest\Model\PaymentData\B2b\Sberbank;
 
-use YooKassa\Common\AbstractEnum;
+use Testottest\Common\AbstractEnum;
 
 /**
  * PaymentDataB2bSberbankVatDataRate - Налоговая ставка НДС

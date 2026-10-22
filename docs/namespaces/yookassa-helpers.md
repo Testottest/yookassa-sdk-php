@@ -1,24 +1,24 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \YooKassa\Helpers
+# Namespace: \Testottest\Helpers
 
 ## Parent: [\YooKassa](../namespaces/yookassa.md)
 
 ### Namespaces
 
-* [\YooKassa\Helpers\Config](../namespaces/yookassa-helpers-config.md)
+* [\Testottest\Helpers\Config](../namespaces/yookassa-helpers-config.md)
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\YooKassa\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md) | Класс для формирования тега 1162 на основе кода в формате Data Matrix |
-| [\YooKassa\Helpers\Random](../classes/YooKassa-Helpers-Random.md) | Класс хэлпера для генерации случайных значений, используется в тестах |
-| [\YooKassa\Helpers\RawHeadersParser](../classes/YooKassa-Helpers-RawHeadersParser.md) |  |
-| [\YooKassa\Helpers\SecurityHelper](../classes/YooKassa-Helpers-SecurityHelper.md) |  |
-| [\YooKassa\Helpers\StringObject](../classes/YooKassa-Helpers-StringObject.md) | Класс объекта, кастящегося в строку, используется только в тестах |
-| [\YooKassa\Helpers\TypeCast](../classes/YooKassa-Helpers-TypeCast.md) | Класс хэлпер для преобразования типов значений |
-| [\YooKassa\Helpers\UUID](../classes/YooKassa-Helpers-UUID.md) |  |
+| [\Testottest\Helpers\ProductCode](../classes/YooKassa-Helpers-ProductCode.md) | Класс для формирования тега 1162 на основе кода в формате Data Matrix |
+| [\Testottest\Helpers\Random](../classes/YooKassa-Helpers-Random.md) | Класс хэлпера для генерации случайных значений, используется в тестах |
+| [\Testottest\Helpers\RawHeadersParser](../classes/YooKassa-Helpers-RawHeadersParser.md) |  |
+| [\Testottest\Helpers\SecurityHelper](../classes/YooKassa-Helpers-SecurityHelper.md) |  |
+| [\Testottest\Helpers\StringObject](../classes/YooKassa-Helpers-StringObject.md) | Класс объекта, кастящегося в строку, используется только в тестах |
+| [\Testottest\Helpers\TypeCast](../classes/YooKassa-Helpers-TypeCast.md) | Класс хэлпер для преобразования типов значений |
+| [\Testottest\Helpers\UUID](../classes/YooKassa-Helpers-UUID.md) |  |
 
 ---
 

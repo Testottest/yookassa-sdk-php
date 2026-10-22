@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payouts\PayoutDestinationData;
+namespace Tests\Testottest\Request\Payouts\PayoutDestinationData;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData;
+use Testottest\Helpers\Random;
+use Testottest\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData;
 
 abstract class AbstractPayoutDestinationDataTest extends TestCase
 {

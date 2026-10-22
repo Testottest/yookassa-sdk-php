@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\YooKassa\Common;
+namespace Tests\Testottest\Common;
 
 use PHPUnit\Framework\TestCase;
 

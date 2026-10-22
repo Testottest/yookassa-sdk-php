@@ -24,25 +24,25 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments;
+namespace Testottest\Request\Payments;
 
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesRedirect;
-use YooKassa\Model\ConfirmationType;
-use YooKassa\Model\LegInterface;
-use YooKassa\Model\PassengerInterface;
-use YooKassa\Model\PaymentData\AbstractPaymentData;
-use YooKassa\Model\PaymentData\PaymentDataAlfabank;
-use YooKassa\Model\PaymentData\PaymentDataB2bSberbank;
-use YooKassa\Model\PaymentData\PaymentDataBankCard;
-use YooKassa\Model\PaymentData\PaymentDataGooglePay;
-use YooKassa\Model\PaymentData\PaymentDataSberbank;
-use YooKassa\Model\PaymentData\PaymentDataYooMoney;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\ReceiptInterface;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Model\TransferInterface;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesRedirect;
+use Testottest\Model\ConfirmationType;
+use Testottest\Model\LegInterface;
+use Testottest\Model\PassengerInterface;
+use Testottest\Model\PaymentData\AbstractPaymentData;
+use Testottest\Model\PaymentData\PaymentDataAlfabank;
+use Testottest\Model\PaymentData\PaymentDataB2bSberbank;
+use Testottest\Model\PaymentData\PaymentDataBankCard;
+use Testottest\Model\PaymentData\PaymentDataGooglePay;
+use Testottest\Model\PaymentData\PaymentDataSberbank;
+use Testottest\Model\PaymentData\PaymentDataYooMoney;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\ReceiptInterface;
+use Testottest\Model\ReceiptItem;
+use Testottest\Model\TransferInterface;
 
 /**
  * Класс сериалайзера объекта запроса к API на проведение платежа
@@ -85,7 +85,7 @@ class CreatePaymentRequestSerializer
      */
     public function serialize(CreatePaymentRequestInterface $request)
     {
-        $result = array();
+        $result = [];
 
         if ($request->getAmount()->getValue() > 0) {
             $result['amount'] = $this->serializeAmount($request->getAmount());
@@ -127,7 +127,7 @@ class CreatePaymentRequestSerializer
         }
         if ($request->hasAirline()) {
             $airline           = $request->getAirline();
-            $result['airline'] = array();
+            $result['airline'] = [];
 
             $ticketNumber = $airline->getTicketNumber();
             if (!empty($ticketNumber)) {
@@ -189,7 +189,7 @@ class CreatePaymentRequestSerializer
 
     private function serializeReceipt(ReceiptInterface $receipt)
     {
-        $result = array();
+        $result = [];
 
         /** @var ReceiptItem $item */
         foreach ($receipt->getItems() as $item) {
@@ -356,7 +356,7 @@ class CreatePaymentRequestSerializer
      */
     private function serializeTransfers(array $transfers)
     {
-        $result = array();
+        $result = [];
         foreach ($transfers as $transfer) {
             $item = array(
                 'account_id' => $transfer->getAccountId(),

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Common\Exceptions\ApiException
-### Namespace: [\YooKassa\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
+# Class: \Testottest\Common\Exceptions\ApiException
+### Namespace: [\Testottest\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
 ---
 **Summary:**
 
@@ -33,7 +33,7 @@
 * Package: YooKassa
 * Class Hierarchy: 
   * [\Exception](\Exception)
-  * \YooKassa\Common\Exceptions\ApiException
+  * \Testottest\Common\Exceptions\ApiException
 
 ---
 ## Properties
@@ -60,7 +60,7 @@
 #### public __construct() : mixed
 
 ```php
-public __construct(string $message = &quot;&quot;, int $code, string[] $responseHeaders = array(), mixed $responseBody = null) : mixed
+public __construct(string $message = &quot;&quot;, int $code, string[] $responseHeaders = [], mixed $responseBody = null) : mixed
 ```
 
 **Summary**
@@ -68,7 +68,7 @@ public __construct(string $message = &quot;&quot;, int $code, string[] $response
 Constructor
 
 **Details:**
-* Inherited From: [\YooKassa\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
+* Inherited From: [\Testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -89,7 +89,7 @@ public getResponseBody() : mixed
 ```
 
 **Details:**
-* Inherited From: [\YooKassa\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
+* Inherited From: [\Testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
 
 **Returns:** mixed - 
 
@@ -102,7 +102,7 @@ public getResponseHeaders() : string[]
 ```
 
 **Details:**
-* Inherited From: [\YooKassa\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
+* Inherited From: [\Testottest\Common\Exceptions\ApiException](../classes/YooKassa-Common-Exceptions-ApiException.md)
 
 **Returns:** string[] - 
 

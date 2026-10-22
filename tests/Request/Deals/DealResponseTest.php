@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\YooKassa\Request\Deals;
+namespace Tests\Testottest\Request\Deals;
 
-use YooKassa\Request\Deals\DealResponse;
+use Testottest\Request\Deals\DealResponse;
 
 class DealResponseTest extends AbstractDealResponseTest
 {

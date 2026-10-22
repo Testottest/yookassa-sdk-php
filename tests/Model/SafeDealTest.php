@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\YooKassa\Model;
+namespace Tests\Testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Deal\DealBalanceAmount;
-use YooKassa\Model\Deal\DealStatus;
-use YooKassa\Model\Deal\DealType;
-use YooKassa\Model\Deal\FeeMoment;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\SafeDeal;
+use Testottest\Helpers\Random;
+use Testottest\Model\Deal\DealBalanceAmount;
+use Testottest\Model\Deal\DealStatus;
+use Testottest\Model\Deal\DealType;
+use Testottest\Model\Deal\FeeMoment;
+use Testottest\Model\Metadata;
+use Testottest\Model\SafeDeal;
 
 class SafeDealTest extends TestCase
 {
@@ -498,7 +498,7 @@ class SafeDealTest extends TestCase
 
     public function validDataProvider()
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < 10; $i++) {
             $payment = array(
                 'id' => Random::str(36),

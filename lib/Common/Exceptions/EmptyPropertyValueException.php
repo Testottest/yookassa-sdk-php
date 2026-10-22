@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common\Exceptions;
+namespace Testottest\Common\Exceptions;
 
 class EmptyPropertyValueException extends InvalidPropertyException
 {

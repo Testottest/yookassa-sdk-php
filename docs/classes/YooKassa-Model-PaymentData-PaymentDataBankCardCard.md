@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Model\PaymentData\PaymentDataBankCardCard
-### Namespace: [\YooKassa\Model\PaymentData](../namespaces/yookassa-model-paymentdata.md)
+# Class: \Testottest\Model\PaymentData\PaymentDataBankCardCard
+### Namespace: [\Testottest\Model\PaymentData](../namespaces/yookassa-model-paymentdata.md)
 ---
 **Summary:**
 
@@ -58,8 +58,8 @@
 * File: [lib/Model/PaymentData/PaymentDataBankCardCard.php](../../lib/Model/PaymentData/PaymentDataBankCardCard.php)
 * Package: Default
 * Class Hierarchy: 
-  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * \YooKassa\Model\PaymentData\PaymentDataBankCardCard
+  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * \Testottest\Model\PaymentData\PaymentDataBankCardCard
 
 ---
 ## Properties
@@ -154,7 +154,7 @@ CVV2/CVC2 код
 #### public __construct() : mixed
 
 ```php
-public __construct(array $data = array()) : mixed
+public __construct(array $data = []) : mixed
 ```
 
 **Summary**
@@ -162,7 +162,7 @@ public __construct(array $data = array()) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -184,7 +184,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -206,7 +206,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -228,7 +228,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -251,7 +251,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -273,7 +273,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -295,7 +295,7 @@ public getCardholder() : string
 Возвращает имя держателя карты
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
+* Inherited From: [\Testottest\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
 
 **Returns:** string - Имя держателя карты
 
@@ -312,7 +312,7 @@ public getCsc() : string
 Возвращает CVV2/CVC2 код
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
+* Inherited From: [\Testottest\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
 
 **Returns:** string - CVV2/CVC2 код
 
@@ -329,7 +329,7 @@ public getExpiryMonth() : string
 Возвращает месяц срока действия карты
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
+* Inherited From: [\Testottest\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
 
 **Returns:** string - Срок действия, месяц, MM
 
@@ -346,7 +346,7 @@ public getExpiryYear() : string
 Возвращает год срока действия карты
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
+* Inherited From: [\Testottest\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
 
 **Returns:** string - Срок действия, год, YYYY
 
@@ -363,7 +363,7 @@ public getNumber() : string
 Возвращает номер банковской карты
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
+* Inherited From: [\Testottest\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
 
 **Returns:** string - Номер банковской карты
 
@@ -380,7 +380,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -397,7 +397,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -419,7 +419,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -441,7 +441,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -464,7 +464,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -486,7 +486,7 @@ public setCardholder(string $value) : mixed
 Устанавливает имя держателя карты
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
+* Inherited From: [\Testottest\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -508,7 +508,7 @@ public setCsc(string $value) : mixed
 Устанавливает CVV2/CVC2 код
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
+* Inherited From: [\Testottest\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -530,7 +530,7 @@ public setExpiryMonth(string $value) : mixed
 Устанавливает месяц срока действия карты
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
+* Inherited From: [\Testottest\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -552,7 +552,7 @@ public setExpiryYear(string $value) : mixed
 Устанавливает год срока действия карты
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
+* Inherited From: [\Testottest\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -574,7 +574,7 @@ public setNumber(string $value) : mixed
 Устанавливает номер банковской карты
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
+* Inherited From: [\Testottest\Model\PaymentData\PaymentDataBankCardCard](../classes/YooKassa-Model-PaymentData-PaymentDataBankCardCard.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -597,7 +597,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -614,7 +614,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

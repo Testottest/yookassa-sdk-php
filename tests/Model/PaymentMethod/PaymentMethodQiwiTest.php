@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Model\PaymentMethod;
+namespace Tests\Testottest\Model\PaymentMethod;
 
-use YooKassa\Model\PaymentMethod\PaymentMethodQiwi;
-use YooKassa\Model\PaymentMethodType;
+use Testottest\Model\PaymentMethod\PaymentMethodQiwi;
+use Testottest\Model\PaymentMethodType;
 
 class PaymentMethodQiwiTest extends AbstractPaymentMethodTest
 {

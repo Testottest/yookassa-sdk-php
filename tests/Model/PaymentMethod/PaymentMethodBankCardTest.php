@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\YooKassa\Model\PaymentMethod;
+namespace Tests\Testottest\Model\PaymentMethod;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Helpers\StringObject;
-use YooKassa\Model\PaymentMethod\BankCardSource;
-use YooKassa\Model\PaymentMethod\PaymentMethodBankCard;
-use YooKassa\Model\PaymentMethodType;
+use Testottest\Helpers\Random;
+use Testottest\Helpers\StringObject;
+use Testottest\Model\PaymentMethod\BankCardSource;
+use Testottest\Model\PaymentMethod\PaymentMethodBankCard;
+use Testottest\Model\PaymentMethodType;
 
 class PaymentMethodBankCardTest extends AbstractPaymentMethodTest
 {
@@ -313,7 +313,7 @@ class PaymentMethodBankCardTest extends AbstractPaymentMethodTest
      */
     public function validLast4DataProvider()
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < 10; $i++) {
             $result[] = array(Random::str(4, '0123456789'));
         }
@@ -325,7 +325,7 @@ class PaymentMethodBankCardTest extends AbstractPaymentMethodTest
      */
     public function validFirst6DataProvider()
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < 10; $i++) {
             $result[] = array(Random::str(6, '0123456789'));
         }
@@ -337,7 +337,7 @@ class PaymentMethodBankCardTest extends AbstractPaymentMethodTest
      */
     public function validExpiryYearDataProvider()
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < 10; $i++) {
             $result[] = array(Random::int(2000, 2200));
         }
@@ -367,7 +367,7 @@ class PaymentMethodBankCardTest extends AbstractPaymentMethodTest
 
     public function validCardTypeDataProvider()
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < 10; $i++) {
             $result[] = array(Random::str(3, 35));
         }
@@ -389,7 +389,7 @@ class PaymentMethodBankCardTest extends AbstractPaymentMethodTest
 
     public function validIssuerNameDataProvider()
     {
-        $result = array();
+        $result = [];
         for ($i = 0; $i < 10; $i++) {
             $result[] = array(Random::str(3, 35));
         }
@@ -401,7 +401,7 @@ class PaymentMethodBankCardTest extends AbstractPaymentMethodTest
 
     public function validSourceDataProvider()
     {
-        $result = array();
+        $result = [];
         foreach (BankCardSource::getValidValues() as $value) {
             $result[] = array($value);
         }

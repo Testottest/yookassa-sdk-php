@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Request\Payments\Payment\CreateCaptureRequestSerializer
-### Namespace: [\YooKassa\Request\Payments\Payment](../namespaces/yookassa-request-payments-payment.md)
+# Class: \Testottest\Request\Payments\Payment\CreateCaptureRequestSerializer
+### Namespace: [\Testottest\Request\Payments\Payment](../namespaces/yookassa-request-payments-payment.md)
 ---
 **Summary:**
 
@@ -23,7 +23,7 @@
 * File: [lib/Request/Payments/Payment/CreateCaptureRequestSerializer.php](../../lib/Request/Payments/Payment/CreateCaptureRequestSerializer.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \YooKassa\Request\Payments\Payment\CreateCaptureRequestSerializer
+  * \Testottest\Request\Payments\Payment\CreateCaptureRequestSerializer
 
 ---
 ## Methods
@@ -31,7 +31,7 @@
 #### public serialize() : array
 
 ```php
-public serialize(\YooKassa\Request\Payments\Payment\CreateCaptureRequestInterface $request) : array
+public serialize(\Testottest\Request\Payments\Payment\CreateCaptureRequestInterface $request) : array
 ```
 
 **Summary**
@@ -39,12 +39,12 @@ public serialize(\YooKassa\Request\Payments\Payment\CreateCaptureRequestInterfac
 Сериализует объект запроса к API на подтверждение заказа в ассоциативный массив
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payments\Payment\CreateCaptureRequestSerializer](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestSerializer.md)
+* Inherited From: [\Testottest\Request\Payments\Payment\CreateCaptureRequestSerializer](../classes/YooKassa-Request-Payments-Payment-CreateCaptureRequestSerializer.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Request\Payments\Payment\CreateCaptureRequestInterface</code> | request  | Сериализуемый объект запроса |
+| <code lang="php">\Testottest\Request\Payments\Payment\CreateCaptureRequestInterface</code> | request  | Сериализуемый объект запроса |
 
 **Returns:** array - Ассоциативный массив содержащий информацию для отправки в API
 

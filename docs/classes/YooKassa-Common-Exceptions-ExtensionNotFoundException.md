@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Common\Exceptions\ExtensionNotFoundException
-### Namespace: [\YooKassa\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
+# Class: \Testottest\Common\Exceptions\ExtensionNotFoundException
+### Namespace: [\Testottest\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
 ---
 **Summary:**
 
@@ -24,7 +24,7 @@
 * Package: YooKassa
 * Class Hierarchy: 
   * [\Exception](\Exception)
-  * \YooKassa\Common\Exceptions\ExtensionNotFoundException
+  * \Testottest\Common\Exceptions\ExtensionNotFoundException
 
 ---
 ## Methods
@@ -40,7 +40,7 @@ public __construct(string $name, int $code) : mixed
 Constructor
 
 **Details:**
-* Inherited From: [\YooKassa\Common\Exceptions\ExtensionNotFoundException](../classes/YooKassa-Common-Exceptions-ExtensionNotFoundException.md)
+* Inherited From: [\Testottest\Common\Exceptions\ExtensionNotFoundException](../classes/YooKassa-Common-Exceptions-ExtensionNotFoundException.md)
 
 ##### Parameters:
 | Type | Name | Description |

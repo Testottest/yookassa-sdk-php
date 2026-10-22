@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: RefundInterface
-### Namespace: [\YooKassa\Model](../namespaces/yookassa-model.md)
+### Namespace: [\Testottest\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -60,7 +60,7 @@ public getId() : string
 Возвращает идентификатор возврата платежа
 
 **Details:**
-* Inherited From: [\YooKassa\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
+* Inherited From: [\Testottest\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
 
 **Returns:** string - Идентификатор возврата
 
@@ -77,7 +77,7 @@ public getPaymentId() : string
 Возвращает идентификатор платежа
 
 **Details:**
-* Inherited From: [\YooKassa\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
+* Inherited From: [\Testottest\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
 
 **Returns:** string - Идентификатор платежа
 
@@ -94,7 +94,7 @@ public getStatus() : string
 Возвращает статус текущего возврата
 
 **Details:**
-* Inherited From: [\YooKassa\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
+* Inherited From: [\Testottest\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
 
 **Returns:** string - Статус возврата
 
@@ -111,16 +111,16 @@ public getCreatedAt() : \DateTime
 Возвращает дату создания возврата
 
 **Details:**
-* Inherited From: [\YooKassa\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
+* Inherited From: [\Testottest\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
 
 **Returns:** \DateTime - Время создания возврата
 
 
 <a name="method_getAmount" class="anchor"></a>
-#### public getAmount() : \YooKassa\Model\AmountInterface
+#### public getAmount() : \Testottest\Model\AmountInterface
 
 ```php
-public getAmount() : \YooKassa\Model\AmountInterface
+public getAmount() : \Testottest\Model\AmountInterface
 ```
 
 **Summary**
@@ -128,9 +128,9 @@ public getAmount() : \YooKassa\Model\AmountInterface
 Возвращает сумму возврата
 
 **Details:**
-* Inherited From: [\YooKassa\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
+* Inherited From: [\Testottest\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
 
-**Returns:** \YooKassa\Model\AmountInterface - Сумма возврата
+**Returns:** \Testottest\Model\AmountInterface - Сумма возврата
 
 
 <a name="method_getReceiptRegistration" class="anchor"></a>
@@ -145,7 +145,7 @@ public getReceiptRegistration() : string
 Возвращает статус регистрации чека
 
 **Details:**
-* Inherited From: [\YooKassa\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
+* Inherited From: [\Testottest\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
 
 **Returns:** string - Статус регистрации чека
 
@@ -162,16 +162,16 @@ public getDescription() : string
 Возвращает комментарий к возврату
 
 **Details:**
-* Inherited From: [\YooKassa\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
+* Inherited From: [\Testottest\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
 
 **Returns:** string - Комментарий, основание для возврата средств покупателю
 
 
 <a name="method_getSources" class="anchor"></a>
-#### public getSources() : \YooKassa\Model\SourceInterface[]
+#### public getSources() : \Testottest\Model\SourceInterface[]
 
 ```php
-public getSources() : \YooKassa\Model\SourceInterface[]
+public getSources() : \Testottest\Model\SourceInterface[]
 ```
 
 **Summary**
@@ -179,16 +179,16 @@ public getSources() : \YooKassa\Model\SourceInterface[]
 Возвращает информацию о распределении денег — сколько и в какой магазин нужно перевести
 
 **Details:**
-* Inherited From: [\YooKassa\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
+* Inherited From: [\Testottest\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
 
-**Returns:** \YooKassa\Model\SourceInterface[] - 
+**Returns:** \Testottest\Model\SourceInterface[] - 
 
 
 <a name="method_getDeal" class="anchor"></a>
-#### public getDeal() : \YooKassa\Model\Deal\RefundDealInfo
+#### public getDeal() : \Testottest\Model\Deal\RefundDealInfo
 
 ```php
-public getDeal() : \YooKassa\Model\Deal\RefundDealInfo
+public getDeal() : \Testottest\Model\Deal\RefundDealInfo
 ```
 
 **Summary**
@@ -196,9 +196,9 @@ public getDeal() : \YooKassa\Model\Deal\RefundDealInfo
 Возвращает сделку, в рамках которой нужно провести возврат.
 
 **Details:**
-* Inherited From: [\YooKassa\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
+* Inherited From: [\Testottest\Model\RefundInterface](../classes/YooKassa-Model-RefundInterface.md)
 
-**Returns:** \YooKassa\Model\Deal\RefundDealInfo - Сделка, в рамках которой нужно провести возврат
+**Returns:** \Testottest\Model\Deal\RefundDealInfo - Сделка, в рамках которой нужно провести возврат
 
 
 

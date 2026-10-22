@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\YooKassa\Request\Refunds;
+namespace Tests\Testottest\Request\Refunds;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Helpers\StringObject;
-use YooKassa\Model\RefundStatus;
-use YooKassa\Request\Refunds\RefundsRequest;
-use YooKassa\Request\Refunds\RefundsRequestBuilder;
+use Testottest\Helpers\Random;
+use Testottest\Helpers\StringObject;
+use Testottest\Model\RefundStatus;
+use Testottest\Request\Refunds\RefundsRequest;
+use Testottest\Request\Refunds\RefundsRequestBuilder;
 
 class RefundsRequestTest extends TestCase
 {

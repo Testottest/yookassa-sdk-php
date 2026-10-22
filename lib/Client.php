@@ -24,79 +24,78 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa;
+namespace Testottest;
 
 use Exception;
 use InvalidArgumentException;
-use YooKassa\Client\BaseClient;
-use YooKassa\Common\Exceptions\ApiConnectionException;
-use YooKassa\Common\Exceptions\ApiException;
-use YooKassa\Common\Exceptions\AuthorizeException;
-use YooKassa\Common\Exceptions\BadApiRequestException;
-use YooKassa\Common\Exceptions\ExtensionNotFoundException;
-use YooKassa\Common\Exceptions\ForbiddenException;
-use YooKassa\Common\Exceptions\InternalServerError;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Common\Exceptions\NotFoundException;
-use YooKassa\Common\Exceptions\ResponseProcessingException;
-use YooKassa\Common\Exceptions\TooManyRequestsException;
-use YooKassa\Common\Exceptions\UnauthorizedException;
-use YooKassa\Common\HttpVerb;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Helpers\UUID;
-use YooKassa\Model\DealInterface;
-use YooKassa\Model\PaymentInterface;
-use YooKassa\Model\PayoutInterface;
-use YooKassa\Model\RefundInterface;
-use YooKassa\Model\Webhook\Webhook;
-use YooKassa\Request\Deals\CreateDealRequest;
-use YooKassa\Request\Deals\CreateDealRequestInterface;
-use YooKassa\Request\Deals\CreateDealRequestSerializer;
-use YooKassa\Request\Deals\CreateDealResponse;
-use YooKassa\Request\Deals\DealResponse;
-use YooKassa\Request\Deals\DealsRequest;
-use YooKassa\Request\Deals\DealsRequestInterface;
-use YooKassa\Request\Deals\DealsRequestSerializer;
-use YooKassa\Request\Deals\DealsResponse;
-use YooKassa\Request\Payments\CreatePaymentRequest;
-use YooKassa\Request\Payments\CreatePaymentRequestInterface;
-use YooKassa\Request\Payments\CreatePaymentResponse;
-use YooKassa\Request\Payments\CreatePaymentRequestSerializer;
-use YooKassa\Request\Payments\Payment\CancelResponse;
-use YooKassa\Request\Payments\Payment\CreateCaptureRequest;
-use YooKassa\Request\Payments\Payment\CreateCaptureRequestInterface;
-use YooKassa\Request\Payments\Payment\CreateCaptureRequestSerializer;
-use YooKassa\Request\Payments\Payment\CreateCaptureResponse;
-use YooKassa\Request\Payments\PaymentResponse;
-use YooKassa\Request\Payments\PaymentsRequest;
-use YooKassa\Request\Payments\PaymentsRequestInterface;
-use YooKassa\Request\Payments\PaymentsRequestSerializer;
-use YooKassa\Request\Payments\PaymentsResponse;
-use YooKassa\Request\Payouts\CreatePayoutRequest;
-use YooKassa\Request\Payouts\CreatePayoutRequestInterface;
-use YooKassa\Request\Payouts\CreatePayoutRequestSerializer;
-use YooKassa\Request\Payouts\CreatePayoutResponse;
-use YooKassa\Request\Payouts\PayoutResponse;
-use YooKassa\Request\Receipts\AbstractReceiptResponse;
-use YooKassa\Request\Receipts\CreatePostReceiptRequest;
-use YooKassa\Request\Receipts\CreatePostReceiptRequestInterface;
-use YooKassa\Request\Receipts\CreatePostReceiptRequestSerializer;
-use YooKassa\Request\Receipts\ReceiptResponseFactory;
-use YooKassa\Request\Receipts\ReceiptResponseInterface;
-use YooKassa\Request\Receipts\ReceiptsRequest;
-use YooKassa\Request\Receipts\ReceiptsRequestSerializer;
-use YooKassa\Request\Receipts\ReceiptsResponse;
-use YooKassa\Request\Refunds\CreateRefundRequest;
-use YooKassa\Request\Refunds\CreateRefundRequestInterface;
-use YooKassa\Request\Refunds\CreateRefundRequestSerializer;
-use YooKassa\Request\Refunds\CreateRefundResponse;
-use YooKassa\Request\Refunds\RefundResponse;
-use YooKassa\Request\Refunds\RefundsRequest;
-use YooKassa\Request\Refunds\RefundsRequestInterface;
-use YooKassa\Request\Refunds\RefundsRequestSerializer;
-use YooKassa\Request\Refunds\RefundsResponse;
-use YooKassa\Request\Webhook\WebhookListResponse;
+use Testottest\Client\BaseClient;
+use Testottest\Common\Exceptions\ApiException;
+use Testottest\Common\Exceptions\AuthorizeException;
+use Testottest\Common\Exceptions\BadApiRequestException;
+use Testottest\Common\Exceptions\ExtensionNotFoundException;
+use Testottest\Common\Exceptions\ForbiddenException;
+use Testottest\Common\Exceptions\InternalServerError;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Common\Exceptions\NotFoundException;
+use Testottest\Common\Exceptions\ResponseProcessingException;
+use Testottest\Common\Exceptions\TooManyRequestsException;
+use Testottest\Common\Exceptions\UnauthorizedException;
+use Testottest\Common\HttpVerb;
+use Testottest\Helpers\TypeCast;
+use Testottest\Helpers\UUID;
+use Testottest\Model\DealInterface;
+use Testottest\Model\PaymentInterface;
+use Testottest\Model\PayoutInterface;
+use Testottest\Model\RefundInterface;
+use Testottest\Model\Webhook\Webhook;
+use Testottest\Request\Deals\CreateDealRequest;
+use Testottest\Request\Deals\CreateDealRequestInterface;
+use Testottest\Request\Deals\CreateDealRequestSerializer;
+use Testottest\Request\Deals\CreateDealResponse;
+use Testottest\Request\Deals\DealResponse;
+use Testottest\Request\Deals\DealsRequest;
+use Testottest\Request\Deals\DealsRequestInterface;
+use Testottest\Request\Deals\DealsRequestSerializer;
+use Testottest\Request\Deals\DealsResponse;
+use Testottest\Request\Payments\CreatePaymentRequest;
+use Testottest\Request\Payments\CreatePaymentRequestInterface;
+use Testottest\Request\Payments\CreatePaymentRequestSerializer;
+use Testottest\Request\Payments\CreatePaymentResponse;
+use Testottest\Request\Payments\Payment\CancelResponse;
+use Testottest\Request\Payments\Payment\CreateCaptureRequest;
+use Testottest\Request\Payments\Payment\CreateCaptureRequestInterface;
+use Testottest\Request\Payments\Payment\CreateCaptureRequestSerializer;
+use Testottest\Request\Payments\Payment\CreateCaptureResponse;
+use Testottest\Request\Payments\PaymentResponse;
+use Testottest\Request\Payments\PaymentsRequest;
+use Testottest\Request\Payments\PaymentsRequestInterface;
+use Testottest\Request\Payments\PaymentsRequestSerializer;
+use Testottest\Request\Payments\PaymentsResponse;
+use Testottest\Request\Payouts\CreatePayoutRequest;
+use Testottest\Request\Payouts\CreatePayoutRequestInterface;
+use Testottest\Request\Payouts\CreatePayoutRequestSerializer;
+use Testottest\Request\Payouts\CreatePayoutResponse;
+use Testottest\Request\Payouts\PayoutResponse;
+use Testottest\Request\Receipts\AbstractReceiptResponse;
+use Testottest\Request\Receipts\CreatePostReceiptRequest;
+use Testottest\Request\Receipts\CreatePostReceiptRequestInterface;
+use Testottest\Request\Receipts\CreatePostReceiptRequestSerializer;
+use Testottest\Request\Receipts\ReceiptResponseFactory;
+use Testottest\Request\Receipts\ReceiptResponseInterface;
+use Testottest\Request\Receipts\ReceiptsRequest;
+use Testottest\Request\Receipts\ReceiptsRequestSerializer;
+use Testottest\Request\Receipts\ReceiptsResponse;
+use Testottest\Request\Refunds\CreateRefundRequest;
+use Testottest\Request\Refunds\CreateRefundRequestInterface;
+use Testottest\Request\Refunds\CreateRefundRequestSerializer;
+use Testottest\Request\Refunds\CreateRefundResponse;
+use Testottest\Request\Refunds\RefundResponse;
+use Testottest\Request\Refunds\RefundsRequest;
+use Testottest\Request\Refunds\RefundsRequestInterface;
+use Testottest\Request\Refunds\RefundsRequestSerializer;
+use Testottest\Request\Refunds\RefundsResponse;
+use Testottest\Request\Webhook\WebhookListResponse;
 
 /**
  * Класс клиента API
@@ -145,7 +144,7 @@ class Client extends BaseClient
         $path = self::PAYMENTS_PATH;
 
         if ($filter === null) {
-            $queryParams = array();
+            $queryParams = [];
         } else {
             if (is_array($filter)) {
                 $filter = PaymentsRequest::builder()->build($filter);
@@ -211,7 +210,7 @@ class Client extends BaseClient
     {
         $path = self::PAYMENTS_PATH;
 
-        $headers = array();
+        $headers = [];
 
         if ($idempotenceKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotenceKey;
@@ -328,7 +327,7 @@ class Client extends BaseClient
 
         $path = '/payments/'.$paymentId.'/capture';
 
-        $headers = array();
+        $headers = [];
 
         if ($idempotencyKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotencyKey;
@@ -393,7 +392,7 @@ class Client extends BaseClient
         }
 
         $path    = self::PAYMENTS_PATH.'/'.$paymentId.'/cancel';
-        $headers = array();
+        $headers = [];
         if ($idempotencyKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotencyKey;
         } else {
@@ -444,7 +443,7 @@ class Client extends BaseClient
         $path = self::REFUNDS_PATH;
 
         if ($filter === null) {
-            $queryParams = array();
+            $queryParams = [];
         } else {
             if (is_array($filter)) {
                 $filter = RefundsRequest::builder()->build($filter);
@@ -495,7 +494,7 @@ class Client extends BaseClient
     {
         $path = self::REFUNDS_PATH;
 
-        $headers = array();
+        $headers = [];
 
         if ($idempotencyKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotencyKey;
@@ -596,7 +595,7 @@ class Client extends BaseClient
     {
         $path = self::WEBHOOKS_PATH;
 
-        $headers = array();
+        $headers = [];
 
         if ($idempotencyKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotencyKey;
@@ -654,7 +653,7 @@ class Client extends BaseClient
      */
     public function removeWebhook($webhookId, $idempotencyKey = null)
     {
-        $headers = array();
+        $headers = [];
 
         if ($idempotencyKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotencyKey;
@@ -745,7 +744,7 @@ class Client extends BaseClient
         $path = self::RECEIPTS_PATH;
 
         if ($filter === null) {
-            $queryParams = array();
+            $queryParams = [];
         } else {
             if (is_array($filter)) {
                 $filter = ReceiptsRequest::builder()->build($filter);
@@ -796,7 +795,7 @@ class Client extends BaseClient
     {
         $path = self::RECEIPTS_PATH;
 
-        $headers = array();
+        $headers = [];
 
         if ($idempotenceKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotenceKey;
@@ -912,7 +911,7 @@ class Client extends BaseClient
     {
         $path = self::DEALS_PATH;
 
-        $headers = array();
+        $headers = [];
 
         if ($idempotenceKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotenceKey;
@@ -1018,7 +1017,7 @@ class Client extends BaseClient
         $path = self::DEALS_PATH;
 
         if ($filter === null) {
-            $queryParams = array();
+            $queryParams = [];
         } else {
             if (is_array($filter)) {
                 $filter = DealsRequest::builder()->build($filter);
@@ -1085,7 +1084,7 @@ class Client extends BaseClient
     {
         $path = self::PAYOUTS_PATH;
 
-        $headers = array();
+        $headers = [];
 
         if ($idempotenceKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotenceKey;
@@ -1189,7 +1188,7 @@ class Client extends BaseClient
     {
         $path = self::ME_PATH;
 
-        $queryParams = array();
+        $queryParams = [];
         if (is_array($filter)) {
             $queryParams = $filter;
         } elseif (is_string($filter) || is_int($filter)) {

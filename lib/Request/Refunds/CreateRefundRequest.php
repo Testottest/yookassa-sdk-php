@@ -24,16 +24,16 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Refunds;
+namespace Testottest\Request\Refunds;
 
-use YooKassa\Common\AbstractRefundRequest;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\Deal\RefundDealData;
-use YooKassa\Model\ReceiptInterface;
-use YooKassa\Model\Source;
-use YooKassa\Model\SourceInterface;
+use Testottest\Common\AbstractRefundRequest;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\Deal\RefundDealData;
+use Testottest\Model\ReceiptInterface;
+use Testottest\Model\Source;
+use Testottest\Model\SourceInterface;
 
 /**
  * Класс объекта запроса для создания возврата
@@ -121,7 +121,7 @@ class CreateRefundRequest extends AbstractRefundRequest implements CreateRefundR
             throw new InvalidPropertyValueTypeException($message, 0, 'CreateRefundRequest.sources', $value);
         }
 
-        $sources = array();
+        $sources = [];
         foreach ($value as $item) {
             if (is_array($item)) {
                 $item = new Source($item);

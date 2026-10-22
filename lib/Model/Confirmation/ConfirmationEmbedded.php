@@ -23,12 +23,12 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Confirmation;
+namespace Testottest\Model\Confirmation;
 
 
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\ConfirmationType;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\ConfirmationType;
 
 /**
  * @property string $confirmationToken Токен для checkout.js

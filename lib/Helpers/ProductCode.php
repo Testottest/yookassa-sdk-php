@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Helpers;
+namespace Testottest\Helpers;
 
 /**
  * Класс для формирования тега 1162 на основе кода в формате Data Matrix
@@ -294,7 +294,7 @@ class ProductCode
 
         $length = strlen($numString);
         $result = '';
-        $number = array();
+        $number = [];
 
         for ($i = 0; $i < $length; $i++) {
             $number[$i] = strpos($chars, substr($numString, $i, 1));

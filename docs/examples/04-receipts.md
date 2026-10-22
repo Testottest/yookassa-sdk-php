@@ -23,7 +23,7 @@
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \YooKassa\Client();
+$client = new \Testottest\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 try {
@@ -43,11 +43,11 @@ try {
                     'quantity' => '1.00',
                     'amount' => array(
                         'value' => '3000.00',
-                        'currency' => \YooKassa\Model\CurrencyCode::RUB,
+                        'currency' => \Testottest\Model\CurrencyCode::RUB,
                     ),
                     'vat_code' => 2,
-                    'payment_mode' => \YooKassa\Model\Receipt\PaymentMode::FULL_PAYMENT,
-                    'payment_subject' => \YooKassa\Model\Receipt\PaymentSubject::COMMODITY,
+                    'payment_mode' => \Testottest\Model\Receipt\PaymentMode::FULL_PAYMENT,
+                    'payment_subject' => \Testottest\Model\Receipt\PaymentSubject::COMMODITY,
                 ),
             ),
             'tax_system_code' => 1,
@@ -73,14 +73,14 @@ var_dump($response);
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \YooKassa\Client();
+$client = new \Testottest\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 try {
     $inputDataMatrix = '010463003407001221SxMGorvNuq6Wk91fgr92sdfsdfghfgjh';
-    $receiptBuilder = \YooKassa\Request\Receipts\CreatePostReceiptRequest::builder();
-    $receiptBuilder->setType(\YooKassa\Model\ReceiptType::PAYMENT)
-        ->setObjectId('24b94598-000f-5000-9000-1b68e7b15f3f', \YooKassa\Model\ReceiptType::PAYMENT) // payment_id
+    $receiptBuilder = \Testottest\Request\Receipts\CreatePostReceiptRequest::builder();
+    $receiptBuilder->setType(\Testottest\Model\ReceiptType::PAYMENT)
+        ->setObjectId('24b94598-000f-5000-9000-1b68e7b15f3f', \Testottest\Model\ReceiptType::PAYMENT) // payment_id
         ->setCustomer(array(
             'email' => 'john.doe@merchant.com',
             'phone' => '71111111111',
@@ -94,9 +94,9 @@ try {
                     'currency' => 'RUB',
                 ),
                 'vat_code' => 2,
-                'payment_mode' => \YooKassa\Model\Receipt\PaymentMode::FULL_PAYMENT,
-                'payment_subject' => \YooKassa\Model\Receipt\PaymentSubject::COMMODITY,
-                'product_code' => (string)(new \YooKassa\Helpers\ProductCode($inputDataMatrix)),
+                'payment_mode' => \Testottest\Model\Receipt\PaymentMode::FULL_PAYMENT,
+                'payment_subject' => \Testottest\Model\Receipt\PaymentSubject::COMMODITY,
+                'product_code' => (string)(new \Testottest\Helpers\ProductCode($inputDataMatrix)),
             ),
         ))
         ->setSettlements(array(
@@ -115,7 +115,7 @@ try {
 
     // Можно изменить данные, если нужно
     $request->setOnBehalfOf('159753');
-    $request->addItem(new \YooKassa\Model\ReceiptItem(array(
+    $request->addItem(new \Testottest\Model\ReceiptItem(array(
         'description' => 'Платок Gucci Новый',
         'quantity' => '1.00',
         'amount' => array(
@@ -123,8 +123,8 @@ try {
             'currency' => 'RUB',
         ),
         'vat_code' => 2,
-        'payment_mode' => \YooKassa\Model\Receipt\PaymentMode::FULL_PAYMENT,
-        'payment_subject' => \YooKassa\Model\Receipt\PaymentSubject::COMMODITY,
+        'payment_mode' => \Testottest\Model\Receipt\PaymentMode::FULL_PAYMENT,
+        'payment_subject' => \Testottest\Model\Receipt\PaymentSubject::COMMODITY,
     )));
 
     $idempotenceKey = uniqid('', true);
@@ -149,7 +149,7 @@ var_dump($response);
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \YooKassa\Client();
+$client = new \Testottest\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 try {
@@ -180,13 +180,13 @@ var_dump($response);
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \YooKassa\Client();
+$client = new \Testottest\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 $cursor = null;
 $params = array(
     'limit' => 30,
-    'status' => \YooKassa\Model\ReceiptRegistrationStatus::SUCCEEDED,
+    'status' => \Testottest\Model\ReceiptRegistrationStatus::SUCCEEDED,
     'payment_id' => '1da5c87d-0984-50e8-a7f3-8de646dd9ec9',
     'created_at_gte' => '2021-01-01T00:00:00.000Z',
     'created_at_lt' => '2021-03-30T23:59:59.999Z',

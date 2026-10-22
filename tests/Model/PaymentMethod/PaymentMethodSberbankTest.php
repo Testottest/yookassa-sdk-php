@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Model\PaymentMethod;
+namespace Tests\Testottest\Model\PaymentMethod;
 
-use YooKassa\Model\PaymentMethod\PaymentMethodSberbank;
-use YooKassa\Model\PaymentMethodType;
+use Testottest\Model\PaymentMethod\PaymentMethodSberbank;
+use Testottest\Model\PaymentMethodType;
 
 class PaymentMethodSberbankTest extends AbstractPaymentMethodPhoneTest
 {

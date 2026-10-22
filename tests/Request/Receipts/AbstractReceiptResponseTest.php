@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\YooKassa\Request\Receipts;
+namespace Tests\Testottest\Request\Receipts;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\ProductCode;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Airline;
-use YooKassa\Model\Receipt\SettlementType;
-use YooKassa\Model\ReceiptType;
-use YooKassa\Request\Receipts\ReceiptResponseInterface;
-use YooKassa\Request\Receipts\ReceiptResponseItem;
-use YooKassa\Request\Receipts\ReceiptResponseItemInterface;
+use Testottest\Helpers\ProductCode;
+use Testottest\Helpers\Random;
+use Testottest\Model\Airline;
+use Testottest\Model\Receipt\SettlementType;
+use Testottest\Model\ReceiptType;
+use Testottest\Request\Receipts\ReceiptResponseInterface;
+use Testottest\Request\Receipts\ReceiptResponseItem;
+use Testottest\Request\Receipts\ReceiptResponseItemInterface;
 
 abstract class AbstractReceiptResponseTest extends TestCase
 {
@@ -108,7 +108,7 @@ abstract class AbstractReceiptResponseTest extends TestCase
     public function validDataProvider()
     {
         $this->valid = true;
-        $receipts = array();
+        $receipts = [];
         for ($i=0; $i < 10; $i++) {
             $receipts[] = $this->generateReceipts($this->type, true);
         }
@@ -118,7 +118,7 @@ abstract class AbstractReceiptResponseTest extends TestCase
     public function invalidDataProvider()
     {
         $this->valid = false;
-        $receipts = array();
+        $receipts = [];
         for ($i=0; $i < 10; $i++) {
             $receipts[] = $this->generateReceipts($this->type, false);
         }
@@ -128,7 +128,7 @@ abstract class AbstractReceiptResponseTest extends TestCase
     private function generateReceipts($type, $valid)
     {
         $this->valid = $valid;
-        $return = array();
+        $return = [];
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {
@@ -160,7 +160,7 @@ abstract class AbstractReceiptResponseTest extends TestCase
 
     private function generateItems()
     {
-        $return = array();
+        $return = [];
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {
@@ -185,7 +185,7 @@ abstract class AbstractReceiptResponseTest extends TestCase
 
     private function generateSettlements()
     {
-        $return = array();
+        $return = [];
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {

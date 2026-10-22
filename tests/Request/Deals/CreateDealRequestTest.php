@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\YooKassa\Request\Deals;
+namespace Tests\Testottest\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Deal\DealType;
-use YooKassa\Model\Deal\FeeMoment;
-use YooKassa\Model\Metadata;
-use YooKassa\Request\Deals\CreateDealRequest;
-use YooKassa\Request\Deals\CreateDealRequestBuilder;
+use Testottest\Helpers\Random;
+use Testottest\Model\Deal\DealType;
+use Testottest\Model\Deal\FeeMoment;
+use Testottest\Model\Metadata;
+use Testottest\Request\Deals\CreateDealRequest;
+use Testottest\Request\Deals\CreateDealRequestBuilder;
 
 class CreateDealRequestTest extends TestCase
 {
@@ -189,7 +189,7 @@ class CreateDealRequestTest extends TestCase
 
     public function validDataProvider()
     {
-        $result = array();
+        $result = [];
         $metadata = new Metadata();
         $metadata->test = 'test';
         for ($i = 0; $i < 10; $i++) {

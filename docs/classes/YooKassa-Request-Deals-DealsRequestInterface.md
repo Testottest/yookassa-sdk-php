@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: DealsRequestInterface
-### Namespace: [\YooKassa\Request\Deals](../namespaces/yookassa-request-deals.md)
+### Namespace: [\Testottest\Request\Deals](../namespaces/yookassa-request-deals.md)
 ---
 **Summary:**
 
@@ -88,7 +88,7 @@ public getCursor() : string|null
 Возвращает страницу выдачи результатов или null, если она до этого не была установлена
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** string|null - Страница выдачи результатов
 
@@ -105,7 +105,7 @@ public hasCursor() : bool
 Проверяет, была ли установлена страница выдачи результатов
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** bool - True если страница выдачи результатов была установлена, false если нет
 
@@ -122,7 +122,7 @@ public setCursor(string $value) : void
 Устанавливает страницу выдачи результатов
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -144,7 +144,7 @@ public getCreatedAtGte() : \DateTime|null
 Возвращает дату создания от которой будут возвращены сделки или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** \DateTime|null - Время создания, от (включительно)
 
@@ -161,7 +161,7 @@ public hasCreatedAtGte() : bool
 Проверяет, была ли установлена дата создания от которой выбираются сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -178,7 +178,7 @@ public setCreatedAtGte(\DateTime $value) : void
 Устанавливает дату создания от которой выбираются сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -200,7 +200,7 @@ public getCreatedAtGt() : \DateTime|null
 Возвращает дату создания от которой будут возвращены сделки или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** \DateTime|null - Время создания, от (не включая)
 
@@ -217,7 +217,7 @@ public hasCreatedAtGt() : bool
 Проверяет, была ли установлена дата создания от которой выбираются сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -234,7 +234,7 @@ public setCreatedAtGt(\DateTime $value) : void
 Устанавливает дату создания от которой выбираются сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -256,7 +256,7 @@ public getCreatedAtLte() : \DateTime|null
 Возвращает дату создания до которой будут возвращены сделки или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** \DateTime|null - Время создания, до (включительно)
 
@@ -273,7 +273,7 @@ public hasCreatedAtLte() : bool
 Проверяет, была ли установлена дата создания до которой выбираются сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -290,7 +290,7 @@ public setCreatedAtLte(\DateTime $value) : void
 Устанавливает дату создания до которой выбираются сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -312,7 +312,7 @@ public getCreatedAtLt() : \DateTime|null
 Возвращает дату создания до которой будут возвращены сделки или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** \DateTime|null - Время создания, до (не включая)
 
@@ -329,7 +329,7 @@ public hasCreatedAtLt() : bool
 Проверяет, была ли установлена дата создания до которой выбираются сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -346,7 +346,7 @@ public setCreatedAtLt(\DateTime $value) : void
 Устанавливает дату создания до которой выбираются сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -368,7 +368,7 @@ public getExpiresAtGte() : \DateTime|null
 Возвращает дату автоматического закрытия от которой будут возвращены сделки или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** \DateTime|null - Время автоматического закрытия, от (включительно)
 
@@ -385,7 +385,7 @@ public hasExpiresAtGte() : bool
 Проверяет, была ли установлена дата автоматического закрытия от которой выбираются сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -402,7 +402,7 @@ public setExpiresAtGte(\DateTime $value) : void
 Устанавливает дату автоматического закрытия от которой выбираются сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -424,7 +424,7 @@ public getExpiresAtGt() : \DateTime|null
 Возвращает дату автоматического закрытия от которой будут возвращены сделки или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** \DateTime|null - Время автоматического закрытия, от (не включая)
 
@@ -441,7 +441,7 @@ public hasExpiresAtGt() : bool
 Проверяет, была ли установлена дата автоматического закрытия от которой выбираются сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -458,7 +458,7 @@ public setExpiresAtGt(\DateTime $value) : void
 Устанавливает дату автоматического закрытия от которой выбираются сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -480,7 +480,7 @@ public getExpiresAtLte() : \DateTime|null
 Возвращает дату автоматического закрытия до которой будут возвращены сделки или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** \DateTime|null - Время автоматического закрытия, до (включительно)
 
@@ -497,7 +497,7 @@ public hasExpiresAtLte() : bool
 Проверяет, была ли установлена дата автоматического закрытия до которой выбираются сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -514,7 +514,7 @@ public setExpiresAtLte(\DateTime $value) : void
 Устанавливает дату автоматического закрытия до которой выбираются сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -536,7 +536,7 @@ public getExpiresAtLt() : \DateTime|null
 Возвращает дату автоматического закрытия до которой будут возвращены сделки или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** \DateTime|null - Время автоматического закрытия, до (не включая)
 
@@ -553,7 +553,7 @@ public hasExpiresAtLt() : bool
 Проверяет, была ли установлена автоматического закрытия до которой выбираются сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -570,7 +570,7 @@ public setExpiresAtLt(\DateTime $value) : void
 Устанавливает дату автоматического закрытия до которой выбираются сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -592,7 +592,7 @@ public getLimit() : string|null
 Возвращает ограничение количества объектов сделок или null, если оно до этого не было установлено
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** string|null - Ограничение количества объектов сделок
 
@@ -609,7 +609,7 @@ public hasLimit() : bool
 Проверяет, было ли установлено ограничение количества объектов сделок
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** bool - True если ограничение количества объектов сделок было установлено, false если нет
 
@@ -626,7 +626,7 @@ public setLimit(int $value) : void
 Устанавливает ограничение количества объектов сделок
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -648,7 +648,7 @@ public getStatus() : string|null
 Возвращает статус выбираемых сделок или null, если он до этого не был установлен
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** string|null - Статус выбираемых сделок
 
@@ -665,7 +665,7 @@ public hasStatus() : bool
 Проверяет, был ли установлен статус выбираемых сделок
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** bool - True если статус был установлен, false если нет
 
@@ -682,7 +682,7 @@ public setStatus(string $value) : void
 Устанавливает статус выбираемых сделок
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -704,7 +704,7 @@ public getFullTextSearch() : string|null
 Возвращает фильтр по описанию сделки или null, если он до этого не был установлен
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** string|null - Фильтр по описанию сделки
 
@@ -721,7 +721,7 @@ public hasFullTextSearch() : bool
 Проверяет, был ли установлен фильтр по описанию сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 **Returns:** bool - True если фильтр по описанию сделки был установлен, false если нет
 
@@ -738,7 +738,7 @@ public setFullTextSearch(string $value) : void
 Устанавливает фильтр по описанию сделки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+* Inherited From: [\Testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |

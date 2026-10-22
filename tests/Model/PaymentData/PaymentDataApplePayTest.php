@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\YooKassa\Model\PaymentData;
+namespace Tests\Testottest\Model\PaymentData;
 
-use YooKassa\Model\PaymentData\PaymentDataApplePay;
-use YooKassa\Model\PaymentMethodType;
+use Testottest\Model\PaymentData\PaymentDataApplePay;
+use Testottest\Model\PaymentMethodType;
 
 class PaymentDataApplePayTest extends AbstractPaymentDataApplePayTest
 {

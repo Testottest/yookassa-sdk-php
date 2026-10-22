@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments\Payment;
+namespace Testottest\Request\Payments\Payment;
 
-use YooKassa\Request\Payments\AbstractPaymentResponse;
+use Testottest\Request\Payments\AbstractPaymentResponse;
 
 /**
  * Класс объекта ответа от API на запрос отмены платежа

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Model\PaymentMethod\PaymentMethodCardType
-### Namespace: [\YooKassa\Model\PaymentMethod](../namespaces/yookassa-model-paymentmethod.md)
+# Class: \Testottest\Model\PaymentMethod\PaymentMethodCardType
+### Namespace: [\Testottest\Model\PaymentMethod](../namespaces/yookassa-model-paymentmethod.md)
 ---
 **Summary:**
 
@@ -48,8 +48,8 @@
 * File: [lib/Model/PaymentMethod/PaymentMethodCardType.php](../../lib/Model/PaymentMethod/PaymentMethodCardType.php)
 * Package: Default
 * Class Hierarchy: 
-  * [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
-  * \YooKassa\Model\PaymentMethod\PaymentMethodCardType
+  * [\Testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+  * \Testottest\Model\PaymentMethod\PaymentMethodCardType
 
 ---
 ## Constants
@@ -135,7 +135,7 @@ Static public getEnabledValues() : string[]
 Возвращает значения в enum'е значения которых разрешены
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\Testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 **Returns:** string[] - Массив разрешённых значений
 
@@ -152,7 +152,7 @@ Static public getValidValues() : array
 Возвращает все значения в enum'e
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\Testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 **Returns:** array - Массив значений в перечислении
 
@@ -169,7 +169,7 @@ Static public valueExists(mixed $value) : bool
 Проверяет наличие значения в enum'e
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\Testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 ##### Parameters:
 | Type | Name | Description |

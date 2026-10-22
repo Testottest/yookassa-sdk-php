@@ -1,20 +1,20 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \YooKassa\Model\PaymentMethod\B2b\Sberbank
+# Namespace: \Testottest\Model\PaymentMethod\B2b\Sberbank
 
-## Parent: [\YooKassa\Model\PaymentMethod\B2b](../namespaces/yookassa-model-paymentmethod-b2b.md)
+## Parent: [\Testottest\Model\PaymentMethod\B2b](../namespaces/yookassa-model-paymentmethod-b2b.md)
 
 ### Interfaces
 
 | Name | Summary |
 | ---- | ------- |
-| [\YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md) | Interface PayerBankDetailsInterface |
+| [\Testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md) | Interface PayerBankDetailsInterface |
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetails.md) | Банковские реквизиты плательщика |
+| [\Testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetails](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetails.md) | Банковские реквизиты плательщика |
 
 ---
 

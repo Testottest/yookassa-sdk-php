@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\PaymentData;
+namespace Testottest\Model\PaymentData;
 
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Model\PaymentMethodType;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Model\PaymentMethodType;
 
 /**
  * PaymentDataBankCard
@@ -63,7 +63,7 @@ class PaymentDataBankCard extends AbstractPaymentData
      */
     public function setCard($value)
     {
-        if ($value === null || $value === '' || $value === array()) {
+        if ($value === null || $value === '' || $value === []) {
             $this->_card = null;
         } elseif (is_object($value) && $value instanceof PaymentDataBankCardCard) {
             $this->_card = $value;

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Request\Receipts\SimpleReceiptResponse
-### Namespace: [\YooKassa\Request\Receipts](../namespaces/yookassa-request-receipts.md)
+# Class: \Testottest\Request\Receipts\SimpleReceiptResponse
+### Namespace: [\Testottest\Request\Receipts](../namespaces/yookassa-request-receipts.md)
 ---
 **Summary:**
 
@@ -93,15 +93,15 @@
 * File: [lib/Request/Receipts/SimpleReceiptResponse.php](../../lib/Request/Receipts/SimpleReceiptResponse.php)
 * Package: YooKassa
 * Class Hierarchy:  
-  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
-  * \YooKassa\Request\Receipts\SimpleReceiptResponse
+  * [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+  * \Testottest\Request\Receipts\SimpleReceiptResponse
 
 ---
 ## Constants
 <a name="constant_LENGTH_RECEIPT_ID" class="anchor"></a>
 ###### LENGTH_RECEIPT_ID
-Inherited from [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+Inherited from [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 Длина идентификатора чека
 
@@ -123,7 +123,7 @@ LENGTH_RECEIPT_ID = 39
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_fiscal_document_number"></a>
@@ -136,7 +136,7 @@ LENGTH_RECEIPT_ID = 39
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_fiscal_provider_id"></a>
@@ -149,7 +149,7 @@ LENGTH_RECEIPT_ID = 39
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_fiscal_storage_number"></a>
@@ -162,7 +162,7 @@ LENGTH_RECEIPT_ID = 39
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_fiscalAttribute"></a>
@@ -175,7 +175,7 @@ LENGTH_RECEIPT_ID = 39
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_fiscalDocumentNumber"></a>
@@ -188,7 +188,7 @@ LENGTH_RECEIPT_ID = 39
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_fiscalProviderId"></a>
@@ -201,7 +201,7 @@ LENGTH_RECEIPT_ID = 39
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_fiscalStorageNumber"></a>
@@ -214,7 +214,7 @@ LENGTH_RECEIPT_ID = 39
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_id"></a>
@@ -227,20 +227,20 @@ LENGTH_RECEIPT_ID = 39
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_items"></a>
-#### public $items : \YooKassa\Request\Receipts\ReceiptResponseItemInterface[]
+#### public $items : \Testottest\Request\Receipts\ReceiptResponseItemInterface[]
 ---
 ***Description***
 
 Список товаров в заказе
 
-**Type:** <a href="../\YooKassa\Request\Receipts\ReceiptResponseItemInterface[]"><abbr title="\YooKassa\Request\Receipts\ReceiptResponseItemInterface[]">ReceiptResponseItemInterface[]</abbr></a>
+**Type:** <a href="../\Testottest\Request\Receipts\ReceiptResponseItemInterface[]"><abbr title="\Testottest\Request\Receipts\ReceiptResponseItemInterface[]">ReceiptResponseItemInterface[]</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_object_id"></a>
@@ -253,7 +253,7 @@ LENGTH_RECEIPT_ID = 39
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_objectId"></a>
@@ -266,7 +266,7 @@ LENGTH_RECEIPT_ID = 39
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_on_behalf_of"></a>
@@ -279,7 +279,7 @@ LENGTH_RECEIPT_ID = 39
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_onBehalfOf"></a>
@@ -292,7 +292,7 @@ LENGTH_RECEIPT_ID = 39
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_registered_at"></a>
@@ -305,7 +305,7 @@ LENGTH_RECEIPT_ID = 39
 **Type:** \DateTime
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_registeredAt"></a>
@@ -318,20 +318,20 @@ LENGTH_RECEIPT_ID = 39
 **Type:** \DateTime
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_settlements"></a>
-#### public $settlements : \YooKassa\Model\SettlementInterface[]
+#### public $settlements : \Testottest\Model\SettlementInterface[]
 ---
 ***Description***
 
 Перечень совершенных расчетов.
 
-**Type:** <a href="../\YooKassa\Model\SettlementInterface[]"><abbr title="\YooKassa\Model\SettlementInterface[]">SettlementInterface[]</abbr></a>
+**Type:** <a href="../\Testottest\Model\SettlementInterface[]"><abbr title="\Testottest\Model\SettlementInterface[]">SettlementInterface[]</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_status"></a>
@@ -344,7 +344,7 @@ LENGTH_RECEIPT_ID = 39
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_tax_system_code"></a>
@@ -357,7 +357,7 @@ LENGTH_RECEIPT_ID = 39
 **Type:** <a href="../int"><abbr title="int">int</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_taxSystemCode"></a>
@@ -370,7 +370,7 @@ LENGTH_RECEIPT_ID = 39
 **Type:** <a href="../int"><abbr title="int">int</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 <a name="property_type"></a>
@@ -383,7 +383,7 @@ LENGTH_RECEIPT_ID = 39
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 
 
@@ -393,7 +393,7 @@ LENGTH_RECEIPT_ID = 39
 #### public __construct() : mixed
 
 ```php
-public __construct(array $data = array()) : mixed
+public __construct(array $data = []) : mixed
 ```
 
 **Summary**
@@ -401,7 +401,7 @@ public __construct(array $data = array()) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -423,7 +423,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -445,7 +445,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -467,7 +467,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -490,7 +490,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -504,7 +504,7 @@ public __unset(string $propertyName) : mixed
 #### public addItem() : mixed
 
 ```php
-public addItem(\YooKassa\Request\Receipts\ReceiptResponseItemInterface $value) : mixed
+public addItem(\Testottest\Request\Receipts\ReceiptResponseItemInterface $value) : mixed
 ```
 
 **Summary**
@@ -512,12 +512,12 @@ public addItem(\YooKassa\Request\Receipts\ReceiptResponseItemInterface $value) :
 Добавляет товар в чек
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Request\Receipts\ReceiptResponseItemInterface</code> | value  | Объект добавляемой в чек позиции |
+| <code lang="php">\Testottest\Request\Receipts\ReceiptResponseItemInterface</code> | value  | Объект добавляемой в чек позиции |
 
 **Returns:** mixed - 
 
@@ -526,7 +526,7 @@ public addItem(\YooKassa\Request\Receipts\ReceiptResponseItemInterface $value) :
 #### public addSettlement() : mixed
 
 ```php
-public addSettlement(\YooKassa\Model\SettlementInterface $value) : mixed
+public addSettlement(\Testottest\Model\SettlementInterface $value) : mixed
 ```
 
 **Summary**
@@ -534,12 +534,12 @@ public addSettlement(\YooKassa\Model\SettlementInterface $value) : mixed
 Добавляет оплату в массив
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Model\SettlementInterface</code> | value  |  |
+| <code lang="php">\Testottest\Model\SettlementInterface</code> | value  |  |
 
 **Returns:** mixed - 
 
@@ -556,7 +556,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -578,7 +578,7 @@ public getFiscalAttribute() : string
 Возвращает фискальный признак чека
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 **Returns:** string - Фискальный признак чека
 
@@ -595,7 +595,7 @@ public getFiscalDocumentNumber() : string
 Возвращает номер фискального документа
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 **Returns:** string - Номер фискального документа
 
@@ -612,7 +612,7 @@ public getFiscalProviderId() : string
 Возвращает идентификатор чека в онлайн-кассе
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 **Returns:** string - Идентификатор чека в онлайн-кассе
 
@@ -629,7 +629,7 @@ public getFiscalStorageNumber() : string
 Возвращает номер фискального накопителя в кассовом аппарате
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 **Returns:** string - Номер фискального накопителя в кассовом аппарате
 
@@ -646,7 +646,7 @@ public getId() : string
 Возвращает идентификатор чека в ЮKassa
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 **Returns:** string - 
 
@@ -656,10 +656,10 @@ public getId() : string
 | inheritdoc |  |  |
 
 <a name="method_getItems" class="anchor"></a>
-#### public getItems() : \YooKassa\Request\Receipts\ReceiptResponseItem[]|\YooKassa\Request\Receipts\ReceiptResponseItemInterface[]
+#### public getItems() : \Testottest\Request\Receipts\ReceiptResponseItem[]|\Testottest\Request\Receipts\ReceiptResponseItemInterface[]
 
 ```php
-public getItems() : \YooKassa\Request\Receipts\ReceiptResponseItem[]|\YooKassa\Request\Receipts\ReceiptResponseItemInterface[]
+public getItems() : \Testottest\Request\Receipts\ReceiptResponseItem[]|\Testottest\Request\Receipts\ReceiptResponseItemInterface[]
 ```
 
 **Summary**
@@ -667,9 +667,9 @@ public getItems() : \YooKassa\Request\Receipts\ReceiptResponseItem[]|\YooKassa\R
 Возвращает список товаров в заказ
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
-**Returns:** \YooKassa\Request\Receipts\ReceiptResponseItem[]|\YooKassa\Request\Receipts\ReceiptResponseItemInterface[] - 
+**Returns:** \Testottest\Request\Receipts\ReceiptResponseItem[]|\Testottest\Request\Receipts\ReceiptResponseItemInterface[] - 
 
 ##### Tags
 | Tag | Version | Description |
@@ -688,7 +688,7 @@ public getObjectId() : string
 Возвращает идентификатор платежа или возврата, для которого был сформирован чек.
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 **Returns:** string - 
 
@@ -705,7 +705,7 @@ public getOnBehalfOf() : string|null
 Возвращает идентификатор магазин
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 **Returns:** string|null - 
 
@@ -726,16 +726,16 @@ public getRegisteredAt() : \DateTime
 Возвращает дату и время формирования чека в фискальном накопителе
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 **Returns:** \DateTime - Дата и время формирования чека в фискальном накопителе
 
 
 <a name="method_getSettlements" class="anchor"></a>
-#### public getSettlements() : \YooKassa\Model\SettlementInterface[]
+#### public getSettlements() : \Testottest\Model\SettlementInterface[]
 
 ```php
-public getSettlements() : \YooKassa\Model\SettlementInterface[]
+public getSettlements() : \Testottest\Model\SettlementInterface[]
 ```
 
 **Summary**
@@ -743,9 +743,9 @@ public getSettlements() : \YooKassa\Model\SettlementInterface[]
 Возвращает Массив оплат, обеспечивающих выдачу товара
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
-**Returns:** \YooKassa\Model\SettlementInterface[] - 
+**Returns:** \Testottest\Model\SettlementInterface[] - 
 
 
 <a name="method_getStatus" class="anchor"></a>
@@ -760,7 +760,7 @@ public getStatus() : string
 Возвращает статус доставки данных для чека в онлайн-кассу
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 **Returns:** string - 
 
@@ -781,7 +781,7 @@ public getTaxSystemCode() : int
 Возвращает код системы налогообложения
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 **Returns:** int - 
 
@@ -802,7 +802,7 @@ public getType() : string
 Возвращает тип чека в онлайн-кассе
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 **Returns:** string - 
 
@@ -823,7 +823,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -840,7 +840,7 @@ public notEmpty() : bool
 Проверяет есть ли в чеке хотя бы одна позиция
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 **Returns:** bool - True если чек не пуст, false если в чеке нет ни одной позиции
 
@@ -857,7 +857,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -879,7 +879,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -901,7 +901,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -924,7 +924,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -946,7 +946,7 @@ public setFiscalAttribute(string $fiscal_attribute) : mixed
 Устанавливает фискальный признак чека
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -968,7 +968,7 @@ public setFiscalDocumentNumber(string $value) : mixed
 Устанавливает номер фискального документа
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -978,7 +978,7 @@ public setFiscalDocumentNumber(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданный аргумент не строка |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданный аргумент не строка |
 
 **Returns:** mixed - 
 
@@ -995,7 +995,7 @@ public setFiscalProviderId(string $fiscal_provider_id) : mixed
 Устанавливает идентификатор чека в онлайн-кассе
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1017,7 +1017,7 @@ public setFiscalStorageNumber(string $fiscal_storage_number) : mixed
 Устанавливает номер фискального накопителя в кассовом аппарате
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1039,7 +1039,7 @@ public setId(string $value) : mixed
 Устанавливает идентификатор чека
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1049,8 +1049,8 @@ public setId(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если длина переданной строки не равна 40 |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если длина переданной строки не равна 40 |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
 
 **Returns:** mixed - 
 
@@ -1059,7 +1059,7 @@ public setId(string $value) : mixed
 #### public setItems() : mixed
 
 ```php
-public setItems(\YooKassa\Request\Receipts\ReceiptResponseItemInterface[] $value) : mixed
+public setItems(\Testottest\Request\Receipts\ReceiptResponseItemInterface[] $value) : mixed
 ```
 
 **Summary**
@@ -1073,18 +1073,18 @@ public setItems(\YooKassa\Request\Receipts\ReceiptResponseItemInterface[] $value
 ReceiptItemInterface, в противном случае будет выброшено исключение InvalidPropertyValueTypeException.
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Request\Receipts\ReceiptResponseItemInterface[]</code> | value  | Список товаров в заказе |
+| <code lang="php">\Testottest\Request\Receipts\ReceiptResponseItemInterface[]</code> | value  | Список товаров в заказе |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если передали пустой массив значений |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в качестве значения был передан не массив и не итератор, либо если одно из переданных значений не реализует интерфейс ReceiptItemInterface |
+| \Testottest\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если передали пустой массив значений |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в качестве значения был передан не массив и не итератор, либо если одно из переданных значений не реализует интерфейс ReceiptItemInterface |
 
 **Returns:** mixed - 
 
@@ -1101,7 +1101,7 @@ public setObjectId($value) : mixed
 Устанавливает идентификатор платежа или возврата, для которого был сформирован чек
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1123,7 +1123,7 @@ public setOnBehalfOf(string $value) : mixed
 Возвращает идентификатор магазина, от имени которого нужно отправить чек
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1145,7 +1145,7 @@ public setRegisteredAt(\DateTime $registered_at) : mixed
 Устанавливает дату и время формирования чека в фискальном накопителе
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1159,7 +1159,7 @@ public setRegisteredAt(\DateTime $registered_at) : mixed
 #### public setSettlements() : mixed
 
 ```php
-public setSettlements(\YooKassa\Model\SettlementInterface[] $value) : mixed
+public setSettlements(\Testottest\Model\SettlementInterface[] $value) : mixed
 ```
 
 **Summary**
@@ -1167,12 +1167,12 @@ public setSettlements(\YooKassa\Model\SettlementInterface[] $value) : mixed
 Устанавливает массив оплат, обеспечивающих выдачу товара
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Model\SettlementInterface[]</code> | value  |  |
+| <code lang="php">\Testottest\Model\SettlementInterface[]</code> | value  |  |
 
 **Returns:** mixed - 
 
@@ -1189,7 +1189,7 @@ public setSpecificProperties(array $receiptData) : void
 Установка свойств, присущих конкретному объекту
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\SimpleReceiptResponse](../classes/YooKassa-Request-Receipts-SimpleReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\SimpleReceiptResponse](../classes/YooKassa-Request-Receipts-SimpleReceiptResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1200,10 +1200,10 @@ public setSpecificProperties(array $receiptData) : void
 
 
 <a name="method_setStatus" class="anchor"></a>
-#### public setStatus() : \YooKassa\Request\Receipts\AbstractReceiptResponse
+#### public setStatus() : \Testottest\Request\Receipts\AbstractReceiptResponse
 
 ```php
-public setStatus(string $value) : \YooKassa\Request\Receipts\AbstractReceiptResponse
+public setStatus(string $value) : \Testottest\Request\Receipts\AbstractReceiptResponse
 ```
 
 **Summary**
@@ -1211,7 +1211,7 @@ public setStatus(string $value) : \YooKassa\Request\Receipts\AbstractReceiptResp
 Устанавливает состояние регистрации фискального чека
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1221,10 +1221,10 @@ public setStatus(string $value) : \YooKassa\Request\Receipts\AbstractReceiptResp
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное состояние регистрации не существует |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданный аргумент не строка |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное состояние регистрации не существует |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданный аргумент не строка |
 
-**Returns:** \YooKassa\Request\Receipts\AbstractReceiptResponse - 
+**Returns:** \Testottest\Request\Receipts\AbstractReceiptResponse - 
 
 
 <a name="method_setTaxSystemCode" class="anchor"></a>
@@ -1239,7 +1239,7 @@ public setTaxSystemCode(int $value) : mixed
 Устанавливает код системы налогообложения
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1249,8 +1249,8 @@ public setTaxSystemCode(int $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданный аргумент - не число |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданный аргумент меньше одного или больше шести |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданный аргумент - не число |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданный аргумент меньше одного или больше шести |
 
 **Returns:** mixed - 
 
@@ -1267,7 +1267,7 @@ public setType(string $value) : mixed
 Устанавливает типа чека
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
+* Inherited From: [\Testottest\Request\Receipts\AbstractReceiptResponse](../classes/YooKassa-Request-Receipts-AbstractReceiptResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1277,8 +1277,8 @@ public setType(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданная строка не является валидным типом |
-| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
+| \Testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданная строка не является валидным типом |
+| \Testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
 
 **Returns:** mixed - 
 
@@ -1296,7 +1296,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -1313,7 +1313,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\Testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

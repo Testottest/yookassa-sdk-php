@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common\Exceptions;
+namespace Testottest\Common\Exceptions;
 
 /**
  * [Basic Auth] Неверный идентификатор вашего аккаунта в ЮKassa или секретный ключ (имя пользователя и пароль при аутентификации).
@@ -40,7 +40,7 @@ class UnauthorizedException extends ApiException
 
     public $retryAfter;
 
-    public function __construct($responseHeaders = array(), $responseBody = null)
+    public function __construct($responseHeaders = [], $responseBody = null)
     {
         $errorData = json_decode($responseBody, true);
         $message   = '';

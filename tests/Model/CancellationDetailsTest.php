@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\YooKassa\Model;
+namespace Tests\Testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Model\CancellationDetails;
-use YooKassa\Model\CancellationDetailsPartyCode;
-use YooKassa\Model\CancellationDetailsReasonCode;
+use Testottest\Model\CancellationDetails;
+use Testottest\Model\CancellationDetailsPartyCode;
+use Testottest\Model\CancellationDetailsReasonCode;
 
 class CancellationDetailsTest extends TestCase
 {
@@ -102,7 +102,7 @@ class CancellationDetailsTest extends TestCase
      */
     public function validDataProvider()
     {
-        $result                          = array();
+        $result                          = [];
         $cancellationDetailsParties      = CancellationDetailsPartyCode::getValidValues();
         $countCancellationDetailsParties = count($cancellationDetailsParties);
         $cancellationDetailsReasons      = CancellationDetailsReasonCode::getValidValues();

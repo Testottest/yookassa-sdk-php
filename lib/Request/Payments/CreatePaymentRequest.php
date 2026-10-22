@@ -24,22 +24,22 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments;
+namespace Testottest\Request\Payments;
 
-use YooKassa\Common\AbstractPaymentRequest;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\AirlineInterface;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesFactory;
-use YooKassa\Model\Deal\PaymentDealInfo;
-use YooKassa\Model\Payment;
-use YooKassa\Model\PaymentData\AbstractPaymentData;
-use YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\ReceiptInterface;
-use YooKassa\Model\RecipientInterface;
+use Testottest\Common\AbstractPaymentRequest;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\AirlineInterface;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory;
+use Testottest\Model\Deal\PaymentDealInfo;
+use Testottest\Model\Payment;
+use Testottest\Model\PaymentData\AbstractPaymentData;
+use Testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
+use Testottest\Model\Metadata;
+use Testottest\Model\ReceiptInterface;
+use Testottest\Model\RecipientInterface;
 
 /**
  * Класс объекта запроса к API на проведение нового платежа

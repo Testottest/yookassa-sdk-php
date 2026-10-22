@@ -1,9 +1,9 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\NotificationEventType;
-use YooKassa\Model\Webhook\Webhook;
+use Testottest\Helpers\Random;
+use Testottest\Model\NotificationEventType;
+use Testottest\Model\Webhook\Webhook;
 
 class WebhookTest extends TestCase
 {

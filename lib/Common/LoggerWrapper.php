@@ -24,7 +24,7 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Common;
+namespace Testottest\Common;
 
 use Psr\Log\InvalidArgumentException;
 use Psr\Log\LoggerInterface;
@@ -65,7 +65,7 @@ class LoggerWrapper implements LoggerInterface
      *
      * @return void
      */
-    public function emergency($message, array $context = array())
+    public function emergency($message, array $context = [])
     {
         $this->log(LogLevel::EMERGENCY, $message, $context);
     }
@@ -81,7 +81,7 @@ class LoggerWrapper implements LoggerInterface
      *
      * @return void
      */
-    public function alert($message, array $context = array())
+    public function alert($message, array $context = [])
     {
         $this->log(LogLevel::ALERT, $message, $context);
     }
@@ -96,7 +96,7 @@ class LoggerWrapper implements LoggerInterface
      *
      * @return void
      */
-    public function critical($message, array $context = array())
+    public function critical($message, array $context = [])
     {
         $this->log(LogLevel::CRITICAL, $message, $context);
     }
@@ -110,7 +110,7 @@ class LoggerWrapper implements LoggerInterface
      *
      * @return void
      */
-    public function error($message, array $context = array())
+    public function error($message, array $context = [])
     {
         $this->log(LogLevel::ERROR, $message, $context);
     }
@@ -126,7 +126,7 @@ class LoggerWrapper implements LoggerInterface
      *
      * @return void
      */
-    public function warning($message, array $context = array())
+    public function warning($message, array $context = [])
     {
         $this->log(LogLevel::WARNING, $message, $context);
     }
@@ -139,7 +139,7 @@ class LoggerWrapper implements LoggerInterface
      *
      * @return void
      */
-    public function notice($message, array $context = array())
+    public function notice($message, array $context = [])
     {
         $this->log(LogLevel::NOTICE, $message, $context);
     }
@@ -154,7 +154,7 @@ class LoggerWrapper implements LoggerInterface
      *
      * @return void
      */
-    public function info($message, array $context = array())
+    public function info($message, array $context = [])
     {
         $this->log(LogLevel::INFO, $message, $context);
     }
@@ -167,7 +167,7 @@ class LoggerWrapper implements LoggerInterface
      *
      * @return void
      */
-    public function debug($message, array $context = array())
+    public function debug($message, array $context = [])
     {
         $this->log(LogLevel::DEBUG, $message, $context);
     }
@@ -181,7 +181,7 @@ class LoggerWrapper implements LoggerInterface
      *
      * @return void
      */
-    public function log($level, $message, array $context = array())
+    public function log($level, $message, array $context = [])
     {
         if ($this->loggerInstance !== null) {
             $this->loggerInstance->log($level, $message, $context);

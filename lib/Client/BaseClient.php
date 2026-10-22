@@ -23,27 +23,27 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Client;
+namespace Testottest\Client;
 
 use Exception;
 use Psr\Log\LoggerInterface;
-use YooKassa\Common\Exceptions\ApiConnectionException;
-use YooKassa\Common\Exceptions\ApiException;
-use YooKassa\Common\Exceptions\AuthorizeException;
-use YooKassa\Common\Exceptions\BadApiRequestException;
-use YooKassa\Common\Exceptions\ExtensionNotFoundException;
-use YooKassa\Common\Exceptions\ForbiddenException;
-use YooKassa\Common\Exceptions\InternalServerError;
-use YooKassa\Common\Exceptions\JsonException;
-use YooKassa\Common\Exceptions\NotFoundException;
-use YooKassa\Common\Exceptions\ResponseProcessingException;
-use YooKassa\Common\Exceptions\TooManyRequestsException;
-use YooKassa\Common\Exceptions\UnauthorizedException;
-use YooKassa\Common\LoggerWrapper;
-use YooKassa\Common\ResponseObject;
-use YooKassa\Helpers\Config\ConfigurationLoader;
-use YooKassa\Helpers\Config\ConfigurationLoaderInterface;
-use YooKassa\Helpers\SecurityHelper;
+use Testottest\Common\Exceptions\ApiConnectionException;
+use Testottest\Common\Exceptions\ApiException;
+use Testottest\Common\Exceptions\AuthorizeException;
+use Testottest\Common\Exceptions\BadApiRequestException;
+use Testottest\Common\Exceptions\ExtensionNotFoundException;
+use Testottest\Common\Exceptions\ForbiddenException;
+use Testottest\Common\Exceptions\InternalServerError;
+use Testottest\Common\Exceptions\JsonException;
+use Testottest\Common\Exceptions\NotFoundException;
+use Testottest\Common\Exceptions\ResponseProcessingException;
+use Testottest\Common\Exceptions\TooManyRequestsException;
+use Testottest\Common\Exceptions\UnauthorizedException;
+use Testottest\Common\LoggerWrapper;
+use Testottest\Common\ResponseObject;
+use Testottest\Helpers\Config\ConfigurationLoader;
+use Testottest\Helpers\Config\ConfigurationLoaderInterface;
+use Testottest\Helpers\SecurityHelper;
 
 class BaseClient
 {
@@ -318,7 +318,7 @@ class BaseClient
      */
     protected function encodeData($serializedData)
     {
-        if ($serializedData === array()) {
+        if ($serializedData === []) {
             return '{}';
         }
 
@@ -460,7 +460,7 @@ class BaseClient
      * @throws ApiConnectionException
      * @throws ExtensionNotFoundException
      */
-    protected function execute($path, $method, $queryParams, $httpBody = null, $headers = array())
+    protected function execute($path, $method, $queryParams, $httpBody = null, $headers = [])
     {
         $attempts = $this->attempts;
         $response = $this->apiClient->call($path, $method, $queryParams, $httpBody, $headers);

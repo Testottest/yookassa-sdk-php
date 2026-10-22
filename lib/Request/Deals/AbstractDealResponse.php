@@ -24,10 +24,10 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Deals;
+namespace Testottest\Request\Deals;
 
-use YooKassa\Model\DealInterface;
-use YooKassa\Model\SafeDeal;
+use Testottest\Model\DealInterface;
+use Testottest\Model\SafeDeal;
 
 /**
  * Абстрактный класс ответа от API, возвращающего информацию о платеже

@@ -1,13 +1,13 @@
 <?php
 
-namespace YooKassa\Request\Receipts;
+namespace Testottest\Request\Receipts;
 
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Helpers\UUID;
-use YooKassa\Model\Receipt\SettlementType;
-use YooKassa\Model\ReceiptType;
+use Testottest\Helpers\Random;
+use Testottest\Helpers\UUID;
+use Testottest\Model\Receipt\SettlementType;
+use Testottest\Model\ReceiptType;
 
 class ReceiptsResponseTest extends TestCase
 {
@@ -63,7 +63,7 @@ class ReceiptsResponseTest extends TestCase
 
     private function generateReceipts()
     {
-        $return = array();
+        $return = [];
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {
@@ -88,7 +88,7 @@ class ReceiptsResponseTest extends TestCase
 
     private function generateItems()
     {
-        $return = array();
+        $return = [];
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {
@@ -113,7 +113,7 @@ class ReceiptsResponseTest extends TestCase
 
     private function generateSettlements()
     {
-        $return = array();
+        $return = [];
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {

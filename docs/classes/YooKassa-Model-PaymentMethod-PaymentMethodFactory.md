@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Model\PaymentMethod\PaymentMethodFactory
-### Namespace: [\YooKassa\Model\PaymentMethod](../namespaces/yookassa-model-paymentmethod.md)
+# Class: \Testottest\Model\PaymentMethod\PaymentMethodFactory
+### Namespace: [\Testottest\Model\PaymentMethod](../namespaces/yookassa-model-paymentmethod.md)
 ---
 **Summary:**
 
@@ -24,15 +24,15 @@
 * File: [lib/Model/PaymentMethod/PaymentMethodFactory.php](../../lib/Model/PaymentMethod/PaymentMethodFactory.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \YooKassa\Model\PaymentMethod\PaymentMethodFactory
+  * \Testottest\Model\PaymentMethod\PaymentMethodFactory
 
 ---
 ## Methods
 <a name="method_factory" class="anchor"></a>
-#### public factory() : \YooKassa\Model\PaymentMethod\AbstractPaymentMethod
+#### public factory() : \Testottest\Model\PaymentMethod\AbstractPaymentMethod
 
 ```php
-public factory(string $type) : \YooKassa\Model\PaymentMethod\AbstractPaymentMethod
+public factory(string $type) : \Testottest\Model\PaymentMethod\AbstractPaymentMethod
 ```
 
 **Summary**
@@ -40,21 +40,21 @@ public factory(string $type) : \YooKassa\Model\PaymentMethod\AbstractPaymentMeth
 Фабричный метод создания объекта платежных данных по типу
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\PaymentMethodFactory](../classes/YooKassa-Model-PaymentMethod-PaymentMethodFactory.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\PaymentMethodFactory](../classes/YooKassa-Model-PaymentMethod-PaymentMethodFactory.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">string</code> | type  | Тип платежного метода |
 
-**Returns:** \YooKassa\Model\PaymentMethod\AbstractPaymentMethod - 
+**Returns:** \Testottest\Model\PaymentMethod\AbstractPaymentMethod - 
 
 
 <a name="method_factoryFromArray" class="anchor"></a>
-#### public factoryFromArray() : \YooKassa\Model\PaymentMethod\AbstractPaymentMethod
+#### public factoryFromArray() : \Testottest\Model\PaymentMethod\AbstractPaymentMethod
 
 ```php
-public factoryFromArray(array $data, string|null $type = null) : \YooKassa\Model\PaymentMethod\AbstractPaymentMethod
+public factoryFromArray(array $data, string|null $type = null) : \Testottest\Model\PaymentMethod\AbstractPaymentMethod
 ```
 
 **Summary**
@@ -62,7 +62,7 @@ public factoryFromArray(array $data, string|null $type = null) : \YooKassa\Model
 Фабричный метод создания объекта платежных данных из массива
 
 **Details:**
-* Inherited From: [\YooKassa\Model\PaymentMethod\PaymentMethodFactory](../classes/YooKassa-Model-PaymentMethod-PaymentMethodFactory.md)
+* Inherited From: [\Testottest\Model\PaymentMethod\PaymentMethodFactory](../classes/YooKassa-Model-PaymentMethod-PaymentMethodFactory.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -70,7 +70,7 @@ public factoryFromArray(array $data, string|null $type = null) : \YooKassa\Model
 | <code lang="php">array</code> | data  | Массив платежных данных |
 | <code lang="php">string OR null</code> | type  | Тип платежного метода |
 
-**Returns:** \YooKassa\Model\PaymentMethod\AbstractPaymentMethod - 
+**Returns:** \Testottest\Model\PaymentMethod\AbstractPaymentMethod - 
 
 
 

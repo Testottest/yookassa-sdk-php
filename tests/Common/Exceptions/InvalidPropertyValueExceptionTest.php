@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\YooKassa\Common\Exceptions;
+namespace Tests\Testottest\Common\Exceptions;
 
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
 
 class InvalidPropertyValueExceptionTest extends InvalidPropertyExceptionTest
 {

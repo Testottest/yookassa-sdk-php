@@ -24,9 +24,9 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Payout;
+namespace Testottest\Model\Payout;
 
-use YooKassa\Common\AbstractEnum;
+use Testottest\Common\AbstractEnum;
 
 /**
  * PayoutCancellationDetailsReasonCode - Возможные причины отмены выплаты

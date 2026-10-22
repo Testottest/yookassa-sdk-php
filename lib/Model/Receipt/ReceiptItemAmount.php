@@ -23,16 +23,16 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Receipt;
+namespace Testottest\Model\Receipt;
 
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Common\Exceptions\EmptyPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueException;
-use YooKassa\Common\Exceptions\InvalidPropertyValueTypeException;
-use YooKassa\Helpers\TypeCast;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\CurrencyCode;
+use Testottest\Common\AbstractObject;
+use Testottest\Common\Exceptions\EmptyPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueException;
+use Testottest\Common\Exceptions\InvalidPropertyValueTypeException;
+use Testottest\Helpers\TypeCast;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\CurrencyCode;
 
 /**
  * Class ReceiptItemAmount

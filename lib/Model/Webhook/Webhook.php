@@ -24,11 +24,11 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Model\Webhook;
+namespace Testottest\Model\Webhook;
 
 
-use YooKassa\Common\AbstractObject;
-use YooKassa\Model\NotificationEventType;
+use Testottest\Common\AbstractObject;
+use Testottest\Model\NotificationEventType;
 
 /**
  * Класс Webhook содержит информацию о подписке на одно событие

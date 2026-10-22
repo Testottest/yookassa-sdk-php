@@ -24,27 +24,27 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payments;
+namespace Testottest\Request\Payments;
 
 use InvalidArgumentException;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\AuthorizationDetails;
-use YooKassa\Model\CancellationDetails;
-use YooKassa\Model\Confirmation\ConfirmationCodeVerification;
-use YooKassa\Model\Confirmation\ConfirmationEmbedded;
-use YooKassa\Model\Confirmation\ConfirmationMobileApplication;
-use YooKassa\Model\Confirmation\ConfirmationQr;
-use YooKassa\Model\Confirmation\ConfirmationRedirect;
-use YooKassa\Model\Confirmation\ConfirmationExternal;
-use YooKassa\Model\ConfirmationType;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Payment;
-use YooKassa\Model\PaymentInterface;
-use YooKassa\Model\PaymentMethod\AbstractPaymentMethod;
-use YooKassa\Model\PaymentMethod\PaymentMethodFactory;
-use YooKassa\Model\Recipient;
-use YooKassa\Model\Transfer;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\AuthorizationDetails;
+use Testottest\Model\CancellationDetails;
+use Testottest\Model\Confirmation\ConfirmationCodeVerification;
+use Testottest\Model\Confirmation\ConfirmationEmbedded;
+use Testottest\Model\Confirmation\ConfirmationMobileApplication;
+use Testottest\Model\Confirmation\ConfirmationQr;
+use Testottest\Model\Confirmation\ConfirmationRedirect;
+use Testottest\Model\Confirmation\ConfirmationExternal;
+use Testottest\Model\ConfirmationType;
+use Testottest\Model\Metadata;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Payment;
+use Testottest\Model\PaymentInterface;
+use Testottest\Model\PaymentMethod\AbstractPaymentMethod;
+use Testottest\Model\PaymentMethod\PaymentMethodFactory;
+use Testottest\Model\Recipient;
+use Testottest\Model\Transfer;
 
 /**
  * Абстрактный класс ответа от API, возвращающего информацию о платеже
@@ -178,7 +178,7 @@ abstract class AbstractPaymentResponse extends Payment implements PaymentInterfa
             $this->setAuthorizationDetails(new AuthorizationDetails($sourceArray['authorization_details']));
         }
         if (!empty($sourceArray['transfers'])) {
-            $transfers = array();
+            $transfers = [];
             foreach ($sourceArray['transfers'] as $transferDefinition) {
                 $transfers[] = new Transfer($transferDefinition);
             }

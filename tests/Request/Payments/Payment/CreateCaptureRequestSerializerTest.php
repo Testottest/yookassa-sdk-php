@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payments\Payment;
+namespace Tests\Testottest\Request\Payments\Payment;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Receipt\PaymentMode;
-use YooKassa\Model\Receipt\PaymentSubject;
-use YooKassa\Model\Transfer;
-use YooKassa\Request\Payments\Payment\CreateCaptureRequest;
-use YooKassa\Request\Payments\Payment\CreateCaptureRequestSerializer;
+use Testottest\Helpers\Random;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Receipt\PaymentMode;
+use Testottest\Model\Receipt\PaymentSubject;
+use Testottest\Model\Transfer;
+use Testottest\Request\Payments\Payment\CreateCaptureRequest;
+use Testottest\Request\Payments\Payment\CreateCaptureRequestSerializer;
 
 class CreateCaptureRequestSerializerTest extends TestCase
 {
@@ -23,7 +23,7 @@ class CreateCaptureRequestSerializerTest extends TestCase
         $serializer = new CreateCaptureRequestSerializer();
         $data = $serializer->serialize(CreateCaptureRequest::builder()->build($options));
 
-        $expected = array();
+        $expected = [];
         if (isset($options['amount'])) {
             $expected = array(
                 'amount' => $options['amount'],

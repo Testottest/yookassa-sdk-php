@@ -24,14 +24,14 @@
  * THE SOFTWARE.
  */
 
-namespace YooKassa\Request\Payouts;
+namespace Testottest\Request\Payouts;
 
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\DealInterface;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Deal\PayoutDealInfo;
-use YooKassa\Model\Payout\AbstractPayoutDestination;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\DealInterface;
+use Testottest\Model\Metadata;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Deal\PayoutDealInfo;
+use Testottest\Model\Payout\AbstractPayoutDestination;
 
 /**
  * Interface CreatePayoutRequestInterface

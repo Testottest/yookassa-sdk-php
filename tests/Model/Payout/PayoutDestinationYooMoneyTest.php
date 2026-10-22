@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\YooKassa\Model\Payout;
+namespace Tests\Testottest\Model\Payout;
 
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Payout\PayoutDestinationYooMoney;
-use YooKassa\Model\PaymentMethodType;
+use Testottest\Helpers\Random;
+use Testottest\Model\Payout\PayoutDestinationYooMoney;
+use Testottest\Model\PaymentMethodType;
 
 class PayoutDestinationYooMoneyTest extends AbstractPayoutDestinationTest
 {
@@ -37,7 +37,7 @@ class PayoutDestinationYooMoneyTest extends AbstractPayoutDestinationTest
         self::assertNull($instance->account_number);
 
         $instance->setAccountNumber($value);
-        if ($value === null || $value === '' || $value === array()) {
+        if ($value === null || $value === '' || $value === []) {
             self::assertNull($instance->getAccountNumber());
             self::assertNull($instance->accountNumber);
             self::assertNull($instance->account_number);
@@ -50,7 +50,7 @@ class PayoutDestinationYooMoneyTest extends AbstractPayoutDestinationTest
 
         $instance = $this->getTestInstance();
         $instance->account_number = $value;
-        if ($value === null || $value === '' || $value === array()) {
+        if ($value === null || $value === '' || $value === []) {
             self::assertNull($instance->getAccountNumber());
             self::assertNull($instance->accountNumber);
             self::assertNull($instance->account_number);

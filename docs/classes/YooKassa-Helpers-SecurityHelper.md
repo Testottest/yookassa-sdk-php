@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Helpers\SecurityHelper
-### Namespace: [\YooKassa\Helpers](../namespaces/yookassa-helpers.md)
+# Class: \Testottest\Helpers\SecurityHelper
+### Namespace: [\Testottest\Helpers](../namespaces/yookassa-helpers.md)
 ---
 
 ---
@@ -19,7 +19,7 @@
 * File: [lib/Helpers/SecurityHelper.php](../../lib/Helpers/SecurityHelper.php)
 * Package: Default
 * Class Hierarchy:
-  * \YooKassa\Helpers\SecurityHelper
+  * \Testottest\Helpers\SecurityHelper
 
 ---
 ## Methods
@@ -35,7 +35,7 @@ public isIPTrusted($ip) : bool
 Проверяет формат IP адреса и вызывает соответствующие методы для проверки среди IPv4 и IPv6 адресов Юkassa
 
 **Details:**
-* Inherited From: [\YooKassa\Helpers\SecurityHelper](../classes/YooKassa-Helpers-SecurityHelper.md)
+* Inherited From: [\Testottest\Helpers\SecurityHelper](../classes/YooKassa-Helpers-SecurityHelper.md)
 
 ##### Parameters:
 | Type | Name | Description |

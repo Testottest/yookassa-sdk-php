@@ -1,20 +1,20 @@
 <?php
 
-namespace Tests\YooKassa\Model;
+namespace Tests\Testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\Metadata;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\PaymentMethodType;
-use YooKassa\Model\Payout;
-use YooKassa\Model\Payout\PayoutCancellationDetails;
-use YooKassa\Model\Payout\PayoutCancellationDetailsPartyCode;
-use YooKassa\Model\Payout\PayoutCancellationDetailsReasonCode;
-use YooKassa\Model\Deal\PayoutDealInfo;
-use YooKassa\Model\Payout\PayoutDestinationFactory;
-use YooKassa\Model\Payout\PayoutDestinationYooMoney;
-use YooKassa\Model\PayoutStatus;
+use Testottest\Helpers\Random;
+use Testottest\Model\Metadata;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\PaymentMethodType;
+use Testottest\Model\Payout;
+use Testottest\Model\Payout\PayoutCancellationDetails;
+use Testottest\Model\Payout\PayoutCancellationDetailsPartyCode;
+use Testottest\Model\Payout\PayoutCancellationDetailsReasonCode;
+use Testottest\Model\Deal\PayoutDealInfo;
+use Testottest\Model\Payout\PayoutDestinationFactory;
+use Testottest\Model\Payout\PayoutDestinationYooMoney;
+use Testottest\Model\PayoutStatus;
 
 class PayoutTest extends TestCase
 {
@@ -443,7 +443,7 @@ class PayoutTest extends TestCase
 
     public function validDataProvider()
     {
-        $result = array();
+        $result = [];
         $cancellationDetailsParties = PayoutCancellationDetailsPartyCode::getValidValues();
         $countCancellationDetailsParties = count($cancellationDetailsParties);
         $cancellationDetailsReasons = PayoutCancellationDetailsReasonCode::getValidValues();

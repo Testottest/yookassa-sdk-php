@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\YooKassa\Model;
+namespace Tests\Testottest\Model;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\AmountInterface;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Transfer;
-use YooKassa\Model\TransferStatus;
+use Testottest\Helpers\Random;
+use Testottest\Model\AmountInterface;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Transfer;
+use Testottest\Model\TransferStatus;
 
 class TransferTest extends TestCase
 {
@@ -241,7 +241,7 @@ class TransferTest extends TestCase
     }
 
     /**
-     * @return \YooKassa\Model\MonetaryAmount[][]
+     * @return \Testottest\Model\MonetaryAmount[][]
      * @throws \Exception
      */
     public function validAmountDataProvider()

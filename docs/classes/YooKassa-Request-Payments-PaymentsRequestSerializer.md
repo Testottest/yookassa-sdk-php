@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \YooKassa\Request\Payments\PaymentsRequestSerializer
-### Namespace: [\YooKassa\Request\Payments](../namespaces/yookassa-request-payments.md)
+# Class: \Testottest\Request\Payments\PaymentsRequestSerializer
+### Namespace: [\Testottest\Request\Payments](../namespaces/yookassa-request-payments.md)
 ---
 **Summary:**
 
@@ -23,7 +23,7 @@
 * File: [lib/Request/Payments/PaymentsRequestSerializer.php](../../lib/Request/Payments/PaymentsRequestSerializer.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \YooKassa\Request\Payments\PaymentsRequestSerializer
+  * \Testottest\Request\Payments\PaymentsRequestSerializer
 
 ---
 ## Methods
@@ -31,7 +31,7 @@
 #### public serialize() : array
 
 ```php
-public serialize(\YooKassa\Request\Payments\PaymentsRequestInterface $request) : array
+public serialize(\Testottest\Request\Payments\PaymentsRequestInterface $request) : array
 ```
 
 **Summary**
@@ -39,12 +39,12 @@ public serialize(\YooKassa\Request\Payments\PaymentsRequestInterface $request) :
 Сериализует объект запроса к API для дальнейшей его отправки
 
 **Details:**
-* Inherited From: [\YooKassa\Request\Payments\PaymentsRequestSerializer](../classes/YooKassa-Request-Payments-PaymentsRequestSerializer.md)
+* Inherited From: [\Testottest\Request\Payments\PaymentsRequestSerializer](../classes/YooKassa-Request-Payments-PaymentsRequestSerializer.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\YooKassa\Request\Payments\PaymentsRequestInterface</code> | request  | Сериализуемый объект |
+| <code lang="php">\Testottest\Request\Payments\PaymentsRequestInterface</code> | request  | Сериализуемый объект |
 
 **Returns:** array - Массив с информацией, отправляемый в дальнейшем в API
 

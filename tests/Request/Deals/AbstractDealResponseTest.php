@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\YooKassa\Request\Deals;
+namespace Tests\Testottest\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\Deal\DealStatus;
-use YooKassa\Model\Deal\DealType;
-use YooKassa\Model\Deal\FeeMoment;
-use YooKassa\Request\Deals\DealResponse;
+use Testottest\Helpers\Random;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\Deal\DealStatus;
+use Testottest\Model\Deal\DealType;
+use Testottest\Model\Deal\FeeMoment;
+use Testottest\Request\Deals\DealResponse;
 
 abstract class AbstractDealResponseTest extends TestCase
 {
@@ -144,7 +144,7 @@ abstract class AbstractDealResponseTest extends TestCase
 
     public function validDataProvider()
     {
-        $result = array();
+        $result = [];
         $statuses = DealStatus::getValidValues();
         $types = DealType::getValidValues();
 

@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\YooKassa\Request\Payments\Payment;
+namespace Tests\Testottest\Request\Payments\Payment;
 
 use PHPUnit\Framework\TestCase;
-use YooKassa\Helpers\Random;
-use YooKassa\Model\CurrencyCode;
-use YooKassa\Model\MonetaryAmount;
-use YooKassa\Model\Receipt;
-use YooKassa\Model\ReceiptItem;
-use YooKassa\Request\Payments\Payment\CreateCaptureRequest;
-use YooKassa\Request\Payments\Payment\CreateCaptureRequestBuilder;
+use Testottest\Helpers\Random;
+use Testottest\Model\CurrencyCode;
+use Testottest\Model\MonetaryAmount;
+use Testottest\Model\Receipt;
+use Testottest\Model\ReceiptItem;
+use Testottest\Request\Payments\Payment\CreateCaptureRequest;
+use Testottest\Request\Payments\Payment\CreateCaptureRequestBuilder;
 
 class CreateCaptureRequestTest extends TestCase
 {
@@ -121,7 +121,7 @@ class CreateCaptureRequestTest extends TestCase
 
     public function validDataProvider()
     {
-        $result = array();
+        $result = [];
         $currencies = CurrencyCode::getValidValues();
         for ($i = 0; $i < 10; $i++) {
             $request = array(
