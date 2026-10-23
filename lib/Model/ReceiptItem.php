@@ -656,8 +656,8 @@ class ReceiptItem extends AbstractObject implements ReceiptItemInterface
      *
      * @return array
      */
-    public function jsonSerialize()
-    {
+    public function jsonSerialize(): mixed
+	{
         $result = parent::jsonSerialize();
 
         $result['amount'] = $result['price'];

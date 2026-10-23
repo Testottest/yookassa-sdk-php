@@ -191,8 +191,8 @@ class ReceiptCustomer extends AbstractObject implements ReceiptCustomerInterface
     /**
      * @return array
      */
-    public function jsonSerialize()
-    {
+    public function jsonSerialize(): mixed
+	{
         $result = array();
 
         $value = $this->getFullName();
