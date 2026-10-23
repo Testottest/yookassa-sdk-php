@@ -55,7 +55,7 @@ class PaymentsResponse extends AbstractObject
      */
     public function fromArray($sourceArray)
     {
-        $this->items = [];
+        $this->items = array();
         foreach ($sourceArray['items'] as $paymentInfo) {
             $this->items[] = new PaymentResponse($paymentInfo);
         }

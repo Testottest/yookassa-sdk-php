@@ -1,30 +1,30 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \testottest\Request\Deals
+# Namespace: \YooKassa\Request\Deals
 
-## Parent: [\testottest\Request](../namespaces/yookassa-request.md)
+## Parent: [\YooKassa\Request](../namespaces/yookassa-request.md)
 
 ### Interfaces
 
 | Name | Summary |
 | ---- | ------- |
-| [\testottest\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md) | Interface DealInterface |
-| [\testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md) | Interface DealsRequestInterface |
+| [\YooKassa\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md) | Interface DealInterface |
+| [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md) | Interface DealsRequestInterface |
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\testottest\Request\Deals\AbstractDealResponse](../classes/YooKassa-Request-Deals-AbstractDealResponse.md) | Абстрактный класс ответа от API, возвращающего информацию о платеже |
-| [\testottest\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md) | Класс объекта запроса к API на проведение новой сделки |
-| [\testottest\Request\Deals\CreateDealRequestBuilder](../classes/YooKassa-Request-Deals-CreateDealRequestBuilder.md) | Класс билдера объектов запросов к API на создание платежа |
-| [\testottest\Request\Deals\CreateDealRequestSerializer](../classes/YooKassa-Request-Deals-CreateDealRequestSerializer.md) | Класс сериалайзера объекта запроса к API на создание сделки |
-| [\testottest\Request\Deals\CreateDealResponse](../classes/YooKassa-Request-Deals-CreateDealResponse.md) | Класс объекта ответа возвращаемого API при запросе на создание сделки |
-| [\testottest\Request\Deals\DealResponse](../classes/YooKassa-Request-Deals-DealResponse.md) | Класс объекта ответа, возвращаемого API при запросе конкретной сделки |
-| [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md) | Класс объекта запроса к API для получения списка сделок магазина |
-| [\testottest\Request\Deals\DealsRequestBuilder](../classes/YooKassa-Request-Deals-DealsRequestBuilder.md) | Класс билдера запросов к API для получения списка сделок магазина |
-| [\testottest\Request\Deals\DealsRequestSerializer](../classes/YooKassa-Request-Deals-DealsRequestSerializer.md) | Класс сериализатора объектов запросов к API для получения списка платежей |
-| [\testottest\Request\Deals\DealsResponse](../classes/YooKassa-Request-Deals-DealsResponse.md) | Класс объекта ответа от API со списком сделок магазина |
+| [\YooKassa\Request\Deals\AbstractDealResponse](../classes/YooKassa-Request-Deals-AbstractDealResponse.md) | Абстрактный класс ответа от API, возвращающего информацию о платеже |
+| [\YooKassa\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md) | Класс объекта запроса к API на проведение новой сделки |
+| [\YooKassa\Request\Deals\CreateDealRequestBuilder](../classes/YooKassa-Request-Deals-CreateDealRequestBuilder.md) | Класс билдера объектов запросов к API на создание платежа |
+| [\YooKassa\Request\Deals\CreateDealRequestSerializer](../classes/YooKassa-Request-Deals-CreateDealRequestSerializer.md) | Класс сериалайзера объекта запроса к API на создание сделки |
+| [\YooKassa\Request\Deals\CreateDealResponse](../classes/YooKassa-Request-Deals-CreateDealResponse.md) | Класс объекта ответа возвращаемого API при запросе на создание сделки |
+| [\YooKassa\Request\Deals\DealResponse](../classes/YooKassa-Request-Deals-DealResponse.md) | Класс объекта ответа, возвращаемого API при запросе конкретной сделки |
+| [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md) | Класс объекта запроса к API для получения списка сделок магазина |
+| [\YooKassa\Request\Deals\DealsRequestBuilder](../classes/YooKassa-Request-Deals-DealsRequestBuilder.md) | Класс билдера запросов к API для получения списка сделок магазина |
+| [\YooKassa\Request\Deals\DealsRequestSerializer](../classes/YooKassa-Request-Deals-DealsRequestSerializer.md) | Класс сериализатора объектов запросов к API для получения списка платежей |
+| [\YooKassa\Request\Deals\DealsResponse](../classes/YooKassa-Request-Deals-DealsResponse.md) | Класс объекта ответа от API со списком сделок магазина |
 
 ---
 

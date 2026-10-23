@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Deals;
+namespace Tests\YooKassa\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -189,7 +189,7 @@ class CreateDealRequestTest extends TestCase
 
     public function validDataProvider()
     {
-        $result = [];
+        $result = array();
         $metadata = new Metadata();
         $metadata->test = 'test';
         for ($i = 0; $i < 10; $i++) {

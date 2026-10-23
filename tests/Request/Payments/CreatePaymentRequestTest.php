@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Payments;
+namespace Tests\YooKassa\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -647,7 +647,7 @@ class CreatePaymentRequestTest extends TestCase
     {
         $metadata = new Metadata();
         $metadata->test = 'test';
-        $transfers = [];
+        $transfers = array();
         for($i = 0; $i < 10; $i++) {
             $transfers[$i][] = array(
                 'account_id' => (string)Random::int(11111111, 99999999),

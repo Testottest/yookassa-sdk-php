@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Payments;
+namespace Tests\YooKassa\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -260,14 +260,14 @@ abstract class AbstractPaymentResponseTest extends TestCase
             self::assertEmpty($instance->getTransfers());
         } else {
             foreach ($instance->getTransfers() as $transfer) {
-                self::assertInstanceOf('\testottest\Model\Transfer', $transfer);
+                self::assertInstanceOf('\YooKassa\Model\Transfer', $transfer);
             }
         }
     }
 
     public function validDataProvider()
     {
-        $result = [];
+        $result = array();
         $statuses = PaymentStatus::getValidValues();
         $receiptRegistrations = ReceiptRegistrationStatus::getValidValues();
 

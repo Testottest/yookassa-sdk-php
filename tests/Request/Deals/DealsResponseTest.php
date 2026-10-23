@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Deals;
+namespace Tests\YooKassa\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;

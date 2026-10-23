@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Request\Deals\CreateDealRequest
-### Namespace: [\testottest\Request\Deals](../namespaces/yookassa-request-deals.md)
+# Class: \YooKassa\Request\Deals\CreateDealRequest
+### Namespace: [\YooKassa\Request\Deals](../namespaces/yookassa-request-deals.md)
 ---
 **Summary:**
 
@@ -62,11 +62,11 @@
 * File: [lib/Request/Deals/CreateDealRequest.php](../../lib/Request/Deals/CreateDealRequest.php)
 * Package: YooKassa
 * Class Hierarchy:  
-  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
-  * \testottest\Request\Deals\CreateDealRequest
+  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * [\YooKassa\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+  * \YooKassa\Request\Deals\CreateDealRequest
 * Implements:
-  * [\testottest\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
+  * [\YooKassa\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
 
 ---
 ### Tags
@@ -113,13 +113,13 @@
 
 
 <a name="property_metadata"></a>
-#### public $metadata : \testottest\Model\Metadata
+#### public $metadata : \YooKassa\Model\Metadata
 ---
 ***Description***
 
 Метаданные привязанные к сделке
 
-**Type:** <a href="../classes/YooKassa-Model-Metadata.html"><abbr title="\testottest\Model\Metadata">Metadata</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-Metadata.html"><abbr title="\YooKassa\Model\Metadata">Metadata</abbr></a>
 
 **Details:**
 
@@ -143,7 +143,7 @@
 #### public __construct() : mixed
 
 ```php
-public __construct(array $data = []) : mixed
+public __construct(array $data = array()) : mixed
 ```
 
 **Summary**
@@ -151,7 +151,7 @@ public __construct(array $data = []) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -173,7 +173,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -195,7 +195,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -217,7 +217,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -240,7 +240,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -251,10 +251,10 @@ public __unset(string $propertyName) : mixed
 
 
 <a name="method_builder" class="anchor"></a>
-#### public builder() : \testottest\Request\Deals\CreateDealRequestBuilder
+#### public builder() : \YooKassa\Request\Deals\CreateDealRequestBuilder
 
 ```php
-Static public builder() : \testottest\Request\Deals\CreateDealRequestBuilder
+Static public builder() : \YooKassa\Request\Deals\CreateDealRequestBuilder
 ```
 
 **Summary**
@@ -262,9 +262,9 @@ Static public builder() : \testottest\Request\Deals\CreateDealRequestBuilder
 Возвращает билдер объектов запросов создания сделки
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
 
-**Returns:** \testottest\Request\Deals\CreateDealRequestBuilder - Инстанс билдера объектов запросов
+**Returns:** \YooKassa\Request\Deals\CreateDealRequestBuilder - Инстанс билдера объектов запросов
 
 
 <a name="method_clearValidationError" class="anchor"></a>
@@ -279,7 +279,7 @@ public clearValidationError() : mixed
 Очищает статус валидации текущего запроса
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+* Inherited From: [\YooKassa\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
 
 **Returns:** mixed - 
 
@@ -296,7 +296,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -318,7 +318,7 @@ public getDescription() : string
 Возвращает описание сделки
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
 
 **Returns:** string - 
 
@@ -335,7 +335,7 @@ public getFeeMoment() : string
 Возвращает момент перечисления вам вознаграждения платформы
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
 
 **Returns:** string - Момент перечисления вам вознаграждения платформы
 
@@ -352,16 +352,16 @@ public getLastValidationError() : string
 Возвращает последнюю ошибку валидации
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+* Inherited From: [\YooKassa\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
 
 **Returns:** string - Последняя произошедшая ошибка валидации
 
 
 <a name="method_getMetadata" class="anchor"></a>
-#### public getMetadata() : \testottest\Model\Metadata
+#### public getMetadata() : \YooKassa\Model\Metadata
 
 ```php
-public getMetadata() : \testottest\Model\Metadata
+public getMetadata() : \YooKassa\Model\Metadata
 ```
 
 **Summary**
@@ -369,9 +369,9 @@ public getMetadata() : \testottest\Model\Metadata
 Возвращает данные оплаты установленные мерчантом
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
 
-**Returns:** \testottest\Model\Metadata - Метаданные, привязанные к платежу
+**Returns:** \YooKassa\Model\Metadata - Метаданные, привязанные к платежу
 
 
 <a name="method_getType" class="anchor"></a>
@@ -386,7 +386,7 @@ public getType() : string
 Возвращает тип сделки
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
 
 **Returns:** string - Тип сделки
 
@@ -403,7 +403,7 @@ public hasDescription() : bool
 Проверяет наличие описания в создаваемой сделке
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
 
 **Returns:** bool - True если описание сделки есть, false если нет
 
@@ -420,7 +420,7 @@ public hasFeeMoment() : bool
 Проверяет, был ли установлен момент перечисления вознаграждения
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
 
 **Returns:** bool - True если момент перечисления был установлен, false если нет
 
@@ -437,7 +437,7 @@ public hasMetadata() : bool
 Проверяет, были ли установлены метаданные заказа
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
 
 **Returns:** bool - True если метаданные были установлены, false если нет
 
@@ -454,7 +454,7 @@ public hasType() : bool
 Проверяет наличие типа в создаваемой сделке
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
 
 **Returns:** bool - True если тип сделки есть, false если нет
 
@@ -471,7 +471,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -488,7 +488,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -510,7 +510,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -532,7 +532,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -555,7 +555,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -577,7 +577,7 @@ public setDescription(string $value) : mixed
 Устанавливает описание сделки
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -587,8 +587,8 @@ public setDescription(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение превышает допустимую длину |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение превышает допустимую длину |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
 
 **Returns:** mixed - 
 
@@ -605,7 +605,7 @@ public setFeeMoment(string $value) : mixed
 Устанавливает момент перечисления вам вознаграждения платформы
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -615,8 +615,8 @@ public setFeeMoment(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если переданный аргумент не является строкой |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если переданный аргумент не из списка FeeMoment |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если переданный аргумент не является строкой |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если переданный аргумент не из списка FeeMoment |
 
 **Returns:** mixed - 
 
@@ -625,7 +625,7 @@ public setFeeMoment(string $value) : mixed
 #### public setMetadata() : mixed
 
 ```php
-public setMetadata(\testottest\Model\Metadata|array|null $value) : mixed
+public setMetadata(\YooKassa\Model\Metadata|array|null $value) : mixed
 ```
 
 **Summary**
@@ -633,17 +633,17 @@ public setMetadata(\testottest\Model\Metadata|array|null $value) : mixed
 Устанавливает метаданные, привязанные к платежу
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\Metadata OR array OR null</code> | value  | Метаданные платежа, устанавливаемые мерчантом |
+| <code lang="php">\YooKassa\Model\Metadata OR array OR null</code> | value  | Метаданные платежа, устанавливаемые мерчантом |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданные данные не удалось интерпретировать как метаданные платежа |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданные данные не удалось интерпретировать как метаданные платежа |
 
 **Returns:** mixed - 
 
@@ -660,7 +660,7 @@ public setType(string $value) : mixed
 Устанавливает тип сделки
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -670,8 +670,8 @@ public setType(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если переданный аргумент не является строкой |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если переданный аргумент не из списка DealType |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если переданный аргумент не является строкой |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если переданный аргумент не из списка DealType |
 
 **Returns:** mixed - 
 
@@ -689,7 +689,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -706,7 +706,7 @@ public validate() : bool
 Проверяет на валидность текущий объект
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequest](../classes/YooKassa-Request-Deals-CreateDealRequest.md)
 
 **Returns:** bool - True если объект запроса валиден, false если нет
 
@@ -723,7 +723,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 
@@ -740,7 +740,7 @@ protected setValidationError(string $value) : mixed
 Устанавливает ошибку валидации
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+* Inherited From: [\YooKassa\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |

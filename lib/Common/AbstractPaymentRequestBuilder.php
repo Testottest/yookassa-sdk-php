@@ -74,7 +74,7 @@ abstract class AbstractPaymentRequestBuilder extends AbstractRequestBuilder
     {
         $this->amount    = new MonetaryAmount();
         $this->receipt   = new Receipt();
-        $this->transfers = [];
+        $this->transfers = array();
 
         return $this;
     }
@@ -120,7 +120,7 @@ abstract class AbstractPaymentRequestBuilder extends AbstractRequestBuilder
     public function setTransfers($value)
     {
         if (is_array($value)) {
-            $this->transfers = [];
+            $this->transfers = array();
             foreach ($value as $item) {
                 if ($item instanceof TransferInterface) {
                     $this->transfers[] = $item;
@@ -129,7 +129,7 @@ abstract class AbstractPaymentRequestBuilder extends AbstractRequestBuilder
                 }
             }
         } else {
-            $this->transfers = [];
+            $this->transfers = array();
         }
 
         return $this;
@@ -237,10 +237,10 @@ abstract class AbstractPaymentRequestBuilder extends AbstractRequestBuilder
      * @param int $vatCode Ставка НДС
      *
      * @param null|string $paymentSubject значение перечисления PaymentSubject
-     * @see \testottest\Model\Receipt\PaymentSubject::class
+     * @see \YooKassa\Model\Receipt\PaymentSubject::class
      *
      * @param null|string $paymentMode значение перечисления PaymentMode
-     * @see \testottest\Model\Receipt\PaymentMode::class
+     * @see \YooKassa\Model\Receipt\PaymentMode::class
      *
      * @return self Инстанс билдера запросов
      */
@@ -270,10 +270,10 @@ abstract class AbstractPaymentRequestBuilder extends AbstractRequestBuilder
      * @param int $vatCode Ставка НДС
      *
      * @param null|string $paymentSubject значение перечисления PaymentSubject
-     * @see \testottest\Model\Receipt\PaymentSubject::class
+     * @see \YooKassa\Model\Receipt\PaymentSubject::class
      *
      * @param null|string $paymentMode значение перечисления PaymentMode
-     * @see \testottest\Model\Receipt\PaymentMode::class
+     * @see \YooKassa\Model\Receipt\PaymentMode::class
      *
      * @return self Инстанс билдера запросов
      */

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: PayerBankDetailsInterface
-### Namespace: [\testottest\Model\PaymentMethod\B2b\Sberbank](../namespaces/yookassa-model-paymentmethod-b2b-sberbank.md)
+### Namespace: [\YooKassa\Model\PaymentMethod\B2b\Sberbank](../namespaces/yookassa-model-paymentmethod-b2b-sberbank.md)
 ---
 **Summary:**
 
@@ -58,7 +58,7 @@ public getFullName() : string
 Возвращает полное наименование организации
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
 
 **Returns:** string - Полное наименование организации
 
@@ -75,7 +75,7 @@ public getShortName() : string
 Возвращает сокращенное наименование организации
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
 
 **Returns:** string - Сокращенное наименование организации
 
@@ -92,7 +92,7 @@ public getAddress() : string
 Возвращает адрес организации
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
 
 **Returns:** string - Адрес организации
 
@@ -109,7 +109,7 @@ public getInn() : string
 Возвращает ИНН организации
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
 
 **Returns:** string - ИНН организации
 
@@ -126,7 +126,7 @@ public getKpp() : string
 Возвращает КПП организации
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
 
 **Returns:** string - КПП организации
 
@@ -143,7 +143,7 @@ public getBankName() : string
 Возвращает наименование банка организации
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
 
 **Returns:** string - Наименование банка организации
 
@@ -160,7 +160,7 @@ public getBankBranch() : string
 Возвращает отделение банка организации
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
 
 **Returns:** string - Отделение банка организации
 
@@ -177,7 +177,7 @@ public getBankBik() : string
 Возвращает БИК банка организации
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
 
 **Returns:** string - БИК банка организации
 
@@ -194,7 +194,7 @@ public getAccount() : string
 Возвращает номер счета организации
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentMethod\B2b\Sberbank\PayerBankDetailsInterface](../classes/YooKassa-Model-PaymentMethod-B2b-Sberbank-PayerBankDetailsInterface.md)
 
 **Returns:** string - Номер счета организации
 

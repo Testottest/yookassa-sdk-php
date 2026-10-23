@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Receipts;
+namespace Tests\YooKassa\Request\Receipts;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Common\Exceptions\EmptyPropertyValueException;
@@ -401,7 +401,7 @@ class CreatePostReceiptRequestTest extends TestCase
      */
     private function generateSettlements()
     {
-        $return = [];
+        $return = array();
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {

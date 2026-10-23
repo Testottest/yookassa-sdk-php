@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\PaymentData;
+namespace Tests\YooKassa\Model\PaymentData;
 
 use testottest\Model\PaymentData\PaymentDataYooMoney;
 use testottest\Model\PaymentMethodType;

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Tests\testottest\Model;
+namespace Tests\YooKassa\Model;
 
 
 use testottest\Model\Airline;

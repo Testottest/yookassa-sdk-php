@@ -43,7 +43,7 @@ class RefundDealData extends AbstractObject
 {
 
     /** @var SettlementPayoutRefund[] Данные о распределении денег */
-    private $_refund_settlements = [];
+    private $_refund_settlements = array();
 
      /**
      * Возвращает массив оплат, обеспечивающих выдачу товара
@@ -71,7 +71,7 @@ class RefundDealData extends AbstractObject
                 'Invalid refund_settlements value type in deal', 0, 'deal.refund_settlements', $value
             );
         }
-        $this->_refund_settlements = [];
+        $this->_refund_settlements = array();
         foreach ($value as $key => $val) {
             if (is_array($val)) {
                 $this->addRefundSettlement(new SettlementPayoutRefund($val));

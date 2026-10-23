@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: VatDataInterface
-### Namespace: [\testottest\Model\PaymentData\B2b\Sberbank](../namespaces/yookassa-model-paymentdata-b2b-sberbank.md)
+### Namespace: [\YooKassa\Model\PaymentData\B2b\Sberbank](../namespaces/yookassa-model-paymentdata-b2b-sberbank.md)
 ---
 **Summary:**
 
@@ -46,7 +46,7 @@ public getType() : string
 Возвращает способ расчёта НДС
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentData\B2b\Sberbank\VatDataInterface](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatDataInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentData\B2b\Sberbank\VatDataInterface](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatDataInterface.md)
 
 **Returns:** string - Способ расчёта НДС
 
@@ -63,16 +63,16 @@ public getRate() : string
 Возвращает данные об НДС
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentData\B2b\Sberbank\VatDataInterface](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatDataInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentData\B2b\Sberbank\VatDataInterface](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatDataInterface.md)
 
 **Returns:** string - Данные об НДС
 
 
 <a name="method_getAmount" class="anchor"></a>
-#### public getAmount() : \testottest\Model\AmountInterface
+#### public getAmount() : \YooKassa\Model\AmountInterface
 
 ```php
-public getAmount() : \testottest\Model\AmountInterface
+public getAmount() : \YooKassa\Model\AmountInterface
 ```
 
 **Summary**
@@ -80,9 +80,9 @@ public getAmount() : \testottest\Model\AmountInterface
 Возвращает сумму НДС
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentData\B2b\Sberbank\VatDataInterface](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatDataInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentData\B2b\Sberbank\VatDataInterface](../classes/YooKassa-Model-PaymentData-B2b-Sberbank-VatDataInterface.md)
 
-**Returns:** \testottest\Model\AmountInterface - Сумма НДС
+**Returns:** \YooKassa\Model\AmountInterface - Сумма НДС
 
 
 

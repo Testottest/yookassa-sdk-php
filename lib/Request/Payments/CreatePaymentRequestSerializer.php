@@ -85,7 +85,7 @@ class CreatePaymentRequestSerializer
      */
     public function serialize(CreatePaymentRequestInterface $request)
     {
-        $result = [];
+        $result = array();
 
         if ($request->getAmount()->getValue() > 0) {
             $result['amount'] = $this->serializeAmount($request->getAmount());
@@ -127,7 +127,7 @@ class CreatePaymentRequestSerializer
         }
         if ($request->hasAirline()) {
             $airline           = $request->getAirline();
-            $result['airline'] = [];
+            $result['airline'] = array();
 
             $ticketNumber = $airline->getTicketNumber();
             if (!empty($ticketNumber)) {
@@ -189,7 +189,7 @@ class CreatePaymentRequestSerializer
 
     private function serializeReceipt(ReceiptInterface $receipt)
     {
-        $result = [];
+        $result = array();
 
         /** @var ReceiptItem $item */
         foreach ($receipt->getItems() as $item) {
@@ -356,7 +356,7 @@ class CreatePaymentRequestSerializer
      */
     private function serializeTransfers(array $transfers)
     {
-        $result = [];
+        $result = array();
         foreach ($transfers as $transfer) {
             $item = array(
                 'account_id' => $transfer->getAccountId(),

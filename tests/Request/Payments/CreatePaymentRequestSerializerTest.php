@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Payments;
+namespace Tests\YooKassa\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -130,7 +130,7 @@ class CreatePaymentRequestSerializerTest extends TestCase
             }
         }
         if (!empty($options['metadata'])) {
-            $expected['metadata'] = [];
+            $expected['metadata'] = array();
             foreach ($options['metadata'] as $key => $value) {
                 $expected['metadata'][$key] = $value;
             }
@@ -394,7 +394,7 @@ class CreatePaymentRequestSerializerTest extends TestCase
      */
     private function getReceiptItem($count)
     {
-        $result = [];
+        $result = array();
         for ($i = 0; $i < $count; $i++) {
             $result[] = array(
                 'description'     => Random::str(10),

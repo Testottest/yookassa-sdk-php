@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Request\Deals\DealsRequest
-### Namespace: [\testottest\Request\Deals](../namespaces/yookassa-request-deals.md)
+# Class: \YooKassa\Request\Deals\DealsRequest
+### Namespace: [\YooKassa\Request\Deals](../namespaces/yookassa-request-deals.md)
 ---
 **Summary:**
 
@@ -96,11 +96,11 @@
 * File: [lib/Request/Deals/DealsRequest.php](../../lib/Request/Deals/DealsRequest.php)
 * Package: Default
 * Class Hierarchy:  
-  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
-  * \testottest\Request\Deals\DealsRequest
+  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * [\YooKassa\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+  * \YooKassa\Request\Deals\DealsRequest
 * Implements:
-  * [\testottest\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
+  * [\YooKassa\Request\Deals\DealsRequestInterface](../classes/YooKassa-Request-Deals-DealsRequestInterface.md)
 
 ---
 ## Constants
@@ -276,7 +276,7 @@ MIN_LENGTH_DESCRIPTION = 4
 #### public __construct() : mixed
 
 ```php
-public __construct(array $data = []) : mixed
+public __construct(array $data = array()) : mixed
 ```
 
 **Summary**
@@ -284,7 +284,7 @@ public __construct(array $data = []) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -306,7 +306,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -328,7 +328,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -350,7 +350,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -373,7 +373,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -384,10 +384,10 @@ public __unset(string $propertyName) : mixed
 
 
 <a name="method_builder" class="anchor"></a>
-#### public builder() : \testottest\Request\Deals\DealsRequestBuilder
+#### public builder() : \YooKassa\Request\Deals\DealsRequestBuilder
 
 ```php
-Static public builder() : \testottest\Request\Deals\DealsRequestBuilder
+Static public builder() : \YooKassa\Request\Deals\DealsRequestBuilder
 ```
 
 **Summary**
@@ -395,9 +395,9 @@ Static public builder() : \testottest\Request\Deals\DealsRequestBuilder
 Возвращает инстанс билдера объектов запросов списка сделок магазина
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
-**Returns:** \testottest\Request\Deals\DealsRequestBuilder - Билдер объектов запросов списка сделок
+**Returns:** \YooKassa\Request\Deals\DealsRequestBuilder - Билдер объектов запросов списка сделок
 
 
 <a name="method_clearValidationError" class="anchor"></a>
@@ -412,7 +412,7 @@ public clearValidationError() : mixed
 Очищает статус валидации текущего запроса
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+* Inherited From: [\YooKassa\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
 
 **Returns:** mixed - 
 
@@ -429,7 +429,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -451,7 +451,7 @@ public getCreatedAtGt() : \DateTime|null
 Возвращает дату создания от которой будут возвращены платежи или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** \DateTime|null - Время создания, от (не включая)
 
@@ -468,7 +468,7 @@ public getCreatedAtGte() : \DateTime|null
 Возвращает дату создания от которой будут возвращены платежи или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** \DateTime|null - Время создания, от (включительно)
 
@@ -485,7 +485,7 @@ public getCreatedAtLt() : \DateTime|null
 Возвращает дату создания до которой будут возвращены платежи или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** \DateTime|null - Время создания, до (не включая)
 
@@ -502,7 +502,7 @@ public getCreatedAtLte() : \DateTime|null
 Возвращает дату создания до которой будут возвращены платежи или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** \DateTime|null - Время создания, до (включительно)
 
@@ -519,7 +519,7 @@ public getCursor() : string|null
 Страница выдачи результатов, которую необходимо отобразить
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** string|null - 
 
@@ -536,7 +536,7 @@ public getExpiresAtGt() : \DateTime|null
 Возвращает дату автоматического закрытия от которой будут возвращены платежи или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** \DateTime|null - Время автоматического закрытия, от (не включая)
 
@@ -553,7 +553,7 @@ public getExpiresAtGte() : \DateTime|null
 Возвращает дату автоматического закрытия от которой будут возвращены платежи или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** \DateTime|null - Время автоматического закрытия, от (включительно)
 
@@ -570,7 +570,7 @@ public getExpiresAtLt() : \DateTime|null
 Возвращает дату автоматического закрытия до которой будут возвращены платежи или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** \DateTime|null - Время автоматического закрытия, до (не включая)
 
@@ -587,7 +587,7 @@ public getExpiresAtLte() : \DateTime|null
 Возвращает дату автоматического закрытия до которой будут возвращены платежи или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** \DateTime|null - Время автоматического закрытия, до (включительно)
 
@@ -604,7 +604,7 @@ public getFullTextSearch() : string|null
 Возвращает фильтр по описанию выбираемых сделок или null, если он до этого не был установлен
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** string|null - Фильтр по описанию выбираемых сделок
 
@@ -621,7 +621,7 @@ public getLastValidationError() : string
 Возвращает последнюю ошибку валидации
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+* Inherited From: [\YooKassa\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
 
 **Returns:** string - Последняя произошедшая ошибка валидации
 
@@ -638,7 +638,7 @@ public getLimit() : int|null
 Ограничение количества объектов платежа
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** int|null - Ограничение количества объектов платежа
 
@@ -655,7 +655,7 @@ public getStatus() : string|null
 Возвращает статус выбираемых сделок или null, если он до этого не был установлен
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** string|null - Статус выбираемых сделок
 
@@ -672,7 +672,7 @@ public hasCreatedAtGt() : bool
 Проверяет, была ли установлена дата создания от которой выбираются платежи
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -689,7 +689,7 @@ public hasCreatedAtGte() : bool
 Проверяет, была ли установлена дата создания от которой выбираются платежи
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -706,7 +706,7 @@ public hasCreatedAtLt() : bool
 Проверяет, была ли установлена дата создания до которой выбираются платежи
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -723,7 +723,7 @@ public hasCreatedAtLte() : bool
 Проверяет, была ли установлена дата создания до которой выбираются платежи
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -740,7 +740,7 @@ public hasCursor() : bool
 Проверяет, была ли установлена страница выдачи результатов, которую необходимо отобразить
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** bool - True если была установлена, false если нет
 
@@ -757,7 +757,7 @@ public hasExpiresAtGt() : bool
 Проверяет, была ли установлена дата автоматического закрытия от которой выбираются платежи
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -774,7 +774,7 @@ public hasExpiresAtGte() : bool
 Проверяет, была ли установлена дата автоматического закрытия от которой выбираются платежи
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -791,7 +791,7 @@ public hasExpiresAtLt() : bool
 Проверяет, была ли установлена дата автоматического закрытия до которой выбираются платежи
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -808,7 +808,7 @@ public hasExpiresAtLte() : bool
 Проверяет, была ли установлена дата автоматического закрытия до которой выбираются платежи
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -825,7 +825,7 @@ public hasFullTextSearch() : bool
 Проверяет, был ли установлен фильтр по описанию выбираемых сделок
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** bool - True если фильтр по описанию был установлен, false если нет
 
@@ -842,7 +842,7 @@ public hasLimit() : bool
 Проверяет, было ли установлено ограничение количества объектов платежа
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** bool - True если было установлено, false если нет
 
@@ -859,7 +859,7 @@ public hasStatus() : bool
 Проверяет, был ли установлен статус выбираемых сделок
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** bool - True если статус был установлен, false если нет
 
@@ -876,7 +876,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -893,7 +893,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -915,7 +915,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -937,7 +937,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -960,7 +960,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -982,7 +982,7 @@ public setCreatedAtGt(\DateTime|string|int|null $value) : void
 Устанавливает дату создания от которой выбираются платежи
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -992,8 +992,8 @@ public setCreatedAtGt(\DateTime|string|int|null $value) : void
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
 **Returns:** void - 
 
@@ -1010,7 +1010,7 @@ public setCreatedAtGte(\DateTime|string|int|null $value) : void
 Устанавливает дату создания от которой выбираются платежи
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1020,8 +1020,8 @@ public setCreatedAtGte(\DateTime|string|int|null $value) : void
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
 **Returns:** void - 
 
@@ -1038,7 +1038,7 @@ public setCreatedAtLt(\DateTime|string|int|null $value) : void
 Устанавливает дату создания до которой выбираются платежи
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1048,8 +1048,8 @@ public setCreatedAtLt(\DateTime|string|int|null $value) : void
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
 **Returns:** void - 
 
@@ -1066,7 +1066,7 @@ public setCreatedAtLte(\DateTime|string|int|null $value) : void
 Устанавливает дату создания до которой выбираются платежи
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1076,8 +1076,8 @@ public setCreatedAtLte(\DateTime|string|int|null $value) : void
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
 **Returns:** void - 
 
@@ -1094,7 +1094,7 @@ public setCursor(string $value) : void
 Устанавливает страницу выдачи результатов, которую необходимо отобразить
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1104,7 +1104,7 @@ public setCursor(string $value) : void
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
 
 **Returns:** void - 
 
@@ -1121,7 +1121,7 @@ public setExpiresAtGt(\DateTime|string|int|null $value) : void
 Устанавливает дату автоматического закрытия от которой выбираются платежи
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1131,8 +1131,8 @@ public setExpiresAtGt(\DateTime|string|int|null $value) : void
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
 **Returns:** void - 
 
@@ -1149,7 +1149,7 @@ public setExpiresAtGte(\DateTime|string|int|null $value) : void
 Устанавливает дату автоматического закрытия от которой выбираются платежи
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1159,8 +1159,8 @@ public setExpiresAtGte(\DateTime|string|int|null $value) : void
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
 **Returns:** void - 
 
@@ -1177,7 +1177,7 @@ public setExpiresAtLt(\DateTime|string|int|null $value) : void
 Устанавливает дату автоматического закрытия до которой выбираются платежи
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1187,8 +1187,8 @@ public setExpiresAtLt(\DateTime|string|int|null $value) : void
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
 **Returns:** void - 
 
@@ -1205,7 +1205,7 @@ public setExpiresAtLte(\DateTime|string|int|null $value) : void
 Устанавливает дату автоматического закрытия до которой выбираются платежи
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1215,8 +1215,8 @@ public setExpiresAtLte(\DateTime|string|int|null $value) : void
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
 **Returns:** void - 
 
@@ -1233,7 +1233,7 @@ public setFullTextSearch(string $value) : void
 Устанавливает фильтр по описанию выбираемых сделок
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1243,8 +1243,8 @@ public setFullTextSearch(string $value) : void
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение не является валидным |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение не является валидным |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
 
 **Returns:** void - 
 
@@ -1261,7 +1261,7 @@ public setLimit(int|null $value) : void
 Устанавливает ограничение количества объектов платежа
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1271,7 +1271,7 @@ public setLimit(int|null $value) : void
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается, если в метод было передано не целое число |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается, если в метод было передано не целое число |
 
 **Returns:** void - 
 
@@ -1288,7 +1288,7 @@ public setStatus(string $value) : void
 Устанавливает статус выбираемых сделок
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1298,8 +1298,8 @@ public setStatus(string $value) : void
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение не является валидным статусом |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение не является валидным статусом |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
 
 **Returns:** void - 
 
@@ -1317,7 +1317,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -1334,7 +1334,7 @@ public validate() : bool
 Проверяет валидность текущего объекта запроса
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
+* Inherited From: [\YooKassa\Request\Deals\DealsRequest](../classes/YooKassa-Request-Deals-DealsRequest.md)
 
 **Returns:** bool - True если объект валиден, false если нет
 
@@ -1351,7 +1351,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 
@@ -1368,7 +1368,7 @@ protected setValidationError(string $value) : mixed
 Устанавливает ошибку валидации
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+* Inherited From: [\YooKassa\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |

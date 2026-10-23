@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\Deal;
+namespace Tests\YooKassa\Model\Deal;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -164,7 +164,7 @@ class DealBalanceAmountTest extends TestCase
 
     public function validArrayDataProvider()
     {
-        $result = [];
+        $result = array();
         foreach (range(1, 10) as $i) {
             $result[$i][] = array(
                 'value' => Random::value(array('-', '')).Random::float(0, 9999.99),
@@ -197,7 +197,7 @@ class DealBalanceAmountTest extends TestCase
 
     public function validCurrencyDataProvider()
     {
-        $result = [];
+        $result = array();
         foreach (CurrencyCode::getValidValues() as $value) {
             $result[] = array($value);
             $result[] = array(strtolower($value[0]) . $value[1] . $value[2]);

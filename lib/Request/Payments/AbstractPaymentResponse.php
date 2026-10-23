@@ -178,7 +178,7 @@ abstract class AbstractPaymentResponse extends Payment implements PaymentInterfa
             $this->setAuthorizationDetails(new AuthorizationDetails($sourceArray['authorization_details']));
         }
         if (!empty($sourceArray['transfers'])) {
-            $transfers = [];
+            $transfers = array();
             foreach ($sourceArray['transfers'] as $transferDefinition) {
                 $transfers[] = new Transfer($transferDefinition);
             }

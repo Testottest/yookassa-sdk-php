@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: RefundsRequestInterface
-### Namespace: [\testottest\Request\Refunds](../namespaces/yookassa-request-refunds.md)
+### Namespace: [\YooKassa\Request\Refunds](../namespaces/yookassa-request-refunds.md)
 ---
 **Summary:**
 
@@ -62,7 +62,7 @@ public getPaymentId() : string|null
 Возвращает идентификатор платежа если он задан или null
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
 
 **Returns:** string|null - Идентификатор платежа
 
@@ -79,7 +79,7 @@ public hasPaymentId() : bool
 Проверяет, был ли задан идентификатор платежа
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
 
 **Returns:** bool - True если идентификатор был задан, false если нет
 
@@ -96,7 +96,7 @@ public getCreatedAtGte() : \DateTime|null
 Возвращает дату создания от которой будут возвращены возвраты или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
 
 **Returns:** \DateTime|null - Время создания, от (включительно)
 
@@ -113,7 +113,7 @@ public hasCreatedAtGte() : bool
 Проверяет, была ли установлена дата создания от которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -130,7 +130,7 @@ public getCreatedAtGt() : \DateTime|null
 Возвращает дату создания от которой будут возвращены возвраты или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
 
 **Returns:** \DateTime|null - Время создания, от (не включая)
 
@@ -147,7 +147,7 @@ public hasCreatedAtGt() : bool
 Проверяет, была ли установлена дата создания от которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -164,7 +164,7 @@ public getCreatedAtLte() : \DateTime|null
 Возвращает дату создания до которой будут возвращены возвраты или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
 
 **Returns:** \DateTime|null - Время создания, до (включительно)
 
@@ -181,7 +181,7 @@ public hasCreatedAtLte() : bool
 Проверяет, была ли установлена дата создания до которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -198,7 +198,7 @@ public getCreatedAtLt() : \DateTime|null
 Возвращает дату создания до которой будут возвращены возвраты или null, если дата не была установлена
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
 
 **Returns:** \DateTime|null - Время создания, до (не включая)
 
@@ -215,7 +215,7 @@ public hasCreatedAtLt() : bool
 Проверяет, была ли установлена дата создания до которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
 
 **Returns:** bool - True если дата была установлена, false если нет
 
@@ -232,7 +232,7 @@ public getStatus() : string|null
 Возвращает статус выбираемых возвратов или null, если он до этого не был установлен
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
 
 **Returns:** string|null - Статус выбираемых возвратов
 
@@ -249,7 +249,7 @@ public hasStatus() : bool
 Проверяет, был ли установлен статус выбираемых возвратов
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
 
 **Returns:** bool - True если статус был установлен, false если нет
 
@@ -266,7 +266,7 @@ public getCursor() : string|null
 Возвращает токен для получения следующей страницы выборки
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
 
 **Returns:** string|null - Токен для получения следующей страницы выборки
 
@@ -283,7 +283,7 @@ public hasCursor() : bool
 Проверяет, был ли установлен токен следующей страницы
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestInterface](../classes/YooKassa-Request-Refunds-RefundsRequestInterface.md)
 
 **Returns:** bool - True если токен был установлен, false если нет
 

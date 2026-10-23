@@ -22,7 +22,7 @@
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \testottest\Client();
+$client = new \YooKassa\Client();
 // shopId + секретный ключ
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 // или OAuth-токен
@@ -42,7 +42,7 @@ $client->setAuthToken('token_XXXXXXX');
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \testottest\Client();
+$client = new \YooKassa\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 $userAgent = $client->getApiClient()->getUserAgent();
 $userAgent->setFramework('Symfony', '5.2.1');
@@ -59,7 +59,7 @@ $userAgent->setModule('YooKassa', '1.0.0');
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \testottest\Client();
+$client = new \YooKassa\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 try {
@@ -99,13 +99,13 @@ array(5) {
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \testottest\Client();
+$client = new \YooKassa\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 $webHookUrl = 'https://merchant-site.ru/payment-notification';
 $needWebHookList = array(
-    \testottest\Model\NotificationEventType::PAYMENT_SUCCEEDED,
-    \testottest\Model\NotificationEventType::PAYMENT_CANCELED,
+    \YooKassa\Model\NotificationEventType::PAYMENT_SUCCEEDED,
+    \YooKassa\Model\NotificationEventType::PAYMENT_CANCELED,
 );
 
 try {
@@ -177,39 +177,39 @@ try {
     $source = file_get_contents('php://input');
     $data = json_decode($source, true);
 
-    $factory = new \testottest\Model\Notification\NotificationFactory();
+    $factory = new \YooKassa\Model\Notification\NotificationFactory();
     $notificationObject = $factory->factory($data);
     $responseObject = $notificationObject->getObject();
     
-    $client = new \testottest\Client();
+    $client = new \YooKassa\Client();
 
     if (!$client->isNotificationIPTrusted($_SERVER['REMOTE_ADDR'])) {
         header('HTTP/1.1 400 Something went wrong');
         exit();
     }
 
-    if ($notificationObject->getEvent() === \testottest\Model\NotificationEventType::PAYMENT_SUCCEEDED) {
+    if ($notificationObject->getEvent() === \YooKassa\Model\NotificationEventType::PAYMENT_SUCCEEDED) {
         $someData = array(
             'paymentId' => $responseObject->getId(),
             'paymentStatus' => $responseObject->getStatus(),
         );
         // Специфичная логика
         // ...
-    } elseif ($notificationObject->getEvent() === \testottest\Model\NotificationEventType::PAYMENT_WAITING_FOR_CAPTURE) {
+    } elseif ($notificationObject->getEvent() === \YooKassa\Model\NotificationEventType::PAYMENT_WAITING_FOR_CAPTURE) {
         $someData = array(
             'paymentId' => $responseObject->getId(),
             'paymentStatus' => $responseObject->getStatus(),
         );
         // Специфичная логика
         // ...
-    } elseif ($notificationObject->getEvent() === \testottest\Model\NotificationEventType::PAYMENT_CANCELED) {
+    } elseif ($notificationObject->getEvent() === \YooKassa\Model\NotificationEventType::PAYMENT_CANCELED) {
         $someData = array(
             'paymentId' => $responseObject->getId(),
             'paymentStatus' => $responseObject->getStatus(),
         );
         // Специфичная логика
         // ...
-    } elseif ($notificationObject->getEvent() === \testottest\Model\NotificationEventType::REFUND_SUCCEEDED) {
+    } elseif ($notificationObject->getEvent() === \YooKassa\Model\NotificationEventType::REFUND_SUCCEEDED) {
         $someData = array(
             'refundId' => $responseObject->getId(),
             'refundStatus' => $responseObject->getStatus(),

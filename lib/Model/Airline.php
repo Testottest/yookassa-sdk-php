@@ -143,7 +143,7 @@ class Airline extends AbstractObject implements AirlineInterface
                 'Invalid passengers value type in airline', 0, 'airline.passengers', $value
             );
         }
-        $this->_passengers = [];
+        $this->_passengers = array();
         foreach ($value as $key => $val) {
             try {
                 $this->addPassenger($val);
@@ -196,7 +196,7 @@ class Airline extends AbstractObject implements AirlineInterface
                 'Invalid legs value type in airline', 0, 'airline.legs', $value
             );
         }
-        $this->_legs = [];
+        $this->_legs = array();
         foreach ($value as $key => $val) {
             try {
                 $this->addLeg($val);

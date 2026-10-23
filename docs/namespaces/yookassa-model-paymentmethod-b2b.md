@@ -1,12 +1,12 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \testottest\Model\PaymentMethod\B2b
+# Namespace: \YooKassa\Model\PaymentMethod\B2b
 
-## Parent: [\testottest\Model\PaymentMethod](../namespaces/yookassa-model-paymentmethod.md)
+## Parent: [\YooKassa\Model\PaymentMethod](../namespaces/yookassa-model-paymentmethod.md)
 
 ### Namespaces
 
-* [\testottest\Model\PaymentMethod\B2b\Sberbank](../namespaces/yookassa-model-paymentmethod-b2b-sberbank.md)
+* [\YooKassa\Model\PaymentMethod\B2b\Sberbank](../namespaces/yookassa-model-paymentmethod-b2b-sberbank.md)
 
 ---
 

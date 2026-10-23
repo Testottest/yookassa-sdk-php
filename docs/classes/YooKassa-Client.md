@@ -1,6 +1,6 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Client
+# Class: \YooKassa\Client
 ### Namespace: [\YooKassa](../namespaces/yookassa.md)
 ---
 **Summary:**
@@ -15,7 +15,7 @@
 ```php
 require_once '../vendor/autoload.php';
 
-$client = new \testottest\Client();
+$client = new \YooKassa\Client();
 // по логин/паролю
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 // или по oauth токену
@@ -98,8 +98,8 @@ $client->setAuthToken('token_XXXXXXX');
 * File: [lib/Client.php](../../lib/Client.php)
 * Package: YooKassa
 * Class Hierarchy: 
-  * [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
-  * \testottest\Client
+  * [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+  * \YooKassa\Client
 
 ---
 ### Tags
@@ -111,7 +111,7 @@ $client->setAuthToken('token_XXXXXXX');
 ## Constants
 <a name="constant_ME_PATH" class="anchor"></a>
 ###### ME_PATH
-Inherited from [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+Inherited from [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 Точка входа для запроса к API по магазину
 
@@ -122,7 +122,7 @@ ME_PATH = '/me'
 
 <a name="constant_PAYMENTS_PATH" class="anchor"></a>
 ###### PAYMENTS_PATH
-Inherited from [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+Inherited from [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 Точка входа для запросов к API по платежам
 
@@ -133,7 +133,7 @@ PAYMENTS_PATH = '/payments'
 
 <a name="constant_REFUNDS_PATH" class="anchor"></a>
 ###### REFUNDS_PATH
-Inherited from [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+Inherited from [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 Точка входа для запросов к API по возвратам
 
@@ -144,7 +144,7 @@ REFUNDS_PATH = '/refunds'
 
 <a name="constant_WEBHOOKS_PATH" class="anchor"></a>
 ###### WEBHOOKS_PATH
-Inherited from [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+Inherited from [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 Точка входа для запросов к API по вебхукам
 
@@ -155,7 +155,7 @@ WEBHOOKS_PATH = '/webhooks'
 
 <a name="constant_RECEIPTS_PATH" class="anchor"></a>
 ###### RECEIPTS_PATH
-Inherited from [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+Inherited from [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 Точка входа для запросов к API по чекам
 
@@ -166,7 +166,7 @@ RECEIPTS_PATH = '/receipts'
 
 <a name="constant_DEALS_PATH" class="anchor"></a>
 ###### DEALS_PATH
-Inherited from [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+Inherited from [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 Точка входа для запросов к API по сделкам
 
@@ -177,7 +177,7 @@ DEALS_PATH = '/deals'
 
 <a name="constant_PAYOUTS_PATH" class="anchor"></a>
 ###### PAYOUTS_PATH
-Inherited from [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+Inherited from [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 Точка входа для запросов к API по выплатам
 
@@ -188,7 +188,7 @@ PAYOUTS_PATH = '/payouts'
 
 <a name="constant_IDEMPOTENCY_KEY_HEADER" class="anchor"></a>
 ###### IDEMPOTENCY_KEY_HEADER
-Inherited from [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+Inherited from [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 Имя HTTP заголовка, используемого для передачи idempotence key
 
@@ -199,7 +199,7 @@ IDEMPOTENCY_KEY_HEADER = 'Idempotence-Key'
 
 <a name="constant_DEFAULT_DELAY" class="anchor"></a>
 ###### DEFAULT_DELAY
-Inherited from [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+Inherited from [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 Значение по умолчанию времени ожидания между запросами при отправке повторного запроса в случае получения ответа с HTTP статусом 202
 
@@ -210,7 +210,7 @@ DEFAULT_DELAY = 1800
 
 <a name="constant_DEFAULT_TRIES_COUNT" class="anchor"></a>
 ###### DEFAULT_TRIES_COUNT
-Inherited from [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+Inherited from [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 Значение по умолчанию количества попыток получения информации от API если пришёл ответ с HTTP статусом 202
 
@@ -221,7 +221,7 @@ DEFAULT_TRIES_COUNT = 3
 
 <a name="constant_DEFAULT_ATTEMPTS_COUNT" class="anchor"></a>
 ###### DEFAULT_ATTEMPTS_COUNT
-Inherited from [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+Inherited from [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 Значение по умолчанию количества попыток получения информации от API если пришёл ответ с HTTP статусом 202
 
@@ -243,16 +243,16 @@ SDK_VERSION = '2.3.0'
 ---
 ## Properties
 <a name="property_apiClient"></a>
-#### protected $apiClient : null|\testottest\Client\ApiClientInterface
+#### protected $apiClient : null|\YooKassa\Client\ApiClientInterface
 ---
 **Summary**
 
 CURL клиент
 
-**Type:** <a href="../null|\testottest\Client\ApiClientInterface"><abbr title="null|\testottest\Client\ApiClientInterface">ApiClientInterface</abbr></a>
+**Type:** <a href="../null|\YooKassa\Client\ApiClientInterface"><abbr title="null|\YooKassa\Client\ApiClientInterface">ApiClientInterface</abbr></a>
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 
 <a name="property_attempts"></a>
@@ -269,7 +269,7 @@ CURL клиент
 **Type:** <a href="../int"><abbr title="int">int</abbr></a>
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 
 <a name="property_config"></a>
@@ -282,7 +282,7 @@ CURL клиент
 **Type:** <a href="../array"><abbr title="array">array</abbr></a>
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 
 <a name="property_logger"></a>
@@ -295,7 +295,7 @@ CURL клиент
 **Type:** <a href="../\Psr\Log\LoggerInterface|null"><abbr title="\Psr\Log\LoggerInterface|null">LoggerInterface|null</abbr></a>
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 
 <a name="property_login"></a>
@@ -308,7 +308,7 @@ shopId магазина
 **Type:** <a href="../string|int"><abbr title="string|int">string|int</abbr></a>
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 
 <a name="property_password"></a>
@@ -321,7 +321,7 @@ shopId магазина
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 
 <a name="property_timeout"></a>
@@ -338,7 +338,7 @@ shopId магазина
 **Type:** <a href="../int"><abbr title="int">int</abbr></a>
 Значение в миллисекундах
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 
 
@@ -348,7 +348,7 @@ shopId магазина
 #### public __construct() : mixed
 
 ```php
-public __construct(\testottest\Client\ApiClientInterface|null $apiClient = null, \testottest\Helpers\Config\ConfigurationLoaderInterface|null $configLoader = null) : mixed
+public __construct(\YooKassa\Client\ApiClientInterface|null $apiClient = null, \YooKassa\Helpers\Config\ConfigurationLoaderInterface|null $configLoader = null) : mixed
 ```
 
 **Summary**
@@ -356,22 +356,22 @@ public __construct(\testottest\Client\ApiClientInterface|null $apiClient = null,
 Constructor
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Client\ApiClientInterface OR null</code> | apiClient  |  |
-| <code lang="php">\testottest\Helpers\Config\ConfigurationLoaderInterface OR null</code> | configLoader  |  |
+| <code lang="php">\YooKassa\Client\ApiClientInterface OR null</code> | apiClient  |  |
+| <code lang="php">\YooKassa\Helpers\Config\ConfigurationLoaderInterface OR null</code> | configLoader  |  |
 
 **Returns:** mixed - 
 
 
 <a name="method_addWebhook" class="anchor"></a>
-#### public addWebhook() : \testottest\Model\Webhook\Webhook|null
+#### public addWebhook() : \YooKassa\Model\Webhook\Webhook|null
 
 ```php
-public addWebhook(\testottest\Model\Webhook\Webhook|array $request, string|null $idempotencyKey = null) : \testottest\Model\Webhook\Webhook|null
+public addWebhook(\YooKassa\Model\Webhook\Webhook|array $request, string|null $idempotencyKey = null) : \YooKassa\Model\Webhook\Webhook|null
 ```
 
 **Summary**
@@ -383,29 +383,29 @@ public addWebhook(\testottest\Model\Webhook\Webhook|array $request, string|null 
 Запрос позволяет подписаться на уведомления о событии (например, на переход платежа в статус successed).
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\Webhook\Webhook OR array</code> | request  |  |
+| <code lang="php">\YooKassa\Model\Webhook\Webhook OR array</code> | request  |  |
 | <code lang="php">string OR null</code> | idempotencyKey  | [Ключ идемпотентности](https://yookassa.ru/developers/using-api/basics?lang=php#idempotence) |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
 | \Exception |  |
 
-**Returns:** \testottest\Model\Webhook\Webhook|null - 
+**Returns:** \YooKassa\Model\Webhook\Webhook|null - 
 ##### Examples:
 Создание Webhook:
 
@@ -415,8 +415,8 @@ public addWebhook(\testottest\Model\Webhook\Webhook|array $request, string|null 
 try {
     $webHookUrl = 'https://merchant-site.ru/payment-notification';
     $needWebHookList = array(
-        \testottest\Model\NotificationEventType::PAYMENT_SUCCEEDED,
-        \testottest\Model\NotificationEventType::PAYMENT_CANCELED
+        \YooKassa\Model\NotificationEventType::PAYMENT_SUCCEEDED,
+        \YooKassa\Model\NotificationEventType::PAYMENT_CANCELED
     );
     $currentWebHookList = $client->getWebhooks()->getItems();
     foreach ($needWebHookList as $event) {
@@ -447,10 +447,10 @@ var_dump($response);
 
 
 <a name="method_cancelPayment" class="anchor"></a>
-#### public cancelPayment() : \testottest\Request\Payments\Payment\CancelResponse|null
+#### public cancelPayment() : \YooKassa\Request\Payments\Payment\CancelResponse|null
 
 ```php
-public cancelPayment(string $paymentId, string|null $idempotencyKey = null) : \testottest\Request\Payments\Payment\CancelResponse|null
+public cancelPayment(string $paymentId, string|null $idempotencyKey = null) : \YooKassa\Request\Payments\Payment\CancelResponse|null
 ```
 
 **Summary**
@@ -465,7 +465,7 @@ public cancelPayment(string $paymentId, string|null $idempotencyKey = null) : \t
 Для остальных способов оплаты возврат может занимать до нескольких дней.
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -476,18 +476,18 @@ public cancelPayment(string $paymentId, string|null $idempotencyKey = null) : \t
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
 | \Exception |  |
 
-**Returns:** \testottest\Request\Payments\Payment\CancelResponse|null - 
+**Returns:** \YooKassa\Request\Payments\Payment\CancelResponse|null - 
 ##### Examples:
 Отменить незавершенную оплату заказа:
 
@@ -506,10 +506,10 @@ var_dump($response);
 
 
 <a name="method_capturePayment" class="anchor"></a>
-#### public capturePayment() : \testottest\Request\Payments\Payment\CreateCaptureResponse|null
+#### public capturePayment() : \YooKassa\Request\Payments\Payment\CreateCaptureResponse|null
 
 ```php
-public capturePayment(\testottest\Request\Payments\Payment\CreateCaptureRequestInterface|array $captureRequest, string $paymentId, string|null $idempotencyKey = null) : \testottest\Request\Payments\Payment\CreateCaptureResponse|null
+public capturePayment(\YooKassa\Request\Payments\Payment\CreateCaptureRequestInterface|array $captureRequest, string $paymentId, string|null $idempotencyKey = null) : \YooKassa\Request\Payments\Payment\CreateCaptureResponse|null
 ```
 
 **Summary**
@@ -527,30 +527,30 @@ public capturePayment(\testottest\Request\Payments\Payment\CreateCaptureRequestI
 в течение 6 часов.
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Request\Payments\Payment\CreateCaptureRequestInterface OR array</code> | captureRequest  |  |
+| <code lang="php">\YooKassa\Request\Payments\Payment\CreateCaptureRequestInterface OR array</code> | captureRequest  |  |
 | <code lang="php">string</code> | paymentId  | Идентификатор платежа |
 | <code lang="php">string OR null</code> | idempotencyKey  | [Ключ идемпотентности](https://yookassa.ru/developers/using-api/basics?lang=php#idempotence) |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
 | \Exception |  |
 
-**Returns:** \testottest\Request\Payments\Payment\CreateCaptureResponse|null - 
+**Returns:** \YooKassa\Request\Payments\Payment\CreateCaptureResponse|null - 
 ##### Examples:
 Подтверждение платежа:
 
@@ -594,10 +594,10 @@ var_dump($response);
 
 
 <a name="method_createDeal" class="anchor"></a>
-#### public createDeal() : \testottest\Request\Deals\CreateDealResponse|null
+#### public createDeal() : \YooKassa\Request\Deals\CreateDealResponse|null
 
 ```php
-public createDeal(\testottest\Request\Deals\CreateDealRequestInterface|array $deal, string|null $idempotenceKey = null) : \testottest\Request\Deals\CreateDealResponse|null
+public createDeal(\YooKassa\Request\Deals\CreateDealRequestInterface|array $deal, string|null $idempotenceKey = null) : \YooKassa\Request\Deals\CreateDealResponse|null
 ```
 
 **Summary**
@@ -621,28 +621,28 @@ public createDeal(\testottest\Request\Deals\CreateDealRequestInterface|array $de
 </ul>
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Request\Deals\CreateDealRequestInterface OR array</code> | deal  |  |
+| <code lang="php">\YooKassa\Request\Deals\CreateDealRequestInterface OR array</code> | deal  |  |
 | <code lang="php">string OR null</code> | idempotenceKey  | [Ключ идемпотентности](https://yookassa.ru/developers/using-api/basics?lang=php#idempotence) |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
 
-**Returns:** \testottest\Request\Deals\CreateDealResponse|null - 
+**Returns:** \YooKassa\Request\Deals\CreateDealResponse|null - 
 ##### Examples:
 Запрос на создание сделки:
 
@@ -650,8 +650,8 @@ public createDeal(\testottest\Request\Deals\CreateDealRequestInterface|array $de
 try {
     $response = $client->createDeal(
         array(
-            'type' => \testottest\Model\Deal\DealType::SAFE_DEAL,
-            'fee_moment' => \testottest\Model\Deal\FeeMoment::PAYMENT_SUCCEEDED,
+            'type' => \YooKassa\Model\Deal\DealType::SAFE_DEAL,
+            'fee_moment' => \YooKassa\Model\Deal\FeeMoment::PAYMENT_SUCCEEDED,
             'metadata' => array(
                 'order_id' => '37',
             ),
@@ -670,10 +670,10 @@ var_dump($response);
 
 
 <a name="method_createPayment" class="anchor"></a>
-#### public createPayment() : \testottest\Request\Payments\CreatePaymentResponse|null
+#### public createPayment() : \YooKassa\Request\Payments\CreatePaymentResponse|null
 
 ```php
-public createPayment(\testottest\Request\Payments\CreatePaymentRequestInterface|array $payment, string|null $idempotenceKey = null) : \testottest\Request\Payments\CreatePaymentResponse|null
+public createPayment(\YooKassa\Request\Payments\CreatePaymentRequestInterface|array $payment, string|null $idempotenceKey = null) : \YooKassa\Request\Payments\CreatePaymentResponse|null
 ```
 
 **Summary**
@@ -703,28 +703,28 @@ public createPayment(\testottest\Request\Payments\CreatePaymentRequestInterface|
 </ul>
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Request\Payments\CreatePaymentRequestInterface OR array</code> | payment  |  |
+| <code lang="php">\YooKassa\Request\Payments\CreatePaymentRequestInterface OR array</code> | payment  |  |
 | <code lang="php">string OR null</code> | idempotenceKey  | [Ключ идемпотентности](https://yookassa.ru/developers/using-api/basics?lang=php#idempotence) |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
 
-**Returns:** \testottest\Request\Payments\CreatePaymentResponse|null - 
+**Returns:** \YooKassa\Request\Payments\CreatePaymentResponse|null - 
 ##### Examples:
 Запрос на создание платежа:
 
@@ -762,10 +762,10 @@ var_dump($response);
 
 
 <a name="method_createPayout" class="anchor"></a>
-#### public createPayout() : \testottest\Request\Payouts\CreatePayoutResponse|null
+#### public createPayout() : \YooKassa\Request\Payouts\CreatePayoutResponse|null
 
 ```php
-public createPayout(\testottest\Request\Payouts\CreatePayoutRequestInterface|array $payout, string|null $idempotenceKey = null) : \testottest\Request\Payouts\CreatePayoutResponse|null
+public createPayout(\YooKassa\Request\Payouts\CreatePayoutRequestInterface|array $payout, string|null $idempotenceKey = null) : \YooKassa\Request\Payouts\CreatePayoutResponse|null
 ```
 
 **Summary**
@@ -796,28 +796,28 @@ public createPayout(\testottest\Request\Payouts\CreatePayoutRequestInterface|arr
 </ul>
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Request\Payouts\CreatePayoutRequestInterface OR array</code> | payout  |  |
+| <code lang="php">\YooKassa\Request\Payouts\CreatePayoutRequestInterface OR array</code> | payout  |  |
 | <code lang="php">string OR null</code> | idempotenceKey  | [Ключ идемпотентности](https://yookassa.ru/developers/using-api/basics?lang=php#idempotence) |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
 
-**Returns:** \testottest\Request\Payouts\CreatePayoutResponse|null - 
+**Returns:** \YooKassa\Request\Payouts\CreatePayoutResponse|null - 
 ##### Examples:
 Запрос на создание выплаты:
 
@@ -828,7 +828,7 @@ $request = array(
         'currency' => 'RUB',
     ),
     'payout_destination_data' => array(
-        'type' => \testottest\Model\PaymentMethodType::YOO_MONEY,
+        'type' => \YooKassa\Model\PaymentMethodType::YOO_MONEY,
         'accountNumber' => '4100116075156746',
     ),
     'description' => 'Выплата по заказу №37',
@@ -854,10 +854,10 @@ var_dump($result);
 
 
 <a name="method_createReceipt" class="anchor"></a>
-#### public createReceipt() : \testottest\Request\Receipts\AbstractReceiptResponse|null
+#### public createReceipt() : \YooKassa\Request\Receipts\AbstractReceiptResponse|null
 
 ```php
-public createReceipt(\testottest\Request\Receipts\CreatePostReceiptRequestInterface|array $receipt, string|null $idempotenceKey = null) : \testottest\Request\Receipts\AbstractReceiptResponse|null
+public createReceipt(\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface|array $receipt, string|null $idempotenceKey = null) : \YooKassa\Request\Receipts\AbstractReceiptResponse|null
 ```
 
 **Summary**
@@ -870,30 +870,30 @@ public createReceipt(\testottest\Request\Receipts\CreatePostReceiptRequestInterf
 платежа или возврата.
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Request\Receipts\CreatePostReceiptRequestInterface OR array</code> | receipt  |  |
+| <code lang="php">\YooKassa\Request\Receipts\CreatePostReceiptRequestInterface OR array</code> | receipt  |  |
 | <code lang="php">string OR null</code> | idempotenceKey  | [Ключ идемпотентности](https://yookassa.ru/developers/using-api/basics?lang=php#idempotence) |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
-| \testottest\Common\Exceptions\AuthorizeException | Ошибка авторизации. Не установлен заголовок. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\AuthorizeException | Ошибка авторизации. Не установлен заголовок. |
 | \Exception |  |
 
-**Returns:** \testottest\Request\Receipts\AbstractReceiptResponse|null - 
+**Returns:** \YooKassa\Request\Receipts\AbstractReceiptResponse|null - 
 ##### Examples:
 Запрос на создание чека:
 
@@ -937,10 +937,10 @@ var_dump($response);
 
 
 <a name="method_createRefund" class="anchor"></a>
-#### public createRefund() : \testottest\Request\Refunds\CreateRefundResponse|null
+#### public createRefund() : \YooKassa\Request\Refunds\CreateRefundResponse|null
 
 ```php
-public createRefund(\testottest\Request\Refunds\CreateRefundRequestInterface|array $request, string|null $idempotencyKey = null) : \testottest\Request\Refunds\CreateRefundResponse|null
+public createRefund(\YooKassa\Request\Refunds\CreateRefundRequestInterface|array $request, string|null $idempotencyKey = null) : \YooKassa\Request\Refunds\CreateRefundResponse|null
 ```
 
 **Summary**
@@ -954,29 +954,29 @@ public createRefund(\testottest\Request\Refunds\CreateRefundRequestInterface|arr
 возврата нет. Комиссия, которую ЮKassa берёт за проведение исходного платежа, не возвращается.
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Request\Refunds\CreateRefundRequestInterface OR array</code> | request  |  |
+| <code lang="php">\YooKassa\Request\Refunds\CreateRefundRequestInterface OR array</code> | request  |  |
 | <code lang="php">string OR null</code> | idempotencyKey  | [Ключ идемпотентности](https://yookassa.ru/developers/using-api/basics?lang=php#idempotence) |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
 | \Exception |  |
 
-**Returns:** \testottest\Request\Refunds\CreateRefundResponse|null - 
+**Returns:** \YooKassa\Request\Refunds\CreateRefundResponse|null - 
 ##### Examples:
 Запрос на создание возврата:
 
@@ -1012,10 +1012,10 @@ var_dump($response);
 
 
 <a name="method_getApiClient" class="anchor"></a>
-#### public getApiClient() : \testottest\Client\ApiClientInterface
+#### public getApiClient() : \YooKassa\Client\ApiClientInterface
 
 ```php
-public getApiClient() : \testottest\Client\ApiClientInterface
+public getApiClient() : \YooKassa\Client\ApiClientInterface
 ```
 
 **Summary**
@@ -1023,9 +1023,9 @@ public getApiClient() : \testottest\Client\ApiClientInterface
 Возвращает CURL клиента для работы с API
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
-**Returns:** \testottest\Client\ApiClientInterface - 
+**Returns:** \YooKassa\Client\ApiClientInterface - 
 
 
 <a name="method_getConfig" class="anchor"></a>
@@ -1040,16 +1040,16 @@ public getConfig() : array
 Возвращает настройки клиента
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 **Returns:** array - 
 
 
 <a name="method_getDealInfo" class="anchor"></a>
-#### public getDealInfo() : \testottest\Model\DealInterface|null
+#### public getDealInfo() : \YooKassa\Model\DealInterface|null
 
 ```php
-public getDealInfo(string $dealId) : \testottest\Model\DealInterface|null
+public getDealInfo(string $dealId) : \YooKassa\Model\DealInterface|null
 ```
 
 **Summary**
@@ -1062,7 +1062,7 @@ public getDealInfo(string $dealId) : \testottest\Model\DealInterface|null
 Выдает объект чека {@link} в актуальном статусе.
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1072,17 +1072,17 @@ public getDealInfo(string $dealId) : \testottest\Model\DealInterface|null
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
 
-**Returns:** \testottest\Model\DealInterface|null - 
+**Returns:** \YooKassa\Model\DealInterface|null - 
 ##### Examples:
 Получить информацию о сделке:
 
@@ -1100,10 +1100,10 @@ try {
 
 
 <a name="method_getDeals" class="anchor"></a>
-#### public getDeals() : \testottest\Request\Deals\DealsResponse|null
+#### public getDeals() : \YooKassa\Request\Deals\DealsResponse|null
 
 ```php
-public getDeals(\testottest\Request\Deals\DealsRequestInterface|array|null $filter = null) : \testottest\Request\Deals\DealsResponse|null
+public getDeals(\YooKassa\Request\Deals\DealsRequestInterface|array|null $filter = null) : \YooKassa\Request\Deals\DealsResponse|null
 ```
 
 **Summary**
@@ -1119,28 +1119,28 @@ public getDeals(\testottest\Request\Deals\DealsRequestInterface|array|null $filt
 В этом случае в ответе на запрос вернется фрагмент списка и параметр `next_cursor` с указателем на следующий фрагмент.
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Request\Deals\DealsRequestInterface OR array OR null</code> | filter  |  |
+| <code lang="php">\YooKassa\Request\Deals\DealsRequestInterface OR array OR null</code> | filter  |  |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
 | \Exception |  |
 
-**Returns:** \testottest\Request\Deals\DealsResponse|null - 
+**Returns:** \YooKassa\Request\Deals\DealsResponse|null - 
 ##### Examples:
 Получить список сделок с фильтрацией:
 
@@ -1150,7 +1150,7 @@ public getDeals(\testottest\Request\Deals\DealsRequestInterface|array|null $filt
 $cursor = null;
 $params = array(
     'limit' => 30,
-    'status' => \testottest\Model\Deal\DealStatus::OPENED,
+    'status' => \YooKassa\Model\Deal\DealStatus::OPENED,
     'full_text_search' => 'DEAL',
     'created_at_gte' => '2021-10-01T00:00:00.000Z',
     'created_at_lt' => '2021-11-01T23:59:59.999Z',
@@ -1177,10 +1177,10 @@ try {
 
 
 <a name="method_getPaymentInfo" class="anchor"></a>
-#### public getPaymentInfo() : \testottest\Model\PaymentInterface|null
+#### public getPaymentInfo() : \YooKassa\Model\PaymentInterface|null
 
 ```php
-public getPaymentInfo(string $paymentId) : \testottest\Model\PaymentInterface|null
+public getPaymentInfo(string $paymentId) : \YooKassa\Model\PaymentInterface|null
 ```
 
 **Summary**
@@ -1193,7 +1193,7 @@ public getPaymentInfo(string $paymentId) : \testottest\Model\PaymentInterface|nu
 Выдает объект платежа {@link} в актуальном статусе.
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1203,17 +1203,17 @@ public getPaymentInfo(string $paymentId) : \testottest\Model\PaymentInterface|nu
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
 
-**Returns:** \testottest\Model\PaymentInterface|null - Объект платежа
+**Returns:** \YooKassa\Model\PaymentInterface|null - Объект платежа
 ##### Examples:
 Получить информацию о платеже:
 
@@ -1231,10 +1231,10 @@ var_dump($response);
 
 
 <a name="method_getPayments" class="anchor"></a>
-#### public getPayments() : \testottest\Request\Payments\PaymentsResponse|null
+#### public getPayments() : \YooKassa\Request\Payments\PaymentsResponse|null
 
 ```php
-public getPayments(\testottest\Request\Payments\PaymentsRequestInterface|array|null $filter = null) : \testottest\Request\Payments\PaymentsResponse|null
+public getPayments(\YooKassa\Request\Payments\PaymentsRequestInterface|array|null $filter = null) : \YooKassa\Request\Payments\PaymentsResponse|null
 ```
 
 **Summary**
@@ -1250,28 +1250,28 @@ public getPayments(\testottest\Request\Payments\PaymentsRequestInterface|array|n
 на запрос вернется фрагмент списка и параметр `next_cursor` с указателем на следующий фрагмент.
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Request\Payments\PaymentsRequestInterface OR array OR null</code> | filter  |  |
+| <code lang="php">\YooKassa\Request\Payments\PaymentsRequestInterface OR array OR null</code> | filter  |  |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
 | \Exception |  |
 
-**Returns:** \testottest\Request\Payments\PaymentsResponse|null - 
+**Returns:** \YooKassa\Request\Payments\PaymentsResponse|null - 
 ##### Examples:
 Получить список платежей магазина с фильтрацией:
 
@@ -1279,8 +1279,8 @@ public getPayments(\testottest\Request\Payments\PaymentsRequestInterface|array|n
 $cursor = null;
 $params = array(
     'limit' => 30,
-    'status' => \testottest\Model\PaymentStatus::CANCELED,
-    'payment_method' => \testottest\Model\PaymentMethodType::BANK_CARD,
+    'status' => \YooKassa\Model\PaymentStatus::CANCELED,
+    'payment_method' => \YooKassa\Model\PaymentMethodType::BANK_CARD,
     'created_at_gte' => '2021-01-01T00:00:00.000Z',
     'created_at_lt' => '2021-03-30T23:59:59.999Z',
 );
@@ -1304,10 +1304,10 @@ var_dump($response);
 
 
 <a name="method_getPayoutInfo" class="anchor"></a>
-#### public getPayoutInfo() : \testottest\Model\PayoutInterface|null
+#### public getPayoutInfo() : \YooKassa\Model\PayoutInterface|null
 
 ```php
-public getPayoutInfo(string $payoutId) : \testottest\Model\PayoutInterface|null
+public getPayoutInfo(string $payoutId) : \YooKassa\Model\PayoutInterface|null
 ```
 
 **Summary**
@@ -1320,7 +1320,7 @@ public getPayoutInfo(string $payoutId) : \testottest\Model\PayoutInterface|null
 Выдает объект выплаты {@link} в актуальном статусе.
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1330,17 +1330,17 @@ public getPayoutInfo(string $payoutId) : \testottest\Model\PayoutInterface|null
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
 
-**Returns:** \testottest\Model\PayoutInterface|null - Объект выплаты
+**Returns:** \YooKassa\Model\PayoutInterface|null - Объект выплаты
 ##### Examples:
 Получить информацию о выплате:
 
@@ -1358,10 +1358,10 @@ var_dump($response);
 
 
 <a name="method_getReceiptInfo" class="anchor"></a>
-#### public getReceiptInfo() : \testottest\Request\Receipts\ReceiptResponseInterface|null
+#### public getReceiptInfo() : \YooKassa\Request\Receipts\ReceiptResponseInterface|null
 
 ```php
-public getReceiptInfo(string $receiptId) : \testottest\Request\Receipts\ReceiptResponseInterface|null
+public getReceiptInfo(string $receiptId) : \YooKassa\Request\Receipts\ReceiptResponseInterface|null
 ```
 
 **Summary**
@@ -1374,7 +1374,7 @@ public getReceiptInfo(string $receiptId) : \testottest\Request\Receipts\ReceiptR
 Выдает объект чека {@link} в актуальном статусе.
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1384,17 +1384,17 @@ public getReceiptInfo(string $receiptId) : \testottest\Request\Receipts\ReceiptR
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
 
-**Returns:** \testottest\Request\Receipts\ReceiptResponseInterface|null - 
+**Returns:** \YooKassa\Request\Receipts\ReceiptResponseInterface|null - 
 ##### Examples:
 Получить информацию о чеке:
 
@@ -1412,10 +1412,10 @@ var_dump($response);
 
 
 <a name="method_getReceipts" class="anchor"></a>
-#### public getReceipts() : \testottest\Request\Receipts\ReceiptsResponse
+#### public getReceipts() : \YooKassa\Request\Receipts\ReceiptsResponse
 
 ```php
-public getReceipts(\testottest\Model\PaymentInterface|\testottest\Model\RefundInterface|array|null $filter = null) : \testottest\Request\Receipts\ReceiptsResponse
+public getReceipts(\YooKassa\Model\PaymentInterface|\YooKassa\Model\RefundInterface|array|null $filter = null) : \YooKassa\Request\Receipts\ReceiptsResponse
 ```
 
 **Summary**
@@ -1432,28 +1432,28 @@ public getReceipts(\testottest\Model\PaymentInterface|\testottest\Model\RefundIn
 В этом случае в ответе на запрос вернется фрагмент списка и параметр `next_cursor` с указателем на следующий фрагмент.
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\PaymentInterface OR \testottest\Model\RefundInterface OR array OR null</code> | filter  |  |
+| <code lang="php">\YooKassa\Model\PaymentInterface OR \YooKassa\Model\RefundInterface OR array OR null</code> | filter  |  |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
 | \Exception |  |
 
-**Returns:** \testottest\Request\Receipts\ReceiptsResponse - 
+**Returns:** \YooKassa\Request\Receipts\ReceiptsResponse - 
 ##### Examples:
 Получить список чеков магазина с фильтрацией:
 
@@ -1461,7 +1461,7 @@ public getReceipts(\testottest\Model\PaymentInterface|\testottest\Model\RefundIn
 $cursor = null;
 $params = array(
     'limit' => 30,
-    'status' => \testottest\Model\ReceiptRegistrationStatus::SUCCEEDED,
+    'status' => \YooKassa\Model\ReceiptRegistrationStatus::SUCCEEDED,
     'payment_id' => '1da5c87d-0984-50e8-a7f3-8de646dd9ec9',
     'created_at_gte' => '2021-01-01T00:00:00.000Z',
     'created_at_lt' => '2021-03-30T23:59:59.999Z',
@@ -1484,10 +1484,10 @@ var_dump($response);
 
 
 <a name="method_getRefundInfo" class="anchor"></a>
-#### public getRefundInfo() : \testottest\Request\Refunds\RefundResponse|null
+#### public getRefundInfo() : \YooKassa\Request\Refunds\RefundResponse|null
 
 ```php
-public getRefundInfo(string $refundId) : \testottest\Request\Refunds\RefundResponse|null
+public getRefundInfo(string $refundId) : \YooKassa\Request\Refunds\RefundResponse|null
 ```
 
 **Summary**
@@ -1500,7 +1500,7 @@ public getRefundInfo(string $refundId) : \testottest\Request\Refunds\RefundRespo
 В ответ на запрос придет объект возврата {@link} в актуальном статусе.
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1510,18 +1510,18 @@ public getRefundInfo(string $refundId) : \testottest\Request\Refunds\RefundRespo
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
 | \Exception |  |
 
-**Returns:** \testottest\Request\Refunds\RefundResponse|null - 
+**Returns:** \YooKassa\Request\Refunds\RefundResponse|null - 
 ##### Examples:
 Получить информацию о возврате:
 
@@ -1539,10 +1539,10 @@ var_dump($response);
 
 
 <a name="method_getRefunds" class="anchor"></a>
-#### public getRefunds() : \testottest\Request\Refunds\RefundsResponse|null
+#### public getRefunds() : \YooKassa\Request\Refunds\RefundsResponse|null
 
 ```php
-public getRefunds(\testottest\Request\Refunds\RefundsRequestInterface|array|null $filter = null) : \testottest\Request\Refunds\RefundsResponse|null
+public getRefunds(\YooKassa\Request\Refunds\RefundsRequestInterface|array|null $filter = null) : \YooKassa\Request\Refunds\RefundsResponse|null
 ```
 
 **Summary**
@@ -1558,28 +1558,28 @@ public getRefunds(\testottest\Request\Refunds\RefundsRequestInterface|array|null
 на запрос вернется фрагмент списка и параметр `next_cursor` с указателем на следующий фрагмент.
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Request\Refunds\RefundsRequestInterface OR array OR null</code> | filter  |  |
+| <code lang="php">\YooKassa\Request\Refunds\RefundsRequestInterface OR array OR null</code> | filter  |  |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
 | \Exception |  |
 
-**Returns:** \testottest\Request\Refunds\RefundsResponse|null - 
+**Returns:** \YooKassa\Request\Refunds\RefundsResponse|null - 
 ##### Examples:
 Получить список возвратов платежей магазина с фильтрацией:
 
@@ -1587,7 +1587,7 @@ public getRefunds(\testottest\Request\Refunds\RefundsRequestInterface|array|null
 $cursor = null;
 $params = array(
     'limit' => 30,
-    'status' => \testottest\Model\RefundStatus::SUCCEEDED,
+    'status' => \YooKassa\Model\RefundStatus::SUCCEEDED,
     'payment_id' => '1da5c87d-0984-50e8-a7f3-8de646dd9ec9',
     'created_at_gte' => '2021-01-01T00:00:00.000Z',
     'created_at_lt' => '2021-03-30T23:59:59.999Z',
@@ -1612,10 +1612,10 @@ var_dump($response);
 
 
 <a name="method_getWebhooks" class="anchor"></a>
-#### public getWebhooks() : \testottest\Request\Webhook\WebhookListResponse|null
+#### public getWebhooks() : \YooKassa\Request\Webhook\WebhookListResponse|null
 
 ```php
-public getWebhooks() : \testottest\Request\Webhook\WebhookListResponse|null
+public getWebhooks() : \YooKassa\Request\Webhook\WebhookListResponse|null
 ```
 
 **Summary**
@@ -1627,23 +1627,23 @@ public getWebhooks() : \testottest\Request\Webhook\WebhookListResponse|null
 Запрос позволяет узнать, какие webhook есть для переданного OAuth-токена.
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
-| \testottest\Common\Exceptions\AuthorizeException | Ошибка авторизации. Не установлен заголовок. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\AuthorizeException | Ошибка авторизации. Не установлен заголовок. |
 
-**Returns:** \testottest\Request\Webhook\WebhookListResponse|null - 
+**Returns:** \YooKassa\Request\Webhook\WebhookListResponse|null - 
 ##### Examples:
 Список созданных Webhook:
 
@@ -1653,8 +1653,8 @@ public getWebhooks() : \testottest\Request\Webhook\WebhookListResponse|null
 try {
     $webHookUrl = 'https://merchant-site.ru/payment-notification';
     $needWebHookList = array(
-        \testottest\Model\NotificationEventType::PAYMENT_SUCCEEDED,
-        \testottest\Model\NotificationEventType::PAYMENT_CANCELED
+        \YooKassa\Model\NotificationEventType::PAYMENT_SUCCEEDED,
+        \YooKassa\Model\NotificationEventType::PAYMENT_CANCELED
     );
     $currentWebHookList = $client->getWebhooks()->getItems();
     foreach ($needWebHookList as $event) {
@@ -1696,7 +1696,7 @@ public isNotificationIPTrusted(string $ip) : bool
 Метод проверяет, находится ли IP адрес среди IP адресов Юkassa, с которых отправляются уведомления
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1727,7 +1727,7 @@ public me(array|string|int|null $filter = null) : array|null
 Запрос позволяет получить информацию о магазине для переданного OAuth-токена.
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1737,16 +1737,16 @@ public me(array|string|int|null $filter = null) : array|null
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
-| \testottest\Common\Exceptions\AuthorizeException | Ошибка авторизации. Не установлен заголовок. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\AuthorizeException | Ошибка авторизации. Не установлен заголовок. |
 
 **Returns:** array|null - Массив с информацией о магазине
 ##### Examples:
@@ -1765,10 +1765,10 @@ var_dump($response);
 
 
 <a name="method_removeWebhook" class="anchor"></a>
-#### public removeWebhook() : \testottest\Model\Webhook\Webhook|null
+#### public removeWebhook() : \YooKassa\Model\Webhook\Webhook|null
 
 ```php
-public removeWebhook(string $webhookId, string|null $idempotencyKey = null) : \testottest\Model\Webhook\Webhook|null
+public removeWebhook(string $webhookId, string|null $idempotencyKey = null) : \YooKassa\Model\Webhook\Webhook|null
 ```
 
 **Summary**
@@ -1781,7 +1781,7 @@ public removeWebhook(string $webhookId, string|null $idempotencyKey = null) : \t
 Чтобы удалить webhook, вам нужно передать в запросе его идентификатор.
 
 **Details:**
-* Inherited From: [\testottest\Client](../classes/YooKassa-Client.md)
+* Inherited From: [\YooKassa\Client](../classes/YooKassa-Client.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1792,18 +1792,18 @@ public removeWebhook(string $webhookId, string|null $idempotencyKey = null) : \t
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException | Неожиданный код ошибки. |
-| \testottest\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
-| \testottest\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
-| \testottest\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
-| \testottest\Common\Exceptions\NotFoundException | Ресурс не найден. |
-| \testottest\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
-| \testottest\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
-| \testottest\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
-| \testottest\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
+| \YooKassa\Common\Exceptions\ApiException | Неожиданный код ошибки. |
+| \YooKassa\Common\Exceptions\BadApiRequestException | Неправильный запрос. Чаще всего этот статус выдается из-за нарушения правил взаимодействия с API. |
+| \YooKassa\Common\Exceptions\ForbiddenException | Секретный ключ или OAuth-токен верный, но не хватает прав для совершения операции. |
+| \YooKassa\Common\Exceptions\InternalServerError | Технические неполадки на стороне ЮKassa. Результат обработки запроса неизвестен. Повторите запрос позднее с тем же ключом идемпотентности. |
+| \YooKassa\Common\Exceptions\NotFoundException | Ресурс не найден. |
+| \YooKassa\Common\Exceptions\ResponseProcessingException | Запрос был принят на обработку, но она не завершена. |
+| \YooKassa\Common\Exceptions\TooManyRequestsException | Превышен лимит запросов в единицу времени. Попробуйте снизить интенсивность запросов. |
+| \YooKassa\Common\Exceptions\UnauthorizedException | Неверное имя пользователя или пароль или невалидный OAuth-токен при аутентификации. |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException | Требуемое PHP расширение не установлено. |
 | \Exception |  |
 
-**Returns:** \testottest\Model\Webhook\Webhook|null - 
+**Returns:** \YooKassa\Model\Webhook\Webhook|null - 
 ##### Examples:
 Удаление Webhook:
 
@@ -1813,8 +1813,8 @@ public removeWebhook(string $webhookId, string|null $idempotencyKey = null) : \t
 try {
     $webHookUrl = 'https://merchant-site.ru/payment-notification';
     $needWebHookList = array(
-        \testottest\Model\NotificationEventType::PAYMENT_SUCCEEDED,
-        \testottest\Model\NotificationEventType::PAYMENT_CANCELED
+        \YooKassa\Model\NotificationEventType::PAYMENT_SUCCEEDED,
+        \YooKassa\Model\NotificationEventType::PAYMENT_CANCELED
     );
     $currentWebHookList = $client->getWebhooks()->getItems();
     foreach ($needWebHookList as $event) {
@@ -1848,7 +1848,7 @@ var_dump($response);
 #### public setApiClient() : $this
 
 ```php
-public setApiClient(\testottest\Client\ApiClientInterface $apiClient) : $this
+public setApiClient(\YooKassa\Client\ApiClientInterface $apiClient) : $this
 ```
 
 **Summary**
@@ -1856,12 +1856,12 @@ public setApiClient(\testottest\Client\ApiClientInterface $apiClient) : $this
 Устанавливает CURL клиента для работы с API
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Client\ApiClientInterface</code> | apiClient  |  |
+| <code lang="php">\YooKassa\Client\ApiClientInterface</code> | apiClient  |  |
 
 **Returns:** $this - 
 
@@ -1878,7 +1878,7 @@ public setAuth(string $login, string $password) : $this
 Устанавливает авторизацию по логин/паролю
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1908,7 +1908,7 @@ public setAuthToken(string $token) : $this
 Устанавливает авторизацию по Oauth-токену
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1937,7 +1937,7 @@ public setConfig(array $config) : mixed
 Устанавливает настройки клиента
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1959,7 +1959,7 @@ public setLogger(null|callable|object|\Psr\Log\LoggerInterface $value) : mixed
 Устанавливает логгер приложения
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -1981,7 +1981,7 @@ public setMaxRequestAttempts(int $attempts) : $this
 Установка значения количества попыток повторных запросов при статусе 202
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -2003,7 +2003,7 @@ public setRetryTimeout(int $timeout) : $this
 Установка значения задержки между повторными запросами
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -2017,7 +2017,7 @@ public setRetryTimeout(int $timeout) : $this
 #### protected decodeData() : array
 
 ```php
-protected decodeData(\testottest\Common\ResponseObject $response) : array
+protected decodeData(\YooKassa\Common\ResponseObject $response) : array
 ```
 
 **Summary**
@@ -2025,12 +2025,12 @@ protected decodeData(\testottest\Common\ResponseObject $response) : array
 Декодирует JSON строку в массив данных
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Common\ResponseObject</code> | response  |  |
+| <code lang="php">\YooKassa\Common\ResponseObject</code> | response  |  |
 
 **Returns:** array - 
 
@@ -2039,7 +2039,7 @@ protected decodeData(\testottest\Common\ResponseObject $response) : array
 #### protected delay() : mixed
 
 ```php
-protected delay(\testottest\Common\ResponseObject $response) : mixed
+protected delay(\YooKassa\Common\ResponseObject $response) : mixed
 ```
 
 **Summary**
@@ -2047,12 +2047,12 @@ protected delay(\testottest\Common\ResponseObject $response) : mixed
 Задержка между повторными запросами
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Common\ResponseObject</code> | response  |  |
+| <code lang="php">\YooKassa\Common\ResponseObject</code> | response  |  |
 
 **Returns:** mixed - 
 
@@ -2069,7 +2069,7 @@ protected encodeData(array $serializedData) : string
 Кодирует массив данных в JSON строку
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -2085,10 +2085,10 @@ protected encodeData(array $serializedData) : string
 
 
 <a name="method_execute" class="anchor"></a>
-#### protected execute() : mixed|\testottest\Common\ResponseObject
+#### protected execute() : mixed|\YooKassa\Common\ResponseObject
 
 ```php
-protected execute(string $path, string $method, array $queryParams, null $httpBody = null, array $headers = []) : mixed|\testottest\Common\ResponseObject
+protected execute(string $path, string $method, array $queryParams, null $httpBody = null, array $headers = array()) : mixed|\YooKassa\Common\ResponseObject
 ```
 
 **Summary**
@@ -2096,7 +2096,7 @@ protected execute(string $path, string $method, array $queryParams, null $httpBo
 Выполнение запроса и обработка 202 статуса
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -2110,19 +2110,19 @@ protected execute(string $path, string $method, array $queryParams, null $httpBo
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException |  |
-| \testottest\Common\Exceptions\AuthorizeException |  |
-| \testottest\Common\Exceptions\ApiConnectionException |  |
-| \testottest\Common\Exceptions\ExtensionNotFoundException |  |
+| \YooKassa\Common\Exceptions\ApiException |  |
+| \YooKassa\Common\Exceptions\AuthorizeException |  |
+| \YooKassa\Common\Exceptions\ApiConnectionException |  |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException |  |
 
-**Returns:** mixed|\testottest\Common\ResponseObject - 
+**Returns:** mixed|\YooKassa\Common\ResponseObject - 
 
 
 <a name="method_handleError" class="anchor"></a>
 #### protected handleError() : mixed
 
 ```php
-protected handleError(\testottest\Common\ResponseObject $response) : mixed
+protected handleError(\YooKassa\Common\ResponseObject $response) : mixed
 ```
 
 **Summary**
@@ -2130,24 +2130,24 @@ protected handleError(\testottest\Common\ResponseObject $response) : mixed
 Выбрасывает исключение по коду ошибки
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Common\ResponseObject</code> | response  |  |
+| <code lang="php">\YooKassa\Common\ResponseObject</code> | response  |  |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException |  |
-| \testottest\Common\Exceptions\BadApiRequestException |  |
-| \testottest\Common\Exceptions\ForbiddenException |  |
-| \testottest\Common\Exceptions\InternalServerError |  |
-| \testottest\Common\Exceptions\NotFoundException |  |
-| \testottest\Common\Exceptions\ResponseProcessingException |  |
-| \testottest\Common\Exceptions\TooManyRequestsException |  |
-| \testottest\Common\Exceptions\UnauthorizedException |  |
+| \YooKassa\Common\Exceptions\ApiException |  |
+| \YooKassa\Common\Exceptions\BadApiRequestException |  |
+| \YooKassa\Common\Exceptions\ForbiddenException |  |
+| \YooKassa\Common\Exceptions\InternalServerError |  |
+| \YooKassa\Common\Exceptions\NotFoundException |  |
+| \YooKassa\Common\Exceptions\ResponseProcessingException |  |
+| \YooKassa\Common\Exceptions\TooManyRequestsException |  |
+| \YooKassa\Common\Exceptions\UnauthorizedException |  |
 
 **Returns:** mixed - 
 

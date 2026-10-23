@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Helpers;
+namespace Tests\YooKassa\Helpers;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -143,7 +143,7 @@ class RandomTest extends TestCase
 
     public function randomIntDataProvider()
     {
-        $result = [];
+        $result = array();
         $result[] = array(null, null);
         $result[] = array(null, 1);
         $result[] = array(0, null);
@@ -161,7 +161,7 @@ class RandomTest extends TestCase
 
     public function randomFloatDataProvider()
     {
-        $result = [];
+        $result = array();
         $result[] = array(null, null);
         $result[] = array(null, 1);
         $result[] = array(0, null);

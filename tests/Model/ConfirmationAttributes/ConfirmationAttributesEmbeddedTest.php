@@ -3,7 +3,7 @@
 namespace Model\ConfirmationAttributes;
 
 
-use Tests\testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributesTest;
+use Tests\YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributesTest;
 use testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes;
 use testottest\Model\ConfirmationAttributes\ConfirmationAttributesEmbedded;
 use testottest\Model\ConfirmationType;

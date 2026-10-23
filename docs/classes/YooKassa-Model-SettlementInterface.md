@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: SettlementInterface
-### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
+### Namespace: [\YooKassa\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -44,16 +44,16 @@ public getType() : string
 Возвращает вид оплаты в чеке (cashless | prepayment | postpayment | consideration)
 
 **Details:**
-* Inherited From: [\testottest\Model\SettlementInterface](../classes/YooKassa-Model-SettlementInterface.md)
+* Inherited From: [\YooKassa\Model\SettlementInterface](../classes/YooKassa-Model-SettlementInterface.md)
 
 **Returns:** string - Вид оплаты в чеке
 
 
 <a name="method_getAmount" class="anchor"></a>
-#### public getAmount() : \testottest\Model\AmountInterface
+#### public getAmount() : \YooKassa\Model\AmountInterface
 
 ```php
-public getAmount() : \testottest\Model\AmountInterface
+public getAmount() : \YooKassa\Model\AmountInterface
 ```
 
 **Summary**
@@ -61,9 +61,9 @@ public getAmount() : \testottest\Model\AmountInterface
 Возвращает размер оплаты
 
 **Details:**
-* Inherited From: [\testottest\Model\SettlementInterface](../classes/YooKassa-Model-SettlementInterface.md)
+* Inherited From: [\YooKassa\Model\SettlementInterface](../classes/YooKassa-Model-SettlementInterface.md)
 
-**Returns:** \testottest\Model\AmountInterface - Размер оплаты
+**Returns:** \YooKassa\Model\AmountInterface - Размер оплаты
 
 
 

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Model\CurrencyCode
-### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
+# Class: \YooKassa\Model\CurrencyCode
+### Namespace: [\YooKassa\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -39,8 +39,8 @@ CurrencyCode - Код валюты, ISO-4217 3-alpha currency symbol
 * File: [lib/Model/CurrencyCode.php](../../lib/Model/CurrencyCode.php)
 * Package: Default
 * Class Hierarchy: 
-  * [\testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
-  * \testottest\Model\CurrencyCode
+  * [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+  * \YooKassa\Model\CurrencyCode
 
 ---
 ## Constants
@@ -133,7 +133,7 @@ Static public getEnabledValues() : string[]
 Возвращает значения в enum'е значения которых разрешены
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 **Returns:** string[] - Массив разрешённых значений
 
@@ -150,7 +150,7 @@ Static public getValidValues() : array
 Возвращает все значения в enum'e
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 **Returns:** array - Массив значений в перечислении
 
@@ -167,7 +167,7 @@ Static public valueExists(mixed $value) : bool
 Проверяет наличие значения в enum'e
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 ##### Parameters:
 | Type | Name | Description |

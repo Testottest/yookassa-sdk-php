@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Tests\testottest\Model\Notification;
+namespace Tests\YooKassa\Model\Notification;
 
 use testottest\Helpers\Random;
 use testottest\Model\CurrencyCode;
@@ -59,7 +59,7 @@ class NotificationRefundSucceededTest extends AbstractNotificationTest
      */
     public function validDataProvider()
     {
-        $result               = [];
+        $result               = array();
         $statuses             = RefundStatus::getValidValues();
         $receiptRegistrations = ReceiptRegistrationStatus::getValidValues();
 

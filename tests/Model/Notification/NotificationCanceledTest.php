@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Tests\testottest\Model\Notification;
+namespace Tests\YooKassa\Model\Notification;
 
 use testottest\Helpers\Random;
 use testottest\Model\ConfirmationType;
@@ -69,7 +69,7 @@ class NotificationCanceledTest extends \PHPUnit_Framework_TestCase
      */
     public function validDataProvider()
     {
-        $result = [];
+        $result = array();
         $statuses = PaymentStatus::getValidValues();
         $receiptRegistrations = ReceiptRegistrationStatus::getValidValues();
 

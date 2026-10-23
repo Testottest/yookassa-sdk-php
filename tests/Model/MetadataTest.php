@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model;
+namespace Tests\YooKassa\Model;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Model\Metadata;

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Model\PaymentData\B2b\Sberbank\VatDataType
-### Namespace: [\testottest\Model\PaymentData\B2b\Sberbank](../namespaces/yookassa-model-paymentdata-b2b-sberbank.md)
+# Class: \YooKassa\Model\PaymentData\B2b\Sberbank\VatDataType
+### Namespace: [\YooKassa\Model\PaymentData\B2b\Sberbank](../namespaces/yookassa-model-paymentdata-b2b-sberbank.md)
 ---
 **Summary:**
 
@@ -40,8 +40,8 @@ PaymentDataB2bSberbankVatDataType - Способ расчёта НДС
 * File: [lib/Model/PaymentData/B2b/Sberbank/VatDataType.php](../../lib/Model/PaymentData/B2b/Sberbank/VatDataType.php)
 * Package: Default
 * Class Hierarchy: 
-  * [\testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
-  * \testottest\Model\PaymentData\B2b\Sberbank\VatDataType
+  * [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+  * \YooKassa\Model\PaymentData\B2b\Sberbank\VatDataType
 
 ---
 ## Constants
@@ -98,7 +98,7 @@ Static public getEnabledValues() : string[]
 Возвращает значения в enum'е значения которых разрешены
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 **Returns:** string[] - Массив разрешённых значений
 
@@ -115,7 +115,7 @@ Static public getValidValues() : array
 Возвращает все значения в enum'e
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 **Returns:** array - Массив значений в перечислении
 
@@ -132,7 +132,7 @@ Static public valueExists(mixed $value) : bool
 Проверяет наличие значения в enum'e
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 ##### Parameters:
 | Type | Name | Description |

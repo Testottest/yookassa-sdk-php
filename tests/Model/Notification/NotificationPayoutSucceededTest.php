@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\Notification;
+namespace Tests\YooKassa\Model\Notification;
 
 use testottest\Helpers\Random;
 use testottest\Model\Notification\NotificationPayoutSucceeded;
@@ -56,7 +56,7 @@ class NotificationPayoutSucceededTest extends AbstractNotificationTest
      */
     public function validDataProvider()
     {
-        $result = [];
+        $result = array();
         $payoutDestinations = array(
             PaymentMethodType::YOO_MONEY => array(
                 'type' => PaymentMethodType::YOO_MONEY,

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model;
+namespace Tests\YooKassa\Model;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -774,7 +774,7 @@ class PaymentTest extends TestCase
 
     public function validDataProvider()
     {
-        $result = [];
+        $result = array();
         $cancellationDetailsParties = CancellationDetailsPartyCode::getValidValues();
         $countCancellationDetailsParties = count($cancellationDetailsParties);
         $cancellationDetailsReasons = CancellationDetailsReasonCode::getValidValues();

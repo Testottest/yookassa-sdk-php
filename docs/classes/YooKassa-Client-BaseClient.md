@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Client\BaseClient
-### Namespace: [\testottest\Client](../namespaces/yookassa-client.md)
+# Class: \YooKassa\Client\BaseClient
+### Namespace: [\YooKassa\Client](../namespaces/yookassa-client.md)
 ---
 
 ---
@@ -58,7 +58,7 @@
 * File: [lib/Client/BaseClient.php](../../lib/Client/BaseClient.php)
 * Package: Default
 * Class Hierarchy:
-  * \testottest\Client\BaseClient
+  * \YooKassa\Client\BaseClient
 
 ---
 ## Constants
@@ -165,13 +165,13 @@ DEFAULT_ATTEMPTS_COUNT = 3
 ---
 ## Properties
 <a name="property_apiClient"></a>
-#### protected $apiClient : null|\testottest\Client\ApiClientInterface
+#### protected $apiClient : null|\YooKassa\Client\ApiClientInterface
 ---
 **Summary**
 
 CURL клиент
 
-**Type:** <a href="../null|\testottest\Client\ApiClientInterface"><abbr title="null|\testottest\Client\ApiClientInterface">ApiClientInterface</abbr></a>
+**Type:** <a href="../null|\YooKassa\Client\ApiClientInterface"><abbr title="null|\YooKassa\Client\ApiClientInterface">ApiClientInterface</abbr></a>
 
 **Details:**
 
@@ -263,7 +263,7 @@ shopId магазина
 #### public __construct() : mixed
 
 ```php
-public __construct(\testottest\Client\ApiClientInterface|null $apiClient = null, \testottest\Helpers\Config\ConfigurationLoaderInterface|null $configLoader = null) : mixed
+public __construct(\YooKassa\Client\ApiClientInterface|null $apiClient = null, \YooKassa\Helpers\Config\ConfigurationLoaderInterface|null $configLoader = null) : mixed
 ```
 
 **Summary**
@@ -271,22 +271,22 @@ public __construct(\testottest\Client\ApiClientInterface|null $apiClient = null,
 Constructor
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Client\ApiClientInterface OR null</code> | apiClient  |  |
-| <code lang="php">\testottest\Helpers\Config\ConfigurationLoaderInterface OR null</code> | configLoader  |  |
+| <code lang="php">\YooKassa\Client\ApiClientInterface OR null</code> | apiClient  |  |
+| <code lang="php">\YooKassa\Helpers\Config\ConfigurationLoaderInterface OR null</code> | configLoader  |  |
 
 **Returns:** mixed - 
 
 
 <a name="method_getApiClient" class="anchor"></a>
-#### public getApiClient() : \testottest\Client\ApiClientInterface
+#### public getApiClient() : \YooKassa\Client\ApiClientInterface
 
 ```php
-public getApiClient() : \testottest\Client\ApiClientInterface
+public getApiClient() : \YooKassa\Client\ApiClientInterface
 ```
 
 **Summary**
@@ -294,9 +294,9 @@ public getApiClient() : \testottest\Client\ApiClientInterface
 Возвращает CURL клиента для работы с API
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
-**Returns:** \testottest\Client\ApiClientInterface - 
+**Returns:** \YooKassa\Client\ApiClientInterface - 
 
 
 <a name="method_getConfig" class="anchor"></a>
@@ -311,7 +311,7 @@ public getConfig() : array
 Возвращает настройки клиента
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 **Returns:** array - 
 
@@ -328,7 +328,7 @@ public isNotificationIPTrusted(string $ip) : bool
 Метод проверяет, находится ли IP адрес среди IP адресов Юkassa, с которых отправляются уведомления
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -347,7 +347,7 @@ public isNotificationIPTrusted(string $ip) : bool
 #### public setApiClient() : $this
 
 ```php
-public setApiClient(\testottest\Client\ApiClientInterface $apiClient) : $this
+public setApiClient(\YooKassa\Client\ApiClientInterface $apiClient) : $this
 ```
 
 **Summary**
@@ -355,12 +355,12 @@ public setApiClient(\testottest\Client\ApiClientInterface $apiClient) : $this
 Устанавливает CURL клиента для работы с API
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Client\ApiClientInterface</code> | apiClient  |  |
+| <code lang="php">\YooKassa\Client\ApiClientInterface</code> | apiClient  |  |
 
 **Returns:** $this - 
 
@@ -377,7 +377,7 @@ public setAuth(string $login, string $password) : $this
 Устанавливает авторизацию по логин/паролю
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -407,7 +407,7 @@ public setAuthToken(string $token) : $this
 Устанавливает авторизацию по Oauth-токену
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -436,7 +436,7 @@ public setConfig(array $config) : mixed
 Устанавливает настройки клиента
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -458,7 +458,7 @@ public setLogger(null|callable|object|\Psr\Log\LoggerInterface $value) : mixed
 Устанавливает логгер приложения
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -480,7 +480,7 @@ public setMaxRequestAttempts(int $attempts) : $this
 Установка значения количества попыток повторных запросов при статусе 202
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -502,7 +502,7 @@ public setRetryTimeout(int $timeout) : $this
 Установка значения задержки между повторными запросами
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -516,7 +516,7 @@ public setRetryTimeout(int $timeout) : $this
 #### protected decodeData() : array
 
 ```php
-protected decodeData(\testottest\Common\ResponseObject $response) : array
+protected decodeData(\YooKassa\Common\ResponseObject $response) : array
 ```
 
 **Summary**
@@ -524,12 +524,12 @@ protected decodeData(\testottest\Common\ResponseObject $response) : array
 Декодирует JSON строку в массив данных
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Common\ResponseObject</code> | response  |  |
+| <code lang="php">\YooKassa\Common\ResponseObject</code> | response  |  |
 
 **Returns:** array - 
 
@@ -538,7 +538,7 @@ protected decodeData(\testottest\Common\ResponseObject $response) : array
 #### protected delay() : mixed
 
 ```php
-protected delay(\testottest\Common\ResponseObject $response) : mixed
+protected delay(\YooKassa\Common\ResponseObject $response) : mixed
 ```
 
 **Summary**
@@ -546,12 +546,12 @@ protected delay(\testottest\Common\ResponseObject $response) : mixed
 Задержка между повторными запросами
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Common\ResponseObject</code> | response  |  |
+| <code lang="php">\YooKassa\Common\ResponseObject</code> | response  |  |
 
 **Returns:** mixed - 
 
@@ -568,7 +568,7 @@ protected encodeData(array $serializedData) : string
 Кодирует массив данных в JSON строку
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -584,10 +584,10 @@ protected encodeData(array $serializedData) : string
 
 
 <a name="method_execute" class="anchor"></a>
-#### protected execute() : mixed|\testottest\Common\ResponseObject
+#### protected execute() : mixed|\YooKassa\Common\ResponseObject
 
 ```php
-protected execute(string $path, string $method, array $queryParams, null $httpBody = null, array $headers = []) : mixed|\testottest\Common\ResponseObject
+protected execute(string $path, string $method, array $queryParams, null $httpBody = null, array $headers = array()) : mixed|\YooKassa\Common\ResponseObject
 ```
 
 **Summary**
@@ -595,7 +595,7 @@ protected execute(string $path, string $method, array $queryParams, null $httpBo
 Выполнение запроса и обработка 202 статуса
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -609,19 +609,19 @@ protected execute(string $path, string $method, array $queryParams, null $httpBo
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException |  |
-| \testottest\Common\Exceptions\AuthorizeException |  |
-| \testottest\Common\Exceptions\ApiConnectionException |  |
-| \testottest\Common\Exceptions\ExtensionNotFoundException |  |
+| \YooKassa\Common\Exceptions\ApiException |  |
+| \YooKassa\Common\Exceptions\AuthorizeException |  |
+| \YooKassa\Common\Exceptions\ApiConnectionException |  |
+| \YooKassa\Common\Exceptions\ExtensionNotFoundException |  |
 
-**Returns:** mixed|\testottest\Common\ResponseObject - 
+**Returns:** mixed|\YooKassa\Common\ResponseObject - 
 
 
 <a name="method_handleError" class="anchor"></a>
 #### protected handleError() : mixed
 
 ```php
-protected handleError(\testottest\Common\ResponseObject $response) : mixed
+protected handleError(\YooKassa\Common\ResponseObject $response) : mixed
 ```
 
 **Summary**
@@ -629,24 +629,24 @@ protected handleError(\testottest\Common\ResponseObject $response) : mixed
 Выбрасывает исключение по коду ошибки
 
 **Details:**
-* Inherited From: [\testottest\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
+* Inherited From: [\YooKassa\Client\BaseClient](../classes/YooKassa-Client-BaseClient.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Common\ResponseObject</code> | response  |  |
+| <code lang="php">\YooKassa\Common\ResponseObject</code> | response  |  |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\ApiException |  |
-| \testottest\Common\Exceptions\BadApiRequestException |  |
-| \testottest\Common\Exceptions\ForbiddenException |  |
-| \testottest\Common\Exceptions\InternalServerError |  |
-| \testottest\Common\Exceptions\NotFoundException |  |
-| \testottest\Common\Exceptions\ResponseProcessingException |  |
-| \testottest\Common\Exceptions\TooManyRequestsException |  |
-| \testottest\Common\Exceptions\UnauthorizedException |  |
+| \YooKassa\Common\Exceptions\ApiException |  |
+| \YooKassa\Common\Exceptions\BadApiRequestException |  |
+| \YooKassa\Common\Exceptions\ForbiddenException |  |
+| \YooKassa\Common\Exceptions\InternalServerError |  |
+| \YooKassa\Common\Exceptions\NotFoundException |  |
+| \YooKassa\Common\Exceptions\ResponseProcessingException |  |
+| \YooKassa\Common\Exceptions\TooManyRequestsException |  |
+| \YooKassa\Common\Exceptions\UnauthorizedException |  |
 
 **Returns:** mixed - 
 

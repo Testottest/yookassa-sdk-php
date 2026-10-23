@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Common\Exceptions\JsonException
-### Namespace: [\testottest\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
+# Class: \YooKassa\Common\Exceptions\JsonException
+### Namespace: [\YooKassa\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
 ---
 
 ---
@@ -26,7 +26,7 @@
 * Package: Default
 * Class Hierarchy: 
   * [\UnexpectedValueException](\UnexpectedValueException)
-  * \testottest\Common\Exceptions\JsonException
+  * \YooKassa\Common\Exceptions\JsonException
 
 ---
 ## Properties
@@ -48,7 +48,7 @@ public __construct(mixed $message = &quot;&quot;, mixed $code, mixed $previous =
 ```
 
 **Details:**
-* Inherited From: [\testottest\Common\Exceptions\JsonException](../classes/YooKassa-Common-Exceptions-JsonException.md)
+* Inherited From: [\YooKassa\Common\Exceptions\JsonException](../classes/YooKassa-Common-Exceptions-JsonException.md)
 
 ##### Parameters:
 | Type | Name | Description |

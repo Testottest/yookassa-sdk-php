@@ -71,7 +71,7 @@ class ReceiptsResponse
             $this->type = $response['type'];
         }
 
-        $this->items = [];
+        $this->items = array();
         foreach ($response['items'] as $item) {
             if ($receipt = $this->factory->factory($item)) {
                 $this->items[] = $receipt;

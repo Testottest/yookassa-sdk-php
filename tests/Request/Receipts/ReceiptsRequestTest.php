@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Receipts;
+namespace Tests\YooKassa\Request\Receipts;
 
 use testottest\Helpers\Random;
 use testottest\Model\Receipt\SettlementType;

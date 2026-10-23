@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Payouts\PayoutDestinationData;
+namespace Tests\YooKassa\Request\Payouts\PayoutDestinationData;
 
 use testottest\Helpers\Random;
 use testottest\Model\PaymentMethodType;
@@ -37,7 +37,7 @@ class PayoutDestinationDataBankCardTest extends AbstractPayoutDestinationDataTes
         self::assertNull($instance->card);
 
         $instance->setCard($value);
-        if ($value === null || $value === '' || $value === []) {
+        if ($value === null || $value === '' || $value === array()) {
             self::assertNull($instance->getCard());
             self::assertNull($instance->card);
         } else {
@@ -55,7 +55,7 @@ class PayoutDestinationDataBankCardTest extends AbstractPayoutDestinationDataTes
 
         $instance = $this->getTestInstance();
         $instance->card = $value;
-        if ($value === null || $value === '' || $value === []) {
+        if ($value === null || $value === '' || $value === array()) {
             self::assertNull($instance->getCard());
             self::assertNull($instance->card);
         } else {

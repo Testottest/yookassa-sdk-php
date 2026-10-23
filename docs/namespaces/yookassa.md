@@ -6,17 +6,17 @@
 
 ### Namespaces
 
-* [\testottest\Client](../namespaces/yookassa-client.md)
-* [\testottest\Common](../namespaces/yookassa-common.md)
-* [\testottest\Helpers](../namespaces/yookassa-helpers.md)
-* [\testottest\Model](../namespaces/yookassa-model.md)
-* [\testottest\Request](../namespaces/yookassa-request.md)
+* [\YooKassa\Client](../namespaces/yookassa-client.md)
+* [\YooKassa\Common](../namespaces/yookassa-common.md)
+* [\YooKassa\Helpers](../namespaces/yookassa-helpers.md)
+* [\YooKassa\Model](../namespaces/yookassa-model.md)
+* [\YooKassa\Request](../namespaces/yookassa-request.md)
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\testottest\Client](../classes/YooKassa-Client.md) | Класс клиента API |
+| [\YooKassa\Client](../classes/YooKassa-Client.md) | Класс клиента API |
 
 ---
 

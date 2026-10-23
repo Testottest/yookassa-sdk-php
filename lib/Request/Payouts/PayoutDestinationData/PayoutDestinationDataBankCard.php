@@ -63,7 +63,7 @@ class PayoutDestinationDataBankCard extends AbstractPayoutDestinationData
      */
     public function setCard($value)
     {
-        if ($value === null || $value === '' || $value === []) {
+        if ($value === null || $value === '' || $value === array()) {
             $this->_card = null;
         } elseif ($value instanceof PayoutDestinationDataBankCardCard) {
             $this->_card = $value;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Payments\Payment;
+namespace Tests\YooKassa\Request\Payments\Payment;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;

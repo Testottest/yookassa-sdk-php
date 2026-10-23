@@ -56,7 +56,7 @@ class ReceiptsRequestSerializer
      */
     public function serialize(ReceiptsRequestInterface $request)
     {
-        $result = [];
+        $result = array();
         foreach (self::$propertyMap as $property => $name) {
             $value = $request->{$property};
             if (!empty($value)) {

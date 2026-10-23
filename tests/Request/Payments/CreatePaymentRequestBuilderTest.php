@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Payments;
+namespace Tests\YooKassa\Request\Payments;
 
 use Exception;
 use InvalidArgumentException;
@@ -30,7 +30,7 @@ class CreatePaymentRequestBuilderTest extends TestCase
      */
     protected function getRequiredData($testingProperty = null, $paymentType = null)
     {
-        $result = [];
+        $result = array();
         if ($testingProperty === 'accountId' || $testingProperty === 'gatewayId') {
             if ($testingProperty !== 'accountId') {
                 $result['accountId'] = Random::str(1, 32);

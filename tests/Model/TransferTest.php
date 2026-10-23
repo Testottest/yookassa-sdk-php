@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model;
+namespace Tests\YooKassa\Model;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -241,7 +241,7 @@ class TransferTest extends TestCase
     }
 
     /**
-     * @return \testottest\Model\MonetaryAmount[][]
+     * @return \YooKassa\Model\MonetaryAmount[][]
      * @throws \Exception
      */
     public function validAmountDataProvider()

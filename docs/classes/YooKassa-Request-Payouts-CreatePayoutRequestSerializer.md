@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Request\Payouts\CreatePayoutRequestSerializer
-### Namespace: [\testottest\Request\Payouts](../namespaces/yookassa-request-payouts.md)
+# Class: \YooKassa\Request\Payouts\CreatePayoutRequestSerializer
+### Namespace: [\YooKassa\Request\Payouts](../namespaces/yookassa-request-payouts.md)
 ---
 **Summary:**
 
@@ -23,7 +23,7 @@
 * File: [lib/Request/Payouts/CreatePayoutRequestSerializer.php](../../lib/Request/Payouts/CreatePayoutRequestSerializer.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \testottest\Request\Payouts\CreatePayoutRequestSerializer
+  * \YooKassa\Request\Payouts\CreatePayoutRequestSerializer
 
 ---
 ## Methods
@@ -31,7 +31,7 @@
 #### public serialize() : array
 
 ```php
-public serialize(\testottest\Request\Payouts\CreatePayoutRequestInterface $request) : array
+public serialize(\YooKassa\Request\Payouts\CreatePayoutRequestInterface $request) : array
 ```
 
 **Summary**
@@ -39,12 +39,12 @@ public serialize(\testottest\Request\Payouts\CreatePayoutRequestInterface $reque
 Формирует ассоциативный массив данных из объекта запроса
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequestSerializer](../classes/YooKassa-Request-Payouts-CreatePayoutRequestSerializer.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequestSerializer](../classes/YooKassa-Request-Payouts-CreatePayoutRequestSerializer.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Request\Payouts\CreatePayoutRequestInterface</code> | request  | Объект запроса |
+| <code lang="php">\YooKassa\Request\Payouts\CreatePayoutRequestInterface</code> | request  | Объект запроса |
 
 **Returns:** array - Массив данных для дальнейшего кодирования в JSON
 

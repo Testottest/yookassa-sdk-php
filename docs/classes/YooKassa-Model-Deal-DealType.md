@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Model\Deal\DealType
-### Namespace: [\testottest\Model\Deal](../namespaces/yookassa-model-deal.md)
+# Class: \YooKassa\Model\Deal\DealType
+### Namespace: [\YooKassa\Model\Deal](../namespaces/yookassa-model-deal.md)
 ---
 **Summary:**
 
@@ -33,8 +33,8 @@
 * File: [lib/Model/Deal/DealType.php](../../lib/Model/Deal/DealType.php)
 * Package: Default
 * Class Hierarchy: 
-  * [\testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
-  * \testottest\Model\Deal\DealType
+  * [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+  * \YooKassa\Model\Deal\DealType
 
 ---
 ## Constants
@@ -73,7 +73,7 @@ Static public getEnabledValues() : string[]
 Возвращает значения в enum'е значения которых разрешены
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 **Returns:** string[] - Массив разрешённых значений
 
@@ -90,7 +90,7 @@ Static public getValidValues() : array
 Возвращает все значения в enum'e
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 **Returns:** array - Массив значений в перечислении
 
@@ -107,7 +107,7 @@ Static public valueExists(mixed $value) : bool
 Проверяет наличие значения в enum'e
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
+* Inherited From: [\YooKassa\Common\AbstractEnum](../classes/YooKassa-Common-AbstractEnum.md)
 
 ##### Parameters:
 | Type | Name | Description |

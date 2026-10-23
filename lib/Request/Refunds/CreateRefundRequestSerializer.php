@@ -58,7 +58,7 @@ class CreateRefundRequestSerializer
         }
         if ($request->hasReceipt()) {
             $receipt           = $request->getReceipt();
-            $result['receipt'] = [];
+            $result['receipt'] = array();
             /** @var ReceiptItem $item */
             foreach ($receipt->getItems() as $item) {
                 $itemArray = array(
@@ -126,7 +126,7 @@ class CreateRefundRequestSerializer
      */
     private function serializeSources($sources)
     {
-        $result = [];
+        $result = array();
         foreach ($sources as $source) {
             $result[] = array(
                 'account_id' => $source->getAccountId(),

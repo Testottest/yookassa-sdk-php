@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Client;
+namespace Tests\YooKassa\Client;
 
 use testottest\Client\ApiClientInterface;
 use testottest\Client\BaseClient;

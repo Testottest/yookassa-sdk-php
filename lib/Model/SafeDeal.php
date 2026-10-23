@@ -81,7 +81,7 @@ class SafeDeal extends BaseDeal implements DealInterface
      * SafeDeal constructor.
      * @param array $data
      */
-    public function __construct($data = [])
+    public function __construct($data = array())
     {
         parent::__construct($data);
         $this->setType(DealType::SAFE_DEAL);

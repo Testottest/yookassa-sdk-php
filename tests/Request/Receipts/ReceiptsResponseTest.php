@@ -63,7 +63,7 @@ class ReceiptsResponseTest extends TestCase
 
     private function generateReceipts()
     {
-        $return = [];
+        $return = array();
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {
@@ -88,7 +88,7 @@ class ReceiptsResponseTest extends TestCase
 
     private function generateItems()
     {
-        $return = [];
+        $return = array();
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {
@@ -113,7 +113,7 @@ class ReceiptsResponseTest extends TestCase
 
     private function generateSettlements()
     {
-        $return = [];
+        $return = array();
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\ConfirmationAttributes;
+namespace Tests\YooKassa\Model\ConfirmationAttributes;
 
 use testottest\Model\ConfirmationAttributes\ConfirmationAttributesCodeVerification;
 use testottest\Model\ConfirmationType;

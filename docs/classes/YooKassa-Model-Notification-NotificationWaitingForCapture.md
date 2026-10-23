@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Model\Notification\NotificationWaitingForCapture
-### Namespace: [\testottest\Model\Notification](../namespaces/yookassa-model-notification.md)
+# Class: \YooKassa\Model\Notification\NotificationWaitingForCapture
+### Namespace: [\YooKassa\Model\Notification](../namespaces/yookassa-model-notification.md)
 ---
 **Summary:**
 
@@ -24,39 +24,39 @@ try {
     $source = file_get_contents('php://input');
     $data = json_decode($source, true);
 
-    $factory = new \testottest\Model\Notification\NotificationFactory();
+    $factory = new \YooKassa\Model\Notification\NotificationFactory();
     $notificationObject = $factory->factory($data);
     $responseObject = $notificationObject->getObject();
 
-    $client = new \testottest\Client();
+    $client = new \YooKassa\Client();
 
     if (!$client->isNotificationIPTrusted($_SERVER['REMOTE_ADDR'])) {
         header('HTTP/1.1 400 Something went wrong');
         exit();
     }
 
-    if ($notificationObject->getEvent() === \testottest\Model\NotificationEventType::PAYMENT_SUCCEEDED) {
+    if ($notificationObject->getEvent() === \YooKassa\Model\NotificationEventType::PAYMENT_SUCCEEDED) {
         $someData = array(
             'paymentId' => $responseObject->getId(),
             'paymentStatus' => $responseObject->getStatus(),
         );
         // Специфичная логика
         // ...
-    } elseif ($notificationObject->getEvent() === \testottest\Model\NotificationEventType::PAYMENT_WAITING_FOR_CAPTURE) {
+    } elseif ($notificationObject->getEvent() === \YooKassa\Model\NotificationEventType::PAYMENT_WAITING_FOR_CAPTURE) {
         $someData = array(
             'paymentId' => $responseObject->getId(),
             'paymentStatus' => $responseObject->getStatus(),
         );
         // Специфичная логика
         // ...
-    } elseif ($notificationObject->getEvent() === \testottest\Model\NotificationEventType::PAYMENT_CANCELED) {
+    } elseif ($notificationObject->getEvent() === \YooKassa\Model\NotificationEventType::PAYMENT_CANCELED) {
         $someData = array(
             'paymentId' => $responseObject->getId(),
             'paymentStatus' => $responseObject->getStatus(),
         );
         // Специфичная логика
         // ...
-    } elseif ($notificationObject->getEvent() === \testottest\Model\NotificationEventType::REFUND_SUCCEEDED) {
+    } elseif ($notificationObject->getEvent() === \YooKassa\Model\NotificationEventType::REFUND_SUCCEEDED) {
         $someData = array(
             'refundId' => $responseObject->getId(),
             'refundStatus' => $responseObject->getStatus(),
@@ -132,9 +132,9 @@ try {
 * File: [lib/Model/Notification/NotificationWaitingForCapture.php](../../lib/Model/Notification/NotificationWaitingForCapture.php)
 * Package: YooKassa
 * Class Hierarchy:  
-  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * [\testottest\Model\Notification\AbstractNotification](../classes/YooKassa-Model-Notification-AbstractNotification.md)
-  * \testottest\Model\Notification\NotificationWaitingForCapture
+  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * [\YooKassa\Model\Notification\AbstractNotification](../classes/YooKassa-Model-Notification-AbstractNotification.md)
+  * \YooKassa\Model\Notification\NotificationWaitingForCapture
 
 ---
 ## Properties
@@ -148,17 +148,17 @@ try {
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\testottest\Model\Notification\AbstractNotification](../classes/YooKassa-Model-Notification-AbstractNotification.md)
+* Inherited From: [\YooKassa\Model\Notification\AbstractNotification](../classes/YooKassa-Model-Notification-AbstractNotification.md)
 
 
 <a name="property_object"></a>
-#### public $object : \testottest\Model\PaymentInterface
+#### public $object : \YooKassa\Model\PaymentInterface
 ---
 ***Description***
 
 Объект с информацией о платеже, который можно подтвердить или отменить
 
-**Type:** <a href="../classes/YooKassa-Model-PaymentInterface.html"><abbr title="\testottest\Model\PaymentInterface">PaymentInterface</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-PaymentInterface.html"><abbr title="\YooKassa\Model\PaymentInterface">PaymentInterface</abbr></a>
 
 **Details:**
 
@@ -173,7 +173,7 @@ try {
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\testottest\Model\Notification\AbstractNotification](../classes/YooKassa-Model-Notification-AbstractNotification.md)
+* Inherited From: [\YooKassa\Model\Notification\AbstractNotification](../classes/YooKassa-Model-Notification-AbstractNotification.md)
 
 
 
@@ -197,7 +197,7 @@ public __construct(array $source) : mixed
 передать уведомление не того типа, будет сгенерировано исключение типа {@link}
 
 **Details:**
-* Inherited From: [\testottest\Model\Notification\NotificationWaitingForCapture](../classes/YooKassa-Model-Notification-NotificationWaitingForCapture.md)
+* Inherited From: [\YooKassa\Model\Notification\NotificationWaitingForCapture](../classes/YooKassa-Model-Notification-NotificationWaitingForCapture.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -207,7 +207,7 @@ public __construct(array $source) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если значение типа нотификации или события не равны "notification" и "payment.waiting_for_capture" соответственно, что может говорить о том, что переданные в конструктор данные не являются уведомлением нужного типа. |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если значение типа нотификации или события не равны "notification" и "payment.waiting_for_capture" соответственно, что может говорить о том, что переданные в конструктор данные не являются уведомлением нужного типа. |
 
 **Returns:** mixed - 
 
@@ -224,7 +224,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -246,7 +246,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -268,7 +268,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -291,7 +291,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -313,7 +313,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -339,16 +339,16 @@ public getEvent() : string
 Тип события - одна из констант, указанных в перечислении {@link}.
 
 **Details:**
-* Inherited From: [\testottest\Model\Notification\AbstractNotification](../classes/YooKassa-Model-Notification-AbstractNotification.md)
+* Inherited From: [\YooKassa\Model\Notification\AbstractNotification](../classes/YooKassa-Model-Notification-AbstractNotification.md)
 
 **Returns:** string - Тип события
 
 
 <a name="method_getObject" class="anchor"></a>
-#### public getObject() : \testottest\Model\PaymentInterface
+#### public getObject() : \YooKassa\Model\PaymentInterface
 
 ```php
-public getObject() : \testottest\Model\PaymentInterface
+public getObject() : \YooKassa\Model\PaymentInterface
 ```
 
 **Summary**
@@ -362,9 +362,9 @@ public getObject() : \testottest\Model\PaymentInterface
 платеже у API.
 
 **Details:**
-* Inherited From: [\testottest\Model\Notification\NotificationWaitingForCapture](../classes/YooKassa-Model-Notification-NotificationWaitingForCapture.md)
+* Inherited From: [\YooKassa\Model\Notification\NotificationWaitingForCapture](../classes/YooKassa-Model-Notification-NotificationWaitingForCapture.md)
 
-**Returns:** \testottest\Model\PaymentInterface - Объект с информацией о платеже, который можно подтвердить или отменить
+**Returns:** \YooKassa\Model\PaymentInterface - Объект с информацией о платеже, который можно подтвердить или отменить
 
 
 <a name="method_getType" class="anchor"></a>
@@ -383,7 +383,7 @@ public getType() : string
 Тип уведомления - одна из констант, указанных в перечислении {@link}.
 
 **Details:**
-* Inherited From: [\testottest\Model\Notification\AbstractNotification](../classes/YooKassa-Model-Notification-AbstractNotification.md)
+* Inherited From: [\YooKassa\Model\Notification\AbstractNotification](../classes/YooKassa-Model-Notification-AbstractNotification.md)
 
 **Returns:** string - Тип уведомления в виде строки
 
@@ -400,7 +400,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -417,7 +417,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -439,7 +439,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -461,7 +461,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -484,7 +484,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -507,7 +507,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -524,7 +524,7 @@ protected _setEvent(string $value) : mixed
 Устанавливает тип события
 
 **Details:**
-* Inherited From: [\testottest\Model\Notification\AbstractNotification](../classes/YooKassa-Model-Notification-AbstractNotification.md)
+* Inherited From: [\YooKassa\Model\Notification\AbstractNotification](../classes/YooKassa-Model-Notification-AbstractNotification.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -534,9 +534,9 @@ protected _setEvent(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если в качестве значения было передано пустое значение |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение не найдено в перечислении типов событий |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
+| \YooKassa\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если в качестве значения было передано пустое значение |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение не найдено в перечислении типов событий |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
 
 **Returns:** mixed - 
 
@@ -553,7 +553,7 @@ protected _setType(string $value) : mixed
 Устанавливает тип уведомления
 
 **Details:**
-* Inherited From: [\testottest\Model\Notification\AbstractNotification](../classes/YooKassa-Model-Notification-AbstractNotification.md)
+* Inherited From: [\YooKassa\Model\Notification\AbstractNotification](../classes/YooKassa-Model-Notification-AbstractNotification.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -563,9 +563,9 @@ protected _setType(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если в качестве значения было передано пустое значение |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение не найдено в перечислении типов нотификаций |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
+| \YooKassa\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если в качестве значения было передано пустое значение |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение не найдено в перечислении типов нотификаций |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
 
 **Returns:** mixed - 
 
@@ -582,7 +582,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

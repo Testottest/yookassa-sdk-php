@@ -55,7 +55,7 @@ class DealsResponse extends AbstractObject
      */
     public function fromArray($sourceArray)
     {
-        $this->items = [];
+        $this->items = array();
         foreach ($sourceArray['items'] as $dealInfo) {
             $this->items[] = new DealResponse($dealInfo);
         }

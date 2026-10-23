@@ -111,7 +111,7 @@ class CurlClient implements ApiClientInterface
      * @throws AuthorizeException
      * @throws ExtensionNotFoundException
      */
-    public function call($path, $method, $queryParams, $httpBody = null, $headers = [])
+    public function call($path, $method, $queryParams, $httpBody = null, $headers = array())
     {
         $headers = $this->prepareHeaders($headers);
 
@@ -444,7 +444,7 @@ class CurlClient implements ApiClientInterface
     {
         if ($this->logger !== null) {
             $message = 'Send request: ' . $method . ' ' . $path;
-            $context = [];
+            $context = array();
             if (!empty($queryParams)) {
                 $context['_params'] = $queryParams;
             }
@@ -488,7 +488,7 @@ class CurlClient implements ApiClientInterface
     {
         if ($this->logger !== null) {
             $message = 'Response with code ' . $responseInfo['http_code'] . ' received.';
-            $context = [];
+            $context = array();
             if (!empty($httpBody)) {
                 $data = json_decode($httpBody, true);
                 if (JSON_ERROR_NONE !== json_last_error()) {

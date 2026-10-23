@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Model\Payout\PayoutDestinationFactory
-### Namespace: [\testottest\Model\Payout](../namespaces/yookassa-model-payout.md)
+# Class: \YooKassa\Model\Payout\PayoutDestinationFactory
+### Namespace: [\YooKassa\Model\Payout](../namespaces/yookassa-model-payout.md)
 ---
 **Summary:**
 
@@ -24,15 +24,15 @@
 * File: [lib/Model/Payout/PayoutDestinationFactory.php](../../lib/Model/Payout/PayoutDestinationFactory.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \testottest\Model\Payout\PayoutDestinationFactory
+  * \YooKassa\Model\Payout\PayoutDestinationFactory
 
 ---
 ## Methods
 <a name="method_factory" class="anchor"></a>
-#### public factory() : \testottest\Model\Payout\AbstractPayoutDestination
+#### public factory() : \YooKassa\Model\Payout\AbstractPayoutDestination
 
 ```php
-public factory(string $type) : \testottest\Model\Payout\AbstractPayoutDestination
+public factory(string $type) : \YooKassa\Model\Payout\AbstractPayoutDestination
 ```
 
 **Summary**
@@ -40,21 +40,21 @@ public factory(string $type) : \testottest\Model\Payout\AbstractPayoutDestinatio
 Фабричный метод создания объекта платежных данных по типу
 
 **Details:**
-* Inherited From: [\testottest\Model\Payout\PayoutDestinationFactory](../classes/YooKassa-Model-Payout-PayoutDestinationFactory.md)
+* Inherited From: [\YooKassa\Model\Payout\PayoutDestinationFactory](../classes/YooKassa-Model-Payout-PayoutDestinationFactory.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">string</code> | type  | Тип платежных данных |
 
-**Returns:** \testottest\Model\Payout\AbstractPayoutDestination - 
+**Returns:** \YooKassa\Model\Payout\AbstractPayoutDestination - 
 
 
 <a name="method_factoryFromArray" class="anchor"></a>
-#### public factoryFromArray() : \testottest\Model\Payout\AbstractPayoutDestination
+#### public factoryFromArray() : \YooKassa\Model\Payout\AbstractPayoutDestination
 
 ```php
-public factoryFromArray(array $data, string|null $type = null) : \testottest\Model\Payout\AbstractPayoutDestination
+public factoryFromArray(array $data, string|null $type = null) : \YooKassa\Model\Payout\AbstractPayoutDestination
 ```
 
 **Summary**
@@ -62,7 +62,7 @@ public factoryFromArray(array $data, string|null $type = null) : \testottest\Mod
 Фабричный метод создания объекта платежных данных из массива
 
 **Details:**
-* Inherited From: [\testottest\Model\Payout\PayoutDestinationFactory](../classes/YooKassa-Model-Payout-PayoutDestinationFactory.md)
+* Inherited From: [\YooKassa\Model\Payout\PayoutDestinationFactory](../classes/YooKassa-Model-Payout-PayoutDestinationFactory.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -70,7 +70,7 @@ public factoryFromArray(array $data, string|null $type = null) : \testottest\Mod
 | <code lang="php">array</code> | data  | Массив платежных данных |
 | <code lang="php">string OR null</code> | type  | Тип платежных данных |
 
-**Returns:** \testottest\Model\Payout\AbstractPayoutDestination - 
+**Returns:** \YooKassa\Model\Payout\AbstractPayoutDestination - 
 
 
 

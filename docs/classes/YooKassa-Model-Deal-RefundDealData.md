@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Model\Deal\RefundDealData
-### Namespace: [\testottest\Model\Deal](../namespaces/yookassa-model-deal.md)
+# Class: \YooKassa\Model\Deal\RefundDealData
+### Namespace: [\YooKassa\Model\Deal](../namespaces/yookassa-model-deal.md)
 ---
 **Summary:**
 
@@ -45,31 +45,31 @@ Class PaymentDealInfo
 * File: [lib/Model/Deal/RefundDealData.php](../../lib/Model/Deal/RefundDealData.php)
 * Package: YooKassa
 * Class Hierarchy: 
-  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * \testottest\Model\Deal\RefundDealData
+  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * \YooKassa\Model\Deal\RefundDealData
 
 ---
 ## Properties
 <a name="property_refund_settlements"></a>
-#### public $refund_settlements : \testottest\Model\Deal\SettlementPayoutRefund[]
+#### public $refund_settlements : \YooKassa\Model\Deal\SettlementPayoutRefund[]
 ---
 ***Description***
 
 Данные о распределении денег
 
-**Type:** <a href="../\testottest\Model\Deal\SettlementPayoutRefund[]"><abbr title="\testottest\Model\Deal\SettlementPayoutRefund[]">SettlementPayoutRefund[]</abbr></a>
+**Type:** <a href="../\YooKassa\Model\Deal\SettlementPayoutRefund[]"><abbr title="\YooKassa\Model\Deal\SettlementPayoutRefund[]">SettlementPayoutRefund[]</abbr></a>
 
 **Details:**
 
 
 <a name="property_refundSettlements"></a>
-#### public $refundSettlements : \testottest\Model\Deal\SettlementPayoutRefund[]
+#### public $refundSettlements : \YooKassa\Model\Deal\SettlementPayoutRefund[]
 ---
 ***Description***
 
 Данные о распределении денег
 
-**Type:** <a href="../\testottest\Model\Deal\SettlementPayoutRefund[]"><abbr title="\testottest\Model\Deal\SettlementPayoutRefund[]">SettlementPayoutRefund[]</abbr></a>
+**Type:** <a href="../\YooKassa\Model\Deal\SettlementPayoutRefund[]"><abbr title="\YooKassa\Model\Deal\SettlementPayoutRefund[]">SettlementPayoutRefund[]</abbr></a>
 
 **Details:**
 
@@ -81,7 +81,7 @@ Class PaymentDealInfo
 #### public __construct() : mixed
 
 ```php
-public __construct(array $data = []) : mixed
+public __construct(array $data = array()) : mixed
 ```
 
 **Summary**
@@ -89,7 +89,7 @@ public __construct(array $data = []) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -111,7 +111,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -133,7 +133,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -155,7 +155,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -178,7 +178,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -189,10 +189,10 @@ public __unset(string $propertyName) : mixed
 
 
 <a name="method_addRefundSettlement" class="anchor"></a>
-#### public addRefundSettlement() : \testottest\Model\Deal\RefundDealData
+#### public addRefundSettlement() : \YooKassa\Model\Deal\RefundDealData
 
 ```php
-public addRefundSettlement(\testottest\Model\SettlementInterface $value) : \testottest\Model\Deal\RefundDealData
+public addRefundSettlement(\YooKassa\Model\SettlementInterface $value) : \YooKassa\Model\Deal\RefundDealData
 ```
 
 **Summary**
@@ -200,14 +200,14 @@ public addRefundSettlement(\testottest\Model\SettlementInterface $value) : \test
 Добавляет оплату в чек
 
 **Details:**
-* Inherited From: [\testottest\Model\Deal\RefundDealData](../classes/YooKassa-Model-Deal-RefundDealData.md)
+* Inherited From: [\YooKassa\Model\Deal\RefundDealData](../classes/YooKassa-Model-Deal-RefundDealData.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\SettlementInterface</code> | value  | Объект добавляемой в чек позиции |
+| <code lang="php">\YooKassa\Model\SettlementInterface</code> | value  | Объект добавляемой в чек позиции |
 
-**Returns:** \testottest\Model\Deal\RefundDealData - 
+**Returns:** \YooKassa\Model\Deal\RefundDealData - 
 
 
 <a name="method_fromArray" class="anchor"></a>
@@ -222,7 +222,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -233,10 +233,10 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 
 
 <a name="method_getRefundSettlements" class="anchor"></a>
-#### public getRefundSettlements() : \testottest\Model\SettlementInterface[]
+#### public getRefundSettlements() : \YooKassa\Model\SettlementInterface[]
 
 ```php
-public getRefundSettlements() : \testottest\Model\SettlementInterface[]
+public getRefundSettlements() : \YooKassa\Model\SettlementInterface[]
 ```
 
 **Summary**
@@ -244,9 +244,9 @@ public getRefundSettlements() : \testottest\Model\SettlementInterface[]
 Возвращает массив оплат, обеспечивающих выдачу товара
 
 **Details:**
-* Inherited From: [\testottest\Model\Deal\RefundDealData](../classes/YooKassa-Model-Deal-RefundDealData.md)
+* Inherited From: [\YooKassa\Model\Deal\RefundDealData](../classes/YooKassa-Model-Deal-RefundDealData.md)
 
-**Returns:** \testottest\Model\SettlementInterface[] - Массив оплат, обеспечивающих выдачу товара.
+**Returns:** \YooKassa\Model\SettlementInterface[] - Массив оплат, обеспечивающих выдачу товара.
 
 
 <a name="method_jsonSerialize" class="anchor"></a>
@@ -261,7 +261,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -278,7 +278,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -300,7 +300,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -322,7 +322,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -345,7 +345,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -356,10 +356,10 @@ public offsetUnset(string $offset) : mixed
 
 
 <a name="method_setRefundSettlements" class="anchor"></a>
-#### public setRefundSettlements() : \testottest\Model\Deal\RefundDealData
+#### public setRefundSettlements() : \YooKassa\Model\Deal\RefundDealData
 
 ```php
-public setRefundSettlements(\testottest\Model\SettlementInterface[]|array $value) : \testottest\Model\Deal\RefundDealData
+public setRefundSettlements(\YooKassa\Model\SettlementInterface[]|array $value) : \YooKassa\Model\Deal\RefundDealData
 ```
 
 **Summary**
@@ -367,14 +367,14 @@ public setRefundSettlements(\testottest\Model\SettlementInterface[]|array $value
 Возвращает массив оплат, обеспечивающих выдачу товара
 
 **Details:**
-* Inherited From: [\testottest\Model\Deal\RefundDealData](../classes/YooKassa-Model-Deal-RefundDealData.md)
+* Inherited From: [\YooKassa\Model\Deal\RefundDealData](../classes/YooKassa-Model-Deal-RefundDealData.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\SettlementInterface[] OR array</code> | value  |  |
+| <code lang="php">\YooKassa\Model\SettlementInterface[] OR array</code> | value  |  |
 
-**Returns:** \testottest\Model\Deal\RefundDealData - 
+**Returns:** \YooKassa\Model\Deal\RefundDealData - 
 
 
 <a name="method_toArray" class="anchor"></a>
@@ -390,7 +390,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -407,7 +407,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

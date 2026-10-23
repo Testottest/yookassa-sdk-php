@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Request\Payouts\CreatePayoutRequest
-### Namespace: [\testottest\Request\Payouts](../namespaces/yookassa-request-payouts.md)
+# Class: \YooKassa\Request\Payouts\CreatePayoutRequest
+### Namespace: [\YooKassa\Request\Payouts](../namespaces/yookassa-request-payouts.md)
 ---
 **Summary:**
 
@@ -71,11 +71,11 @@
 * File: [lib/Request/Payouts/CreatePayoutRequest.php](../../lib/Request/Payouts/CreatePayoutRequest.php)
 * Package: YooKassa
 * Class Hierarchy:  
-  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
-  * \testottest\Request\Payouts\CreatePayoutRequest
+  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * [\YooKassa\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+  * \YooKassa\Request\Payouts\CreatePayoutRequest
 * Implements:
-  * [\testottest\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
+  * [\YooKassa\Request\Payouts\CreatePayoutRequestInterface](../classes/YooKassa-Request-Payouts-CreatePayoutRequestInterface.md)
 
 ---
 ### Tags
@@ -86,25 +86,25 @@
 ---
 ## Properties
 <a name="property_amount"></a>
-#### public $amount : \testottest\Model\AmountInterface
+#### public $amount : \YooKassa\Model\AmountInterface
 ---
 ***Description***
 
 Сумма создаваемой выплаты
 
-**Type:** <a href="../classes/YooKassa-Model-AmountInterface.html"><abbr title="\testottest\Model\AmountInterface">AmountInterface</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-AmountInterface.html"><abbr title="\YooKassa\Model\AmountInterface">AmountInterface</abbr></a>
 
 **Details:**
 
 
 <a name="property_deal"></a>
-#### public $deal : \testottest\Model\Deal\PayoutDealInfo
+#### public $deal : \YooKassa\Model\Deal\PayoutDealInfo
 ---
 ***Description***
 
 Сделка, в рамках которой нужно провести выплату. Необходимо передавать, если вы проводите Безопасную сделку
 
-**Type:** <a href="../classes/YooKassa-Model-Deal-PayoutDealInfo.html"><abbr title="\testottest\Model\Deal\PayoutDealInfo">PayoutDealInfo</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-Deal-PayoutDealInfo.html"><abbr title="\YooKassa\Model\Deal\PayoutDealInfo">PayoutDealInfo</abbr></a>
 
 **Details:**
 
@@ -122,25 +122,25 @@
 
 
 <a name="property_metadata"></a>
-#### public $metadata : \testottest\Model\Metadata
+#### public $metadata : \YooKassa\Model\Metadata
 ---
 ***Description***
 
 Метаданные привязанные к выплате
 
-**Type:** <a href="../classes/YooKassa-Model-Metadata.html"><abbr title="\testottest\Model\Metadata">Metadata</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-Metadata.html"><abbr title="\YooKassa\Model\Metadata">Metadata</abbr></a>
 
 **Details:**
 
 
 <a name="property_payout_destination_data"></a>
-#### public $payout_destination_data : \testottest\Model\Payout\AbstractPayoutDestination
+#### public $payout_destination_data : \YooKassa\Model\Payout\AbstractPayoutDestination
 ---
 ***Description***
 
 Данные платежного средства, на которое нужно сделать выплату. Обязательный параметр, если не передан payout_token.
 
-**Type:** <a href="../classes/YooKassa-Model-Payout-AbstractPayoutDestination.html"><abbr title="\testottest\Model\Payout\AbstractPayoutDestination">AbstractPayoutDestination</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-Payout-AbstractPayoutDestination.html"><abbr title="\YooKassa\Model\Payout\AbstractPayoutDestination">AbstractPayoutDestination</abbr></a>
 
 **Details:**
 
@@ -158,13 +158,13 @@
 
 
 <a name="property_payoutDestinationData"></a>
-#### public $payoutDestinationData : \testottest\Model\Payout\AbstractPayoutDestination
+#### public $payoutDestinationData : \YooKassa\Model\Payout\AbstractPayoutDestination
 ---
 ***Description***
 
 Данные платежного средства, на которое нужно сделать выплату. Обязательный параметр, если не передан payout_token.
 
-**Type:** <a href="../classes/YooKassa-Model-Payout-AbstractPayoutDestination.html"><abbr title="\testottest\Model\Payout\AbstractPayoutDestination">AbstractPayoutDestination</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-Payout-AbstractPayoutDestination.html"><abbr title="\YooKassa\Model\Payout\AbstractPayoutDestination">AbstractPayoutDestination</abbr></a>
 
 **Details:**
 
@@ -188,7 +188,7 @@
 #### public __construct() : mixed
 
 ```php
-public __construct(array $data = []) : mixed
+public __construct(array $data = array()) : mixed
 ```
 
 **Summary**
@@ -196,7 +196,7 @@ public __construct(array $data = []) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -218,7 +218,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -240,7 +240,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -262,7 +262,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -285,7 +285,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -296,10 +296,10 @@ public __unset(string $propertyName) : mixed
 
 
 <a name="method_builder" class="anchor"></a>
-#### public builder() : \testottest\Request\Payouts\CreatePayoutRequestBuilder
+#### public builder() : \YooKassa\Request\Payouts\CreatePayoutRequestBuilder
 
 ```php
-Static public builder() : \testottest\Request\Payouts\CreatePayoutRequestBuilder
+Static public builder() : \YooKassa\Request\Payouts\CreatePayoutRequestBuilder
 ```
 
 **Summary**
@@ -307,9 +307,9 @@ Static public builder() : \testottest\Request\Payouts\CreatePayoutRequestBuilder
 Возвращает билдер объектов запросов создания выплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
-**Returns:** \testottest\Request\Payouts\CreatePayoutRequestBuilder - Инстанс билдера объектов запросов
+**Returns:** \YooKassa\Request\Payouts\CreatePayoutRequestBuilder - Инстанс билдера объектов запросов
 
 
 <a name="method_clearValidationError" class="anchor"></a>
@@ -324,7 +324,7 @@ public clearValidationError() : mixed
 Очищает статус валидации текущего запроса
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+* Inherited From: [\YooKassa\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
 
 **Returns:** mixed - 
 
@@ -341,7 +341,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -352,10 +352,10 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 
 
 <a name="method_getAmount" class="anchor"></a>
-#### public getAmount() : \testottest\Model\AmountInterface
+#### public getAmount() : \YooKassa\Model\AmountInterface
 
 ```php
-public getAmount() : \testottest\Model\AmountInterface
+public getAmount() : \YooKassa\Model\AmountInterface
 ```
 
 **Summary**
@@ -363,16 +363,16 @@ public getAmount() : \testottest\Model\AmountInterface
 Возвращает сумму выплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
-**Returns:** \testottest\Model\AmountInterface - Сумма выплаты
+**Returns:** \YooKassa\Model\AmountInterface - Сумма выплаты
 
 
 <a name="method_getDeal" class="anchor"></a>
-#### public getDeal() : \testottest\Model\Deal\PayoutDealInfo
+#### public getDeal() : \YooKassa\Model\Deal\PayoutDealInfo
 
 ```php
-public getDeal() : \testottest\Model\Deal\PayoutDealInfo
+public getDeal() : \YooKassa\Model\Deal\PayoutDealInfo
 ```
 
 **Summary**
@@ -380,9 +380,9 @@ public getDeal() : \testottest\Model\Deal\PayoutDealInfo
 Возвращает сделку, в рамках которой нужно провести выплату
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
-**Returns:** \testottest\Model\Deal\PayoutDealInfo - Сделка, в рамках которой нужно провести выплату
+**Returns:** \YooKassa\Model\Deal\PayoutDealInfo - Сделка, в рамках которой нужно провести выплату
 
 
 <a name="method_getDescription" class="anchor"></a>
@@ -397,7 +397,7 @@ public getDescription() : string
 Возвращает описание транзакции
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
 **Returns:** string - 
 
@@ -414,16 +414,16 @@ public getLastValidationError() : string
 Возвращает последнюю ошибку валидации
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+* Inherited From: [\YooKassa\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
 
 **Returns:** string - Последняя произошедшая ошибка валидации
 
 
 <a name="method_getMetadata" class="anchor"></a>
-#### public getMetadata() : \testottest\Model\Metadata
+#### public getMetadata() : \YooKassa\Model\Metadata
 
 ```php
-public getMetadata() : \testottest\Model\Metadata
+public getMetadata() : \YooKassa\Model\Metadata
 ```
 
 **Summary**
@@ -431,16 +431,16 @@ public getMetadata() : \testottest\Model\Metadata
 Возвращает данные оплаты установленные мерчантом
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
-**Returns:** \testottest\Model\Metadata - Метаданные, привязанные к выплате
+**Returns:** \YooKassa\Model\Metadata - Метаданные, привязанные к выплате
 
 
 <a name="method_getPayoutDestinationData" class="anchor"></a>
-#### public getPayoutDestinationData() : \testottest\Model\Payout\AbstractPayoutDestination
+#### public getPayoutDestinationData() : \YooKassa\Model\Payout\AbstractPayoutDestination
 
 ```php
-public getPayoutDestinationData() : \testottest\Model\Payout\AbstractPayoutDestination
+public getPayoutDestinationData() : \YooKassa\Model\Payout\AbstractPayoutDestination
 ```
 
 **Summary**
@@ -448,9 +448,9 @@ public getPayoutDestinationData() : \testottest\Model\Payout\AbstractPayoutDesti
 Возвращает данные для создания метода оплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
-**Returns:** \testottest\Model\Payout\AbstractPayoutDestination - Данные используемые для создания метода оплаты
+**Returns:** \YooKassa\Model\Payout\AbstractPayoutDestination - Данные используемые для создания метода оплаты
 
 
 <a name="method_getPayoutToken" class="anchor"></a>
@@ -465,7 +465,7 @@ public getPayoutToken() : bool
 Проверяет наличие токенизированных данных для выплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
 **Returns:** bool - True если токен установлен, false если нет
 
@@ -482,7 +482,7 @@ public hasAmount() : bool
 Проверяет, была ли установлена сумма выплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
 **Returns:** bool - True если сумма выплаты была установлена, false если нет
 
@@ -499,7 +499,7 @@ public hasDeal() : bool
 Проверяет наличие сделки в создаваемой выплате
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
 **Returns:** bool - True если сделка есть, false если нет
 
@@ -516,7 +516,7 @@ public hasDescription() : bool
 Проверяет наличие описания транзакции в создаваемом платеже
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
 **Returns:** bool - True если описание транзакции есть, false если нет
 
@@ -533,7 +533,7 @@ public hasMetadata() : bool
 Проверяет, были ли установлены метаданные выплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
 **Returns:** bool - True если метаданные были установлены, false если нет
 
@@ -550,7 +550,7 @@ public hasPayoutDestinationData() : bool
 Проверяет установлен ли объект с методом оплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
 **Returns:** bool - True если объект метода оплаты установлен, false если нет
 
@@ -567,7 +567,7 @@ public hasPayoutToken() : bool
 Проверяет наличие одноразового токена для проведения оплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
 **Returns:** bool - True если токен установлен, false если нет
 
@@ -584,7 +584,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -601,7 +601,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -623,7 +623,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -645,7 +645,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -668,7 +668,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -690,7 +690,7 @@ public setAmount(mixed $value) : mixed
 Устанавливает сумму выплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -700,7 +700,7 @@ public setAmount(mixed $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если был передан объект невалидного типа |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если был передан объект невалидного типа |
 
 **Returns:** mixed - 
 
@@ -709,7 +709,7 @@ public setAmount(mixed $value) : mixed
 #### public setDeal() : mixed
 
 ```php
-public setDeal(\testottest\Model\Deal\PayoutDealInfo|array $value) : mixed
+public setDeal(\YooKassa\Model\Deal\PayoutDealInfo|array $value) : mixed
 ```
 
 **Summary**
@@ -717,12 +717,12 @@ public setDeal(\testottest\Model\Deal\PayoutDealInfo|array $value) : mixed
 Устанавливает сделку, в рамках которой нужно провести выплату
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\Deal\PayoutDealInfo OR array</code> | value  | Сделка, в рамках которой нужно провести выплату |
+| <code lang="php">\YooKassa\Model\Deal\PayoutDealInfo OR array</code> | value  | Сделка, в рамках которой нужно провести выплату |
 
 **Returns:** mixed - 
 
@@ -739,7 +739,7 @@ public setDescription(string $value) : mixed
 Устанавливает описание транзакции
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -749,8 +749,8 @@ public setDescription(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение превышает допустимую длину |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение превышает допустимую длину |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
 
 **Returns:** mixed - 
 
@@ -759,7 +759,7 @@ public setDescription(string $value) : mixed
 #### public setMetadata() : mixed
 
 ```php
-public setMetadata(\testottest\Model\Metadata|array|null $value) : mixed
+public setMetadata(\YooKassa\Model\Metadata|array|null $value) : mixed
 ```
 
 **Summary**
@@ -767,17 +767,17 @@ public setMetadata(\testottest\Model\Metadata|array|null $value) : mixed
 Устанавливает метаданные, привязанные к выплате
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\Metadata OR array OR null</code> | value  | Метаданные выплаты, устанавливаемые мерчантом |
+| <code lang="php">\YooKassa\Model\Metadata OR array OR null</code> | value  | Метаданные выплаты, устанавливаемые мерчантом |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданные данные не удалось интерпретировать как метаданные выплаты |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданные данные не удалось интерпретировать как метаданные выплаты |
 
 **Returns:** mixed - 
 
@@ -786,7 +786,7 @@ public setMetadata(\testottest\Model\Metadata|array|null $value) : mixed
 #### public setPayoutDestinationData() : mixed
 
 ```php
-public setPayoutDestinationData(\testottest\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData|array|null $value) : mixed
+public setPayoutDestinationData(\YooKassa\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData|array|null $value) : mixed
 ```
 
 **Summary**
@@ -794,17 +794,17 @@ public setPayoutDestinationData(\testottest\Request\Payouts\PayoutDestinationDat
 Устанавливает объект с информацией для создания метода оплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData OR array OR null</code> | value  | Объект создания метода оплаты или null |
+| <code lang="php">\YooKassa\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData OR array OR null</code> | value  | Объект создания метода оплаты или null |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если был передан объект невалидного типа |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если был передан объект невалидного типа |
 
 **Returns:** mixed - 
 
@@ -821,7 +821,7 @@ public setPayoutToken(string $value) : mixed
 Устанавливает токенизированные данные для выплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -831,7 +831,7 @@ public setPayoutToken(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если переданное значение не является строкой |
 
 **Returns:** mixed - 
 
@@ -849,7 +849,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -866,7 +866,7 @@ public validate() : bool
 Проверяет на валидность текущий объект
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
+* Inherited From: [\YooKassa\Request\Payouts\CreatePayoutRequest](../classes/YooKassa-Request-Payouts-CreatePayoutRequest.md)
 
 **Returns:** bool - True если объект запроса валиден, false если нет
 
@@ -883,7 +883,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 
@@ -900,7 +900,7 @@ protected setValidationError(string $value) : mixed
 Устанавливает ошибку валидации
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
+* Inherited From: [\YooKassa\Common\AbstractRequest](../classes/YooKassa-Common-AbstractRequest.md)
 
 ##### Parameters:
 | Type | Name | Description |

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\PaymentData;
+namespace Tests\YooKassa\Model\PaymentData;
 
 use testottest\Helpers\Random;
 use testottest\Model\PaymentData\PaymentDataGooglePay;

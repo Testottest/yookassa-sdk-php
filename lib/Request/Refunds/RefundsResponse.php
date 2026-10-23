@@ -53,7 +53,7 @@ class RefundsResponse
      */
     public function __construct(array $options)
     {
-        $this->items = [];
+        $this->items = array();
         foreach ($options['items'] as $item) {
             $this->items[] = new RefundResponse($item);
         }

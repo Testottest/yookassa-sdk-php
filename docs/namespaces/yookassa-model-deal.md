@@ -1,25 +1,25 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \testottest\Model\Deal
+# Namespace: \YooKassa\Model\Deal
 
-## Parent: [\testottest\Model](../namespaces/yookassa-model.md)
+## Parent: [\YooKassa\Model](../namespaces/yookassa-model.md)
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\testottest\Model\Deal\CaptureDealData](../classes/YooKassa-Model-Deal-CaptureDealData.md) | Class CaptureDealData |
-| [\testottest\Model\Deal\DealBalanceAmount](../classes/YooKassa-Model-Deal-DealBalanceAmount.md) | MonetaryAmount - Сумма определенная в валюте |
-| [\testottest\Model\Deal\DealStatus](../classes/YooKassa-Model-Deal-DealStatus.md) | Class DealStatus |
-| [\testottest\Model\Deal\DealType](../classes/YooKassa-Model-Deal-DealType.md) | Базовый класс генерируемых enum&#039;ов |
-| [\testottest\Model\Deal\FeeMoment](../classes/YooKassa-Model-Deal-FeeMoment.md) | Class FeeMoment |
-| [\testottest\Model\Deal\PaymentDealInfo](../classes/YooKassa-Model-Deal-PaymentDealInfo.md) | Class PaymentDealInfo |
-| [\testottest\Model\Deal\PayoutDealInfo](../classes/YooKassa-Model-Deal-PayoutDealInfo.md) | Class PayoutDealInfo |
-| [\testottest\Model\Deal\RefundDealData](../classes/YooKassa-Model-Deal-RefundDealData.md) | Class PaymentDealInfo |
-| [\testottest\Model\Deal\RefundDealInfo](../classes/YooKassa-Model-Deal-RefundDealInfo.md) | Class PaymentDealInfo |
-| [\testottest\Model\Deal\SettlementPayoutPayment](../classes/YooKassa-Model-Deal-SettlementPayoutPayment.md) | Class SettlementPayoutPayment |
-| [\testottest\Model\Deal\SettlementPayoutPaymentType](../classes/YooKassa-Model-Deal-SettlementPayoutPaymentType.md) | Базовый класс генерируемых enum&#039;ов |
-| [\testottest\Model\Deal\SettlementPayoutRefund](../classes/YooKassa-Model-Deal-SettlementPayoutRefund.md) | Class SettlementPayoutRefund |
+| [\YooKassa\Model\Deal\CaptureDealData](../classes/YooKassa-Model-Deal-CaptureDealData.md) | Class CaptureDealData |
+| [\YooKassa\Model\Deal\DealBalanceAmount](../classes/YooKassa-Model-Deal-DealBalanceAmount.md) | MonetaryAmount - Сумма определенная в валюте |
+| [\YooKassa\Model\Deal\DealStatus](../classes/YooKassa-Model-Deal-DealStatus.md) | Class DealStatus |
+| [\YooKassa\Model\Deal\DealType](../classes/YooKassa-Model-Deal-DealType.md) | Базовый класс генерируемых enum&#039;ов |
+| [\YooKassa\Model\Deal\FeeMoment](../classes/YooKassa-Model-Deal-FeeMoment.md) | Class FeeMoment |
+| [\YooKassa\Model\Deal\PaymentDealInfo](../classes/YooKassa-Model-Deal-PaymentDealInfo.md) | Class PaymentDealInfo |
+| [\YooKassa\Model\Deal\PayoutDealInfo](../classes/YooKassa-Model-Deal-PayoutDealInfo.md) | Class PayoutDealInfo |
+| [\YooKassa\Model\Deal\RefundDealData](../classes/YooKassa-Model-Deal-RefundDealData.md) | Class PaymentDealInfo |
+| [\YooKassa\Model\Deal\RefundDealInfo](../classes/YooKassa-Model-Deal-RefundDealInfo.md) | Class PaymentDealInfo |
+| [\YooKassa\Model\Deal\SettlementPayoutPayment](../classes/YooKassa-Model-Deal-SettlementPayoutPayment.md) | Class SettlementPayoutPayment |
+| [\YooKassa\Model\Deal\SettlementPayoutPaymentType](../classes/YooKassa-Model-Deal-SettlementPayoutPaymentType.md) | Базовый класс генерируемых enum&#039;ов |
+| [\YooKassa\Model\Deal\SettlementPayoutRefund](../classes/YooKassa-Model-Deal-SettlementPayoutRefund.md) | Class SettlementPayoutRefund |
 
 ---
 

@@ -27,7 +27,7 @@ SDK позволяет создавать, подтверждать, отмен�
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \testottest\Client();
+$client = new \YooKassa\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 try {
@@ -103,13 +103,13 @@ if (!empty($response)) {
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \testottest\Client();
+$client = new \YooKassa\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 try {
-    $builder = \testottest\Request\Payments\CreatePaymentRequest::builder();
+    $builder = \YooKassa\Request\Payments\CreatePaymentRequest::builder();
     $builder->setAmount(100)
-            ->setCurrency(\testottest\Model\CurrencyCode::RUB)
+            ->setCurrency(\YooKassa\Model\CurrencyCode::RUB)
             ->setCapture(true)
             ->setDescription('Оплата заказа 112233')
             ->setMetadata(array(
@@ -121,12 +121,12 @@ try {
 
     // Устанавливаем страницу для редиректа после оплаты
     $builder->setConfirmation(array(
-        'type'      => \testottest\Model\ConfirmationType::REDIRECT,
+        'type'      => \YooKassa\Model\ConfirmationType::REDIRECT,
         'returnUrl' => 'https://merchant-site.ru/payment-return-page',
     ));
 
     // Можем установить конкретный способ оплаты
-    $builder->setPaymentMethodData(\testottest\Model\PaymentMethodType::BANK_CARD);
+    $builder->setPaymentMethodData(\YooKassa\Model\PaymentMethodType::BANK_CARD);
 
     // Составляем чек
     $builder->setReceiptEmail('john.doe@merchant.com');
@@ -145,8 +145,8 @@ try {
         'Delivery/Shipping/Доставка',
         100,
         1,
-        \testottest\Model\Receipt\PaymentMode::FULL_PAYMENT,
-        \testottest\Model\Receipt\PaymentSubject::SERVICE
+        \YooKassa\Model\Receipt\PaymentMode::FULL_PAYMENT,
+        \YooKassa\Model\Receipt\PaymentSubject::SERVICE
     );
 
     // Можно добавить распределение денег по магазинам
@@ -155,14 +155,14 @@ try {
             'account_id' => 123456,
             'amount' => array(
                 'value' => 1000,
-                'currency' => \testottest\Model\CurrencyCode::RUB
+                'currency' => \YooKassa\Model\CurrencyCode::RUB
             ),
         ),
         array(
             'account_id' => 654321,
             'amount' => array(
                 'value' => 2000,
-                'currency' => \testottest\Model\CurrencyCode::RUB
+                'currency' => \YooKassa\Model\CurrencyCode::RUB
             ),
         )
     ));
@@ -201,7 +201,7 @@ var_dump($response);
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \testottest\Client();
+$client = new \YooKassa\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 $paymentId = '21b23b5b-000f-5061-a000-0674e49a8c10';
@@ -251,7 +251,7 @@ var_dump($response);
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \testottest\Client();
+$client = new \YooKassa\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 $paymentId = '215d8da0-000f-50be-b000-0003308c89be';
@@ -279,7 +279,7 @@ var_dump($response);
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \testottest\Client();
+$client = new \YooKassa\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 $paymentId = '215d8da0-000f-50be-b000-0003308c89be';
@@ -308,14 +308,14 @@ var_dump($response);
 ```php
 require_once 'vendor/autoload.php';
 
-$client = new \testottest\Client();
+$client = new \YooKassa\Client();
 $client->setAuth('xxxxxx', 'test_XXXXXXX');
 
 $cursor = null;
 $params = array(
     'limit' => 30,
-    'status' => \testottest\Model\PaymentStatus::CANCELED,
-    'payment_method' => \testottest\Model\PaymentMethodType::BANK_CARD,
+    'status' => \YooKassa\Model\PaymentStatus::CANCELED,
+    'payment_method' => \YooKassa\Model\PaymentMethodType::BANK_CARD,
     'created_at_gte' => '2021-01-01T00:00:00.000Z',
     'created_at_lt' => '2021-03-30T23:59:59.999Z',
 );

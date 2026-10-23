@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model;
+namespace Tests\YooKassa\Model;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Common\Exceptions\EmptyPropertyValueException;
@@ -77,7 +77,7 @@ class SettlementTest extends TestCase
      */
     public function validDataProvider()
     {
-        $result = [];
+        $result = array();
         for ($i = 0; $i < 10; $i++) {
             $result[] = array(
                 'type' => Random::value(SettlementType::getValidValues()),

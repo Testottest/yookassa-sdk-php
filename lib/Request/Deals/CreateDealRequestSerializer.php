@@ -43,7 +43,7 @@ class CreateDealRequestSerializer
      */
     public function serialize(CreateDealRequestInterface $request)
     {
-        $result = [];
+        $result = array();
 
         if ($request->hasType()) {
             $result['type'] = $request->getType();

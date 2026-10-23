@@ -58,7 +58,7 @@ class AbstractPaymentRequest extends AbstractRequest
     /**
      * @var TransferInterface[]
      */
-    private $_transfers = [];
+    private $_transfers = array();
 
     /**
      * Возвращает сумму оплаты
@@ -156,7 +156,7 @@ class AbstractPaymentRequest extends AbstractRequest
     {
         if ($value === null || is_array($value)) {
             if (is_array($value)) {
-                $transfers = [];
+                $transfers = array();
                 foreach ($value as $item) {
                     if (is_array($item)) {
                         $item = new Transfer($item);

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\Notification;
+namespace Tests\YooKassa\Model\Notification;
 
 use testottest\Helpers\Random;
 use testottest\Model\Notification\NotificationPayoutCanceled;
@@ -58,7 +58,7 @@ class NotificationPayoutCanceledTest extends AbstractNotificationTest
      */
     public function validDataProvider()
     {
-        $result = [];
+        $result = array();
         $cancellationDetailsParties = PayoutCancellationDetailsPartyCode::getValidValues();
         $countCancellationDetailsParties = count($cancellationDetailsParties);
         $cancellationDetailsReasons = PayoutCancellationDetailsReasonCode::getValidValues();

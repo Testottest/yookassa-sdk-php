@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\PaymentMethod;
+namespace Tests\YooKassa\Model\PaymentMethod;
 
 use testottest\Helpers\Random;
 use testottest\Model\CurrencyCode;

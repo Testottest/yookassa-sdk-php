@@ -82,7 +82,7 @@ class ConfirmationFactoryTest extends TestCase
 
     public function validTypeDataProvider()
     {
-        $result = [];
+        $result = array();
         foreach (ConfirmationType::getValidValues() as $value) {
             $result[] = array($value);
         }

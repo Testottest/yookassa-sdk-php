@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\Notification;
+namespace Tests\YooKassa\Model\Notification;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -75,7 +75,7 @@ class NotificationFactoryTest extends TestCase
      */
     public function validArrayDataProvider()
     {
-        $result = [];
+        $result = array();
 
         for ($i = 0; $i < 12; $i++) {
             $eventType = Random::value(NotificationEventType::getEnabledValues());

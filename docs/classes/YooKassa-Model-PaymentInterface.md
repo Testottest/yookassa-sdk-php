@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: PaymentInterface
-### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
+### Namespace: [\YooKassa\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -88,7 +88,7 @@ public getId() : string
 Возвращает идентификатор платежа
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
 **Returns:** string - Идентификатор платежа
 
@@ -105,16 +105,16 @@ public getStatus() : string
 Возвращает состояние платежа
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
 **Returns:** string - Текущее состояние платежа
 
 
 <a name="method_getRecipient" class="anchor"></a>
-#### public getRecipient() : \testottest\Model\RecipientInterface|null
+#### public getRecipient() : \YooKassa\Model\RecipientInterface|null
 
 ```php
-public getRecipient() : \testottest\Model\RecipientInterface|null
+public getRecipient() : \YooKassa\Model\RecipientInterface|null
 ```
 
 **Summary**
@@ -122,16 +122,16 @@ public getRecipient() : \testottest\Model\RecipientInterface|null
 Возвращает получателя платежа
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
-**Returns:** \testottest\Model\RecipientInterface|null - Получатель платежа или null, если получатель не задан
+**Returns:** \YooKassa\Model\RecipientInterface|null - Получатель платежа или null, если получатель не задан
 
 
 <a name="method_getAmount" class="anchor"></a>
-#### public getAmount() : \testottest\Model\AmountInterface
+#### public getAmount() : \YooKassa\Model\AmountInterface
 
 ```php
-public getAmount() : \testottest\Model\AmountInterface
+public getAmount() : \YooKassa\Model\AmountInterface
 ```
 
 **Summary**
@@ -139,16 +139,16 @@ public getAmount() : \testottest\Model\AmountInterface
 Возвращает сумму
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
-**Returns:** \testottest\Model\AmountInterface - Сумма платежа
+**Returns:** \YooKassa\Model\AmountInterface - Сумма платежа
 
 
 <a name="method_getPaymentMethod" class="anchor"></a>
-#### public getPaymentMethod() : \testottest\Model\PaymentMethod\AbstractPaymentMethod
+#### public getPaymentMethod() : \YooKassa\Model\PaymentMethod\AbstractPaymentMethod
 
 ```php
-public getPaymentMethod() : \testottest\Model\PaymentMethod\AbstractPaymentMethod
+public getPaymentMethod() : \YooKassa\Model\PaymentMethod\AbstractPaymentMethod
 ```
 
 **Summary**
@@ -156,9 +156,9 @@ public getPaymentMethod() : \testottest\Model\PaymentMethod\AbstractPaymentMetho
 Возвращает используемый способ проведения платежа
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
-**Returns:** \testottest\Model\PaymentMethod\AbstractPaymentMethod - Способ проведения платежа
+**Returns:** \YooKassa\Model\PaymentMethod\AbstractPaymentMethod - Способ проведения платежа
 
 
 <a name="method_getCreatedAt" class="anchor"></a>
@@ -173,7 +173,7 @@ public getCreatedAt() : \DateTime
 Возвращает время создания заказа
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
 **Returns:** \DateTime - Время создания заказа
 
@@ -190,16 +190,16 @@ public getCapturedAt() : \DateTime|null
 Возвращает время подтверждения платежа магазином или null, если время не задано
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
 **Returns:** \DateTime|null - Время подтверждения платежа магазином
 
 
 <a name="method_getConfirmation" class="anchor"></a>
-#### public getConfirmation() : \testottest\Model\Confirmation\AbstractConfirmation
+#### public getConfirmation() : \YooKassa\Model\Confirmation\AbstractConfirmation
 
 ```php
-public getConfirmation() : \testottest\Model\Confirmation\AbstractConfirmation
+public getConfirmation() : \YooKassa\Model\Confirmation\AbstractConfirmation
 ```
 
 **Summary**
@@ -207,16 +207,16 @@ public getConfirmation() : \testottest\Model\Confirmation\AbstractConfirmation
 Возвращает способ подтверждения платежа
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
-**Returns:** \testottest\Model\Confirmation\AbstractConfirmation - Способ подтверждения платежа
+**Returns:** \YooKassa\Model\Confirmation\AbstractConfirmation - Способ подтверждения платежа
 
 
 <a name="method_getRefundedAmount" class="anchor"></a>
-#### public getRefundedAmount() : \testottest\Model\AmountInterface
+#### public getRefundedAmount() : \YooKassa\Model\AmountInterface
 
 ```php
-public getRefundedAmount() : \testottest\Model\AmountInterface
+public getRefundedAmount() : \YooKassa\Model\AmountInterface
 ```
 
 **Summary**
@@ -224,9 +224,9 @@ public getRefundedAmount() : \testottest\Model\AmountInterface
 Возвращает сумму возвращенных средств
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
-**Returns:** \testottest\Model\AmountInterface - Сумма возвращенных средств платежа
+**Returns:** \YooKassa\Model\AmountInterface - Сумма возвращенных средств платежа
 
 
 <a name="method_getPaid" class="anchor"></a>
@@ -241,7 +241,7 @@ public getPaid() : bool
 Проверяет, был ли уже оплачен заказ
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
 **Returns:** bool - Признак оплаты заказа, true если заказ оплачен, false если нет
 
@@ -258,7 +258,7 @@ public getRefundable() : bool
 Возможность провести возврат по API
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
 **Returns:** bool - Возможность провести возврат по API
 
@@ -275,16 +275,16 @@ public getReceiptRegistration() : string
 Возвращает состояние регистрации фискального чека
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
 **Returns:** string - Состояние регистрации фискального чека
 
 
 <a name="method_getMetadata" class="anchor"></a>
-#### public getMetadata() : \testottest\Model\Metadata
+#### public getMetadata() : \YooKassa\Model\Metadata
 
 ```php
-public getMetadata() : \testottest\Model\Metadata
+public getMetadata() : \YooKassa\Model\Metadata
 ```
 
 **Summary**
@@ -292,9 +292,9 @@ public getMetadata() : \testottest\Model\Metadata
 Возвращает метаданные платежа установленные мерчантом
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
-**Returns:** \testottest\Model\Metadata - Метаданные платежа указанные мерчантом
+**Returns:** \YooKassa\Model\Metadata - Метаданные платежа указанные мерчантом
 
 
 <a name="method_getExpiresAt" class="anchor"></a>
@@ -309,7 +309,7 @@ public getExpiresAt() : \DateTime|null
 Возвращает время до которого можно бесплатно отменить или подтвердить платеж, или null, если оно не задано
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
 **Returns:** \DateTime|null - Время, до которого можно бесплатно отменить или подтвердить платеж
 
@@ -319,10 +319,10 @@ public getExpiresAt() : \DateTime|null
 | since | 1.0.2 |  |
 
 <a name="method_getCancellationDetails" class="anchor"></a>
-#### public getCancellationDetails() : \testottest\Model\CancellationDetailsInterface|null
+#### public getCancellationDetails() : \YooKassa\Model\CancellationDetailsInterface|null
 
 ```php
-public getCancellationDetails() : \testottest\Model\CancellationDetailsInterface|null
+public getCancellationDetails() : \YooKassa\Model\CancellationDetailsInterface|null
 ```
 
 **Summary**
@@ -330,9 +330,9 @@ public getCancellationDetails() : \testottest\Model\CancellationDetailsInterface
 Возвращает комментарий к статусу canceled: кто отменил платеж и по какой причине
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
-**Returns:** \testottest\Model\CancellationDetailsInterface|null - Комментарий к статусу canceled
+**Returns:** \YooKassa\Model\CancellationDetailsInterface|null - Комментарий к статусу canceled
 
 ##### Tags
 | Tag | Version | Description |
@@ -340,10 +340,10 @@ public getCancellationDetails() : \testottest\Model\CancellationDetailsInterface
 | since | 1.0.13 |  |
 
 <a name="method_getAuthorizationDetails" class="anchor"></a>
-#### public getAuthorizationDetails() : \testottest\Model\AuthorizationDetailsInterface|null
+#### public getAuthorizationDetails() : \YooKassa\Model\AuthorizationDetailsInterface|null
 
 ```php
-public getAuthorizationDetails() : \testottest\Model\AuthorizationDetailsInterface|null
+public getAuthorizationDetails() : \YooKassa\Model\AuthorizationDetailsInterface|null
 ```
 
 **Summary**
@@ -351,9 +351,9 @@ public getAuthorizationDetails() : \testottest\Model\AuthorizationDetailsInterfa
 Возвращает данные об авторизации платежа
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
-**Returns:** \testottest\Model\AuthorizationDetailsInterface|null - Данные об авторизации платежа
+**Returns:** \YooKassa\Model\AuthorizationDetailsInterface|null - Данные об авторизации платежа
 
 ##### Tags
 | Tag | Version | Description |
@@ -361,10 +361,10 @@ public getAuthorizationDetails() : \testottest\Model\AuthorizationDetailsInterfa
 | since | 1.0.18 |  |
 
 <a name="method_getTransfers" class="anchor"></a>
-#### public getTransfers() : \testottest\Model\TransferInterface[]
+#### public getTransfers() : \YooKassa\Model\TransferInterface[]
 
 ```php
-public getTransfers() : \testottest\Model\TransferInterface[]
+public getTransfers() : \YooKassa\Model\TransferInterface[]
 ```
 
 **Summary**
@@ -372,16 +372,16 @@ public getTransfers() : \testottest\Model\TransferInterface[]
 Возвращает данные о распределении платежа между магазинами
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
-**Returns:** \testottest\Model\TransferInterface[] - 
+**Returns:** \YooKassa\Model\TransferInterface[] - 
 
 
 <a name="method_getIncomeAmount" class="anchor"></a>
-#### public getIncomeAmount() : \testottest\Model\MonetaryAmount|null
+#### public getIncomeAmount() : \YooKassa\Model\MonetaryAmount|null
 
 ```php
-public getIncomeAmount() : \testottest\Model\MonetaryAmount|null
+public getIncomeAmount() : \YooKassa\Model\MonetaryAmount|null
 ```
 
 **Summary**
@@ -389,16 +389,16 @@ public getIncomeAmount() : \testottest\Model\MonetaryAmount|null
 Возвращает сумму перечисляемая магазину за вычетом комиссий платежной системы.(только для успешных платежей)
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
-**Returns:** \testottest\Model\MonetaryAmount|null - 
+**Returns:** \YooKassa\Model\MonetaryAmount|null - 
 
 
 <a name="method_getDeal" class="anchor"></a>
-#### public getDeal() : \testottest\Model\Deal\PaymentDealInfo
+#### public getDeal() : \YooKassa\Model\Deal\PaymentDealInfo
 
 ```php
-public getDeal() : \testottest\Model\Deal\PaymentDealInfo
+public getDeal() : \YooKassa\Model\Deal\PaymentDealInfo
 ```
 
 **Summary**
@@ -406,9 +406,9 @@ public getDeal() : \testottest\Model\Deal\PaymentDealInfo
 Возвращает сделку, в рамках которой нужно провести платеж.
 
 **Details:**
-* Inherited From: [\testottest\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
+* Inherited From: [\YooKassa\Model\PaymentInterface](../classes/YooKassa-Model-PaymentInterface.md)
 
-**Returns:** \testottest\Model\Deal\PaymentDealInfo - Сделка, в рамках которой нужно провести платеж
+**Returns:** \YooKassa\Model\Deal\PaymentDealInfo - Сделка, в рамках которой нужно провести платеж
 
 
 

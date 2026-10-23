@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Payments;
+namespace Tests\YooKassa\Request\Payments;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -138,7 +138,7 @@ class CreatePostReceiptRequestSerializerTest extends TestCase
      */
     private function getReceiptItems($count)
     {
-        $result = [];
+        $result = array();
         for ($i = 0; $i < $count; $i++) {
             $result[] = array(
                 'description' => Random::str(10),
@@ -167,7 +167,7 @@ class CreatePostReceiptRequestSerializerTest extends TestCase
      */
     private function getSettlements($count)
     {
-        $result = [];
+        $result = array();
         for ($i = 0; $i < $count; $i++) {
             $result[] = array(
                 'type' => Random::value(SettlementType::getValidValues()),

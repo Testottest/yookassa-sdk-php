@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: CreateDealRequestInterface
-### Namespace: [\testottest\Request\Deals](../namespaces/yookassa-request-deals.md)
+### Namespace: [\YooKassa\Request\Deals](../namespaces/yookassa-request-deals.md)
 ---
 **Summary:**
 
@@ -57,7 +57,7 @@ public getType() : string
 Возвращает тип сделки
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
 
 **Returns:** string - Тип сделки
 
@@ -74,7 +74,7 @@ public hasType() : bool
 Проверяет наличие типа в создаваемой сделке
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
 
 **Returns:** bool - True если тип сделки установлен, false если нет
 
@@ -91,7 +91,7 @@ public setType(string $value) : mixed
 Устанавливает тип сделки
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -113,7 +113,7 @@ public getFeeMoment() : string
 Возвращает момент перечисления вам вознаграждения платформы
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
 
 **Returns:** string - Момент перечисления вознаграждения
 
@@ -130,7 +130,7 @@ public hasFeeMoment() : bool
 Проверяет наличие момента перечисления вознаграждения в создаваемой сделке
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
 
 **Returns:** bool - True если момент перечисления вознаграждения установлен, false если нет
 
@@ -147,7 +147,7 @@ public setFeeMoment(string $value) : mixed
 Устанавливает момент перечисления вознаграждения платформы
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -169,7 +169,7 @@ public getDescription() : string
 Возвращает описание сделки (не более 128 символов).
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
 
 **Returns:** string - Описание сделки
 
@@ -186,7 +186,7 @@ public hasDescription() : bool
 Проверяет наличие описания в создаваемой сделке
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
 
 **Returns:** bool - True если описание сделки установлено, false если нет
 
@@ -203,7 +203,7 @@ public setDescription(string $value) : mixed
 Устанавливает описание сделки
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -214,10 +214,10 @@ public setDescription(string $value) : mixed
 
 
 <a name="method_getMetadata" class="anchor"></a>
-#### public getMetadata() : \testottest\Model\Metadata
+#### public getMetadata() : \YooKassa\Model\Metadata
 
 ```php
-public getMetadata() : \testottest\Model\Metadata
+public getMetadata() : \YooKassa\Model\Metadata
 ```
 
 **Summary**
@@ -225,9 +225,9 @@ public getMetadata() : \testottest\Model\Metadata
 Возвращает дополнительные данные сделки
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
 
-**Returns:** \testottest\Model\Metadata - Дополнительные данные сделки
+**Returns:** \YooKassa\Model\Metadata - Дополнительные данные сделки
 
 
 <a name="method_hasMetadata" class="anchor"></a>
@@ -242,7 +242,7 @@ public hasMetadata() : bool
 Проверяет, были ли установлены метаданные сделки
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
 
 **Returns:** bool - True если метаданные были установлены, false если нет
 
@@ -251,7 +251,7 @@ public hasMetadata() : bool
 #### public setMetadata() : mixed
 
 ```php
-public setMetadata(\testottest\Model\Metadata|array|null $value) : mixed
+public setMetadata(\YooKassa\Model\Metadata|array|null $value) : mixed
 ```
 
 **Summary**
@@ -259,12 +259,12 @@ public setMetadata(\testottest\Model\Metadata|array|null $value) : mixed
 Устанавливает метаданные, привязанные к сделке
 
 **Details:**
-* Inherited From: [\testottest\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Deals\CreateDealRequestInterface](../classes/YooKassa-Request-Deals-CreateDealRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\Metadata OR array OR null</code> | value  | Метаданные сделки, устанавливаемые мерчантом |
+| <code lang="php">\YooKassa\Model\Metadata OR array OR null</code> | value  | Метаданные сделки, устанавливаемые мерчантом |
 
 **Returns:** mixed - 
 

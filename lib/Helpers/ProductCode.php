@@ -294,7 +294,7 @@ class ProductCode
 
         $length = strlen($numString);
         $result = '';
-        $number = [];
+        $number = array();
 
         for ($i = 0; $i < $length; $i++) {
             $number[$i] = strpos($chars, substr($numString, $i, 1));

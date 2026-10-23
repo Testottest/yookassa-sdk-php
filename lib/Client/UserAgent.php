@@ -83,7 +83,7 @@ class UserAgent
      */
     public function getHeaderString()
     {
-        $result = [];
+        $result = array();
 
         $result[] = $this->getOs();
         $result[] = $this->getPhp();
@@ -243,7 +243,7 @@ class UserAgent
      */
     private function parseSmartLinuxRelease()
     {
-        $vars = [];
+        $vars = array();
 
         if ($files = glob('/etc/*elease')) {
             foreach ($files as $file) {
@@ -286,7 +286,7 @@ class UserAgent
      */
     private function parseSimpleLinuxRelease()
     {
-        $vars = [];
+        $vars = array();
 
         if ($files = glob('/etc/*elease')) {
             foreach ($files as $file) {
@@ -311,7 +311,7 @@ class UserAgent
      */
     private static function callbackSimpleLinux($line)
     {
-        $parse = [];
+        $parse = array();
         preg_match('/(.+) release (.+) (.+)/iu', $line, $parts);
         if (!empty($parts[1])) {
             $parse['name'] = str_replace(' ', '.', trim($parts[1]));

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Model\AuthorizationDetails
-### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
+# Class: \YooKassa\Model\AuthorizationDetails
+### Namespace: [\YooKassa\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -49,10 +49,10 @@ AuthorizationDetails - Данные об авторизации платежа
 * File: [lib/Model/AuthorizationDetails.php](../../lib/Model/AuthorizationDetails.php)
 * Package: Default
 * Class Hierarchy: 
-  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * \testottest\Model\AuthorizationDetails
+  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * \YooKassa\Model\AuthorizationDetails
 * Implements:
-  * [\testottest\Model\AuthorizationDetailsInterface](../classes/YooKassa-Model-AuthorizationDetailsInterface.md)
+  * [\YooKassa\Model\AuthorizationDetailsInterface](../classes/YooKassa-Model-AuthorizationDetailsInterface.md)
 
 ---
 ## Properties
@@ -80,13 +80,13 @@ Retrieval Reference Number — уникальный идентификатор �
 
 
 <a name="property_threeDSecure"></a>
-#### public $threeDSecure : \testottest\Model\ThreeDSecure
+#### public $threeDSecure : \YooKassa\Model\ThreeDSecure
 ---
 ***Description***
 
 Данные о прохождении пользователем аутентификации по 3‑D Secure
 
-**Type:** <a href="../classes/YooKassa-Model-ThreeDSecure.html"><abbr title="\testottest\Model\ThreeDSecure">ThreeDSecure</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-ThreeDSecure.html"><abbr title="\YooKassa\Model\ThreeDSecure">ThreeDSecure</abbr></a>
 
 **Details:**
 
@@ -98,7 +98,7 @@ Retrieval Reference Number — уникальный идентификатор �
 #### public __construct() : mixed
 
 ```php
-public __construct(array $data = []) : mixed
+public __construct(array $data = array()) : mixed
 ```
 
 **Summary**
@@ -106,7 +106,7 @@ public __construct(array $data = []) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -128,7 +128,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -150,7 +150,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -172,7 +172,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -195,7 +195,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -217,7 +217,7 @@ public fromArray(mixed $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\testottest\Model\AuthorizationDetails](../classes/YooKassa-Model-AuthorizationDetails.md)
+* Inherited From: [\YooKassa\Model\AuthorizationDetails](../classes/YooKassa-Model-AuthorizationDetails.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -239,7 +239,7 @@ public getAuthCode() : string|null
 Возвращает код авторизации банковской карты
 
 **Details:**
-* Inherited From: [\testottest\Model\AuthorizationDetails](../classes/YooKassa-Model-AuthorizationDetails.md)
+* Inherited From: [\YooKassa\Model\AuthorizationDetails](../classes/YooKassa-Model-AuthorizationDetails.md)
 
 **Returns:** string|null - Код авторизации банковской карты
 
@@ -256,16 +256,16 @@ public getRrn() : string|null
 Возвращает уникальный идентификатор транзакции
 
 **Details:**
-* Inherited From: [\testottest\Model\AuthorizationDetails](../classes/YooKassa-Model-AuthorizationDetails.md)
+* Inherited From: [\YooKassa\Model\AuthorizationDetails](../classes/YooKassa-Model-AuthorizationDetails.md)
 
 **Returns:** string|null - Уникальный идентификатор транзакции
 
 
 <a name="method_getThreeDSecure" class="anchor"></a>
-#### public getThreeDSecure() : \testottest\Model\ThreeDSecure|null
+#### public getThreeDSecure() : \YooKassa\Model\ThreeDSecure|null
 
 ```php
-public getThreeDSecure() : \testottest\Model\ThreeDSecure|null
+public getThreeDSecure() : \YooKassa\Model\ThreeDSecure|null
 ```
 
 **Summary**
@@ -273,9 +273,9 @@ public getThreeDSecure() : \testottest\Model\ThreeDSecure|null
 Возвращает данные о прохождении пользователем аутентификации по 3‑D Secure
 
 **Details:**
-* Inherited From: [\testottest\Model\AuthorizationDetails](../classes/YooKassa-Model-AuthorizationDetails.md)
+* Inherited From: [\YooKassa\Model\AuthorizationDetails](../classes/YooKassa-Model-AuthorizationDetails.md)
 
-**Returns:** \testottest\Model\ThreeDSecure|null - Объект с данными о прохождении пользователем аутентификации по 3‑D Secure
+**Returns:** \YooKassa\Model\ThreeDSecure|null - Объект с данными о прохождении пользователем аутентификации по 3‑D Secure
 
 
 <a name="method_jsonSerialize" class="anchor"></a>
@@ -290,7 +290,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -307,7 +307,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -329,7 +329,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -351,7 +351,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -374,7 +374,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -396,7 +396,7 @@ public setAuthCode($value) : mixed
 Устанавливает код авторизации банковской карты
 
 **Details:**
-* Inherited From: [\testottest\Model\AuthorizationDetails](../classes/YooKassa-Model-AuthorizationDetails.md)
+* Inherited From: [\YooKassa\Model\AuthorizationDetails](../classes/YooKassa-Model-AuthorizationDetails.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -406,7 +406,7 @@ public setAuthCode($value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException |  |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException |  |
 
 **Returns:** mixed - 
 
@@ -423,7 +423,7 @@ public setRrn($value) : mixed
 Устанавливает уникальный идентификатор транзакции
 
 **Details:**
-* Inherited From: [\testottest\Model\AuthorizationDetails](../classes/YooKassa-Model-AuthorizationDetails.md)
+* Inherited From: [\YooKassa\Model\AuthorizationDetails](../classes/YooKassa-Model-AuthorizationDetails.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -433,7 +433,7 @@ public setRrn($value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException |  |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException |  |
 
 **Returns:** mixed - 
 
@@ -442,7 +442,7 @@ public setRrn($value) : mixed
 #### public setThreeDSecure() : mixed
 
 ```php
-public setThreeDSecure(\testottest\Model\ThreeDSecure|array $value) : mixed
+public setThreeDSecure(\YooKassa\Model\ThreeDSecure|array $value) : mixed
 ```
 
 **Summary**
@@ -450,17 +450,17 @@ public setThreeDSecure(\testottest\Model\ThreeDSecure|array $value) : mixed
 Устанавливает данные о прохождении пользователем аутентификации по 3‑D Secure
 
 **Details:**
-* Inherited From: [\testottest\Model\AuthorizationDetails](../classes/YooKassa-Model-AuthorizationDetails.md)
+* Inherited From: [\YooKassa\Model\AuthorizationDetails](../classes/YooKassa-Model-AuthorizationDetails.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\ThreeDSecure OR array</code> | value  | Данные о прохождении аутентификации по 3‑D Secure |
+| <code lang="php">\YooKassa\Model\ThreeDSecure OR array</code> | value  | Данные о прохождении аутентификации по 3‑D Secure |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException |  |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException |  |
 
 **Returns:** mixed - 
 
@@ -478,7 +478,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -495,7 +495,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

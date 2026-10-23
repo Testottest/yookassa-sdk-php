@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Refunds;
+namespace Tests\YooKassa\Request\Refunds;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;

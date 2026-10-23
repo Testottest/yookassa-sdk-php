@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model;
+namespace Tests\YooKassa\Model;
 
 use testottest\Helpers\ProductCode;
 use testottest\Helpers\Random;

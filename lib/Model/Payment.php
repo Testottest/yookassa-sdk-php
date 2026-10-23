@@ -174,7 +174,7 @@ class Payment extends AbstractObject implements PaymentInterface
     /**
      * @var TransferInterface[]
      */
-    private $_transfers = [];
+    private $_transfers = array();
 
     /**
      * @var MonetaryAmount

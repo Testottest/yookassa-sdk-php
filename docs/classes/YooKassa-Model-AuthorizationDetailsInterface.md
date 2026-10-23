@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: AuthorizationDetailsInterface
-### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
+### Namespace: [\YooKassa\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -46,7 +46,7 @@ public getRrn() : string|null
 Возвращает Retrieval Reference Number — уникальный идентификатор транзакции в системе эмитента
 
 **Details:**
-* Inherited From: [\testottest\Model\AuthorizationDetailsInterface](../classes/YooKassa-Model-AuthorizationDetailsInterface.md)
+* Inherited From: [\YooKassa\Model\AuthorizationDetailsInterface](../classes/YooKassa-Model-AuthorizationDetailsInterface.md)
 
 **Returns:** string|null - Уникальный идентификатор транзакции
 
@@ -63,16 +63,16 @@ public getAuthCode() : string|null
 Возвращает код авторизации банковской карты
 
 **Details:**
-* Inherited From: [\testottest\Model\AuthorizationDetailsInterface](../classes/YooKassa-Model-AuthorizationDetailsInterface.md)
+* Inherited From: [\YooKassa\Model\AuthorizationDetailsInterface](../classes/YooKassa-Model-AuthorizationDetailsInterface.md)
 
 **Returns:** string|null - Код авторизации банковской карты
 
 
 <a name="method_getThreeDSecure" class="anchor"></a>
-#### public getThreeDSecure() : \testottest\Model\ThreeDSecure|null
+#### public getThreeDSecure() : \YooKassa\Model\ThreeDSecure|null
 
 ```php
-public getThreeDSecure() : \testottest\Model\ThreeDSecure|null
+public getThreeDSecure() : \YooKassa\Model\ThreeDSecure|null
 ```
 
 **Summary**
@@ -80,9 +80,9 @@ public getThreeDSecure() : \testottest\Model\ThreeDSecure|null
 Возвращает данные о прохождении пользователем аутентификации по 3‑D Secure
 
 **Details:**
-* Inherited From: [\testottest\Model\AuthorizationDetailsInterface](../classes/YooKassa-Model-AuthorizationDetailsInterface.md)
+* Inherited From: [\YooKassa\Model\AuthorizationDetailsInterface](../classes/YooKassa-Model-AuthorizationDetailsInterface.md)
 
-**Returns:** \testottest\Model\ThreeDSecure|null - Объект с данными о прохождении пользователем аутентификации по 3‑D Secure
+**Returns:** \YooKassa\Model\ThreeDSecure|null - Объект с данными о прохождении пользователем аутентификации по 3‑D Secure
 
 
 

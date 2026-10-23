@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\Payout;
+namespace Tests\YooKassa\Model\Payout;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Model\CancellationDetails;
@@ -99,7 +99,7 @@ class PayoutCancellationDetailsTest extends TestCase
      */
     public function validDataProvider()
     {
-        $result                          = [];
+        $result                          = array();
         $cancellationDetailsParties      = CancellationDetailsPartyCode::getValidValues();
         $countCancellationDetailsParties = count($cancellationDetailsParties);
         $cancellationDetailsReasons      = CancellationDetailsReasonCode::getValidValues();

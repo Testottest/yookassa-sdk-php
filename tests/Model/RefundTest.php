@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model;
+namespace Tests\YooKassa\Model;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -128,7 +128,7 @@ class RefundTest extends TestCase
      */
     public function validSources()
     {
-        $sources = [];
+        $sources = array();
         for($i = 0; $i < 10; $i++) {
             $sources[$i][] = array(
                 'account_id' => (string)Random::int(11111111, 99999999),
@@ -236,7 +236,7 @@ class RefundTest extends TestCase
      */
     public function validStatusDataProvider()
     {
-        $result = [];
+        $result = array();
         foreach (RefundStatus::getValidValues() as $value) {
             $result[] = array($value);
             $result[] = array(new StringObject($value));
@@ -486,7 +486,7 @@ class RefundTest extends TestCase
      */
     public function validReceiptRegisteredDataProvider()
     {
-        $result = [];
+        $result = array();
         foreach (ReceiptRegistrationStatus::getValidValues() as $value) {
             $result[] = array($value);
             $result[] = array(new StringObject($value));

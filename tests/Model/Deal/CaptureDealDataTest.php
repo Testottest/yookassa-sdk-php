@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\Deal;
+namespace Tests\YooKassa\Model\Deal;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -30,7 +30,7 @@ class CaptureDealDataTest extends TestCase
 
     public function validDataProvider()
     {
-        $result = [];
+        $result = array();
         for ($i = 0; $i < 10; $i++) {
             $payment = array(
                 'settlements' => $this->generateSettlements(),
@@ -77,7 +77,7 @@ class CaptureDealDataTest extends TestCase
     public function fromArrayDataProvider()
     {
         $deal = new CaptureDealData();
-        $settlements = [];
+        $settlements = array();
         $settlements[] = new SettlementPayoutPayment(array(
             'type' => SettlementPayoutPaymentType::PAYOUT,
             'amount' => array(
@@ -107,7 +107,7 @@ class CaptureDealDataTest extends TestCase
 
     private function generateSettlements()
     {
-        $return = [];
+        $return = array();
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {

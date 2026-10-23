@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Common\Exceptions;
+namespace Tests\YooKassa\Common\Exceptions;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Common\AbstractRequest;

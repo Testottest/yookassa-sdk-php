@@ -318,7 +318,7 @@ class BaseClient
      */
     protected function encodeData($serializedData)
     {
-        if ($serializedData === []) {
+        if ($serializedData === array()) {
             return '{}';
         }
 
@@ -460,7 +460,7 @@ class BaseClient
      * @throws ApiConnectionException
      * @throws ExtensionNotFoundException
      */
-    protected function execute($path, $method, $queryParams, $httpBody = null, $headers = [])
+    protected function execute($path, $method, $queryParams, $httpBody = null, $headers = array())
     {
         $attempts = $this->attempts;
         $response = $this->apiClient->call($path, $method, $queryParams, $httpBody, $headers);

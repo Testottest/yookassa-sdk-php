@@ -103,10 +103,10 @@ abstract class AbstractReceiptResponse extends AbstractObject implements Receipt
     private $_fiscalProviderId;
 
     /** @var ReceiptResponseItemInterface[] Список товаров в заказе */
-    private $_items = [];
+    private $_items = array();
 
     /** @var SettlementInterface[] Список оплат */
-    private $_settlements = [];
+    private $_settlements = array();
 
     /** @var int Код системы налогообложения. Число 1-6. */
     private $_taxSystemCode;
@@ -155,7 +155,7 @@ abstract class AbstractReceiptResponse extends AbstractObject implements Receipt
         }
         if (!empty($receiptData['items'])) {
             if (is_array($receiptData['items']) && count($receiptData['items'])) {
-                $itemsArray = [];
+                $itemsArray = array();
                 foreach ($receiptData['items'] as $item) {
                     $itemsArray[] = new ReceiptResponseItem($item);
                 }
@@ -168,7 +168,7 @@ abstract class AbstractReceiptResponse extends AbstractObject implements Receipt
         }
         if (!empty($receiptData['settlements'])) {
             if (is_array($receiptData['settlements']) && count($receiptData['settlements'])) {
-                $itemsArray = [];
+                $itemsArray = array();
                 foreach ($receiptData['settlements'] as $item) {
                     $itemsArray[] = new Settlement($item);
                 }
@@ -457,7 +457,7 @@ abstract class AbstractReceiptResponse extends AbstractObject implements Receipt
                 'Invalid items value type in receipt', 0, 'receipt.items', $value
             );
         }
-        $this->_items = [];
+        $this->_items = array();
         foreach ($value as $key => $val) {
             if (is_object($val) && $val instanceof ReceiptResponseItemInterface) {
                 $this->addItem($val);
@@ -504,7 +504,7 @@ abstract class AbstractReceiptResponse extends AbstractObject implements Receipt
                 'Invalid settlements value type in receipt', 0, 'receipt.settlements', $value
             );
         }
-        $this->_settlements = [];
+        $this->_settlements = array();
         foreach ($value as $key => $val) {
             if (is_array($val)) {
                 $this->addSettlement(new Settlement($val));

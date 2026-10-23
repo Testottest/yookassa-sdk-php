@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\Notification;
+namespace Tests\YooKassa\Model\Notification;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;

@@ -61,7 +61,7 @@ class DealsRequestSerializer
      */
     public function serialize(DealsRequestInterface $request)
     {
-        $result = [];
+        $result = array();
         foreach (self::$propertyMap as $property => $name) {
             $value = $request->{$property};
             if (!empty($value)) {

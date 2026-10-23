@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Payments\Payment;
+namespace Tests\YooKassa\Request\Payments\Payment;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -121,7 +121,7 @@ class CreateCaptureRequestTest extends TestCase
 
     public function validDataProvider()
     {
-        $result = [];
+        $result = array();
         $currencies = CurrencyCode::getValidValues();
         for ($i = 0; $i < 10; $i++) {
             $request = array(

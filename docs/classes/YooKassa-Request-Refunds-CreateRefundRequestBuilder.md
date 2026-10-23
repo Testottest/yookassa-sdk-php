@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Request\Refunds\CreateRefundRequestBuilder
-### Namespace: [\testottest\Request\Refunds](../namespaces/yookassa-request-refunds.md)
+# Class: \YooKassa\Request\Refunds\CreateRefundRequestBuilder
+### Namespace: [\YooKassa\Request\Refunds](../namespaces/yookassa-request-refunds.md)
 ---
 **Summary:**
 
@@ -15,11 +15,11 @@
 ```php
 // Создание запроса возврата через билдер
 try {
-    $refundBuilder = \testottest\Request\Refunds\CreateRefundRequest::builder();
+    $refundBuilder = \YooKassa\Request\Refunds\CreateRefundRequest::builder();
     $refundBuilder
                 ->setPaymentId('24b94598-000f-5000-9000-1b68e7b15f3f')
                 ->setAmount(3500.00)
-                ->setCurrency(\testottest\Model\CurrencyCode::RUB)
+                ->setCurrency(\YooKassa\Model\CurrencyCode::RUB)
                 ->setDescription('Не подошел цвет')
                 ->setReceiptItems(array(
                     array(
@@ -92,61 +92,61 @@ try {
 * File: [lib/Request/Refunds/CreateRefundRequestBuilder.php](../../lib/Request/Refunds/CreateRefundRequestBuilder.php)
 * Package: YooKassa
 * Class Hierarchy:  
-  * [\testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
-  * [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
-  * \testottest\Request\Refunds\CreateRefundRequestBuilder
+  * [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+  * [\YooKassa\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+  * \YooKassa\Request\Refunds\CreateRefundRequestBuilder
 
 ---
 ## Properties
 <a name="property_amount"></a>
-#### protected $amount : \testottest\Model\MonetaryAmount
+#### protected $amount : \YooKassa\Model\MonetaryAmount
 ---
 **Summary**
 
 Сумма
 
-**Type:** <a href="../classes/YooKassa-Model-MonetaryAmount.html"><abbr title="\testottest\Model\MonetaryAmount">MonetaryAmount</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-MonetaryAmount.html"><abbr title="\YooKassa\Model\MonetaryAmount">MonetaryAmount</abbr></a>
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 
 <a name="property_currentObject"></a>
-#### protected $currentObject : \testottest\Request\Refunds\CreateRefundRequest
+#### protected $currentObject : \YooKassa\Request\Refunds\CreateRefundRequest
 ---
 **Summary**
 
 Собираемый объект запроса к API
 
-**Type:** <a href="../classes/YooKassa-Request-Refunds-CreateRefundRequest.html"><abbr title="\testottest\Request\Refunds\CreateRefundRequest">CreateRefundRequest</abbr></a>
+**Type:** <a href="../classes/YooKassa-Request-Refunds-CreateRefundRequest.html"><abbr title="\YooKassa\Request\Refunds\CreateRefundRequest">CreateRefundRequest</abbr></a>
 
 **Details:**
 
 
 <a name="property_receipt"></a>
-#### protected $receipt : \testottest\Model\Receipt
+#### protected $receipt : \YooKassa\Model\Receipt
 ---
 **Summary**
 
 Объект с информацией о чеке
 
-**Type:** <a href="../classes/YooKassa-Model-Receipt.html"><abbr title="\testottest\Model\Receipt">Receipt</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-Receipt.html"><abbr title="\YooKassa\Model\Receipt">Receipt</abbr></a>
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 
 <a name="property_transfers"></a>
-#### protected $transfers : \testottest\Model\TransferInterface[]
+#### protected $transfers : \YooKassa\Model\TransferInterface[]
 ---
 **Summary**
 
 Массив платежей в пользу разных мерчантов
 
-**Type:** <a href="../\testottest\Model\TransferInterface[]"><abbr title="\testottest\Model\TransferInterface[]">TransferInterface[]</abbr></a>
+**Type:** <a href="../\YooKassa\Model\TransferInterface[]"><abbr title="\YooKassa\Model\TransferInterface[]">TransferInterface[]</abbr></a>
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 
 
@@ -164,7 +164,7 @@ public __construct() : mixed
 Конструктор, инициализирует пустой запрос, который в будущем начнём собирать
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
 **Returns:** mixed - 
 
@@ -181,10 +181,10 @@ public addReceiptItem(string $title, string $price, float $quantity, int $vatCod
 Добавляет в чек товар
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 * See Also:
- * [](\testottest\Model\Receipt\PaymentSubject::class)
- * [](\testottest\Model\Receipt\PaymentMode::class)
+ * [](\YooKassa\Model\Receipt\PaymentSubject::class)
+ * [](\YooKassa\Model\Receipt\PaymentMode::class)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -215,10 +215,10 @@ public addReceiptShipping(string $title, string $price, int $vatCode, null|strin
 Добавляет в чек доставку товара
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 * See Also:
- * [](\testottest\Model\Receipt\PaymentSubject::class)
- * [](\testottest\Model\Receipt\PaymentMode::class)
+ * [](\YooKassa\Model\Receipt\PaymentSubject::class)
+ * [](\YooKassa\Model\Receipt\PaymentMode::class)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -233,10 +233,10 @@ public addReceiptShipping(string $title, string $price, int $vatCode, null|strin
 
 
 <a name="method_build" class="anchor"></a>
-#### public build() : \testottest\Request\Refunds\CreateRefundRequestInterface|\testottest\Common\AbstractRequest
+#### public build() : \YooKassa\Request\Refunds\CreateRefundRequestInterface|\YooKassa\Common\AbstractRequest
 
 ```php
-public build(array|null $options = null) : \testottest\Request\Refunds\CreateRefundRequestInterface|\testottest\Common\AbstractRequest
+public build(array|null $options = null) : \YooKassa\Request\Refunds\CreateRefundRequestInterface|\YooKassa\Common\AbstractRequest
 ```
 
 **Summary**
@@ -244,21 +244,21 @@ public build(array|null $options = null) : \testottest\Request\Refunds\CreateRef
 Строит объект запроса к API
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestBuilder](../classes/YooKassa-Request-Refunds-CreateRefundRequestBuilder.md)
+* Inherited From: [\YooKassa\Request\Refunds\CreateRefundRequestBuilder](../classes/YooKassa-Request-Refunds-CreateRefundRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">array OR null</code> | options  | Устанавливаемые параметры запроса |
 
-**Returns:** \testottest\Request\Refunds\CreateRefundRequestInterface|\testottest\Common\AbstractRequest - Инстанс сгенерированного объекта запроса к API
+**Returns:** \YooKassa\Request\Refunds\CreateRefundRequestInterface|\YooKassa\Common\AbstractRequest - Инстанс сгенерированного объекта запроса к API
 
 
 <a name="method_setAmount" class="anchor"></a>
 #### public setAmount() : self
 
 ```php
-public setAmount(\testottest\Model\AmountInterface|array|string $value) : self
+public setAmount(\YooKassa\Model\AmountInterface|array|string $value) : self
 ```
 
 **Summary**
@@ -266,12 +266,12 @@ public setAmount(\testottest\Model\AmountInterface|array|string $value) : self
 Устанавливает сумму
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\AmountInterface OR array OR string</code> | value  | Сумма оплаты |
+| <code lang="php">\YooKassa\Model\AmountInterface OR array OR string</code> | value  | Сумма оплаты |
 
 **Returns:** self - Инстанс билдера запросов
 
@@ -288,7 +288,7 @@ public setCurrency(string $value) : self
 Устанавливает валюту в которой будет происходить подтверждение оплаты заказа
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -302,7 +302,7 @@ public setCurrency(string $value) : self
 #### public setDeal() : self
 
 ```php
-public setDeal(\testottest\Model\Deal\RefundDealData|array|null $value) : self
+public setDeal(\YooKassa\Model\Deal\RefundDealData|array|null $value) : self
 ```
 
 **Summary**
@@ -310,21 +310,21 @@ public setDeal(\testottest\Model\Deal\RefundDealData|array|null $value) : self
 Устанавливает данные о сделке, в составе которой проходит возврат
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestBuilder](../classes/YooKassa-Request-Refunds-CreateRefundRequestBuilder.md)
+* Inherited From: [\YooKassa\Request\Refunds\CreateRefundRequestBuilder](../classes/YooKassa-Request-Refunds-CreateRefundRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\Deal\RefundDealData OR array OR null</code> | value  | Данные о сделке, в составе которой проходит возврат |
+| <code lang="php">\YooKassa\Model\Deal\RefundDealData OR array OR null</code> | value  | Данные о сделке, в составе которой проходит возврат |
 
 **Returns:** self - Инстанс билдера запросов
 
 
 <a name="method_setDescription" class="anchor"></a>
-#### public setDescription() : \testottest\Request\Refunds\CreateRefundRequestBuilder
+#### public setDescription() : \YooKassa\Request\Refunds\CreateRefundRequestBuilder
 
 ```php
-public setDescription(string $value) : \testottest\Request\Refunds\CreateRefundRequestBuilder
+public setDescription(string $value) : \YooKassa\Request\Refunds\CreateRefundRequestBuilder
 ```
 
 **Summary**
@@ -332,7 +332,7 @@ public setDescription(string $value) : \testottest\Request\Refunds\CreateRefundR
 Устанавливает комментарий к возврату
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestBuilder](../classes/YooKassa-Request-Refunds-CreateRefundRequestBuilder.md)
+* Inherited From: [\YooKassa\Request\Refunds\CreateRefundRequestBuilder](../classes/YooKassa-Request-Refunds-CreateRefundRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -342,16 +342,16 @@ public setDescription(string $value) : \testottest\Request\Refunds\CreateRefundR
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если была передана не строка |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если была передана не строка |
 
-**Returns:** \testottest\Request\Refunds\CreateRefundRequestBuilder - Инстанс текущего билдера
+**Returns:** \YooKassa\Request\Refunds\CreateRefundRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setOptions" class="anchor"></a>
-#### public setOptions() : \testottest\Common\AbstractRequestBuilder
+#### public setOptions() : \YooKassa\Common\AbstractRequestBuilder
 
 ```php
-public setOptions(array|\Traversable $options) : \testottest\Common\AbstractRequestBuilder
+public setOptions(array|\Traversable $options) : \YooKassa\Common\AbstractRequestBuilder
 ```
 
 **Summary**
@@ -359,7 +359,7 @@ public setOptions(array|\Traversable $options) : \testottest\Common\AbstractRequ
 Устанавливает свойства запроса из массива
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -370,16 +370,16 @@ public setOptions(array|\Traversable $options) : \testottest\Common\AbstractRequ
 | Type | Description |
 | ---- | ----------- |
 | \InvalidArgumentException | Выбрасывается если аргумент не массив и не итерируемый объект |
-| \testottest\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданныч в массиве настроек |
+| \YooKassa\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданныч в массиве настроек |
 
-**Returns:** \testottest\Common\AbstractRequestBuilder - Инстанс текущего билдера запросов
+**Returns:** \YooKassa\Common\AbstractRequestBuilder - Инстанс текущего билдера запросов
 
 
 <a name="method_setPaymentId" class="anchor"></a>
-#### public setPaymentId() : \testottest\Request\Refunds\CreateRefundRequestBuilder
+#### public setPaymentId() : \YooKassa\Request\Refunds\CreateRefundRequestBuilder
 
 ```php
-public setPaymentId(string $value) : \testottest\Request\Refunds\CreateRefundRequestBuilder
+public setPaymentId(string $value) : \YooKassa\Request\Refunds\CreateRefundRequestBuilder
 ```
 
 **Summary**
@@ -387,7 +387,7 @@ public setPaymentId(string $value) : \testottest\Request\Refunds\CreateRefundReq
 Устанавливает айди платежа для которого создаётся возврат
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestBuilder](../classes/YooKassa-Request-Refunds-CreateRefundRequestBuilder.md)
+* Inherited From: [\YooKassa\Request\Refunds\CreateRefundRequestBuilder](../classes/YooKassa-Request-Refunds-CreateRefundRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -397,18 +397,18 @@ public setPaymentId(string $value) : \testottest\Request\Refunds\CreateRefundReq
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если передано пустое значение айди платежа |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение является строкой, но не является валидным значением айди платежа |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если передано значение не валидного типа |
+| \YooKassa\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если передано пустое значение айди платежа |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение является строкой, но не является валидным значением айди платежа |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если передано значение не валидного типа |
 
-**Returns:** \testottest\Request\Refunds\CreateRefundRequestBuilder - Инстанс текущего билдера
+**Returns:** \YooKassa\Request\Refunds\CreateRefundRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setReceipt" class="anchor"></a>
 #### public setReceipt() : self
 
 ```php
-public setReceipt(\testottest\Model\ReceiptInterface|array $value) : self
+public setReceipt(\YooKassa\Model\ReceiptInterface|array $value) : self
 ```
 
 **Summary**
@@ -416,17 +416,17 @@ public setReceipt(\testottest\Model\ReceiptInterface|array $value) : self
 Устанавливает чек
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\ReceiptInterface OR array</code> | value  | Инстанс чека или ассоциативный массив с данными чека |
+| <code lang="php">\YooKassa\Model\ReceiptInterface OR array</code> | value  | Инстанс чека или ассоциативный массив с данными чека |
 
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если было передано значение невалидного типа |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если было передано значение невалидного типа |
 
 **Returns:** self - 
 
@@ -443,7 +443,7 @@ public setReceiptEmail(string $value) : self
 Устанавливает адрес электронной почты получателя чека
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -465,7 +465,7 @@ public setReceiptItems(array $value) : self
 Устанавлвиает список товаров для создания чека
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -475,7 +475,7 @@ public setReceiptItems(array $value) : self
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если хотя бы один из товаров имеет неверную структуру |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если хотя бы один из товаров имеет неверную структуру |
 
 **Returns:** self - Инстанс билдера запросов
 
@@ -492,7 +492,7 @@ public setReceiptPhone(string $value) : self
 Устанавливает телефон получателя чека
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -502,7 +502,7 @@ public setReceiptPhone(string $value) : self
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в качестве значения была передана не строка |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в качестве значения была передана не строка |
 
 **Returns:** self - Инстанс билдера запросов
 
@@ -511,7 +511,7 @@ public setReceiptPhone(string $value) : self
 #### public setSources() : self
 
 ```php
-public setSources(\testottest\Model\SourceInterface[]|array $value) : self
+public setSources(\YooKassa\Model\SourceInterface[]|array $value) : self
 ```
 
 **Summary**
@@ -519,12 +519,12 @@ public setSources(\testottest\Model\SourceInterface[]|array $value) : self
 Устанавливает источники возврата
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestBuilder](../classes/YooKassa-Request-Refunds-CreateRefundRequestBuilder.md)
+* Inherited From: [\YooKassa\Request\Refunds\CreateRefundRequestBuilder](../classes/YooKassa-Request-Refunds-CreateRefundRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\SourceInterface[] OR array</code> | value  | Массив трансферов |
+| <code lang="php">\YooKassa\Model\SourceInterface[] OR array</code> | value  | Массив трансферов |
 
 **Returns:** self - Инстанс билдера запросов
 
@@ -541,7 +541,7 @@ public setTaxSystemCode(int $value) : self
 Устанавливает код системы налогообложения.
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -555,7 +555,7 @@ public setTaxSystemCode(int $value) : self
 #### public setTransfers() : self
 
 ```php
-public setTransfers(\testottest\Model\TransferInterface[]|array|null $value) : self
+public setTransfers(\YooKassa\Model\TransferInterface[]|array|null $value) : self
 ```
 
 **Summary**
@@ -563,21 +563,21 @@ public setTransfers(\testottest\Model\TransferInterface[]|array|null $value) : s
 Устанавливает трансферы
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractPaymentRequestBuilder](../classes/YooKassa-Common-AbstractPaymentRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\TransferInterface[] OR array OR null</code> | value  | Массив трансферов |
+| <code lang="php">\YooKassa\Model\TransferInterface[] OR array OR null</code> | value  | Массив трансферов |
 
 **Returns:** self - Инстанс билдера запросов
 
 
 <a name="method_initCurrentObject" class="anchor"></a>
-#### protected initCurrentObject() : \testottest\Request\Refunds\CreateRefundRequest
+#### protected initCurrentObject() : \YooKassa\Request\Refunds\CreateRefundRequest
 
 ```php
-protected initCurrentObject() : \testottest\Request\Refunds\CreateRefundRequest
+protected initCurrentObject() : \YooKassa\Request\Refunds\CreateRefundRequest
 ```
 
 **Summary**
@@ -585,9 +585,9 @@ protected initCurrentObject() : \testottest\Request\Refunds\CreateRefundRequest
 Возвращает новый объект для сборки
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\CreateRefundRequestBuilder](../classes/YooKassa-Request-Refunds-CreateRefundRequestBuilder.md)
+* Inherited From: [\YooKassa\Request\Refunds\CreateRefundRequestBuilder](../classes/YooKassa-Request-Refunds-CreateRefundRequestBuilder.md)
 
-**Returns:** \testottest\Request\Refunds\CreateRefundRequest - Собираемый объект запроса к API
+**Returns:** \YooKassa\Request\Refunds\CreateRefundRequest - Собираемый объект запроса к API
 
 
 

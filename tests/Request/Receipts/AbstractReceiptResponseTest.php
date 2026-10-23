@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Receipts;
+namespace Tests\YooKassa\Request\Receipts;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\ProductCode;
@@ -108,7 +108,7 @@ abstract class AbstractReceiptResponseTest extends TestCase
     public function validDataProvider()
     {
         $this->valid = true;
-        $receipts = [];
+        $receipts = array();
         for ($i=0; $i < 10; $i++) {
             $receipts[] = $this->generateReceipts($this->type, true);
         }
@@ -118,7 +118,7 @@ abstract class AbstractReceiptResponseTest extends TestCase
     public function invalidDataProvider()
     {
         $this->valid = false;
-        $receipts = [];
+        $receipts = array();
         for ($i=0; $i < 10; $i++) {
             $receipts[] = $this->generateReceipts($this->type, false);
         }
@@ -128,7 +128,7 @@ abstract class AbstractReceiptResponseTest extends TestCase
     private function generateReceipts($type, $valid)
     {
         $this->valid = $valid;
-        $return = [];
+        $return = array();
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {
@@ -160,7 +160,7 @@ abstract class AbstractReceiptResponseTest extends TestCase
 
     private function generateItems()
     {
-        $return = [];
+        $return = array();
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {
@@ -185,7 +185,7 @@ abstract class AbstractReceiptResponseTest extends TestCase
 
     private function generateSettlements()
     {
-        $return = [];
+        $return = array();
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {

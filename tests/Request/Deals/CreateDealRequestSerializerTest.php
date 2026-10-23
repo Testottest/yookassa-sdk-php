@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Deals;
+namespace Tests\YooKassa\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -29,7 +29,7 @@ class CreateDealRequestSerializerTest extends TestCase
         );
 
         if (!empty($options['metadata'])) {
-            $expected['metadata'] = [];
+            $expected['metadata'] = array();
             foreach ($options['metadata'] as $key => $value) {
                 $expected['metadata'][$key] = $value;
             }

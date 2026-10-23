@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Model\Transfer
-### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
+# Class: \YooKassa\Model\Transfer
+### Namespace: [\YooKassa\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -62,10 +62,10 @@
 * File: [lib/Model/Transfer.php](../../lib/Model/Transfer.php)
 * Package: YooKassa
 * Class Hierarchy: 
-  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * \testottest\Model\Transfer
+  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * \YooKassa\Model\Transfer
 * Implements:
-  * [\testottest\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
+  * [\YooKassa\Model\TransferInterface](../classes/YooKassa-Model-TransferInterface.md)
 
 ---
 ## Properties
@@ -82,37 +82,37 @@
 
 
 <a name="property_amount"></a>
-#### public $amount : \testottest\Model\AmountInterface
+#### public $amount : \YooKassa\Model\AmountInterface
 ---
 ***Description***
 
 Сумма, которую необходимо перечислить магазину
 
-**Type:** <a href="../classes/YooKassa-Model-AmountInterface.html"><abbr title="\testottest\Model\AmountInterface">AmountInterface</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-AmountInterface.html"><abbr title="\YooKassa\Model\AmountInterface">AmountInterface</abbr></a>
 
 **Details:**
 
 
 <a name="property_metadata"></a>
-#### public $metadata : \testottest\Model\Metadata
+#### public $metadata : \YooKassa\Model\Metadata
 ---
 ***Description***
 
 Любые дополнительные данные, которые нужны вам для работы с платежами (например, номер заказа)
 
-**Type:** <a href="../classes/YooKassa-Model-Metadata.html"><abbr title="\testottest\Model\Metadata">Metadata</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-Metadata.html"><abbr title="\YooKassa\Model\Metadata">Metadata</abbr></a>
 
 **Details:**
 
 
 <a name="property_platform_fee_amount"></a>
-#### public $platform_fee_amount : \testottest\Model\AmountInterface
+#### public $platform_fee_amount : \YooKassa\Model\AmountInterface
 ---
 ***Description***
 
 Комиссия за проданные товары и услуги, которая удерживается с магазина в вашу пользу
 
-**Type:** <a href="../classes/YooKassa-Model-AmountInterface.html"><abbr title="\testottest\Model\AmountInterface">AmountInterface</abbr></a>
+**Type:** <a href="../classes/YooKassa-Model-AmountInterface.html"><abbr title="\YooKassa\Model\AmountInterface">AmountInterface</abbr></a>
 
 **Details:**
 
@@ -136,7 +136,7 @@
 #### public __construct() : mixed
 
 ```php
-public __construct(array $data = []) : mixed
+public __construct(array $data = array()) : mixed
 ```
 
 **Summary**
@@ -144,7 +144,7 @@ public __construct(array $data = []) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -166,7 +166,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -188,7 +188,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -210,7 +210,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -233,7 +233,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -255,7 +255,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -277,7 +277,7 @@ public getAccountId() : string|null
 Возвращает идентификатор магазина-получателя средств
 
 **Details:**
-* Inherited From: [\testottest\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
+* Inherited From: [\YooKassa\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
 
 **Returns:** string|null - Идентификатор магазина-получателя средств
 
@@ -287,10 +287,10 @@ public getAccountId() : string|null
 | inheritDoc |  |  |
 
 <a name="method_getAmount" class="anchor"></a>
-#### public getAmount() : \testottest\Model\AmountInterface
+#### public getAmount() : \YooKassa\Model\AmountInterface
 
 ```php
-public getAmount() : \testottest\Model\AmountInterface
+public getAmount() : \YooKassa\Model\AmountInterface
 ```
 
 **Summary**
@@ -298,9 +298,9 @@ public getAmount() : \testottest\Model\AmountInterface
 Возвращает сумму оплаты
 
 **Details:**
-* Inherited From: [\testottest\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
+* Inherited From: [\YooKassa\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
 
-**Returns:** \testottest\Model\AmountInterface - Сумма оплаты
+**Returns:** \YooKassa\Model\AmountInterface - Сумма оплаты
 
 ##### Tags
 | Tag | Version | Description |
@@ -308,10 +308,10 @@ public getAmount() : \testottest\Model\AmountInterface
 | inheritDoc |  |  |
 
 <a name="method_getMetadata" class="anchor"></a>
-#### public getMetadata() : \testottest\Model\Metadata|null
+#### public getMetadata() : \YooKassa\Model\Metadata|null
 
 ```php
-public getMetadata() : \testottest\Model\Metadata|null
+public getMetadata() : \YooKassa\Model\Metadata|null
 ```
 
 **Summary**
@@ -319,9 +319,9 @@ public getMetadata() : \testottest\Model\Metadata|null
 Возвращает метаданные
 
 **Details:**
-* Inherited From: [\testottest\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
+* Inherited From: [\YooKassa\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
 
-**Returns:** \testottest\Model\Metadata|null - Метаданные
+**Returns:** \YooKassa\Model\Metadata|null - Метаданные
 
 ##### Tags
 | Tag | Version | Description |
@@ -329,10 +329,10 @@ public getMetadata() : \testottest\Model\Metadata|null
 | inheritDoc |  |  |
 
 <a name="method_getPlatformFeeAmount" class="anchor"></a>
-#### public getPlatformFeeAmount() : \testottest\Model\AmountInterface
+#### public getPlatformFeeAmount() : \YooKassa\Model\AmountInterface
 
 ```php
-public getPlatformFeeAmount() : \testottest\Model\AmountInterface
+public getPlatformFeeAmount() : \YooKassa\Model\AmountInterface
 ```
 
 **Summary**
@@ -340,9 +340,9 @@ public getPlatformFeeAmount() : \testottest\Model\AmountInterface
 Возвращает комиссию за проданные товары и услуги, которая удерживается с магазина в вашу пользу
 
 **Details:**
-* Inherited From: [\testottest\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
+* Inherited From: [\YooKassa\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
 
-**Returns:** \testottest\Model\AmountInterface - Сумма комиссии
+**Returns:** \YooKassa\Model\AmountInterface - Сумма комиссии
 
 ##### Tags
 | Tag | Version | Description |
@@ -361,7 +361,7 @@ public getStatus() : string|null
 Возвращает статус операции распределения средств конечному получателю
 
 **Details:**
-* Inherited From: [\testottest\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
+* Inherited From: [\YooKassa\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
 
 **Returns:** string|null - Статус операции распределения средств конечному получателю
 
@@ -382,7 +382,7 @@ public hasAmount() : bool
 Проверяет, была ли установлена сумма оплаты
 
 **Details:**
-* Inherited From: [\testottest\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
+* Inherited From: [\YooKassa\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
 
 **Returns:** bool - True если сумма оплаты была установлена, false если нет
 
@@ -403,7 +403,7 @@ public hasMetadata() : bool
 Проверяет, были ли установлены метаданные
 
 **Details:**
-* Inherited From: [\testottest\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
+* Inherited From: [\YooKassa\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
 
 **Returns:** bool - True если метаданные были установлены, false если нет
 
@@ -424,7 +424,7 @@ public hasPlatformFeeAmount() : bool
 Проверяет, была ли установлена комиссия за проданные товары и услуги, которая удерживается с магазина в вашу пользу
 
 **Details:**
-* Inherited From: [\testottest\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
+* Inherited From: [\YooKassa\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
 
 **Returns:** bool - True если комиссия была установлена, false если нет
 
@@ -445,7 +445,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -462,7 +462,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -484,7 +484,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -506,7 +506,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -529,7 +529,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -551,7 +551,7 @@ public setAccountId(mixed $value) : void
 Устанавливает идентификатор магазина-получателя средств
 
 **Details:**
-* Inherited From: [\testottest\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
+* Inherited From: [\YooKassa\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -577,7 +577,7 @@ public setAmount(mixed $value) : mixed
 Устанавливает сумму оплаты
 
 **Details:**
-* Inherited From: [\testottest\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
+* Inherited From: [\YooKassa\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -603,7 +603,7 @@ public setMetadata(mixed $value) : mixed
 Устанавливает метаданные
 
 **Details:**
-* Inherited From: [\testottest\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
+* Inherited From: [\YooKassa\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -629,7 +629,7 @@ public setPlatformFeeAmount(mixed $value) : mixed
 Устанавливает комиссию за проданные товары и услуги, которая удерживается с магазина в вашу пользу
 
 **Details:**
-* Inherited From: [\testottest\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
+* Inherited From: [\YooKassa\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -655,7 +655,7 @@ public setStatus(string|null $value) : mixed
 Устанавливает статус операции распределения средств конечному получателю
 
 **Details:**
-* Inherited From: [\testottest\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
+* Inherited From: [\YooKassa\Model\Transfer](../classes/YooKassa-Model-Transfer.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -678,7 +678,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -695,7 +695,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

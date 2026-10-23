@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Common\Exceptions\InvalidRequestException
-### Namespace: [\testottest\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
+# Class: \YooKassa\Common\Exceptions\InvalidRequestException
+### Namespace: [\YooKassa\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
 ---
 
 ---
@@ -21,7 +21,7 @@
 * Package: Default
 * Class Hierarchy: 
   * [\RuntimeException](\RuntimeException)
-  * \testottest\Common\Exceptions\InvalidRequestException
+  * \YooKassa\Common\Exceptions\InvalidRequestException
 
 ---
 ## Methods
@@ -29,7 +29,7 @@
 #### public __construct() : mixed
 
 ```php
-public __construct(\testottest\Common\AbstractRequest|string $error, int $code, null $previous = null) : mixed
+public __construct(\YooKassa\Common\AbstractRequest|string $error, int $code, null $previous = null) : mixed
 ```
 
 **Summary**
@@ -37,12 +37,12 @@ public __construct(\testottest\Common\AbstractRequest|string $error, int $code, 
 InvalidRequestException constructor.
 
 **Details:**
-* Inherited From: [\testottest\Common\Exceptions\InvalidRequestException](../classes/YooKassa-Common-Exceptions-InvalidRequestException.md)
+* Inherited From: [\YooKassa\Common\Exceptions\InvalidRequestException](../classes/YooKassa-Common-Exceptions-InvalidRequestException.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Common\AbstractRequest OR string</code> | error  |  |
+| <code lang="php">\YooKassa\Common\AbstractRequest OR string</code> | error  |  |
 | <code lang="php">int</code> | code  |  |
 | <code lang="php">null</code> | previous  |  |
 
@@ -50,16 +50,16 @@ InvalidRequestException constructor.
 
 
 <a name="method_getRequestObject" class="anchor"></a>
-#### public getRequestObject() : \testottest\Common\AbstractRequest|null
+#### public getRequestObject() : \YooKassa\Common\AbstractRequest|null
 
 ```php
-public getRequestObject() : \testottest\Common\AbstractRequest|null
+public getRequestObject() : \YooKassa\Common\AbstractRequest|null
 ```
 
 **Details:**
-* Inherited From: [\testottest\Common\Exceptions\InvalidRequestException](../classes/YooKassa-Common-Exceptions-InvalidRequestException.md)
+* Inherited From: [\YooKassa\Common\Exceptions\InvalidRequestException](../classes/YooKassa-Common-Exceptions-InvalidRequestException.md)
 
-**Returns:** \testottest\Common\AbstractRequest|null - 
+**Returns:** \YooKassa\Common\AbstractRequest|null - 
 
 
 

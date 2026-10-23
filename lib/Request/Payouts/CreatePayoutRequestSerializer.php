@@ -41,7 +41,7 @@ class CreatePayoutRequestSerializer
      */
     public function serialize(CreatePayoutRequestInterface $request)
     {
-        $result = [];
+        $result = array();
 
         if ($request->getAmount()->getValue() > 0) {
             $result['amount'] = $request->getAmount()->toArray();

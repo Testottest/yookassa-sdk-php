@@ -56,7 +56,7 @@ class WebhookListResponse
         if (!empty($response['type'])) {
             $this->type = $response['type'];
         }
-        $this->items = [];
+        $this->items = array();
         foreach ($response['items'] as $item) {
             $this->items[] = new Webhook($item);
         }

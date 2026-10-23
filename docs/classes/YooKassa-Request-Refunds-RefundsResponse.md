@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Request\Refunds\RefundsResponse
-### Namespace: [\testottest\Request\Refunds](../namespaces/yookassa-request-refunds.md)
+# Class: \YooKassa\Request\Refunds\RefundsResponse
+### Namespace: [\YooKassa\Request\Refunds](../namespaces/yookassa-request-refunds.md)
 ---
 **Summary:**
 
@@ -26,7 +26,7 @@
 * File: [lib/Request/Refunds/RefundsResponse.php](../../lib/Request/Refunds/RefundsResponse.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \testottest\Request\Refunds\RefundsResponse
+  * \YooKassa\Request\Refunds\RefundsResponse
 
 ---
 ## Methods
@@ -42,7 +42,7 @@ public __construct(array $options) : mixed
 Конструктор, устанавливает свойства объекта из пришедшего из API ассоциативного массива
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsResponse](../classes/YooKassa-Request-Refunds-RefundsResponse.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsResponse](../classes/YooKassa-Request-Refunds-RefundsResponse.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -58,10 +58,10 @@ public __construct(array $options) : mixed
 
 
 <a name="method_getItems" class="anchor"></a>
-#### public getItems() : \testottest\Model\RefundInterface[]
+#### public getItems() : \YooKassa\Model\RefundInterface[]
 
 ```php
-public getItems() : \testottest\Model\RefundInterface[]
+public getItems() : \YooKassa\Model\RefundInterface[]
 ```
 
 **Summary**
@@ -69,9 +69,9 @@ public getItems() : \testottest\Model\RefundInterface[]
 Возвращает список возвратов
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsResponse](../classes/YooKassa-Request-Refunds-RefundsResponse.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsResponse](../classes/YooKassa-Request-Refunds-RefundsResponse.md)
 
-**Returns:** \testottest\Model\RefundInterface[] - Список возвратов
+**Returns:** \YooKassa\Model\RefundInterface[] - Список возвратов
 
 
 <a name="method_getNextCursor" class="anchor"></a>
@@ -86,7 +86,7 @@ public getNextCursor() : string|null
 Возвращает токен следующей страницы, если он задан, или null
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsResponse](../classes/YooKassa-Request-Refunds-RefundsResponse.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsResponse](../classes/YooKassa-Request-Refunds-RefundsResponse.md)
 
 **Returns:** string|null - Токен следующей страницы
 
@@ -103,7 +103,7 @@ public hasNextCursor() : bool
 Проверяет имееотся ли в ответе токен следующей страницы
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsResponse](../classes/YooKassa-Request-Refunds-RefundsResponse.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsResponse](../classes/YooKassa-Request-Refunds-RefundsResponse.md)
 
 **Returns:** bool - True если токен следующей страницы есть, false если нет
 

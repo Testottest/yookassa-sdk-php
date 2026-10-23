@@ -45,19 +45,19 @@ use testottest\Common\AbstractEnum;
 class NotificationEventType extends AbstractEnum
 {
     /** Успешно оплачен покупателем, ожидает подтверждения магазином */
-    public const string PAYMENT_WAITING_FOR_CAPTURE = 'payment.waiting_for_capture';
+    const PAYMENT_WAITING_FOR_CAPTURE = 'payment.waiting_for_capture';
     /** Успешно оплачен и подтвержден магазином */
-    public const string PAYMENT_SUCCEEDED = 'payment.succeeded';
+    const PAYMENT_SUCCEEDED = 'payment.succeeded';
     /** Неуспех оплаты или отменен магазином */
-    public const string PAYMENT_CANCELED = 'payment.canceled';
+    const PAYMENT_CANCELED = 'payment.canceled';
     /** Успешный возврат */
-    public const string REFUND_SUCCEEDED = 'refund.succeeded';
+    const REFUND_SUCCEEDED = 'refund.succeeded';
     /** Сделка перешла в статус closed */
-    public const string DEAL_CLOSED = 'deal.closed';
+    const DEAL_CLOSED = 'deal.closed';
     /** Выплата перешла в статус canceled */
-    public const string PAYOUT_CANCELED = 'payout.canceled';
+    const PAYOUT_CANCELED = 'payout.canceled';
     /** Выплата перешла в статус succeeded */
-    public const string PAYOUT_SUCCEEDED = 'payout.succeeded';
+    const PAYOUT_SUCCEEDED = 'payout.succeeded';
 
     protected static $validValues = array(
         self::PAYMENT_WAITING_FOR_CAPTURE => true,

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Model\Notification\NotificationFactory
-### Namespace: [\testottest\Model\Notification](../namespaces/yookassa-model-notification.md)
+# Class: \YooKassa\Model\Notification\NotificationFactory
+### Namespace: [\YooKassa\Model\Notification](../namespaces/yookassa-model-notification.md)
 ---
 **Summary:**
 
@@ -19,39 +19,39 @@ try {
     $source = file_get_contents('php://input');
     $data = json_decode($source, true);
 
-    $factory = new \testottest\Model\Notification\NotificationFactory();
+    $factory = new \YooKassa\Model\Notification\NotificationFactory();
     $notificationObject = $factory->factory($data);
     $responseObject = $notificationObject->getObject();
 
-    $client = new \testottest\Client();
+    $client = new \YooKassa\Client();
 
     if (!$client->isNotificationIPTrusted($_SERVER['REMOTE_ADDR'])) {
         header('HTTP/1.1 400 Something went wrong');
         exit();
     }
 
-    if ($notificationObject->getEvent() === \testottest\Model\NotificationEventType::PAYMENT_SUCCEEDED) {
+    if ($notificationObject->getEvent() === \YooKassa\Model\NotificationEventType::PAYMENT_SUCCEEDED) {
         $someData = array(
             'paymentId' => $responseObject->getId(),
             'paymentStatus' => $responseObject->getStatus(),
         );
         // Специфичная логика
         // ...
-    } elseif ($notificationObject->getEvent() === \testottest\Model\NotificationEventType::PAYMENT_WAITING_FOR_CAPTURE) {
+    } elseif ($notificationObject->getEvent() === \YooKassa\Model\NotificationEventType::PAYMENT_WAITING_FOR_CAPTURE) {
         $someData = array(
             'paymentId' => $responseObject->getId(),
             'paymentStatus' => $responseObject->getStatus(),
         );
         // Специфичная логика
         // ...
-    } elseif ($notificationObject->getEvent() === \testottest\Model\NotificationEventType::PAYMENT_CANCELED) {
+    } elseif ($notificationObject->getEvent() === \YooKassa\Model\NotificationEventType::PAYMENT_CANCELED) {
         $someData = array(
             'paymentId' => $responseObject->getId(),
             'paymentStatus' => $responseObject->getStatus(),
         );
         // Специфичная логика
         // ...
-    } elseif ($notificationObject->getEvent() === \testottest\Model\NotificationEventType::REFUND_SUCCEEDED) {
+    } elseif ($notificationObject->getEvent() === \YooKassa\Model\NotificationEventType::REFUND_SUCCEEDED) {
         $someData = array(
             'refundId' => $responseObject->getId(),
             'refundStatus' => $responseObject->getStatus(),
@@ -102,26 +102,26 @@ try {
 * File: [lib/Model/Notification/NotificationFactory.php](../../lib/Model/Notification/NotificationFactory.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \testottest\Model\Notification\NotificationFactory
+  * \YooKassa\Model\Notification\NotificationFactory
 
 ---
 ## Methods
 <a name="method_factory" class="anchor"></a>
-#### public factory() : \testottest\Model\Notification\AbstractNotification
+#### public factory() : \YooKassa\Model\Notification\AbstractNotification
 
 ```php
-public factory(array $data) : \testottest\Model\Notification\AbstractNotification
+public factory(array $data) : \YooKassa\Model\Notification\AbstractNotification
 ```
 
 **Details:**
-* Inherited From: [\testottest\Model\Notification\NotificationFactory](../classes/YooKassa-Model-Notification-NotificationFactory.md)
+* Inherited From: [\YooKassa\Model\Notification\NotificationFactory](../classes/YooKassa-Model-Notification-NotificationFactory.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">array</code> | data  |  |
 
-**Returns:** \testottest\Model\Notification\AbstractNotification - 
+**Returns:** \YooKassa\Model\Notification\AbstractNotification - 
 
 
 

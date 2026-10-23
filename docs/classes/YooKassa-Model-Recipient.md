@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Model\Recipient
-### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
+# Class: \YooKassa\Model\Recipient
+### Namespace: [\YooKassa\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -52,10 +52,10 @@
 * File: [lib/Model/Recipient.php](../../lib/Model/Recipient.php)
 * Package: Default
 * Class Hierarchy: 
-  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * \testottest\Model\Recipient
+  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * \YooKassa\Model\Recipient
 * Implements:
-  * [\testottest\Model\RecipientInterface](../classes/YooKassa-Model-RecipientInterface.md)
+  * [\YooKassa\Model\RecipientInterface](../classes/YooKassa-Model-RecipientInterface.md)
 
 ---
 ## Properties
@@ -114,7 +114,7 @@
 #### public __construct() : mixed
 
 ```php
-public __construct(array $data = []) : mixed
+public __construct(array $data = array()) : mixed
 ```
 
 **Summary**
@@ -122,7 +122,7 @@ public __construct(array $data = []) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -144,7 +144,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -166,7 +166,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -188,7 +188,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -211,7 +211,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -233,7 +233,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -255,7 +255,7 @@ public getAccountId() : string
 Возвращает идентификатор магазина
 
 **Details:**
-* Inherited From: [\testottest\Model\Recipient](../classes/YooKassa-Model-Recipient.md)
+* Inherited From: [\YooKassa\Model\Recipient](../classes/YooKassa-Model-Recipient.md)
 
 **Returns:** string - Идентификатор магазина
 
@@ -276,7 +276,7 @@ public getGatewayId() : string
 Идентификатор шлюза используется для разделения потоков платежей в рамках одного аккаунта.
 
 **Details:**
-* Inherited From: [\testottest\Model\Recipient](../classes/YooKassa-Model-Recipient.md)
+* Inherited From: [\YooKassa\Model\Recipient](../classes/YooKassa-Model-Recipient.md)
 
 **Returns:** string - Идентификатор шлюза
 
@@ -293,7 +293,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -310,7 +310,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -332,7 +332,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -354,7 +354,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -377,7 +377,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -399,7 +399,7 @@ public setAccountId(string $value) : mixed
 Устанавливает идентификатор магазина
 
 **Details:**
-* Inherited From: [\testottest\Model\Recipient](../classes/YooKassa-Model-Recipient.md)
+* Inherited From: [\YooKassa\Model\Recipient](../classes/YooKassa-Model-Recipient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -409,8 +409,8 @@ public setAccountId(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если было передано пустое значение |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если было передано не строковое значение |
+| \YooKassa\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если было передано пустое значение |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если было передано не строковое значение |
 
 **Returns:** mixed - 
 
@@ -427,7 +427,7 @@ public setGatewayId(string $value) : mixed
 Устанавливает идентификатор шлюза
 
 **Details:**
-* Inherited From: [\testottest\Model\Recipient](../classes/YooKassa-Model-Recipient.md)
+* Inherited From: [\YooKassa\Model\Recipient](../classes/YooKassa-Model-Recipient.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -437,8 +437,8 @@ public setGatewayId(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если было передано пустое значение |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если было передано не строковое значение |
+| \YooKassa\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если было передано пустое значение |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если было передано не строковое значение |
 
 **Returns:** mixed - 
 
@@ -456,7 +456,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -473,7 +473,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

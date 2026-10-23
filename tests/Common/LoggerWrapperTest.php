@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Common;
+namespace Tests\YooKassa\Common;
 
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LogLevel;

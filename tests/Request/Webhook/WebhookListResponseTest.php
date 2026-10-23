@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Webhook;
+namespace Tests\YooKassa\Request\Webhook;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -56,7 +56,7 @@ class WebhookListResponseTest extends TestCase
 
     private function generateWebhooks()
     {
-        $return = [];
+        $return = array();
         $count = Random::int(1, 10);
 
         for ($i=0; $i < $count; $i++) {

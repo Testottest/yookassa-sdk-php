@@ -45,7 +45,7 @@ class PaymentDealInfo extends AbstractObject
     private $_id;
 
     /** @var SettlementPayoutPayment[] Данные о распределении денег */
-    private $_settlements = [];
+    private $_settlements = array();
 
     /**
      * Возвращает Id сделки
@@ -92,7 +92,7 @@ class PaymentDealInfo extends AbstractObject
                 'Invalid settlements value type in deal', 0, 'deal.settlements', $value
             );
         }
-        $this->_settlements = [];
+        $this->_settlements = array();
         foreach ($value as $key => $val) {
             if (is_array($val)) {
                 $this->addSettlement(new SettlementPayoutPayment($val));

@@ -84,7 +84,7 @@ class CreatePostReceiptRequestSerializer
      */
     private function serializeObjectId(CreatePostReceiptRequestInterface $request)
     {
-        $result = [];
+        $result = array();
 
         if ($request->getObjectType() === ReceiptType::PAYMENT) {
             $result['payment_id'] = $request->getObjectId();

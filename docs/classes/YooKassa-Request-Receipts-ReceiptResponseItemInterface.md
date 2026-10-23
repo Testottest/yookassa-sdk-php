@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: ReceiptResponseItemInterface
-### Namespace: [\testottest\Request\Receipts](../namespaces/yookassa-request-receipts.md)
+### Namespace: [\YooKassa\Request\Receipts](../namespaces/yookassa-request-receipts.md)
 ---
 **Summary:**
 
@@ -54,7 +54,7 @@ public getDescription() : string
 Возвращает название товара
 
 **Details:**
-* Inherited From: [\testottest\Request\Receipts\ReceiptResponseItemInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseItemInterface.md)
+* Inherited From: [\YooKassa\Request\Receipts\ReceiptResponseItemInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseItemInterface.md)
 
 **Returns:** string - Название товара (не более 128 символов).
 
@@ -71,7 +71,7 @@ public getQuantity() : float
 Возвращает количество товара
 
 **Details:**
-* Inherited From: [\testottest\Request\Receipts\ReceiptResponseItemInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseItemInterface.md)
+* Inherited From: [\YooKassa\Request\Receipts\ReceiptResponseItemInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseItemInterface.md)
 
 **Returns:** float - Количество купленного товара
 
@@ -88,16 +88,16 @@ public getAmount() : float
 Возвращает общую стоимость покупаемого товара в копейках/центах
 
 **Details:**
-* Inherited From: [\testottest\Request\Receipts\ReceiptResponseItemInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseItemInterface.md)
+* Inherited From: [\YooKassa\Request\Receipts\ReceiptResponseItemInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseItemInterface.md)
 
 **Returns:** float - Сумма стоимости покупаемого товара
 
 
 <a name="method_getPrice" class="anchor"></a>
-#### public getPrice() : \testottest\Model\AmountInterface
+#### public getPrice() : \YooKassa\Model\AmountInterface
 
 ```php
-public getPrice() : \testottest\Model\AmountInterface
+public getPrice() : \YooKassa\Model\AmountInterface
 ```
 
 **Summary**
@@ -105,9 +105,9 @@ public getPrice() : \testottest\Model\AmountInterface
 Возвращает цену товара
 
 **Details:**
-* Inherited From: [\testottest\Request\Receipts\ReceiptResponseItemInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseItemInterface.md)
+* Inherited From: [\YooKassa\Request\Receipts\ReceiptResponseItemInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseItemInterface.md)
 
-**Returns:** \testottest\Model\AmountInterface - Цена товара
+**Returns:** \YooKassa\Model\AmountInterface - Цена товара
 
 
 <a name="method_getVatCode" class="anchor"></a>
@@ -122,7 +122,7 @@ public getVatCode() : int|null
 Возвращает ставку НДС
 
 **Details:**
-* Inherited From: [\testottest\Request\Receipts\ReceiptResponseItemInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseItemInterface.md)
+* Inherited From: [\YooKassa\Request\Receipts\ReceiptResponseItemInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseItemInterface.md)
 
 **Returns:** int|null - Ставка НДС, число 1-6, или null, если ставка не задана
 
@@ -139,7 +139,7 @@ public getPaymentSubject() : string|null
 Возвращает признак предмета расчета
 
 **Details:**
-* Inherited From: [\testottest\Request\Receipts\ReceiptResponseItemInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseItemInterface.md)
+* Inherited From: [\YooKassa\Request\Receipts\ReceiptResponseItemInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseItemInterface.md)
 
 **Returns:** string|null - Признак предмета расчета
 
@@ -156,16 +156,16 @@ public getPaymentMode() : string|null
 Возвращает признак способа расчета
 
 **Details:**
-* Inherited From: [\testottest\Request\Receipts\ReceiptResponseItemInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseItemInterface.md)
+* Inherited From: [\YooKassa\Request\Receipts\ReceiptResponseItemInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseItemInterface.md)
 
 **Returns:** string|null - Признак способа расчета
 
 
 <a name="method_getSupplier" class="anchor"></a>
-#### public getSupplier() : \testottest\Model\SupplierInterface
+#### public getSupplier() : \YooKassa\Model\SupplierInterface
 
 ```php
-public getSupplier() : \testottest\Model\SupplierInterface
+public getSupplier() : \YooKassa\Model\SupplierInterface
 ```
 
 **Summary**
@@ -173,9 +173,9 @@ public getSupplier() : \testottest\Model\SupplierInterface
 Возвращает информацию о поставщике товара или услуги
 
 **Details:**
-* Inherited From: [\testottest\Request\Receipts\ReceiptResponseItemInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseItemInterface.md)
+* Inherited From: [\YooKassa\Request\Receipts\ReceiptResponseItemInterface](../classes/YooKassa-Request-Receipts-ReceiptResponseItemInterface.md)
 
-**Returns:** \testottest\Model\SupplierInterface - 
+**Returns:** \YooKassa\Model\SupplierInterface - 
 
 
 

@@ -59,24 +59,22 @@ abstract class AbstractPaymentData extends AbstractObject
      */
     protected function _setType($value)
     {
-		if ($value === null || $value === '') {
-			throw new EmptyPropertyValueException(
-				'Empty payment data type', 0, 'paymentData.type'
-			);
-		}
-
-		if (TypeCast::canCastToEnumString($value)) {
-			if (PaymentMethodType::valueExists($value)) {
-				$this->_type = (string)$value;
-			} else {
-				throw new InvalidPropertyValueException(
-					'Invalid value for "type" parameter in PaymentData', 0, 'paymentData.type', $value
-				);
-			}
-		} else {
-			throw new InvalidPropertyValueTypeException(
-				'Invalid value type for "type" parameter in PaymentData', 0, 'paymentData.type', $value
-			);
-		}
-	}
+        if ($value === null || $value === '') {
+            throw new EmptyPropertyValueException(
+                'Empty payment data type', 0, 'paymentData.type'
+            );
+        } elseif (TypeCast::canCastToEnumString($value)) {
+            if (PaymentMethodType::valueExists($value)) {
+                $this->_type = (string)$value;
+            } else {
+                throw new InvalidPropertyValueException(
+                    'Invalid value for "type" parameter in PaymentData', 0, 'paymentData.type', $value
+                );
+            }
+        } else {
+            throw new InvalidPropertyValueTypeException(
+                'Invalid value type for "type" parameter in PaymentData', 0, 'paymentData.type', $value
+            );
+        }
+    }
 }

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Common\Exceptions\InvalidPropertyValueTypeException
-### Namespace: [\testottest\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
+# Class: \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException
+### Namespace: [\YooKassa\Common\Exceptions](../namespaces/yookassa-common-exceptions.md)
 ---
 
 ---
@@ -22,8 +22,8 @@
 * Package: Default
 * Class Hierarchy:  
   * [\InvalidArgumentException](\InvalidArgumentException)
-  * [\testottest\Common\Exceptions\InvalidPropertyException](../classes/YooKassa-Common-Exceptions-InvalidPropertyException.md)
-  * \testottest\Common\Exceptions\InvalidPropertyValueTypeException
+  * [\YooKassa\Common\Exceptions\InvalidPropertyException](../classes/YooKassa-Common-Exceptions-InvalidPropertyException.md)
+  * \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException
 
 ---
 ## Methods
@@ -39,7 +39,7 @@ public __construct(string $message = &quot;&quot;, int $code, string $property =
 InvalidPropertyValueTypeException constructor.
 
 **Details:**
-* Inherited From: [\testottest\Common\Exceptions\InvalidPropertyValueTypeException](../classes/YooKassa-Common-Exceptions-InvalidPropertyValueTypeException.md)
+* Inherited From: [\YooKassa\Common\Exceptions\InvalidPropertyValueTypeException](../classes/YooKassa-Common-Exceptions-InvalidPropertyValueTypeException.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -60,7 +60,7 @@ public getProperty() : string
 ```
 
 **Details:**
-* Inherited From: [\testottest\Common\Exceptions\InvalidPropertyException](../classes/YooKassa-Common-Exceptions-InvalidPropertyException.md)
+* Inherited From: [\YooKassa\Common\Exceptions\InvalidPropertyException](../classes/YooKassa-Common-Exceptions-InvalidPropertyException.md)
 
 **Returns:** string - 
 
@@ -73,7 +73,7 @@ public getType() : string
 ```
 
 **Details:**
-* Inherited From: [\testottest\Common\Exceptions\InvalidPropertyValueTypeException](../classes/YooKassa-Common-Exceptions-InvalidPropertyValueTypeException.md)
+* Inherited From: [\YooKassa\Common\Exceptions\InvalidPropertyValueTypeException](../classes/YooKassa-Common-Exceptions-InvalidPropertyValueTypeException.md)
 
 **Returns:** string - 
 

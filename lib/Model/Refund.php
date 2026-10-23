@@ -343,7 +343,7 @@ class Refund extends AbstractObject implements RefundInterface
             throw new InvalidPropertyValueTypeException($message, 0, 'Refund.sources', $value);
         }
 
-        $sources = [];
+        $sources = array();
         foreach ($value as $item) {
             if (is_array($item)) {
                 $item = new Source($item);

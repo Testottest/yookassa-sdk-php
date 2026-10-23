@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Receipts;
+namespace Tests\YooKassa\Request\Receipts;
 
 use testottest\Helpers\Random;
 use testottest\Model\ReceiptRegistrationStatus;
@@ -21,7 +21,7 @@ class ReceiptsRequestSerializerTest extends TestCase
         $instance = ReceiptsRequest::builder()->build($value);
         $data = $serializer->serialize($instance);
 
-        $expected = [];
+        $expected = array();
 
         if (!empty($value)) {
             $expected = array(

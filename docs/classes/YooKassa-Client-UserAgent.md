@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Client\UserAgent
-### Namespace: [\testottest\Client](../namespaces/yookassa-client.md)
+# Class: \YooKassa\Client\UserAgent
+### Namespace: [\YooKassa\Client](../namespaces/yookassa-client.md)
 ---
 **Summary:**
 
@@ -38,7 +38,7 @@
 * File: [lib/Client/UserAgent.php](../../lib/Client/UserAgent.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \testottest\Client\UserAgent
+  * \YooKassa\Client\UserAgent
 
 ---
 ## Constants
@@ -84,7 +84,7 @@ public __construct() : mixed
 Конструктор UserAgent
 
 **Details:**
-* Inherited From: [\testottest\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
+* Inherited From: [\YooKassa\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
 
 **Returns:** mixed - 
 
@@ -101,7 +101,7 @@ public createVersion(string $name, string $version) : string
 Создание строки версии компонента
 
 **Details:**
-* Inherited From: [\testottest\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
+* Inherited From: [\YooKassa\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -124,7 +124,7 @@ public getCms() : null
 Возвращает версию CMS
 
 **Details:**
-* Inherited From: [\testottest\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
+* Inherited From: [\YooKassa\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
 
 **Returns:** null - 
 
@@ -141,7 +141,7 @@ public getFramework() : string|null
 Возвращает версию фреймворка
 
 **Details:**
-* Inherited From: [\testottest\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
+* Inherited From: [\YooKassa\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
 
 **Returns:** string|null - 
 
@@ -158,7 +158,7 @@ public getHeaderString() : string
 Формирует конечную строку из составных частей
 
 **Details:**
-* Inherited From: [\testottest\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
+* Inherited From: [\YooKassa\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
 
 **Returns:** string - 
 
@@ -175,7 +175,7 @@ public getModule() : string
 Возвращает версию модуля
 
 **Details:**
-* Inherited From: [\testottest\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
+* Inherited From: [\YooKassa\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
 
 **Returns:** string - 
 
@@ -192,7 +192,7 @@ public getOs() : string
 Возвращает версию операционной системы
 
 **Details:**
-* Inherited From: [\testottest\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
+* Inherited From: [\YooKassa\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
 
 **Returns:** string - 
 
@@ -209,7 +209,7 @@ public getPhp() : string
 Возвращает версию PHP
 
 **Details:**
-* Inherited From: [\testottest\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
+* Inherited From: [\YooKassa\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
 
 **Returns:** string - 
 
@@ -226,7 +226,7 @@ public getSdk() : string
 Возвращает версию SDK
 
 **Details:**
-* Inherited From: [\testottest\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
+* Inherited From: [\YooKassa\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
 
 **Returns:** string - 
 
@@ -243,7 +243,7 @@ public setCms(string $name, string $version) : mixed
 Устанавливает версию CMS
 
 **Details:**
-* Inherited From: [\testottest\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
+* Inherited From: [\YooKassa\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -266,7 +266,7 @@ public setFramework(string $name, string $version) : mixed
 Устанавливает версию фреймворка
 
 **Details:**
-* Inherited From: [\testottest\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
+* Inherited From: [\YooKassa\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -289,7 +289,7 @@ public setModule(string $name, string $version) : mixed
 Устанавливает версию модуля
 
 **Details:**
-* Inherited From: [\testottest\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
+* Inherited From: [\YooKassa\Client\UserAgent](../classes/YooKassa-Client-UserAgent.md)
 
 ##### Parameters:
 | Type | Name | Description |

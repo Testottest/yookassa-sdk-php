@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\Confirmation;
+namespace Tests\YooKassa\Model\Confirmation;
 
 use testottest\Model\Confirmation\ConfirmationRedirect;
 use testottest\Model\ConfirmationType;

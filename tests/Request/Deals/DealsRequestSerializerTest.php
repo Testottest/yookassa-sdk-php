@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Deals;
+namespace Tests\YooKassa\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -35,7 +35,7 @@ class DealsRequestSerializerTest extends TestCase
         $serializer = new DealsRequestSerializer();
         $data       = $serializer->serialize(DealsRequest::builder()->build($options));
 
-        $expected = [];
+        $expected = array();
         foreach ($this->fieldMap as $field => $mapped) {
             if (isset($options[$field])) {
                 $value = $options[$field];

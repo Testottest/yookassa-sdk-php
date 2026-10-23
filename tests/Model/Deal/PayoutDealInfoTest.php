@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\Deal;
+namespace Tests\YooKassa\Model\Deal;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -48,7 +48,7 @@ class PayoutDealInfoTest extends TestCase
 
     public function validDataProvider()
     {
-        $result = [];
+        $result = array();
         for ($i = 0; $i < 10; $i++) {
             $payment = array(
                 'id' => Random::str(36, 50),

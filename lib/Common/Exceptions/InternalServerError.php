@@ -41,7 +41,7 @@ class InternalServerError extends ApiException
 
     public $type;
 
-    public function __construct($responseHeaders = [], $responseBody = null)
+    public function __construct($responseHeaders = array(), $responseBody = null)
     {
         $errorData = json_decode($responseBody, true);
         $message   = '';

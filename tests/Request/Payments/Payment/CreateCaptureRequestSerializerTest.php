@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Payments\Payment;
+namespace Tests\YooKassa\Request\Payments\Payment;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -23,7 +23,7 @@ class CreateCaptureRequestSerializerTest extends TestCase
         $serializer = new CreateCaptureRequestSerializer();
         $data = $serializer->serialize(CreateCaptureRequest::builder()->build($options));
 
-        $expected = [];
+        $expected = array();
         if (isset($options['amount'])) {
             $expected = array(
                 'amount' => $options['amount'],

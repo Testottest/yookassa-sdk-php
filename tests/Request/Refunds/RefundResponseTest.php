@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Refunds;
+namespace Tests\YooKassa\Request\Refunds;
 
 use testottest\Request\Refunds\RefundResponse;
 

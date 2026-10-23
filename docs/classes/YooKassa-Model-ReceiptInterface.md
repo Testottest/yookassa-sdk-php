@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: ReceiptInterface
-### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
+### Namespace: [\YooKassa\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -51,16 +51,16 @@ public getObjectId() : string
 Возвращает Id объекта чека
 
 **Details:**
-* Inherited From: [\testottest\Model\ReceiptInterface](../classes/YooKassa-Model-ReceiptInterface.md)
+* Inherited From: [\YooKassa\Model\ReceiptInterface](../classes/YooKassa-Model-ReceiptInterface.md)
 
 **Returns:** string - Id объекта чека
 
 
 <a name="method_getCustomer" class="anchor"></a>
-#### public getCustomer() : \testottest\Model\ReceiptCustomerInterface
+#### public getCustomer() : \YooKassa\Model\ReceiptCustomerInterface
 
 ```php
-public getCustomer() : \testottest\Model\ReceiptCustomerInterface
+public getCustomer() : \YooKassa\Model\ReceiptCustomerInterface
 ```
 
 **Summary**
@@ -68,16 +68,16 @@ public getCustomer() : \testottest\Model\ReceiptCustomerInterface
 Возвращает информацию о плательщике
 
 **Details:**
-* Inherited From: [\testottest\Model\ReceiptInterface](../classes/YooKassa-Model-ReceiptInterface.md)
+* Inherited From: [\YooKassa\Model\ReceiptInterface](../classes/YooKassa-Model-ReceiptInterface.md)
 
-**Returns:** \testottest\Model\ReceiptCustomerInterface - Информация о плательщике
+**Returns:** \YooKassa\Model\ReceiptCustomerInterface - Информация о плательщике
 
 
 <a name="method_getItems" class="anchor"></a>
-#### public getItems() : \testottest\Model\ReceiptItemInterface[]
+#### public getItems() : \YooKassa\Model\ReceiptItemInterface[]
 
 ```php
-public getItems() : \testottest\Model\ReceiptItemInterface[]
+public getItems() : \YooKassa\Model\ReceiptItemInterface[]
 ```
 
 **Summary**
@@ -85,16 +85,16 @@ public getItems() : \testottest\Model\ReceiptItemInterface[]
 Возвращает список позиций в текущем чеке
 
 **Details:**
-* Inherited From: [\testottest\Model\ReceiptInterface](../classes/YooKassa-Model-ReceiptInterface.md)
+* Inherited From: [\YooKassa\Model\ReceiptInterface](../classes/YooKassa-Model-ReceiptInterface.md)
 
-**Returns:** \testottest\Model\ReceiptItemInterface[] - Список товаров в заказе
+**Returns:** \YooKassa\Model\ReceiptItemInterface[] - Список товаров в заказе
 
 
 <a name="method_getSettlements" class="anchor"></a>
-#### public getSettlements() : \testottest\Model\SettlementInterface[]
+#### public getSettlements() : \YooKassa\Model\SettlementInterface[]
 
 ```php
-public getSettlements() : \testottest\Model\SettlementInterface[]
+public getSettlements() : \YooKassa\Model\SettlementInterface[]
 ```
 
 **Summary**
@@ -102,9 +102,9 @@ public getSettlements() : \testottest\Model\SettlementInterface[]
 Возвращает массив оплат, обеспечивающих выдачу товара.
 
 **Details:**
-* Inherited From: [\testottest\Model\ReceiptInterface](../classes/YooKassa-Model-ReceiptInterface.md)
+* Inherited From: [\YooKassa\Model\ReceiptInterface](../classes/YooKassa-Model-ReceiptInterface.md)
 
-**Returns:** \testottest\Model\SettlementInterface[] - Массив оплат, обеспечивающих выдачу товара.
+**Returns:** \YooKassa\Model\SettlementInterface[] - Массив оплат, обеспечивающих выдачу товара.
 
 
 <a name="method_getTaxSystemCode" class="anchor"></a>
@@ -119,7 +119,7 @@ public getTaxSystemCode() : int
 Возвращает код системы налогообложения
 
 **Details:**
-* Inherited From: [\testottest\Model\ReceiptInterface](../classes/YooKassa-Model-ReceiptInterface.md)
+* Inherited From: [\YooKassa\Model\ReceiptInterface](../classes/YooKassa-Model-ReceiptInterface.md)
 
 **Returns:** int - Код системы налогообложения. Число 1-6.
 
@@ -136,7 +136,7 @@ public notEmpty() : bool
 Проверяет есть ли в чеке хотя бы одна позиция
 
 **Details:**
-* Inherited From: [\testottest\Model\ReceiptInterface](../classes/YooKassa-Model-ReceiptInterface.md)
+* Inherited From: [\YooKassa\Model\ReceiptInterface](../classes/YooKassa-Model-ReceiptInterface.md)
 
 **Returns:** bool - True если чек не пуст, false если в чеке нет ни одной позиции
 
@@ -145,7 +145,7 @@ public notEmpty() : bool
 #### public normalize() : mixed
 
 ```php
-public normalize(\testottest\Model\AmountInterface $orderAmount, bool $withShipping = false) : mixed
+public normalize(\YooKassa\Model\AmountInterface $orderAmount, bool $withShipping = false) : mixed
 ```
 
 **Summary**
@@ -153,12 +153,12 @@ public normalize(\testottest\Model\AmountInterface $orderAmount, bool $withShipp
 Подгоняет стоимость товаров в чеке к общей цене заказа
 
 **Details:**
-* Inherited From: [\testottest\Model\ReceiptInterface](../classes/YooKassa-Model-ReceiptInterface.md)
+* Inherited From: [\YooKassa\Model\ReceiptInterface](../classes/YooKassa-Model-ReceiptInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\AmountInterface</code> | orderAmount  | Общая стоимость заказа |
+| <code lang="php">\YooKassa\Model\AmountInterface</code> | orderAmount  | Общая стоимость заказа |
 | <code lang="php">bool</code> | withShipping  | Поменять ли заодно и цену доставки |
 
 **Returns:** mixed - 

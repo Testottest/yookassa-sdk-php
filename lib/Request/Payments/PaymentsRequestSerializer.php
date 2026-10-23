@@ -58,7 +58,7 @@ class PaymentsRequestSerializer
      */
     public function serialize(PaymentsRequestInterface $request)
     {
-        $result = [];
+        $result = array();
         foreach (self::$propertyMap as $property => $name) {
             $value = $request->{$property};
             if (!empty($value)) {

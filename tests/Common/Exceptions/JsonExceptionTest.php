@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Common\Exceptions;
+namespace Tests\YooKassa\Common\Exceptions;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Common\Exceptions\JsonException;
@@ -26,7 +26,7 @@ class JsonExceptionTest extends TestCase
 
     public function messageDataProvider()
     {
-        $result = [];
+        $result = array();
         foreach (JsonException::$errorLabels as $code => $message) {
             $result[] = array($message, $code);
         }

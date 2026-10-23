@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model;
+namespace Tests\YooKassa\Model;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Common\Exceptions\InvalidPropertyValueTypeException;
@@ -233,7 +233,7 @@ class ReceiptItemTest extends TestCase
 
     public function validDataAgent()
     {
-        $values = [];
+        $values = array();
         for ($i = 0; $i < 5; $i++) {
             $values[] = array(Random::value(AgentType::getValidValues()));
         }

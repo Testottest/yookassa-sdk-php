@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\PaymentData;
+namespace Tests\YooKassa\Model\PaymentData;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -80,7 +80,7 @@ class PaymentDataFactoryTest extends TestCase
 
     public function validTypeDataProvider()
     {
-        $result = [];
+        $result = array();
         foreach (PaymentMethodType::getEnabledValues() as $value) {
             $result[] = array($value);
         }

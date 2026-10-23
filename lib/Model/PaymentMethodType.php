@@ -51,48 +51,58 @@ use testottest\Common\AbstractEnum;
  */
 class PaymentMethodType extends AbstractEnum
 {
-	/** Платеж из кошелька ЮMoney */
-	public const string YOO_MONEY = 'yoo_money';
-	/** Платеж с произвольной банковской карты */
-	public const string BANK_CARD = 'bank_card';
-	/** Платеж СбербанкОнлайн */
-	public const string SBERBANK = 'sberbank';
-	/** Платеж наличными */
-	public const string CASH = 'cash';
-	/** Платеж с баланса мобильного телефона */
-	 public const string MOBILE_BALANCE = 'mobile_balance';
-	/** латеж ApplePay */
-	 public const string APPLE_PAY = 'apple_pay';
-	/** Платеж Google Pay */
-	 public const string GOOGLE_PAY = 'google_pay';
-	/** Платеж из кошелька Qiwi */
-	 public const string QIWI = 'qiwi';
-	/** Платеж из кошелька Webmoney */
-	 public const string WEBMONEY = 'webmoney';
-	/** Платеж через Альфа-Клик */
-	 public const string ALFABANK = 'alfabank';
-	/** Сбербанк Бизнес Онлайн */
-	 public const string B2B_SBERBANK = 'b2b_sberbank';
-	/** Интернет-банк Тинькофф */
-	 public const string TINKOFF_BANK = 'tinkoff_bank';
-	/** ПромсвязьБанк */
-	 public const string PSB = 'psb';
-	/** Заплатить по частям */
-	 public const string INSTALLMENTS = 'installments';
-	/**
-	 * Оплата через WeChat
-	 *
-	 * @deprecated Будет удален в следующих версиях
-	 */
-	 public const string WECHAT = 'wechat';
-	/** Оплата через сервис быстрых платежей */
-	 public const string SBP = 'sbp';
+    /** Платеж из кошелька ЮMoney */
+    const YOO_MONEY      = 'yoo_money';
+    /** Платеж с произвольной банковской карты */
+    const BANK_CARD      = 'bank_card';
+    /** Платеж СбербанкОнлайн */
+    const SBERBANK       = 'sberbank';
+    /** Платеж наличными */
+    const CASH           = 'cash';
+    /** Платеж с баланса мобильного телефона */
+    const MOBILE_BALANCE = 'mobile_balance';
+    /** латеж ApplePay */
+    const APPLE_PAY      = 'apple_pay';
+    /** Платеж Google Pay */
+    const GOOGLE_PAY     = 'google_pay';
+    /** Платеж из кошелька Qiwi */
+    const QIWI           = 'qiwi';
+    /** Платеж из кошелька Webmoney */
+    const WEBMONEY       = 'webmoney';
+    /** Платеж через Альфа-Клик */
+    const ALFABANK       = 'alfabank';
+    /** Сбербанк Бизнес Онлайн */
+    const B2B_SBERBANK   = 'b2b_sberbank';
+    /** Интернет-банк Тинькофф */
+    const TINKOFF_BANK   = 'tinkoff_bank';
+    /** ПромсвязьБанк */
+    const PSB            = 'psb';
+    /** Заплатить по частям */
+    const INSTALLMENTS   = 'installments';
+    /**
+     * Оплата через WeChat
+     * @deprecated Будет удален в следующих версиях
+     */
+    const WECHAT         = 'wechat';
+    /** Оплата через сервис быстрых платежей */
+    const SBP            = 'sbp';
 
-	protected static $validValues = array(
-		self::YOO_MONEY => true, self::BANK_CARD => true, self::SBERBANK => true,
-		self::CASH => true, self::MOBILE_BALANCE => false, self::APPLE_PAY => false,
-		self::GOOGLE_PAY => false, self::QIWI => true, self::WEBMONEY => true,
-		self::ALFABANK => true, self::TINKOFF_BANK => true, self::INSTALLMENTS => true,
-		self::B2B_SBERBANK => true, self::PSB => false, self::WECHAT => false, self::SBP => true,
-		);
+    protected static $validValues = array(
+        self::YOO_MONEY      => true,
+        self::BANK_CARD      => true,
+        self::SBERBANK       => true,
+        self::CASH           => true,
+        self::MOBILE_BALANCE => false,
+        self::APPLE_PAY      => false,
+        self::GOOGLE_PAY     => false,
+        self::QIWI           => true,
+        self::WEBMONEY       => true,
+        self::ALFABANK       => true,
+        self::TINKOFF_BANK   => true,
+        self::INSTALLMENTS   => true,
+        self::B2B_SBERBANK   => true,
+        self::PSB            => false,
+        self::WECHAT         => false,
+        self::SBP            => true,
+    );
 }

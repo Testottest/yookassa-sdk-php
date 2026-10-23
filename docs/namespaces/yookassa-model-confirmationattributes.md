@@ -1,21 +1,21 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \testottest\Model\ConfirmationAttributes
+# Namespace: \YooKassa\Model\ConfirmationAttributes
 
-## Parent: [\testottest\Model](../namespaces/yookassa-model.md)
+## Parent: [\YooKassa\Model](../namespaces/yookassa-model.md)
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes](../classes/YooKassa-Model-ConfirmationAttributes-AbstractConfirmationAttributes.md) | Способ подтверждения платежа |
-| [\testottest\Model\ConfirmationAttributes\ConfirmationAttributesCodeVerification](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesCodeVerification.md) | Сценарий при котором необходимо получить одноразовый код от плательщика для подтверждения платежа |
-| [\testottest\Model\ConfirmationAttributes\ConfirmationAttributesEmbedded](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesEmbedded.md) | Способ подтверждения платежа |
-| [\testottest\Model\ConfirmationAttributes\ConfirmationAttributesExternal](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesExternal.md) | Сценарий при котором необходимо ожидать пока пользователь самостоятельно подтвердит платеж. Например, пользователь подтверждает платеж ответом на SMS или в приложении партнера |
-| [\testottest\Model\ConfirmationAttributes\ConfirmationAttributesFactory](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesFactory.md) | Class ConfirmationAttributesFactory |
-| [\testottest\Model\ConfirmationAttributes\ConfirmationAttributesMobileApplication](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesMobileApplication.md) | Способ подтверждения платежа |
-| [\testottest\Model\ConfirmationAttributes\ConfirmationAttributesQr](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesQr.md) | Способ подтверждения платежа |
-| [\testottest\Model\ConfirmationAttributes\ConfirmationAttributesRedirect](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesRedirect.md) | Способ подтверждения платежа |
+| [\YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes](../classes/YooKassa-Model-ConfirmationAttributes-AbstractConfirmationAttributes.md) | Способ подтверждения платежа |
+| [\YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesCodeVerification](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesCodeVerification.md) | Сценарий при котором необходимо получить одноразовый код от плательщика для подтверждения платежа |
+| [\YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesEmbedded](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesEmbedded.md) | Способ подтверждения платежа |
+| [\YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesExternal](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesExternal.md) | Сценарий при котором необходимо ожидать пока пользователь самостоятельно подтвердит платеж. Например, пользователь подтверждает платеж ответом на SMS или в приложении партнера |
+| [\YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesFactory](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesFactory.md) | Class ConfirmationAttributesFactory |
+| [\YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesMobileApplication](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesMobileApplication.md) | Способ подтверждения платежа |
+| [\YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesQr](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesQr.md) | Способ подтверждения платежа |
+| [\YooKassa\Model\ConfirmationAttributes\ConfirmationAttributesRedirect](../classes/YooKassa-Model-ConfirmationAttributes-ConfirmationAttributesRedirect.md) | Способ подтверждения платежа |
 
 ---
 

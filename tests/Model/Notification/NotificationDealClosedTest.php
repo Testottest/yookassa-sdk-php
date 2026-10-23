@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\Notification;
+namespace Tests\YooKassa\Model\Notification;
 
 use testottest\Helpers\Random;
 use testottest\Model\CurrencyCode;
@@ -57,7 +57,7 @@ class NotificationDealClosedTest extends AbstractNotificationTest
      */
     public function validDataProvider()
     {
-        $result = [];
+        $result = array();
         $statuses = DealStatus::getValidValues();
         $types = DealType::getValidValues();
 

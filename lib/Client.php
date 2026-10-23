@@ -29,6 +29,7 @@ namespace testottest;
 use Exception;
 use InvalidArgumentException;
 use testottest\Client\BaseClient;
+use testottest\Common\Exceptions\ApiConnectionException;
 use testottest\Common\Exceptions\ApiException;
 use testottest\Common\Exceptions\AuthorizeException;
 use testottest\Common\Exceptions\BadApiRequestException;
@@ -60,8 +61,8 @@ use testottest\Request\Deals\DealsRequestSerializer;
 use testottest\Request\Deals\DealsResponse;
 use testottest\Request\Payments\CreatePaymentRequest;
 use testottest\Request\Payments\CreatePaymentRequestInterface;
-use testottest\Request\Payments\CreatePaymentRequestSerializer;
 use testottest\Request\Payments\CreatePaymentResponse;
+use testottest\Request\Payments\CreatePaymentRequestSerializer;
 use testottest\Request\Payments\Payment\CancelResponse;
 use testottest\Request\Payments\Payment\CreateCaptureRequest;
 use testottest\Request\Payments\Payment\CreateCaptureRequestInterface;
@@ -144,7 +145,7 @@ class Client extends BaseClient
         $path = self::PAYMENTS_PATH;
 
         if ($filter === null) {
-            $queryParams = [];
+            $queryParams = array();
         } else {
             if (is_array($filter)) {
                 $filter = PaymentsRequest::builder()->build($filter);
@@ -210,7 +211,7 @@ class Client extends BaseClient
     {
         $path = self::PAYMENTS_PATH;
 
-        $headers = [];
+        $headers = array();
 
         if ($idempotenceKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotenceKey;
@@ -327,7 +328,7 @@ class Client extends BaseClient
 
         $path = '/payments/'.$paymentId.'/capture';
 
-        $headers = [];
+        $headers = array();
 
         if ($idempotencyKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotencyKey;
@@ -392,7 +393,7 @@ class Client extends BaseClient
         }
 
         $path    = self::PAYMENTS_PATH.'/'.$paymentId.'/cancel';
-        $headers = [];
+        $headers = array();
         if ($idempotencyKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotencyKey;
         } else {
@@ -443,7 +444,7 @@ class Client extends BaseClient
         $path = self::REFUNDS_PATH;
 
         if ($filter === null) {
-            $queryParams = [];
+            $queryParams = array();
         } else {
             if (is_array($filter)) {
                 $filter = RefundsRequest::builder()->build($filter);
@@ -494,7 +495,7 @@ class Client extends BaseClient
     {
         $path = self::REFUNDS_PATH;
 
-        $headers = [];
+        $headers = array();
 
         if ($idempotencyKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotencyKey;
@@ -595,7 +596,7 @@ class Client extends BaseClient
     {
         $path = self::WEBHOOKS_PATH;
 
-        $headers = [];
+        $headers = array();
 
         if ($idempotencyKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotencyKey;
@@ -653,7 +654,7 @@ class Client extends BaseClient
      */
     public function removeWebhook($webhookId, $idempotencyKey = null)
     {
-        $headers = [];
+        $headers = array();
 
         if ($idempotencyKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotencyKey;
@@ -744,7 +745,7 @@ class Client extends BaseClient
         $path = self::RECEIPTS_PATH;
 
         if ($filter === null) {
-            $queryParams = [];
+            $queryParams = array();
         } else {
             if (is_array($filter)) {
                 $filter = ReceiptsRequest::builder()->build($filter);
@@ -795,7 +796,7 @@ class Client extends BaseClient
     {
         $path = self::RECEIPTS_PATH;
 
-        $headers = [];
+        $headers = array();
 
         if ($idempotenceKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotenceKey;
@@ -911,7 +912,7 @@ class Client extends BaseClient
     {
         $path = self::DEALS_PATH;
 
-        $headers = [];
+        $headers = array();
 
         if ($idempotenceKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotenceKey;
@@ -1017,7 +1018,7 @@ class Client extends BaseClient
         $path = self::DEALS_PATH;
 
         if ($filter === null) {
-            $queryParams = [];
+            $queryParams = array();
         } else {
             if (is_array($filter)) {
                 $filter = DealsRequest::builder()->build($filter);
@@ -1084,7 +1085,7 @@ class Client extends BaseClient
     {
         $path = self::PAYOUTS_PATH;
 
-        $headers = [];
+        $headers = array();
 
         if ($idempotenceKey) {
             $headers[self::IDEMPOTENCY_KEY_HEADER] = $idempotenceKey;
@@ -1188,7 +1189,7 @@ class Client extends BaseClient
     {
         $path = self::ME_PATH;
 
-        $queryParams = [];
+        $queryParams = array();
         if (is_array($filter)) {
             $queryParams = $filter;
         } elseif (is_string($filter) || is_int($filter)) {

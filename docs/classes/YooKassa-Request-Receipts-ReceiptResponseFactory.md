@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Request\Receipts\ReceiptResponseFactory
-### Namespace: [\testottest\Request\Receipts](../namespaces/yookassa-request-receipts.md)
+# Class: \YooKassa\Request\Receipts\ReceiptResponseFactory
+### Namespace: [\YooKassa\Request\Receipts](../namespaces/yookassa-request-receipts.md)
 ---
 **Summary:**
 
@@ -23,15 +23,15 @@
 * File: [lib/Request/Receipts/ReceiptResponseFactory.php](../../lib/Request/Receipts/ReceiptResponseFactory.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \testottest\Request\Receipts\ReceiptResponseFactory
+  * \YooKassa\Request\Receipts\ReceiptResponseFactory
 
 ---
 ## Methods
 <a name="method_factory" class="anchor"></a>
-#### public factory() : \testottest\Request\Receipts\AbstractReceiptResponse|\testottest\Request\Receipts\SimpleReceiptResponse|\testottest\Request\Receipts\PaymentReceiptResponse|\testottest\Request\Receipts\RefundReceiptResponse
+#### public factory() : \YooKassa\Request\Receipts\AbstractReceiptResponse|\YooKassa\Request\Receipts\SimpleReceiptResponse|\YooKassa\Request\Receipts\PaymentReceiptResponse|\YooKassa\Request\Receipts\RefundReceiptResponse
 
 ```php
-public factory(array $data) : \testottest\Request\Receipts\AbstractReceiptResponse|\testottest\Request\Receipts\SimpleReceiptResponse|\testottest\Request\Receipts\PaymentReceiptResponse|\testottest\Request\Receipts\RefundReceiptResponse
+public factory(array $data) : \YooKassa\Request\Receipts\AbstractReceiptResponse|\YooKassa\Request\Receipts\SimpleReceiptResponse|\YooKassa\Request\Receipts\PaymentReceiptResponse|\YooKassa\Request\Receipts\RefundReceiptResponse
 ```
 
 **Summary**
@@ -39,14 +39,14 @@ public factory(array $data) : \testottest\Request\Receipts\AbstractReceiptRespon
 Фабричный метод для работы с чеками
 
 **Details:**
-* Inherited From: [\testottest\Request\Receipts\ReceiptResponseFactory](../classes/YooKassa-Request-Receipts-ReceiptResponseFactory.md)
+* Inherited From: [\YooKassa\Request\Receipts\ReceiptResponseFactory](../classes/YooKassa-Request-Receipts-ReceiptResponseFactory.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">array</code> | data  | Массив с данными чека |
 
-**Returns:** \testottest\Request\Receipts\AbstractReceiptResponse|\testottest\Request\Receipts\SimpleReceiptResponse|\testottest\Request\Receipts\PaymentReceiptResponse|\testottest\Request\Receipts\RefundReceiptResponse - Объект чека определенного типа
+**Returns:** \YooKassa\Request\Receipts\AbstractReceiptResponse|\YooKassa\Request\Receipts\SimpleReceiptResponse|\YooKassa\Request\Receipts\PaymentReceiptResponse|\YooKassa\Request\Receipts\RefundReceiptResponse - Объект чека определенного типа
 
 
 

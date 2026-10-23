@@ -104,7 +104,7 @@ class PaymentDataB2bSberbank extends AbstractPaymentData
      */
     public function setVatData($value)
     {
-        if ($value === null || $value === []) {
+        if ($value === null || $value === array()) {
             $this->_vatData = null;
         } elseif ($value instanceof VatData) {
             $this->_vatData = $value;

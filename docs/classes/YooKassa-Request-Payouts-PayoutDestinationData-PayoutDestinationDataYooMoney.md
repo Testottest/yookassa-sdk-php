@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataYooMoney
-### Namespace: [\testottest\Request\Payouts\PayoutDestinationData](../namespaces/yookassa-request-payouts-payoutdestinationdata.md)
+# Class: \YooKassa\Request\Payouts\PayoutDestinationData\PayoutDestinationDataYooMoney
+### Namespace: [\YooKassa\Request\Payouts\PayoutDestinationData](../namespaces/yookassa-request-payouts-payoutdestinationdata.md)
 ---
 **Summary:**
 
@@ -52,10 +52,10 @@
 * File: [lib/Request/Payouts/PayoutDestinationData/PayoutDestinationDataYooMoney.php](../../lib/Request/Payouts/PayoutDestinationData/PayoutDestinationDataYooMoney.php)
 * Package: Default
 * Class Hierarchy:   
-  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * [\testottest\Model\Payout\AbstractPayoutDestination](../classes/YooKassa-Model-Payout-AbstractPayoutDestination.md)
-  * [\testottest\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData](../classes/YooKassa-Request-Payouts-PayoutDestinationData-AbstractPayoutDestinationData.md)
-  * \testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataYooMoney
+  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * [\YooKassa\Model\Payout\AbstractPayoutDestination](../classes/YooKassa-Model-Payout-AbstractPayoutDestination.md)
+  * [\YooKassa\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData](../classes/YooKassa-Request-Payouts-PayoutDestinationData-AbstractPayoutDestinationData.md)
+  * \YooKassa\Request\Payouts\PayoutDestinationData\PayoutDestinationDataYooMoney
 
 ---
 ## Properties
@@ -105,7 +105,7 @@
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData](../classes/YooKassa-Request-Payouts-PayoutDestinationData-AbstractPayoutDestinationData.md)
+* Inherited From: [\YooKassa\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData](../classes/YooKassa-Request-Payouts-PayoutDestinationData-AbstractPayoutDestinationData.md)
 
 
 <a name="property_type"></a>
@@ -118,7 +118,7 @@
 **Type:** <a href="../string"><abbr title="string">string</abbr></a>
 
 **Details:**
-* Inherited From: [\testottest\Model\Payout\AbstractPayoutDestination](../classes/YooKassa-Model-Payout-AbstractPayoutDestination.md)
+* Inherited From: [\YooKassa\Model\Payout\AbstractPayoutDestination](../classes/YooKassa-Model-Payout-AbstractPayoutDestination.md)
 
 
 
@@ -132,7 +132,7 @@ public __construct() : mixed
 ```
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataYooMoney](../classes/YooKassa-Request-Payouts-PayoutDestinationData-PayoutDestinationDataYooMoney.md)
+* Inherited From: [\YooKassa\Request\Payouts\PayoutDestinationData\PayoutDestinationDataYooMoney](../classes/YooKassa-Request-Payouts-PayoutDestinationData-PayoutDestinationDataYooMoney.md)
 
 **Returns:** mixed - 
 
@@ -149,7 +149,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -171,7 +171,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -193,7 +193,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -216,7 +216,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -238,7 +238,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -260,7 +260,7 @@ public getAccountNumber() : string
 Возвращает номер кошелька в ЮMoney, с которого была произведена оплата
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataYooMoney](../classes/YooKassa-Request-Payouts-PayoutDestinationData-PayoutDestinationDataYooMoney.md)
+* Inherited From: [\YooKassa\Request\Payouts\PayoutDestinationData\PayoutDestinationDataYooMoney](../classes/YooKassa-Request-Payouts-PayoutDestinationData-PayoutDestinationDataYooMoney.md)
 
 **Returns:** string - Номер кошелька в ЮMoney
 
@@ -277,7 +277,7 @@ public getType() : string
 Возвращает тип метода оплаты
 
 **Details:**
-* Inherited From: [\testottest\Model\Payout\AbstractPayoutDestination](../classes/YooKassa-Model-Payout-AbstractPayoutDestination.md)
+* Inherited From: [\YooKassa\Model\Payout\AbstractPayoutDestination](../classes/YooKassa-Model-Payout-AbstractPayoutDestination.md)
 
 **Returns:** string - Тип метода оплаты
 
@@ -294,7 +294,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -311,7 +311,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -333,7 +333,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -355,7 +355,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -378,7 +378,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -400,7 +400,7 @@ public setAccountNumber(string $value) : mixed
 Устанавливает номер кошелька в ЮMoney, с которого была произведена оплата
 
 **Details:**
-* Inherited From: [\testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataYooMoney](../classes/YooKassa-Request-Payouts-PayoutDestinationData-PayoutDestinationDataYooMoney.md)
+* Inherited From: [\YooKassa\Request\Payouts\PayoutDestinationData\PayoutDestinationDataYooMoney](../classes/YooKassa-Request-Payouts-PayoutDestinationData-PayoutDestinationDataYooMoney.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -423,7 +423,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -440,7 +440,7 @@ protected _setType(string $value) : mixed
 Устанавливает тип метода оплаты
 
 **Details:**
-* Inherited From: [\testottest\Model\Payout\AbstractPayoutDestination](../classes/YooKassa-Model-Payout-AbstractPayoutDestination.md)
+* Inherited From: [\YooKassa\Model\Payout\AbstractPayoutDestination](../classes/YooKassa-Model-Payout-AbstractPayoutDestination.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -462,7 +462,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

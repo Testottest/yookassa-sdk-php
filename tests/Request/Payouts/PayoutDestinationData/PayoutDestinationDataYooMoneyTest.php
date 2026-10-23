@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Payouts\PayoutDestinationData;
+namespace Tests\YooKassa\Request\Payouts\PayoutDestinationData;
 
 use testottest\Helpers\Random;
 use testottest\Model\PaymentMethodType;
@@ -37,7 +37,7 @@ class PayoutDestinationDataYooMoneyTest extends AbstractPayoutDestinationDataTes
         self::assertNull($instance->account_number);
 
         $instance->setAccountNumber($value);
-        if ($value === null || $value === '' || $value === []) {
+        if ($value === null || $value === '' || $value === array()) {
             self::assertNull($instance->getAccountNumber());
             self::assertNull($instance->accountNumber);
             self::assertNull($instance->account_number);
@@ -50,7 +50,7 @@ class PayoutDestinationDataYooMoneyTest extends AbstractPayoutDestinationDataTes
 
         $instance = $this->getTestInstance();
         $instance->account_number = $value;
-        if ($value === null || $value === '' || $value === []) {
+        if ($value === null || $value === '' || $value === array()) {
             self::assertNull($instance->getAccountNumber());
             self::assertNull($instance->accountNumber);
             self::assertNull($instance->account_number);

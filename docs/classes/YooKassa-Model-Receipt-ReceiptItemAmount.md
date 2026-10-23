@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Model\Receipt\ReceiptItemAmount
-### Namespace: [\testottest\Model\Receipt](../namespaces/yookassa-model-receipt.md)
+# Class: \YooKassa\Model\Receipt\ReceiptItemAmount
+### Namespace: [\YooKassa\Model\Receipt](../namespaces/yookassa-model-receipt.md)
 ---
 **Summary:**
 
@@ -49,10 +49,10 @@ Class ReceiptItemAmount
 * File: [lib/Model/Receipt/ReceiptItemAmount.php](../../lib/Model/Receipt/ReceiptItemAmount.php)
 * Package: YooKassa
 * Class Hierarchy: 
-  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * \testottest\Model\Receipt\ReceiptItemAmount
+  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * \YooKassa\Model\Receipt\ReceiptItemAmount
 * Implements:
-  * [\testottest\Model\AmountInterface](../classes/YooKassa-Model-AmountInterface.md)
+  * [\YooKassa\Model\AmountInterface](../classes/YooKassa-Model-AmountInterface.md)
 
 ---
 ## Properties
@@ -87,7 +87,7 @@ Class ReceiptItemAmount
 #### public __construct() : mixed
 
 ```php
-public __construct(array|\testottest\Model\Receipt\numeric|null $value = null, string|null $currency = null) : mixed
+public __construct(array|\YooKassa\Model\Receipt\numeric|null $value = null, string|null $currency = null) : mixed
 ```
 
 **Summary**
@@ -95,12 +95,12 @@ public __construct(array|\testottest\Model\Receipt\numeric|null $value = null, s
 MonetaryAmount constructor.
 
 **Details:**
-* Inherited From: [\testottest\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
+* Inherited From: [\YooKassa\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">array OR \testottest\Model\Receipt\numeric OR null</code> | value  | Сумма |
+| <code lang="php">array OR \YooKassa\Model\Receipt\numeric OR null</code> | value  | Сумма |
 | <code lang="php">string OR null</code> | currency  | Код валюты |
 
 **Returns:** mixed - 
@@ -118,7 +118,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -140,7 +140,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -162,7 +162,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -185,7 +185,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -207,7 +207,7 @@ public fromArray(array|\Traversable $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -229,7 +229,7 @@ public getCurrency() : string
 Возвращает валюту
 
 **Details:**
-* Inherited From: [\testottest\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
+* Inherited From: [\YooKassa\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
 
 **Returns:** string - Код валюты
 
@@ -246,7 +246,7 @@ public getIntegerValue() : int
 Возвращает сумму в копейках в виде целого числа
 
 **Details:**
-* Inherited From: [\testottest\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
+* Inherited From: [\YooKassa\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
 
 **Returns:** int - Сумма в копейках/центах
 
@@ -263,7 +263,7 @@ public getValue() : string
 Возвращает значение суммы
 
 **Details:**
-* Inherited From: [\testottest\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
+* Inherited From: [\YooKassa\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
 
 **Returns:** string - Сумма
 
@@ -280,7 +280,7 @@ public increase(int $value) : mixed
 Увеличивает сумму на указанное значение
 
 **Details:**
-* Inherited From: [\testottest\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
+* Inherited From: [\YooKassa\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -290,9 +290,9 @@ public increase(int $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если передано пустое значение |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если было передано не число |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если после сложения получилась сумма меньше или равная нулю |
+| \YooKassa\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если передано пустое значение |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если было передано не число |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если после сложения получилась сумма меньше или равная нулю |
 
 **Returns:** mixed - 
 
@@ -309,7 +309,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\testottest\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
+* Inherited From: [\YooKassa\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
 
 **Returns:** array - 
 
@@ -326,7 +326,7 @@ public multiply(float $coefficient) : mixed
 Умножает текущую сумму на указанный коэффициент
 
 **Details:**
-* Inherited From: [\testottest\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
+* Inherited From: [\YooKassa\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -336,9 +336,9 @@ public multiply(float $coefficient) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если передано пустое значение |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если было передано не число |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение меньше или равно нулю, либо если после умножения получили значение равное нулю |
+| \YooKassa\Common\Exceptions\EmptyPropertyValueException | Выбрасывается если передано пустое значение |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если было передано не число |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение меньше или равно нулю, либо если после умножения получили значение равное нулю |
 
 **Returns:** mixed - 
 
@@ -355,7 +355,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -377,7 +377,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -399,7 +399,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -422,7 +422,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -444,7 +444,7 @@ public setCurrency(string $value) : mixed
 Устанавливает код валюты
 
 **Details:**
-* Inherited From: [\testottest\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
+* Inherited From: [\YooKassa\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -454,9 +454,9 @@ public setCurrency(string $value) : mixed
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\EmptyPropertyValueException | Генерируется если было передано пустое значение |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если было передано значение невалидного типа |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если был передан неподдерживаемый код валюты |
+| \YooKassa\Common\Exceptions\EmptyPropertyValueException | Генерируется если было передано пустое значение |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Генерируется если было передано значение невалидного типа |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если был передан неподдерживаемый код валюты |
 
 **Returns:** mixed - 
 
@@ -473,7 +473,7 @@ public setValue(mixed $value) : mixed
 Устанавливает значение суммы
 
 **Details:**
-* Inherited From: [\testottest\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
+* Inherited From: [\YooKassa\Model\Receipt\ReceiptItemAmount](../classes/YooKassa-Model-Receipt-ReceiptItemAmount.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -500,7 +500,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -517,7 +517,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

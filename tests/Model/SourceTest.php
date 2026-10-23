@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model;
+namespace Tests\YooKassa\Model;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -86,7 +86,7 @@ class SourceTest extends TestCase
      */
     public function validDataProvider()
     {
-        $result = [];
+        $result = array();
         for ($i = 0; $i < 10; $i++) {
             $result[] = array(
                 'account_id' => (string)Random::int(11111111, 99999999),
@@ -199,7 +199,7 @@ class SourceTest extends TestCase
     }
 
     /**
-     * @return \testottest\Model\MonetaryAmount[][]
+     * @return \YooKassa\Model\MonetaryAmount[][]
      * @throws \Exception
      */
     public function validAmountDataProvider()

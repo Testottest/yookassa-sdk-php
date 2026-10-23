@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Refunds;
+namespace Tests\YooKassa\Request\Refunds;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -114,7 +114,7 @@ abstract class AbstractRefundResponseTest extends TestCase
             self::assertEmpty($instance->getSources());
         } else {
             foreach ($instance->getSources() as $sources) {
-                self::assertInstanceOf('\testottest\Model\Source', $sources);
+                self::assertInstanceOf('\YooKassa\Model\Source', $sources);
             }
         }
     }
@@ -137,7 +137,7 @@ abstract class AbstractRefundResponseTest extends TestCase
 
     public function validDataProvider()
     {
-        $result = [];
+        $result = array();
         for ($i = 0; $i < 10; $i++) {
             $payment = array(
                 'id' => Random::str(36),

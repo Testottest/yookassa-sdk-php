@@ -1,18 +1,18 @@
 # [YooKassa API SDK](../home.md)
 
-# Namespace: \testottest\Request\Payouts\PayoutDestinationData
+# Namespace: \YooKassa\Request\Payouts\PayoutDestinationData
 
-## Parent: [\testottest\Request\Payouts](../namespaces/yookassa-request-payouts.md)
+## Parent: [\YooKassa\Request\Payouts](../namespaces/yookassa-request-payouts.md)
 
 ### Classes
 
 | Name | Summary |
 | ---- | ------- |
-| [\testottest\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData](../classes/YooKassa-Request-Payouts-PayoutDestinationData-AbstractPayoutDestinationData.md) | Данные используемые для создания метода оплаты. |
-| [\testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCard](../classes/YooKassa-Request-Payouts-PayoutDestinationData-PayoutDestinationDataBankCard.md) | Класс PayoutDestinationDataBankCard Платежные данные для проведения оплаты при помощи банковской карты |
-| [\testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCardCard](../classes/YooKassa-Request-Payouts-PayoutDestinationData-PayoutDestinationDataBankCardCard.md) | Класс PayoutDestinationDataBankCardCard |
-| [\testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataFactory](../classes/YooKassa-Request-Payouts-PayoutDestinationData-PayoutDestinationDataFactory.md) | Класс PayoutDestinationDataFactory |
-| [\testottest\Request\Payouts\PayoutDestinationData\PayoutDestinationDataYooMoney](../classes/YooKassa-Request-Payouts-PayoutDestinationData-PayoutDestinationDataYooMoney.md) | Класс PayoutDestinationDataYooMoney |
+| [\YooKassa\Request\Payouts\PayoutDestinationData\AbstractPayoutDestinationData](../classes/YooKassa-Request-Payouts-PayoutDestinationData-AbstractPayoutDestinationData.md) | Данные используемые для создания метода оплаты. |
+| [\YooKassa\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCard](../classes/YooKassa-Request-Payouts-PayoutDestinationData-PayoutDestinationDataBankCard.md) | Класс PayoutDestinationDataBankCard Платежные данные для проведения оплаты при помощи банковской карты |
+| [\YooKassa\Request\Payouts\PayoutDestinationData\PayoutDestinationDataBankCardCard](../classes/YooKassa-Request-Payouts-PayoutDestinationData-PayoutDestinationDataBankCardCard.md) | Класс PayoutDestinationDataBankCardCard |
+| [\YooKassa\Request\Payouts\PayoutDestinationData\PayoutDestinationDataFactory](../classes/YooKassa-Request-Payouts-PayoutDestinationData-PayoutDestinationDataFactory.md) | Класс PayoutDestinationDataFactory |
+| [\YooKassa\Request\Payouts\PayoutDestinationData\PayoutDestinationDataYooMoney](../classes/YooKassa-Request-Payouts-PayoutDestinationData-PayoutDestinationDataYooMoney.md) | Класс PayoutDestinationDataYooMoney |
 
 ---
 

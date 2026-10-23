@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Payouts;
+namespace Tests\YooKassa\Request\Payouts;
 
 use testottest\Request\Payouts\PayoutResponse;
 

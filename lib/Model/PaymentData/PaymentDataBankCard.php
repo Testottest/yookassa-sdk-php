@@ -63,7 +63,7 @@ class PaymentDataBankCard extends AbstractPaymentData
      */
     public function setCard($value)
     {
-        if ($value === null || $value === '' || $value === []) {
+        if ($value === null || $value === '' || $value === array()) {
             $this->_card = null;
         } elseif (is_object($value) && $value instanceof PaymentDataBankCardCard) {
             $this->_card = $value;

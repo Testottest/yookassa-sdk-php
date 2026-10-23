@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Model\Airline
-### Namespace: [\testottest\Model](../namespaces/yookassa-model.md)
+# Class: \YooKassa\Model\Airline
+### Namespace: [\YooKassa\Model](../namespaces/yookassa-model.md)
 ---
 **Summary:**
 
@@ -57,10 +57,10 @@
 * File: [lib/Model/Airline.php](../../lib/Model/Airline.php)
 * Package: YooKassa
 * Class Hierarchy: 
-  * [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
-  * \testottest\Model\Airline
+  * [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+  * \YooKassa\Model\Airline
 * Implements:
-  * [\testottest\Model\AirlineInterface](../classes/YooKassa-Model-AirlineInterface.md)
+  * [\YooKassa\Model\AirlineInterface](../classes/YooKassa-Model-AirlineInterface.md)
 
 ---
 ## Properties
@@ -89,25 +89,25 @@
 
 
 <a name="property_legs"></a>
-#### public $legs : \testottest\Model\Leg[]
+#### public $legs : \YooKassa\Model\Leg[]
 ---
 ***Description***
 
 Список маршрутов
 
-**Type:** <a href="../\testottest\Model\Leg[]"><abbr title="\testottest\Model\Leg[]">Leg[]</abbr></a>
+**Type:** <a href="../\YooKassa\Model\Leg[]"><abbr title="\YooKassa\Model\Leg[]">Leg[]</abbr></a>
 
 **Details:**
 
 
 <a name="property_passengers"></a>
-#### public $passengers : \testottest\Model\PassengerInterface[]
+#### public $passengers : \YooKassa\Model\PassengerInterface[]
 ---
 ***Description***
 
 Список пассажиров
 
-**Type:** <a href="../\testottest\Model\PassengerInterface[]"><abbr title="\testottest\Model\PassengerInterface[]">PassengerInterface[]</abbr></a>
+**Type:** <a href="../\YooKassa\Model\PassengerInterface[]"><abbr title="\YooKassa\Model\PassengerInterface[]">PassengerInterface[]</abbr></a>
 
 **Details:**
 
@@ -143,7 +143,7 @@
 #### public __construct() : mixed
 
 ```php
-public __construct(array $data = []) : mixed
+public __construct(array $data = array()) : mixed
 ```
 
 **Summary**
@@ -151,7 +151,7 @@ public __construct(array $data = []) : mixed
 AbstractObject constructor.
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -173,7 +173,7 @@ public __get(string $propertyName) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -195,7 +195,7 @@ public __isset(string $propertyName) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -217,7 +217,7 @@ public __set(string $propertyName, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -240,7 +240,7 @@ public __unset(string $propertyName) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -254,7 +254,7 @@ public __unset(string $propertyName) : mixed
 #### public addLeg() : mixed
 
 ```php
-public addLeg(array|\testottest\Model\LegInterface $value) : mixed
+public addLeg(array|\YooKassa\Model\LegInterface $value) : mixed
 ```
 
 **Summary**
@@ -262,12 +262,12 @@ public addLeg(array|\testottest\Model\LegInterface $value) : mixed
 Добавляет объект-контейнер с данными о маршруте
 
 **Details:**
-* Inherited From: [\testottest\Model\Airline](../classes/YooKassa-Model-Airline.md)
+* Inherited From: [\YooKassa\Model\Airline](../classes/YooKassa-Model-Airline.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">array OR \testottest\Model\LegInterface</code> | value  | Объект-контейнер с данными о маршруте |
+| <code lang="php">array OR \YooKassa\Model\LegInterface</code> | value  | Объект-контейнер с данными о маршруте |
 
 **Returns:** mixed - 
 
@@ -276,7 +276,7 @@ public addLeg(array|\testottest\Model\LegInterface $value) : mixed
 #### public addPassenger() : mixed
 
 ```php
-public addPassenger(array|\testottest\Model\PassengerInterface $value) : mixed
+public addPassenger(array|\YooKassa\Model\PassengerInterface $value) : mixed
 ```
 
 **Summary**
@@ -284,12 +284,12 @@ public addPassenger(array|\testottest\Model\PassengerInterface $value) : mixed
 Добавляет объект-контейнер с данными пассажиров
 
 **Details:**
-* Inherited From: [\testottest\Model\Airline](../classes/YooKassa-Model-Airline.md)
+* Inherited From: [\YooKassa\Model\Airline](../classes/YooKassa-Model-Airline.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">array OR \testottest\Model\PassengerInterface</code> | value  | Объект-контейнер с данными пассажиров |
+| <code lang="php">array OR \YooKassa\Model\PassengerInterface</code> | value  | Объект-контейнер с данными пассажиров |
 
 **Returns:** mixed - 
 
@@ -306,7 +306,7 @@ public fromArray(mixed $sourceArray) : mixed
 Устанавливает значения свойств текущего объекта из массива
 
 **Details:**
-* Inherited From: [\testottest\Model\Airline](../classes/YooKassa-Model-Airline.md)
+* Inherited From: [\YooKassa\Model\Airline](../classes/YooKassa-Model-Airline.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -332,7 +332,7 @@ public getBookingReference() : string
 Номер бронирования. Обязателен на этапе создания платежа.
 
 **Details:**
-* Inherited From: [\testottest\Model\Airline](../classes/YooKassa-Model-Airline.md)
+* Inherited From: [\YooKassa\Model\Airline](../classes/YooKassa-Model-Airline.md)
 
 **Returns:** string - 
 
@@ -342,10 +342,10 @@ public getBookingReference() : string
 | inheritdoc |  |  |
 
 <a name="method_getLegs" class="anchor"></a>
-#### public getLegs() : \testottest\Model\LegInterface[]
+#### public getLegs() : \YooKassa\Model\LegInterface[]
 
 ```php
-public getLegs() : \testottest\Model\LegInterface[]
+public getLegs() : \YooKassa\Model\LegInterface[]
 ```
 
 **Summary**
@@ -353,9 +353,9 @@ public getLegs() : \testottest\Model\LegInterface[]
 Список объектов-контейнеров с данными о маршруте
 
 **Details:**
-* Inherited From: [\testottest\Model\Airline](../classes/YooKassa-Model-Airline.md)
+* Inherited From: [\YooKassa\Model\Airline](../classes/YooKassa-Model-Airline.md)
 
-**Returns:** \testottest\Model\LegInterface[] - 
+**Returns:** \YooKassa\Model\LegInterface[] - 
 
 ##### Tags
 | Tag | Version | Description |
@@ -363,10 +363,10 @@ public getLegs() : \testottest\Model\LegInterface[]
 | inheritdoc |  |  |
 
 <a name="method_getPassengers" class="anchor"></a>
-#### public getPassengers() : \testottest\Model\PassengerInterface[]
+#### public getPassengers() : \YooKassa\Model\PassengerInterface[]
 
 ```php
-public getPassengers() : \testottest\Model\PassengerInterface[]
+public getPassengers() : \YooKassa\Model\PassengerInterface[]
 ```
 
 **Summary**
@@ -374,9 +374,9 @@ public getPassengers() : \testottest\Model\PassengerInterface[]
 Список объектов-контейнеров с данными пассажиров
 
 **Details:**
-* Inherited From: [\testottest\Model\Airline](../classes/YooKassa-Model-Airline.md)
+* Inherited From: [\YooKassa\Model\Airline](../classes/YooKassa-Model-Airline.md)
 
-**Returns:** \testottest\Model\PassengerInterface[] - 
+**Returns:** \YooKassa\Model\PassengerInterface[] - 
 
 ##### Tags
 | Tag | Version | Description |
@@ -395,7 +395,7 @@ public getTicketNumber() : string
 Уникальный номер билета. Обязателен на этапе подтверждения платежа
 
 **Details:**
-* Inherited From: [\testottest\Model\Airline](../classes/YooKassa-Model-Airline.md)
+* Inherited From: [\YooKassa\Model\Airline](../classes/YooKassa-Model-Airline.md)
 
 **Returns:** string - 
 
@@ -416,7 +416,7 @@ public jsonSerialize() : array
 Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -433,7 +433,7 @@ public notEmpty() : bool
 Првоерка на наличие данных
 
 **Details:**
-* Inherited From: [\testottest\Model\Airline](../classes/YooKassa-Model-Airline.md)
+* Inherited From: [\YooKassa\Model\Airline](../classes/YooKassa-Model-Airline.md)
 
 **Returns:** bool - 
 
@@ -450,7 +450,7 @@ public offsetExists(string $offset) : bool
 Проверяет наличие свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -472,7 +472,7 @@ public offsetGet(string $offset) : mixed
 Возвращает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -494,7 +494,7 @@ public offsetSet(string $offset, mixed $value) : mixed
 Устанавливает значение свойства
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -517,7 +517,7 @@ public offsetUnset(string $offset) : mixed
 Удаляет свойство
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -539,7 +539,7 @@ public setBookingReference(string $value) : mixed
 Устанавливает номер бронирования. Обязателен на этапе создания платежа.
 
 **Details:**
-* Inherited From: [\testottest\Model\Airline](../classes/YooKassa-Model-Airline.md)
+* Inherited From: [\YooKassa\Model\Airline](../classes/YooKassa-Model-Airline.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -553,7 +553,7 @@ public setBookingReference(string $value) : mixed
 #### public setLegs() : mixed
 
 ```php
-public setLegs(array|\testottest\Model\LegInterface[] $value) : mixed
+public setLegs(array|\YooKassa\Model\LegInterface[] $value) : mixed
 ```
 
 **Summary**
@@ -561,12 +561,12 @@ public setLegs(array|\testottest\Model\LegInterface[] $value) : mixed
 Устанавливает список объектов-контейнеров с данными о маршруте
 
 **Details:**
-* Inherited From: [\testottest\Model\Airline](../classes/YooKassa-Model-Airline.md)
+* Inherited From: [\YooKassa\Model\Airline](../classes/YooKassa-Model-Airline.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">array OR \testottest\Model\LegInterface[]</code> | value  | Список объектов-контейнеров с данными о маршруте |
+| <code lang="php">array OR \YooKassa\Model\LegInterface[]</code> | value  | Список объектов-контейнеров с данными о маршруте |
 
 **Returns:** mixed - 
 
@@ -575,7 +575,7 @@ public setLegs(array|\testottest\Model\LegInterface[] $value) : mixed
 #### public setPassengers() : mixed
 
 ```php
-public setPassengers(array|\testottest\Model\PassengerInterface[] $value) : mixed
+public setPassengers(array|\YooKassa\Model\PassengerInterface[] $value) : mixed
 ```
 
 **Summary**
@@ -583,12 +583,12 @@ public setPassengers(array|\testottest\Model\PassengerInterface[] $value) : mixe
 Устанавливает список объектов-контейнеров с данными пассажиров
 
 **Details:**
-* Inherited From: [\testottest\Model\Airline](../classes/YooKassa-Model-Airline.md)
+* Inherited From: [\YooKassa\Model\Airline](../classes/YooKassa-Model-Airline.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">array OR \testottest\Model\PassengerInterface[]</code> | value  | Список объектов-контейнеров с данными пассажиров |
+| <code lang="php">array OR \YooKassa\Model\PassengerInterface[]</code> | value  | Список объектов-контейнеров с данными пассажиров |
 
 **Returns:** mixed - 
 
@@ -605,7 +605,7 @@ public setTicketNumber(string $value) : mixed
 Устанавливает уникальный номер билета. Обязателен на этапе подтверждения платежа
 
 **Details:**
-* Inherited From: [\testottest\Model\Airline](../classes/YooKassa-Model-Airline.md)
+* Inherited From: [\YooKassa\Model\Airline](../classes/YooKassa-Model-Airline.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -628,7 +628,7 @@ public toArray() : array
 Является алиасом метода AbstractObject::jsonSerialize()
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив со свойствами текущего объекта
 
@@ -645,7 +645,7 @@ protected getUnknownProperties() : array
 Возвращает массив свойств которые не существуют, но были заданы у объекта
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
+* Inherited From: [\YooKassa\Common\AbstractObject](../classes/YooKassa-Common-AbstractObject.md)
 
 **Returns:** array - Ассоциативный массив с не существующими у текущего объекта свойствами
 

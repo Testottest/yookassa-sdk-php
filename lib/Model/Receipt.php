@@ -50,17 +50,17 @@ class Receipt extends AbstractObject implements ReceiptInterface
     /**
      * @var ReceiptItem[] Список товаров в заказе
      */
-    private $_items = [];
+    private $_items = array();
 
     /**
      * @var Settlement[] Массив оплат, обеспечивающих выдачу товара
      */
-    private $_settlements = [];
+    private $_settlements = array();
 
     /**
      * @var ReceiptItem[] Список айтемов в заказе, являющихся доставкой
      */
-    private $_shippingItems = [];
+    private $_shippingItems = array();
 
     /**
      * @var int Код системы налогообложения. Число 1-6.
@@ -122,8 +122,8 @@ class Receipt extends AbstractObject implements ReceiptInterface
                 'Invalid items value type in receipt', 0, 'receipt.items', $value
             );
         }
-        $this->_items         = [];
-        $this->_shippingItems = [];
+        $this->_items         = array();
+        $this->_shippingItems = array();
         foreach ($value as $key => $val) {
             if (is_object($val) && $val instanceof ReceiptItemInterface) {
                 $this->addItem($val);
@@ -173,7 +173,7 @@ class Receipt extends AbstractObject implements ReceiptInterface
                 'Invalid settlements value type in receipt', 0, 'receipt.settlements', $value
             );
         }
-        $this->_settlements = [];
+        $this->_settlements = array();
         foreach ($value as $key => $val) {
             if (is_array($val)) {
                 $this->addSettlement(new Settlement($val));
@@ -302,7 +302,7 @@ class Receipt extends AbstractObject implements ReceiptInterface
 
         if ($realAmount !== $amount) {
             $coefficient = (float)$amount / (float)$realAmount;
-            $items       = [];
+            $items       = array();
             $realAmount  = 0;
             foreach ($this->_items as $item) {
                 if ($withShipping || !$item->isShipping()) {

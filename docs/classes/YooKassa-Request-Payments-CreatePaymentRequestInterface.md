@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: CreatePaymentRequestInterface
-### Namespace: [\testottest\Request\Payments](../namespaces/yookassa-request-payments.md)
+### Namespace: [\YooKassa\Request\Payments](../namespaces/yookassa-request-payments.md)
 ---
 **Summary:**
 
@@ -94,10 +94,10 @@ Interface CreatePaymentRequestInterface
 ---
 ## Methods
 <a name="method_getRecipient" class="anchor"></a>
-#### public getRecipient() : \testottest\Model\RecipientInterface|null
+#### public getRecipient() : \YooKassa\Model\RecipientInterface|null
 
 ```php
-public getRecipient() : \testottest\Model\RecipientInterface|null
+public getRecipient() : \YooKassa\Model\RecipientInterface|null
 ```
 
 **Summary**
@@ -105,9 +105,9 @@ public getRecipient() : \testottest\Model\RecipientInterface|null
 Возвращает объект получателя платежа
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
-**Returns:** \testottest\Model\RecipientInterface|null - Объект с информацией о получателе платежа или null, если получатель не задан
+**Returns:** \YooKassa\Model\RecipientInterface|null - Объект с информацией о получателе платежа или null, если получатель не задан
 
 
 <a name="method_hasRecipient" class="anchor"></a>
@@ -122,7 +122,7 @@ public hasRecipient() : bool
 Проверяет наличие получателя платежа в запросе
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** bool - True если получатель платежа задан, false если нет
 
@@ -131,7 +131,7 @@ public hasRecipient() : bool
 #### public setRecipient() : mixed
 
 ```php
-public setRecipient(\testottest\Model\RecipientInterface|null $value) : mixed
+public setRecipient(\YooKassa\Model\RecipientInterface|null $value) : mixed
 ```
 
 **Summary**
@@ -139,21 +139,21 @@ public setRecipient(\testottest\Model\RecipientInterface|null $value) : mixed
 Устанавливает объект с информацией о получателе платежа
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\RecipientInterface OR null</code> | value  | Инстанс объекта информации о получателе платежа или null |
+| <code lang="php">\YooKassa\Model\RecipientInterface OR null</code> | value  | Инстанс объекта информации о получателе платежа или null |
 
 **Returns:** mixed - 
 
 
 <a name="method_getAmount" class="anchor"></a>
-#### public getAmount() : \testottest\Model\AmountInterface
+#### public getAmount() : \YooKassa\Model\AmountInterface
 
 ```php
-public getAmount() : \testottest\Model\AmountInterface
+public getAmount() : \YooKassa\Model\AmountInterface
 ```
 
 **Summary**
@@ -161,9 +161,9 @@ public getAmount() : \testottest\Model\AmountInterface
 Возвращает сумму заказа
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
-**Returns:** \testottest\Model\AmountInterface - Сумма заказа
+**Returns:** \YooKassa\Model\AmountInterface - Сумма заказа
 
 
 <a name="method_getDescription" class="anchor"></a>
@@ -178,7 +178,7 @@ public getDescription() : string
 Возвращает описание транзакции
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** string - Описание транзакции
 
@@ -195,7 +195,7 @@ public hasDescription() : bool
 Проверяет наличие описания транзакции в создаваемом платеже
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** bool - True если описание транзакции установлено, false если нет
 
@@ -212,7 +212,7 @@ public setDescription(string $value) : mixed
 Устанавливает описание транзакции
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -223,10 +223,10 @@ public setDescription(string $value) : mixed
 
 
 <a name="method_getReceipt" class="anchor"></a>
-#### public getReceipt() : \testottest\Model\ReceiptInterface|null
+#### public getReceipt() : \YooKassa\Model\ReceiptInterface|null
 
 ```php
-public getReceipt() : \testottest\Model\ReceiptInterface|null
+public getReceipt() : \YooKassa\Model\ReceiptInterface|null
 ```
 
 **Summary**
@@ -234,9 +234,9 @@ public getReceipt() : \testottest\Model\ReceiptInterface|null
 Возвращает чек, если он есть
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
-**Returns:** \testottest\Model\ReceiptInterface|null - Данные фискального чека 54-ФЗ или null, если чека нет
+**Returns:** \YooKassa\Model\ReceiptInterface|null - Данные фискального чека 54-ФЗ или null, если чека нет
 
 
 <a name="method_hasReceipt" class="anchor"></a>
@@ -251,7 +251,7 @@ public hasReceipt() : bool
 Проверяет наличие чека в создаваемом платеже
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** bool - True если чек есть, false если нет
 
@@ -268,7 +268,7 @@ public getPaymentToken() : string
 Возвращает одноразовый токен для проведения оплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** string - Одноразовый токен для проведения оплаты, сформированный YooKassa JS widget
 
@@ -285,7 +285,7 @@ public hasPaymentToken() : bool
 Проверяет наличие одноразового токена для проведения оплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** bool - True если токен установлен, false если нет
 
@@ -302,7 +302,7 @@ public setPaymentToken(string $value) : mixed
 Устанавливает одноразовый токен для проведения оплаты, сформированный YooKassa JS widget
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -324,7 +324,7 @@ public getPaymentMethodId() : string
 Устанавливает идентификатор записи платёжных данных покупателя
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** string - Идентификатор записи о сохраненных платежных данных покупателя
 
@@ -341,7 +341,7 @@ public hasPaymentMethodId() : bool
 Проверяет наличие идентификатора записи о платёжных данных покупателя
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** bool - True если идентификатор задан, false если нет
 
@@ -358,7 +358,7 @@ public setPaymentMethodId(string $value) : mixed
 Устанавливает идентификатор записи о сохранённых данных покупателя
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -369,10 +369,10 @@ public setPaymentMethodId(string $value) : mixed
 
 
 <a name="method_getPaymentMethodData" class="anchor"></a>
-#### public getPaymentMethodData() : \testottest\Model\PaymentData\AbstractPaymentData
+#### public getPaymentMethodData() : \YooKassa\Model\PaymentData\AbstractPaymentData
 
 ```php
-public getPaymentMethodData() : \testottest\Model\PaymentData\AbstractPaymentData
+public getPaymentMethodData() : \YooKassa\Model\PaymentData\AbstractPaymentData
 ```
 
 **Summary**
@@ -380,9 +380,9 @@ public getPaymentMethodData() : \testottest\Model\PaymentData\AbstractPaymentDat
 Возвращает данные для создания метода оплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
-**Returns:** \testottest\Model\PaymentData\AbstractPaymentData - Данные используемые для создания метода оплаты
+**Returns:** \YooKassa\Model\PaymentData\AbstractPaymentData - Данные используемые для создания метода оплаты
 
 
 <a name="method_hasPaymentMethodData" class="anchor"></a>
@@ -397,7 +397,7 @@ public hasPaymentMethodData() : bool
 Проверяет установлен ли объект с методом оплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** bool - True если объект метода оплаты установлен, false если нет
 
@@ -406,7 +406,7 @@ public hasPaymentMethodData() : bool
 #### public setPaymentMethodData() : mixed
 
 ```php
-public setPaymentMethodData(\testottest\Model\PaymentData\AbstractPaymentData|null $value) : mixed
+public setPaymentMethodData(\YooKassa\Model\PaymentData\AbstractPaymentData|null $value) : mixed
 ```
 
 **Summary**
@@ -414,21 +414,21 @@ public setPaymentMethodData(\testottest\Model\PaymentData\AbstractPaymentData|nu
 Устанавливает объект с информацией для создания метода оплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\PaymentData\AbstractPaymentData OR null</code> | value  | Объект создания метода оплаты или null |
+| <code lang="php">\YooKassa\Model\PaymentData\AbstractPaymentData OR null</code> | value  | Объект создания метода оплаты или null |
 
 **Returns:** mixed - 
 
 
 <a name="method_getConfirmation" class="anchor"></a>
-#### public getConfirmation() : \testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes
+#### public getConfirmation() : \YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes
 
 ```php
-public getConfirmation() : \testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes
+public getConfirmation() : \YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes
 ```
 
 **Summary**
@@ -436,9 +436,9 @@ public getConfirmation() : \testottest\Model\ConfirmationAttributes\AbstractConf
 Возвращает способ подтверждения платежа
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
-**Returns:** \testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes - Способ подтверждения платежа
+**Returns:** \YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes - Способ подтверждения платежа
 
 
 <a name="method_hasConfirmation" class="anchor"></a>
@@ -453,7 +453,7 @@ public hasConfirmation() : bool
 Проверяет, был ли установлен способ подтверждения платежа
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** bool - True если способ подтверждения платежа был установлен, false если нет
 
@@ -462,7 +462,7 @@ public hasConfirmation() : bool
 #### public setConfirmation() : mixed
 
 ```php
-public setConfirmation(\testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes|null $value) : mixed
+public setConfirmation(\YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes|null $value) : mixed
 ```
 
 **Summary**
@@ -470,12 +470,12 @@ public setConfirmation(\testottest\Model\ConfirmationAttributes\AbstractConfirma
 Устанавливает способ подтверждения платежа
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\ConfirmationAttributes\AbstractConfirmationAttributes OR null</code> | value  | Способ подтверждения платежа |
+| <code lang="php">\YooKassa\Model\ConfirmationAttributes\AbstractConfirmationAttributes OR null</code> | value  | Способ подтверждения платежа |
 
 **Returns:** mixed - 
 
@@ -492,7 +492,7 @@ public getSavePaymentMethod() : bool
 Возвращает флаг сохранения платёжных данных
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** bool - Флаг сохранения платёжных данных
 
@@ -509,7 +509,7 @@ public hasSavePaymentMethod() : bool
 Проверяет, был ли установлен флаг сохранения платёжных данных
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** bool - True если флыг был установлен, false если нет
 
@@ -526,7 +526,7 @@ public setSavePaymentMethod(bool $value) : mixed
 Устанавливает флаг сохранения платёжных данных. Значение true инициирует создание многоразового payment_method.
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -548,7 +548,7 @@ public getCapture() : bool
 Возвращает флаг автоматического принятия поступившей оплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** bool - True если требуется автоматически принять поступившую оплату, false если нет
 
@@ -565,7 +565,7 @@ public hasCapture() : bool
 Проверяет, был ли установлен флаг автоматического приняти поступившей оплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** bool - True если флаг автоматического принятия оплаты был установлен, false если нет
 
@@ -582,7 +582,7 @@ public setCapture(bool $value) : mixed
 Устанавливает флаг автоматического принятия поступившей оплаты
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -604,7 +604,7 @@ public getClientIp() : string
 Возвращает IPv4 или IPv6-адрес покупателя
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** string - IPv4 или IPv6-адрес покупателя
 
@@ -621,7 +621,7 @@ public hasClientIp() : bool
 Проверяет, был ли установлен IPv4 или IPv6-адрес покупателя
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** bool - True если IP адрес покупателя был установлен, false если нет
 
@@ -638,7 +638,7 @@ public setClientIp(string $value) : mixed
 Устанавливает IP адрес покупателя
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -649,10 +649,10 @@ public setClientIp(string $value) : mixed
 
 
 <a name="method_getMetadata" class="anchor"></a>
-#### public getMetadata() : \testottest\Model\Metadata
+#### public getMetadata() : \YooKassa\Model\Metadata
 
 ```php
-public getMetadata() : \testottest\Model\Metadata
+public getMetadata() : \YooKassa\Model\Metadata
 ```
 
 **Summary**
@@ -660,9 +660,9 @@ public getMetadata() : \testottest\Model\Metadata
 Возвращает данные оплаты установленные мерчантом
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
-**Returns:** \testottest\Model\Metadata - Метаданные привязанные к платежу
+**Returns:** \YooKassa\Model\Metadata - Метаданные привязанные к платежу
 
 
 <a name="method_hasMetadata" class="anchor"></a>
@@ -677,7 +677,7 @@ public hasMetadata() : bool
 Проверяет, были ли установлены метаданные заказа
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** bool - True если метаданные были установлены, false если нет
 
@@ -686,7 +686,7 @@ public hasMetadata() : bool
 #### public setMetadata() : mixed
 
 ```php
-public setMetadata(\testottest\Model\Metadata|array|null $value) : mixed
+public setMetadata(\YooKassa\Model\Metadata|array|null $value) : mixed
 ```
 
 **Summary**
@@ -694,21 +694,21 @@ public setMetadata(\testottest\Model\Metadata|array|null $value) : mixed
 Устанавливает метаданные, привязанные к платежу
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\Metadata OR array OR null</code> | value  | Метаданные платежа, устанавливаемые мерчантом |
+| <code lang="php">\YooKassa\Model\Metadata OR array OR null</code> | value  | Метаданные платежа, устанавливаемые мерчантом |
 
 **Returns:** mixed - 
 
 
 <a name="method_getAirline" class="anchor"></a>
-#### public getAirline() : \testottest\Model\Airline
+#### public getAirline() : \YooKassa\Model\Airline
 
 ```php
-public getAirline() : \testottest\Model\Airline
+public getAirline() : \YooKassa\Model\Airline
 ```
 
 **Summary**
@@ -716,9 +716,9 @@ public getAirline() : \testottest\Model\Airline
 Возвращает данные длинной записи
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
-**Returns:** \testottest\Model\Airline - 
+**Returns:** \YooKassa\Model\Airline - 
 
 
 <a name="method_hasAirline" class="anchor"></a>
@@ -733,7 +733,7 @@ public hasAirline() : bool
 Проверяет, были ли установлены данные длинной записи
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** bool - 
 
@@ -742,7 +742,7 @@ public hasAirline() : bool
 #### public setAirline() : mixed
 
 ```php
-public setAirline(\testottest\Model\AirlineInterface $value) : mixed
+public setAirline(\YooKassa\Model\AirlineInterface $value) : mixed
 ```
 
 **Summary**
@@ -750,12 +750,12 @@ public setAirline(\testottest\Model\AirlineInterface $value) : mixed
 Устанавливает данные авиабилетов
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\AirlineInterface</code> | value  | Данные авиабилетов |
+| <code lang="php">\YooKassa\Model\AirlineInterface</code> | value  | Данные авиабилетов |
 
 **Returns:** mixed - 
 
@@ -772,16 +772,16 @@ public hasTransfers() : bool
 Проверяет наличие данных о распределении денег
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** bool - 
 
 
 <a name="method_getTransfers" class="anchor"></a>
-#### public getTransfers() : \testottest\Model\TransferInterface[]
+#### public getTransfers() : \YooKassa\Model\TransferInterface[]
 
 ```php
-public getTransfers() : \testottest\Model\TransferInterface[]
+public getTransfers() : \YooKassa\Model\TransferInterface[]
 ```
 
 **Summary**
@@ -794,9 +794,9 @@ public getTransfers() : \testottest\Model\TransferInterface[]
 (https://yookassa.ru/developers/special-solutions/checkout-for-platforms/basics)
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
-**Returns:** \testottest\Model\TransferInterface[] - Данные о распределении денег
+**Returns:** \YooKassa\Model\TransferInterface[] - Данные о распределении денег
 
 
 <a name="method_setTransfers" class="anchor"></a>
@@ -816,7 +816,7 @@ public setTransfers(mixed $value) : mixed
 (https://yookassa.ru/developers/special-solutions/checkout-for-platforms/basics)
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -827,10 +827,10 @@ public setTransfers(mixed $value) : mixed
 
 
 <a name="method_getDeal" class="anchor"></a>
-#### public getDeal() : \testottest\Model\Deal\PaymentDealInfo
+#### public getDeal() : \YooKassa\Model\Deal\PaymentDealInfo
 
 ```php
-public getDeal() : \testottest\Model\Deal\PaymentDealInfo
+public getDeal() : \YooKassa\Model\Deal\PaymentDealInfo
 ```
 
 **Summary**
@@ -838,9 +838,9 @@ public getDeal() : \testottest\Model\Deal\PaymentDealInfo
 Возвращает данные о сделке, в составе которой проходит платеж
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
-**Returns:** \testottest\Model\Deal\PaymentDealInfo - Данные о сделке, в составе которой проходит платеж.
+**Returns:** \YooKassa\Model\Deal\PaymentDealInfo - Данные о сделке, в составе которой проходит платеж.
 
 
 <a name="method_hasDeal" class="anchor"></a>
@@ -855,7 +855,7 @@ public hasDeal() : bool
 Проверяет, были ли установлены данные о сделке
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** bool - True если данные о сделке были установлены, false если нет
 
@@ -864,7 +864,7 @@ public hasDeal() : bool
 #### public setDeal() : mixed
 
 ```php
-public setDeal(\testottest\Model\Deal\PaymentDealInfo|array|null $value) : mixed
+public setDeal(\YooKassa\Model\Deal\PaymentDealInfo|array|null $value) : mixed
 ```
 
 **Summary**
@@ -872,12 +872,12 @@ public setDeal(\testottest\Model\Deal\PaymentDealInfo|array|null $value) : mixed
 Устанавливает данные о сделке, в составе которой проходит платеж.
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
-| <code lang="php">\testottest\Model\Deal\PaymentDealInfo OR array OR null</code> | value  | Данные о сделке, в составе которой проходит платеж |
+| <code lang="php">\YooKassa\Model\Deal\PaymentDealInfo OR array OR null</code> | value  | Данные о сделке, в составе которой проходит платеж |
 
 **Returns:** mixed - 
 
@@ -894,7 +894,7 @@ public getMerchantCustomerId() : string
 Возвращает идентификатор покупателя в вашей системе
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** string - Идентификатор покупателя в вашей системе
 
@@ -911,7 +911,7 @@ public hasMerchantCustomerId() : bool
 Проверяет, был ли установлен идентификатор покупателя в вашей системе
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 **Returns:** bool - True если идентификатор покупателя был установлен, false если нет
 
@@ -928,7 +928,7 @@ public setMerchantCustomerId(string $value) : mixed
 Устанавливает идентификатор покупателя в вашей системе
 
 **Details:**
-* Inherited From: [\testottest\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
+* Inherited From: [\YooKassa\Request\Payments\CreatePaymentRequestInterface](../classes/YooKassa-Request-Payments-CreatePaymentRequestInterface.md)
 
 ##### Parameters:
 | Type | Name | Description |

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Client;
+namespace Tests\YooKassa\Client;
 
 use DateTime;
 use Exception;
@@ -1029,7 +1029,7 @@ class ClientTest extends TestCase
             ->setMethods(array('setLogger', 'setConfig', 'call', 'setShopId', 'getUserAgent', 'setBearerToken', 'setShopPassword'))
             ->disableOriginalConstructor()
             ->getMock();
-        $expectedLoggers = [];
+        $expectedLoggers = array();
         $clientMock->expects(self::exactly(3))->method('setLogger')->willReturnCallback(function ($logger) use(&$expectedLoggers) {
             $expectedLoggers[] = $logger;
         });
@@ -1039,7 +1039,7 @@ class ClientTest extends TestCase
         self::assertSame($expectedLoggers[0], $logger);
 
         $apiClient->setLogger($wrapped);
-        $apiClient->setLogger(function ($level, $log, $context = []) use ($wrapped) {
+        $apiClient->setLogger(function ($level, $log, $context = array()) use ($wrapped) {
             $wrapped->log($level, $log, $context);
         });
     }

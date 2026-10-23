@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Client;
+namespace Tests\YooKassa\Client;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Client\CurlClient;
@@ -31,12 +31,12 @@ class CurlClientTest extends TestCase
 
     /**
      * @dataProvider curlErrorCodeProvider
-     * @expectedException \testottest\Common\Exceptions\ApiConnectionException
+     * @expectedException \YooKassa\Common\Exceptions\ApiConnectionException
      */
     public function testHandleCurlError($error, $errn)
     {
         $client    = new CurlClient();
-        $reflector = new \ReflectionClass('\testottest\Client\CurlClient');
+        $reflector = new \ReflectionClass('\YooKassa\Client\CurlClient');
         $method    = $reflector->getMethod('handleCurlError');
         $method->setAccessible(true);
         $method->invokeArgs($client, array($error, $errn));
@@ -52,8 +52,8 @@ class CurlClientTest extends TestCase
 
     public function testCloseConnection()
     {
-        $wrapped        = new \Tests\testottest\Client\ArrayLogger();
-        $logger         = new \testottest\Common\LoggerWrapper($wrapped);
+        $wrapped        = new \Tests\YooKassa\Client\ArrayLogger();
+        $logger         = new \YooKassa\Common\LoggerWrapper($wrapped);
         $curlClientMock = $this->getMockBuilder('YooKassa\Client\CurlClient')
                                ->setMethods(array('closeCurlConnection', 'sendRequest'))
                                ->getMock();

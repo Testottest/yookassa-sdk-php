@@ -41,7 +41,7 @@ class ConfirmationAttributesMobileApplication extends AbstractConfirmationAttrib
      */
     private $_returnUrl;
 
-    public function __construct($data = [])
+    public function __construct($data = array())
     {
         parent::__construct($data);
         $this->_setType(ConfirmationType::MOBILE_APPLICATION);

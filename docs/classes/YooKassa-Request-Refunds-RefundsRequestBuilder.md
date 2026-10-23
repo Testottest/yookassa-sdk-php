@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Request\Refunds\RefundsRequestBuilder
-### Namespace: [\testottest\Request\Refunds](../namespaces/yookassa-request-refunds.md)
+# Class: \YooKassa\Request\Refunds\RefundsRequestBuilder
+### Namespace: [\YooKassa\Request\Refunds](../namespaces/yookassa-request-refunds.md)
 ---
 **Summary:**
 
@@ -40,19 +40,19 @@
 * File: [lib/Request/Refunds/RefundsRequestBuilder.php](../../lib/Request/Refunds/RefundsRequestBuilder.php)
 * Package: YooKassa
 * Class Hierarchy: 
-  * [\testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
-  * \testottest\Request\Refunds\RefundsRequestBuilder
+  * [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+  * \YooKassa\Request\Refunds\RefundsRequestBuilder
 
 ---
 ## Properties
 <a name="property_currentObject"></a>
-#### protected $currentObject : \testottest\Request\Refunds\RefundsRequest
+#### protected $currentObject : \YooKassa\Request\Refunds\RefundsRequest
 ---
 **Summary**
 
 Инстанс собираемого запроса
 
-**Type:** <a href="../classes/YooKassa-Request-Refunds-RefundsRequest.html"><abbr title="\testottest\Request\Refunds\RefundsRequest">RefundsRequest</abbr></a>
+**Type:** <a href="../classes/YooKassa-Request-Refunds-RefundsRequest.html"><abbr title="\YooKassa\Request\Refunds\RefundsRequest">RefundsRequest</abbr></a>
 Инстанс собираемого объекта запроса
 **Details:**
 
@@ -72,16 +72,16 @@ public __construct() : mixed
 Конструктор, инициализирует пустой запрос, который в будущем начнём собирать
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
 **Returns:** mixed - 
 
 
 <a name="method_build" class="anchor"></a>
-#### public build() : \testottest\Request\Refunds\RefundsRequestInterface|\testottest\Common\AbstractRequest
+#### public build() : \YooKassa\Request\Refunds\RefundsRequestInterface|\YooKassa\Common\AbstractRequest
 
 ```php
-public build(array|null $options = null) : \testottest\Request\Refunds\RefundsRequestInterface|\testottest\Common\AbstractRequest
+public build(array|null $options = null) : \YooKassa\Request\Refunds\RefundsRequestInterface|\YooKassa\Common\AbstractRequest
 ```
 
 **Summary**
@@ -89,21 +89,21 @@ public build(array|null $options = null) : \testottest\Request\Refunds\RefundsRe
 Собирает и возвращает объект запроса списка возвратов магазина
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
 | ---- | ---- | ----------- |
 | <code lang="php">array OR null</code> | options  | Массив с настройками запроса |
 
-**Returns:** \testottest\Request\Refunds\RefundsRequestInterface|\testottest\Common\AbstractRequest - Инстанс объекта запроса к API для получения списка возвратов магазина
+**Returns:** \YooKassa\Request\Refunds\RefundsRequestInterface|\YooKassa\Common\AbstractRequest - Инстанс объекта запроса к API для получения списка возвратов магазина
 
 
 <a name="method_setCreatedAtGt" class="anchor"></a>
-#### public setCreatedAtGt() : \testottest\Request\Refunds\RefundsRequestBuilder
+#### public setCreatedAtGt() : \YooKassa\Request\Refunds\RefundsRequestBuilder
 
 ```php
-public setCreatedAtGt(\DateTime|string|int|null $value) : \testottest\Request\Refunds\RefundsRequestBuilder
+public setCreatedAtGt(\DateTime|string|int|null $value) : \YooKassa\Request\Refunds\RefundsRequestBuilder
 ```
 
 **Summary**
@@ -111,7 +111,7 @@ public setCreatedAtGt(\DateTime|string|int|null $value) : \testottest\Request\Re
 Устанавливает дату создания от которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -121,17 +121,17 @@ public setCreatedAtGt(\DateTime|string|int|null $value) : \testottest\Request\Re
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
-**Returns:** \testottest\Request\Refunds\RefundsRequestBuilder - Инстанс текущего объекта билдера
+**Returns:** \YooKassa\Request\Refunds\RefundsRequestBuilder - Инстанс текущего объекта билдера
 
 
 <a name="method_setCreatedAtGte" class="anchor"></a>
-#### public setCreatedAtGte() : \testottest\Request\Refunds\RefundsRequestBuilder
+#### public setCreatedAtGte() : \YooKassa\Request\Refunds\RefundsRequestBuilder
 
 ```php
-public setCreatedAtGte(\DateTime|string|int|null $value) : \testottest\Request\Refunds\RefundsRequestBuilder
+public setCreatedAtGte(\DateTime|string|int|null $value) : \YooKassa\Request\Refunds\RefundsRequestBuilder
 ```
 
 **Summary**
@@ -139,7 +139,7 @@ public setCreatedAtGte(\DateTime|string|int|null $value) : \testottest\Request\R
 Устанавливает дату создания от которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -149,17 +149,17 @@ public setCreatedAtGte(\DateTime|string|int|null $value) : \testottest\Request\R
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
-**Returns:** \testottest\Request\Refunds\RefundsRequestBuilder - Инстанс текущего объекта билдера
+**Returns:** \YooKassa\Request\Refunds\RefundsRequestBuilder - Инстанс текущего объекта билдера
 
 
 <a name="method_setCreatedAtLt" class="anchor"></a>
-#### public setCreatedAtLt() : \testottest\Request\Refunds\RefundsRequestBuilder
+#### public setCreatedAtLt() : \YooKassa\Request\Refunds\RefundsRequestBuilder
 
 ```php
-public setCreatedAtLt(\DateTime|string|int|null $value) : \testottest\Request\Refunds\RefundsRequestBuilder
+public setCreatedAtLt(\DateTime|string|int|null $value) : \YooKassa\Request\Refunds\RefundsRequestBuilder
 ```
 
 **Summary**
@@ -167,7 +167,7 @@ public setCreatedAtLt(\DateTime|string|int|null $value) : \testottest\Request\Re
 Устанавливает дату создания до которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -177,17 +177,17 @@ public setCreatedAtLt(\DateTime|string|int|null $value) : \testottest\Request\Re
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
-**Returns:** \testottest\Request\Refunds\RefundsRequestBuilder - Инстанс текущего объекта билдера
+**Returns:** \YooKassa\Request\Refunds\RefundsRequestBuilder - Инстанс текущего объекта билдера
 
 
 <a name="method_setCreatedAtLte" class="anchor"></a>
-#### public setCreatedAtLte() : \testottest\Request\Refunds\RefundsRequestBuilder
+#### public setCreatedAtLte() : \YooKassa\Request\Refunds\RefundsRequestBuilder
 
 ```php
-public setCreatedAtLte(\DateTime|string|int|null $value) : \testottest\Request\Refunds\RefundsRequestBuilder
+public setCreatedAtLte(\DateTime|string|int|null $value) : \YooKassa\Request\Refunds\RefundsRequestBuilder
 ```
 
 **Summary**
@@ -195,7 +195,7 @@ public setCreatedAtLte(\DateTime|string|int|null $value) : \testottest\Request\R
 Устанавливает дату создания до которой выбираются возвраты
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -205,17 +205,17 @@ public setCreatedAtLte(\DateTime|string|int|null $value) : \testottest\Request\R
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Генерируется если была передана дата в невалидном формате (была передана строка или число, которые не удалось преобразовать в валидную дату) |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException|\Exception | Генерируется если была передана дата с не тем типом (передана не строка, не число и не значение типа \DateTime) |
 
-**Returns:** \testottest\Request\Refunds\RefundsRequestBuilder - Инстанс текущего объекта билдера
+**Returns:** \YooKassa\Request\Refunds\RefundsRequestBuilder - Инстанс текущего объекта билдера
 
 
 <a name="method_setCursor" class="anchor"></a>
-#### public setCursor() : \testottest\Request\Refunds\RefundsRequestBuilder
+#### public setCursor() : \YooKassa\Request\Refunds\RefundsRequestBuilder
 
 ```php
-public setCursor(string $value) : \testottest\Request\Refunds\RefundsRequestBuilder
+public setCursor(string $value) : \YooKassa\Request\Refunds\RefundsRequestBuilder
 ```
 
 **Summary**
@@ -223,7 +223,7 @@ public setCursor(string $value) : \testottest\Request\Refunds\RefundsRequestBuil
 Устанавливает токен следующей страницы выборки
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -233,16 +233,16 @@ public setCursor(string $value) : \testottest\Request\Refunds\RefundsRequestBuil
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
 
-**Returns:** \testottest\Request\Refunds\RefundsRequestBuilder - Инстанс текущего объекта билдера
+**Returns:** \YooKassa\Request\Refunds\RefundsRequestBuilder - Инстанс текущего объекта билдера
 
 
 <a name="method_setLimit" class="anchor"></a>
-#### public setLimit() : \testottest\Request\Refunds\RefundsRequestBuilder
+#### public setLimit() : \YooKassa\Request\Refunds\RefundsRequestBuilder
 
 ```php
-public setLimit(string $value) : \testottest\Request\Refunds\RefundsRequestBuilder
+public setLimit(string $value) : \YooKassa\Request\Refunds\RefundsRequestBuilder
 ```
 
 **Summary**
@@ -250,7 +250,7 @@ public setLimit(string $value) : \testottest\Request\Refunds\RefundsRequestBuild
 Устанавливает ограничение количества объектов возвратов
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -260,16 +260,16 @@ public setLimit(string $value) : \testottest\Request\Refunds\RefundsRequestBuild
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод было передана не целое число |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод было передана не целое число |
 
-**Returns:** \testottest\Request\Refunds\RefundsRequestBuilder - Инстанс текущего билдера
+**Returns:** \YooKassa\Request\Refunds\RefundsRequestBuilder - Инстанс текущего билдера
 
 
 <a name="method_setOptions" class="anchor"></a>
-#### public setOptions() : \testottest\Common\AbstractRequestBuilder
+#### public setOptions() : \YooKassa\Common\AbstractRequestBuilder
 
 ```php
-public setOptions(array|\Traversable $options) : \testottest\Common\AbstractRequestBuilder
+public setOptions(array|\Traversable $options) : \YooKassa\Common\AbstractRequestBuilder
 ```
 
 **Summary**
@@ -277,7 +277,7 @@ public setOptions(array|\Traversable $options) : \testottest\Common\AbstractRequ
 Устанавливает свойства запроса из массива
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -288,16 +288,16 @@ public setOptions(array|\Traversable $options) : \testottest\Common\AbstractRequ
 | Type | Description |
 | ---- | ----------- |
 | \InvalidArgumentException | Выбрасывается если аргумент не массив и не итерируемый объект |
-| \testottest\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданныч в массиве настроек |
+| \YooKassa\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданныч в массиве настроек |
 
-**Returns:** \testottest\Common\AbstractRequestBuilder - Инстанс текущего билдера запросов
+**Returns:** \YooKassa\Common\AbstractRequestBuilder - Инстанс текущего билдера запросов
 
 
 <a name="method_setPaymentId" class="anchor"></a>
-#### public setPaymentId() : \testottest\Request\Refunds\RefundsRequestBuilder
+#### public setPaymentId() : \YooKassa\Request\Refunds\RefundsRequestBuilder
 
 ```php
-public setPaymentId(string|null $value) : \testottest\Request\Refunds\RefundsRequestBuilder
+public setPaymentId(string|null $value) : \YooKassa\Request\Refunds\RefundsRequestBuilder
 ```
 
 **Summary**
@@ -305,7 +305,7 @@ public setPaymentId(string|null $value) : \testottest\Request\Refunds\RefundsReq
 Устанавливает идентификатор платежа или null, если требуется его удалить
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -315,17 +315,17 @@ public setPaymentId(string|null $value) : \testottest\Request\Refunds\RefundsReq
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если длина переданной строки не равна 36 символам |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если длина переданной строки не равна 36 символам |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
 
-**Returns:** \testottest\Request\Refunds\RefundsRequestBuilder - Инстанс текущего объекта билдера
+**Returns:** \YooKassa\Request\Refunds\RefundsRequestBuilder - Инстанс текущего объекта билдера
 
 
 <a name="method_setStatus" class="anchor"></a>
-#### public setStatus() : \testottest\Request\Refunds\RefundsRequestBuilder
+#### public setStatus() : \YooKassa\Request\Refunds\RefundsRequestBuilder
 
 ```php
-public setStatus(string $value) : \testottest\Request\Refunds\RefundsRequestBuilder
+public setStatus(string $value) : \YooKassa\Request\Refunds\RefundsRequestBuilder
 ```
 
 **Summary**
@@ -333,7 +333,7 @@ public setStatus(string $value) : \testottest\Request\Refunds\RefundsRequestBuil
 Устанавливает статус выбираемых возвратов
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -343,17 +343,17 @@ public setStatus(string $value) : \testottest\Request\Refunds\RefundsRequestBuil
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение не является валидным статусом |
-| \testottest\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueException | Выбрасывается если переданное значение не является валидным статусом |
+| \YooKassa\Common\Exceptions\InvalidPropertyValueTypeException | Выбрасывается если в метод была передана не строка |
 
-**Returns:** \testottest\Request\Refunds\RefundsRequestBuilder - Инстанс текущего объекта билдера
+**Returns:** \YooKassa\Request\Refunds\RefundsRequestBuilder - Инстанс текущего объекта билдера
 
 
 <a name="method_initCurrentObject" class="anchor"></a>
-#### protected initCurrentObject() : \testottest\Request\Refunds\RefundsRequest
+#### protected initCurrentObject() : \YooKassa\Request\Refunds\RefundsRequest
 
 ```php
-protected initCurrentObject() : \testottest\Request\Refunds\RefundsRequest
+protected initCurrentObject() : \YooKassa\Request\Refunds\RefundsRequest
 ```
 
 **Summary**
@@ -361,9 +361,9 @@ protected initCurrentObject() : \testottest\Request\Refunds\RefundsRequest
 Инициализирует новый инстанс собираемого объекта
 
 **Details:**
-* Inherited From: [\testottest\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
+* Inherited From: [\YooKassa\Request\Refunds\RefundsRequestBuilder](../classes/YooKassa-Request-Refunds-RefundsRequestBuilder.md)
 
-**Returns:** \testottest\Request\Refunds\RefundsRequest - Инстанс собираемого запроса
+**Returns:** \YooKassa\Request\Refunds\RefundsRequest - Инстанс собираемого запроса
 
 
 

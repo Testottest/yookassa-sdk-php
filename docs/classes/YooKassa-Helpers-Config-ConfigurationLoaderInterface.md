@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
 # Interface: ConfigurationLoaderInterface
-### Namespace: [\testottest\Helpers\Config](../namespaces/yookassa-helpers-config.md)
+### Namespace: [\YooKassa\Helpers\Config](../namespaces/yookassa-helpers-config.md)
 ---
 ---
 ### Constants
@@ -29,7 +29,7 @@ public getConfig() : mixed
 ```
 
 **Details:**
-* Inherited From: [\testottest\Helpers\Config\ConfigurationLoaderInterface](../classes/YooKassa-Helpers-Config-ConfigurationLoaderInterface.md)
+* Inherited From: [\YooKassa\Helpers\Config\ConfigurationLoaderInterface](../classes/YooKassa-Helpers-Config-ConfigurationLoaderInterface.md)
 
 **Returns:** mixed - 
 
@@ -42,7 +42,7 @@ public load() : mixed
 ```
 
 **Details:**
-* Inherited From: [\testottest\Helpers\Config\ConfigurationLoaderInterface](../classes/YooKassa-Helpers-Config-ConfigurationLoaderInterface.md)
+* Inherited From: [\YooKassa\Helpers\Config\ConfigurationLoaderInterface](../classes/YooKassa-Helpers-Config-ConfigurationLoaderInterface.md)
 
 **Returns:** mixed - 
 

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Helpers\TypeCast
-### Namespace: [\testottest\Helpers](../namespaces/yookassa-helpers.md)
+# Class: \YooKassa\Helpers\TypeCast
+### Namespace: [\YooKassa\Helpers](../namespaces/yookassa-helpers.md)
 ---
 **Summary:**
 
@@ -27,7 +27,7 @@
 * File: [lib/Helpers/TypeCast.php](../../lib/Helpers/TypeCast.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \testottest\Helpers\TypeCast
+  * \YooKassa\Helpers\TypeCast
 
 ---
 ## Methods
@@ -43,7 +43,7 @@ Static public canCastToBoolean(mixed $value) : bool
 Проверяет можно ли преобразовать переданное значение в буллево значение
 
 **Details:**
-* Inherited From: [\testottest\Helpers\TypeCast](../classes/YooKassa-Helpers-TypeCast.md)
+* Inherited From: [\YooKassa\Helpers\TypeCast](../classes/YooKassa-Helpers-TypeCast.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -65,7 +65,7 @@ Static public canCastToDateTime(mixed $value) : bool
 Проверяет, можно ли преобразовать переданное значение в объект даты-времени
 
 **Details:**
-* Inherited From: [\testottest\Helpers\TypeCast](../classes/YooKassa-Helpers-TypeCast.md)
+* Inherited From: [\YooKassa\Helpers\TypeCast](../classes/YooKassa-Helpers-TypeCast.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -87,7 +87,7 @@ Static public canCastToEnumString(mixed $value) : bool
 Проверяет можно ли преобразовать переданное значение в строку из перечисления
 
 **Details:**
-* Inherited From: [\testottest\Helpers\TypeCast](../classes/YooKassa-Helpers-TypeCast.md)
+* Inherited From: [\YooKassa\Helpers\TypeCast](../classes/YooKassa-Helpers-TypeCast.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -109,7 +109,7 @@ Static public canCastToString(mixed $value) : bool
 Проверяет, может ли переданное значение быть преобразовано в строку
 
 **Details:**
-* Inherited From: [\testottest\Helpers\TypeCast](../classes/YooKassa-Helpers-TypeCast.md)
+* Inherited From: [\YooKassa\Helpers\TypeCast](../classes/YooKassa-Helpers-TypeCast.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -131,7 +131,7 @@ Static public castToDateTime(string|int|\DateTime $value) : \DateTime|null
 Преобразует переданне значение в объект типа \DateTime
 
 **Details:**
-* Inherited From: [\testottest\Helpers\TypeCast](../classes/YooKassa-Helpers-TypeCast.md)
+* Inherited From: [\YooKassa\Helpers\TypeCast](../classes/YooKassa-Helpers-TypeCast.md)
 
 ##### Parameters:
 | Type | Name | Description |

@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Class: \testottest\Common\LoggerWrapper
-### Namespace: [\testottest\Common](../namespaces/yookassa-common.md)
+# Class: \YooKassa\Common\LoggerWrapper
+### Namespace: [\YooKassa\Common](../namespaces/yookassa-common.md)
 ---
 
 ---
@@ -28,7 +28,7 @@
 * File: [lib/Common/LoggerWrapper.php](../../lib/Common/LoggerWrapper.php)
 * Package: Default
 * Class Hierarchy:
-  * \testottest\Common\LoggerWrapper
+  * \YooKassa\Common\LoggerWrapper
 * Implements:
   * [](\Psr\Log\LoggerInterface)
 
@@ -46,7 +46,7 @@ public __construct(object|callable $wrapped) : mixed
 LoggerWrapper constructor.
 
 **Details:**
-* Inherited From: [\testottest\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
+* Inherited From: [\YooKassa\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -60,7 +60,7 @@ LoggerWrapper constructor.
 #### public alert() : void
 
 ```php
-public alert(string $message, array $context = []) : void
+public alert(string $message, array $context = array()) : void
 ```
 
 **Summary**
@@ -73,7 +73,7 @@ Example: Entire website down, database unavailable, etc. This should
 trigger the SMS alerts and wake you up.
 
 **Details:**
-* Inherited From: [\testottest\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
+* Inherited From: [\YooKassa\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -88,7 +88,7 @@ trigger the SMS alerts and wake you up.
 #### public critical() : void
 
 ```php
-public critical(string $message, array $context = []) : void
+public critical(string $message, array $context = array()) : void
 ```
 
 **Summary**
@@ -100,7 +100,7 @@ Critical conditions.
 Example: Application component unavailable, unexpected exception.
 
 **Details:**
-* Inherited From: [\testottest\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
+* Inherited From: [\YooKassa\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -115,7 +115,7 @@ Example: Application component unavailable, unexpected exception.
 #### public debug() : void
 
 ```php
-public debug(string $message, array $context = []) : void
+public debug(string $message, array $context = array()) : void
 ```
 
 **Summary**
@@ -123,7 +123,7 @@ public debug(string $message, array $context = []) : void
 Detailed debug information.
 
 **Details:**
-* Inherited From: [\testottest\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
+* Inherited From: [\YooKassa\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -138,7 +138,7 @@ Detailed debug information.
 #### public emergency() : void
 
 ```php
-public emergency(string $message, array $context = []) : void
+public emergency(string $message, array $context = array()) : void
 ```
 
 **Summary**
@@ -146,7 +146,7 @@ public emergency(string $message, array $context = []) : void
 System is unusable.
 
 **Details:**
-* Inherited From: [\testottest\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
+* Inherited From: [\YooKassa\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -161,7 +161,7 @@ System is unusable.
 #### public error() : void
 
 ```php
-public error(string $message, array $context = []) : void
+public error(string $message, array $context = array()) : void
 ```
 
 **Summary**
@@ -170,7 +170,7 @@ Runtime errors that do not require immediate action but should typically
 be logged and monitored.
 
 **Details:**
-* Inherited From: [\testottest\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
+* Inherited From: [\YooKassa\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -185,7 +185,7 @@ be logged and monitored.
 #### public info() : void
 
 ```php
-public info(string $message, array $context = []) : void
+public info(string $message, array $context = array()) : void
 ```
 
 **Summary**
@@ -197,7 +197,7 @@ Interesting events.
 Example: User logs in, SQL logs.
 
 **Details:**
-* Inherited From: [\testottest\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
+* Inherited From: [\YooKassa\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -212,7 +212,7 @@ Example: User logs in, SQL logs.
 #### public log() : void
 
 ```php
-public log(mixed $level, string $message, array $context = []) : void
+public log(mixed $level, string $message, array $context = array()) : void
 ```
 
 **Summary**
@@ -220,7 +220,7 @@ public log(mixed $level, string $message, array $context = []) : void
 Logs with an arbitrary level.
 
 **Details:**
-* Inherited From: [\testottest\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
+* Inherited From: [\YooKassa\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -236,7 +236,7 @@ Logs with an arbitrary level.
 #### public notice() : void
 
 ```php
-public notice(string $message, array $context = []) : void
+public notice(string $message, array $context = array()) : void
 ```
 
 **Summary**
@@ -244,7 +244,7 @@ public notice(string $message, array $context = []) : void
 Normal but significant events.
 
 **Details:**
-* Inherited From: [\testottest\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
+* Inherited From: [\YooKassa\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -259,7 +259,7 @@ Normal but significant events.
 #### public warning() : void
 
 ```php
-public warning(string $message, array $context = []) : void
+public warning(string $message, array $context = array()) : void
 ```
 
 **Summary**
@@ -272,7 +272,7 @@ Example: Use of deprecated APIs, poor use of an API, undesirable things
 that are not necessarily wrong.
 
 **Details:**
-* Inherited From: [\testottest\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
+* Inherited From: [\YooKassa\Common\LoggerWrapper](../classes/YooKassa-Common-LoggerWrapper.md)
 
 ##### Parameters:
 | Type | Name | Description |

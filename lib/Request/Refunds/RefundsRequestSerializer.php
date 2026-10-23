@@ -54,7 +54,7 @@ class RefundsRequestSerializer
      */
     public function serialize(RefundsRequestInterface $request)
     {
-        $result = [];
+        $result = array();
         foreach (self::$propertyMap as $property => $name) {
             $value = $request->{$property};
             if (!empty($value)) {

@@ -36,7 +36,7 @@ abstract class AbstractEnum
     /**
      * @var array Массив принимаемых enum'ом значений
      */
-    protected static $validValues = [];
+    protected static $validValues = array();
 
     /**
      * Проверяет наличие значения в enum'e
@@ -63,7 +63,7 @@ abstract class AbstractEnum
      */
     public static function getEnabledValues()
     {
-        $result = [];
+        $result = array();
         foreach (static::$validValues as $key => $enabled) {
             if ($enabled) {
                 $result[] = $key;

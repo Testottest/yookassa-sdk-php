@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Refunds;
+namespace Tests\YooKassa\Request\Refunds;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -186,7 +186,7 @@ class CreateRefundRequestSerializerTest extends TestCase
 
     private function getReceipt($count)
     {
-        $result = [];
+        $result = array();
         for ($i = 0; $i < $count; $i++) {
             $result[] = array(
                 'title' => Random::str(10),

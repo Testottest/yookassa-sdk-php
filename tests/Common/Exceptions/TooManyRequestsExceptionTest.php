@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\testottest\Common\Exceptions;
+namespace Tests\YooKassa\Common\Exceptions;
 
 use testottest\Common\Exceptions\TooManyRequestsException;
 
 class TooManyRequestsExceptionTest extends AbstractApiRequestExceptionTest
 {
-    public function getTestInstance($message = '', $code = 0, $responseHeaders = [], $responseBody = null)
+    public function getTestInstance($message = '', $code = 0, $responseHeaders = array(), $responseBody = null)
     {
         return new TooManyRequestsException($responseHeaders, $responseBody);
     }

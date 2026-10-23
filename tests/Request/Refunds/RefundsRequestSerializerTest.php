@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Refunds;
+namespace Tests\YooKassa\Request\Refunds;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Model\RefundStatus;
@@ -29,7 +29,7 @@ class RefundsRequestSerializerTest extends TestCase
         $serializer = new RefundsRequestSerializer();
         $data = $serializer->serialize(RefundsRequest::builder()->build($options));
 
-        $expected = [];
+        $expected = array();
         foreach ($this->fieldMap as $field => $mapped) {
             if (isset($options[$field])) {
                 $value = $options[$field];

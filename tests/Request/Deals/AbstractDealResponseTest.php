@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Deals;
+namespace Tests\YooKassa\Request\Deals;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -144,7 +144,7 @@ abstract class AbstractDealResponseTest extends TestCase
 
     public function validDataProvider()
     {
-        $result = [];
+        $result = array();
         $statuses = DealStatus::getValidValues();
         $types = DealType::getValidValues();
 

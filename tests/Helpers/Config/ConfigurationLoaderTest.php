@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Helpers\Config;
+namespace Tests\YooKassa\Helpers\Config;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Config\ConfigurationLoader;

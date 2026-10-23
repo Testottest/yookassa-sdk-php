@@ -30,7 +30,7 @@ class RawHeadersParser
 {
     public static function parse($rawHeaders)
     {
-        $headers = [];
+        $headers = array();
         $key = '';
 
         foreach (explode("\n", $rawHeaders) as $headerRow) {

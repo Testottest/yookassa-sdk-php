@@ -1,7 +1,7 @@
 # [YooKassa API SDK](../home.md)
 
-# Abstract Class: \testottest\Common\AbstractRequestBuilder
-### Namespace: [\testottest\Common](../namespaces/yookassa-common.md)
+# Abstract Class: \YooKassa\Common\AbstractRequestBuilder
+### Namespace: [\YooKassa\Common](../namespaces/yookassa-common.md)
 ---
 **Summary:**
 
@@ -32,18 +32,18 @@
 * File: [lib/Common/AbstractRequestBuilder.php](../../lib/Common/AbstractRequestBuilder.php)
 * Package: YooKassa
 * Class Hierarchy:
-  * \testottest\Common\AbstractRequestBuilder
+  * \YooKassa\Common\AbstractRequestBuilder
 
 ---
 ## Properties
 <a name="property_currentObject"></a>
-#### protected $currentObject : \testottest\Common\AbstractRequest
+#### protected $currentObject : \YooKassa\Common\AbstractRequest
 ---
 **Summary**
 
 Инстанс собираемого запроса
 
-**Type:** <a href="../classes/YooKassa-Common-AbstractRequest.html"><abbr title="\testottest\Common\AbstractRequest">AbstractRequest</abbr></a>
+**Type:** <a href="../classes/YooKassa-Common-AbstractRequest.html"><abbr title="\YooKassa\Common\AbstractRequest">AbstractRequest</abbr></a>
 
 **Details:**
 
@@ -63,16 +63,16 @@ public __construct() : mixed
 Конструктор, инициализирует пустой запрос, который в будущем начнём собирать
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
 **Returns:** mixed - 
 
 
 <a name="method_build" class="anchor"></a>
-#### public build() : \testottest\Common\AbstractRequest
+#### public build() : \YooKassa\Common\AbstractRequest
 
 ```php
-public build(array $options = null) : \testottest\Common\AbstractRequest
+public build(array $options = null) : \YooKassa\Common\AbstractRequest
 ```
 
 **Summary**
@@ -80,7 +80,7 @@ public build(array $options = null) : \testottest\Common\AbstractRequest
 Строит запрос, валидирует его и возвращает, если все прошло нормально
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -90,17 +90,17 @@ public build(array $options = null) : \testottest\Common\AbstractRequest
 ##### Throws:
 | Type | Description |
 | ---- | ----------- |
-| \testottest\Common\Exceptions\InvalidRequestException | Выбрасывается если при валидации запроса произошла ошибка |
-| \testottest\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданных в массиве настроек |
+| \YooKassa\Common\Exceptions\InvalidRequestException | Выбрасывается если при валидации запроса произошла ошибка |
+| \YooKassa\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданных в массиве настроек |
 
-**Returns:** \testottest\Common\AbstractRequest - Инстанс собранного запроса
+**Returns:** \YooKassa\Common\AbstractRequest - Инстанс собранного запроса
 
 
 <a name="method_setOptions" class="anchor"></a>
-#### public setOptions() : \testottest\Common\AbstractRequestBuilder
+#### public setOptions() : \YooKassa\Common\AbstractRequestBuilder
 
 ```php
-public setOptions(array|\Traversable $options) : \testottest\Common\AbstractRequestBuilder
+public setOptions(array|\Traversable $options) : \YooKassa\Common\AbstractRequestBuilder
 ```
 
 **Summary**
@@ -108,7 +108,7 @@ public setOptions(array|\Traversable $options) : \testottest\Common\AbstractRequ
 Устанавливает свойства запроса из массива
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
 ##### Parameters:
 | Type | Name | Description |
@@ -119,16 +119,16 @@ public setOptions(array|\Traversable $options) : \testottest\Common\AbstractRequ
 | Type | Description |
 | ---- | ----------- |
 | \InvalidArgumentException | Выбрасывается если аргумент не массив и не итерируемый объект |
-| \testottest\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданныч в массиве настроек |
+| \YooKassa\Common\Exceptions\InvalidPropertyException | Выбрасывается если не удалось установить один из параметров, переданныч в массиве настроек |
 
-**Returns:** \testottest\Common\AbstractRequestBuilder - Инстанс текущего билдера запросов
+**Returns:** \YooKassa\Common\AbstractRequestBuilder - Инстанс текущего билдера запросов
 
 
 <a name="method_initCurrentObject" class="anchor"></a>
-#### protected initCurrentObject() : \testottest\Common\AbstractRequest
+#### protected initCurrentObject() : \YooKassa\Common\AbstractRequest
 
 ```php
-Abstract protected initCurrentObject() : \testottest\Common\AbstractRequest
+Abstract protected initCurrentObject() : \YooKassa\Common\AbstractRequest
 ```
 
 **Summary**
@@ -136,9 +136,9 @@ Abstract protected initCurrentObject() : \testottest\Common\AbstractRequest
 Инициализирует пустой запрос
 
 **Details:**
-* Inherited From: [\testottest\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
+* Inherited From: [\YooKassa\Common\AbstractRequestBuilder](../classes/YooKassa-Common-AbstractRequestBuilder.md)
 
-**Returns:** \testottest\Common\AbstractRequest - Инстанс запроса, который будем собирать
+**Returns:** \YooKassa\Common\AbstractRequest - Инстанс запроса, который будем собирать
 
 
 

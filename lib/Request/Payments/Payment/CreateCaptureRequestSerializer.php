@@ -46,7 +46,7 @@ class CreateCaptureRequestSerializer
      */
     public function serialize(CreateCaptureRequestInterface $request)
     {
-        $result = [];
+        $result = array();
         if ($request->hasAmount()) {
             $result['amount'] = $this->serializeAmount($request->getAmount());
         }
@@ -56,7 +56,7 @@ class CreateCaptureRequestSerializer
         if ($request->hasReceipt()) {
             $receipt = $request->getReceipt();
             if ($receipt->notEmpty()) {
-                $result['receipt'] = [];
+                $result['receipt'] = array();
                 /** @var ReceiptItem $item */
                 foreach ($receipt->getItems() as $item) {
                     $itemArray = array(
@@ -97,7 +97,7 @@ class CreateCaptureRequestSerializer
                 }
 
                 if ($customer = $receipt->getCustomer()) {
-                    $customerArray = [];
+                    $customerArray = array();
 
                     if ($value = $customer->getEmail()) {
                         $customerArray['email'] = $value;
@@ -142,7 +142,7 @@ class CreateCaptureRequestSerializer
      */
     private function serializeTransfers(array $transfers)
     {
-        $result = [];
+        $result = array();
         foreach ($transfers as $transfer) {
             $item = array(
                 'account_id' => $transfer->getAccountId(),

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Helpers;
+namespace Tests\YooKassa\Helpers;
 
 
 use PHPUnit\Framework\TestCase;

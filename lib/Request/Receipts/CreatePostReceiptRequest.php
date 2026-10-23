@@ -62,10 +62,10 @@ class CreatePostReceiptRequest extends AbstractRequest implements CreatePostRece
     private $_taxSystemCode;
 
     /** @var ReceiptItemInterface[] Список товаров в заказе */
-    private $_items = [];
+    private $_items = array();
 
     /** @var SettlementInterface[] Список платежей */
-    private $_settlements = [];
+    private $_settlements = array();
 
     /** @var string Идентификатор объекта оплаты */
     private $_object_id;
@@ -197,7 +197,7 @@ class CreatePostReceiptRequest extends AbstractRequest implements CreatePostRece
                 'Invalid items value type in receipt', 0, 'Receipt.items', $value
             );
         }
-        $this->_items = [];
+        $this->_items = array();
         foreach ($value as $key => $item) {
             if (is_array($item)) {
                 $this->addItem(new ReceiptItem($item));
@@ -345,7 +345,7 @@ class CreatePostReceiptRequest extends AbstractRequest implements CreatePostRece
                 'Invalid settlements value type in receipt', 0, 'Receipt.settlements', $value
             );
         }
-        $this->_settlements = [];
+        $this->_settlements = array();
         foreach ($value as $key => $val) {
             if (is_array($val) && !empty($val['type']) && !empty($val['amount'])) {
                 $this->addSettlement(new Settlement($val));

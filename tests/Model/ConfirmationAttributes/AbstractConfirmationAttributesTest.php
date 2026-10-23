@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\ConfirmationAttributes;
+namespace Tests\YooKassa\Model\ConfirmationAttributes;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;

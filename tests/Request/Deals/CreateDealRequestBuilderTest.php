@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Request\Deals;
+namespace Tests\YooKassa\Request\Deals;
 
 use Exception;
 use InvalidArgumentException;
@@ -21,7 +21,7 @@ class CreateDealRequestBuilderTest extends TestCase
      */
     protected function getRequiredData($testingProperty = null, $paymentType = null)
     {
-        $result = [];
+        $result = array();
 
         if ($testingProperty !== 'type') {
             $result['type'] = Random::value(DealType::getValidValues());

@@ -33,10 +33,8 @@ use testottest\Model\PaymentMethodType;
  */
 class PaymentDataInstallments extends AbstractPaymentData
 {
-    public function __construct($data = [])
+    public function __construct()
     {
-		parent::__construct($data);
-
         $this->_setType(PaymentMethodType::INSTALLMENTS);
     }
 }

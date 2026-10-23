@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\PaymentData;
+namespace Tests\YooKassa\Model\PaymentData;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -183,7 +183,7 @@ class PaymentDataBankCardCardTest extends TestCase
      */
     public function validNumberDataProvider()
     {
-        $result = [];
+        $result = array();
         for ($i = 0; $i < 3; $i++) {
             $result[] = array(Random::str(16, '0123456789'));
             $result[] = array(Random::str(17, '0123456789'));
@@ -198,7 +198,7 @@ class PaymentDataBankCardCardTest extends TestCase
      */
     public function validExpiryYearDataProvider()
     {
-        $result = [];
+        $result = array();
         for ($i = 0; $i < 10; $i++) {
             $result[] = array(Random::int(2000, 2200));
         }
@@ -228,7 +228,7 @@ class PaymentDataBankCardCardTest extends TestCase
 
     public function validCscDataProvider()
     {
-        $result = [];
+        $result = array();
         for ($i = 0; $i < 10; $i++) {
             $result[] = array(Random::str(3, 4, '0123456789'));
         }

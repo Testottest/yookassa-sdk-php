@@ -89,26 +89,24 @@ class AbstractRefundRequest extends AbstractRequest
      */
     public function setPaymentId($value)
     {
-		if ($value === null || $value === '') {
-			throw new EmptyPropertyValueException(
-				'Empty payment id value in CreateRefundRequest', 0, 'CreateRefundRequest.paymentId'
-			);
-		}
-
-		if (TypeCast::canCastToString($value)) {
-			$length = mb_strlen($value, 'utf-8');
-			if ($length != 36) {
-				throw new InvalidPropertyValueException(
-					'Invalid payment id value in CreateRefundRequest', 0, 'CreateRefundRequest.paymentId', $value
-				);
-			}
-			$this->_paymentId = (string)$value;
-		} else {
-			throw new InvalidPropertyValueTypeException(
-				'Invalid payment id value type in CreateRefundRequest', 0, 'CreateRefundRequest.paymentId', $value
-			);
-		}
-	}
+        if ($value === null || $value === '') {
+            throw new EmptyPropertyValueException(
+                'Empty payment id value in CreateRefundRequest', 0, 'CreateRefundRequest.paymentId'
+            );
+        } elseif (TypeCast::canCastToString($value)) {
+            $length = mb_strlen($value, 'utf-8');
+            if ($length != 36) {
+                throw new InvalidPropertyValueException(
+                    'Invalid payment id value in CreateRefundRequest', 0, 'CreateRefundRequest.paymentId', $value
+                );
+            }
+            $this->_paymentId = (string)$value;
+        } else {
+            throw new InvalidPropertyValueTypeException(
+                'Invalid payment id value type in CreateRefundRequest', 0, 'CreateRefundRequest.paymentId', $value
+            );
+        }
+    }
 
     /**
      * Возвращает сумму возврата

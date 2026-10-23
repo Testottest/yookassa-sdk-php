@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\testottest\Model\Payout;
+namespace Tests\YooKassa\Model\Payout;
 
 use PHPUnit\Framework\TestCase;
 use testottest\Helpers\Random;
@@ -88,7 +88,7 @@ class PayoutDestinationFactoryTest extends TestCase
 
     public function validTypeDataProvider()
     {
-        $result = [];
+        $result = array();
         foreach (PayoutDestinationType::getEnabledValues() as $value) {
             $result[] = array($value);
         }
