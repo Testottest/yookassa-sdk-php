@@ -218,7 +218,7 @@ abstract class AbstractObject implements \ArrayAccess, \JsonSerializable
      * Возвращает ассоциативный массив со свойствами текущего объекта для его дальнейшей JSON сериализации
      * @return array Ассоциативный массив со свойствами текущего объекта
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): mixed
     {
         $result = array();
         foreach (get_class_methods($this) as $method) {
