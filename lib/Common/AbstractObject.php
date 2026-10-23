@@ -66,75 +66,93 @@ abstract class AbstractObject implements \ArrayAccess, \JsonSerializable
      * @param string $offset Имя проверяемого свойства
      * @return bool True если свойство имеется, false если нет
      */
-    public function offsetExists($offset)
-    {
-        $method = 'get' . ucfirst($offset);
-        if (method_exists($this, $method)) {
-            return true;
-        }
-        $method = 'get' . self::matchPropertyName($offset);
-        if (method_exists($this, $method)) {
-            return true;
-        }
-        return array_key_exists($offset, $this->unknownProperties);
-    }
+	public function offsetExists(mixed $offset): bool
+	{
+		$offset = (string)$offset;
 
-    /**
-     * Возвращает значение свойства
-     * @param string $offset Имя свойства
-     * @return mixed Значение свойства
-     */
-    public function offsetGet($offset)
-    {
-        $method = 'get' . ucfirst($offset);
-        if (method_exists($this, $method)) {
-            return $this->{$method} ();
-        }
-        $method = 'get' . self::matchPropertyName($offset);
-        if (method_exists($this, $method)) {
-            return $this->{$method} ();
-        }
-        return array_key_exists($offset, $this->unknownProperties) ? $this->unknownProperties[$offset] : null;
-    }
+		$method = 'get' . ucfirst($offset);
+		if (method_exists($this, $method)) {
+			return true;
+		}
 
-    /**
-     * Устанавливает значение свойства
-     * @param string $offset Имя свойства
-     * @param mixed $value Значение свойства
-     */
-    public function offsetSet($offset, $value)
-    {
-        $method = 'set' . ucfirst($offset);
-        if (method_exists($this, $method)) {
-            $this->{$method}($value);
-        } else {
-            $method = 'set' . self::matchPropertyName($offset);
-            if (method_exists($this, $method)) {
-                $this->{$method}($value);
-            } else {
-                $this->unknownProperties[$offset] = $value;
-            }
-        }
-    }
+		$method = 'get' . self::matchPropertyName($offset);
+		if (method_exists($this, $method)) {
+			return true;
+		}
 
-    /**
-     * Удаляет свойство
-     * @param string $offset Имя удаляемого свойства
-     */
-    public function offsetUnset($offset)
-    {
-        $method = 'set' . ucfirst($offset);
-        if (method_exists($this, $method)) {
-            $this->{$method} (null);
-        } else {
-            $method = 'set' . self::matchPropertyName($offset);
-            if (method_exists($this, $method)) {
-                $this->{$method} (null);
-            } else {
-                unset($this->unknownProperties[$offset]);
-            }
-        }
-    }
+		return array_key_exists($offset, $this->unknownProperties);
+	}
+
+	/**
+	 * Возвращает значение свойства
+	 * @param string $offset Имя свойства
+	 * @return mixed Значение свойства
+	 */
+	public function offsetGet(mixed $offset): mixed
+	{
+		$offset = (string)$offset;
+
+		$method = 'get' . ucfirst($offset);
+		if (method_exists($this, $method)) {
+			return $this->{$method}();
+		}
+
+		$method = 'get' . self::matchPropertyName($offset);
+		if (method_exists($this, $method)) {
+			return $this->{$method}();
+		}
+
+		return array_key_exists($offset, $this->unknownProperties)
+			? $this->unknownProperties[$offset]
+			: null;
+	}
+
+	/**
+	 * Устанавливает значение свойства
+	 * @param string $offset Имя свойства
+	 * @param mixed $value Значение свойства
+	 */
+	public function offsetSet(mixed $offset, mixed $value): void
+	{
+		$offset = (string)$offset;
+
+		$method = 'set' . ucfirst($offset);
+		if (method_exists($this, $method)) {
+			$this->{$method}($value);
+			return;
+		}
+
+		$method = 'set' . self::matchPropertyName($offset);
+		if (method_exists($this, $method)) {
+			$this->{$method}($value);
+			return;
+		}
+
+		$this->unknownProperties[$offset] = $value;
+	}
+
+	/**
+	 * Удаляет свойство
+	 * @param string $offset Имя удаляемого свойства
+	 */
+	public function offsetUnset(mixed $offset): void
+	{
+		$offset = (string)$offset;
+
+		$method = 'set' . ucfirst($offset);
+		if (method_exists($this, $method)) {
+			$this->{$method}(null);
+			return;
+		}
+
+		$method = 'set' . self::matchPropertyName($offset);
+		if (method_exists($this, $method)) {
+			$this->{$method}(null);
+			return;
+		}
+
+		unset($this->unknownProperties[$offset]);
+	}
 
     /**
      * Возвращает значение свойства
