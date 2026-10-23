@@ -25,12 +25,12 @@
   },
   "autoload": {
     "psr-4": {
-      "YooKassa\\": "lib/"
+      "testottest\\": "lib/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Tests\\YooKassa\\": "tests/"
+      "Tests\\testottest\\": "tests/"
     }
   }
 }

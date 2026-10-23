@@ -41,10 +41,10 @@ use testottest\Common\AbstractEnum;
  */
 class TransferStatus extends AbstractEnum
 {
-    const PENDING = 'pending';
-    const WAITING_FOR_CAPTURE = 'waiting_for_capture';
-    const SUCCEEDED = 'succeeded';
-    const CANCELED = 'canceled';
+    public const string PENDING = 'pending';
+    public const string WAITING_FOR_CAPTURE = 'waiting_for_capture';
+    public const string SUCCEEDED = 'succeeded';
+    public const string CANCELED = 'canceled';
 
     protected static $validValues = array(
         self::PENDING => true,
