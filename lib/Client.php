@@ -226,7 +226,7 @@ class Client extends BaseClient
         $serializedData = $serializer->serialize($payment);
         $httpBody       = $this->encodeData($serializedData);
 
-        $response = $this->execute($path, HttpVerb::POST, null, $httpBody, $headers);
+        $response = $this->execute($path, HttpVerb::POST, [], $httpBody, $headers);
 
         $paymentResponse = null;
         if ($response->getCode() == 200) {
@@ -273,7 +273,7 @@ class Client extends BaseClient
 
         $path = self::PAYMENTS_PATH.'/'.$paymentId;
 
-        $response = $this->execute($path, HttpVerb::GET, null);
+        $response = $this->execute($path, HttpVerb::GET, []);
 
         $result = null;
         if ($response->getCode() == 200) {
@@ -343,7 +343,7 @@ class Client extends BaseClient
         $serializedData = $serializer->serialize($captureRequest);
         $httpBody       = $this->encodeData($serializedData);
 
-        $response = $this->execute($path, HttpVerb::POST, null, $httpBody, $headers);
+        $response = $this->execute($path, HttpVerb::POST, [], $httpBody, $headers);
 
         $result = null;
         if ($response->getCode() == 200) {
@@ -400,7 +400,7 @@ class Client extends BaseClient
             $headers[self::IDEMPOTENCY_KEY_HEADER] = UUID::v4();
         }
 
-        $response = $this->execute($path, HttpVerb::POST, null, null, $headers);
+        $response = $this->execute($path, HttpVerb::POST, [], null, $headers);
 
         $result = null;
         if ($response->getCode() == 200) {
@@ -510,7 +510,7 @@ class Client extends BaseClient
         $serializedData = $serializer->serialize($request);
         $httpBody       = $this->encodeData($serializedData);
 
-        $response = $this->execute($path, HttpVerb::POST, null, $httpBody, $headers);
+        $response = $this->execute($path, HttpVerb::POST, [], $httpBody, $headers);
 
         $result = null;
         if ($response->getCode() == 200) {
@@ -548,16 +548,21 @@ class Client extends BaseClient
      */
     public function getRefundInfo($refundId)
     {
-        if ($refundId === null) {
-            throw new \InvalidArgumentException('Missing the required parameter $refundId');
-        } elseif (!TypeCast::canCastToString($refundId)) {
-            throw new \InvalidArgumentException('Invalid refundId value: string required');
-        } elseif (strlen($refundId) !== 36) {
-            throw new \InvalidArgumentException('Invalid refundId value');
-        }
-        $path = self::REFUNDS_PATH.'/'.$refundId;
+		if ($refundId === null) {
+			throw new \InvalidArgumentException('Missing the required parameter $refundId');
+		}
 
-        $response = $this->execute($path, HttpVerb::GET, null);
+		if (!TypeCast::canCastToString($refundId)) {
+			throw new \InvalidArgumentException('Invalid refundId value: string required');
+		}
+
+		if (strlen($refundId) !== 36) {
+			throw new \InvalidArgumentException('Invalid refundId value');
+		}
+
+		$path = self::REFUNDS_PATH.'/'.$refundId;
+
+        $response = $this->execute($path, HttpVerb::GET, []);
 
         $result = null;
         if ($response->getCode() == 200) {
@@ -615,7 +620,7 @@ class Client extends BaseClient
 
         $httpBody = $this->encodeData($webhook->jsonSerialize());
 
-        $response = $this->execute($path, HttpVerb::POST, null, $httpBody, $headers);
+        $response = $this->execute($path, HttpVerb::POST, [], $httpBody, $headers);
 
         $result = null;
         if ($response->getCode() == 200) {
@@ -663,7 +668,7 @@ class Client extends BaseClient
         }
         $path    = self::WEBHOOKS_PATH.'/'.$webhookId;
 
-        $response = $this->execute($path, HttpVerb::DELETE, null, null, $headers);
+        $response = $this->execute($path, HttpVerb::DELETE, [], null, $headers);
 
         $result = null;
         if ($response->getCode() == 200) {
@@ -700,7 +705,7 @@ class Client extends BaseClient
     {
         $path = self::WEBHOOKS_PATH;
 
-        $response = $this->execute($path, HttpVerb::GET, null);
+        $response = $this->execute($path, HttpVerb::GET, []);
 
         $result = null;
         if ($response->getCode() == 200) {
@@ -812,7 +817,7 @@ class Client extends BaseClient
         $serializedData = $serializer->serialize($receipt);
         $httpBody       = $this->encodeData($serializedData);
 
-        $response = $this->execute($path, HttpVerb::POST, null, $httpBody, $headers);
+        $response = $this->execute($path, HttpVerb::POST, [], $httpBody, $headers);
 
         $receiptResponse = null;
         if ($response->getCode() == 200) {
@@ -860,7 +865,7 @@ class Client extends BaseClient
 
         $path = self::RECEIPTS_PATH.'/'.$receiptId;
 
-        $response = $this->execute($path, HttpVerb::GET, null);
+        $response = $this->execute($path, HttpVerb::GET, []);
 
         $result = null;
         if ($response->getCode() == 200) {
@@ -927,7 +932,7 @@ class Client extends BaseClient
         $serializedData = $serializer->serialize($deal);
         $httpBody       = $this->encodeData($serializedData);
 
-        $response = $this->execute($path, HttpVerb::POST, null, $httpBody, $headers);
+        $response = $this->execute($path, HttpVerb::POST, [], $httpBody, $headers);
 
         $dealResponse = null;
         if ($response->getCode() == 200) {
@@ -974,7 +979,7 @@ class Client extends BaseClient
 
         $path = self::DEALS_PATH.'/'.$dealId;
 
-        $response = $this->execute($path, HttpVerb::GET, null);
+        $response = $this->execute($path, HttpVerb::GET, []);
 
         $result = null;
         if ($response->getCode() == 200) {
@@ -1100,7 +1105,7 @@ class Client extends BaseClient
         $serializedData = $serializer->serialize($payout);
         $httpBody       = $this->encodeData($serializedData);
 
-        $response = $this->execute($path, HttpVerb::POST, null, $httpBody, $headers);
+        $response = $this->execute($path, HttpVerb::POST, [], $httpBody, $headers);
 
         $payoutResponse = null;
         if ($response->getCode() == 200) {
@@ -1150,7 +1155,7 @@ class Client extends BaseClient
 
         $path = self::PAYOUTS_PATH.'/'.$payoutId;
 
-        $response = $this->execute($path, HttpVerb::GET, null);
+        $response = $this->execute($path, HttpVerb::GET, []);
 
         $result = null;
         if ($response->getCode() == 200) {

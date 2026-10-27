@@ -199,7 +199,7 @@ class CreatePaymentRequestBuilder extends AbstractPaymentRequestBuilder
      *
      * @throws InvalidPropertyValueTypeException Выбрасывается если был передан объект невалидного типа
      */
-    public function setPaymentMethodData($value, array $options = null)
+    public function setPaymentMethodData($value, ?array $options = null)
     {
         if (is_string($value) && $value !== '') {
             if (empty($options)) {
@@ -223,7 +223,7 @@ class CreatePaymentRequestBuilder extends AbstractPaymentRequestBuilder
      * @throws InvalidPropertyValueTypeException Выбрасывается если переданное значение не является объектом типа
      * AbstractConfirmationAttributes или null
      */
-    public function setConfirmation($value, array $options = null)
+    public function setConfirmation($value, ?array $options = null)
     {
         if (is_string($value) && $value !== '') {
             if (empty($options)) {
@@ -337,7 +337,7 @@ class CreatePaymentRequestBuilder extends AbstractPaymentRequestBuilder
      *
      * @throws InvalidRequestException Выбрасывается если собрать объект запроса не удалось
      */
-    public function build(array $options = null)
+    public function build(?array $options = null)
     {
         if (!empty($options)) {
             $this->setOptions($options);

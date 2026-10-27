@@ -120,7 +120,7 @@ class CreateRefundRequestBuilder extends AbstractPaymentRequestBuilder
      * @param array|null $options Устанавливаемые параметры запроса
      * @return CreateRefundRequestInterface|AbstractRequest Инстанс сгенерированного объекта запроса к API
      */
-    public function build(array $options = null)
+    public function build(?array $options = null)
     {
         if (!empty($options)) {
             $this->setOptions($options);

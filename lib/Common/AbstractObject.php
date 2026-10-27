@@ -248,20 +248,27 @@ abstract class AbstractObject implements \ArrayAccess, \JsonSerializable
 
     private function serializeValueToJson($value)
     {
-        if ($value === null || is_scalar($value)) {
-            return $value;
-        } elseif (is_array($value)) {
-            $array = array();
-            foreach ($value as $key => $item) {
-                $array[$key] = $this->serializeValueToJson($item);
-            }
-            return $array;
-        } elseif (is_object($value) && $value instanceof \JsonSerializable) {
-            return $value->jsonSerialize();
-        } elseif (is_object($value) && $value instanceof \DateTime) {
-            return $value->format(YOOKASSA_DATE);
-        }
-        return $value;
+		if ($value === null || is_scalar($value)) {
+			return $value;
+		}
+
+		if (is_array($value)) {
+			$array = array();
+			foreach ($value as $key => $item) {
+				$array[$key] = $this->serializeValueToJson($item);
+			}
+			return $array;
+		}
+
+		if (is_object($value) && $value instanceof \JsonSerializable) {
+			return $value->jsonSerialize();
+		}
+
+		if (is_object($value) && $value instanceof \DateTime) {
+			return $value->format(YOOKASSA_DATE);
+		}
+
+		return $value;
     }
 
     /**
